@@ -1,26 +1,21 @@
-name: Netzwerk zum amtlichen Sitzungsdienst prüfen
+name: Amtlichen IPv4-Verbindungsaufbau länger prüfen
 on:
   push:
-    branches:
-      - pruefung/sitzungsplan-20261107
+    branches: [pruefung/sitzungsplan-20261107]
 permissions:
   contents: read
 jobs:
-  netzwerk:
+  ipv4:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Reguläre Diagnosewerkzeuge bereitstellen
-        run: sudo apt-get update && sudo apt-get install -y curl dnsutils iproute2 poppler-utils
-      - name: Unveränderte Aktualisierer-Tests
-        run: python3 -m unittest maintenance/test_sitzungsplan.py
-      - name: DNS, Routen, IPv4, IPv6 und amtliche Downloadwege prüfen
-        run: python3 -u netzwerkpruefung/diagnose.py
-      - name: Diagnose sichern
+      - name: IPv4 einmal mit 60 Sekunden Verbindungslimit prüfen
+        run: python3 -u netzwerkpruefung/ipv4-langtest.py
+      - name: Ergebnis sichern
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: sitzungsdienst-netzwerkdiagnose
+          name: sitzungsdienst-ipv4-langtest
           path: netzwerkergebnis/
           retention-days: 7
