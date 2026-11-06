@@ -1,0 +1,80 @@
+[
+  {
+    "number": "22-0998",
+    "year": 2027,
+    "dataset": "bezirk-bergedorf-drucksache-22-0998",
+    "context": "https://sitzungsdienst-bergedorf.hamburg.de/bi/vo020.asp?VOLFDNR=1010019",
+    "alternatives": [
+      {
+        "url": "https://sitzungsdienst-bergedorf.hamburg.de/bi/___tmp/tmp/45-181-136/xE40TDm9SE5Vua3edE0QfHbf3z9GjqDOj1O0hwRg/qvJKTRdcM/61-Anlagen/02/KalenderEntwurf2027_Stand29102026_Verschiebung.pdf",
+        "method": "GET",
+        "label": "Kalender Entwurf 2027_Stand 29.10.2026_Verschiebung KA (149 KB)",
+        "provenance": "Amtliche Anlage aus dem vorherigen erfolgreichen Originalabruf; temporäre URL kann ablaufen."
+      },
+      {
+        "url": "https://sitzungsdienst-bergedorf.hamburg.de/bi/___tmp/tmp/45-181-136/xE40TDm9SE5Vua3edE0QfHbf3z9GjqDOj1O0hwRg/qvJKTRdcM/61-Anlagen/01/KalenderEntwurf2027_Stand23092026.pdf",
+        "method": "GET",
+        "label": "Kalender Entwurf 2027_Stand 23.09.2026 (151 KB)",
+        "provenance": "Amtliche Anlage aus dem vorherigen erfolgreichen Originalabruf; temporäre URL kann ablaufen."
+      }
+    ]
+  },
+  {
+    "number": "22-0521.03",
+    "year": 2026,
+    "dataset": "bezirk-bergedorf-drucksache-22-0521-03",
+    "context": "https://sitzungsdienst-bergedorf.hamburg.de/bi/vo020.asp?VOLFDNR=1010030",
+    "alternatives": [
+      {
+        "url": "https://sitzungsdienst-bergedorf.hamburg.de/bi/do027.asp",
+        "method": "POST",
+        "body": "DOLFDNR=1298810&options=64",
+        "label": "Amtlicher PDF-Druckzugang",
+        "provenance": "https://sitzungsdienst-bergedorf.hamburg.de/bi/vo020.asp?VOLFDNR=1010030 – zuvor tatsächlich gelesenes öffentliches Druckformular"
+      }
+    ]
+  },
+  {
+    "number": "22-0521.02",
+    "year": 2026,
+    "dataset": "bezirk-bergedorf-drucksache-22-0521-02",
+    "context": "https://sitzungsdienst-bergedorf.hamburg.de/bi/vo020.asp?VOLFDNR=1010007",
+    "alternatives": [
+      {
+        "url": "https://sitzungsdienst-bergedorf.hamburg.de/bi/do027.asp",
+        "method": "POST",
+        "body": "DOLFDNR=1297847&options=64",
+        "label": "Amtlicher PDF-Druckzugang",
+        "provenance": "https://sitzungsdienst-bergedorf.hamburg.de/bi/vo020.asp?VOLFDNR=1010007 – zuvor tatsächlich gelesenes öffentliches Druckformular"
+      }
+    ]
+  },
+  {
+    "number": "22-0521.01",
+    "year": 2026,
+    "dataset": "bezirk-bergedorf-drucksache-22-0521-01",
+    "context": "https://sitzungsdienst-bergedorf.hamburg.de/bi/vo020.asp?VOLFDNR=1009254",
+    "alternatives": [
+      {
+        "url": "https://sitzungsdienst-bergedorf.hamburg.de/bi/___tmp/tmp/45-181-136/DGTGMdIKpQTIhoe3oVhlJRrZGh0ffbEXe5iUtQmM/VZbKsxYML/67-Anlagen/01/Kalender2026_Stand24112025.pdf",
+        "method": "GET",
+        "label": "Kalender 2026_Stand 24.11.2025 (106 KB)",
+        "provenance": "Amtliche Anlage aus dem vorherigen erfolgreichen Originalabruf; temporäre URL kann ablaufen."
+      }
+    ]
+  },
+  {
+    "number": "22-0521",
+    "year": 2026,
+    "dataset": "bezirk-bergedorf-drucksache-22-0521",
+    "context": "https://sitzungsdienst-bergedorf.hamburg.de/bi/vo020.asp?VOLFDNR=1009087",
+    "alternatives": [
+      {
+        "url": "https://sitzungsdienst-bergedorf.hamburg.de/bi/___tmp/tmp/45-181-136/E1vm7OwXnoZPAwkOs4hgtkwU4Yf5FOH0LnIbrYKo/mvRkfmhhN/92-Anlagen/01/Kalender2026_Stand14112025.pdf",
+        "method": "GET",
+        "label": "Kalender 2026_Stand 14.11.2025 (106 KB)",
+        "provenance": "Amtliche Anlage aus dem vorherigen erfolgreichen Originalabruf; temporäre URL kann ablaufen."
+      }
+    ]
+  }
+]

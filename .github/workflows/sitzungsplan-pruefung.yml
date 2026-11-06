@@ -1,4 +1,4 @@
-name: Sitzungsplan prüfen ohne Veröffentlichung
+name: Netzwerk zum amtlichen Sitzungsdienst prüfen
 on:
   push:
     branches:
@@ -6,26 +6,21 @@ on:
 permissions:
   contents: read
 jobs:
-  pruefen:
+  netzwerk:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
-      - name: PDF-Prüfung bereitstellen
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
-      - name: Unveränderte Abruflogik testen
+      - name: Reguläre Diagnosewerkzeuge bereitstellen
+        run: sudo apt-get update && sudo apt-get install -y curl dnsutils iproute2 poppler-utils
+      - name: Unveränderte Aktualisierer-Tests
         run: python3 -m unittest maintenance/test_sitzungsplan.py
-      - name: Reguläre amtliche Quellen vollständig abrufen
-        id: quelle
-        continue-on-error: true
-        run: python3 maintenance/update-sitzungsplan.py --output pruefergebnis
-      - name: Prüfergebnis sichern
+      - name: DNS, Routen, IPv4, IPv6 und amtliche Downloadwege prüfen
+        run: python3 -u netzwerkpruefung/diagnose.py
+      - name: Diagnose sichern
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: amtlicher-sitzungsplan-pruefergebnis
-          path: pruefergebnis/
+          name: sitzungsdienst-netzwerkdiagnose
+          path: netzwerkergebnis/
           retention-days: 7
-      - name: Abruffehler als Fehlschlag ausweisen
-        if: steps.quelle.outcome == 'failure'
-        run: exit 1
