@@ -1,0 +1,31 @@
+name: Sitzungsplan prüfen ohne Veröffentlichung
+on:
+  push:
+    branches:
+      - pruefung/sitzungsplan-20261107
+permissions:
+  contents: read
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: PDF-Prüfung bereitstellen
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Unveränderte Abruflogik testen
+        run: python3 -m unittest maintenance/test_sitzungsplan.py
+      - name: Reguläre amtliche Quellen vollständig abrufen
+        id: quelle
+        continue-on-error: true
+        run: python3 maintenance/update-sitzungsplan.py --output pruefergebnis
+      - name: Prüfergebnis sichern
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amtlicher-sitzungsplan-pruefergebnis
+          path: pruefergebnis/
+          retention-days: 7
+      - name: Abruffehler als Fehlschlag ausweisen
+        if: steps.quelle.outcome == 'failure'
+        run: exit 1
