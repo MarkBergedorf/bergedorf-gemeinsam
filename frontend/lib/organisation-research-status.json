@@ -1,0 +1,85 @@
+{
+  "summary": "Recherchebestand wird laufend ergänzt; Vollständigkeit bleibt ungeprüft. Die aktuellen Einrichtungszahlen und fehlenden Kartenpunkte werden aus dem gemeinsamen sichtbaren Bestand berechnet. Stand 22.10.2026: Kirchwerder-Nord am Neubau Kirchwerder Hausdeich 127 lokalisiert; früherer Punkt am Norderquerweg 1 nicht verwendet. Ein redaktioneller Eintrag wurde auf Betreiberwunsch aus dem Leserbestand entfernt. Einrichtungen, Standorte und Unterangebote bleiben getrennt zugeordnet.",
+  "gaps": [
+    "Behörden und soziale Anlaufstellen: weitere Fachamts-/ASD-Außenstellen, öffentliche Schulen, Bundes- und Landesdienststellen sowie Angebote je Stadtteil noch nicht lückenlos abgeglichen. Wohngeld ist dem SDZ zugeordnet, kein zusätzliches Organisationsprofil.",
+    "Pflege: aktuelle Wohn-Pflege-Aufsicht/Pflegekompass auf Veränderungen seit dem amtlichen Datenstand abgleichen. Krankenhäuser: private Kliniken außerhalb des amtlichen Plans gesondert prüfen.",
+    "Besuchs-, Sprechzeiten und Barrierefreiheit fehlen dort, wo kein eindeutiger aktueller Beleg übernommen wurde. Keine Öffnungszeiten aus Dienstbereitschaft ableiten.",
+    "Kartenkacheln, Popup-Bedienung, Mobilansicht und Browsernavigation praktisch ungeprüft: vorgesehener Browserzugang nicht verfügbar.",
+    "Kein automatischer Aktualisierungs- oder Löschzeitlauf. Verbesserungsprüfungen und fällige Bereinigungen erfolgen manuell in der Administration.",
+    "Repräsentative Auswahl, keine Vollständigkeit aller Religionsgemeinschaften oder aller 14 Stadtteile.",
+    "Gemeindeangebote und Besuchszeiten nur soweit einzeln belegt. Keine Gleichsetzung von Gemeinde-Webseiten mit bestätigten Selbstdarstellungen.",
+    "Ortsrecherche: Sandheide für Bergedorf nicht belegt und nicht übernommen. Historische Grenzen sowie heutige Gewässergeometrie Ladenbek nicht abschließend geprüft; keine Grenzlinien erfunden. Neuallermöhe-/Nettelnburg-Gebietsänderungen zeitbezogen lesen."
+  ],
+  "districts": [
+    {
+      "place": "Allermöhe",
+      "count": 1,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Altengamme",
+      "count": 3,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Bergedorf",
+      "count": 24,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Billwerder",
+      "count": 0,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Curslack",
+      "count": 2,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Kirchwerder",
+      "count": 6,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Lohbrügge",
+      "count": 15,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Moorfleet",
+      "count": 1,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Neuallermöhe",
+      "count": 1,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Neuengamme",
+      "count": 1,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Ochsenwerder",
+      "count": 4,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Reitbrook",
+      "count": 1,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Spadenland",
+      "count": 1,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    },
+    {
+      "place": "Tatenberg",
+      "count": 0,
+      "note": "Amtliche Standortdaten und Ortsquellen abgeglichen; weitere Behörden-/Angebotsrecherche offen."
+    }
+  ]
+}

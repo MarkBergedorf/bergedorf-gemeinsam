@@ -1,0 +1,5 @@
+import {parseRoute} from './navigation.mjs';
+export function historyOrigin(value,fallback='#geschichte'){if(typeof value!=='string'||value.length>6000)return fallback;const r=parseRoute(value);return value.startsWith('#geschichte')&&r.page==='geschichte'&&['','orte','artikel'].includes(r.tab)?value:fallback}
+export function historyReturnLabel(value){const r=parseRoute(historyOrigin(value));return r.tab==='orte'?'Zurück zum Ortsverzeichnis':r.params.historyType==='memory'?'Zurück zu den persönlichen Erinnerungen':'Zurück zur Geschichte'}
+export function historyCreateHref(from){const origin=historyOrigin(from),r=parseRoute(origin),p=new URLSearchParams({historyEntry:'1',from:origin});if(['historical','memory'].includes(r.params.historyType))p.set('historyType',r.params.historyType);return '#meine/neu/geschichte?'+p}
+export function historyEntryContext(value){if(!value||value.area!=='geschichte')return null;return {area:'geschichte',historyType:['historical','memory'].includes(value.historyType)?value.historyType:'',from:historyOrigin(value.from)}}

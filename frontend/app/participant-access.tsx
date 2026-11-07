@@ -1,0 +1,2 @@
+import {unavailableMessage} from '../pages/backend-client.mjs';
+export function ParticipantAccess(){return <section className="section page-content narrow"><h1>Anmeldung noch nicht verfügbar</h1><p>{unavailableMessage}</p><p>Es wird keine E-Mail-Adresse abgefragt, kein Konto angelegt und keine Nachricht verschickt.</p><button disabled>Anmeldung benötigt Backend</button><p><a href="#start">Ohne Anmeldung weiterlesen</a></p></section>}

@@ -1,0 +1,15 @@
+{
+  "trackedFilesBeforeReport": 397,
+  "knownSecretPatternHits": 0,
+  "noEnvironmentFiles": true,
+  "noDatabaseFiles": true,
+  "noNodeModules": true,
+  "publicStatePrivateRecordCounts": {
+    "documents": 0,
+    "comments": 0,
+    "reactions": 0,
+    "audit": 0,
+    "cases": 0,
+    "files": 0
+  }
+}

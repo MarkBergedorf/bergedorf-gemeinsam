@@ -1,0 +1,1 @@
+export function externalWebTarget(href,base){try{const current=new URL(base),target=new URL(href,base);if(!['https:','http:'].includes(target.protocol)||target.origin===current.origin||target.username||target.password)return null;return {href:target.href,domain:target.hostname}}catch{return null}}

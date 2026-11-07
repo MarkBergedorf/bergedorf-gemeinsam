@@ -1,0 +1,13 @@
+import {canonicalPlace} from './place-records.mjs';
+import {historicalNames,historicalName} from './history-geography.mjs';
+import {districtAt} from './organisation-district.mjs';
+import boundaries from './stadtteil-boundaries.json' with {type:'json'};
+export const bindingKeys=['originPlaceId','place','localPlaceId','quarterId','historicPlaceId','historicPlaceTime','additionalDistricts'];
+export function createPlaceBinding(id){const p=canonicalPlace(id);if(!p)throw Error('Die ursprüngliche Ortsseite ist nicht bekannt. Bitte den Beitrag von der Ortsseite aus neu öffnen.');const districts=[...new Set(p.districts||[])];let current=p.selectionRole==='current'?p.id:'',historical=p.selectionRole==='historical'?p.id:'';
+ if(p.selectionRole==='historical'&&p.parent&&canonicalPlace(p.parent)?.selectionRole==='current')current=p.parent;
+ if(p.selectionRole==='current'){const names=historicalNames.filter(n=>n.placeId===p.id);if(names.length===1)historical=names[0].id;}
+ const fields={originPlaceId:p.id,place:districts.length===1?districts[0]:'',localPlaceId:current,quarterId:'',historicPlaceId:historical,historicPlaceTime:historical?(historicalName(historical)?.timeframe||p.timeframe||p.historicalAffiliation||''):'',additionalDistricts:districts.length>1?districts.join('|'):''};
+ return {placeId:p.id,name:p.name,role:p.selectionRole,districts,fields,geography:{historicalAffiliation:p.historicalAffiliation||p.timeframe||'',cadastre:p.cadastre||'',aliases:p.aliases||[],checked:p.checked||''},boundaryKnown:p.selectionRole==='district'};
+}
+export function assertPlaceBinding(binding,kind,fields){if(!binding)return;if(kind!=='geschichte')throw Error('Dieser Beitrag ist fest dem Bereich Geschichte und Erinnerungen zugeordnet.');for(const key of bindingKeys)if((fields[key]||'')!==(binding.fields[key]||''))throw Error('Die feste Ortszuordnung zu '+binding.name+' darf nicht verändert werden. Bitte den Beitrag über die ursprüngliche Ortsseite bearbeiten.');}
+export function boundPointConflict(binding,fields){if(!binding||!fields.historyLat||!fields.historyLon)return '';const name=districtAt({lat:Number(fields.historyLat),lon:Number(fields.historyLon)},boundaries);if(!name)return 'Standortkonflikt: Der Kartenpunkt lässt sich keinem eindeutigen amtlichen Stadtteil des Bezirks zuordnen. Die feste Ortszuordnung bleibt erhalten; bitte Punkt prüfen oder entfernen.';if(binding.districts.length&&!binding.districts.includes(name))return 'Standortkonflikt: Der Kartenpunkt liegt in '+name+', die feste Ortszuordnung zu '+binding.name+' betrifft '+binding.districts.join(' und ')+'. Bitte einen passenden Punkt wählen oder entfernen. Die Ortszuordnung wird nicht überschrieben.';return '';}

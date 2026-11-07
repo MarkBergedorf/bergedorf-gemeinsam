@@ -1,0 +1,1 @@
+export function MobileAccessStatus(_props:any={}){return <div className="mobile-access-status"><p>Statische Lesefassung · ohne Anmeldung</p><a href="#anmelden">Anmeldung noch nicht verfügbar</a></div>}

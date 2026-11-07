@@ -1,0 +1,1 @@
+export function expandLegendForPrint(root){const states=[...root.querySelectorAll('details')].map(node=>[node,node.open]);for(const [node] of states)node.open=true;return ()=>{for(const [node,open] of states)node.open=open}}

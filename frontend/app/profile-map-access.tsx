@@ -1,0 +1,4 @@
+'use client';
+// @ts-ignore shared, validated profile/map navigation
+import {profileLocationLinks} from '../lib/profile-map.mjs';
+export function ProfileMapAccess({entry,profile}:{entry:any,profile:string}){const all=profileLocationLinks(entry,profile).filter((r:any)=>r.isLocation),seen=new Set<string>(),links=all.filter((r:any)=>{if(!r.pointId)return true;if(seen.has(r.pointId))return false;seen.add(r.pointId);return true});return <section className="profile-map-access" aria-label="Einrichtungsstandorte auf der Karte">{links.map((r:any)=><div key={r.id}>{links.length>1&&<p><b>{r.title}</b> · {r.address}</p>}{r.href?<a className="outline small" href={r.href}>{links.length>1?r.title+' auf der Karte anzeigen':'Standort auf der Karte anzeigen'}</a>:<p>Für diesen Standort liegt noch kein geprüfter Kartenpunkt vor.</p>}</div>)}</section>}

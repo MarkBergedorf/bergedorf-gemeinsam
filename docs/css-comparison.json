@@ -1,0 +1,10 @@
+{
+  "missing": [],
+  "changed": [],
+  "added": [
+    "|.meeting-plan-sample",
+    "|.meeting-plan-watermark",
+    "|.meeting-plan-watermark>span",
+    "@media (width<=600px)|.meeting-plan-watermark>span"
+  ]
+}

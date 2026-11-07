@@ -1,0 +1,34 @@
+$ node --test tests/*.test.mjs
+✔ Kartenpunkte verwenden dieselben gefilterten Beiträge: Stadtteil (1.986325ms)
+✔ Kartenpunkte verwenden dieselben gefilterten Beiträge: Ort (1.263515ms)
+✔ Kartenpunkte verwenden dieselben gefilterten Beiträge: Kategorie (0.17866ms)
+✔ Kartenpunkte verwenden dieselben gefilterten Beiträge: Suchbegriff (0.724733ms)
+✔ Kartenpunkte verwenden dieselben gefilterten Beiträge: Beitragsart (0.108623ms)
+✔ Kartenpunkte verwenden dieselben gefilterten Beiträge: Keine Treffer (0.399632ms)
+✔ Freigabe zunächst aus, nach Aktivierung im Sitzungsspeicher, nach Entladen gelöscht (0.865716ms)
+✔ Gesperrter Sitzungsspeicher: Freigabe bleibt im Seitenspeicher bis zum Widerruf (0.153772ms)
+✔ Mehrere Karteninstanzen werden über Aktivierung und Widerruf informiert (0.360053ms)
+✔ Geschichtskarte verändert die separate Organisationsfreigabe nicht (0.167162ms)
+✔ Anfragen der Kartenebene werden beim Entladen abgebrochen, neue Anfragen tragen abgebrochenes Signal (1.501995ms)
+✔ Geschichtskarte und ihre Ansichtspräferenz haben unabhängige, nicht identifizierende Werte (0.644492ms)
+✔ Explizite Liste gewinnt bei Zurück/Vorwärts gegen gemerkte Kartenansicht (0.167853ms)
+✔ Alte einfache Freigaben gelten nicht als neue Kartenentscheidung (1.18107ms)
+✔ Zustimmung nach Wiederöffnung, Widerruf getrennt nach Anbieter (0.977985ms)
+✔ Unabhängige Tab-Speicher und blockierter Speicher bleiben getrennt (0.286102ms)
+✔ Anfrageabbruch betrifft nur die zugehörige Geschichtskartenebene (2.012514ms)
+✔ Alle drei Anbieter haben aktuelle Kurztexte und offizielle Links (0.277138ms)
+✔ Sitzungsplan: vorhandene Texte, Fakten, Quellen und Kalenderzugang unverändert (0.765925ms)
+✔ Hinweis nur einmal und nur im Sitzungsplan; Links bleiben anklickbar (0.423889ms)
+✔ Synchroner bearbeitbarer Datenbuild ohne privaten Backend-Quellordner (0.151618ms)
+✔ Vier fiktive Beispiele, öffentliche redaktionelle Einträge, keine privaten Daten (1.774375ms)
+✔ Backend standardmäßig getrennt: Lesen und Schreiben schlagen ausdrücklich geschlossen fehl (0.797212ms)
+✔ Alle HTML-Einstiege noindex, Projekt-Unterpfad und statische 404 vorhanden (0.42446ms)
+✔ Manifest und beide Kartenstile beziehen Assets aus Projekt-Unterpfad (0.267874ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 120.171387

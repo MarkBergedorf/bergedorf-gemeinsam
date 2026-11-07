@@ -1,0 +1,7 @@
+import {mapAccuracyLabel} from './map-accuracy.mjs';
+import {toiletIcon} from './toilet-icon.mjs';
+export function wcMarkerPresentation(entries,{paired=false,selected=false}={}){const count=entries.length,wcs=entries.filter(r=>r.wheelchairToilet===true).length;return {wcs,className:'location-marker'+(count>1?' location-cluster':'')+(wcs?' location-has-wc':'')+(paired?' location-wc-building':'')+(selected?' wc-is-selected':'')+(count===1&&entries[0].mapPointScope==='approximate-facility'?' location-wc-approximate':''),html:count>1?'<span class="cluster-count">'+count+'</span>'+(wcs?'<span class="cluster-wc-badge">'+toiletIcon+'</span>':''):wcs?(paired?'<span class="wc-building-symbol">'+toiletIcon+'</span>':toiletIcon):'<span aria-hidden="true">●</span>',label:count>1?count+' Einträge hier zusammengefasst'+(wcs?' · enthält '+wcs+' Rollstuhl-WC-Angebot'+(wcs>1?'e':''):'')+' – zum Auswählen öffnen':entries[0].title+(wcs?' · Rollstuhl-WC':'')+(mapAccuracyLabel(entries[0])?' · '+mapAccuracyLabel(entries[0]):'')}}
+
+// Host glyphs retain their original geographic anchor. The extra WC glyph is
+// a screen-space building annotation, never a second geographic WC coordinate.
+export function wcOrientationLandmarks(points,landmarks){const byId=new Map(landmarks.map(r=>[r.id,r]));for(const r of points)if(r.wcHostKind==='building'&&r.wcHostId&&!byId.has(r.wcHostId))byId.set(r.wcHostId,{...r,id:r.wcHostId,listId:r.wcHostId,title:r.wcHostName,href:r.href,category:'Gebäudeorientierung',wheelchairToilet:false,mapPointScope:''});return [...byId.values()]}

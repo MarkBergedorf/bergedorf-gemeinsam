@@ -1,0 +1,13 @@
+{
+  "baselineCommit": "6493384a722c8f125542fd58198fead8c98ccd31",
+  "restoredMainAstSha256": "0c788651f6fd59559a8b523cb7b1dbae87de1c8797b2cdaac27491720f727e99",
+  "canonicalAstEqual": true,
+  "normalization": [
+    "location/comments/raw literal syntax",
+    "build chunk filenames",
+    "lexically resolved binding names"
+  ],
+  "mapCssByteEqual": true,
+  "restoredBuild": "regular-baseline-build.log",
+  "postWatermarkNormalizedAstEqualWhenOnlyRequestedOverlayIsRemoved": true
+}
