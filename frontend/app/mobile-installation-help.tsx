@@ -1,6 +1,7 @@
 'use client';
 import {useId,useRef,useState} from 'react';
-import {androidBrowserChoices,copyInstallationAddress,detectMobileInstallation,installationSources,mobileInstallationChoices,publicWebsiteAddress} from '../lib/mobile-installation.mjs';
+import {IphoneBrowserHelp} from './iphone-browser-help';
+import {androidBrowserChoices,copyInstallationAddress,detectIphoneBrowser,detectMobileInstallation,iphoneBrowserChoices,installationSources,mobileInstallationChoices,publicWebsiteAddress} from '../lib/mobile-installation.mjs';
 
 function ShareSymbol(){return <svg className="install-help-symbol" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><path d="M8 8H5v13h14V8h-3M12 15V2M8 6l4-4 4 4"/></svg>}
 function MoreSymbol(){return <span className="install-help-symbol install-menu-symbol" aria-hidden="true">⋯</span>}
@@ -10,12 +11,14 @@ export function MobileInstallationHelp({onClose}:{onClose:()=>void}){
  const id=useId(),address=useRef<HTMLInputElement>(null);
  const [detected]=useState(()=>detectMobileInstallation(typeof navigator==='undefined'?'':navigator.userAgent,typeof navigator==='undefined'?0:navigator.maxTouchPoints));
  const [choice,setChoice]=useState(detected.choice),[browser,setBrowser]=useState(detected.browser),[copyStatus,setCopyStatus]=useState('');
+ const [iphoneBrowser,setIphoneBrowser]=useState(()=>detectIphoneBrowser(typeof navigator==='undefined'?'':navigator.userAgent,typeof navigator==='undefined'?0:navigator.maxTouchPoints));
  async function copyAddress(){try{await copyInstallationAddress(navigator.clipboard);setCopyStatus('Websiteadresse kopiert. Sie können sie im gewünschten Browser einfügen.')}catch{address.current?.focus();address.current?.select();setCopyStatus('Automatisches Kopieren ist hier nicht möglich. Die Adresse ist markiert. Halten Sie die Markierung gedrückt und wählen Sie „Kopieren“.')}}
  return <section className="mobile-install-help" aria-labelledby={id+'-title'}>
   <h2 id={id+'-title'}>Web-App-Installationsanleitung</h2>
   <p>{detected.choice?'Die Vorauswahl beruht auf der Browserkennung. Bitte prüfen und bei Bedarf ändern.':'Gerät oder Browser nicht eindeutig erkannt. Bitte wählen Sie die passende Anleitung.'}</p>
   <label htmlFor={id+'-device'}>Smartphone und Browser</label>
   <select id={id+'-device'} value={choice} onChange={e=>setChoice(e.target.value)}><option value="" disabled>Bitte auswählen</option>{mobileInstallationChoices.map(([value,label])=><option key={value} value={value}>{label}</option>)}</select>
+  {choice==='iphone-other'&&<><label htmlFor={id+'-iphone-browser'}>Welchen iPhone-Browser verwenden Sie?</label><select id={id+'-iphone-browser'} value={iphoneBrowser} onChange={e=>setIphoneBrowser(e.target.value)}>{iphoneBrowserChoices.map(([value,label])=><option key={value} value={value}>{label}</option>)}</select></>}
   {choice==='android-other'&&<><label htmlFor={id+'-browser'}>Welchen Android-Browser verwenden Sie?</label><select id={id+'-browser'} value={browser} onChange={e=>setBrowser(e.target.value)}>{androidBrowserChoices.map(([value,label])=><option key={value} value={value}>{label}</option>)}</select></>}
   <div className="install-help-address"><label htmlFor={id+'-address'}>Öffentliche Websiteadresse</label><input ref={address} id={id+'-address'} value={publicWebsiteAddress} readOnly autoCapitalize="none" spellCheck={false}/><button type="button" className="outline" onClick={copyAddress}>Websiteadresse kopieren</button><p role="status" aria-live="polite">{copyStatus}</p></div>
 
@@ -26,7 +29,7 @@ export function MobileInstallationHelp({onClose}:{onClose:()=>void}){
    <li><h4>Hinzufügen bestätigen</h4><p>Falls angeboten, aktivieren Sie „Als Web-App öffnen“. Tippen Sie anschließend auf „Hinzufügen“. Danach erscheint das Symbol von „Bergedorf gemeinsam“ auf Ihrem Home-Bildschirm.</p></li>
   </ol><p><Source href={installationSources.apple}>Offizielle Safari-Anleitung von Apple</Source></p></div>}
 
-  {choice==='iphone-other'&&<div className="install-help-guide"><h3>iPhone mit einem anderen Browser</h3><p>Die Safari-Schritte passen möglicherweise nicht zum gerade geöffneten Browser. Wenn Ihre App das Öffnen in einem externen Browser anbietet, können Sie dort Safari wählen, sofern angeboten. Andernfalls:</p><ol><li>Mit „Websiteadresse kopieren“ die Adresse oben kopieren.</li><li>Safari auf Ihrem iPhone öffnen.</li><li>Die Adresse in die Adressleiste einfügen und öffnen.</li><li>In Safari diese Installationshilfe öffnen und „iPhone – Safari“ auswählen.</li></ol><button type="button" className="outline" onClick={()=>setChoice('iphone-safari')}>Safari-Anleitung anzeigen</button><p>Diese Schaltfläche zeigt die Schritte hier an; sie öffnet Safari nicht automatisch.</p><p><Source href={installationSources.apple}>Offizielle Safari-Anleitung von Apple</Source></p></div>}
+  {choice==='iphone-other'&&<IphoneBrowserHelp browser={iphoneBrowser} onSafari={()=>setChoice('iphone-safari')}/>}
 
   {choice==='android-chrome'&&<div className="install-help-guide"><h3>Android mit Google Chrome</h3><ol>
    <li><h4>Website in Chrome öffnen</h4><p>Öffnen Sie die Adresse oben direkt in Google Chrome. Falls die Seite in einer anderen App geöffnet ist, kopieren Sie die Adresse und fügen Sie sie in Chrome ein.</p></li>

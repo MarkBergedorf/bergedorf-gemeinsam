@@ -32,3 +32,20 @@ export async function copyInstallationAddress(clipboard){
  if(typeof clipboard?.writeText!=='function')throw new Error('Clipboard unavailable');
  await clipboard.writeText(publicWebsiteAddress);
 }
+
+export const iphoneBrowserChoices=[['chrome','Google Chrome'],['edge','Microsoft Edge'],['firefox','Mozilla Firefox'],['other','Sonstiger Browser']];
+// A suggestion for this guide only; never a guarantee of installed capabilities.
+export function detectIphoneBrowser(userAgent='',maxTouchPoints=0){
+ if(detectMobileInstallation(userAgent,maxTouchPoints).choice!=='iphone-other')return 'other';
+ if(/\bFBAN\b|\bFBAV\b|Instagram|GSA\//i.test(userAgent))return 'other';
+ if(/EdgiOS\//.test(userAgent))return 'edge';
+ if(/FxiOS\//.test(userAgent))return 'firefox';
+ if(/CriOS\//.test(userAgent))return 'chrome';
+ return 'other';
+}
+export const iphoneInstallationSources={
+ chrome:'https://support.google.com/chrome/answer/15085120?co=GENIE.Platform%3DiOS&hl=de',
+ firefox:'https://support.mozilla.org/de/kb/webseiten-verknupfung-firefox-fur-ios',
+ edge:'https://support.microsoft.com/de-de/edge/microsoft-edge-app-help',
+ webkit:'https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/',
+};
