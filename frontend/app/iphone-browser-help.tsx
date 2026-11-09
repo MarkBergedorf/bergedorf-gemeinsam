@@ -10,18 +10,18 @@ export function IphoneBrowserHelp({browser,onSafari}:{browser:string,onSafari:()
    <li><ShareSymbol/> Tippen Sie rechts neben der Adressleiste auf „Teilen“.</li>
    <li>Wählen Sie „Zum Startbildschirm hinzufügen“.</li>
    <li>Prüfen Sie Namen und Angaben zur Website und bestätigen Sie mit „Hinzufügen“.</li>
-  </ol><p><Source href={iphoneInstallationSources.chrome}>Google: Verknüpfungen auf iPhone und iPad</Source></p></>:
+  </ol><p><a href="googlechromes://markbergedorf.github.io/bergedorf-gemeinsam/">Google Chrome öffnen</a></p><p><Source href={iphoneInstallationSources.chrome}>Google: Verknüpfungen auf iPhone und iPad</Source></p></>:
   browser==='firefox'?<><h3>iPhone mit Mozilla Firefox</h3><ol>
    <li>Öffnen Sie die Websiteadresse oben direkt in Firefox für iOS.</li>
    <li><ShareSymbol/> Tippen Sie in der Adressleiste auf das Teilen-Symbol.</li>
    <li>Wählen Sie im Teilen-Menü „Zum Startbildschirm hinzufügen“.</li>
    <li>Prüfen Sie den vorgeschlagenen Namen und tippen Sie oben rechts auf „Hinzufügen“.</li>
-  </ol><p><Source href={iphoneInstallationSources.firefox}>Mozilla: Webseiten-Verknüpfung mit Firefox für iOS</Source></p></>:
+  </ol><p><a href="firefox://open-url?url=https%3A%2F%2Fmarkbergedorf.github.io%2Fbergedorf-gemeinsam%2F">Mozilla Firefox öffnen</a></p><p><Source href={iphoneInstallationSources.firefox}>Mozilla: Webseiten-Verknüpfung mit Firefox für iOS</Source></p></>:
   browser==='edge'?<><h3>iPhone mit Microsoft Edge</h3><p>Unterstützende iPhone-Browser können Websites über die Teilen-Funktion zum Home-Bildschirm hinzufügen. Für Edge ist die genaue aktuelle iPhone-Menüführung in den geprüften Microsoft-Hinweisen nicht ausreichend beschrieben.</p><ol>
    <li>Öffnen Sie die Websiteadresse oben direkt in Edge.</li>
    <li>Prüfen Sie die verfügbare Funktion in Ihrer Edge-Version anhand der offiziellen Hilfe. Eine bestimmte Menüfolge oder erfolgreiche Installation können wir hierfür nicht zusichern.</li>
    <li>Ist kein passender Weg verfügbar, können Sie die Safari-Alternative unten nutzen.</li>
-  </ol><p><Source href={iphoneInstallationSources.edge}>Microsoft: Offizielle Hilfe für die Edge-App</Source></p></>:
+  </ol><p><a href="microsoft-edge-https://markbergedorf.github.io/bergedorf-gemeinsam/">Microsoft Edge öffnen</a></p><p><Source href={iphoneInstallationSources.edge}>Microsoft: Offizielle Hilfe für die Edge-App</Source></p></>:
   <><h3>iPhone mit einem sonstigen Browser</h3><ol>
    <li>Öffnen Sie die Websiteadresse oben direkt im gewünschten Browser.</li>
    <li>Prüfen Sie im Browsermenü oder in der Teilen-Ansicht, ob eine Funktion zum Hinzufügen zum Home-Bildschirm angeboten wird.</li>
