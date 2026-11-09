@@ -32,7 +32,7 @@ node scripts/sync-pages.mjs
 
 Die öffentliche Fassung bleibt **noindex** und ohne öffentliche Anmeldung, Schreibzugriffe oder Verwaltungsberechtigungen. Dargestellte Verwaltungs-/Formularquellen aktivieren keinen Serverdienst. Private Datenbanken und operative Nutzerdaten sind nicht enthalten. Backendbetrieb benötigt einen gesonderten Auftrag und Sicherheitsprüfung. Die private Sites-Version 99 bleibt unverändert.
 
-Die automatische Sitzungsplan-Aktualisierung ist weiterhin deaktiviert. Der vorhandene Plan wird als Muster mit einem ausschließlich dort angezeigten diagonalen Hinweis erhalten; der externe Sitzungskalender bleibt unabhängig nutzbar.
+Die automatische Sitzungsplan-Aktualisierung ist weiterhin deaktiviert. Der vorhandene Plan wird als Muster mit einem ausschließlich dort angezeigten diagonalen Hinweis erhalten; der externe Sitzungskalender bleibt unabhängig nutzbar. Maßgeblicher neuer Sachstand: [Antwort der Verfahrensbetreuung vom November 2026](docs/SITZUNGSKALENDER-SACHSTAND-2026-11.md). Die Anfrage ist beantwortet, die technische Klärung vorerst abgeschlossen. Ohne neue tragfähige Grundlage wird die automatische Aktualisierung nicht weiterverfolgt. Eine erneute inhaltliche Befassung ist spätestens Anfang 2029 vorgesehen, sofern der Betreiber nichts anderes bestimmt; daraus entsteht keine automatische Prüfung oder Erinnerung.
 
 ## Synchronisierung mit dem vorherigen öffentlichen Stand
 

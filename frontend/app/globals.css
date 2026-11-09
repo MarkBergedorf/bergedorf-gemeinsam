@@ -235,7 +235,7 @@
 .meeting-plan-sample{position:relative;isolation:isolate}
 .meeting-plan-watermark{position:absolute;inset:0;z-index:1;display:grid;place-items:center;overflow:hidden;pointer-events:none;border-radius:inherit}
 .meeting-plan-watermark>span{display:block;width:min(75%,600px);padding:12px 18px;transform:rotate(-45deg);text-align:center;font-size:clamp(1rem,2vw,1.8rem);font-weight:650;line-height:1.4;color:rgba(75,75,75,.65);background:rgba(248,249,246,.55)}
-@media(max-width:600px){.meeting-plan-watermark>span{width:76%;padding:8px;font-size:1rem}}
+@media(max-width:600px){.meeting-plan-watermark>span{width:76%;padding:8px;font-size:clamp(.75rem,3.3vw,.875rem)}}
 
 /* Ausschließlich die Smartphone-Installationshilfe. */
 .mobile-install-help{min-width:0;max-width:600px;margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);overflow-wrap:anywhere}
