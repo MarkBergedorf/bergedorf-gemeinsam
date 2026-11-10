@@ -1,0 +1,6 @@
+// Verified publisher destinations, 10 November 2026. No remote content is fetched by the site.
+export const regionalNewsMedia=[
+ {name:'Hamburger Abendblatt',url:'https://www.abendblatt.de/epaper/',label:'Hamburger Abendblatt – E-Paper',note:'Digitale Zeitung und Zugang zu den aktuellen Ausgaben beim Verlag. In der Regel kostenpflichtiges Abonnement und Anmeldung erforderlich.'},
+ {name:'Hamburger Morgenpost',url:'https://epaper.mopo.de/',label:'Hamburger Morgenpost – E-Paper',note:'Aktuelle digitale Ausgaben der MOPO beim Verlag. Kostenpflichtiger Zugang; Angebote und Zugangsbedingungen stehen beim Anbieter.'},
+ {name:'BILD-Zeitung',url:'https://epaper.bild.de/',label:'BILD-Zeitung – E-Paper und Regionalausgaben',note:'Kostenpflichtiger Zugang. Für Hamburg die entsprechende Regionalausgabe in der Ausgabenauswahl des Verlags wählen; dieser Link legt keine konkrete Tagesausgabe fest.'}
+];
