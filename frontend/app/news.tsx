@@ -1,25 +1,18 @@
 import React from 'react';
 import {LocalNews} from './local-news';
 import {regionalNewsMedia} from '../lib/news-media.mjs';
-import {bergedorfConfirmation,pressScopeOptions,pressFields,canonicalArticleUrl} from '../lib/press-discussions.mjs';
+import {canonicalArticleUrl} from '../lib/press-discussions.mjs';
+import {PressDiscussionTestForm,MediaProposalTest} from './press-test-forms';
 
 export function PressDiscussionPreparation(){return <section className="panel press-preparation" aria-labelledby="press-discussion-heading">
  <div className="eyebrow">BERGEDORFER PRESSETHEMEN</div><h2 id="press-discussion-heading">Presseberichte über Bergedorf diskutieren</h2>
  <p>Hier können Sie Presseberichte diskutieren, die den Bezirk Bergedorf betreffen. Auch überregionale Themen sind zulässig, wenn Sie nachvollziehbar erläutern, welche konkreten Auswirkungen sie auf Bergedorf haben. Diskussionen ohne erkennbaren Bergedorf-Bezug gehören nicht in diesen Bereich.</p>
- <div className="rule-note" id="press-preview-status"><strong>In Vorbereitung – Einreichungen und Diskussionen sind noch nicht verfügbar.</strong><p>Die folgende Formularvorschau zeigt die geplanten Angaben. Sie können hier nichts eingeben, speichern oder veröffentlichen.</p></div>
+ <div className="rule-note" id="press-preview-status"><strong>Bedienbares Testformular – keine Übermittlung oder dauerhafte Speicherung.</strong><p>Eingaben bleiben nur in der laufenden Formularsitzung im Browser. Beim Neuladen oder Verlassen der Seite gehen sie verloren. „Eingaben prüfen“ kontrolliert ausschließlich die Formularangaben; es wird nichts eingereicht oder veröffentlicht.</p></div>
  <p>Erst nach Prüfung durch die Moderation soll ein Thema veröffentlicht werden. Originalquelle, eigene Beschreibung, Sachverhalt und persönliche Meinung werden getrennt angezeigt. Zu einem bereits erfassten Artikel soll die vorhandene Diskussion gefunden und zugeordnet werden können.</p>
- <details><summary>Geplante Formularstruktur ansehen (nicht freigeschaltet)</summary>
- <fieldset disabled aria-describedby="press-preview-status"><legend>Gesperrte Formularvorschau</legend>
- <h3>Ursprünglicher Pressebericht</h3><label>Veröffentlichungsform<select name="sourceType" defaultValue=""><option value="">Online oder Print auswählen</option><option value="online">Onlineartikel – direkter Artikel-Link erforderlich</option><option value="print">Gedruckter Artikel – Ausgabe und Seitenzahl erforderlich</option></select></label>
- {pressFields.slice(0,9).map((f:any)=><PreviewField key={f.name} field={f}/>)}
- <h3>Ihre Diskussion</h3>{pressFields.slice(9,13).map((f:any)=><PreviewField key={f.name} field={f}/>)}
- <h3>Verbindlicher Bezug zum Bezirk Bergedorf</h3><label className="check"><input type="checkbox" name="bergConfirmed" required/>{bergedorfConfirmation}</label>
- <label>Welche Art von Bergedorf-Bezug liegt vor?<select name="scope" defaultValue="" required><option value="">Bitte auswählen</option>{pressScopeOptions.map(([key,label]:string[])=><option key={key} value={key}>{label}</option>)}</select></label>
- <PreviewField field={pressFields[13]}/><p>Bei einem übergeordneten Thema ist diese zusätzliche ausführliche Begründung Pflicht. Ohne sie ist die Einreichung unvollständig. Ein bloßer Bezug zu Hamburg genügt nicht.</p>
- <button type="button" disabled className="outline">Einreichung noch nicht verfügbar</button></fieldset></details>
- <p>Bitte keine vollständigen Zeitungstexte, Artikelkopien oder Scans übernehmen. Beschreiben Sie das Thema in eigenen Worten und nennen Sie die Originalquelle. Fehlende Autorenangaben bleiben leer.</p>
+ <details><summary>Testformular für Pressediskussionen öffnen</summary><PressDiscussionTestForm/></details>
+ <p>Bitte keine vollständigen Zeitungstexte, Artikelkopien oder Scans übernehmen. Beschreiben Sie das Thema in eigenen Worten und nennen Sie die Originalquelle. Autorenangaben dürfen nicht erfunden werden. Fehlt im Artikel tatsächlich eine Autorenangabe, tragen Sie „Nicht angegeben“ ein.</p>
+ <MediaProposalTest/>
  </section>}
-function PreviewField({field:f}:{field:any}){const note=f.required?'Pflichtfeld':f.requiredFor==='shared'?'Pflicht bei übergeordnetem Thema':f.requiredFor==='print'?'Pflicht bei Print':f.requiredFor==='online'?'Pflicht bei Onlineartikeln':'soweit vorhanden';return <label className="press-preview-field">{f.label} <small>({note})</small>{f.type==='textarea'?<textarea name={f.name} rows={4} minLength={f.min} required={!!f.required}/>:<input name={f.name} type={f.type||'text'} required={!!f.required}/ >}{f.hint&&<small>{f.hint}</small>}</label>}
 export function NewsPage(){return <div className="section page-content news-page"><div className="news-intro"><div className="eyebrow">INFORMIEREN & AUSTAUSCHEN</div><h1>Aktuelle Bergedorfer Nachrichten</h1><p>Nachrichten aus dem Bezirk lesen, Originalquellen finden und die spätere Diskussion über Bergedorfer Pressethemen kennenlernen.</p></div>
  <LocalNews dedicated/>
  <section aria-labelledby="hamburg-news-heading"><h2 id="hamburg-news-heading">Weitere Hamburger Nachrichtenmedien</h2><p>Digitale Zeitungsausgaben und Ausgabenübersichten direkt bei den Verlagen.</p><div className="news-media-grid">{regionalNewsMedia.map(m=><article className="panel" key={m.name}><h3>{m.name}</h3><p>{m.note}</p><a className="outline" href={m.url} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer">{m.label} ↗</a></article>)}</div></section>
