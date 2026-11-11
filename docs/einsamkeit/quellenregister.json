@@ -1,5 +1,5 @@
 {
-  "status": "Unvollständige Zuordnung: vereinbarte Gesamtkonzeption fehlt",
+  "status": "Gesamtkonzeption übernommen; fachliche Zuordnung teilweise erfolgt, Quellenprüfung ausstehend",
   "sources": [
     {
       "id": "B1",
@@ -39,9 +39,34 @@
   ],
   "nonEmptySourceLines": 2550,
   "mainTopics": 18,
-  "publishedSubtopics": 0,
+  "publishedSubtopics": 108,
   "definitions": {
-    "zuordnung_offen": "Keine Zuordnung ohne vollständige vereinbarte Gesamtkonzeption; null bedeutet ausdrücklich offen.",
-    "ausstehend": "Originalquelle prüfen; keine ungeprüfte wissenschaftliche, historische, politische, institutionelle oder terminliche Aussage öffentlich als Tatsache übernehmen. Transkriptionsnamen und Zahlen gesondert prüfen."
+    "zuordnung_offen": "Noch nicht einzeln inhaltlich zugeordnet; keine fehlende Konzeption mehr. Alle offenen IDs sind in zuordnung-offen.json aufgeführt.",
+    "ausstehend": "Originalquelle prüfen; keine ungeprüfte wissenschaftliche, historische, politische, institutionelle oder terminliche Aussage öffentlich als Tatsache übernehmen. Transkriptionsnamen und Zahlen gesondert prüfen.",
+    "thematisch_zugeordnet_quellenpruefung_offen": "Inhalt im Zusammenhang gelesen und fachlicher Zielansicht zugeordnet; keine Tatsachenprüfung, keine Artikel- oder Angebotsfreigabe."
+  },
+  "publishedDeeperTopics": 12,
+  "topicNodes": 138,
+  "assignmentCounts": {
+    "B1": {
+      "zuordnung_offen": 10,
+      "thematisch_zugeordnet_quellenpruefung_offen": 270
+    },
+    "B2": {
+      "zuordnung_offen": 482,
+      "thematisch_zugeordnet_quellenpruefung_offen": 30
+    },
+    "B3": {
+      "zuordnung_offen": 356,
+      "thematisch_zugeordnet_quellenpruefung_offen": 8
+    },
+    "B4": {
+      "zuordnung_offen": 1018,
+      "thematisch_zugeordnet_quellenpruefung_offen": 98
+    },
+    "B5": {
+      "zuordnung_offen": 276,
+      "thematisch_zugeordnet_quellenpruefung_offen": 2
+    }
   }
 }

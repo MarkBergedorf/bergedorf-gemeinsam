@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "verstehen",
+    "conceptNumber": "1",
+    "title": "Einsamkeit verstehen",
+    "description": "Begriffe, unterschiedliche Erfahrungen und die Abgrenzung zwischen Einsamkeit, Alleinsein und sozialer Isolation.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t1-1",
+        "conceptNumber": "1.1",
+        "title": "Was bedeutet Einsamkeit?",
+        "description": "Definition von Einsamkeit; Abgrenzung von freiwilligem Alleinsein und sozialer Isolation.",
+        "scope": [
+          "Definition von Einsamkeit; Abgrenzung von freiwilligem Alleinsein und sozialer Isolation",
+          "Emotionale, soziale und existenzielle Einsamkeit",
+          "Vorübergehende, wiederkehrende und chronische Einsamkeit",
+          "Unterschiedliche individuelle Bedürfnisse nach Nähe und Kontakt"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 22
+      },
+      {
+        "id": "t1-2",
+        "conceptNumber": "1.2",
+        "title": "Wie fühlt sich Einsamkeit an?",
+        "description": "Fehlende emotionale Verbundenheit; nicht dazuzugehören.",
+        "scope": [
+          "Fehlende emotionale Verbundenheit; nicht dazuzugehören",
+          "Einsamkeit trotz vieler Bekannter und innerhalb von Partnerschaften",
+          "Fehlende Vertrauenspersonen; das Gefühl, nicht gebraucht zu werden",
+          "Fehlende Gegenseitigkeit; gesellschaftliche Unsichtbarkeit",
+          "Scham und Schwierigkeiten, über Einsamkeit zu sprechen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 28
+      },
+      {
+        "id": "t1-3",
+        "conceptNumber": "1.3",
+        "title": "Wie entwickelt sich Einsamkeit?",
+        "description": "Erste Anzeichen und Rückzug aus Beziehungen.",
+        "scope": [
+          "Erste Anzeichen und Rückzug aus Beziehungen",
+          "Veränderte Erwartungen und Angst vor erneuter Ablehnung",
+          "Sich gegenseitig verstärkende Rückzugsprozesse",
+          "Langjährige Isolation und unterschiedliche individuelle Verläufe"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 35
+      },
+      {
+        "id": "t1-4",
+        "conceptNumber": "1.4",
+        "title": "Einsamkeit als gesellschaftliche Herausforderung",
+        "description": "Bedeutung für Einzelne und soziales Zusammenleben.",
+        "scope": [
+          "Bedeutung für Einzelne und soziales Zusammenleben",
+          "Gesellschaftliche Teilhabe und soziale Ungleichheit",
+          "Gesellschaftliche und wirtschaftliche Folgen",
+          "Einsamkeit als mehr als rein private Angelegenheit"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 41
+      }
+    ],
+    "conceptLine": 18,
+    "group": "wissen"
+  },
+  {
+    "id": "ursachen",
+    "conceptNumber": "2",
+    "title": "Warum entsteht Einsamkeit?",
+    "description": "Persönliche, soziale und gesellschaftliche Ursachen sowie Veränderungen der Begegnungskultur in Bergedorf.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t2-1",
+        "conceptNumber": "2.1",
+        "title": "Persönliche und zwischenmenschliche Ursachen",
+        "description": "Schwierigkeiten, neue Kontakte aufzubauen, und fehlende Kennenlernerfahrung.",
+        "scope": [
+          "Schwierigkeiten, neue Kontakte aufzubauen, und fehlende Kennenlernerfahrung",
+          "Soziale Unsicherheit, Angst vor Ablehnung und Vertrauensprobleme",
+          "Negative Beziehungserfahrungen, mangelnde Gegenseitigkeit, fehlende emotionale Nähe",
+          "Konflikte und Kontaktabbrüche; fehlende wiederholte Begegnungen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 51
+      },
+      {
+        "id": "t2-2",
+        "conceptNumber": "2.2",
+        "title": "Veränderungen im persönlichen Leben",
+        "description": "Umzug, Trennung, Scheidung, Tod und Trauer.",
+        "scope": [
+          "Umzug, Trennung, Scheidung, Tod und Trauer",
+          "Familienveränderungen, Elternschaft und Alleinerziehung",
+          "Schulwechsel, Beginn/Ende von Ausbildung, Studium und Berufsleben",
+          "Arbeitslosigkeit, Arbeitsunfähigkeit und Ruhestand",
+          "Gesundheit und Mobilität"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 57
+      },
+      {
+        "id": "t2-3",
+        "conceptNumber": "2.3",
+        "title": "Gesellschaftliche und wirtschaftliche Ursachen",
+        "description": "Armut, Kosten sozialer Aktivitäten, Wohnverhältnisse.",
+        "scope": [
+          "Armut, Kosten sozialer Aktivitäten, Wohnverhältnisse",
+          "Fehlende soziale Infrastruktur und Mobilität",
+          "Wandel von Arbeits- und Freizeitstrukturen, Schichtarbeit, Homeoffice",
+          "Fehlende konsumfreie Räume, Barrieren, Diskriminierung",
+          "Wandel gemeinschaftlicher Lebensformen; digitale und analoge Kontakte"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 64
+      },
+      {
+        "id": "t2-4",
+        "conceptNumber": "2.4",
+        "title": "Wie haben sich die Möglichkeiten zum Kennenlernen verändert?",
+        "description": "Frühere Begegnungsformen, Veränderungen im Alltag und Fragen zu den Folgen verlorener Treffpunkte.",
+        "scope": [],
+        "content": "",
+        "children": [
+          {
+            "id": "t2-4-1",
+            "conceptNumber": "2.4.1",
+            "title": "Früher übliche Begegnungsformen",
+            "description": "Kneipen und Gastwirtschaften; Cafés; Vereine; Gemeindehäuser.",
+            "scope": [
+              "Kneipen und Gastwirtschaften; Cafés; Vereine; Gemeindehäuser",
+              "Nachbarschaftstreffs; Arbeitsgemeinschaften; Dorfgemeinschaften",
+              "Spontane Begegnungen im öffentlichen Raum"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 72
+          },
+          {
+            "id": "t2-4-2",
+            "conceptNumber": "2.4.2",
+            "title": "Veränderungen der Begegnungskultur",
+            "description": "Schließungen, Umnutzung, geänderte Öffnungszeiten und Besuchsgewohnheiten.",
+            "scope": [
+              "Schließungen, Umnutzung, geänderte Öffnungszeiten und Besuchsgewohnheiten",
+              "Kosten und Zugangshürden; Digitalisierung",
+              "Organisierte statt spontane Treffen; Mitgliedschaften und Anmeldungen",
+              "Wandel der Wohnquartiere"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 76
+          },
+          {
+            "id": "t2-4-3",
+            "conceptNumber": "2.4.3",
+            "title": "Welche Folgen kann der Verlust vertrauter Begegnungsorte haben?",
+            "description": "Verlust von Kontaktroutinen und spontanen Gesprächen.",
+            "scope": [
+              "Verlust von Kontaktroutinen und spontanen Gesprächen",
+              "Aufbau neuer Bekanntschaften und informeller Hilfsnetzwerke",
+              "Unterschiede zwischen Generationen und Kennenlerngewohnheiten",
+              "Wissenschaftlicher Forschungsstand und offene lokale Fragen"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 81
+          }
+        ],
+        "conceptLine": 71,
+        "related": [
+          "t10-5"
+        ]
+      },
+      {
+        "id": "t2-5",
+        "conceptNumber": "2.5",
+        "title": "Verschwundene Begegnungsorte in Bergedorf",
+        "description": "Arten früherer Treffpunkte, ihre stadtteilbezogene Dokumentation und die Untersuchung historischer Veränderungen.",
+        "scope": [],
+        "content": "",
+        "children": [
+          {
+            "id": "t2-5-1",
+            "conceptNumber": "2.5.1",
+            "title": "Ehemalige Gastwirtschaften und Kneipen",
+            "description": "Einzelverzeichnis; Name; historische Anschrift; Betriebszeitraum.",
+            "scope": [
+              "Einzelverzeichnis; Name; historische Anschrift; Betriebszeitraum",
+              "Belegte Schließung oder Nutzungsänderung; dokumentierte Gründe",
+              "Frühere soziale Funktion; Quellen, Fotos, Erinnerungen; heutige Nutzung"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 89,
+            "sharedCollection": "historische-begegnungsorte"
+          },
+          {
+            "id": "t2-5-2",
+            "conceptNumber": "2.5.2",
+            "title": "Ehemalige Cafés und gastronomische Treffpunkte",
+            "description": "Vergleichbare historische Dokumentation, Betriebsform und Besucherschaft.",
+            "scope": [
+              "Vergleichbare historische Dokumentation, Betriebsform und Besucherschaft"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 93,
+            "sharedCollection": "historische-begegnungsorte"
+          },
+          {
+            "id": "t2-5-3",
+            "conceptNumber": "2.5.3",
+            "title": "Frühere Vereinslokale und Gemeinschaftsräume",
+            "description": "Vereinsgaststätten, Vereinsheime, gemeinschaftlich genutzte Räume, Nutzungswandel.",
+            "scope": [
+              "Vereinsgaststätten, Vereinsheime, gemeinschaftlich genutzte Räume, Nutzungswandel"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 95,
+            "sharedCollection": "historische-begegnungsorte"
+          },
+          {
+            "id": "t2-5-4",
+            "conceptNumber": "2.5.4",
+            "title": "Ehemalige Gemeindehäuser und weitere Treffpunkte",
+            "description": "Gemeinderäume, Nachbarschaftstreffs, Gemeinschaftsräume in Wohnanlagen, andere belegte Orte.",
+            "scope": [
+              "Gemeinderäume, Nachbarschaftstreffs, Gemeinschaftsräume in Wohnanlagen, andere belegte Orte"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 97,
+            "sharedCollection": "historische-begegnungsorte"
+          },
+          {
+            "id": "t2-5-5",
+            "conceptNumber": "2.5.5",
+            "title": "Ehemalige Begegnungsorte nach Stadtteilen",
+            "description": "Bergedorf, Lohbrügge, Neuallermöhe, Bergedorf-West, weitere Stadtteile, Vier- und Marschlande.",
+            "scope": [
+              "Bergedorf, Lohbrügge, Neuallermöhe, Bergedorf-West, weitere Stadtteile, Vier- und Marschlande"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 99,
+            "sharedCollection": "historische-begegnungsorte",
+            "related": [
+              "t10-2"
+            ]
+          },
+          {
+            "id": "t2-5-6",
+            "conceptNumber": "2.5.6",
+            "title": "Historische Entwicklung untersuchen",
+            "description": "Frühere Standorte und belegte Schließungen; Zeitpunkt und Umnutzung.",
+            "scope": [
+              "Frühere Standorte und belegte Schließungen; Zeitpunkt und Umnutzung",
+              "Neu entstandene Orte; Veränderungen sozialer Funktionen",
+              "Nachweisbare Versorgungslücken und mögliche Zusammenhänge mit Einsamkeit"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 101,
+            "sharedCollection": "historische-begegnungsorte"
+          }
+        ],
+        "conceptLine": 87,
+        "sharedCollection": "historische-begegnungsorte",
+        "related": [
+          "t10-6",
+          "t10-2"
+        ]
+      },
+      {
+        "id": "t2-6",
+        "conceptNumber": "2.6",
+        "title": "Ursachen wissenschaftlich untersuchen",
+        "description": "Individuelle und strukturelle Faktoren.",
+        "scope": [
+          "Individuelle und strukturelle Faktoren",
+          "Korrelation vs. Kausalität",
+          "Forschung zu Begegnungsorten und Infrastruktur",
+          "Unterschiede zwischen Gruppen; langfristiger Wandel; Forschungsgrenzen",
+          "Offene Forschungsfragen für Bergedorf"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 106
+      }
+    ],
+    "conceptLine": 47,
+    "group": "wissen"
+  },
+  {
+    "id": "kennenlernen",
+    "conceptNumber": "3",
+    "title": "Was ist ein gesundes Kennenlernen?",
+    "description": "Respektvoll Kontakte knüpfen, Vertrauen entwickeln, Freundschaften pflegen und persönliche Grenzen beachten.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t3-1",
+        "conceptNumber": "3.1",
+        "title": "Was bedeutet gesundes Kennenlernen?",
+        "description": "Psychologische und sozialpsychologische Grundlagen.",
+        "scope": [
+          "Psychologische und sozialpsychologische Grundlagen",
+          "Gegenseitiges Interesse, Respekt, Vertrauen, Freiwilligkeit",
+          "Kommunikation, persönliche Grenzen, Einvernehmlichkeit, Kontaktbedürfnisse"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 117
+      },
+      {
+        "id": "t3-2",
+        "conceptNumber": "3.2",
+        "title": "Wie beginnt ein Kontakt?",
+        "description": "Fremde ansprechen, Gesprächsanlässe erkennen, Gespräche beginnen.",
+        "scope": [
+          "Fremde ansprechen, Gesprächsanlässe erkennen, Gespräche beginnen",
+          "Zuhören, Fragen stellen, Interessen entdecken",
+          "Kontakte in Gruppen und Veranstaltungen, Schüchternheit, Kommunikationsstile"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 121
+      },
+      {
+        "id": "t3-3",
+        "conceptNumber": "3.3",
+        "title": "Vom ersten Gespräch zur Bekanntschaft",
+        "description": "Wiederaufnahme von Kontakten und wiederkehrende Begegnungen.",
+        "scope": [
+          "Wiederaufnahme von Kontakten und wiederkehrende Begegnungen",
+          "Interesse erkennen, Verlässlichkeit, gemeinsame Aktivitäten, Erwartungen",
+          "Kontakt halten ohne Aufdringlichkeit"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 125
+      },
+      {
+        "id": "t3-4",
+        "conceptNumber": "3.4",
+        "title": "Von Bekanntschaften zu Freundschaften",
+        "description": "Vertrauen, Gegenseitigkeit, Nähe, gemeinsame Erfahrungen.",
+        "scope": [
+          "Vertrauen, Gegenseitigkeit, Nähe, gemeinsame Erfahrungen",
+          "Hilfe in schwierigen Zeiten, Beziehungstypen, langfristige Pflege"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 129
+      },
+      {
+        "id": "t3-5",
+        "conceptNumber": "3.5",
+        "title": "Schwierigkeiten beim Kennenlernen",
+        "description": "Ablehnungsangst, Vorerfahrungen, Unsicherheit, langjährige Isolation.",
+        "scope": [
+          "Ablehnungsangst, Vorerfahrungen, Unsicherheit, langjährige Isolation",
+          "Unterschiedliche Erwartungen, Missverständnisse, einseitige Bemühungen, Gruppenanschluss"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 132
+      },
+      {
+        "id": "t3-6",
+        "conceptNumber": "3.6",
+        "title": "Grenzen und Konflikte",
+        "description": "Ablehnung akzeptieren, Grenzen respektieren, fehlendes Interesse.",
+        "scope": [
+          "Ablehnung akzeptieren, Grenzen respektieren, fehlendes Interesse",
+          "Konfliktgespräche, respektvolle Distanz, ungesunde Muster, Schutz vor Übergriffen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 135
+      },
+      {
+        "id": "t3-7",
+        "conceptNumber": "3.7",
+        "title": "Wissenschaftliche Erkenntnisse und praktische Übungen",
+        "description": "Sozialpsychologie, Kommunikationswissenschaft, Freundschafts-/Bindungsforschung.",
+        "scope": [
+          "Sozialpsychologie, Kommunikationswissenschaft, Freundschafts-/Bindungsforschung",
+          "Untersuchte Bedingungen, freiwillige praktische Übungen, Grenzen allgemeiner Empfehlungen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 138
+      },
+      {
+        "id": "t3-8",
+        "conceptNumber": "3.8",
+        "title": "Erfahrungen und kurze Kommentare",
+        "description": "Eigener themenbezogener Kommentarbereich: max. 250 Zeichen pro Kommentar, Moderation vor Veröffentlichung.",
+        "scope": [
+          "Eigener themenbezogener Kommentarbereich: max. 250 Zeichen pro Kommentar, Moderation vor Veröffentlichung",
+          "Zunächst nur konzeptionell/lokales Testformular, keine öffentliche Speicherung oder Freischaltung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 141,
+        "plannedCommentMaxLength": 250
+      }
+    ],
+    "conceptLine": 113,
+    "group": "kontakte",
+    "plannedCommentMaxLength": 250
+  },
+  {
+    "id": "lebenssituationen",
+    "conceptNumber": "4",
+    "title": "Einsamkeit in unterschiedlichen Lebensphasen und Lebenssituationen",
+    "description": "Lebensphasen, persönliche Situationen, unterschiedliche Barrieren und Fragen zur sozialen Teilhabe.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t4-1",
+        "conceptNumber": "4.1",
+        "title": "Kinder und Jugendliche",
+        "description": "Kinder, Schüler, Jugendliche; Schulwechsel, Mobbing und Ausgrenzung.",
+        "scope": [
+          "Kinder, Schüler, Jugendliche; Schulwechsel, Mobbing und Ausgrenzung",
+          "Jugendgruppen, Freizeit, digitale Kommunikation, sozialer Rückzug",
+          "Ausbildungs-/Berufsübergänge, Schule und Jugendhilfe"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 149
+      },
+      {
+        "id": "t4-2",
+        "conceptNumber": "4.2",
+        "title": "Junge Erwachsene",
+        "description": "Ausbildung, Studium, Berufseinstieg, eigene Haushalte, Umzug.",
+        "scope": [
+          "Ausbildung, Studium, Berufseinstieg, eigene Haushalte, Umzug",
+          "Verlust von Freundeskreisen, Erwartungen, Beziehungsaufbau"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 153
+      },
+      {
+        "id": "t4-3",
+        "conceptNumber": "4.3",
+        "title": "Erwachsene und Erwerbsleben",
+        "description": "Berufstätige, Schichtarbeit, Homeoffice, Selbstständigkeit.",
+        "scope": [
+          "Berufstätige, Schichtarbeit, Homeoffice, Selbstständigkeit",
+          "Arbeitslosigkeit, Erkrankung, Finanzen, berufliches Umfeld"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 156
+      },
+      {
+        "id": "t4-4",
+        "conceptNumber": "4.4",
+        "title": "Familien und Beziehungen",
+        "description": "Alleinleben, Alleinerziehung, Mütter und Väter, Elternschaft.",
+        "scope": [
+          "Alleinleben, Alleinerziehung, Mütter und Väter, Elternschaft",
+          "Sorgeverantwortung, Partnerschaften, Trennung, Konflikte, Kontaktverlust",
+          "Menschen ohne familiäre Unterstützung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 159
+      },
+      {
+        "id": "t4-5",
+        "conceptNumber": "4.5",
+        "title": "Ältere Menschen",
+        "description": "Ruhestand, Verluste, Altersarmut, eingeschränkte Mobilität.",
+        "scope": [
+          "Ruhestand, Verluste, Altersarmut, eingeschränkte Mobilität",
+          "Hochbetagte; stationäre und häusliche Pflege; digitale Barrieren",
+          "Generationenübergreifende Kontakte"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 163
+      },
+      {
+        "id": "t4-6",
+        "conceptNumber": "4.6",
+        "title": "Weitere besondere Lebenssituationen",
+        "description": "Behinderungen, chronische und psychische Erkrankungen, Suchterkrankungen.",
+        "scope": [
+          "Behinderungen, chronische und psychische Erkrankungen, Suchterkrankungen",
+          "Migration, Flucht, Neuzuzug, Sprache, geringe Lese-/Schreibkompetenz",
+          "Queere Menschen; Armut; Wohnungs- und Obdachlosigkeit",
+          "Gewaltfolgen, Strafhaft, Trauer und Mehrfachbelastungen",
+          "Jeweils eigenständige Vertiefung bei entsprechendem Inhalt"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 167
+      }
+    ],
+    "conceptLine": 145,
+    "group": "wissen"
+  },
+  {
+    "id": "gesundheit",
+    "conceptNumber": "5",
+    "title": "Einsamkeit und Gesundheit",
+    "description": "Psychische und körperliche Zusammenhänge, Pflege, gesundheitliche Einschränkungen und professionelle Unterstützung.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t5-1",
+        "conceptNumber": "5.1",
+        "title": "Psychische Gesundheit",
+        "description": "Depressive Symptome, Angst, chronischer Stress, Selbstwert, Schlaf.",
+        "scope": [
+          "Depressive Symptome, Angst, chronischer Stress, Selbstwert, Schlaf",
+          "Krisen, Suizidalität und professionelle Hilfsangebote",
+          "Psychotherapeutische Unterstützung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 178
+      },
+      {
+        "id": "t5-2",
+        "conceptNumber": "5.2",
+        "title": "Körperliche Gesundheit",
+        "description": "Herz-Kreislauf, Schlaf, Stressreaktionen, Gesundheitsverhalten, Bewegung.",
+        "scope": [
+          "Herz-Kreislauf, Schlaf, Stressreaktionen, Gesundheitsverhalten, Bewegung",
+          "Chronische Erkrankungen, kognitive Gesundheit, Demenz",
+          "Forschungsstand zu Sterblichkeit und seine Grenzen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 182
+      },
+      {
+        "id": "t5-3",
+        "conceptNumber": "5.3",
+        "title": "Gesundheitliche Einschränkungen und Teilhabe",
+        "description": "Mobilität, Schmerz, Hör-/Sehbehinderung, Kommunikationsbeeinträchtigungen.",
+        "scope": [
+          "Mobilität, Schmerz, Hör-/Sehbehinderung, Kommunikationsbeeinträchtigungen",
+          "Neurodivergenz, schwere/seltene Krankheiten, Rehabilitation, Klinik, Entlassung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 186
+      },
+      {
+        "id": "t5-4",
+        "conceptNumber": "5.4",
+        "title": "Pflege und Betreuung",
+        "description": "Häusliche und stationäre Pflege, Angehörige, Demenz.",
+        "scope": [
+          "Häusliche und stationäre Pflege, Angehörige, Demenz",
+          "Betreuung, Besuchsdienste, Pflegestützpunkte, Beratung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 189
+      },
+      {
+        "id": "t5-5",
+        "conceptNumber": "5.5",
+        "title": "Medizinische und professionelle Hilfe",
+        "description": "Hausärzte, psychologische Beratung, Psychotherapie, Fachärzte.",
+        "scope": [
+          "Hausärzte, psychologische Beratung, Psychotherapie, Fachärzte",
+          "Sozialberatung, Krisendienst, Sucht- und Gewalthilfe"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 192
+      }
+    ],
+    "conceptLine": 174,
+    "group": "wissen"
+  },
+  {
+    "id": "selbst-aktiv-werden",
+    "conceptNumber": "6",
+    "title": "Was kann ich selbst gegen Einsamkeit tun?",
+    "description": "Erste Schritte, neue Kontakte, Begleitung beim ersten Besuch und der Umgang mit enttäuschenden Erfahrungen.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t6-1",
+        "conceptNumber": "6.1",
+        "title": "Erste Schritte",
+        "description": "Bedürfnisse, Kontaktmöglichkeiten, Treffpunkt auswählen.",
+        "scope": [
+          "Bedürfnisse, Kontaktmöglichkeiten, Treffpunkt auswählen",
+          "Vorbereitung, allein hingehen, kleine Ziele"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 200
+      },
+      {
+        "id": "t6-2",
+        "conceptNumber": "6.2",
+        "title": "Neue Kontakte finden",
+        "description": "Freizeit/Interessen, Nachbarschaft, Sport, Kultur, Bildung.",
+        "scope": [
+          "Freizeit/Interessen, Nachbarschaft, Sport, Kultur, Bildung",
+          "Ehrenamt, Mahlzeiten, Gruppen, digitale Möglichkeiten"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 203
+      },
+      {
+        "id": "t6-3",
+        "conceptNumber": "6.3",
+        "title": "Unterstützung beim ersten Besuch",
+        "description": "Begleitung, Patenschaften, Ansprechpartner.",
+        "scope": [
+          "Begleitung, Patenschaften, Ansprechpartner",
+          "Ablauf, kleine Gruppen, Rückzugsmöglichkeiten, Unsicherheit"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 206
+      },
+      {
+        "id": "t6-4",
+        "conceptNumber": "6.4",
+        "title": "Kontakte dauerhaft erhalten",
+        "description": "Regelmäßigkeit, gemeinsame Interessen, Gegenseitigkeit.",
+        "scope": [
+          "Regelmäßigkeit, gemeinsame Interessen, Gegenseitigkeit",
+          "Enttäuschungen, Bekanntschaften vertiefen, Grenzen, Beziehungspflege"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 209
+      },
+      {
+        "id": "t6-5",
+        "conceptNumber": "6.5",
+        "title": "Wenn ein erster Versuch nicht funktioniert",
+        "description": "Kein Anschluss, negative Erfahrungen, Absagen, unpassende Angebote.",
+        "scope": [
+          "Kein Anschluss, negative Erfahrungen, Absagen, unpassende Angebote",
+          "Alternativen und professionelle Unterstützung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 212
+      }
+    ],
+    "conceptLine": 196,
+    "group": "kontakte"
+  },
+  {
+    "id": "hilfe",
+    "conceptNumber": "7",
+    "title": "Hilfe, Beratung und Unterstützung finden",
+    "description": "Orientierung bei der Suche nach Beratung, Kontakten und Unterstützung. Konkrete örtliche Hilfsangebote werden noch geprüft.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t7-1",
+        "conceptNumber": "7.1",
+        "title": "Ich fühle mich einsam",
+        "description": "Ansprechpartner, Telefonangebote, Beratung, Kontakte, Begegnung, erster Besuch.",
+        "scope": [
+          "Ansprechpartner, Telefonangebote, Beratung, Kontakte, Begegnung, erster Besuch"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 220
+      },
+      {
+        "id": "t7-2",
+        "conceptNumber": "7.2",
+        "title": "Ich benötige professionelle Hilfe",
+        "description": "Psychosoziale Beratung, Krisen, Gesundheit, Sucht, Gewalt, Trauer, Familie, Soziales.",
+        "scope": [
+          "Psychosoziale Beratung, Krisen, Gesundheit, Sucht, Gewalt, Trauer, Familie, Soziales"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 222
+      },
+      {
+        "id": "t7-3",
+        "conceptNumber": "7.3",
+        "title": "Ich kann meine Wohnung kaum verlassen",
+        "description": "Besuchsdienste, Telefonpartnerschaft, mobile Angebote, Begleitung.",
+        "scope": [
+          "Besuchsdienste, Telefonpartnerschaft, mobile Angebote, Begleitung",
+          "Mobilität, Pflege- und Sozialdienste, Angehörige, freiwillige Kontakte"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 224
+      },
+      {
+        "id": "t7-4",
+        "conceptNumber": "7.4",
+        "title": "Ich möchte jemand anderem helfen",
+        "description": "Sensibles Ansprechen, Zuhören, Grenzen, Vermittlung, gemeinsame Besuche.",
+        "scope": [
+          "Sensibles Ansprechen, Zuhören, Grenzen, Vermittlung, gemeinsame Besuche",
+          "Ehrenamt und professionelle Krisenhilfe"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 227
+      },
+      {
+        "id": "t7-5",
+        "conceptNumber": "7.5",
+        "title": "Hilfsangebote in Bergedorf",
+        "description": "Stadtteil und Unterstützungsart; Alters-/Lebenssituation.",
+        "scope": [
+          "Stadtteil und Unterstützungsart; Alters-/Lebenssituation",
+          "Kostenlos, ohne Anmeldung, barrierefrei, telefonisch",
+          "Abend und Wochenende; überprüfte Kontakte und Öffnungszeiten",
+          "Pro Angebot, soweit belegt: Träger, Angebot, Zielgruppe, Adresse/Einzugsgebiet, Kontakt, Zeiten, Kosten, Anmelderegeln, Barrierefreiheitsmerkmale, Prüftermin, Quelle"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 230
+      }
+    ],
+    "conceptLine": 216,
+    "group": "kontakte"
+  },
+  {
+    "id": "begegnung",
+    "conceptNumber": "8",
+    "title": "Begegnung und Gemeinschaft im Alltag",
+    "description": "Treffpunkte, gemeinsame Aktivitäten, Zugangshürden und Fragen zur tatsächlichen Nutzbarkeit von Angeboten.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t8-1",
+        "conceptNumber": "8.1",
+        "title": "Arten von Begegnungsorten",
+        "description": "Nachbarschaftstreffs, Stadtteilzentren, Cafés, Gaststätten, Mittagstische.",
+        "scope": [
+          "Nachbarschaftstreffs, Stadtteilzentren, Cafés, Gaststätten, Mittagstische",
+          "Kulturzentren, Bibliotheken, Vereine, Gemeinschaftsräume, Parks/Plätze",
+          "Religiöse/weltanschauliche Einrichtungen, digitale Räume"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 240
+      },
+      {
+        "id": "t8-2",
+        "conceptNumber": "8.2",
+        "title": "Formen der Begegnung",
+        "description": "Offene Treffen, Mahlzeiten, Frühstück, Gespräch, Freizeit, Spaziergänge.",
+        "scope": [
+          "Offene Treffen, Mahlzeiten, Frühstück, Gespräch, Freizeit, Spaziergänge",
+          "Sport, Kultur, Lernen, Ehrenamt, handwerkliche/kreative Aktivitäten",
+          "Generationenübergreifende Projekte"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 244
+      },
+      {
+        "id": "t8-3",
+        "conceptNumber": "8.3",
+        "title": "Was macht ein Angebot zugänglich?",
+        "description": "Keine Pflichtmitgliedschaft oder unnötige Anmeldung.",
+        "scope": [
+          "Keine Pflichtmitgliedschaft oder unnötige Anmeldung",
+          "Bezahlbarkeit, Erreichbarkeit, Barrierefreiheit, Regelmäßigkeit",
+          "Alleine teilnehmen, verständliche Informationen, Begrüßung, Anti-Ausgrenzung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 248
+      },
+      {
+        "id": "t8-4",
+        "conceptNumber": "8.4",
+        "title": "Warum werden vorhandene Angebote nicht genutzt?",
+        "description": "Unbekanntheit, Zeiten, Entfernungen, Kosten, falsche Ansprache.",
+        "scope": [
+          "Unbekanntheit, Zeiten, Entfernungen, Kosten, falsche Ansprache",
+          "Gruppenangst, Scham, negative Erfahrungen, fehlende Starthilfe"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 252
+      },
+      {
+        "id": "t8-5",
+        "conceptNumber": "8.5",
+        "title": "Dokumentierte Praxisbeispiele",
+        "description": "KulturistenHoch2, Pottkieker Großlohe, Seniorenarbeit.",
+        "scope": [
+          "KulturistenHoch2, Pottkieker Großlohe, Seniorenarbeit",
+          "Gemeinsame Mahlzeiten, im Auftakt genanntes polnisches Beispiel",
+          "Weitere nachprüfbare Begegnungskonzepte; Wirksamkeit jeweils eigens überprüfen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 255
+      }
+    ],
+    "conceptLine": 236,
+    "group": "kontakte"
+  },
+  {
+    "id": "begegnungsstaette",
+    "conceptNumber": "9",
+    "title": "Wie gründe ich eine Begegnungsstätte, die von allen Gruppen der Gesellschaft besucht wird?",
+    "description": "Von der Bedarfsermittlung bis zum dauerhaften Betrieb: Standort, Angebote, Gleichbehandlung, Organisation und Finanzierung.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t9-1",
+        "conceptNumber": "9.1",
+        "title": "Grundidee und Zielsetzung",
+        "description": "Offene Begegnungsstätte vs. zielgruppenbezogene Einrichtungen.",
+        "scope": [
+          "Offene Begegnungsstätte vs. zielgruppenbezogene Einrichtungen",
+          "Gesellschaftliche Durchmischung, gemeinsame Bedürfnisse",
+          "Freiwilligkeit, gemeinsame Aktivitäten, generationsübergreifende Kontakte",
+          "Wissenschaftliche Grundlagen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 264
+      },
+      {
+        "id": "t9-2",
+        "conceptNumber": "9.2",
+        "title": "Bedarf ermitteln",
+        "description": "Vorhandene Angebote, fehlende Orte, nicht erreichte Personen.",
+        "scope": [
+          "Vorhandene Angebote, fehlende Orte, nicht erreichte Personen",
+          "Gewünschte Zeiten und Angebote, Bürgerbefragung, Sozialraumanalyse"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 269
+      },
+      {
+        "id": "t9-3",
+        "conceptNumber": "9.3",
+        "title": "Standort und Erreichbarkeit",
+        "description": "Lage, Fußwege, ÖPNV, Barrierefreiheit, Sicherheit.",
+        "scope": [
+          "Lage, Fußwege, ÖPNV, Barrierefreiheit, Sicherheit",
+          "Abend/Wochenende, Vier- und Marschlande, Begleitung/Mobilität"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 272
+      },
+      {
+        "id": "t9-4",
+        "conceptNumber": "9.4",
+        "title": "Angebote für unterschiedliche Menschen",
+        "description": "Mahlzeiten, günstige Speisen/Getränke, ohne Konsumzwang.",
+        "scope": [
+          "Mahlzeiten, günstige Speisen/Getränke, ohne Konsumzwang",
+          "Spontanbesuch, Kultur, Bildung, Freizeit, praktische Aktivitäten",
+          "Ruhige Räume, offene/begleitete Begegnungen, Vielfalt der Interessen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 275
+      },
+      {
+        "id": "t9-5",
+        "conceptNumber": "9.5",
+        "title": "Gleichbehandlung und Diskriminierungsfreiheit",
+        "description": "Zugang, Diskriminierungsschutz, Verhaltensregeln, Konflikte.",
+        "scope": [
+          "Zugang, Diskriminierungsschutz, Verhaltensregeln, Konflikte",
+          "Barrierefreiheit, klare Kommunikation, soziale Vielfalt, Beschwerden"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 279
+      },
+      {
+        "id": "t9-6",
+        "conceptNumber": "9.6",
+        "title": "Finanzierung und Bezahlbarkeit",
+        "description": "Gründungs-, Raum-, Personal- und Betriebskosten; Versicherung.",
+        "scope": [
+          "Gründungs-, Raum-, Personal- und Betriebskosten; Versicherung",
+          "Fördermittel, Stiftungen, Spenden, legale Einnahmen, Kooperationen",
+          "Soziale Preise, kostenlose Nutzung, dauerhafte Wirtschaftlichkeit"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 282
+      },
+      {
+        "id": "t9-7",
+        "conceptNumber": "9.7",
+        "title": "Rechtliche und organisatorische Voraussetzungen",
+        "description": "Trägerformen, Zuständigkeiten, Raum/Bau/Brandschutz.",
+        "scope": [
+          "Trägerformen, Zuständigkeiten, Raum/Bau/Brandschutz",
+          "Lebensmittelrecht, Versicherungen, Haftung, Beschäftigung/Ehrenamt",
+          "Datenschutz, Hausordnung, Sicherheit, Beschwerden"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 286
+      },
+      {
+        "id": "t9-8",
+        "conceptNumber": "9.8",
+        "title": "Personal und Zusammenarbeit",
+        "description": "Fachkräfte, Ehrenamt, Ansprechpersonen, Schulung, Konfliktkompetenz.",
+        "scope": [
+          "Fachkräfte, Ehrenamt, Ansprechpersonen, Schulung, Konfliktkompetenz",
+          "Organisationen, Mitwirkung der Gäste, Zuständigkeiten"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 290
+      },
+      {
+        "id": "t9-9",
+        "conceptNumber": "9.9",
+        "title": "Bekanntmachung und Besuchergewinnung",
+        "description": "Öffentlichkeitsarbeit, persönliche Ansprache, Genossenschaften.",
+        "scope": [
+          "Öffentlichkeitsarbeit, persönliche Ansprache, Genossenschaften",
+          "Praxen/Beratungen, Nahverkehr, Medien, digitale/analoge Kanäle"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 293
+      },
+      {
+        "id": "t9-10",
+        "conceptNumber": "9.10",
+        "title": "Dauerhafter Betrieb",
+        "description": "Öffnungszeiten, Regelmäßigkeit, Personal und Haushalt.",
+        "scope": [
+          "Öffnungszeiten, Regelmäßigkeit, Personal und Haushalt",
+          "Beteiligung, Evaluation, geringe Auslastung, Anpassung, Verstetigung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 296
+      },
+      {
+        "id": "t9-11",
+        "conceptNumber": "9.11",
+        "title": "Wissenschaftliche Erkenntnisse und Praxisvergleiche",
+        "description": "Begegnungsortforschung, soziale Durchmischung, Niedrigschwelligkeit.",
+        "scope": [
+          "Begegnungsortforschung, soziale Durchmischung, Niedrigschwelligkeit",
+          "Generationen, wiederholte Kontakte, Wirkung, Grenzen, Vergleiche"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 299
+      },
+      {
+        "id": "t9-12",
+        "conceptNumber": "9.12",
+        "title": "Kommentare und Vorschläge",
+        "description": "Eigener Kommentarbereich: max. 500 Zeichen, Moderation vor Veröffentlichung.",
+        "scope": [
+          "Eigener Kommentarbereich: max. 500 Zeichen, Moderation vor Veröffentlichung",
+          "Zunächst konzeptionell/lokales Testformular, keine produktive Freischaltung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 302,
+        "plannedCommentMaxLength": 500
+      }
+    ],
+    "conceptLine": 260,
+    "group": "kontakte",
+    "plannedCommentMaxLength": 500
+  },
+  {
+    "id": "stadtteile",
+    "conceptNumber": "10",
+    "title": "Einsamkeit in Bergedorf – Stadtteile und örtliche Lebensbedingungen",
+    "description": "Stadtteile, örtliche Lebensbedingungen, Erreichbarkeit und der Wandel früherer und heutiger Begegnungsorte.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t10-1",
+        "conceptNumber": "10.1",
+        "title": "Bergedorf insgesamt",
+        "description": "Bevölkerungsstruktur, Sozialräume, Begegnungsorte, Erreichbarkeit.",
+        "scope": [
+          "Bevölkerungsstruktur, Sozialräume, Begegnungsorte, Erreichbarkeit",
+          "Infrastruktur, lokale Erkenntnisse, Forschungsbedarf"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 310
+      },
+      {
+        "id": "t10-2",
+        "conceptNumber": "10.2",
+        "title": "Stadtteilbezogene Untersuchungen",
+        "description": "Bergedorf, Lohbrügge, Neuallermöhe, Allermöhe, Billwerder.",
+        "scope": [
+          "Bergedorf, Lohbrügge, Neuallermöhe, Allermöhe, Billwerder",
+          "Moorfleet, Tatenberg, Spadenland, Reitbrook, Ochsenwerder",
+          "Kirchwerder, Neuengamme, Altengamme, Curslack",
+          "Eigene Unterseiten für Teilräume wie Bergedorf-West, Nettelnburg und Großlohe bei Bedarf"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 313,
+        "related": [
+          "t2-5-5"
+        ]
+      },
+      {
+        "id": "t10-3",
+        "conceptNumber": "10.3",
+        "title": "Was wird in jedem Stadtteil untersucht?",
+        "description": "Wohn-/Bevölkerungsstruktur, aktuelle und frühere Treffpunkte.",
+        "scope": [
+          "Wohn-/Bevölkerungsstruktur, aktuelle und frühere Treffpunkte",
+          "ÖPNV, Barrierefreiheit, Kosten, Zeiten, Zielgruppen",
+          "Fehlende Angebote, öffentlicher Raum, Beteiligung, Quellen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 318
+      },
+      {
+        "id": "t10-4",
+        "conceptNumber": "10.4",
+        "title": "Vier- und Marschlande",
+        "description": "Entfernung, Nahverkehr, ländliche Treffen, Dorfgemeinschaften.",
+        "scope": [
+          "Entfernung, Nahverkehr, ländliche Treffen, Dorfgemeinschaften",
+          "Vereine, Menschen ohne Auto, Abend/Wochenende, Begleitung, mobile Angebote"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 322
+      },
+      {
+        "id": "t10-5",
+        "conceptNumber": "10.5",
+        "title": "Gesellschaftlicher Wandel in Bergedorf",
+        "description": "Begegnungskultur, Gaststätten, Vereine, Gemeindeleben.",
+        "scope": [
+          "Begegnungskultur, Gaststätten, Vereine, Gemeindeleben",
+          "Stadtteilwandel, Schließungen/Neueröffnungen, Erreichbarkeit, neue Teilhabe",
+          "Vergleich früher und heute"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 325,
+        "related": [
+          "t2-4",
+          "t2-5-6"
+        ]
+      },
+      {
+        "id": "t10-6",
+        "conceptNumber": "10.6",
+        "title": "Historisches Verzeichnis der Begegnungsorte",
+        "description": "Einzelartikel pro belegtem historischen Standort.",
+        "scope": [
+          "Einzelartikel pro belegtem historischen Standort",
+          "Suche nach früherem Namen, Straße, Ort und Zeitraum",
+          "Verbindung zu „Geschichte und Erinnerungen“ und Abschnitt 2.5"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 329,
+        "sharedCollection": "historische-begegnungsorte",
+        "related": [
+          "t2-5"
+        ]
+      },
+      {
+        "id": "t10-7",
+        "conceptNumber": "10.7",
+        "title": "Was fehlt heute in Bergedorf?",
+        "description": "Bestandsaufnahme, Befragung, Stadtteilbedarf, spontane Begegnung.",
+        "scope": [
+          "Bestandsaufnahme, Befragung, Stadtteilbedarf, spontane Begegnung",
+          "Generationenübergreifende Orte, Barrieren und Kosten",
+          "Belegte Vorschläge, Verantwortlichkeiten; offene Fragen als solche markieren"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 333
+      }
+    ],
+    "conceptLine": 306,
+    "group": "bergedorf"
+  },
+  {
+    "id": "netzwerke",
+    "conceptNumber": "11",
+    "title": "Organisationen, Einrichtungen und Netzwerke",
+    "description": "Einrichtungen, Ansprechpartner, mögliche Partner und die Zusammenarbeit lokaler Netzwerke.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t11-1",
+        "conceptNumber": "11.1",
+        "title": "Organisationen und Einrichtungen",
+        "description": "Wohlfahrtsverbände, Vereine, Stiftungen, Selbsthilfe, Nachbarschaft.",
+        "scope": [
+          "Wohlfahrtsverbände, Vereine, Stiftungen, Selbsthilfe, Nachbarschaft",
+          "Pflege, Beratung, Familie/Jugend, Bildung, Sport, Kultur, Freiwilligenagenturen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 342
+      },
+      {
+        "id": "t11-2",
+        "conceptNumber": "11.2",
+        "title": "Wohnumfeld und örtliche Ansprechpartner",
+        "description": "Genossenschaften, Wohnungsunternehmen, Verwaltungen, Hausmeister.",
+        "scope": [
+          "Genossenschaften, Wohnungsunternehmen, Verwaltungen, Hausmeister",
+          "Quartiersmanagement und Nachbarschaftsprojekte, Gemeindeeinrichtungen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 345
+      },
+      {
+        "id": "t11-3",
+        "conceptNumber": "11.3",
+        "title": "Weitere mögliche Netzwerkpartner",
+        "description": "Praxen, Apotheken, Jobcenter, Arbeitsverwaltung.",
+        "scope": [
+          "Praxen, Apotheken, Jobcenter, Arbeitsverwaltung",
+          "Unternehmen, Gewerkschaften, Wirtschaftsorganisationen",
+          "Post, Einzelhandel, Nahverkehr, Medien, Religions-/Weltanschauungsgemeinschaften"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 348
+      },
+      {
+        "id": "t11-4",
+        "conceptNumber": "11.4",
+        "title": "Zusammenarbeit und Vernetzung",
+        "description": "Netzwerke, Zuständigkeiten, Kooperationen, Vermittlung, Projekte.",
+        "scope": [
+          "Netzwerke, Zuständigkeiten, Kooperationen, Vermittlung, Projekte",
+          "Doppelarbeit vermeiden, Fach- und Ehrenamtsaustausch, Datenschutz"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 352
+      },
+      {
+        "id": "t11-5",
+        "conceptNumber": "11.5",
+        "title": "Organisationen in Bergedorf",
+        "description": "Verifizierte Einrichtung, Angebot, Ansprechpartner, Kontakt.",
+        "scope": [
+          "Verifizierte Einrichtung, Angebot, Ansprechpartner, Kontakt",
+          "Zugänglichkeit/Kosten, Verbindung zum bestehenden Organisationsverzeichnis"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 355
+      }
+    ],
+    "conceptLine": 338,
+    "group": "bergedorf"
+  },
+  {
+    "id": "menschen-erreichen",
+    "conceptNumber": "12",
+    "title": "Menschen erreichen, die bisher keine Angebote nutzen",
+    "description": "Gründe für fehlenden Zugang zu Angeboten, persönliche Kontaktwege und eine respektvolle Ansprache.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t12-1",
+        "conceptNumber": "12.1",
+        "title": "Gründe fehlender Erreichbarkeit",
+        "description": "Rückzug, Scham, Vertrauen, Gruppenangst, fehlende Information.",
+        "scope": [
+          "Rückzug, Scham, Vertrauen, Gruppenangst, fehlende Information",
+          "Armut, Gesundheit/Mobilität, Sprache, Grundbildung, kein Internet"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 363
+      },
+      {
+        "id": "t12-2",
+        "conceptNumber": "12.2",
+        "title": "Persönliche Kontaktwege",
+        "description": "Aufsuchende Sozialarbeit, Besuche, Vertrauenspersonen, Angehörige.",
+        "scope": [
+          "Aufsuchende Sozialarbeit, Besuche, Vertrauenspersonen, Angehörige",
+          "Hausarzt, Pflege/Betreuung, Nachbarschaft, kleine geschützte Gruppen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 366
+      },
+      {
+        "id": "t12-3",
+        "conceptNumber": "12.3",
+        "title": "Öffentliche und analoge Information",
+        "description": "Flyer, Aushänge, Genossenschaftsmedien, Wohnanlagen.",
+        "scope": [
+          "Flyer, Aushänge, Genossenschaftsmedien, Wohnanlagen",
+          "Praxen, Apotheken, Lokalzeitungen, ÖPNV, Alltagsorte"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 369
+      },
+      {
+        "id": "t12-4",
+        "conceptNumber": "12.4",
+        "title": "Kommunikation und Vertrauensaufbau",
+        "description": "Einladung statt Beschämung, Freiwilligkeit, Datenschutz, Grenzen.",
+        "scope": [
+          "Einladung statt Beschämung, Freiwilligkeit, Datenschutz, Grenzen",
+          "Kontinuität und verlässliche Ansprechpartner"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 372
+      },
+      {
+        "id": "t12-5",
+        "conceptNumber": "12.5",
+        "title": "Wirksamkeit der Kontaktwege",
+        "description": "Erreichte/Nichterreichte, Methoden, Hindernisse, Erfolgskontrolle.",
+        "scope": [
+          "Erreichte/Nichterreichte, Methoden, Hindernisse, Erfolgskontrolle"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 375
+      }
+    ],
+    "conceptLine": 359,
+    "group": "bergedorf"
+  },
+  {
+    "id": "forschung",
+    "conceptNumber": "13",
+    "title": "Wissenschaft, Forschung und Wirksamkeit",
+    "description": "Forschungsmethoden, Studien, die Messung von Einsamkeit und die Bewertung der Wirksamkeit von Maßnahmen.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t13-1",
+        "conceptNumber": "13.1",
+        "title": "Wissenschaftliche Grundlagen",
+        "description": "Psychologie, Sozialpsychologie, Soziologie, Sozialarbeit.",
+        "scope": [
+          "Psychologie, Sozialpsychologie, Soziologie, Sozialarbeit",
+          "Public Health, Gesundheitswissenschaft, Stadt-/Raumforschung",
+          "Kommunikation, Demografie"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 382
+      },
+      {
+        "id": "t13-2",
+        "conceptNumber": "13.2",
+        "title": "Forschung zur Einsamkeit",
+        "description": "Nationale/internationale Forschung, Statistiken, Einsamkeitsbarometer.",
+        "scope": [
+          "Nationale/internationale Forschung, Statistiken, Einsamkeitsbarometer",
+          "Bevölkerungsgruppen, Jugend, Lebensphasen, gesellschaftlicher Zusammenhalt"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 386
+      },
+      {
+        "id": "t13-3",
+        "conceptNumber": "13.3",
+        "title": "Einsamkeit wissenschaftlich messen",
+        "description": "UCLA Loneliness Scale, De-Jong-Gierveld-Skala.",
+        "scope": [
+          "UCLA Loneliness Scale, De-Jong-Gierveld-Skala",
+          "Befragungsgrenzen, Repräsentativität, regionale Daten, Vergleichbarkeit"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 389
+      },
+      {
+        "id": "t13-4",
+        "conceptNumber": "13.4",
+        "title": "Was hilft nachweislich gegen Einsamkeit?",
+        "description": "Begegnung, psychologische Maßnahmen, Kontakt-/Besuchsprogramme.",
+        "scope": [
+          "Begegnung, psychologische Maßnahmen, Kontakt-/Besuchsprogramme",
+          "Gemeinschaft, strukturelle Änderungen, Studien, Gruppenunterschiede, Grenzen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 392
+      },
+      {
+        "id": "t13-5",
+        "conceptNumber": "13.5",
+        "title": "Projekte wissenschaftlich bewerten",
+        "description": "Besucherzahl vs. dauerhafte Beziehungen.",
+        "scope": [
+          "Besucherzahl vs. dauerhafte Beziehungen",
+          "Wiederkehrende Teilnahme, subjektive Einsamkeit, Langzeitwirkung",
+          "Abbrüche, Kosten-Wirksamkeit, unabhängige Evaluation, Betroffenenbeteiligung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 395
+      },
+      {
+        "id": "t13-6",
+        "conceptNumber": "13.6",
+        "title": "Quellen und Forschungsstand",
+        "description": "Originalstudien, Reviews, amtliche Statistik, Kompetenznetz Einsamkeit.",
+        "scope": [
+          "Originalstudien, Reviews, amtliche Statistik, Kompetenznetz Einsamkeit",
+          "Datum, Aussagekraft, Einschränkungen, offene Forschungsfragen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 399
+      }
+    ],
+    "conceptLine": 378,
+    "group": "wissen"
+  },
+  {
+    "id": "buendnis",
+    "conceptNumber": "14",
+    "title": "Das Hamburger Bündnis gegen Einsamkeit",
+    "description": "Entstehung, Strategieprozess, Dialogforen und Beteiligung am Hamburger Bündnis gegen Einsamkeit.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t14-1",
+        "conceptNumber": "14.1",
+        "title": "Entstehung und Zielsetzung",
+        "description": "Gründung, Initiatoren, Beteiligte, Struktur, Zivilgesellschaft, Ziele, Entwicklung.",
+        "scope": [
+          "Gründung, Initiatoren, Beteiligte, Struktur, Zivilgesellschaft, Ziele, Entwicklung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 407
+      },
+      {
+        "id": "t14-2",
+        "conceptNumber": "14.2",
+        "title": "Online-Auftakt des Strategieprozesses",
+        "description": "Anlass, Moderation, Referierende, Informationen, Diskussionen.",
+        "scope": [
+          "Anlass, Moderation, Referierende, Informationen, Diskussionen",
+          "Abstimmungen, Breakout-Sessions, Ergebnisse, offene Fragen, Schritte"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 409
+      },
+      {
+        "id": "t14-3",
+        "conceptNumber": "14.3",
+        "title": "Die drei vorgesehenen Dialogforen",
+        "description": "Die drei vorgesehenen Themenfelder: öffentlicher Raum, Care und Lebenslagen sowie Armut und Wohnen.",
+        "scope": [],
+        "content": "",
+        "children": [
+          {
+            "id": "t14-3-1",
+            "conceptNumber": "14.3.1",
+            "title": "Orte, Begegnungen, Quartiere und öffentlicher Raum",
+            "description": "Begegnungsstätten, Stadtentwicklung, Plätze, Nachbarschaft, Barrierefreiheit, Erreichbarkeit.",
+            "scope": [
+              "Begegnungsstätten, Stadtentwicklung, Plätze, Nachbarschaft, Barrierefreiheit, Erreichbarkeit"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 413
+          },
+          {
+            "id": "t14-3-2",
+            "conceptNumber": "14.3.2",
+            "title": "Care, Gleichstellung, Familie und Lebenslagen",
+            "description": "Pflege/Sorge, Familien, verschiedene Lebenslagen, Teilhabe, Gleichstellung.",
+            "scope": [
+              "Pflege/Sorge, Familien, verschiedene Lebenslagen, Teilhabe, Gleichstellung"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 415
+          },
+          {
+            "id": "t14-3-3",
+            "conceptNumber": "14.3.3",
+            "title": "Armut, Wohnen und soziale Sicherheit",
+            "description": "Einkommen, Wohnen, Kostenhürden, Sicherheit, Teilhabe.",
+            "scope": [
+              "Einkommen, Wohnen, Kostenhürden, Sicherheit, Teilhabe"
+            ],
+            "content": "",
+            "children": [],
+            "conceptLine": 417
+          }
+        ],
+        "conceptLine": 412
+      },
+      {
+        "id": "t14-4",
+        "conceptNumber": "14.4",
+        "title": "Dokumentation der Arbeitsgruppen",
+        "description": "Leitfragen, eingebrachte Themen, wenig erreichte Gruppen.",
+        "scope": [
+          "Leitfragen, eingebrachte Themen, wenig erreichte Gruppen",
+          "Netzwerkpartner, Organisation, Finanzierung, Beteiligungsbereitschaft, offene Fragen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 419
+      },
+      {
+        "id": "t14-5",
+        "conceptNumber": "14.5",
+        "title": "Weitere Entwicklung",
+        "description": "Veranstaltungen, Dialogforen, Fach-/Onlinetermine, Empfehlungen.",
+        "scope": [
+          "Veranstaltungen, Dialogforen, Fach-/Onlinetermine, Empfehlungen",
+          "Veröffentlichungen, Entscheidungen und Umsetzungsstand"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 422
+      },
+      {
+        "id": "t14-6",
+        "conceptNumber": "14.6",
+        "title": "Kontakt und Beteiligung",
+        "description": "Offizielle Kontakte, Teilnahme, Organisationen/Einzelpersonen, Termine, Quellen.",
+        "scope": [
+          "Offizielle Kontakte, Teilnahme, Organisationen/Einzelpersonen, Termine, Quellen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 425
+      }
+    ],
+    "conceptLine": 403,
+    "group": "verantwortung"
+  },
+  {
+    "id": "politik",
+    "conceptNumber": "15",
+    "title": "Politik, Strategien und öffentliche Verantwortung",
+    "description": "Zuständigkeiten auf Bundes-, Landes- und Bezirksebene, Finanzierung und nachvollziehbare politische Vorhaben.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t15-1",
+        "conceptNumber": "15.1",
+        "title": "Bundesebene",
+        "description": "Bundesstrategie, Allianz, Kompetenznetz, Veranstaltungen.",
+        "scope": [
+          "Bundesstrategie, Allianz, Kompetenznetz, Veranstaltungen",
+          "Forschung, Förderung und Vernetzung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 432
+      },
+      {
+        "id": "t15-2",
+        "conceptNumber": "15.2",
+        "title": "Hamburger Landesebene",
+        "description": "Landesstrategie als Vorhaben; bisherige politische Aktivitäten.",
+        "scope": [
+          "Landesstrategie als Vorhaben; bisherige politische Aktivitäten",
+          "Behörden, Senat, Bürgerschaft, Anfragen, Beschlüsse",
+          "Finanzierung, Koordinierung, Umsetzung, Evaluation"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 435
+      },
+      {
+        "id": "t15-3",
+        "conceptNumber": "15.3",
+        "title": "Hamburger Bezirke und Bergedorf",
+        "description": "Bezirksamt, Bezirksversammlung, Ausschüsse, Sozialplanung.",
+        "scope": [
+          "Bezirksamt, Bezirksversammlung, Ausschüsse, Sozialplanung",
+          "Stadtentwicklung, Treffpunkte, öffentlicher Raum, Infrastruktur, Bürgerbeteiligung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 439
+      },
+      {
+        "id": "t15-4",
+        "conceptNumber": "15.4",
+        "title": "Ressortübergreifende Verantwortung",
+        "description": "Soziales, Gesundheit, Bildung, Jugend/Familie, Pflege.",
+        "scope": [
+          "Soziales, Gesundheit, Bildung, Jugend/Familie, Pflege",
+          "Stadtentwicklung, Wohnen, Mobilität, Kultur, Sport, Arbeitsmarkt, Wirtschaft"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 442
+      },
+      {
+        "id": "t15-5",
+        "conceptNumber": "15.5",
+        "title": "Finanzierung und Förderung",
+        "description": "Öffentliche Gelder, Projekte, Stiftungen, Förderprogramme, Ehrenamt.",
+        "scope": [
+          "Öffentliche Gelder, Projekte, Stiftungen, Förderprogramme, Ehrenamt",
+          "Dauerhafte Finanzierung, Mitteltransparenz, Zuständigkeiten"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 445
+      },
+      {
+        "id": "t15-6",
+        "conceptNumber": "15.6",
+        "title": "Politische Vorhaben nachvollziehen",
+        "description": "Vorgeschlagen, geprüft, beantragt, beschlossen, begonnen, abgeschlossen, evaluiert.",
+        "scope": [
+          "Vorgeschlagen, geprüft, beantragt, beschlossen, begonnen, abgeschlossen, evaluiert"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 448
+      }
+    ],
+    "conceptLine": 428,
+    "group": "verantwortung"
+  },
+  {
+    "id": "digital",
+    "conceptNumber": "16",
+    "title": "Digitale Beziehungen, Medien und neue Technologien",
+    "description": "Digitale Kontakte, soziale Medien, KI, Sicherheit und Teilhabe mit und ohne digitale Geräte.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t16-1",
+        "conceptNumber": "16.1",
+        "title": "Digitale Kontakte",
+        "description": "Soziale Medien, Messenger, Online-Gemeinschaften, digitale Freundschaften.",
+        "scope": [
+          "Soziale Medien, Messenger, Online-Gemeinschaften, digitale Freundschaften",
+          "Videogespräche, Chancen und Grenzen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 455
+      },
+      {
+        "id": "t16-2",
+        "conceptNumber": "16.2",
+        "title": "Digitale Kommunikation und Einsamkeit",
+        "description": "Einsamkeit trotz Erreichbarkeit, sozialer Vergleich, Ausgrenzung, Cybermobbing.",
+        "scope": [
+          "Einsamkeit trotz Erreichbarkeit, sozialer Vergleich, Ausgrenzung, Cybermobbing",
+          "Qualität digitaler Kontakte, Verbindung Online/Offline"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 458
+      },
+      {
+        "id": "t16-3",
+        "conceptNumber": "16.3",
+        "title": "Digitale Kontaktvermittlung",
+        "description": "Freizeit-/Nachbarschaftsplattformen, Interessengruppen.",
+        "scope": [
+          "Freizeit-/Nachbarschaftsplattformen, Interessengruppen",
+          "Online-/Offline-Treffen, Datenschutz, Betrug, Manipulation"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 461
+      },
+      {
+        "id": "t16-4",
+        "conceptNumber": "16.4",
+        "title": "Künstliche Intelligenz und Einsamkeit",
+        "description": "KI als Gesprächspartner, Möglichkeiten, Forschungsstand, Grenzen.",
+        "scope": [
+          "KI als Gesprächspartner, Möglichkeiten, Forschungsstand, Grenzen",
+          "Emotionale Abhängigkeit, Datenschutz"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 464
+      },
+      {
+        "id": "t16-5",
+        "conceptNumber": "16.5",
+        "title": "Digitale Teilhabe",
+        "description": "Ohne Smartphone/Internet, Kenntnisse, digitale Barrierefreiheit.",
+        "scope": [
+          "Ohne Smartphone/Internet, Kenntnisse, digitale Barrierefreiheit",
+          "Persönliche Unterstützung und analoge Alternativen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 467
+      }
+    ],
+    "conceptLine": 451,
+    "group": "wissen"
+  },
+  {
+    "id": "mitwirkung",
+    "conceptNumber": "17",
+    "title": "Veranstaltungen, Projekte und Mitwirkung",
+    "description": "Veranstaltungen, Projekte, Engagement und Vorschläge für bessere Begegnungsmöglichkeiten.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t17-1",
+        "conceptNumber": "17.1",
+        "title": "Veranstaltungen in Bergedorf",
+        "description": "Regelmäßige/einmalige Treffen, Mahlzeiten, Kultur, Freizeit, Sport.",
+        "scope": [
+          "Regelmäßige/einmalige Treffen, Mahlzeiten, Kultur, Freizeit, Sport",
+          "Feiertage, Abend und Wochenende"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 475
+      },
+      {
+        "id": "t17-2",
+        "conceptNumber": "17.2",
+        "title": "Projekte und Initiativen",
+        "description": "Bestehende/neue Projekte, Pilotvorhaben, Nachbarschaft, Ehrenamt, evaluierte Projekte.",
+        "scope": [
+          "Bestehende/neue Projekte, Pilotvorhaben, Nachbarschaft, Ehrenamt, evaluierte Projekte"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 478
+      },
+      {
+        "id": "t17-3",
+        "conceptNumber": "17.3",
+        "title": "Veranstaltungen in Hamburg und bundesweit",
+        "description": "Bündnis-Dialogforen, Fach- und Onlineveranstaltungen.",
+        "scope": [
+          "Bündnis-Dialogforen, Fach- und Onlineveranstaltungen",
+          "Konferenzen, Aktionswochen, Preise und Ausschreibungen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 480
+      },
+      {
+        "id": "t17-4",
+        "conceptNumber": "17.4",
+        "title": "Selbst mitmachen",
+        "description": "Mitmachen, helfen, Begegnungsgruppen/Initiativen gründen.",
+        "scope": [
+          "Mitmachen, helfen, Begegnungsgruppen/Initiativen gründen",
+          "Begegnungsstätte planen, Organisationen vernetzen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 483
+      },
+      {
+        "id": "t17-5",
+        "conceptNumber": "17.5",
+        "title": "Ideen und Verbesserungsvorschläge",
+        "description": "Fehlende Treffpunkte, bestehende Angebote verbessern, Projektideen.",
+        "scope": [
+          "Fehlende Treffpunkte, bestehende Angebote verbessern, Projektideen",
+          "Stadtteilbedarf, Zugangshürden, Bürgererfahrungen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 486
+      },
+      {
+        "id": "t17-6",
+        "conceptNumber": "17.6",
+        "title": "Beteiligung über Bergedorf gemeinsam",
+        "description": "Links zu Anliegen, Erfahrungsberichten, Organisationen, Verzeichnis.",
+        "scope": [
+          "Links zu Anliegen, Erfahrungsberichten, Organisationen, Verzeichnis",
+          "Links zu Geschichte/Erinnerungen, Politik; redaktionelle Moderation"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 489
+      }
+    ],
+    "conceptLine": 471,
+    "group": "bergedorf"
+  },
+  {
+    "id": "quellen",
+    "conceptNumber": "18",
+    "title": "Quellen, Dokumentation und Transparenz",
+    "description": "Quellen, Prüfstand und die Unterscheidung zwischen belegtem Wissen, Erfahrungen, Einschätzungen und Planungen.",
+    "scope": [],
+    "content": "",
+    "children": [
+      {
+        "id": "t18-1",
+        "conceptNumber": "18.1",
+        "title": "Wissenschaftliche Quellen",
+        "description": "Studien, Originalquellen, Forschungsstand, Einschränkungen, Aktualisierung.",
+        "scope": [
+          "Studien, Originalquellen, Forschungsstand, Einschränkungen, Aktualisierung"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 497
+      },
+      {
+        "id": "t18-2",
+        "conceptNumber": "18.2",
+        "title": "Historische Quellen",
+        "description": "Zeitungen, Adressbücher, Karten, Archive, Fotografien.",
+        "scope": [
+          "Zeitungen, Adressbücher, Karten, Archive, Fotografien",
+          "Erinnerungen, Betriebsnachweise, Schließungen und Nutzungswechsel"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 499
+      },
+      {
+        "id": "t18-3",
+        "conceptNumber": "18.3",
+        "title": "Politische und behördliche Quellen",
+        "description": "Amtliche Unterlagen, Drucksachen, Beschlüsse, Behördeninformationen.",
+        "scope": [
+          "Amtliche Unterlagen, Drucksachen, Beschlüsse, Behördeninformationen",
+          "Förderentscheidungen, Umsetzungsstand"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 502
+      },
+      {
+        "id": "t18-4",
+        "conceptNumber": "18.4",
+        "title": "Angaben zu Hilfsangeboten",
+        "description": "Träger, Kontakt, Erreichbarkeit, Kosten, Anmeldung, Barrierefreiheit, Prüftermin.",
+        "scope": [
+          "Träger, Kontakt, Erreichbarkeit, Kosten, Anmeldung, Barrierefreiheit, Prüftermin"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 505
+      },
+      {
+        "id": "t18-5",
+        "conceptNumber": "18.5",
+        "title": "Redaktionelle Einordnung",
+        "description": "Belegte Tatsache, wissenschaftliches Ergebnis, persönliche Erfahrung.",
+        "scope": [
+          "Belegte Tatsache, wissenschaftliches Ergebnis, persönliche Erfahrung",
+          "Politische Einschätzung, Vorschlag, Planung, Beschluss, ungeprüfte Angabe"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 507
+      },
+      {
+        "id": "t18-6",
+        "conceptNumber": "18.6",
+        "title": "Verantwortung von Bergedorf gemeinsam",
+        "description": "Private unabhängige Plattform, keine amtliche Trägerschaft.",
+        "scope": [
+          "Private unabhängige Plattform, keine amtliche Trägerschaft",
+          "Keine offizielle Vertretung des Bündnisses",
+          "Redaktion, Datenschutz, Moderation, Aktualisierung, Korrekturen"
+        ],
+        "content": "",
+        "children": [],
+        "conceptLine": 510
+      }
+    ],
+    "conceptLine": 493,
+    "group": "verantwortung"
+  }
+]

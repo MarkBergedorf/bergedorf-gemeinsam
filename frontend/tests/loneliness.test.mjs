@@ -6,11 +6,11 @@ import {lonelinessTopics,lonelinessGroups,lonelinessIndex,buildTopicIndex,resolv
 import {parseRoute} from '../lib/navigation.mjs';
 test('Alle 18 beauftragten Hauptthemen unverändert und genau einer visuellen Gruppe zugeordnet',()=>{
  const expected=['Einsamkeit verstehen','Warum entsteht Einsamkeit?','Was ist ein gesundes Kennenlernen?','Einsamkeit in unterschiedlichen Lebensphasen und Lebenssituationen','Einsamkeit und Gesundheit','Was kann ich selbst gegen Einsamkeit tun?','Hilfe, Beratung und Unterstützung finden','Begegnung und Gemeinschaft im Alltag','Wie gründe ich eine Begegnungsstätte, die von allen Gruppen der Gesellschaft besucht wird?','Einsamkeit in Bergedorf – Stadtteile und örtliche Lebensbedingungen','Organisationen, Einrichtungen und Netzwerke','Menschen erreichen, die bisher keine Angebote nutzen','Wissenschaft, Forschung und Wirksamkeit','Das Hamburger Bündnis gegen Einsamkeit','Politik, Strategien und öffentliche Verantwortung','Digitale Beziehungen, Medien und neue Technologien','Veranstaltungen, Projekte und Mitwirkung','Quellen, Dokumentation und Transparenz'];
- assert.deepEqual(lonelinessTopics.map(n=>n.title),expected);assert.equal(lonelinessGroups.length,4);assert.equal(lonelinessIndex.length,18);
- for(const n of lonelinessTopics){assert.equal(lonelinessGroups.filter(g=>g.id===n.group).length,1);assert(n.description.trim());assert.deepEqual(n.children,[]);assert.equal(n.content,'');}
+ assert.deepEqual(lonelinessTopics.map(n=>n.title),expected);assert.equal(lonelinessGroups.length,4);assert.equal(lonelinessIndex.length,138);
+ for(const n of lonelinessTopics){assert.equal(lonelinessGroups.filter(g=>g.id===n.group).length,1);assert(n.description.trim());assert(n.children.length>0);assert.equal(n.content,'');}
 });
 test('Jede veröffentlichte Adresse lässt sich direkt auflösen, falsche Pfade werden nicht umgedeutet',()=>{
- for(const node of lonelinessIndex){const route=parseRoute(node.href);assert.equal(route.page,'einsamkeit');assert.equal(resolveLonelinessPath(route.parts.slice(1)).id,node.id);assert.equal(lonelinessParentHref(node),'#einsamkeit');}
+ for(const node of lonelinessIndex){const route=parseRoute(node.href);assert.equal(route.page,'einsamkeit');assert.equal(resolveLonelinessPath(route.parts.slice(1)).id,node.id);assert.equal(lonelinessParentHref(node),'#einsamkeit'+(node.path.length>1?'/'+node.path.slice(0,-1).join('/'):''));}
  for(const path of [[],['nicht-vorhanden'],['hilfe','nicht-vorhanden'],['gesundheit','hilfe']])assert.equal(resolveLonelinessPath(path),null);
  const p=readFileSync('app/platform.tsx','utf8');assert(p.includes("page==='einsamkeit'?<LonelinessPage/>"));assert(p.includes("onClick={()=>go('#einsamkeit')}"));assert(p.includes("aria-current={page==='einsamkeit'?'page':undefined}"));
 });
@@ -36,6 +36,6 @@ test('Redaktionelle Bestandsaufnahme erfasst alle Originalzeilen und kennzeichne
  const base='../docs/einsamkeit/',registry=JSON.parse(readFileSync(base+'quellenregister.json','utf8')),records=readFileSync(base+'bestandsaufnahme.jsonl','utf8').trim().split('\n').map(l=>JSON.parse(l));
  assert.equal(registry.sources.length,5);assert.equal(records.length,registry.nonEmptySourceLines);assert.equal(new Set(records.map(r=>r.id)).size,records.length);
  for(const source of registry.sources){const rows=records.filter(r=>r.datei===source.id);assert(rows.length>0);assert(rows.every(r=>r.original.trim()&&r.quellabschnitt&&Number(r.fundstelle.split(' ')[1])<=source.totalLines));assert.equal(createHash('sha256').update(JSON.stringify(rows.map(r=>[Number(r.fundstelle.split(' ')[1]),r.original]))).digest('hex'),source.nonEmptyLinesSha256);}
- for(const r of records){assert.equal(r.hauptthema,null);assert.equal(r.unterthema,null);assert.equal(r.weitereEbene,null);assert.equal(r.bearbeitungsstand,'zuordnung_offen');assert.equal(r.quellenpruefung,'ausstehend')}
+ for(const r of records){if(r.bearbeitungsstand==='zuordnung_offen'){assert.equal(r.hauptthema,null);assert.equal(r.unterthema,null);assert.equal(r.weitereEbene,null)}else{assert.equal(r.bearbeitungsstand,'thematisch_zugeordnet_quellenpruefung_offen');assert(lonelinessIndex.some(n=>n.id===r.hauptthema));assert(r.zuordnungsbegruendung);for(const id of r.zuordnungen)assert(lonelinessIndex.some(n=>n.id===id));}assert.equal(r.quellenpruefung,'ausstehend')}
  assert(!readFileSync('lib/loneliness.mjs','utf8').includes('bestandsaufnahme.jsonl'));
 });
