@@ -39,9 +39,8 @@ test('Historische Querverweise und Kommentargrenzen ohne neue öffentliche Funkt
 test('Lange Titel und Pfade: keine Kürzung, bestehende Kartengestaltung mit mobilen Umbrüchen',()=>{
  const s=readFileSync('app/loneliness.tsx','utf8'),css=readFileSync('app/globals.css','utf8');assert(s.includes('<h3 className="loneliness-card-title">{topic.title}</h3>'));assert(s.includes('node?.title'));assert(!/\.title\.(slice|substring)|line-clamp|text-overflow/.test(s));assert(css.includes('.loneliness-page .loneliness-breadcrumbs li{display:inline;overflow-wrap:anywhere}'));assert(css.includes('@media(max-width:600px){.loneliness-page .loneliness-cards{grid-template-columns:1fr}'));
 });
-test('Quellenzuordnungen sind nachvollziehbar; alle übrigen Originalzeilen ausdrücklich offen',()=>{
+test('Vollständige Quellenzuordnungen sind nachvollziehbar; offene Tatsachenprüfung ist keine fehlende Themenzuordnung',()=>{
  const dir='../docs/einsamkeit/',rows=readFileSync(dir+'bestandsaufnahme.jsonl','utf8').trim().split('\n').map(JSON.parse),decisions=JSON.parse(readFileSync(dir+'zuordnungsentscheidungen.json','utf8')),open=JSON.parse(readFileSync(dir+'zuordnung-offen.json','utf8'));
- assert.equal(rows.length,2550);assert.equal(Object.keys(decisions).length,408);assert.equal(Object.values(open).flat().length,2142);
- for(const r of rows){const d=decisions[r.id];if(d){assert.equal(r.bearbeitungsstand,'thematisch_zugeordnet_quellenpruefung_offen');assert.deepEqual(r.zuordnungen,d.targets.map(number=>byNumber(number).id));assert.equal(r.zuordnungsbegruendung,d.note)}else{assert(open[r.datei].includes(r.id));assert.equal(r.bearbeitungsstand,'zuordnung_offen')}}
- assert.equal(rows.filter(r=>r.datei==='B1'&&r.zuordnungen).length,270);
+ assert.equal(rows.length,2550);assert.equal(Object.keys(decisions).length,2550);assert.deepEqual(open.fachlichUnzugeordnet,[]);
+ for(const r of rows){const d=decisions[r.id];assert(d);assert.equal(r.pruefstatus,'inhaltlich_geprueft');assert.deepEqual(r.zuordnungen,d.targets.map(number=>byNumber(number).id));assert.equal(r.zuordnungsbegruendung,d.note);assert.equal(r.tatsachenVerifiziert,false);}
 });

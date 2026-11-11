@@ -1,47 +1,67 @@
-# Einsamkeit in Bergedorf – Konzeption und redaktionelle Kontrolle
+# Vollständige redaktionelle Auswertung der fünf Berichte
 
-Stand: 11. November 2026. Fortsetzung von Arbeitsauftrag 1 ab Commit `4e56b894f132e598c9a81c9738c85a6e8b5f7fd6`.
+Stand: 11. November 2026. Ausgangscommit: `2cdd58be5a6a3a75fc6d4081d3070c256995e16b`.
 
-## Verbindliche Struktur vollständig übernommen
+## Abschluss und Grenzen
 
-Die zuvor fehlende Gesamtkonzeption ist nun vorhanden und unverändert in `gesamtkonzeption.md` gesichert. Quelle: bereitgestellte Datei „Bergedorf_gemeinsam_Einsamkeit_Gesamtkonzeption.md“, konzeptioneller Stand 11. November 2026. Sie enthält genau **18 Hauptthemen, 108 Unterthemen und 12 weitere Themenknoten**, insgesamt **138 navigierbare Themenansichten**. Die 12 Knoten liegen unter 2.4, 2.5 und 14.3; sie sind nicht zwölf unterschiedliche Hierarchietiefen. Keine Aufzählung innerhalb eines Themenumfangs wurde eigenmächtig zu zusätzlichen Artikeln oder Themenknoten erklärt.
+Alle **2.550 nicht leeren Quellzeilen** aus B1–B5 wurden vollständig gelesen und inhaltlich gegen die vorhandene Gesamtkonzeption geprüft. Auch die früheren 408 Zuordnungen wurden erneut kontrolliert; 75 wurden präzisiert. Es gibt **keine fachlich unzugeordneten Inhaltszeilen**. Das bedeutet keine unabhängige Tatsachenbestätigung: wissenschaftliche Aussagen, Namen, Geschichte, Termine, Angebote, politische Angaben und rechtliche/organisatorische Vorschläge bleiben vor einer späteren Veröffentlichung anhand geeigneter Primärquellen zu prüfen. Es wurden keine wissenschaftlichen Fachartikel geschrieben und keine neuen Funktionen aktiviert.
 
-Titel, Nummern, Elternzuordnungen und sämtliche Aufzählungspunkte der Konzeption sind im öffentlichen Modell `frontend/lib/loneliness-topics.json` enthalten. Die Aufzählungen beschreiben den geplanten Themenumfang; sie sind keine fertig recherchierten Fachartikel. Die 18 bereits veröffentlichten Hauptthemen-IDs und die vier Darstellungsgruppen bleiben bestehen. Neue IDs `t2-5` usw. richten sich nach der verbindlichen Konzeptnummer und bleiben bei späteren Titeländerungen unverändert. Jeder Knoten hat eine eigene vollständige Pfadadresse, Einführung und verlinkte übergeordnete Stationen.
+| Bericht | Zugeordnete Inhaltszeilen | Gliederung und Kontext | Reine Formatierung | Geprüfte Zeilen |
+| --- | ---: | ---: | ---: | ---: |
+| B1 – Eingefügter Text(7).txt | 273 | 7 | 0 | 280 |
+| B2 – Eingefügter Text (2).txt | 478 | 33 | 1 | 512 |
+| B3 – Eingefügter Text (3).txt | 322 | 42 | 0 | 364 |
+| B4 – Eingefügter Text (4).txt | 978 | 137 | 1 | 1.116 |
+| B5 – Eingefügter Text (5).txt | 250 | 26 | 2 | 278 |
+| **Gesamt** | **2.301** | **245** | **4** | **2.550** |
 
-Die bestehenden Gestaltungselemente bleiben erhalten: Farben, Typografie, Hilfeeinstieg, Suchbereich und Themenkarten. Die Karten stehen wie in der PDF-Referenz in zwei Spalten, unter 600 Pixeln einspaltig. Beschreibungen ersetzen die bisherigen internen Platzhalterformulierungen. Lange Pfade dürfen innerhalb ihrer Beschriftungen umbrechen. Unterthemen stehen in den Themenansichten vor der redaktionellen Schwerpunktübersicht.
+Die Inhaltszeilen sind keine Zählung eigenständiger Artikel oder einzigartiger Tatsachen. Ein Aufzählungspunkt kann mehrere Gesichtspunkte enthalten. 1.200 Inhaltszeilen haben zulässige Mehrfachzuordnungen mit insgesamt 1.315 zusätzlichen Verbindungen. Originale bleiben einmalig mit ihrer Quell-ID gespeichert. Einleitung, Überschriften und Zusammenfassungen werden als Kontext gesondert erschlossen. Die vier reinen Formatierungszeilen sind B2-L562 (Zählüberschrift 468), B4-L1170 (Umbruchmarke) und B5-L123/B5-L253 (Favicon-Verweise). Sie sind geprüft und erhalten, benötigen aber keinen Fachartikel.
 
-## Historische Orte und geplante Kommentare
+## Unveränderte Grundlage
 
-Die Zweige 2.5 und 10.6 verweisen auf dieselbe künftig nutzbare Sammlung `historische-begegnungsorte`. Es sind **noch keine historischen Ortsdatensätze** angelegt. Ein späterer Datensatz erhält eine kanonische ID und Quellen; thematische Zugänge und Standortarten referenzieren ihn, statt unabhängige Kopien zu erzeugen. Querverweise verbinden 2.4 mit 10.5 sowie 2.5/2.5.5 mit 10.6/10.2. Betriebsnamen, Standorte, Zeiträume, Schließungen und Nutzungsänderungen müssen in Arbeitsauftrag 4 belegt und unterschieden werden. Keine Kausalbehauptung zum Verlust von Begegnungsorten aus ungeprüften Erinnerungen ableiten.
+Sämtliche Originaltexte, IDs, Dateinamen/-kennungen, ursprünglichen Zeilennummern und Quellabschnitte sind gegenüber dem Ausgangscommit unverändert. Die fünf ursprünglichen Dateiprüfsummen sowie eine zusätzliche Prüfsumme sämtlicher Originalfelder werden automatisiert kontrolliert. Hinzugekommen sind ausschließlich redaktionelle Metadaten und Register.
 
-Für Themen 3/3.8 ist die spätere Kommentargrenze von 250 Zeichen und für 9/9.12 die Grenze von 500 Zeichen im Modell dokumentiert. **Keine Kommentarfunktion aktiviert.** Entwicklung lokaler Tests und Moderationsabläufe bleibt Arbeitsauftrag 7 vorbehalten. Keine Übermittlung, Speicherung, Registrierung oder produktive Einreichung wird hinzugefügt.
+Die bestehende Gesamtkonzeption und das öffentliche Themenmodell bleiben bytegleich: **18 Hauptthemen, 108 Unterthemen, 12 weitere Knoten; insgesamt 138 Themenansichten**. Gestaltung, Navigation und alle übrigen Websitebereiche sind unverändert. Private Sites-Version 99 wird nicht geöffnet oder bearbeitet.
 
-## Quellensicherung unverändert, fachliche Zuordnung teilweise fortgeschrieben
+## So werden Informationen für einen Fachartikel gefunden
 
-Alle 2.550 nicht leeren Quellzeilen der fünf Berichte bleiben mit unveränderten IDs, Dateiangaben, Zeilennummern, Quellabschnitten und Originaltexten erhalten. Die ursprünglichen Prüfsummen im Quellenregister bleiben unverändert und werden getestet. Leerzeilen sind keine Themen; Zeilenanzahlen dürfen nicht als Anzahl eigenständiger Themen oder geprüfter Artikel ausgegeben werden.
+1. In `artikelregister.md` den Titel oder die Konzeptnummer suchen.
+2. Die dort aufgeführten IDs unter **Inhalte** führen zu direkt fachlich zugeordneten Originalzeilen; **Kontext** enthält passende Überschriften und Arbeits-/Quellenrahmen.
+3. In `bestandsaufnahme.jsonl` nach der exakten ID suchen. Dort stehen unveränderter Wortlaut, ursprüngliche Datei und Fundstelle, Aussagearten, Aussageform, Zielknoten, zusätzliche Verbindungen, Begründung und erforderliche Prüfungen.
+4. `artikel-quellenindex.json` bietet denselben Zugriff maschinenlesbar. `mitUnterthemen` umfasst zusätzlich alle Quellen des betreffenden Teilbaums; dadurch sind Informationen auch beim Einstieg über ein Hauptthema auffindbar.
+5. `offene-prueffragen.json` hält konkrete ungeklärte Identitäts-, Datums-, Quellen- und Tatsachenfragen mit Quell-IDs fest. Diese offenen Nachweise sind keine fehlende thematische Zuordnung.
 
-**408 Quellzeilen wurden inhaltlich gelesen und thematisch zugeordnet; 2.142 Quellzeilen sind noch offen.** Keine vollständige fachliche Zuordnung behaupten. Der Stand je Datei:
+Die Zielknoten sind bestehende Themen-IDs. Keine neuen Themen oder Artikel wurden erfunden. Nicht jeder Knoten benötigt einen eigenen Punkt aus den fünf Berichten: Die zusätzlich verbindlich vereinbarten Themen und Kommentargrenzen stammen weiterhin aus der unveränderten Gesamtkonzeption.
 
-| Datei | Thematisch zugeordnete Quellzeilen | Noch offene Quellzeilen |
-| --- | ---: | ---: |
-| B1 – Eingefügter Text(7).txt | 270 | 10 |
-| B2 – Eingefügter Text (2).txt | 30 | 482 |
-| B3 – Eingefügter Text (3).txt | 8 | 356 |
-| B4 – Eingefügter Text (4).txt | 98 | 1.018 |
-| B5 – Eingefügter Text (5).txt | 2 | 276 |
+## Aussagearten und Wiederholungen
 
-Bei B1 sind alle 270 nummerierten Einzelpunkte zugeordnet. Die zehn übrigen Zeilen enthalten Überschriften, Einleitungen und übergreifende redaktionelle Einschränkungen; sie bleiben als Kontext erhalten und sind noch nicht gesondert zugeordnet. Bei B2 wurden Punkte 285–314 aus Abschnitt O, bei B3 die acht Aussagen aus Abschnitt 17, bei B4 die vollständigen Abschnitte 40–50 einschließlich ihrer Überschriften, bei B5 die Ergänzungspunkte 131 und 137 bearbeitet. Die Abgrenzung ist bewusst explizit; andere Stellen wurden nicht pauschal aus Stichwörtern als erledigt markiert.
+Die Metadaten trennen insbesondere `wissenschaftliche_aussage`, `wissenschaftlicher_bezug`, `persoenliche_erfahrung`, `historische_angabe`, `politische_forderung`, `politische_bewertung`, `berichteter_politischer_stand`, `veranstaltungsnotiz`, `organisationsangabe`, `fragestellung`, `vorschlag`, `themenplanung`, `themenvorschlag`, `quellenhinweis` und redaktionellen Kontext. Mehrere Kennzeichnungen sind zulässig. `wissenschaftlicher_bezug` allein bezeichnet noch kein Studienergebnis; Themenlisten bleiben Rechercheaufträge. Die Aussageform trennt Rechercheauftrag, berichtete Aussage/Erfahrung, Vorschlag, persönliche Bewertung, Frage, Planungsangabe und Kontext.
 
-`zuordnungsentscheidungen.json` hält jede Entscheidung mit Konzeptnummern und Begründung fest. `bestandsaufnahme.jsonl` enthält dafür Haupt-/Unterthema, gegebenenfalls weitere Ebene und zusätzliche thematische Zugänge. Unterschiedliche Aussagen werden nicht gelöscht; mehrere Quellstellen können dieselbe kanonische Themenansicht referenzieren. Persönliche Erfahrungen, historische Zahlen, Widersprüche, politische Bewertungen und Terminvorschläge bleiben in ihrem Originalwortlaut erhalten. Das ist thematische Einordnung, **keine Tatsachenprüfung oder redaktionelle Freigabe**.
+Alle Inhaltszeilen behalten `tatsachenVerifiziert: false`. Die thematische Kontrolle darf nicht als medizinische, historische, politische, rechtliche oder terminliche Verifikation ausgegeben werden. Insbesondere sind B1/B2 Inhaltsplanungen und B5 ausdrücklich zusätzliche Themenvorschläge; B3/B4 sind Aufbereitungen von Veranstaltungsnotizen. Sie sind keine fünf unabhängigen Bestätigungen desselben Sachverhalts.
 
-`zuordnung-offen.json` listet sämtliche noch offenen IDs je Datei vollständig auf. Ihre exakten Aussagen und Fundstellen bleiben im Zeilenregister lesbar. Insbesondere die übrigen Abschnitte B2, B3, B4 und B5 benötigen weitere inhaltliche Einzelzuordnung. Die Prüfung aller wissenschaftlichen, historischen, institutionellen und politischen Angaben sowie von Namen und Terminen steht noch aus. B5 ist eine Ergänzungs-/Prüfliste zu vier Berichten, kein zusätzlicher unabhängiger Veranstaltungsbeleg.
+Wiederkehrende Aspekte werden gemeinsam über denselben kanonischen Themenknoten erschlossen, ohne zusätzliche Einzelheiten zu löschen. `wiederholungen.json` weist darüber hinaus 24 Gruppen mit 58 wortgleichen Vorkommen aus. Dabei wurden nur Aufzählungsnummern/-zeichen für den Vergleich entfernt. Ähnliche Formulierungen, unterschiedliche Jahresangaben, Namen und Sprecherperspektiven werden nicht automatisch gleichgesetzt. Kontext und Originale bleiben immer erhalten.
 
-Die zwei zusätzlich vereinbarten Hauptthemen sind unabhängig von Quellbericht-Dubletten vollständig in der Konzeption erfasst: Hauptthema 3 mit acht Unterthemen, Hauptthema 9 mit zwölf Unterthemen. Ihre Herkunft und Aufzählungen sind anhand der Konzeptnummer und der dokumentierten Konzeptzeile nachprüfbar.
+Beispiele: Die persönliche Zahl von 97 früheren Gastwirtschaften bleibt zusammen mit ihrer ausdrücklichen Einschränkung und den abweichenden Einschätzungen auffindbar. Die polnische Mahlzeiten-Erinnerung wird nicht mit dem anderen Beispiel Pottkieker verschmolzen. Preisangaben für 2026/2027 werden getrennt erhalten und nicht zu einem vermeintlich eindeutigen Termin umgeschrieben. Eine vorgeschlagene Kooperation mit Post/DHL ist keine erklärte Zusammenarbeit.
 
-## Technische Grundlage und weiterer Bedarf
+## Noch offene Nachweise
 
-`frontend/lib/loneliness.mjs` baut den rekursiven Index und die Pfade aus dem Themenmodell auf. Das Modell unterstützt auch weitere Ebenen und spätere Artikelknoten. Bestehende Adressen `#einsamkeit/<hauptthema>` bleiben gültig; beispielsweise lautet ein neuer Tiefenlink `#einsamkeit/ursachen/t2-5/t2-5-1`. Das bestehende Hash-Routing verwaltet Browser-Zurück/Vorwärts. Die Suche umfasst alle 138 tatsächlich angelegten Titel, Kurzbeschreibungen und später ergänzten redaktionellen Inhalte; keine nicht veröffentlichten Quellberichte werden als fertige Artikel durchsucht.
+19 konkrete Prüffragen sind dokumentiert: Stiftungsname; Personennamen/Rollen; KNE/KME; Preisname/Jahrgänge; 26. November; Strategietermine; Bundeskonferenz/Aktionswoche/Barometer; Krisennetz; Miller & Willi; SAIWIR/Datenbank; Klönschnacker/HVV; Hamburger politischer Stand; historische Zählung; polnisches Beispiel; aktuelle Praxisangebote; Studien/Kausalität; amtliche Sozialraum-/Mobilitätsunterlagen; Partnerzusagen; organisatorische/Datenschutzvoraussetzungen.
 
-Noch offen sind die restliche fachliche Quellenzuordnung, sämtliche Primärquellenprüfungen, wissenschaftliche Fachartikel, historische Einzelrecherchen und verifizierte Hilfsangebote. Die öffentliche Einstiegsseite nennt die jetzt vorhandene Struktur korrekt und kennzeichnet die offenen Inhaltsarbeiten. Private unabhängige Trägerschaft und die Abgrenzung zum Hamburger Bündnis bleiben ausdrücklich sichtbar.
+Die Themenzuordnung ist jeweils möglich; Identität, Datum oder Beleglage sind damit noch nicht entschieden. Ergänzend stehen bei jeder Inhaltszeile die nach ihrer Aussageart erforderlichen Quellenprüfungen. Die 19 gebündelten Fragen ersetzen diese zeilenbezogenen Prüfaufträge nicht. Es besteht derzeit kein begründeter Bedarf, die Themenhierarchie zu ändern.
 
-Vorheriger Dokumentationsstand: `archiv-grundstruktur.md` und `pruefung-grundstruktur.md`. Aktueller technischer Prüfstand: `pruefung.md`. Bestehende Websitebereiche und private Sites-Version 99 bleiben unangetastet.
+## Dateien und Reproduzierbarkeit
+
+- `bestandsaufnahme.jsonl`: vollständiges Original- und Auswertungsregister.
+- `zuordnungsentscheidungen.json`: explizite Entscheidungen für alle 2.550 Zeilen.
+- `artikelregister.md` und `artikel-quellenindex.json`: Zugang pro bestehendem Themenknoten.
+- `auswertungsbilanz.json` und `quellenregister.json`: differenzierte Zählung, Quellenidentität und unveränderte Prüfsummen.
+- `offene-prueffragen.json`: konkret noch zu prüfende Informationen.
+- `zuordnung-offen.json`: keine fachlich offenen Inhalte; Verweis auf die getrennte Tatsachenprüfung.
+- `wiederholungen.json`: wortgleiche Vorkommen ohne Datenverlust.
+- `zuordnung-aenderungen.json`: 75 Änderungen an früheren Zuordnungen mit Vorher/Nachher.
+- `gesamtkonzeption.md`: unveränderte verbindliche Struktur.
+- `archiv-teilzuordnung-2cdd58be.md`: unveränderter vorheriger Dokumentationsstand; ältere Archive bleiben erhalten.
+
+Die nach vollständiger Lektüre festgelegten Punkt-, Abschnitts- und Zeilenentscheidungen stehen in `scripts/einsamkeit/auswertung.py`; die konkreten Prüffragen und Wiederholungserschließung in `scripts/einsamkeit/prueffragen.py`. Keine automatische Stichwortklassifikation: Abschnittsentscheidungen sind aus der Lektüre festgelegt und für fachlich unterschiedliche Aussagen zeilengenau präzisiert. Ausführung vom Repository aus: `python scripts/einsamkeit/auswertung.py`. Originalfelder werden zuvor gegen den Ausgangscommit und die ursprünglichen Prüfsummen kontrolliert; bei Abweichungen bricht der Lauf ab. Das Verfahren ist eine reproduzierbare Anwendung redaktioneller Entscheidungen, keine autonome wissenschaftliche Bewertung.
+
+Technischer Abschlussnachweis: `pruefung.md`.

@@ -1,0 +1,1221 @@
+# Artikelregister zu den fünf Ausgangsberichten
+
+Alle Angaben sind redaktionell erschlossen, nicht extern tatsachenverifiziert. Direkte Zuordnungen und zusätzlicher Kontext sind getrennt. Keine Fachartikel erzeugt.
+
+## 1 Einsamkeit verstehen
+
+Themen-ID: `verstehen`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 96.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 1.1 Was bedeutet Einsamkeit?
+
+Themen-ID: `t1-1`. Direkt zugeordnete Inhaltszeilen: 8; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 9.
+
+Inhalte: `B1-L13`, `B1-L15`, `B1-L16`, `B1-L18`, `B2-L15`, `B2-L16`, `B2-L17`, `B5-L47`.
+
+Kontext: `B2-L11`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 1.2 Wie fühlt sich Einsamkeit an?
+
+Themen-ID: `t1-2`. Direkt zugeordnete Inhaltszeilen: 27; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 30.
+
+Inhalte: `B1-L30`, `B1-L31`, `B2-L19`, `B2-L154`, `B4-L81`, `B4-L406`, `B4-L483`, `B4-L948`, `B4-L949`, `B4-L951`, `B4-L952`, `B4-L953`, `B4-L1132`, `B4-L1134`, `B4-L1135`, `B5-L7`, `B5-L17`, `B5-L19`, `B5-L21`, `B5-L25`, `B5-L27`, `B5-L29`, `B5-L41`, `B5-L43`, `B5-L55`, `B5-L503`, `B5-L547`.
+
+Kontext: `B4-L404`, `B4-L946`, `B5-L15`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 1.3 Wie entwickelt sich Einsamkeit?
+
+Themen-ID: `t1-3`. Direkt zugeordnete Inhaltszeilen: 6; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 6.
+
+Inhalte: `B3-L42`, `B4-L89`, `B4-L484`, `B5-L39`, `B5-L49`, `B5-L51`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 1.4 Einsamkeit als gesellschaftliche Herausforderung
+
+Themen-ID: `t1-4`. Direkt zugeordnete Inhaltszeilen: 45; Kontext-/Gliederungszeilen: 6; einschließlich Unterthemen: 51.
+
+Inhalte: `B1-L14`, `B1-L29`, `B2-L14`, `B2-L20`, `B2-L21`, `B2-L45`, `B2-L103`, `B2-L184`, `B2-L185`, `B2-L186`, `B2-L187`, `B2-L188`, `B2-L189`, `B2-L191`, `B2-L192`, `B2-L194`, `B3-L19`, `B3-L41`, `B3-L50`, `B3-L51`, `B3-L52`, `B3-L53`, `B3-L54`, `B3-L55`, `B3-L411`, `B3-L421`, `B3-L424`, `B3-L425`, `B3-L437`, `B4-L42`, `B4-L63`, `B4-L64`, `B4-L65`, `B4-L67`, `B4-L68`, `B4-L134`, `B4-L135`, `B4-L136`, `B4-L138`, `B4-L139`, `B4-L903`, `B4-L908`, `B4-L909`, `B4-L1344`, `B4-L1369`.
+
+Kontext: `B2-L182`, `B3-L35`, `B3-L48`, `B4-L61`, `B4-L132`, `B4-L906`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2 Warum entsteht Einsamkeit?
+
+Themen-ID: `ursachen`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 169.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.1 Persönliche und zwischenmenschliche Ursachen
+
+Themen-ID: `t2-1`. Direkt zugeordnete Inhaltszeilen: 15; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 16.
+
+Inhalte: `B1-L17`, `B3-L38`, `B4-L950`, `B5-L25`, `B5-L27`, `B5-L29`, `B5-L31`, `B5-L33`, `B5-L35`, `B5-L37`, `B5-L45`, `B5-L59`, `B5-L61`, `B5-L63`, `B5-L547`.
+
+Kontext: `B5-L57`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.2 Veränderungen im persönlichen Leben
+
+Themen-ID: `t2-2`. Direkt zugeordnete Inhaltszeilen: 59; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 61.
+
+Inhalte: `B1-L39`, `B1-L49`, `B1-L50`, `B1-L61`, `B2-L123`, `B2-L124`, `B2-L125`, `B2-L126`, `B2-L127`, `B2-L128`, `B2-L141`, `B2-L142`, `B2-L143`, `B2-L146`, `B2-L286`, `B3-L61`, `B3-L62`, `B3-L184`, `B3-L213`, `B3-L227`, `B4-L106`, `B4-L107`, `B4-L108`, `B4-L109`, `B4-L110`, `B4-L111`, `B4-L112`, `B4-L113`, `B4-L114`, `B4-L115`, `B4-L116`, `B4-L117`, `B4-L118`, `B4-L120`, `B4-L128`, `B4-L704`, `B4-L705`, `B4-L706`, `B4-L707`, `B4-L708`, `B4-L709`, `B4-L710`, `B4-L711`, `B4-L712`, `B4-L725`, `B4-L785`, `B4-L786`, `B4-L1034`, `B4-L1039`, `B4-L1062`, `B4-L1078`, `B4-L1106`, `B4-L1107`, `B4-L1131`, `B4-L1342`, `B5-L69`, `B5-L71`, `B5-L73`, `B5-L209`.
+
+Kontext: `B4-L104`, `B4-L702`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.3 Gesellschaftliche und wirtschaftliche Ursachen
+
+Themen-ID: `t2-3`. Direkt zugeordnete Inhaltszeilen: 21; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 22.
+
+Inhalte: `B1-L17`, `B1-L66`, `B1-L67`, `B1-L68`, `B1-L77`, `B2-L285`, `B3-L38`, `B3-L45`, `B3-L65`, `B3-L191`, `B3-L192`, `B3-L194`, `B3-L217`, `B4-L127`, `B4-L602`, `B4-L603`, `B4-L604`, `B4-L605`, `B4-L606`, `B5-L147`, `B5-L149`.
+
+Kontext: `B4-L600`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.4 Wie haben sich die Möglichkeiten zum Kennenlernen verändert?
+
+Themen-ID: `t2-4`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 27.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.4.1 Früher übliche Begegnungsformen
+
+Themen-ID: `t2-4-1`. Direkt zugeordnete Inhaltszeilen: 8; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 8.
+
+Inhalte: `B1-L76`, `B3-L246`, `B3-L247`, `B3-L248`, `B4-L124`, `B4-L125`, `B4-L126`, `B4-L1255`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.4.2 Veränderungen der Begegnungskultur
+
+Themen-ID: `t2-4-2`. Direkt zugeordnete Inhaltszeilen: 6; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 8.
+
+Inhalte: `B1-L74`, `B3-L245`, `B4-L129`, `B4-L440`, `B4-L1254`, `B4-L1255`.
+
+Kontext: `B3-L243`, `B4-L122`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.4.3 Welche Folgen kann der Verlust vertrauter Begegnungsorte haben?
+
+Themen-ID: `t2-4-3`. Direkt zugeordnete Inhaltszeilen: 12; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 13.
+
+Inhalte: `B3-L250`, `B4-L129`, `B4-L558`, `B4-L559`, `B4-L560`, `B4-L561`, `B4-L562`, `B4-L563`, `B4-L564`, `B4-L565`, `B4-L1252`, `B4-L1257`.
+
+Kontext: `B4-L556`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.5 Verschwundene Begegnungsorte in Bergedorf
+
+Themen-ID: `t2-5`. Direkt zugeordnete Inhaltszeilen: 1; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 51.
+
+Inhalte: `B1-L74`.
+
+Kontext: `B4-L437`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.5.1 Ehemalige Gastwirtschaften und Kneipen
+
+Themen-ID: `t2-5-1`. Direkt zugeordnete Inhaltszeilen: 26; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 29.
+
+Inhalte: `B1-L75`, `B2-L442`, `B4-L441`, `B4-L449`, `B4-L450`, `B4-L451`, `B4-L452`, `B4-L453`, `B4-L454`, `B4-L455`, `B4-L456`, `B4-L461`, `B4-L462`, `B4-L463`, `B4-L464`, `B4-L465`, `B4-L558`, `B4-L559`, `B4-L560`, `B4-L561`, `B4-L562`, `B4-L563`, `B4-L564`, `B4-L1249`, `B4-L1252`, `B4-L1362`.
+
+Kontext: `B4-L447`, `B4-L459`, `B4-L556`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.5.2 Ehemalige Cafés und gastronomische Treffpunkte
+
+Themen-ID: `t2-5-2`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 0.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.5.3 Frühere Vereinslokale und Gemeinschaftsräume
+
+Themen-ID: `t2-5-3`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 0.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.5.4 Ehemalige Gemeindehäuser und weitere Treffpunkte
+
+Themen-ID: `t2-5-4`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 0.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.5.5 Ehemalige Begegnungsorte nach Stadtteilen
+
+Themen-ID: `t2-5-5`. Direkt zugeordnete Inhaltszeilen: 6; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 7.
+
+Inhalte: `B4-L473`, `B4-L474`, `B4-L475`, `B4-L476`, `B4-L477`, `B4-L1250`.
+
+Kontext: `B4-L471`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.5.6 Historische Entwicklung untersuchen
+
+Themen-ID: `t2-5-6`. Direkt zugeordnete Inhaltszeilen: 16; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 18.
+
+Inhalte: `B4-L457`, `B4-L461`, `B4-L462`, `B4-L463`, `B4-L465`, `B4-L466`, `B4-L467`, `B4-L468`, `B4-L469`, `B4-L633`, `B4-L1251`, `B4-L1256`, `B4-L1304`, `B4-L1375`, `B4-L1386`, `B5-L319`.
+
+Kontext: `B4-L459`, `B4-L1247`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 2.6 Ursachen wissenschaftlich untersuchen
+
+Themen-ID: `t2-6`. Direkt zugeordnete Inhaltszeilen: 4; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 4.
+
+Inhalte: `B2-L190`, `B2-L556`, `B4-L130`, `B4-L140`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3 Was ist ein gesundes Kennenlernen?
+
+Themen-ID: `kennenlernen`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 49.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.1 Was bedeutet gesundes Kennenlernen?
+
+Themen-ID: `t3-1`. Direkt zugeordnete Inhaltszeilen: 1; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 1.
+
+Inhalte: `B5-L47`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.2 Wie beginnt ein Kontakt?
+
+Themen-ID: `t3-2`. Direkt zugeordnete Inhaltszeilen: 8; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 9.
+
+Inhalte: `B4-L482`, `B4-L485`, `B4-L486`, `B4-L487`, `B4-L488`, `B4-L543`, `B4-L1235`, `B4-L1266`.
+
+Kontext: `B4-L480`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.3 Vom ersten Gespräch zur Bekanntschaft
+
+Themen-ID: `t3-3`. Direkt zugeordnete Inhaltszeilen: 3; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 3.
+
+Inhalte: `B5-L173`, `B5-L199`, `B5-L552`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.4 Von Bekanntschaften zu Freundschaften
+
+Themen-ID: `t3-4`. Direkt zugeordnete Inhaltszeilen: 21; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 23.
+
+Inhalte: `B2-L105`, `B2-L106`, `B2-L128`, `B2-L191`, `B2-L192`, `B4-L453`, `B5-L9`, `B5-L23`, `B5-L25`, `B5-L27`, `B5-L29`, `B5-L169`, `B5-L171`, `B5-L173`, `B5-L375`, `B5-L377`, `B5-L501`, `B5-L503`, `B5-L547`, `B5-L552`, `B5-L554`.
+
+Kontext: `B5-L167`, `B5-L497`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.5 Schwierigkeiten beim Kennenlernen
+
+Themen-ID: `t3-5`. Direkt zugeordnete Inhaltszeilen: 9; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 9.
+
+Inhalte: `B4-L950`, `B5-L31`, `B5-L33`, `B5-L35`, `B5-L37`, `B5-L39`, `B5-L45`, `B5-L53`, `B5-L75`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.6 Grenzen und Konflikte
+
+Themen-ID: `t3-6`. Direkt zugeordnete Inhaltszeilen: 5; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 5.
+
+Inhalte: `B5-L65`, `B5-L67`, `B5-L201`, `B5-L227`, `B5-L229`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.7 Wissenschaftliche Erkenntnisse und praktische Übungen
+
+Themen-ID: `t3-7`. Direkt zugeordnete Inhaltszeilen: 1; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 1.
+
+Inhalte: `B3-L69`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 3.8 Erfahrungen und kurze Kommentare
+
+Themen-ID: `t3-8`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 0.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 4 Einsamkeit in unterschiedlichen Lebensphasen und Lebenssituationen
+
+Themen-ID: `lebenssituationen`. Direkt zugeordnete Inhaltszeilen: 13; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 298.
+
+Inhalte: `B1-L22`, `B2-L18`, `B2-L40`, `B2-L41`, `B2-L42`, `B3-L37`, `B3-L412`, `B3-L422`, `B4-L82`, `B4-L496`, `B4-L497`, `B4-L1323`, `B4-L1370`.
+
+Kontext: `B4-L71`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 4.1 Kinder und Jugendliche
+
+Themen-ID: `t4-1`. Direkt zugeordnete Inhaltszeilen: 60; Kontext-/Gliederungszeilen: 8; einschließlich Unterthemen: 68.
+
+Inhalte: `B1-L35`, `B1-L36`, `B1-L37`, `B1-L39`, `B1-L88`, `B1-L89`, `B2-L112`, `B2-L113`, `B2-L114`, `B2-L118`, `B2-L119`, `B2-L120`, `B2-L121`, `B2-L122`, `B2-L129`, `B2-L130`, `B2-L133`, `B2-L134`, `B2-L280`, `B2-L281`, `B3-L59`, `B3-L60`, `B3-L61`, `B3-L64`, `B3-L65`, `B3-L67`, `B3-L68`, `B3-L69`, `B3-L212`, `B3-L213`, `B3-L215`, `B4-L73`, `B4-L96`, `B4-L97`, `B4-L98`, `B4-L99`, `B4-L100`, `B4-L101`, `B4-L102`, `B4-L106`, `B4-L504`, `B4-L687`, `B4-L688`, `B4-L689`, `B4-L695`, `B4-L696`, `B4-L700`, `B4-L783`, `B4-L784`, `B4-L787`, `B4-L788`, `B4-L793`, `B4-L794`, `B4-L797`, `B4-L1003`, `B4-L1033`, `B4-L1040`, `B4-L1129`, `B4-L1132`, `B4-L1343`.
+
+Kontext: `B2-L110`, `B3-L57`, `B4-L94`, `B4-L684`, `B4-L693`, `B4-L781`, `B4-L790`, `B4-L1127`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 4.2 Junge Erwachsene
+
+Themen-ID: `t4-2`. Direkt zugeordnete Inhaltszeilen: 32; Kontext-/Gliederungszeilen: 4; einschließlich Unterthemen: 36.
+
+Inhalte: `B1-L38`, `B1-L39`, `B1-L40`, `B1-L88`, `B2-L112`, `B2-L123`, `B2-L124`, `B2-L125`, `B2-L126`, `B2-L127`, `B2-L132`, `B2-L282`, `B3-L59`, `B3-L61`, `B3-L63`, `B3-L66`, `B3-L212`, `B3-L213`, `B3-L214`, `B4-L74`, `B4-L107`, `B4-L108`, `B4-L783`, `B4-L784`, `B4-L785`, `B4-L786`, `B4-L787`, `B4-L788`, `B4-L792`, `B4-L1047`, `B4-L1053`, `B4-L1130`.
+
+Kontext: `B2-L110`, `B3-L57`, `B4-L781`, `B4-L1127`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 4.3 Erwachsene und Erwerbsleben
+
+Themen-ID: `t4-3`. Direkt zugeordnete Inhaltszeilen: 22; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 25.
+
+Inhalte: `B1-L41`, `B1-L42`, `B2-L138`, `B2-L139`, `B2-L140`, `B3-L95`, `B4-L75`, `B4-L109`, `B4-L115`, `B4-L124`, `B4-L127`, `B4-L874`, `B4-L875`, `B4-L876`, `B4-L877`, `B4-L881`, `B4-L882`, `B4-L884`, `B5-L139`, `B5-L141`, `B5-L143`, `B5-L145`.
+
+Kontext: `B2-L136`, `B4-L872`, `B4-L879`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 4.4 Familien und Beziehungen
+
+Themen-ID: `t4-4`. Direkt zugeordnete Inhaltszeilen: 33; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 36.
+
+Inhalte: `B1-L45`, `B1-L46`, `B1-L47`, `B1-L48`, `B2-L141`, `B2-L144`, `B2-L145`, `B2-L159`, `B2-L289`, `B3-L182`, `B3-L225`, `B4-L76`, `B4-L113`, `B4-L114`, `B4-L734`, `B4-L735`, `B4-L736`, `B4-L737`, `B4-L738`, `B4-L739`, `B4-L1061`, `B4-L1076`, `B5-L69`, `B5-L71`, `B5-L73`, `B5-L131`, `B5-L133`, `B5-L135`, `B5-L137`, `B5-L153`, `B5-L155`, `B5-L157`, `B5-L159`.
+
+Kontext: `B2-L136`, `B4-L732`, `B5-L129`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 4.5 Ältere Menschen
+
+Themen-ID: `t4-5`. Direkt zugeordnete Inhaltszeilen: 26; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 28.
+
+Inhalte: `B1-L43`, `B1-L44`, `B2-L164`, `B2-L165`, `B2-L166`, `B2-L167`, `B2-L168`, `B2-L169`, `B2-L170`, `B2-L171`, `B2-L172`, `B2-L173`, `B2-L174`, `B2-L175`, `B2-L283`, `B3-L218`, `B3-L219`, `B4-L79`, `B4-L116`, `B4-L503`, `B4-L810`, `B4-L811`, `B4-L812`, `B4-L1003`, `B4-L1035`, `B4-L1060`.
+
+Kontext: `B2-L162`, `B4-L808`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 4.6 Weitere besondere Lebenssituationen
+
+Themen-ID: `t4-6`. Direkt zugeordnete Inhaltszeilen: 99; Kontext-/Gliederungszeilen: 12; einschließlich Unterthemen: 111.
+
+Inhalte: `B1-L55`, `B1-L56`, `B1-L57`, `B1-L58`, `B1-L59`, `B1-L60`, `B1-L61`, `B1-L62`, `B1-L63`, `B1-L64`, `B1-L65`, `B1-L69`, `B1-L70`, `B1-L71`, `B1-L89`, `B2-L147`, `B2-L148`, `B2-L149`, `B2-L150`, `B2-L151`, `B2-L152`, `B2-L153`, `B2-L155`, `B2-L156`, `B2-L157`, `B2-L158`, `B2-L287`, `B2-L288`, `B2-L290`, `B2-L291`, `B2-L510`, `B3-L185`, `B3-L195`, `B3-L198`, `B3-L221`, `B3-L223`, `B3-L224`, `B3-L226`, `B3-L229`, `B3-L236`, `B3-L402`, `B3-L429`, `B4-L77`, `B4-L80`, `B4-L111`, `B4-L207`, `B4-L406`, `B4-L648`, `B4-L649`, `B4-L650`, `B4-L651`, `B4-L654`, `B4-L686`, `B4-L716`, `B4-L717`, `B4-L718`, `B4-L724`, `B4-L725`, `B4-L726`, `B4-L727`, `B4-L730`, `B4-L751`, `B4-L752`, `B4-L753`, `B4-L754`, `B4-L755`, `B4-L756`, `B4-L760`, `B4-L761`, `B4-L762`, `B4-L764`, `B4-L768`, `B4-L769`, `B4-L770`, `B4-L777`, `B4-L779`, `B4-L1037`, `B4-L1038`, `B4-L1058`, `B4-L1059`, `B4-L1073`, `B4-L1077`, `B4-L1080`, `B4-L1082`, `B4-L1106`, `B4-L1108`, `B4-L1109`, `B4-L1110`, `B4-L1111`, `B4-L1244`, `B5-L65`, `B5-L67`, `B5-L75`, `B5-L79`, `B5-L81`, `B5-L147`, `B5-L149`, `B5-L161`, `B5-L163`.
+
+Kontext: `B2-L136`, `B3-L210`, `B4-L646`, `B4-L714`, `B4-L722`, `B4-L749`, `B4-L758`, `B4-L766`, `B4-L774`, `B4-L1031`, `B5-L57`, `B5-L129`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 5 Einsamkeit und Gesundheit
+
+Themen-ID: `gesundheit`. Direkt zugeordnete Inhaltszeilen: 1; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 132.
+
+Inhalte: `B4-L1074`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 5.1 Psychische Gesundheit
+
+Themen-ID: `t5-1`. Direkt zugeordnete Inhaltszeilen: 30; Kontext-/Gliederungszeilen: 4; einschließlich Unterthemen: 34.
+
+Inhalte: `B1-L23`, `B1-L24`, `B1-L55`, `B2-L20`, `B2-L99`, `B2-L101`, `B2-L104`, `B2-L120`, `B2-L280`, `B2-L281`, `B3-L39`, `B3-L64`, `B3-L216`, `B3-L217`, `B3-L411`, `B3-L425`, `B4-L86`, `B4-L87`, `B4-L89`, `B4-L686`, `B4-L687`, `B4-L688`, `B4-L689`, `B4-L1040`, `B5-L41`, `B5-L43`, `B5-L85`, `B5-L87`, `B5-L89`, `B5-L117`.
+
+Kontext: `B2-L94`, `B4-L84`, `B4-L684`, `B5-L83`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 5.2 Körperliche Gesundheit
+
+Themen-ID: `t5-2`. Direkt zugeordnete Inhaltszeilen: 14; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 17.
+
+Inhalte: `B1-L23`, `B1-L28`, `B2-L20`, `B2-L100`, `B2-L102`, `B3-L40`, `B3-L411`, `B3-L425`, `B4-L86`, `B4-L88`, `B5-L87`, `B5-L89`, `B5-L91`, `B5-L93`.
+
+Kontext: `B2-L94`, `B4-L84`, `B5-L83`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 5.3 Gesundheitliche Einschränkungen und Teilhabe
+
+Themen-ID: `t5-3`. Direkt zugeordnete Inhaltszeilen: 36; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 39.
+
+Inhalte: `B1-L25`, `B1-L26`, `B1-L57`, `B1-L58`, `B1-L103`, `B2-L104`, `B2-L147`, `B2-L148`, `B2-L149`, `B2-L150`, `B2-L284`, `B3-L66`, `B3-L172`, `B3-L214`, `B3-L234`, `B4-L91`, `B4-L117`, `B4-L289`, `B4-L293`, `B4-L294`, `B4-L668`, `B4-L669`, `B4-L670`, `B4-L671`, `B4-L672`, `B4-L1035`, `B4-L1082`, `B5-L99`, `B5-L101`, `B5-L103`, `B5-L105`, `B5-L107`, `B5-L109`, `B5-L111`, `B5-L113`, `B5-L115`.
+
+Kontext: `B4-L287`, `B4-L666`, `B5-L83`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 5.4 Pflege und Betreuung
+
+Themen-ID: `t5-4`. Direkt zugeordnete Inhaltszeilen: 42; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 45.
+
+Inhalte: `B1-L27`, `B1-L51`, `B1-L52`, `B1-L53`, `B1-L54`, `B1-L119`, `B2-L176`, `B2-L177`, `B2-L321`, `B3-L94`, `B3-L179`, `B3-L180`, `B3-L181`, `B3-L228`, `B4-L78`, `B4-L308`, `B4-L617`, `B4-L673`, `B4-L743`, `B4-L744`, `B4-L745`, `B4-L746`, `B4-L747`, `B4-L818`, `B4-L819`, `B4-L820`, `B4-L821`, `B4-L822`, `B4-L826`, `B4-L827`, `B4-L828`, `B4-L829`, `B4-L984`, `B4-L1054`, `B4-L1079`, `B4-L1081`, `B4-L1091`, `B4-L1093`, `B5-L157`, `B5-L159`, `B5-L333`, `B5-L335`.
+
+Kontext: `B4-L741`, `B4-L816`, `B4-L824`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 5.5 Medizinische und professionelle Hilfe
+
+Themen-ID: `t5-5`. Direkt zugeordnete Inhaltszeilen: 9; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 9.
+
+Inhalte: `B2-L131`, `B4-L92`, `B4-L691`, `B4-L699`, `B4-L795`, `B5-L95`, `B5-L97`, `B5-L117`, `B5-L331`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 6 Was kann ich selbst gegen Einsamkeit tun?
+
+Themen-ID: `selbst-aktiv-werden`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 37.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 6.1 Erste Schritte
+
+Themen-ID: `t6-1`. Direkt zugeordnete Inhaltszeilen: 7; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 8.
+
+Inhalte: `B4-L408`, `B5-L7`, `B5-L53`, `B5-L151`, `B5-L499`, `B5-L531`, `B5-L548`.
+
+Kontext: `B5-L497`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 6.2 Neue Kontakte finden
+
+Themen-ID: `t6-2`. Direkt zugeordnete Inhaltszeilen: 7; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 7.
+
+Inhalte: `B4-L412`, `B4-L1244`, `B5-L209`, `B5-L501`, `B5-L505`, `B5-L511`, `B5-L521`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 6.3 Unterstützung beim ersten Besuch
+
+Themen-ID: `t6-3`. Direkt zugeordnete Inhaltszeilen: 15; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 15.
+
+Inhalte: `B1-L91`, `B1-L262`, `B2-L358`, `B4-L594`, `B5-L179`, `B5-L195`, `B5-L197`, `B5-L221`, `B5-L223`, `B5-L235`, `B5-L239`, `B5-L341`, `B5-L449`, `B5-L513`, `B5-L548`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 6.4 Kontakte dauerhaft erhalten
+
+Themen-ID: `t6-4`. Direkt zugeordnete Inhaltszeilen: 8; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 8.
+
+Inhalte: `B2-L105`, `B2-L106`, `B5-L199`, `B5-L211`, `B5-L517`, `B5-L519`, `B5-L548`, `B5-L552`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 6.5 Wenn ein erster Versuch nicht funktioniert
+
+Themen-ID: `t6-5`. Direkt zugeordnete Inhaltszeilen: 1; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 1.
+
+Inhalte: `B5-L515`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 7 Hilfe, Beratung und Unterstützung finden
+
+Themen-ID: `hilfe`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 159.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 7.1 Ich fühle mich einsam
+
+Themen-ID: `t7-1`. Direkt zugeordnete Inhaltszeilen: 13; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 13.
+
+Inhalte: `B1-L114`, `B1-L115`, `B1-L116`, `B1-L126`, `B1-L182`, `B1-L183`, `B2-L107`, `B3-L186`, `B4-L408`, `B4-L414`, `B5-L425`, `B5-L427`, `B5-L550`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 7.2 Ich benötige professionelle Hilfe
+
+Themen-ID: `t7-2`. Direkt zugeordnete Inhaltszeilen: 37; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 39.
+
+Inhalte: `B1-L35`, `B1-L56`, `B1-L118`, `B1-L120`, `B1-L121`, `B1-L122`, `B1-L123`, `B1-L124`, `B1-L125`, `B1-L273`, `B2-L107`, `B2-L142`, `B2-L143`, `B2-L286`, `B3-L227`, `B4-L691`, `B4-L704`, `B4-L705`, `B4-L706`, `B4-L707`, `B4-L708`, `B4-L709`, `B4-L710`, `B4-L711`, `B4-L712`, `B4-L719`, `B4-L720`, `B4-L747`, `B4-L776`, `B4-L777`, `B4-L1004`, `B4-L1039`, `B4-L1087`, `B5-L65`, `B5-L67`, `B5-L85`, `B5-L479`.
+
+Kontext: `B4-L702`, `B4-L774`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 7.3 Ich kann meine Wohnung kaum verlassen
+
+Themen-ID: `t7-3`. Direkt zugeordnete Inhaltszeilen: 44; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 47.
+
+Inhalte: `B1-L263`, `B2-L169`, `B2-L170`, `B2-L171`, `B2-L172`, `B2-L358`, `B3-L219`, `B3-L220`, `B3-L330`, `B4-L290`, `B4-L291`, `B4-L582`, `B4-L668`, `B4-L669`, `B4-L670`, `B4-L671`, `B4-L672`, `B4-L677`, `B4-L678`, `B4-L679`, `B4-L680`, `B4-L681`, `B4-L682`, `B4-L1036`, `B4-L1064`, `B4-L1075`, `B4-L1245`, `B5-L181`, `B5-L183`, `B5-L185`, `B5-L293`, `B5-L295`, `B5-L297`, `B5-L299`, `B5-L301`, `B5-L329`, `B5-L337`, `B5-L339`, `B5-L343`, `B5-L345`, `B5-L347`, `B5-L349`, `B5-L527`, `B5-L529`.
+
+Kontext: `B4-L666`, `B4-L675`, `B5-L327`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 7.4 Ich möchte jemand anderem helfen
+
+Themen-ID: `t7-4`. Direkt zugeordnete Inhaltszeilen: 7; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 7.
+
+Inhalte: `B1-L117`, `B4-L698`, `B4-L821`, `B5-L427`, `B5-L469`, `B5-L507`, `B5-L509`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 7.5 Hilfsangebote in Bergedorf
+
+Themen-ID: `t7-5`. Direkt zugeordnete Inhaltszeilen: 52; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 55.
+
+Inhalte: `B1-L113`, `B1-L130`, `B2-L27`, `B2-L134`, `B2-L232`, `B2-L233`, `B2-L427`, `B2-L428`, `B2-L429`, `B2-L430`, `B2-L431`, `B2-L432`, `B2-L457`, `B2-L458`, `B2-L459`, `B2-L460`, `B2-L462`, `B3-L371`, `B3-L426`, `B4-L44`, `B4-L327`, `B4-L658`, `B4-L659`, `B4-L660`, `B4-L661`, `B4-L662`, `B4-L938`, `B4-L939`, `B4-L940`, `B4-L941`, `B4-L943`, `B4-L1067`, `B4-L1232`, `B4-L1233`, `B4-L1234`, `B4-L1236`, `B4-L1237`, `B4-L1240`, `B4-L1299`, `B4-L1316`, `B5-L405`, `B5-L429`, `B5-L431`, `B5-L433`, `B5-L435`, `B5-L437`, `B5-L439`, `B5-L441`, `B5-L443`, `B5-L445`, `B5-L447`, `B5-L525`.
+
+Kontext: `B4-L656`, `B4-L936`, `B5-L421`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 8 Begegnung und Gemeinschaft im Alltag
+
+Themen-ID: `begegnung`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 273.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 8.1 Arten von Begegnungsorten
+
+Themen-ID: `t8-1`. Direkt zugeordnete Inhaltszeilen: 44; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 46.
+
+Inhalte: `B1-L68`, `B1-L83`, `B1-L84`, `B1-L86`, `B2-L43`, `B2-L173`, `B2-L214`, `B2-L215`, `B2-L341`, `B2-L342`, `B2-L345`, `B2-L359`, `B2-L360`, `B2-L362`, `B2-L363`, `B2-L364`, `B2-L425`, `B2-L426`, `B3-L165`, `B3-L171`, `B3-L400`, `B3-L414`, `B3-L426`, `B3-L428`, `B4-L278`, `B4-L279`, `B4-L280`, `B4-L282`, `B4-L283`, `B4-L284`, `B4-L285`, `B4-L443`, `B4-L503`, `B4-L504`, `B4-L518`, `B4-L836`, `B4-L1232`, `B4-L1373`, `B5-L305`, `B5-L309`, `B5-L311`, `B5-L313`, `B5-L315`, `B5-L317`.
+
+Kontext: `B2-L337`, `B4-L276`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 8.2 Formen der Begegnung
+
+Themen-ID: `t8-2`. Direkt zugeordnete Inhaltszeilen: 37; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 38.
+
+Inhalte: `B1-L81`, `B1-L85`, `B1-L89`, `B1-L90`, `B1-L92`, `B1-L93`, `B1-L95`, `B1-L259`, `B1-L260`, `B2-L29`, `B2-L178`, `B2-L343`, `B2-L344`, `B2-L352`, `B2-L353`, `B2-L354`, `B2-L355`, `B2-L356`, `B2-L443`, `B2-L444`, `B2-L445`, `B3-L96`, `B3-L304`, `B3-L437`, `B4-L40`, `B4-L411`, `B4-L424`, `B4-L837`, `B4-L985`, `B4-L986`, `B4-L1099`, `B5-L187`, `B5-L189`, `B5-L191`, `B5-L193`, `B5-L205`, `B5-L207`.
+
+Kontext: `B2-L337`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 8.3 Was macht ein Angebot zugänglich?
+
+Themen-ID: `t8-3`. Direkt zugeordnete Inhaltszeilen: 116; Kontext-/Gliederungszeilen: 11; einschließlich Unterthemen: 127.
+
+Inhalte: `B1-L72`, `B1-L73`, `B1-L87`, `B1-L92`, `B1-L102`, `B1-L103`, `B1-L110`, `B1-L132`, `B1-L261`, `B2-L160`, `B2-L169`, `B2-L170`, `B2-L171`, `B2-L172`, `B2-L339`, `B2-L340`, `B2-L343`, `B2-L344`, `B2-L347`, `B2-L348`, `B2-L349`, `B2-L350`, `B2-L351`, `B2-L365`, `B2-L366`, `B2-L367`, `B2-L433`, `B2-L434`, `B2-L512`, `B2-L513`, `B3-L166`, `B3-L170`, `B3-L234`, `B3-L235`, `B3-L414`, `B4-L77`, `B4-L91`, `B4-L281`, `B4-L289`, `B4-L291`, `B4-L292`, `B4-L293`, `B4-L294`, `B4-L410`, `B4-L412`, `B4-L413`, `B4-L418`, `B4-L419`, `B4-L420`, `B4-L421`, `B4-L422`, `B4-L423`, `B4-L425`, `B4-L442`, `B4-L444`, `B4-L482`, `B4-L483`, `B4-L484`, `B4-L485`, `B4-L486`, `B4-L487`, `B4-L488`, `B4-L534`, `B4-L535`, `B4-L536`, `B4-L539`, `B4-L540`, `B4-L541`, `B4-L571`, `B4-L602`, `B4-L603`, `B4-L604`, `B4-L607`, `B4-L608`, `B4-L632`, `B4-L738`, `B4-L751`, `B4-L752`, `B4-L753`, `B4-L754`, `B4-L755`, `B4-L866`, `B4-L867`, `B4-L868`, `B4-L870`, `B4-L1073`, `B4-L1092`, `B4-L1233`, `B4-L1235`, `B4-L1236`, `B4-L1237`, `B4-L1238`, `B4-L1239`, `B4-L1265`, `B4-L1269`, `B4-L1373`, `B4-L1384`, `B4-L1390`, `B5-L175`, `B5-L177`, `B5-L203`, `B5-L219`, `B5-L237`, `B5-L241`, `B5-L243`, `B5-L245`, `B5-L435`, `B5-L437`, `B5-L439`, `B5-L441`, `B5-L443`, `B5-L445`, `B5-L447`, `B5-L511`, `B5-L521`, `B5-L531`.
+
+Kontext: `B2-L337`, `B4-L287`, `B4-L416`, `B4-L480`, `B4-L532`, `B4-L600`, `B4-L749`, `B4-L864`, `B4-L1380`, `B4-L1382`, `B5-L213`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 8.4 Warum werden vorhandene Angebote nicht genutzt?
+
+Themen-ID: `t8-4`. Direkt zugeordnete Inhaltszeilen: 20; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 22.
+
+Inhalte: `B2-L294`, `B3-L239`, `B3-L324`, `B3-L427`, `B4-L90`, `B4-L553`, `B4-L569`, `B4-L570`, `B4-L571`, `B4-L572`, `B4-L573`, `B4-L574`, `B4-L575`, `B4-L727`, `B4-L869`, `B4-L1243`, `B4-L1390`, `B5-L9`, `B5-L165`, `B5-L415`.
+
+Kontext: `B3-L232`, `B4-L567`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 8.5 Dokumentierte Praxisbeispiele
+
+Themen-ID: `t8-5`. Direkt zugeordnete Inhaltszeilen: 45; Kontext-/Gliederungszeilen: 6; einschließlich Unterthemen: 51.
+
+Inhalte: `B1-L82`, `B1-L91`, `B2-L346`, `B3-L326`, `B4-L388`, `B4-L492`, `B4-L493`, `B4-L494`, `B4-L495`, `B4-L496`, `B4-L497`, `B4-L498`, `B4-L523`, `B4-L524`, `B4-L525`, `B4-L526`, `B4-L527`, `B4-L528`, `B4-L529`, `B4-L530`, `B4-L549`, `B4-L550`, `B4-L551`, `B4-L552`, `B4-L553`, `B4-L554`, `B4-L591`, `B4-L592`, `B4-L593`, `B4-L594`, `B4-L595`, `B4-L596`, `B4-L597`, `B4-L598`, `B4-L629`, `B4-L630`, `B4-L631`, `B4-L632`, `B4-L810`, `B4-L811`, `B4-L812`, `B4-L813`, `B4-L1164`, `B4-L1349`, `B4-L1386`.
+
+Kontext: `B4-L490`, `B4-L521`, `B4-L547`, `B4-L589`, `B4-L627`, `B4-L808`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9 Wie gründe ich eine Begegnungsstätte, die von allen Gruppen der Gesellschaft besucht wird?
+
+Themen-ID: `begegnungsstaette`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 106.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.1 Grundidee und Zielsetzung
+
+Themen-ID: `t9-1`. Direkt zugeordnete Inhaltszeilen: 38; Kontext-/Gliederungszeilen: 4; einschließlich Unterthemen: 42.
+
+Inhalte: `B1-L79`, `B1-L80`, `B2-L174`, `B2-L175`, `B2-L292`, `B2-L293`, `B2-L339`, `B2-L340`, `B2-L347`, `B2-L348`, `B2-L511`, `B3-L249`, `B4-L502`, `B4-L505`, `B4-L506`, `B4-L507`, `B4-L508`, `B4-L509`, `B4-L513`, `B4-L514`, `B4-L515`, `B4-L516`, `B4-L517`, `B4-L518`, `B4-L519`, `B4-L540`, `B4-L542`, `B4-L1001`, `B4-L1002`, `B4-L1004`, `B4-L1005`, `B4-L1006`, `B4-L1066`, `B4-L1234`, `B4-L1261`, `B4-L1269`, `B4-L1270`, `B4-L1374`.
+
+Kontext: `B4-L500`, `B4-L511`, `B4-L999`, `B4-L1259`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.2 Bedarf ermitteln
+
+Themen-ID: `t9-2`. Direkt zugeordnete Inhaltszeilen: 7; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 7.
+
+Inhalte: `B2-L505`, `B4-L498`, `B4-L537`, `B4-L1272`, `B5-L321`, `B5-L323`, `B5-L473`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.3 Standort und Erreichbarkeit
+
+Themen-ID: `t9-3`. Direkt zugeordnete Inhaltszeilen: 5; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 5.
+
+Inhalte: `B4-L535`, `B4-L538`, `B4-L1267`, `B4-L1268`, `B5-L237`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.4 Angebote für unterschiedliche Menschen
+
+Themen-ID: `t9-4`. Direkt zugeordnete Inhaltszeilen: 15; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 16.
+
+Inhalte: `B1-L78`, `B1-L259`, `B2-L443`, `B2-L444`, `B2-L445`, `B4-L539`, `B4-L541`, `B4-L543`, `B4-L1261`, `B4-L1263`, `B4-L1264`, `B4-L1265`, `B4-L1266`, `B4-L1271`, `B5-L233`.
+
+Kontext: `B4-L1259`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.5 Gleichbehandlung und Diskriminierungsfreiheit
+
+Themen-ID: `t9-5`. Direkt zugeordnete Inhaltszeilen: 12; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 13.
+
+Inhalte: `B2-L160`, `B4-L760`, `B4-L762`, `B4-L763`, `B4-L764`, `B4-L1270`, `B5-L59`, `B5-L61`, `B5-L63`, `B5-L227`, `B5-L229`, `B5-L245`.
+
+Kontext: `B4-L758`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.6 Finanzierung und Bezahlbarkeit
+
+Themen-ID: `t9-6`. Direkt zugeordnete Inhaltszeilen: 9; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 9.
+
+Inhalte: `B1-L78`, `B4-L526`, `B4-L527`, `B4-L536`, `B4-L607`, `B4-L608`, `B4-L1263`, `B4-L1264`, `B5-L473`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.7 Rechtliche und organisatorische Voraussetzungen
+
+Themen-ID: `t9-7`. Direkt zugeordnete Inhaltszeilen: 4; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 4.
+
+Inhalte: `B5-L307`, `B5-L409`, `B5-L473`, `B5-L535`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.8 Personal und Zusammenarbeit
+
+Themen-ID: `t9-8`. Direkt zugeordnete Inhaltszeilen: 7; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 7.
+
+Inhalte: `B4-L642`, `B4-L1068`, `B5-L195`, `B5-L197`, `B5-L221`, `B5-L223`, `B5-L231`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.9 Bekanntmachung und Besuchergewinnung
+
+Themen-ID: `t9-9`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 0.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.10 Dauerhafter Betrieb
+
+Themen-ID: `t9-10`. Direkt zugeordnete Inhaltszeilen: 11; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 11.
+
+Inhalte: `B3-L241`, `B4-L413`, `B4-L421`, `B4-L534`, `B4-L544`, `B4-L545`, `B4-L1262`, `B5-L175`, `B5-L203`, `B5-L215`, `B5-L217`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.11 Wissenschaftliche Erkenntnisse und Praxisvergleiche
+
+Themen-ID: `t9-11`. Direkt zugeordnete Inhaltszeilen: 1; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 1.
+
+Inhalte: `B4-L509`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 9.12 Kommentare und Vorschläge
+
+Themen-ID: `t9-12`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 0.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10 Einsamkeit in Bergedorf – Stadtteile und örtliche Lebensbedingungen
+
+Themen-ID: `stadtteile`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 125.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10.1 Bergedorf insgesamt
+
+Themen-ID: `t10-1`. Direkt zugeordnete Inhaltszeilen: 10; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 13.
+
+Inhalte: `B1-L21`, `B2-L22`, `B2-L420`, `B2-L421`, `B2-L422`, `B2-L520`, `B3-L398`, `B3-L408`, `B4-L439`, `B5-L251`.
+
+Kontext: `B2-L3`, `B2-L418`, `B5-L249`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10.2 Stadtteilbezogene Untersuchungen
+
+Themen-ID: `t10-2`. Direkt zugeordnete Inhaltszeilen: 32; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 35.
+
+Inhalte: `B2-L231`, `B2-L421`, `B2-L422`, `B2-L428`, `B2-L429`, `B2-L430`, `B2-L431`, `B3-L399`, `B4-L473`, `B4-L474`, `B4-L475`, `B4-L476`, `B4-L1241`, `B5-L7`, `B5-L259`, `B5-L261`, `B5-L263`, `B5-L265`, `B5-L267`, `B5-L269`, `B5-L271`, `B5-L273`, `B5-L275`, `B5-L277`, `B5-L279`, `B5-L281`, `B5-L283`, `B5-L285`, `B5-L287`, `B5-L289`, `B5-L431`, `B5-L549`.
+
+Kontext: `B4-L471`, `B5-L247`, `B5-L249`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10.3 Was wird in jedem Stadtteil untersucht?
+
+Themen-ID: `t10-3`. Direkt zugeordnete Inhaltszeilen: 48; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 49.
+
+Inhalte: `B1-L102`, `B1-L103`, `B1-L250`, `B2-L424`, `B2-L425`, `B2-L426`, `B2-L433`, `B2-L434`, `B2-L513`, `B3-L400`, `B4-L130`, `B4-L280`, `B4-L281`, `B4-L292`, `B4-L295`, `B4-L443`, `B4-L477`, `B4-L478`, `B4-L1238`, `B4-L1239`, `B5-L261`, `B5-L263`, `B5-L265`, `B5-L267`, `B5-L269`, `B5-L271`, `B5-L273`, `B5-L275`, `B5-L277`, `B5-L279`, `B5-L281`, `B5-L283`, `B5-L285`, `B5-L287`, `B5-L289`, `B5-L293`, `B5-L295`, `B5-L297`, `B5-L299`, `B5-L301`, `B5-L303`, `B5-L309`, `B5-L311`, `B5-L313`, `B5-L315`, `B5-L317`, `B5-L325`, `B5-L549`.
+
+Kontext: `B3-L396`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10.4 Vier- und Marschlande
+
+Themen-ID: `t10-4`. Direkt zugeordnete Inhaltszeilen: 10; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 10.
+
+Inhalte: `B2-L423`, `B2-L432`, `B5-L251`, `B5-L291`, `B5-L293`, `B5-L295`, `B5-L297`, `B5-L299`, `B5-L301`, `B5-L523`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10.5 Gesellschaftlicher Wandel in Bergedorf
+
+Themen-ID: `t10-5`. Direkt zugeordnete Inhaltszeilen: 10; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 11.
+
+Inhalte: `B2-L442`, `B4-L440`, `B4-L457`, `B4-L467`, `B4-L468`, `B4-L633`, `B4-L1254`, `B4-L1257`, `B4-L1375`, `B5-L319`.
+
+Kontext: `B4-L437`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10.6 Historisches Verzeichnis der Begegnungsorte
+
+Themen-ID: `t10-6`. Direkt zugeordnete Inhaltszeilen: 6; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 7.
+
+Inhalte: `B4-L1249`, `B4-L1250`, `B4-L1256`, `B4-L1302`, `B4-L1314`, `B4-L1350`.
+
+Kontext: `B4-L1247`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 10.7 Was fehlt heute in Bergedorf?
+
+Themen-ID: `t10-7`. Direkt zugeordnete Inhaltszeilen: 25; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 28.
+
+Inhalte: `B1-L250`, `B1-L251`, `B1-L252`, `B2-L232`, `B2-L233`, `B2-L505`, `B3-L156`, `B3-L371`, `B3-L403`, `B3-L427`, `B4-L335`, `B4-L442`, `B4-L466`, `B4-L1232`, `B4-L1241`, `B4-L1242`, `B4-L1243`, `B4-L1245`, `B4-L1384`, `B5-L321`, `B5-L323`, `B5-L405`, `B5-L457`, `B5-L459`, `B5-L549`.
+
+Kontext: `B4-L1230`, `B4-L1380`, `B4-L1382`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 11 Organisationen, Einrichtungen und Netzwerke
+
+Themen-ID: `netzwerke`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 384.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 11.1 Organisationen und Einrichtungen
+
+Themen-ID: `t11-1`. Direkt zugeordnete Inhaltszeilen: 114; Kontext-/Gliederungszeilen: 9; einschließlich Unterthemen: 123.
+
+Inhalte: `B1-L88`, `B1-L114`, `B1-L115`, `B1-L196`, `B1-L197`, `B1-L198`, `B1-L199`, `B1-L200`, `B1-L203`, `B1-L204`, `B1-L258`, `B2-L129`, `B2-L130`, `B2-L131`, `B2-L194`, `B2-L302`, `B2-L303`, `B2-L304`, `B2-L305`, `B2-L309`, `B2-L310`, `B2-L311`, `B2-L312`, `B2-L313`, `B2-L321`, `B2-L323`, `B2-L324`, `B2-L325`, `B2-L329`, `B2-L330`, `B2-L331`, `B2-L332`, `B2-L333`, `B2-L357`, `B2-L438`, `B2-L439`, `B3-L68`, `B3-L258`, `B3-L271`, `B3-L272`, `B3-L273`, `B3-L274`, `B3-L275`, `B3-L278`, `B3-L279`, `B3-L280`, `B3-L281`, `B3-L282`, `B3-L292`, `B3-L293`, `B4-L102`, `B4-L125`, `B4-L299`, `B4-L300`, `B4-L301`, `B4-L307`, `B4-L308`, `B4-L309`, `B4-L328`, `B4-L396`, `B4-L612`, `B4-L613`, `B4-L614`, `B4-L616`, `B4-L617`, `B4-L619`, `B4-L620`, `B4-L621`, `B4-L623`, `B4-L629`, `B4-L630`, `B4-L631`, `B4-L654`, `B4-L699`, `B4-L719`, `B4-L728`, `B4-L746`, `B4-L761`, `B4-L771`, `B4-L776`, `B4-L778`, `B4-L783`, `B4-L784`, `B4-L787`, `B4-L788`, `B4-L793`, `B4-L794`, `B4-L795`, `B4-L796`, `B4-L797`, `B4-L801`, `B4-L802`, `B4-L804`, `B4-L818`, `B4-L820`, `B4-L822`, `B4-L901`, `B4-L963`, `B4-L993`, `B4-L1046`, `B4-L1047`, `B4-L1048`, `B4-L1049`, `B4-L1050`, `B4-L1051`, `B4-L1053`, `B4-L1054`, `B4-L1081`, `B4-L1087`, `B4-L1092`, `B4-L1093`, `B4-L1120`, `B4-L1136`, `B4-L1360`.
+
+Kontext: `B2-L300`, `B3-L267`, `B3-L269`, `B4-L627`, `B4-L781`, `B4-L790`, `B4-L799`, `B4-L816`, `B4-L1043`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 11.2 Wohnumfeld und örtliche Ansprechpartner
+
+Themen-ID: `t11-2`. Direkt zugeordnete Inhaltszeilen: 38; Kontext-/Gliederungszeilen: 3; einschließlich Unterthemen: 41.
+
+Inhalte: `B1-L96`, `B1-L97`, `B1-L98`, `B1-L196`, `B1-L257`, `B2-L306`, `B2-L307`, `B2-L326`, `B2-L327`, `B2-L379`, `B2-L436`, `B2-L441`, `B3-L168`, `B3-L169`, `B3-L193`, `B3-L276`, `B3-L327`, `B4-L126`, `B4-L302`, `B4-L618`, `B4-L622`, `B4-L834`, `B4-L835`, `B4-L836`, `B4-L837`, `B4-L838`, `B4-L839`, `B4-L843`, `B4-L844`, `B4-L845`, `B4-L980`, `B4-L986`, `B4-L1094`, `B4-L1097`, `B4-L1102`, `B4-L1281`, `B4-L1290`, `B5-L305`.
+
+Kontext: `B2-L300`, `B4-L832`, `B4-L841`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 11.3 Weitere mögliche Netzwerkpartner
+
+Themen-ID: `t11-3`. Direkt zugeordnete Inhaltszeilen: 62; Kontext-/Gliederungszeilen: 7; einschließlich Unterthemen: 69.
+
+Inhalte: `B1-L99`, `B1-L101`, `B1-L201`, `B1-L202`, `B1-L205`, `B1-L206`, `B2-L65`, `B2-L66`, `B2-L67`, `B2-L132`, `B2-L308`, `B2-L314`, `B2-L315`, `B2-L316`, `B2-L317`, `B2-L322`, `B2-L328`, `B2-L361`, `B2-L440`, `B3-L95`, `B3-L259`, `B3-L277`, `B3-L288`, `B3-L289`, `B3-L290`, `B3-L291`, `B4-L304`, `B4-L305`, `B4-L615`, `B4-L792`, `B4-L813`, `B4-L850`, `B4-L852`, `B4-L853`, `B4-L858`, `B4-L859`, `B4-L860`, `B4-L861`, `B4-L862`, `B4-L866`, `B4-L867`, `B4-L868`, `B4-L869`, `B4-L870`, `B4-L874`, `B4-L875`, `B4-L876`, `B4-L877`, `B4-L881`, `B4-L882`, `B4-L883`, `B4-L884`, `B4-L1045`, `B4-L1084`, `B4-L1086`, `B4-L1095`, `B4-L1096`, `B4-L1101`, `B4-L1119`, `B4-L1282`, `B4-L1286`, `B4-L1288`.
+
+Kontext: `B2-L300`, `B3-L286`, `B4-L848`, `B4-L856`, `B4-L864`, `B4-L872`, `B4-L879`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 11.4 Zusammenarbeit und Vernetzung
+
+Themen-ID: `t11-4`. Direkt zugeordnete Inhaltszeilen: 126; Kontext-/Gliederungszeilen: 11; einschließlich Unterthemen: 137.
+
+Inhalte: `B1-L109`, `B1-L140`, `B1-L167`, `B1-L168`, `B1-L182`, `B1-L183`, `B1-L184`, `B1-L246`, `B1-L255`, `B1-L256`, `B2-L44`, `B2-L48`, `B2-L49`, `B2-L227`, `B2-L295`, `B2-L362`, `B2-L363`, `B2-L364`, `B2-L368`, `B2-L395`, `B2-L396`, `B2-L397`, `B2-L398`, `B2-L399`, `B2-L401`, `B2-L402`, `B2-L403`, `B2-L404`, `B2-L405`, `B2-L406`, `B2-L411`, `B2-L412`, `B2-L441`, `B2-L504`, `B2-L506`, `B2-L515`, `B2-L516`, `B2-L517`, `B3-L20`, `B3-L21`, `B3-L98`, `B3-L143`, `B3-L144`, `B3-L155`, `B3-L173`, `B3-L197`, `B3-L265`, `B3-L283`, `B3-L284`, `B3-L312`, `B3-L313`, `B3-L314`, `B3-L315`, `B3-L316`, `B3-L317`, `B3-L318`, `B3-L319`, `B3-L345`, `B3-L346`, `B3-L347`, `B3-L348`, `B3-L349`, `B3-L350`, `B3-L351`, `B3-L352`, `B3-L401`, `B3-L404`, `B3-L415`, `B3-L430`, `B3-L432`, `B4-L20`, `B4-L21`, `B4-L41`, `B4-L45`, `B4-L69`, `B4-L187`, `B4-L230`, `B4-L333`, `B4-L334`, `B4-L598`, `B4-L625`, `B4-L658`, `B4-L659`, `B4-L660`, `B4-L661`, `B4-L662`, `B4-L664`, `B4-L814`, `B4-L925`, `B4-L926`, `B4-L927`, `B4-L928`, `B4-L929`, `B4-L930`, `B4-L931`, `B4-L932`, `B4-L938`, `B4-L939`, `B4-L940`, `B4-L941`, `B4-L943`, `B4-L944`, `B4-L1011`, `B4-L1012`, `B4-L1014`, `B4-L1016`, `B4-L1017`, `B4-L1019`, `B4-L1020`, `B4-L1024`, `B4-L1025`, `B4-L1026`, `B4-L1027`, `B4-L1028`, `B4-L1029`, `B4-L1067`, `B4-L1122`, `B4-L1123`, `B4-L1125`, `B4-L1163`, `B4-L1228`, `B4-L1363`, `B4-L1364`, `B4-L1371`, `B4-L1376`, `B5-L407`.
+
+Kontext: `B2-L393`, `B3-L310`, `B3-L343`, `B4-L297`, `B4-L312`, `B4-L610`, `B4-L656`, `B4-L923`, `B4-L936`, `B4-L1008`, `B4-L1022`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 11.5 Organisationen in Bergedorf
+
+Themen-ID: `t11-5`. Direkt zugeordnete Inhaltszeilen: 26; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 27.
+
+Inhalte: `B1-L130`, `B1-L255`, `B1-L256`, `B2-L435`, `B2-L438`, `B2-L439`, `B2-L461`, `B4-L1276`, `B4-L1277`, `B4-L1278`, `B4-L1279`, `B4-L1280`, `B4-L1281`, `B4-L1282`, `B4-L1283`, `B4-L1284`, `B4-L1285`, `B4-L1286`, `B4-L1287`, `B4-L1288`, `B4-L1289`, `B4-L1290`, `B4-L1292`, `B4-L1300`, `B4-L1317`, `B5-L471`.
+
+Kontext: `B4-L1274`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 12 Menschen erreichen, die bisher keine Angebote nutzen
+
+Themen-ID: `menschen-erreichen`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 241.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 12.1 Gründe fehlender Erreichbarkeit
+
+Themen-ID: `t12-1`. Direkt zugeordnete Inhaltszeilen: 50; Kontext-/Gliederungszeilen: 5; einschließlich Unterthemen: 55.
+
+Inhalte: `B1-L32`, `B1-L34`, `B1-L35`, `B1-L169`, `B1-L245`, `B2-L118`, `B2-L119`, `B2-L154`, `B2-L279`, `B2-L372`, `B2-L373`, `B3-L67`, `B3-L156`, `B3-L208`, `B3-L215`, `B3-L221`, `B3-L222`, `B3-L230`, `B3-L236`, `B3-L237`, `B3-L238`, `B3-L323`, `B3-L423`, `B4-L90`, `B4-L330`, `B4-L580`, `B4-L581`, `B4-L582`, `B4-L583`, `B4-L584`, `B4-L597`, `B4-L648`, `B4-L649`, `B4-L650`, `B4-L651`, `B4-L695`, `B4-L696`, `B4-L716`, `B4-L717`, `B4-L718`, `B4-L726`, `B4-L1033`, `B4-L1037`, `B4-L1038`, `B4-L1041`, `B4-L1162`, `B4-L1372`, `B5-L161`, `B5-L163`, `B5-L165`.
+
+Kontext: `B3-L232`, `B4-L578`, `B4-L646`, `B4-L693`, `B4-L714`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 12.2 Persönliche Kontaktwege
+
+Themen-ID: `t12-2`. Direkt zugeordnete Inhaltszeilen: 65; Kontext-/Gliederungszeilen: 7; einschließlich Unterthemen: 72.
+
+Inhalte: `B1-L107`, `B1-L108`, `B1-L109`, `B2-L133`, `B2-L179`, `B2-L377`, `B2-L378`, `B2-L383`, `B2-L384`, `B2-L507`, `B3-L94`, `B3-L283`, `B3-L325`, `B3-L326`, `B3-L328`, `B3-L329`, `B3-L330`, `B3-L331`, `B3-L402`, `B4-L580`, `B4-L581`, `B4-L583`, `B4-L584`, `B4-L586`, `B4-L598`, `B4-L625`, `B4-L634`, `B4-L635`, `B4-L639`, `B4-L640`, `B4-L641`, `B4-L644`, `B4-L653`, `B4-L673`, `B4-L681`, `B4-L690`, `B4-L698`, `B4-L720`, `B4-L729`, `B4-L819`, `B4-L826`, `B4-L827`, `B4-L828`, `B4-L829`, `B4-L843`, `B4-L844`, `B4-L845`, `B4-L851`, `B4-L883`, `B4-L976`, `B4-L977`, `B4-L984`, `B4-L985`, `B4-L987`, `B4-L1002`, `B4-L1003`, `B4-L1063`, `B4-L1091`, `B4-L1136`, `B4-L1226`, `B5-L235`, `B5-L329`, `B5-L331`, `B5-L333`, `B5-L335`.
+
+Kontext: `B2-L370`, `B3-L321`, `B4-L578`, `B4-L637`, `B4-L824`, `B4-L841`, `B4-L974`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 12.3 Öffentliche und analoge Information
+
+Themen-ID: `t12-3`. Direkt zugeordnete Inhaltszeilen: 48; Kontext-/Gliederungszeilen: 5; einschließlich Unterthemen: 53.
+
+Inhalte: `B1-L101`, `B1-L104`, `B1-L105`, `B1-L106`, `B1-L264`, `B1-L265`, `B2-L379`, `B2-L380`, `B2-L381`, `B2-L382`, `B2-L386`, `B2-L387`, `B2-L388`, `B3-L327`, `B4-L249`, `B4-L585`, `B4-L605`, `B4-L606`, `B4-L639`, `B4-L640`, `B4-L641`, `B4-L644`, `B4-L834`, `B4-L835`, `B4-L838`, `B4-L839`, `B4-L858`, `B4-L859`, `B4-L860`, `B4-L862`, `B4-L967`, `B4-L969`, `B4-L970`, `B4-L972`, `B4-L978`, `B4-L979`, `B4-L980`, `B4-L981`, `B4-L982`, `B4-L983`, `B4-L1098`, `B4-L1100`, `B4-L1101`, `B5-L461`, `B5-L463`, `B5-L465`, `B5-L467`, `B5-L537`.
+
+Kontext: `B4-L637`, `B4-L832`, `B4-L856`, `B4-L965`, `B4-L974`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 12.4 Kommunikation und Vertrauensaufbau
+
+Themen-ID: `t12-4`. Direkt zugeordnete Inhaltszeilen: 69; Kontext-/Gliederungszeilen: 5; einschließlich Unterthemen: 74.
+
+Inhalte: `B1-L30`, `B1-L31`, `B1-L100`, `B1-L111`, `B1-L112`, `B2-L296`, `B2-L298`, `B2-L328`, `B2-L374`, `B2-L375`, `B2-L376`, `B2-L386`, `B2-L387`, `B2-L388`, `B2-L389`, `B2-L390`, `B2-L391`, `B2-L509`, `B3-L240`, `B3-L335`, `B3-L336`, `B3-L337`, `B3-L338`, `B3-L339`, `B3-L340`, `B3-L341`, `B3-L416`, `B4-L101`, `B4-L401`, `B4-L402`, `B4-L407`, `B4-L409`, `B4-L586`, `B4-L587`, `B4-L652`, `B4-L803`, `B4-L806`, `B4-L830`, `B4-L846`, `B4-L850`, `B4-L851`, `B4-L852`, `B4-L854`, `B4-L948`, `B4-L949`, `B4-L951`, `B4-L953`, `B4-L957`, `B4-L958`, `B4-L959`, `B4-L960`, `B4-L961`, `B4-L962`, `B4-L963`, `B4-L991`, `B4-L992`, `B4-L994`, `B4-L995`, `B4-L996`, `B4-L997`, `B4-L1065`, `B4-L1112`, `B4-L1113`, `B4-L1330`, `B5-L211`, `B5-L225`, `B5-L345`, `B5-L347`, `B5-L349`.
+
+Kontext: `B3-L333`, `B4-L848`, `B4-L946`, `B4-L955`, `B4-L989`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 12.5 Wirksamkeit der Kontaktwege
+
+Themen-ID: `t12-5`. Direkt zugeordnete Inhaltszeilen: 4; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 4.
+
+Inhalte: `B4-L329`, `B4-L585`, `B4-L642`, `B4-L643`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 13 Wissenschaft, Forschung und Wirksamkeit
+
+Themen-ID: `forschung`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 166.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 13.1 Wissenschaftliche Grundlagen
+
+Themen-ID: `t13-1`. Direkt zugeordnete Inhaltszeilen: 18; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 19.
+
+Inhalte: `B1-L150`, `B1-L151`, `B1-L197`, `B1-L198`, `B2-L228`, `B3-L97`, `B3-L122`, `B3-L292`, `B3-L293`, `B3-L294`, `B4-L186`, `B4-L236`, `B4-L306`, `B4-L900`, `B4-L901`, `B4-L902`, `B4-L904`, `B4-L1085`.
+
+Kontext: `B4-L898`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 13.2 Forschung zur Einsamkeit
+
+Themen-ID: `t13-2`. Direkt zugeordnete Inhaltszeilen: 57; Kontext-/Gliederungszeilen: 7; einschließlich Unterthemen: 64.
+
+Inhalte: `B1-L19`, `B1-L20`, `B1-L152`, `B1-L153`, `B2-L58`, `B2-L90`, `B2-L91`, `B2-L96`, `B2-L97`, `B2-L98`, `B2-L113`, `B2-L114`, `B2-L186`, `B2-L187`, `B2-L188`, `B2-L189`, `B2-L490`, `B2-L552`, `B3-L37`, `B3-L50`, `B3-L51`, `B3-L52`, `B3-L53`, `B3-L54`, `B3-L55`, `B3-L60`, `B3-L119`, `B3-L120`, `B3-L295`, `B3-L411`, `B3-L425`, `B4-L96`, `B4-L97`, `B4-L120`, `B4-L134`, `B4-L135`, `B4-L136`, `B4-L137`, `B4-L138`, `B4-L139`, `B4-L201`, `B4-L202`, `B4-L203`, `B4-L204`, `B4-L205`, `B4-L206`, `B4-L207`, `B4-L903`, `B4-L908`, `B4-L909`, `B4-L910`, `B4-L911`, `B4-L912`, `B4-L1341`, `B4-L1342`, `B4-L1343`, `B4-L1344`.
+
+Kontext: `B2-L94`, `B2-L182`, `B3-L48`, `B4-L94`, `B4-L132`, `B4-L199`, `B4-L906`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 13.3 Einsamkeit wissenschaftlich messen
+
+Themen-ID: `t13-3`. Direkt zugeordnete Inhaltszeilen: 1; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 1.
+
+Inhalte: `B5-L379`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 13.4 Was hilft nachweislich gegen Einsamkeit?
+
+Themen-ID: `t13-4`. Direkt zugeordnete Inhaltszeilen: 8; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 8.
+
+Inhalte: `B3-L46`, `B3-L429`, `B4-L92`, `B4-L331`, `B5-L9`, `B5-L119`, `B5-L121`, `B5-L554`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 13.5 Projekte wissenschaftlich bewerten
+
+Themen-ID: `t13-5`. Direkt zugeordnete Inhaltszeilen: 40; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 41.
+
+Inhalte: `B1-L177`, `B1-L178`, `B1-L208`, `B1-L248`, `B2-L92`, `B2-L180`, `B2-L230`, `B2-L239`, `B2-L240`, `B2-L243`, `B2-L334`, `B2-L519`, `B3-L97`, `B3-L132`, `B3-L154`, `B3-L296`, `B4-L46`, `B4-L217`, `B4-L218`, `B4-L310`, `B4-L346`, `B4-L400`, `B4-L551`, `B4-L552`, `B4-L576`, `B4-L1225`, `B4-L1227`, `B4-L1242`, `B4-L1390`, `B5-L375`, `B5-L377`, `B5-L381`, `B5-L383`, `B5-L385`, `B5-L387`, `B5-L389`, `B5-L391`, `B5-L393`, `B5-L395`, `B5-L415`.
+
+Kontext: `B5-L373`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 13.6 Quellen und Forschungsstand
+
+Themen-ID: `t13-6`. Direkt zugeordnete Inhaltszeilen: 31; Kontext-/Gliederungszeilen: 4; einschließlich Unterthemen: 35.
+
+Inhalte: `B1-L147`, `B1-L148`, `B1-L276`, `B1-L279`, `B2-L55`, `B2-L56`, `B2-L108`, `B2-L190`, `B2-L535`, `B3-L83`, `B3-L114`, `B3-L115`, `B3-L116`, `B3-L117`, `B3-L118`, `B3-L121`, `B3-L372`, `B3-L431`, `B4-L43`, `B4-L140`, `B4-L162`, `B4-L181`, `B4-L183`, `B4-L184`, `B4-L185`, `B4-L196`, `B4-L208`, `B4-L1010`, `B4-L1338`, `B4-L1357`, `B5-L121`.
+
+Kontext: `B3-L112`, `B4-L179`, `B4-L1334`, `B5-L125`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14 Das Hamburger Bündnis gegen Einsamkeit
+
+Themen-ID: `buendnis`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 631.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.1 Entstehung und Zielsetzung
+
+Themen-ID: `t14-1`. Direkt zugeordnete Inhaltszeilen: 83; Kontext-/Gliederungszeilen: 8; einschließlich Unterthemen: 91.
+
+Inhalte: `B1-L135`, `B1-L136`, `B1-L137`, `B2-L24`, `B2-L33`, `B2-L34`, `B2-L35`, `B2-L36`, `B2-L37`, `B2-L38`, `B2-L39`, `B2-L40`, `B2-L41`, `B2-L42`, `B2-L43`, `B2-L44`, `B2-L45`, `B2-L46`, `B2-L47`, `B2-L72`, `B2-L73`, `B2-L74`, `B2-L395`, `B2-L396`, `B2-L397`, `B2-L398`, `B2-L399`, `B2-L453`, `B2-L549`, `B3-L11`, `B3-L12`, `B3-L13`, `B3-L14`, `B3-L15`, `B3-L16`, `B3-L17`, `B3-L18`, `B3-L19`, `B3-L20`, `B3-L109`, `B3-L133`, `B3-L409`, `B3-L410`, `B3-L421`, `B3-L422`, `B4-L15`, `B4-L16`, `B4-L17`, `B4-L18`, `B4-L19`, `B4-L20`, `B4-L21`, `B4-L22`, `B4-L26`, `B4-L27`, `B4-L28`, `B4-L29`, `B4-L30`, `B4-L31`, `B4-L32`, `B4-L33`, `B4-L34`, `B4-L35`, `B4-L36`, `B4-L40`, `B4-L41`, `B4-L42`, `B4-L43`, `B4-L44`, `B4-L45`, `B4-L46`, `B4-L47`, `B4-L173`, `B4-L174`, `B4-L175`, `B4-L177`, `B4-L664`, `B4-L934`, `B4-L944`, `B4-L1297`, `B4-L1337`, `B4-L1354`, `B4-L1363`.
+
+Kontext: `B2-L31`, `B3-L5`, `B3-L9`, `B3-L419`, `B4-L13`, `B4-L24`, `B4-L38`, `B4-L171`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.2 Online-Auftakt des Strategieprozesses
+
+Themen-ID: `t14-2`. Direkt zugeordnete Inhaltszeilen: 59; Kontext-/Gliederungszeilen: 11; einschließlich Unterthemen: 70.
+
+Inhalte: `B1-L138`, `B1-L149`, `B1-L209`, `B1-L210`, `B1-L215`, `B1-L216`, `B2-L25`, `B2-L57`, `B2-L248`, `B2-L454`, `B2-L481`, `B2-L525`, `B2-L526`, `B2-L527`, `B2-L528`, `B2-L529`, `B2-L550`, `B3-L26`, `B3-L27`, `B3-L28`, `B3-L29`, `B3-L30`, `B3-L32`, `B3-L117`, `B3-L174`, `B3-L175`, `B3-L357`, `B3-L358`, `B3-L359`, `B3-L360`, `B3-L361`, `B3-L362`, `B3-L389`, `B3-L390`, `B4-L17`, `B4-L52`, `B4-L53`, `B4-L54`, `B4-L55`, `B4-L56`, `B4-L57`, `B4-L58`, `B4-L59`, `B4-L181`, `B4-L373`, `B4-L374`, `B4-L375`, `B4-L376`, `B4-L379`, `B4-L968`, `B4-L1208`, `B4-L1209`, `B4-L1210`, `B4-L1211`, `B4-L1212`, `B4-L1213`, `B4-L1336`, `B4-L1354`, `B4-L1369`.
+
+Kontext: `B1-L5`, `B2-L3`, `B3-L7`, `B3-L24`, `B3-L355`, `B4-L3`, `B4-L9`, `B4-L50`, `B4-L371`, `B4-L1206`, `B4-L1367`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.3 Die drei vorgesehenen Dialogforen
+
+Themen-ID: `t14-3`. Direkt zugeordnete Inhaltszeilen: 10; Kontext-/Gliederungszeilen: 4; einschließlich Unterthemen: 79.
+
+Inhalte: `B1-L217`, `B1-L221`, `B2-L249`, `B3-L413`, `B4-L319`, `B4-L320`, `B4-L321`, `B4-L322`, `B4-L353`, `B4-L1179`.
+
+Kontext: `B2-L245`, `B3-L159`, `B3-L161`, `B4-L314`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.3.1 Orte, Begegnungen, Quartiere und öffentlicher Raum
+
+Themen-ID: `t14-3-1`. Direkt zugeordnete Inhaltszeilen: 24; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 25.
+
+Inhalte: `B1-L218`, `B2-L250`, `B2-L251`, `B2-L252`, `B2-L253`, `B2-L254`, `B3-L165`, `B3-L166`, `B3-L167`, `B3-L168`, `B3-L169`, `B3-L170`, `B3-L171`, `B3-L172`, `B3-L173`, `B3-L174`, `B3-L175`, `B3-L251`, `B3-L252`, `B3-L360`, `B3-L361`, `B4-L316`, `B4-L756`, `B4-L1212`.
+
+Kontext: `B3-L163`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.3.2 Care, Gleichstellung, Familie und Lebenslagen
+
+Themen-ID: `t14-3-2`. Direkt zugeordnete Inhaltszeilen: 21; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 22.
+
+Inhalte: `B1-L219`, `B2-L255`, `B2-L256`, `B2-L257`, `B2-L258`, `B2-L486`, `B3-L179`, `B3-L180`, `B3-L181`, `B3-L182`, `B3-L183`, `B3-L184`, `B3-L185`, `B3-L186`, `B3-L187`, `B3-L379`, `B4-L317`, `B4-L323`, `B4-L739`, `B4-L756`, `B4-L1181`.
+
+Kontext: `B3-L177`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.3.3 Armut, Wohnen und soziale Sicherheit
+
+Themen-ID: `t14-3-3`. Direkt zugeordnete Inhaltszeilen: 18; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 20.
+
+Inhalte: `B1-L220`, `B2-L259`, `B2-L260`, `B2-L261`, `B3-L191`, `B3-L192`, `B3-L193`, `B3-L194`, `B3-L195`, `B3-L196`, `B3-L197`, `B3-L198`, `B4-L318`, `B4-L756`, `B4-L768`, `B4-L769`, `B4-L770`, `B4-L772`.
+
+Kontext: `B3-L189`, `B4-L766`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.4 Dokumentation der Arbeitsgruppen
+
+Themen-ID: `t14-4`. Direkt zugeordnete Inhaltszeilen: 161; Kontext-/Gliederungszeilen: 15; einschließlich Unterthemen: 176.
+
+Inhalte: `B1-L211`, `B1-L212`, `B1-L213`, `B1-L214`, `B2-L275`, `B2-L276`, `B2-L277`, `B2-L278`, `B2-L279`, `B2-L280`, `B2-L281`, `B2-L282`, `B2-L283`, `B2-L284`, `B2-L285`, `B2-L286`, `B2-L287`, `B2-L288`, `B2-L289`, `B2-L290`, `B2-L291`, `B2-L292`, `B2-L293`, `B2-L294`, `B2-L295`, `B2-L296`, `B2-L297`, `B2-L298`, `B3-L31`, `B3-L202`, `B3-L203`, `B3-L204`, `B3-L205`, `B3-L206`, `B3-L207`, `B3-L208`, `B3-L212`, `B3-L213`, `B3-L214`, `B3-L215`, `B3-L216`, `B3-L217`, `B3-L218`, `B3-L219`, `B3-L220`, `B3-L221`, `B3-L222`, `B3-L223`, `B3-L224`, `B3-L225`, `B3-L226`, `B3-L227`, `B3-L228`, `B3-L229`, `B3-L230`, `B3-L393`, `B4-L354`, `B4-L805`, `B4-L1033`, `B4-L1034`, `B4-L1035`, `B4-L1036`, `B4-L1037`, `B4-L1038`, `B4-L1039`, `B4-L1040`, `B4-L1041`, `B4-L1045`, `B4-L1046`, `B4-L1047`, `B4-L1048`, `B4-L1049`, `B4-L1050`, `B4-L1051`, `B4-L1052`, `B4-L1053`, `B4-L1054`, `B4-L1058`, `B4-L1059`, `B4-L1060`, `B4-L1061`, `B4-L1062`, `B4-L1063`, `B4-L1064`, `B4-L1065`, `B4-L1066`, `B4-L1067`, `B4-L1068`, `B4-L1069`, `B4-L1073`, `B4-L1074`, `B4-L1075`, `B4-L1076`, `B4-L1077`, `B4-L1078`, `B4-L1079`, `B4-L1080`, `B4-L1081`, `B4-L1082`, `B4-L1083`, `B4-L1084`, `B4-L1085`, `B4-L1086`, `B4-L1087`, `B4-L1091`, `B4-L1092`, `B4-L1093`, `B4-L1094`, `B4-L1095`, `B4-L1096`, `B4-L1097`, `B4-L1098`, `B4-L1099`, `B4-L1100`, `B4-L1101`, `B4-L1102`, `B4-L1106`, `B4-L1107`, `B4-L1108`, `B4-L1109`, `B4-L1110`, `B4-L1111`, `B4-L1112`, `B4-L1113`, `B4-L1114`, `B4-L1115`, `B4-L1119`, `B4-L1120`, `B4-L1121`, `B4-L1122`, `B4-L1123`, `B4-L1124`, `B4-L1125`, `B4-L1129`, `B4-L1130`, `B4-L1131`, `B4-L1132`, `B4-L1133`, `B4-L1134`, `B4-L1135`, `B4-L1136`, `B4-L1140`, `B4-L1141`, `B4-L1142`, `B4-L1148`, `B4-L1149`, `B4-L1150`, `B4-L1151`, `B4-L1152`, `B4-L1153`, `B4-L1154`, `B4-L1155`, `B4-L1156`, `B4-L1160`, `B4-L1161`, `B4-L1162`, `B4-L1163`, `B4-L1164`, `B4-L1165`, `B4-L1166`, `B4-L1370`.
+
+Kontext: `B2-L273`, `B3-L200`, `B3-L210`, `B4-L1031`, `B4-L1043`, `B4-L1056`, `B4-L1071`, `B4-L1089`, `B4-L1104`, `B4-L1117`, `B4-L1127`, `B4-L1138`, `B4-L1144`, `B4-L1146`, `B4-L1158`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.5 Weitere Entwicklung
+
+Themen-ID: `t14-5`. Direkt zugeordnete Inhaltszeilen: 112; Kontext-/Gliederungszeilen: 12; einschließlich Unterthemen: 124.
+
+Inhalte: `B1-L222`, `B1-L223`, `B1-L225`, `B1-L226`, `B1-L227`, `B1-L228`, `B1-L229`, `B1-L230`, `B1-L231`, `B1-L232`, `B1-L241`, `B1-L282`, `B2-L234`, `B2-L235`, `B2-L236`, `B2-L237`, `B2-L238`, `B2-L247`, `B2-L267`, `B2-L268`, `B2-L269`, `B2-L270`, `B2-L271`, `B2-L455`, `B2-L466`, `B2-L482`, `B2-L483`, `B2-L484`, `B2-L485`, `B2-L489`, `B2-L493`, `B2-L518`, `B3-L33`, `B3-L138`, `B3-L139`, `B3-L140`, `B3-L141`, `B3-L145`, `B3-L149`, `B3-L150`, `B3-L151`, `B3-L157`, `B3-L353`, `B3-L366`, `B3-L367`, `B3-L368`, `B3-L369`, `B3-L370`, `B3-L371`, `B3-L372`, `B3-L373`, `B3-L377`, `B3-L378`, `B3-L380`, `B3-L381`, `B3-L383`, `B3-L393`, `B3-L404`, `B3-L434`, `B3-L435`, `B4-L48`, `B4-L212`, `B4-L213`, `B4-L215`, `B4-L216`, `B4-L237`, `B4-L327`, `B4-L328`, `B4-L329`, `B4-L330`, `B4-L331`, `B4-L332`, `B4-L333`, `B4-L334`, `B4-L335`, `B4-L336`, `B4-L350`, `B4-L351`, `B4-L352`, `B4-L353`, `B4-L354`, `B4-L355`, `B4-L356`, `B4-L357`, `B4-L358`, `B4-L359`, `B4-L363`, `B4-L364`, `B4-L365`, `B4-L366`, `B4-L367`, `B4-L369`, `B4-L378`, `B4-L1006`, `B4-L1173`, `B4-L1175`, `B4-L1177`, `B4-L1179`, `B4-L1183`, `B4-L1185`, `B4-L1187`, `B4-L1191`, `B4-L1192`, `B4-L1193`, `B4-L1194`, `B4-L1195`, `B4-L1224`, `B4-L1298`, `B4-L1348`, `B4-L1377`, `B4-L1378`, `B4-L1388`.
+
+Kontext: `B2-L245`, `B3-L136`, `B3-L147`, `B3-L364`, `B3-L375`, `B3-L396`, `B4-L210`, `B4-L325`, `B4-L348`, `B4-L361`, `B4-L1168`, `B4-L1189`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 14.6 Kontakt und Beteiligung
+
+Themen-ID: `t14-6`. Direkt zugeordnete Inhaltszeilen: 102; Kontext-/Gliederungszeilen: 10; einschließlich Unterthemen: 112.
+
+Inhalte: `B1-L139`, `B1-L193`, `B1-L207`, `B1-L208`, `B1-L224`, `B1-L279`, `B2-L227`, `B2-L228`, `B2-L230`, `B2-L262`, `B2-L263`, `B2-L264`, `B2-L265`, `B2-L266`, `B2-L334`, `B2-L448`, `B2-L508`, `B3-L30`, `B3-L142`, `B3-L345`, `B3-L346`, `B3-L347`, `B3-L348`, `B3-L349`, `B3-L350`, `B3-L351`, `B3-L352`, `B3-L387`, `B3-L388`, `B3-L391`, `B3-L392`, `B3-L394`, `B3-L413`, `B4-L235`, `B4-L310`, `B4-L368`, `B4-L393`, `B4-L394`, `B4-L395`, `B4-L396`, `B4-L397`, `B4-L398`, `B4-L399`, `B4-L400`, `B4-L401`, `B4-L402`, `B4-L414`, `B4-L429`, `B4-L430`, `B4-L431`, `B4-L432`, `B4-L433`, `B4-L434`, `B4-L435`, `B4-L690`, `B4-L728`, `B4-L771`, `B4-L778`, `B4-L779`, `B4-L801`, `B4-L802`, `B4-L803`, `B4-L804`, `B4-L805`, `B4-L806`, `B4-L814`, `B4-L991`, `B4-L992`, `B4-L993`, `B4-L994`, `B4-L995`, `B4-L997`, `B4-L1010`, `B4-L1011`, `B4-L1012`, `B4-L1013`, `B4-L1014`, `B4-L1015`, `B4-L1016`, `B4-L1017`, `B4-L1018`, `B4-L1019`, `B4-L1020`, `B4-L1024`, `B4-L1025`, `B4-L1026`, `B4-L1027`, `B4-L1028`, `B4-L1029`, `B4-L1124`, `B4-L1199`, `B4-L1200`, `B4-L1201`, `B4-L1202`, `B4-L1203`, `B4-L1204`, `B4-L1208`, `B4-L1209`, `B4-L1210`, `B4-L1211`, `B4-L1225`, `B5-L539`.
+
+Kontext: `B3-L343`, `B3-L385`, `B4-L391`, `B4-L427`, `B4-L799`, `B4-L989`, `B4-L1008`, `B4-L1022`, `B4-L1197`, `B4-L1206`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 15 Politik, Strategien und öffentliche Verantwortung
+
+Themen-ID: `politik`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 448.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 15.1 Bundesebene
+
+Themen-ID: `t15-1`. Direkt zugeordnete Inhaltszeilen: 67; Kontext-/Gliederungszeilen: 5; einschließlich Unterthemen: 72.
+
+Inhalte: `B1-L143`, `B1-L144`, `B1-L145`, `B1-L146`, `B1-L147`, `B1-L148`, `B1-L154`, `B1-L155`, `B2-L55`, `B2-L56`, `B2-L59`, `B2-L60`, `B2-L61`, `B2-L62`, `B2-L63`, `B2-L64`, `B2-L65`, `B2-L66`, `B2-L67`, `B2-L68`, `B2-L69`, `B2-L70`, `B2-L71`, `B2-L72`, `B2-L73`, `B2-L74`, `B2-L536`, `B2-L551`, `B3-L29`, `B3-L75`, `B3-L102`, `B3-L103`, `B3-L104`, `B3-L105`, `B3-L106`, `B3-L107`, `B3-L108`, `B3-L109`, `B3-L133`, `B3-L431`, `B4-L145`, `B4-L153`, `B4-L154`, `B4-L155`, `B4-L156`, `B4-L157`, `B4-L161`, `B4-L162`, `B4-L163`, `B4-L164`, `B4-L165`, `B4-L166`, `B4-L167`, `B4-L168`, `B4-L169`, `B4-L173`, `B4-L174`, `B4-L175`, `B4-L176`, `B4-L177`, `B4-L182`, `B4-L214`, `B4-L217`, `B4-L346`, `B4-L1339`, `B4-L1340`, `B4-L1355`.
+
+Kontext: `B2-L53`, `B3-L100`, `B4-L151`, `B4-L159`, `B4-L171`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 15.2 Hamburger Landesebene
+
+Themen-ID: `t15-2`. Direkt zugeordnete Inhaltszeilen: 168; Kontext-/Gliederungszeilen: 18; einschließlich Unterthemen: 186.
+
+Inhalte: `B1-L141`, `B1-L142`, `B1-L143`, `B1-L150`, `B1-L151`, `B1-L156`, `B1-L157`, `B1-L158`, `B1-L159`, `B1-L160`, `B1-L161`, `B1-L163`, `B1-L166`, `B1-L172`, `B1-L174`, `B1-L175`, `B1-L176`, `B1-L179`, `B1-L180`, `B1-L181`, `B1-L215`, `B1-L242`, `B2-L26`, `B2-L46`, `B2-L47`, `B2-L48`, `B2-L50`, `B2-L51`, `B2-L68`, `B2-L69`, `B2-L216`, `B2-L217`, `B2-L218`, `B2-L219`, `B2-L223`, `B2-L224`, `B2-L225`, `B2-L226`, `B2-L229`, `B2-L234`, `B2-L235`, `B2-L236`, `B2-L237`, `B2-L238`, `B2-L242`, `B2-L400`, `B2-L413`, `B2-L414`, `B2-L455`, `B2-L500`, `B2-L501`, `B2-L502`, `B2-L503`, `B2-L553`, `B3-L22`, `B3-L73`, `B3-L74`, `B3-L75`, `B3-L76`, `B3-L77`, `B3-L78`, `B3-L79`, `B3-L80`, `B3-L81`, `B3-L82`, `B3-L83`, `B3-L84`, `B3-L110`, `B3-L121`, `B3-L132`, `B3-L134`, `B3-L149`, `B3-L150`, `B3-L151`, `B3-L157`, `B3-L258`, `B3-L260`, `B3-L261`, `B3-L262`, `B3-L263`, `B3-L264`, `B3-L366`, `B3-L367`, `B3-L368`, `B3-L369`, `B3-L370`, `B3-L373`, `B3-L436`, `B4-L36`, `B4-L47`, `B4-L144`, `B4-L145`, `B4-L146`, `B4-L147`, `B4-L149`, `B4-L157`, `B4-L176`, `B4-L186`, `B4-L208`, `B4-L218`, `B4-L222`, `B4-L223`, `B4-L224`, `B4-L225`, `B4-L226`, `B4-L227`, `B4-L228`, `B4-L229`, `B4-L234`, `B4-L235`, `B4-L236`, `B4-L238`, `B4-L239`, `B4-L240`, `B4-L241`, `B4-L245`, `B4-L246`, `B4-L247`, `B4-L248`, `B4-L250`, `B4-L251`, `B4-L252`, `B4-L256`, `B4-L257`, `B4-L259`, `B4-L260`, `B4-L303`, `B4-L336`, `B4-L340`, `B4-L341`, `B4-L342`, `B4-L343`, `B4-L344`, `B4-L345`, `B4-L373`, `B4-L374`, `B4-L375`, `B4-L376`, `B4-L377`, `B4-L378`, `B4-L379`, `B4-L425`, `B4-L565`, `B4-L888`, `B4-L891`, `B4-L892`, `B4-L893`, `B4-L896`, `B4-L1015`, `B4-L1052`, `B4-L1083`, `B4-L1114`, `B4-L1115`, `B4-L1123`, `B4-L1217`, `B4-L1218`, `B4-L1219`, `B4-L1220`, `B4-L1221`, `B4-L1278`, `B4-L1345`, `B4-L1346`, `B4-L1347`, `B4-L1355`, `B4-L1356`, `B4-L1365`, `B4-L1378`, `B5-L539`.
+
+Kontext: `B2-L3`, `B2-L221`, `B2-L496`, `B3-L71`, `B3-L147`, `B3-L254`, `B3-L256`, `B3-L364`, `B4-L142`, `B4-L220`, `B4-L232`, `B4-L243`, `B4-L254`, `B4-L338`, `B4-L371`, `B4-L886`, `B4-L1215`, `B5-L543`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 15.3 Hamburger Bezirke und Bergedorf
+
+Themen-ID: `t15-3`. Direkt zugeordnete Inhaltszeilen: 44; Kontext-/Gliederungszeilen: 4; einschließlich Unterthemen: 48.
+
+Inhalte: `B1-L162`, `B1-L164`, `B1-L173`, `B1-L247`, `B1-L266`, `B2-L92`, `B2-L193`, `B2-L195`, `B2-L196`, `B2-L197`, `B2-L318`, `B2-L319`, `B2-L320`, `B2-L420`, `B2-L437`, `B2-L514`, `B2-L520`, `B3-L260`, `B3-L261`, `B3-L262`, `B3-L263`, `B3-L264`, `B3-L398`, `B4-L229`, `B4-L248`, `B4-L303`, `B4-L889`, `B4-L890`, `B4-L891`, `B4-L892`, `B4-L893`, `B4-L894`, `B4-L896`, `B4-L1052`, `B4-L1083`, `B4-L1223`, `B4-L1276`, `B4-L1277`, `B5-L303`, `B5-L399`, `B5-L403`, `B5-L407`, `B5-L409`, `B5-L417`.
+
+Kontext: `B3-L254`, `B3-L256`, `B4-L886`, `B5-L397`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 15.4 Ressortübergreifende Verantwortung
+
+Themen-ID: `t15-4`. Direkt zugeordnete Inhaltszeilen: 53; Kontext-/Gliederungszeilen: 4; einschließlich Unterthemen: 57.
+
+Inhalte: `B1-L170`, `B1-L171`, `B2-L201`, `B2-L202`, `B2-L203`, `B2-L204`, `B2-L205`, `B2-L206`, `B2-L207`, `B2-L208`, `B2-L209`, `B2-L210`, `B2-L211`, `B2-L212`, `B2-L213`, `B2-L214`, `B2-L215`, `B2-L216`, `B2-L217`, `B2-L218`, `B2-L219`, `B3-L43`, `B3-L44`, `B3-L46`, `B3-L88`, `B3-L89`, `B3-L90`, `B3-L91`, `B3-L92`, `B3-L93`, `B3-L167`, `B3-L196`, `B3-L265`, `B3-L415`, `B4-L66`, `B4-L68`, `B4-L69`, `B4-L265`, `B4-L266`, `B4-L267`, `B4-L268`, `B4-L269`, `B4-L270`, `B4-L271`, `B4-L272`, `B4-L273`, `B4-L274`, `B4-L278`, `B4-L279`, `B4-L282`, `B4-L283`, `B4-L284`, `B4-L285`.
+
+Kontext: `B2-L199`, `B3-L86`, `B4-L263`, `B4-L276`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 15.5 Finanzierung und Förderung
+
+Themen-ID: `t15-5`. Direkt zugeordnete Inhaltszeilen: 99; Kontext-/Gliederungszeilen: 9; einschließlich Unterthemen: 108.
+
+Inhalte: `B1-L185`, `B1-L186`, `B1-L187`, `B1-L188`, `B1-L189`, `B1-L190`, `B1-L191`, `B1-L192`, `B1-L243`, `B1-L244`, `B2-L242`, `B2-L297`, `B2-L395`, `B2-L396`, `B2-L397`, `B2-L398`, `B2-L399`, `B2-L400`, `B2-L407`, `B2-L408`, `B2-L409`, `B2-L410`, `B2-L411`, `B2-L412`, `B2-L415`, `B2-L416`, `B2-L498`, `B2-L499`, `B2-L512`, `B2-L515`, `B2-L516`, `B2-L517`, `B3-L139`, `B3-L140`, `B3-L141`, `B3-L241`, `B3-L300`, `B3-L301`, `B3-L302`, `B3-L303`, `B3-L305`, `B3-L306`, `B3-L307`, `B3-L308`, `B3-L312`, `B3-L313`, `B3-L314`, `B3-L315`, `B3-L316`, `B3-L317`, `B3-L318`, `B3-L319`, `B3-L432`, `B3-L433`, `B4-L230`, `B4-L252`, `B4-L364`, `B4-L365`, `B4-L366`, `B4-L367`, `B4-L369`, `B4-L377`, `B4-L383`, `B4-L384`, `B4-L385`, `B4-L386`, `B4-L387`, `B4-L389`, `B4-L912`, `B4-L916`, `B4-L917`, `B4-L918`, `B4-L919`, `B4-L920`, `B4-L921`, `B4-L925`, `B4-L926`, `B4-L927`, `B4-L928`, `B4-L929`, `B4-L930`, `B4-L931`, `B4-L932`, `B4-L933`, `B4-L934`, `B4-L1018`, `B4-L1069`, `B4-L1120`, `B4-L1121`, `B4-L1122`, `B4-L1222`, `B4-L1228`, `B4-L1289`, `B4-L1364`, `B4-L1365`, `B4-L1376`, `B5-L401`, `B5-L411`, `B5-L413`.
+
+Kontext: `B2-L393`, `B3-L136`, `B3-L298`, `B3-L310`, `B4-L361`, `B4-L381`, `B4-L914`, `B4-L923`, `B5-L397`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 15.6 Politische Vorhaben nachvollziehen
+
+Themen-ID: `t15-6`. Direkt zugeordnete Inhaltszeilen: 22; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 22.
+
+Inhalte: `B1-L174`, `B1-L175`, `B1-L176`, `B1-L177`, `B1-L178`, `B1-L275`, `B1-L282`, `B1-L288`, `B2-L241`, `B2-L415`, `B2-L416`, `B2-L465`, `B2-L500`, `B2-L501`, `B2-L502`, `B2-L503`, `B4-L896`, `B4-L1224`, `B4-L1315`, `B5-L419`, `B5-L491`, `B5-L493`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 16 Digitale Beziehungen, Medien und neue Technologien
+
+Themen-ID: `digital`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 41.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 16.1 Digitale Kontakte
+
+Themen-ID: `t16-1`. Direkt zugeordnete Inhaltszeilen: 7; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 8.
+
+Inhalte: `B1-L128`, `B4-L249`, `B4-L967`, `B4-L968`, `B4-L983`, `B5-L155`, `B5-L355`.
+
+Kontext: `B5-L351`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 16.2 Digitale Kommunikation und Einsamkeit
+
+Themen-ID: `t16-2`. Direkt zugeordnete Inhaltszeilen: 9; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 10.
+
+Inhalte: `B2-L115`, `B2-L116`, `B2-L117`, `B4-L98`, `B4-L99`, `B4-L100`, `B4-L1133`, `B5-L77`, `B5-L353`.
+
+Kontext: `B5-L351`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 16.3 Digitale Kontaktvermittlung
+
+Themen-ID: `t16-3`. Direkt zugeordnete Inhaltszeilen: 5; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 5.
+
+Inhalte: `B1-L127`, `B4-L45`, `B5-L361`, `B5-L363`, `B5-L369`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 16.4 Künstliche Intelligenz und Einsamkeit
+
+Themen-ID: `t16-4`. Direkt zugeordnete Inhaltszeilen: 2; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 3.
+
+Inhalte: `B5-L357`, `B5-L359`.
+
+Kontext: `B5-L351`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 16.5 Digitale Teilhabe
+
+Themen-ID: `t16-5`. Direkt zugeordnete Inhaltszeilen: 16; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 17.
+
+Inhalte: `B1-L33`, `B1-L129`, `B2-L385`, `B4-L969`, `B4-L970`, `B4-L971`, `B4-L972`, `B4-L1329`, `B5-L343`, `B5-L365`, `B5-L367`, `B5-L371`, `B5-L461`, `B5-L463`, `B5-L465`, `B5-L467`.
+
+Kontext: `B4-L965`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 17 Veranstaltungen, Projekte und Mitwirkung
+
+Themen-ID: `mitwirkung`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 180.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 17.1 Veranstaltungen in Bergedorf
+
+Themen-ID: `t17-1`. Direkt zugeordnete Inhaltszeilen: 13; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 13.
+
+Inhalte: `B1-L240`, `B1-L259`, `B1-L260`, `B1-L261`, `B1-L270`, `B2-L472`, `B2-L473`, `B2-L494`, `B4-L1240`, `B5-L215`, `B5-L217`, `B5-L475`, `B5-L477`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 17.2 Projekte und Initiativen
+
+Themen-ID: `t17-2`. Direkt zugeordnete Inhaltszeilen: 28; Kontext-/Gliederungszeilen: 1; einschließlich Unterthemen: 29.
+
+Inhalte: `B1-L165`, `B2-L239`, `B2-L240`, `B2-L368`, `B2-L413`, `B2-L414`, `B2-L446`, `B2-L447`, `B2-L470`, `B2-L471`, `B3-L152`, `B3-L153`, `B3-L284`, `B3-L302`, `B3-L303`, `B3-L304`, `B4-L237`, `B4-L332`, `B4-L387`, `B4-L388`, `B4-L430`, `B4-L492`, `B4-L493`, `B4-L494`, `B4-L495`, `B4-L1013`, `B4-L1102`, `B4-L1223`.
+
+Kontext: `B4-L490`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 17.3 Veranstaltungen in Hamburg und bundesweit
+
+Themen-ID: `t17-3`. Direkt zugeordnete Inhaltszeilen: 91; Kontext-/Gliederungszeilen: 8; einschließlich Unterthemen: 99.
+
+Inhalte: `B1-L131`, `B1-L228`, `B1-L229`, `B1-L230`, `B1-L231`, `B1-L232`, `B1-L233`, `B1-L234`, `B1-L235`, `B1-L236`, `B1-L237`, `B1-L238`, `B1-L239`, `B1-L240`, `B1-L270`, `B2-L78`, `B2-L79`, `B2-L80`, `B2-L81`, `B2-L82`, `B2-L83`, `B2-L84`, `B2-L85`, `B2-L86`, `B2-L87`, `B2-L88`, `B2-L89`, `B2-L90`, `B2-L91`, `B2-L456`, `B2-L472`, `B2-L473`, `B2-L482`, `B2-L483`, `B2-L484`, `B2-L486`, `B2-L487`, `B2-L488`, `B2-L489`, `B2-L490`, `B2-L491`, `B2-L492`, `B2-L538`, `B2-L554`, `B2-L555`, `B3-L126`, `B3-L127`, `B3-L128`, `B3-L129`, `B3-L130`, `B3-L131`, `B3-L187`, `B3-L377`, `B3-L378`, `B3-L379`, `B3-L380`, `B3-L381`, `B3-L382`, `B3-L383`, `B4-L191`, `B4-L192`, `B4-L193`, `B4-L194`, `B4-L195`, `B4-L196`, `B4-L197`, `B4-L201`, `B4-L202`, `B4-L203`, `B4-L204`, `B4-L206`, `B4-L212`, `B4-L213`, `B4-L214`, `B4-L215`, `B4-L216`, `B4-L323`, `B4-L358`, `B4-L363`, `B4-L1173`, `B4-L1175`, `B4-L1177`, `B4-L1181`, `B4-L1183`, `B4-L1185`, `B4-L1187`, `B4-L1298`, `B4-L1348`, `B4-L1358`, `B4-L1359`, `B4-L1377`.
+
+Kontext: `B2-L76`, `B2-L479`, `B3-L124`, `B3-L375`, `B4-L189`, `B4-L199`, `B4-L210`, `B4-L1168`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 17.4 Selbst mitmachen
+
+Themen-ID: `t17-4`. Direkt zugeordnete Inhaltszeilen: 15; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 15.
+
+Inhalte: `B1-L94`, `B1-L194`, `B1-L195`, `B1-L239`, `B1-L249`, `B2-L28`, `B2-L180`, `B2-L335`, `B2-L470`, `B2-L471`, `B4-L429`, `B4-L894`, `B4-L1301`, `B5-L417`, `B5-L533`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 17.5 Ideen und Verbesserungsvorschläge
+
+Themen-ID: `t17-5`. Direkt zugeordnete Inhaltszeilen: 8; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 8.
+
+Inhalte: `B1-L254`, `B1-L266`, `B2-L469`, `B2-L521`, `B4-L1312`, `B5-L457`, `B5-L459`, `B5-L537`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 17.6 Beteiligung über Bergedorf gemeinsam
+
+Themen-ID: `t17-6`. Direkt zugeordnete Inhaltszeilen: 22; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 24.
+
+Inhalte: `B1-L253`, `B1-L271`, `B1-L272`, `B2-L461`, `B2-L463`, `B2-L464`, `B2-L467`, `B2-L468`, `B4-L406`, `B4-L445`, `B4-L1253`, `B4-L1303`, `B4-L1306`, `B4-L1307`, `B4-L1312`, `B4-L1313`, `B4-L1314`, `B4-L1315`, `B4-L1316`, `B4-L1317`, `B5-L471`, `B5-L489`.
+
+Kontext: `B4-L404`, `B4-L1310`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 18 Quellen, Dokumentation und Transparenz
+
+Themen-ID: `quellen`. Direkt zugeordnete Inhaltszeilen: 0; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 205.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 18.1 Wissenschaftliche Quellen
+
+Themen-ID: `t18-1`. Direkt zugeordnete Inhaltszeilen: 16; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 16.
+
+Inhalte: `B1-L276`, `B1-L286`, `B2-L531`, `B2-L532`, `B2-L533`, `B2-L534`, `B2-L552`, `B2-L556`, `B3-L439`, `B4-L137`, `B4-L697`, `B4-L700`, `B4-L1325`, `B4-L1326`, `B4-L1341`, `B4-L1357`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 18.2 Historische Quellen
+
+Themen-ID: `t18-2`. Direkt zugeordnete Inhaltszeilen: 7; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 7.
+
+Inhalte: `B4-L464`, `B4-L469`, `B4-L1251`, `B4-L1253`, `B4-L1302`, `B4-L1350`, `B4-L1362`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 18.3 Politische und behördliche Quellen
+
+Themen-ID: `t18-3`. Direkt zugeordnete Inhaltszeilen: 22; Kontext-/Gliederungszeilen: 2; einschließlich Unterthemen: 24.
+
+Inhalte: `B1-L276`, `B1-L279`, `B1-L286`, `B2-L465`, `B2-L537`, `B2-L551`, `B2-L553`, `B3-L439`, `B4-L148`, `B4-L256`, `B4-L257`, `B4-L258`, `B4-L259`, `B4-L260`, `B4-L261`, `B4-L1327`, `B4-L1339`, `B4-L1345`, `B4-L1355`, `B4-L1356`, `B5-L251`, `B5-L491`.
+
+Kontext: `B4-L254`, `B5-L255`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 18.4 Angaben zu Hilfsangeboten
+
+Themen-ID: `t18-4`. Direkt zugeordnete Inhaltszeilen: 24; Kontext-/Gliederungszeilen: 0; einschließlich Unterthemen: 24.
+
+Inhalte: `B1-L131`, `B1-L269`, `B2-L539`, `B4-L550`, `B4-L554`, `B4-L663`, `B4-L942`, `B4-L1328`, `B4-L1332`, `B4-L1349`, `B4-L1361`, `B5-L239`, `B5-L241`, `B5-L243`, `B5-L433`, `B5-L435`, `B5-L437`, `B5-L439`, `B5-L441`, `B5-L443`, `B5-L445`, `B5-L447`, `B5-L451`, `B5-L453`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 18.5 Redaktionelle Einordnung
+
+Themen-ID: `t18-5`. Direkt zugeordnete Inhaltszeilen: 54; Kontext-/Gliederungszeilen: 21; einschließlich Unterthemen: 75.
+
+Inhalte: `B1-L9`, `B1-L240`, `B1-L274`, `B1-L277`, `B1-L286`, `B1-L288`, `B2-L19`, `B2-L474`, `B2-L475`, `B2-L525`, `B2-L526`, `B2-L527`, `B2-L528`, `B2-L529`, `B2-L530`, `B2-L538`, `B2-L540`, `B2-L547`, `B2-L549`, `B2-L550`, `B2-L555`, `B2-L570`, `B3-L389`, `B3-L390`, `B3-L439`, `B3-L441`, `B4-L82`, `B4-L148`, `B4-L261`, `B4-L445`, `B4-L464`, `B4-L528`, `B4-L565`, `B4-L697`, `B4-L700`, `B4-L853`, `B4-L861`, `B4-L910`, `B4-L1213`, `B4-L1292`, `B4-L1304`, `B4-L1305`, `B4-L1313`, `B4-L1321`, `B4-L1322`, `B4-L1323`, `B4-L1324`, `B4-L1327`, `B4-L1336`, `B4-L1337`, `B4-L1354`, `B4-L1360`, `B4-L1386`, `B5-L493`.
+
+Kontext: `B1-L5`, `B1-L284`, `B2-L7`, `B2-L523`, `B2-L545`, `B2-L566`, `B3-L3`, `B4-L3`, `B4-L5`, `B4-L1319`, `B4-L1334`, `B4-L1352`, `B4-L1392`, `B5-L3`, `B5-L5`, `B5-L11`, `B5-L13`, `B5-L541`, `B5-L543`, `B5-L545`, `B5-L556`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.
+
+## 18.6 Verantwortung von Bergedorf gemeinsam
+
+Themen-ID: `t18-6`. Direkt zugeordnete Inhaltszeilen: 49; Kontext-/Gliederungszeilen: 24; einschließlich Unterthemen: 73.
+
+Inhalte: `B1-L131`, `B1-L133`, `B1-L134`, `B1-L267`, `B1-L268`, `B1-L278`, `B1-L280`, `B1-L281`, `B2-L23`, `B2-L452`, `B2-L462`, `B2-L467`, `B2-L468`, `B2-L476`, `B2-L477`, `B2-L541`, `B2-L542`, `B2-L543`, `B2-L568`, `B2-L570`, `B3-L409`, `B3-L417`, `B3-L441`, `B4-L407`, `B4-L409`, `B4-L830`, `B4-L846`, `B4-L854`, `B4-L996`, `B4-L1296`, `B4-L1308`, `B4-L1330`, `B4-L1331`, `B4-L1388`, `B5-L225`, `B5-L369`, `B5-L419`, `B5-L425`, `B5-L455`, `B5-L461`, `B5-L463`, `B5-L465`, `B5-L467`, `B5-L481`, `B5-L483`, `B5-L485`, `B5-L487`, `B5-L495`, `B5-L550`.
+
+Kontext: `B1-L1`, `B1-L3`, `B1-L7`, `B1-L11`, `B1-L290`, `B2-L1`, `B2-L5`, `B2-L9`, `B2-L11`, `B2-L13`, `B2-L450`, `B2-L558`, `B2-L560`, `B2-L564`, `B3-L1`, `B3-L406`, `B4-L1`, `B4-L7`, `B4-L11`, `B4-L1294`, `B4-L1394`, `B5-L1`, `B5-L421`, `B5-L423`.
+
+Originalwortlaut, genaue ursprüngliche Fundstelle, Aussageart, Mehrfachzuordnungen und Prüfbedarf: jeweilige ID in `bestandsaufnahme.jsonl`. Weitere Nachweise: `offene-prueffragen.json`.

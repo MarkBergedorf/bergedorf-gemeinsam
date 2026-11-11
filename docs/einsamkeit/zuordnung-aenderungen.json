@@ -1,0 +1,892 @@
+[
+  {
+    "id": "B1-L35",
+    "vorher": [
+      "t12-1"
+    ],
+    "nachher": [
+      "t4-1",
+      "t12-1",
+      "t7-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L39",
+    "vorher": [
+      "t4-2"
+    ],
+    "nachher": [
+      "t4-1",
+      "t4-2",
+      "t2-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L55",
+    "vorher": [
+      "t4-6",
+      "t5-3"
+    ],
+    "nachher": [
+      "t4-6",
+      "t5-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L56",
+    "vorher": [
+      "t4-6",
+      "t5-3"
+    ],
+    "nachher": [
+      "t4-6",
+      "t7-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L61",
+    "vorher": [
+      "t4-6"
+    ],
+    "nachher": [
+      "t4-6",
+      "t2-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L88",
+    "vorher": [
+      "t4-1",
+      "t11-1"
+    ],
+    "nachher": [
+      "t11-1",
+      "t4-1",
+      "t4-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L89",
+    "vorher": [
+      "t4-1",
+      "t11-1"
+    ],
+    "nachher": [
+      "t4-1",
+      "t4-6",
+      "t8-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L91",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-5",
+      "t6-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L93",
+    "vorher": [
+      "t8-2",
+      "t8-3"
+    ],
+    "nachher": [
+      "t8-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L102",
+    "vorher": [
+      "t10-3"
+    ],
+    "nachher": [
+      "t8-3",
+      "t10-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L103",
+    "vorher": [
+      "t10-3"
+    ],
+    "nachher": [
+      "t5-3",
+      "t8-3",
+      "t10-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L131",
+    "vorher": [
+      "t18-4"
+    ],
+    "nachher": [
+      "t18-4",
+      "t17-3",
+      "t18-6"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L196",
+    "vorher": [
+      "t11-2"
+    ],
+    "nachher": [
+      "t11-2",
+      "t11-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L197",
+    "vorher": [
+      "t11-1"
+    ],
+    "nachher": [
+      "t11-1",
+      "t13-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L198",
+    "vorher": [
+      "t11-1"
+    ],
+    "nachher": [
+      "t11-1",
+      "t13-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L207",
+    "vorher": [
+      "t13-5",
+      "t14-6"
+    ],
+    "nachher": [
+      "t14-6"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L215",
+    "vorher": [
+      "t14-4"
+    ],
+    "nachher": [
+      "t14-2",
+      "t15-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L216",
+    "vorher": [
+      "t14-4"
+    ],
+    "nachher": [
+      "t14-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L224",
+    "vorher": [
+      "t14-5"
+    ],
+    "nachher": [
+      "t14-6"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L239",
+    "vorher": [
+      "t17-3"
+    ],
+    "nachher": [
+      "t17-3",
+      "t17-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L240",
+    "vorher": [
+      "t17-1",
+      "t18-5"
+    ],
+    "nachher": [
+      "t17-1",
+      "t17-3",
+      "t18-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L250",
+    "vorher": [
+      "t10-7"
+    ],
+    "nachher": [
+      "t10-3",
+      "t10-7"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L259",
+    "vorher": [
+      "t9-4",
+      "t17-1"
+    ],
+    "nachher": [
+      "t8-2",
+      "t9-4",
+      "t17-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L260",
+    "vorher": [
+      "t9-4",
+      "t17-1"
+    ],
+    "nachher": [
+      "t8-2",
+      "t17-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L261",
+    "vorher": [
+      "t9-4",
+      "t17-1"
+    ],
+    "nachher": [
+      "t8-3",
+      "t17-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L270",
+    "vorher": [
+      "t17-1"
+    ],
+    "nachher": [
+      "t17-1",
+      "t17-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B1-L276",
+    "vorher": [
+      "t18-1",
+      "t18-3"
+    ],
+    "nachher": [
+      "t18-1",
+      "t18-3",
+      "t13-6"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B2-L339",
+    "vorher": [
+      "t8-3"
+    ],
+    "nachher": [
+      "t8-3",
+      "t9-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B2-L340",
+    "vorher": [
+      "t9-1"
+    ],
+    "nachher": [
+      "t8-3",
+      "t9-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B2-L343",
+    "vorher": [
+      "t8-2"
+    ],
+    "nachher": [
+      "t8-2",
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B2-L347",
+    "vorher": [
+      "t8-3"
+    ],
+    "nachher": [
+      "t8-3",
+      "t9-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B2-L348",
+    "vorher": [
+      "t9-1"
+    ],
+    "nachher": [
+      "t8-3",
+      "t9-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B2-L363",
+    "vorher": [
+      "t8-5",
+      "t11-4"
+    ],
+    "nachher": [
+      "t8-1",
+      "t11-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B2-L364",
+    "vorher": [
+      "t8-1"
+    ],
+    "nachher": [
+      "t8-1",
+      "t11-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L453",
+    "vorher": [
+      "t2-5-1"
+    ],
+    "nachher": [
+      "t2-5-1",
+      "t3-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L457",
+    "vorher": [
+      "t2-5-1"
+    ],
+    "nachher": [
+      "t2-5-6",
+      "t10-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L464",
+    "vorher": [
+      "t2-5-1",
+      "t2-5-6"
+    ],
+    "nachher": [
+      "t18-2",
+      "t18-5",
+      "t2-5-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L466",
+    "vorher": [
+      "t2-5-1",
+      "t2-5-6"
+    ],
+    "nachher": [
+      "t2-5-6",
+      "t10-7"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L467",
+    "vorher": [
+      "t2-5-1",
+      "t2-5-6"
+    ],
+    "nachher": [
+      "t2-5-6",
+      "t10-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L468",
+    "vorher": [
+      "t2-5-1",
+      "t2-5-6"
+    ],
+    "nachher": [
+      "t2-5-6",
+      "t10-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L469",
+    "vorher": [
+      "t2-5-1",
+      "t2-5-6"
+    ],
+    "nachher": [
+      "t2-5-6",
+      "t18-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L474",
+    "vorher": [
+      "t2-5-5",
+      "t10-2"
+    ],
+    "nachher": [
+      "t10-2",
+      "t2-5-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L477",
+    "vorher": [
+      "t2-5-5",
+      "t10-2"
+    ],
+    "nachher": [
+      "t2-5-5",
+      "t10-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L478",
+    "vorher": [
+      "t2-5-5",
+      "t10-2"
+    ],
+    "nachher": [
+      "t10-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L483",
+    "vorher": [
+      "t8-3",
+      "t3-2"
+    ],
+    "nachher": [
+      "t1-2",
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L484",
+    "vorher": [
+      "t8-3",
+      "t3-2"
+    ],
+    "nachher": [
+      "t1-3",
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L496",
+    "vorher": [
+      "t8-5",
+      "t17-2"
+    ],
+    "nachher": [
+      "lebenssituationen",
+      "t8-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L497",
+    "vorher": [
+      "t8-5",
+      "t17-2"
+    ],
+    "nachher": [
+      "lebenssituationen",
+      "t8-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L498",
+    "vorher": [
+      "t8-5",
+      "t17-2"
+    ],
+    "nachher": [
+      "t9-2",
+      "t8-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L503",
+    "vorher": [
+      "t9-1"
+    ],
+    "nachher": [
+      "t8-1",
+      "t4-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L504",
+    "vorher": [
+      "t9-1"
+    ],
+    "nachher": [
+      "t8-1",
+      "t4-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L509",
+    "vorher": [
+      "t9-1"
+    ],
+    "nachher": [
+      "t9-1",
+      "t9-11"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L518",
+    "vorher": [
+      "t9-1"
+    ],
+    "nachher": [
+      "t9-1",
+      "t8-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L526",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-5",
+      "t9-6"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L527",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-5",
+      "t9-6"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L528",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-5",
+      "t18-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L532",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L534",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-10",
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L535",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-3",
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L536",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-6",
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L537",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-2"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L538",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L539",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-4",
+      "t8-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L540",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t8-3",
+      "t9-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L541",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t8-3",
+      "t9-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L542",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-1"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L543",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t3-2",
+      "t9-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L544",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-10"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L545",
+    "vorher": [
+      "t8-3",
+      "t9-3",
+      "t9-4",
+      "t9-10"
+    ],
+    "nachher": [
+      "t9-10"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L550",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-5",
+      "t18-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L551",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-5",
+      "t13-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L552",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t13-5",
+      "t8-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L553",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-4",
+      "t8-5"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L554",
+    "vorher": [
+      "t8-5"
+    ],
+    "nachher": [
+      "t8-5",
+      "t18-4"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  },
+  {
+    "id": "B4-L565",
+    "vorher": [
+      "t2-5-1",
+      "t2-4-3"
+    ],
+    "nachher": [
+      "t18-5",
+      "t15-2",
+      "t2-4-3"
+    ],
+    "begruendung": "Erneute vollständige Inhaltsprüfung; engere fachliche Zielansicht bzw. zusätzliche Aspekte und Quellkontext berücksichtigt. Originalaussage unverändert."
+  }
+]

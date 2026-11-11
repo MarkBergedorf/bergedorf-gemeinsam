@@ -1,0 +1,419 @@
+[
+  {
+    "id": "P01",
+    "thema": "Stiftungsname und koordinierende Stelle",
+    "quellzeilen": [
+      "B1-L137",
+      "B2-L549",
+      "B3-L13",
+      "B4-L17"
+    ],
+    "zugeordneteThemen": [
+      "t14-1",
+      "t18-5",
+      "t14-2"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Die Aufbereitungen enthalten abweichende Stiftungsbezeichnungen; Identität und offizielle Schreibweise sind nicht belegt.",
+    "erforderlich": "Offizielle Selbstdarstellung/Impressum und Originalaufzeichnung abgleichen; keine der Transkriptionsfassungen ungeprüft auswählen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P02",
+    "thema": "Personennamen, Funktionen und Kontaktrollen",
+    "quellzeilen": [
+      "B1-L138",
+      "B1-L139",
+      "B1-L149",
+      "B2-L550",
+      "B3-L27",
+      "B4-L434"
+    ],
+    "zugeordneteThemen": [
+      "t14-2",
+      "t14-6",
+      "t18-5"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Schreibweisen und Funktionen insbesondere von Cornelia Springer-Foart, Axel Weber und Svante Tiedemann sind nur aus Aufbereitungen erschlossen.",
+    "erforderlich": "Originalpräsentation, Veranstalterangaben und Rollen zum Veranstaltungszeitpunkt prüfen; keine privaten Kontaktdaten ergänzen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P03",
+    "thema": "Kompetenznetz: KNE/KME",
+    "quellzeilen": [
+      "B1-L147",
+      "B3-L114",
+      "B3-L117"
+    ],
+    "zugeordneteThemen": [
+      "t13-6",
+      "t15-1",
+      "t14-2"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "B1 nennt KNE, B3 KME. Die abweichende Abkürzung bleibt im Original erhalten.",
+    "erforderlich": "Offizielle Bezeichnung und institutionelle Zuordnung anhand der Originalquelle prüfen; keine stille Korrektur der Quelltexte.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P04",
+    "thema": "Preisname und Preisjahrgänge",
+    "quellzeilen": [
+      "B1-L236",
+      "B1-L237",
+      "B1-L238",
+      "B2-L78",
+      "B2-L80",
+      "B2-L492",
+      "B3-L129",
+      "B3-L382",
+      "B4-L191",
+      "B4-L192",
+      "B4-L193",
+      "B4-L194"
+    ],
+    "zugeordneteThemen": [
+      "t17-3"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Die Texte nennen Gemeinsamkeitspreis bzw. Gemeinschaftspreis und Preis-/Verleihungsangaben für 2026 und 2027. Eine eindeutige Ereigniszuordnung ist damit noch nicht gesichert.",
+    "erforderlich": "Offiziellen Preisnamen, Ausschreibungen und jeweils zugehörige Verleihung separat nach Jahrgang prüfen. Jahresangaben nicht zu einem einzigen Termin verschmelzen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P05",
+    "thema": "26. November und Veranstaltungsreihe",
+    "quellzeilen": [
+      "B1-L228",
+      "B2-L482",
+      "B2-L554",
+      "B3-L377",
+      "B4-L215",
+      "B4-L1173"
+    ],
+    "zugeordneteThemen": [
+      "t14-5",
+      "t17-3"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "B2 bezeichnet die Jahresangabe ausdrücklich als widersprüchlich; andere Fassungen nennen 2026.",
+    "erforderlich": "Originaleinladung und Datum des Auftakts prüfen; Bielefeld, Veranstaltungsreihe und Kooperationspartner eindeutig zuordnen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P06",
+    "thema": "Strategietermine 2027 und 3. Mai",
+    "quellzeilen": [
+      "B1-L229",
+      "B1-L230",
+      "B2-L256",
+      "B2-L268",
+      "B3-L378",
+      "B3-L379",
+      "B3-L380",
+      "B4-L323",
+      "B4-L1181",
+      "B4-L1185"
+    ],
+    "zugeordneteThemen": [
+      "t14-5",
+      "t17-3",
+      "t14-3-2"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Terminstatus, Jahr und Funktion einzelner Treffen sind teils vorläufig; September bezeichnet je nach Text Forum bzw. Zusammenführung.",
+    "erforderlich": "Offizielle Programme für 19. Februar, 3. Mai und September getrennt prüfen. Planung nicht als stattgefundenes Ereignis ausgeben.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P07",
+    "thema": "Bundeskonferenz, Aktionswoche und Barometer",
+    "quellzeilen": [
+      "B1-L234",
+      "B2-L87",
+      "B2-L90",
+      "B4-L201",
+      "B4-L202",
+      "B4-L204",
+      "B4-L206"
+    ],
+    "zugeordneteThemen": [
+      "t17-3",
+      "t13-2"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Teilweise fehlt das Jahr, teilweise handelt es sich um Ankündigungen; Erscheinungsstand wissenschaftlicher Publikationen ist nicht geprüft.",
+    "erforderlich": "Offizielle Termin-/Publikationsangaben samt Planungsstand und Abrufdatum ermitteln.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P08",
+    "thema": "Krisennetz",
+    "quellzeilen": [
+      "B1-L232",
+      "B4-L1175"
+    ],
+    "zugeordneteThemen": [
+      "t14-5",
+      "t17-3"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Der genannte Akteur und weitere Veranstaltungstermin sind nicht eindeutig identifiziert.",
+    "erforderlich": "Originalaufnahme bzw. Veranstalter nach genauer Bezeichnung und Einladung prüfen; fachlich bei Veranstaltungen belassen, keinen Träger erfinden.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P09",
+    "thema": "Miller & Willi",
+    "quellzeilen": [
+      "B4-L388"
+    ],
+    "zugeordneteThemen": [
+      "t17-2",
+      "t8-5"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Der Projektname ist im Bericht ausdrücklich als überprüfungsbedürftig markiert.",
+    "erforderlich": "Originalbezeichnung, Projektträger und beschriebenes Modell identifizieren; keine vermeintliche Korrektur oder Projektadresse erfinden.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P10",
+    "thema": "SAIWIR und Angebotsdatenbank",
+    "quellzeilen": [
+      "B4-L45",
+      "B4-L664",
+      "B4-L944",
+      "B4-L1363"
+    ],
+    "zugeordneteThemen": [
+      "t11-4",
+      "t16-3",
+      "t14-1"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Name/Rechtsstatus des Partners sowie tatsächlicher Entwicklungs- und Betriebsstand der Datenbank sind ungeprüft.",
+    "erforderlich": "Offizielle Projekt-/Trägerangaben und Stand zum Auftakt prüfen. Nicht mit einer Funktion dieser Bürgerplattform gleichsetzen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P11",
+    "thema": "Klönschnacker und HVV",
+    "quellzeilen": [
+      "B4-L859",
+      "B4-L860",
+      "B4-L861"
+    ],
+    "zugeordneteThemen": [
+      "t12-3",
+      "t11-3",
+      "t18-5"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Projektbezeichnung, Ausgestaltung und aktueller Stand sind im Bericht offen.",
+    "erforderlich": "Genaues Projekt und belegten Kooperationsstatus ermitteln; Nennung ist kein nachgewiesener Vertrag oder aktuelles Angebot.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P12",
+    "thema": "Hamburger Allianzmitgliedschaft und politische Ausgangslage",
+    "quellzeilen": [
+      "B1-L142",
+      "B1-L143",
+      "B2-L553",
+      "B3-L74",
+      "B3-L75",
+      "B4-L145",
+      "B4-L146",
+      "B4-L173",
+      "B4-L176"
+    ],
+    "zugeordneteThemen": [
+      "t15-2",
+      "t15-1",
+      "t18-3",
+      "t14-1"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Behauptungen zur Landesmitgliedschaft, zu Einzelorganisationen und zu einem fehlenden Aktionsplan sind zeitgebundene Veranstaltungsangaben.",
+    "erforderlich": "Amtlichen Stand und Mitgliederliste zum relevanten Zeitpunkt prüfen; Land und einzelne Organisationen getrennt behandeln. Wortlaut der behaupteten Sonderstellung nicht ungeprüft bestätigen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P13",
+    "thema": "Historische Zählung und unterschiedliche Einschätzungen",
+    "quellzeilen": [
+      "B4-L461",
+      "B4-L462",
+      "B4-L464",
+      "B4-L466",
+      "B4-L467",
+      "B4-L468",
+      "B4-L469",
+      "B4-L475"
+    ],
+    "zugeordneteThemen": [
+      "t2-5-1",
+      "t2-5-6",
+      "t18-2",
+      "t18-5",
+      "t10-7",
+      "t10-5",
+      "t2-5-5",
+      "t10-2"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Die Zahl 97 ist eine persönliche Bestandsaufnahme. Zur Frage eines Ersatzes verlorener Orte werden unterschiedliche Sichtweisen berichtet; Standorte und Zeiträume sind nicht belegt.",
+    "erforderlich": "Standortliste, Zeiträume, Betriebsnamen und Primärquellen ermitteln; Widerspruch und Sprecherperspektiven erhalten. Keine amtliche Statistik und kein Kausalnachweis für individuelle Einsamkeit.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P14",
+    "thema": "Polnisches Mahlzeitenbeispiel",
+    "quellzeilen": [
+      "B1-L82",
+      "B2-L346",
+      "B4-L523",
+      "B4-L526",
+      "B4-L527",
+      "B4-L528"
+    ],
+    "zugeordneteThemen": [
+      "t8-5",
+      "t9-6",
+      "t18-5"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Ort und Fernsehbeitrag fehlen; Preis, Förderung und Wirkungen beruhen auf einer Erinnerung.",
+    "erforderlich": "Sendung, Einrichtung, Zeitraum und Finanzierung identifizieren; bis dahin nur als berichtete Anregung erschließen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P15",
+    "thema": "Praxisbeispiele und aktuelle Angebotsdaten",
+    "quellzeilen": [
+      "B1-L91",
+      "B4-L549",
+      "B4-L550",
+      "B4-L551",
+      "B4-L554",
+      "B4-L591",
+      "B4-L594",
+      "B4-L596"
+    ],
+    "zugeordneteThemen": [
+      "t8-5",
+      "t6-3",
+      "t18-4",
+      "t13-5"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Durchführung, Preise, Öffnungszeiten, Reichweite und wahrgenommene Auslastung sind nicht aktuell verifiziert.",
+    "erforderlich": "Pottkieker und KulturistenHoch2 getrennt bei den Trägern prüfen; subjektive Auslastungsaussage nicht als Wirksamkeitsstudie verwenden.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P16",
+    "thema": "Wissenschaftliche Studien, Messung und Kausalität",
+    "quellzeilen": [
+      "B2-L552",
+      "B2-L556",
+      "B3-L60",
+      "B4-L96",
+      "B4-L120",
+      "B4-L137",
+      "B4-L140",
+      "B4-L910",
+      "B5-L85",
+      "B5-L121",
+      "B5-L379"
+    ],
+    "zugeordneteThemen": [
+      "t13-2",
+      "t18-1",
+      "t2-6",
+      "t4-1",
+      "t2-2",
+      "t13-6",
+      "t18-5",
+      "t5-1",
+      "t7-2",
+      "t13-4",
+      "t13-3"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Exakte Studien/Fundstellen fehlen teilweise. Medizinische, psychologische, demokratiebezogene und wirtschaftliche Aussagen sind keine durch diese Auswertung verifizierten Ergebnisse.",
+    "erforderlich": "Originalstudien/Reviews und genaue Expertise ermitteln; Definitionen, Messinstrumente, Populationen, Jahre, Effektgrößen und Grenzen prüfen. Keine Korrelation zu Kausalität umformen; für die Kostenfrage wurde keine Berechnung vorgelegt.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P17",
+    "thema": "Sozialraumbeschreibungen und Mobilitätskonzept",
+    "quellzeilen": [
+      "B5-L251",
+      "B5-L255"
+    ],
+    "zugeordneteThemen": [
+      "t10-1",
+      "t10-4",
+      "t18-3"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "B5 nennt amtliche Grundlagen ohne vollständige bibliografische Fundstelle. Die sichtbaren Favicons sind kein Nachweis.",
+    "erforderlich": "Genaue Titel, Fassungen, Herausgeber, Seiten und tatsächliche Aussagen zu Bergedorf und Vier-/Marschlanden ermitteln.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P18",
+    "thema": "Partner, Zusagen und Rollen von Einrichtungen",
+    "quellzeilen": [
+      "B3-L258",
+      "B4-L795",
+      "B4-L851",
+      "B4-L853",
+      "B4-L854",
+      "B4-L1292"
+    ],
+    "zugeordneteThemen": [
+      "t15-2",
+      "t11-1",
+      "t5-5",
+      "t12-2",
+      "t12-4",
+      "t18-5",
+      "t11-3",
+      "t18-6",
+      "t11-5"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Viele Institutionen werden als mögliche Partner genannt. Daraus folgt keine Beteiligungszusage und kein öffentlicher Hilfeauftrag.",
+    "erforderlich": "Vorschlag, bestehender Kontakt und zugesagte Kooperation trennen; zuständige Institution und mögliche Datenschutz-/Einwilligungsgrenzen separat prüfen.",
+    "fachlicheZuordnungOffen": false
+  },
+  {
+    "id": "P19",
+    "thema": "Beteiligung, Redaktion, Datenschutz und Organisationsrecht",
+    "quellzeilen": [
+      "B1-L133",
+      "B1-L134",
+      "B5-L307",
+      "B5-L347",
+      "B5-L349",
+      "B5-L481",
+      "B5-L483",
+      "B5-L487"
+    ],
+    "zugeordneteThemen": [
+      "t18-6",
+      "t9-7",
+      "t12-4",
+      "t7-3"
+    ],
+    "status": "primaerquellenpruefung_offen",
+    "ungeklaert": "Vorgeschlagene Kontakt-, Melde-, Moderations-, Gründungs- und Hilfsabläufe sind noch keine geprüften oder aktivierten Leistungen.",
+    "erforderlich": "Rechtliche, organisatorische, Datenschutz- und Sicherheitsvoraussetzungen im zuständigen späteren Auftrag prüfen. In dieser Auswertung keine neuen Funktionen oder Zusagen ableiten.",
+    "fachlicheZuordnungOffen": false
+  }
+]

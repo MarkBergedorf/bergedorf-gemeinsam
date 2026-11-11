@@ -1,0 +1,14 @@
+# Technische Prüfung – vollständige Themenhierarchie
+
+Stand: 11. November 2026. Ausgangscommit: `4e56b894f132e598c9a81c9738c85a6e8b5f7fd6`.
+
+- Alle **93 Frontendtests** bestanden. Darunter vollständiger Titel-, Eltern- und Schwerpunktabgleich gegen die verbindliche Markdown-Konzeption; exakt 18 Hauptthemen, 108 Unterthemen und 12 weitere Knoten; einzigartige IDs und URLs; Direktaufrufe und Breadcrumbs aller 138 Ansichten; echte Suchtreffer; Hilfezugang; historische Querverweise; geplante Kommentargrenzen; unveränderte Originalzeilen-Prüfsummen und korrekte Kennzeichnung aller offenen Zuordnungen. Bisherige Tests für Nachrichten, Presseformulare, Politik, Karten, Datenschutzgrenzen und Installationshilfen bleiben bestanden.
+- Regulärer Produktionsbuild erfolgreich: 87 Ausgabedateien; noindex und Projekt-Unterpfad korrekt; vier Beispiele und 69 redaktionelle Bestandeinträge; keine Live-Datensätze. Bekannte Hinweise auf Leaflet-CSS und große JavaScript-Chunks, kein Buildfehler.
+- Bestehender Synchronisierungsablauf `node scripts/sync-pages.mjs` erfolgreich; Produktionsdateien entsprechen vollständig `frontend/dist`.
+- Desktop tatsächlich im Browser geprüft: Hauptthema → Unterthema → Vertiefung „Ehemalige Gastwirtschaften und Kneipen“; vollständige verlinkte Breadcrumbs; direkter Aufruf nach Neuladen; Browser-Zurück/Vorwärts; Bedienung einer übergeordneten Breadcrumb per Eingabetaste; Suche nach dem tiefen historischen Thema mit vollständigem Trefferpfad und Öffnen des Suchtreffers. Lange Überschriften und das bestehende Farbsystem bleiben lesbar.
+- Eine reale Smartphoneprüfung und eine mobile Browseremulation sind mit der verfügbaren Browsersteuerung technisch nicht möglich. Es wird keine bestandene Smartphoneprüfung behauptet. Responsive CSS-Regeln und Umbruchmöglichkeiten sind vorbereitet; Desktop-DOM-Prüfung ersetzt keinen mobilen Gerätetest.
+- Nur die neue Sonderseite, ihr Datenmodell, ihre Tests und die redaktionelle Dokumentation wurden im bearbeitbaren Quellcode geändert. `platform.tsx`, bestehende Hauptnavigation und andere Bereiche sind gegenüber dem Ausgangscommit unverändert. Bestehende CSS-Regeln bleiben erhalten; nur neue Regeln für die Sonderseite ergänzt. Private ChatGPT-Sites-Version 99 wurde nicht geöffnet oder verändert.
+
+Redaktionelle Grenze: Die Hierarchie ist vollständig übernommen. 408 Quellzeilen sind thematisch zugeordnet, 2.142 bleiben offen; keine vollständige fachliche Quellzuordnung und keine geprüften Fachartikel behaupten. Keine produktiven Konten, Datenbanken, Einreichungen oder Kommentare aktiviert.
+
+Die Veröffentlichung erfolgt über den bestehenden GitHub-Pages-Ablauf nach Aktualisierung von main. Abschlussstatus und öffentliche Browserkontrolle werden mit der neuen Commit-ID im Arbeitsbericht genannt; ein Veröffentlichungserfolg wird hier nicht vorweggenommen.

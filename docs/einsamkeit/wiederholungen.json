@@ -1,0 +1,207 @@
+{
+  "wortgleicheGruppen": [
+    {
+      "vergleichstext": "Einsamkeit bei Alleinerziehenden.",
+      "quellzeilen": [
+        "B1-L46",
+        "B2-L144"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Einsamkeit bei Menschen mit psychischen Erkrankungen.",
+      "quellzeilen": [
+        "B1-L55",
+        "B2-L148"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Einsamkeit bei Menschen mit chronischen Erkrankungen.",
+      "quellzeilen": [
+        "B1-L58",
+        "B2-L147"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Einsamkeit bei Menschen mit Migrationsgeschichte.",
+      "quellzeilen": [
+        "B1-L59",
+        "B2-L156"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Einsamkeit bei Geflüchteten.",
+      "quellzeilen": [
+        "B1-L60",
+        "B2-L157"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Formulierung konkreter Handlungsempfehlungen.",
+      "quellzeilen": [
+        "B2-L235",
+        "B4-L227"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Geplantes Online-Forum im September 2027.",
+      "quellzeilen": [
+        "B2-L268",
+        "B2-L489"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Alleinerziehende.",
+      "quellzeilen": [
+        "B2-L289",
+        "B3-L225",
+        "B4-L1061"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Queere Menschen.",
+      "quellzeilen": [
+        "B2-L290",
+        "B4-L1059"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Stiftungen.",
+      "quellzeilen": [
+        "B2-L302",
+        "B3-L282",
+        "B4-L1120"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Wohlfahrtsverbände.",
+      "quellzeilen": [
+        "B2-L303",
+        "B3-L280",
+        "B4-L301"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Wohnungsbaugenossenschaften.",
+      "quellzeilen": [
+        "B2-L306",
+        "B3-L276",
+        "B4-L302",
+        "B4-L618",
+        "B4-L1097",
+        "B4-L1281"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Selbsthilfegruppen.",
+      "quellzeilen": [
+        "B2-L312",
+        "B3-L271",
+        "B4-L621"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Gewerkschaften.",
+      "quellzeilen": [
+        "B2-L314",
+        "B4-L1096"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Pflegestützpunkte.",
+      "quellzeilen": [
+        "B2-L321",
+        "B4-L1091"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Jobcenter.",
+      "quellzeilen": [
+        "B2-L322",
+        "B3-L259",
+        "B4-L1086"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Pflegeeinrichtungen.",
+      "quellzeilen": [
+        "B2-L324",
+        "B3-L274",
+        "B4-L617"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Sportvereine.",
+      "quellzeilen": [
+        "B2-L330",
+        "B3-L278"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Themencafés.",
+      "quellzeilen": [
+        "B2-L342",
+        "B4-L1099"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Ältere Menschen.",
+      "quellzeilen": [
+        "B3-L218",
+        "B4-L1060"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Unternehmen und Arbeitgeber.",
+      "quellzeilen": [
+        "B4-L304",
+        "B4-L1288"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Selbsthilfeorganisationen.",
+      "quellzeilen": [
+        "B4-L309",
+        "B4-L1050"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Kirchengemeinden.",
+      "quellzeilen": [
+        "B4-L615",
+        "B4-L1282"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    },
+    {
+      "vergleichstext": "Einrichtungen der offenen Seniorenarbeit.",
+      "quellzeilen": [
+        "B4-L623",
+        "B4-L1283"
+      ],
+      "regel": "Nur Aufzählungsnummer/-zeichen entfernt; Kontexte und Originale bleiben getrennt."
+    }
+  ],
+  "hinweis": "Semantisch verwandte Inhalte werden über dieselben bestehenden Themenknoten erschlossen. Nicht wortgleiche Varianten bleiben vollständig erhalten. Keine fünf unabhängigen Bestätigungen aus fünf Aufbereitungen desselben Auftakts ableiten."
+}

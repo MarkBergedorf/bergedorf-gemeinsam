@@ -32,10 +32,11 @@ test('Navigation nutzt bestehende Browser-Historie, aktive Hilfe und zugänglich
  for(const f of ['app/loneliness.tsx','lib/loneliness.mjs'])assert(!/fetch\(|localStorage|sessionStorage|indexedDB|XMLHttpRequest|WebSocket|sendBeacon/.test(readFileSync(f,'utf8')));
  const nav=readFileSync('app/navigation.tsx','utf8');assert(nav.includes("options.replace?'replaceState':'pushState'"));assert(nav.includes("window.addEventListener('popstate'"));
 });
-test('Redaktionelle Bestandsaufnahme erfasst alle Originalzeilen und kennzeichnet fehlende Zuordnung',()=>{
+test('Redaktionelle Bestandsaufnahme erfasst alle Originalzeilen und kennzeichnet Prüfstatus und Aussagegrenzen',()=>{
  const base='../docs/einsamkeit/',registry=JSON.parse(readFileSync(base+'quellenregister.json','utf8')),records=readFileSync(base+'bestandsaufnahme.jsonl','utf8').trim().split('\n').map(l=>JSON.parse(l));
  assert.equal(registry.sources.length,5);assert.equal(records.length,registry.nonEmptySourceLines);assert.equal(new Set(records.map(r=>r.id)).size,records.length);
  for(const source of registry.sources){const rows=records.filter(r=>r.datei===source.id);assert(rows.length>0);assert(rows.every(r=>r.original.trim()&&r.quellabschnitt&&Number(r.fundstelle.split(' ')[1])<=source.totalLines));assert.equal(createHash('sha256').update(JSON.stringify(rows.map(r=>[Number(r.fundstelle.split(' ')[1]),r.original]))).digest('hex'),source.nonEmptyLinesSha256);}
- for(const r of records){if(r.bearbeitungsstand==='zuordnung_offen'){assert.equal(r.hauptthema,null);assert.equal(r.unterthema,null);assert.equal(r.weitereEbene,null)}else{assert.equal(r.bearbeitungsstand,'thematisch_zugeordnet_quellenpruefung_offen');assert(lonelinessIndex.some(n=>n.id===r.hauptthema));assert(r.zuordnungsbegruendung);for(const id of r.zuordnungen)assert(lonelinessIndex.some(n=>n.id===id));}assert.equal(r.quellenpruefung,'ausstehend')}
+ for(const r of records){assert.equal(r.pruefstatus,'inhaltlich_geprueft');assert.equal(r.tatsachenVerifiziert,false);if(r.zeilenrolle==='inhalt'){assert.equal(r.bearbeitungsstand,'thematisch_zugeordnet_quellenpruefung_offen');assert.equal(r.quellenpruefung,'ausstehend');assert(r.zuordnungen.length)}else assert(['gliederung','kontext','formatierung'].includes(r.zeilenrolle));for(const id of r.zuordnungen)assert(lonelinessIndex.some(n=>n.id===id));assert(r.zuordnungsbegruendung);}
+
  assert(!readFileSync('lib/loneliness.mjs','utf8').includes('bestandsaufnahme.jsonl'));
 });

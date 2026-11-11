@@ -1,0 +1,49 @@
+{
+  "ausgangscommit": "2cdd58be5a6a3a75fc6d4081d3070c256995e16b",
+  "gepruefteQuellzeilen": 2550,
+  "fachlichZugeordneteInhaltszeilen": 2301,
+  "gepruefteKontextUndGliederungszeilen": 245,
+  "reineFormatierungszeilen": 4,
+  "inhaltlicheMehrfachzuordnungen": 1200,
+  "zusaetzlicheInhaltsverbindungen": 1315,
+  "fachlichUnzugeordnet": 0,
+  "unabhaengigTatsachenverifiziert": 0,
+  "vorherigeZuordnungenKontrolliert": 408,
+  "geaenderteVorherigeZuordnungen": 75,
+  "dateien": {
+    "B1": {
+      "gliederung": 3,
+      "kontext": 4,
+      "inhalt": 273
+    },
+    "B2": {
+      "gliederung": 26,
+      "kontext": 7,
+      "inhalt": 478,
+      "formatierung": 1
+    },
+    "B3": {
+      "kontext": 5,
+      "gliederung": 37,
+      "inhalt": 322
+    },
+    "B4": {
+      "kontext": 9,
+      "gliederung": 128,
+      "inhalt": 978,
+      "formatierung": 1
+    },
+    "B5": {
+      "gliederung": 16,
+      "kontext": 10,
+      "inhalt": 250,
+      "formatierung": 2
+    }
+  },
+  "hauptthemen": 18,
+  "unterthemen": 108,
+  "vertiefungsknoten": 12,
+  "themenknoten": 138,
+  "offenePrimaerprueffragen": 19,
+  "wortgleicheGruppen": 24
+}
