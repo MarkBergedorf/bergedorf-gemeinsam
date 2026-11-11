@@ -1,0 +1,47 @@
+{
+  "status": "Unvollständige Zuordnung: vereinbarte Gesamtkonzeption fehlt",
+  "sources": [
+    {
+      "id": "B1",
+      "name": "Eingefügter Text(7).txt",
+      "libraryFileId": "libfile_022a93d367108191ac9a16874de05521",
+      "totalLines": 290,
+      "nonEmptyLinesSha256": "ee8f8eeff3a21101ffadeb25bbb0444f9c3d0e76c636db714d0a534d68698d91"
+    },
+    {
+      "id": "B2",
+      "name": "Eingefügter Text (2).txt",
+      "libraryFileId": "libfile_72512e9ee20081919ce73b1a92f0c1f5",
+      "totalLines": 570,
+      "nonEmptyLinesSha256": "f30697f76821c5a51152bc3299b1d7b52384a0addb962d79b740ed182850cbb1"
+    },
+    {
+      "id": "B3",
+      "name": "Eingefügter Text (3).txt",
+      "libraryFileId": "libfile_7e6a46bf508c81919e2d435170b78c8d",
+      "totalLines": 441,
+      "nonEmptyLinesSha256": "47eb12ff1cdab0c23245e207ef35418809f25a95ee191cb6a6abacbc8be105da"
+    },
+    {
+      "id": "B4",
+      "name": "Eingefügter Text (4).txt",
+      "libraryFileId": "libfile_37ae909ba2288191aabe32e5a87ed093",
+      "totalLines": 1394,
+      "nonEmptyLinesSha256": "e7dabe472731155bc31377f6d246135f46de8f31888517b0ed6ef88507d94ea8"
+    },
+    {
+      "id": "B5",
+      "name": "Eingefügter Text (5).txt",
+      "libraryFileId": "libfile_6aee7d25a7d48191a33a973ddcbb40e7",
+      "totalLines": 556,
+      "nonEmptyLinesSha256": "1c5b8b3317c86efb1320019140d3bfae7d77e90505f8fea259ab1d83042d9ca5"
+    }
+  ],
+  "nonEmptySourceLines": 2550,
+  "mainTopics": 18,
+  "publishedSubtopics": 0,
+  "definitions": {
+    "zuordnung_offen": "Keine Zuordnung ohne vollständige vereinbarte Gesamtkonzeption; null bedeutet ausdrücklich offen.",
+    "ausstehend": "Originalquelle prüfen; keine ungeprüfte wissenschaftliche, historische, politische, institutionelle oder terminliche Aussage öffentlich als Tatsache übernehmen. Transkriptionsnamen und Zahlen gesondert prüfen."
+  }
+}
