@@ -1,0 +1,17 @@
+.loneliness-page .historic-collection,.loneliness-page .historic-place{margin:2rem 0;padding:clamp(1rem,3vw,2rem);background:#f4f7f4;border:1px solid #d4dfd7;border-radius:1rem;overflow-wrap:anywhere}
+.loneliness-page .historic-status{font-size:.85rem;font-weight:700;color:#305342;line-height:1.5}
+.loneliness-page .historic-checkbox{display:flex;align-items:flex-start;gap:.7rem;margin:1rem 0;line-height:1.6;cursor:pointer}
+.loneliness-page .historic-checkbox input{width:1.3rem;height:1.3rem;flex-shrink:0;margin-top:.2rem}
+.loneliness-page .historic-gallery{margin:1.5rem 0;background:white;border:1px solid #c9d9ce;border-radius:.7rem;padding:1rem}
+.loneliness-page .historic-gallery summary,.loneliness-page .historic-collection>details>summary{cursor:pointer;font-weight:700;min-height:44px;padding:.5rem;line-height:1.5}
+.loneliness-page .historic-media-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1.2rem}
+.loneliness-page .historic-media-grid figure{margin:0;padding:1rem;background:#f7f8f5;border-radius:.5rem;border:1px solid #dde4dc}
+.loneliness-page .historic-media-grid img{display:block;width:100%;height:auto}
+.loneliness-page .historic-source-list{padding-left:1.3rem;line-height:1.7}
+.loneliness-page .historic-source-list p{font-size:.9rem}
+.loneliness-page .historic-phases>li{padding:.5rem 0 1rem}
+.loneliness-page .historic-place dt{font-weight:700;margin-top:.8rem}
+.loneliness-page .historic-place dd{margin:0}
+.loneliness-page .historic-collection input[type=search]{width:100%;min-height:44px;margin-top:.5rem}
+.loneliness-page summary:focus-visible,.loneliness-page .historic-checkbox:has(input:focus-visible){outline:3px solid #245b45;outline-offset:4px}
+.loneliness-page .loneliness-kind-recht,.loneliness-page .loneliness-kind-amtlich{border-left-color:#416e75}

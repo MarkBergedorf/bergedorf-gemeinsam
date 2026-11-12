@@ -1,0 +1,970 @@
+{
+  "begegnungsstaette": {
+    "intro": "Ein offener Treff braucht mehr als einen Raum und eine Einladung. Dieser Leitfaden verbindet die Frage nach gemeinsamen Interessen mit konkreten Entscheidungen über Zugang, Träger, Geld, Personal und verlässlichen Betrieb. Er beschreibt ein mögliches Vorgehen; eine reale Einrichtung wird damit noch nicht gegründet.",
+    "sections": [
+      {
+        "id": "begegnungsstaette-1",
+        "title": "Von der Idee zum tragfähigen Konzept",
+        "paragraphs": [
+          {
+            "text": "Beginnen Sie mit dem Bedarf: Wen erreichen vorhandene Orte, wen nicht, und welche Wünsche bleiben tatsächlich offen? Die Unterseiten führen durch Befragung, Standortvergleich, Programm, Gleichbehandlung, Finanzierung und Organisation. Prüfen Sie zuerst, ob eine Kooperation oder die Öffnung bestehender Räume geeigneter ist als ein neuer eigenständiger Betrieb.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "„Für alle“ ist ein Anspruch an Offenheit, keine Garantie, dass sämtliche Menschen denselben Ort besuchen möchten. Ein offener Alltagstreff kann spezialisierte Beratung, geschützte Gruppen oder altersbezogene Angebote ergänzen. Er soll deren fachliche Aufgaben nicht ersetzen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "begegnungsstaette-2",
+        "title": "Verantwortung und Mittel vor dem Start klären",
+        "paragraphs": [
+          {
+            "text": "Ein Gründungskonzept sollte Zweck, Zeiten, Räume, Ansprechpartner, Personalvertretung, Kosten und Finanzierungsquellen nennen. Klären Sie Genehmigungen vor dem Betrieb und Förderbedingungen vor verbindlichen Ausgaben. Erproben Sie das Konzept zunächst in einem rechtlich geklärten, zeitlich begrenzten Rahmen und werten Sie Rückmeldungen freiwillig aus.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Welche Genehmigungen erforderlich sind, hängt in Hamburg vom Gebäude und konkreten Betrieb ab. Maßgeblich sind die seit 2026 geltenden bauordnungsrechtlichen Regeln und gegebenenfalls weitere Vorschriften für Gastronomie oder Veranstaltungen.",
+            "refs": [
+              "auftrag4-bau"
+            ],
+            "kind": "recht"
+          }
+        ]
+      },
+      {
+        "id": "begegnungsstaette-3",
+        "title": "Mitwirkung ohne vorgetäuschte Einrichtung",
+        "paragraphs": [
+          {
+            "text": "Die vorgesehene lokale Kommentarprüfung umfasst höchstens 500 Zeichen. Sie ist kein Antrag, keine Reservierung und keine Beteiligung an einem bereits bestehenden Träger. Öffentliche Übermittlung, Speicherung und Veröffentlichung bleiben gesperrt. Die bestehenden Hilfsangebote der Plattform können unabhängig davon genutzt werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-1": {
+    "intro": "Eine Begegnungsstätte für unterschiedliche Menschen soll freiwillige Kontakte im Alltag ermöglichen. Dazu braucht sie einen erkennbaren gemeinsamen Zweck und unterschiedliche Wege, sich zu beteiligen.",
+    "sections": [
+      {
+        "id": "t9-1-1",
+        "title": "Offenheit konkret beschreiben",
+        "paragraphs": [
+          {
+            "text": "Formulieren Sie, wer ohne Vorwissen, Mitgliedschaft und persönliche Problembeschreibung hereinkommen darf. Unterscheiden Sie einen allgemeinen Aufenthaltsbereich von Kursen, vertraulicher Beratung oder geschützten Gruppen. Die gemeinsame Trägerschaft eines Vereins muss nicht bedeuten, dass jeder Gast Mitglied werden muss. Veröffentlichen Sie diese Unterscheidung verständlich.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Ausgangsberichte wünschen Begegnung unabhängig von Alter, Einkommen oder einer gemeinsamen Problemlage. Zugleich erkennen sie spezialisierte Hilfen an. Daraus folgt ein Gestaltungsauftrag: offene und gezielte Angebote sinnvoll verbinden, ohne unterschiedliche Bedürfnisse gleichzusetzen oder vorhandene Einrichtungen als überflüssig darzustellen.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Eine Neubewertung der Kontakthypothese wertete 27 Studien mit zufälliger Zuweisung und zeitversetzter Messung aus. Insgesamt waren die Befunde mit einer Verringerung von Vorurteilen vereinbar, die Effekte unterschieden sich jedoch; wichtige Anwendungen bei Erwachsenen blieben unzureichend untersucht. Das ist kein Nachweis, dass ein gemischtes Begegnungshaus Einsamkeit verringert oder sämtliche Bevölkerungsgruppen erreicht. Gemeinsame Anwesenheit und tatsächlicher freiwilliger Austausch sind daher getrennt zu prüfen.",
+            "refs": [
+              "auftrag4-kontakt"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t9-1-2",
+        "title": "Gemeinsame Anlässe statt verordneter Nähe",
+        "paragraphs": [
+          {
+            "text": "Die Forschung zu dritten Orten beschreibt unterschiedliche Möglichkeiten sozialer Interaktion und Teilhabe. Der entsprechende Review betrifft ältere Menschen und ist keine Wirkungsstudie einer Bergedorfer Begegnungsstätte. Ein Raum allein garantiert keine soziale Durchmischung.",
+            "refs": [
+              "dritteorte"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Suchen Sie gemeinsame Tätigkeiten, die aus eigener Sicht interessant sind: ein einfaches Essen, Reparieren, Lesen, Spielen, Musik oder ein kleines Nachbarschaftsprojekt. Fragen Sie, ob jüngere und ältere Menschen dabei eigene Rollen und Entscheidungsmöglichkeiten haben. Vermeiden Sie ein Programm, bei dem eine Gruppe dauerhaft nur hilft und die andere nur Hilfe empfängt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-1-3",
+        "title": "Verschiedene Formen nebeneinander ermöglichen",
+        "paragraphs": [
+          {
+            "text": "Ein offener Tisch, ein ruhiger Sitzbereich und ein zeitlich angekündigtes gemeinsames Angebot können unterschiedliche Einstiege erlauben. Menschen dürfen erst beobachten, allein kommen oder nach kurzer Zeit gehen. Nicht jeder möchte angesprochen werden, nicht jede Person findet dieselbe Lautstärke oder Gesprächsform angenehm. Klären Sie, wer neue Gäste auf Wunsch begrüßt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Planen Sie, wie Interessenkonflikte bearbeitet werden: Ruhe und Musik, Kinderaktivitäten und konzentriertes Arbeiten, spontane Gäste und begrenzte Plätze. Eine transparente Raum- oder Zeitaufteilung ist ein Vorschlag, kein Beleg, dass das Zusammenleben dadurch automatisch gelingt. Befragen Sie Beteiligte zu den tatsächlich erlebten Bedingungen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-1-4",
+        "title": "Ein überprüfbares Ziel festlegen",
+        "paragraphs": [
+          {
+            "text": "Schreiben Sie für den Pilotbetrieb drei konkrete Ziele auf, etwa verständlicher Zugang, wiederkehrende Besuchsmöglichkeiten und die Beteiligung verschiedener selbst gewählter Interessen. Prüfen Sie anschließend, ob neue Personen wiederkommen und ob sie sich respektiert fühlen. Besucherzahlen dürfen nicht allein als Nachweis weniger Einsamkeit ausgegeben werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Welche Kombination aus offenem Aufenthalt und gezielten Angeboten in einem bestimmten Quartier unterschiedliche Menschen tatsächlich zusammenführt, muss erprobt werden. Die Berichte liefern Fragen und Erfahrungen, keine bereits bestätigte universelle Betriebsform.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Prüfen Sie, ob der gemeinsame Treff auch ohne Kursgebühr und ohne feste Stammgruppe verständlich nutzbar ist. Besprechen Sie, welche Regeln für alle gelten und welche besonderen Zeiten begründet sind. Eine gemeinsam erarbeitete Zielbeschreibung sollte schriftlich festhalten, was der Ort leisten soll und welche Leistungen ausdrücklich anderen Fachstellen vorbehalten bleiben.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-2": {
+    "intro": "Eine Bedarfsermittlung soll nicht die gewünschte Gründung nachträglich rechtfertigen. Sie soll zeigen, welche Wünsche bestehen, welche Angebote bereits passen und warum andere bislang nicht genutzt werden.",
+    "sections": [
+      {
+        "id": "t9-2-1",
+        "title": "Bestehendes zuerst erfassen",
+        "paragraphs": [
+          {
+            "text": "Erstellen Sie eine nachvollziehbare Übersicht vorhandener Räume und Aktivitäten: Träger, Nutzung, Zielgruppe, Öffnung, Kosten, Anmeldung und Zugangsbedingungen. Fragen Sie bei den Einrichtungen selbst nach. Ein fehlender Internettreffer ist kein Beweis für eine Versorgungslücke. Unterscheiden Sie eine echte fehlende Leistung von einem schlecht auffindbaren oder zeitlich unpassenden Angebot.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Sprechen Sie mit Nachbarschaftsinitiativen, Bibliotheken, Stadtteilzentren, Vereinen, Beratungen und gegebenenfalls Wohnungsunternehmen. Klären Sie, ob freie Räume, gemeinsame Zeiten oder Kooperationen möglich sind. Eine angesprochene Organisation ist noch kein zugesagter Partner. Halten Sie getrennt fest, was bestätigt, vorgeschlagen oder noch zu prüfen ist.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-2-2",
+        "title": "Nutzer und Nichtnutzer erreichen",
+        "paragraphs": [
+          {
+            "text": "Befragen Sie nicht nur die Menschen, die bereits in Einrichtungen aktiv sind. Ergänzen Sie verständliche kurze Gespräche, analoge Rückmeldemöglichkeiten und auf Wunsch telefonische Auskunft. Alleinleben ist dabei kein Auswahlkriterium für eine Diagnose. Fragen Sie nach Wünschen und konkreten Hürden, ohne Personen öffentlich als einsam zu bezeichnen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Geeignete Fragen sind: Was würden Sie gern gemeinsam tun? Wann hätten Sie Zeit? Würden Sie allein kommen? Welche Anfahrt ist möglich? Welche Ausgabe wäre ein Hindernis? Brauchen Sie Ruhe, Begleitung, Kinderbetreuung oder Unterstützung bei der Kommunikation? Erheben Sie nur Daten, die für die Planung tatsächlich erforderlich sind. Eine erste Wunscherfassung sollte ohne Namen und Gesundheitsangaben auskommen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-2-3",
+        "title": "Widersprüche sichtbar auswerten",
+        "paragraphs": [
+          {
+            "text": "Ordnen Sie Rückmeldungen nach Anliegen und Bedingungen statt pauschal nach vermeintlich homogenen Bevölkerungsgruppen. Wenn einige Menschen einen Abendtermin wünschen und andere den Weg nach Einbruch der Dunkelheit vermeiden möchten, sollte beides sichtbar bleiben. Stimmen Sie nicht einfach alle Unterschiede zu einem Durchschnittsangebot zusammen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Halten Sie Erhebungsweg, Zeitraum und Grenzen fest. Eine Befragung unter bereits engagierten Gästen erreicht andere Menschen als ein Gespräch an einer Bushaltestelle. Kleine freiwillige Rückmeldungen sind keine repräsentative Statistik für den gesamten Bezirk. Berichten Sie auch, welche Perspektiven fehlen und wie diese später einbezogen werden könnten.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-2-4",
+        "title": "Von der Frage zum Pilotversuch",
+        "paragraphs": [
+          {
+            "text": "Leiten Sie eine begrenzte, überprüfbare Entscheidung ab: zum Beispiel zunächst einen zusätzlich geöffneten Nachmittag in einem vorhandenen Raum. Benennen Sie einen Verantwortlichen, einen Zeitraum, ein geklärtes Budget und Kriterien für Fortsetzung oder Änderung. Bei geringer Nutzung fragen Sie nach den Gründen, bevor Sie fehlendes Interesse oder mangelnde Motivation unterstellen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Berichte nennen private Gruppen und persönliche Erfahrungen als mögliche Hinweise auf Wünsche. Diese Hinweise bleiben wertvoll, sind aber kein unabhängiger Nachweis, dass eine bestimmte Art öffentlicher Einrichtung fehlt.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-3": {
+    "intro": "Ein geeigneter Standort ist im Alltag erreichbar und nutzbar. Eine zentrale Adresse genügt nicht, wenn der Eingang, die Rückfahrt oder die Räume für einen Teil der Interessierten unzugänglich bleiben.",
+    "sections": [
+      {
+        "id": "t9-3-1",
+        "title": "Den ganzen Weg vergleichen",
+        "paragraphs": [
+          {
+            "text": "Vergleichen Sie mindestens zwei reale Standorte mit denselben Fragen: Wohnumfeld, Fußweg, Querungen, Beleuchtung, Haltestellen, tatsächliche Fahrzeiten und letzte Rückfahrt. Prüfen Sie die gewünschten Zeiten einschließlich Abend und Wochenende. Für die Vier- und Marschlande darf eine innerstädtische Taktung nicht vorausgesetzt werden; eine konkrete Verbindung muss zur jeweiligen Adresse und Uhrzeit passen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Beziehen Sie Menschen ein, die ohne eigenes Auto unterwegs sind, einen Rollator oder Rollstuhl nutzen oder einen Weg nicht allein bewältigen können. Eine theoretische Entfernung ersetzt keinen nutzbaren Weg. Fragen Sie, ob eine Begleitung tatsächlich angeboten werden kann und wer sie organisiert. Fahrdienste und Kostenübernahmen erst nach ausdrücklicher Bestätigung einplanen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-3-2",
+        "title": "Zugänglichkeit als Einzelmerkmale prüfen",
+        "paragraphs": [
+          {
+            "text": "Erfassen Sie Stufen, Türbreiten, Aufzug, Bewegungsflächen, nutzbare Toilette, Sitzmöglichkeiten, Beleuchtung und Akustik. Ergänzen Sie verständliche Beschilderung und eine erreichbare Ansprechperson. Prüfen Sie zusammen mit künftigen Gästen, was sie für die eigenständige Nutzung brauchen. Verwenden Sie keine pauschale Zusage, wenn einzelne Bedingungen unbekannt sind.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Öffentlich zugängliche Räume unterliegen bauordnungsrechtlichen Anforderungen. Die konkrete Anwendung von Barrierefreiheit, zulässiger Nutzung und möglichen Bestandsfragen ist mit Fachplanung beziehungsweise Bauprüfung zu klären; eine Internetcheckliste ersetzt dies nicht.",
+            "refs": [
+              "auftrag4-bau"
+            ],
+            "kind": "recht"
+          }
+        ]
+      },
+      {
+        "id": "t9-3-3",
+        "title": "Laufkundschaft, Nachbarschaft und Räume",
+        "paragraphs": [
+          {
+            "text": "Ein von außen verständlicher Eingang und sichtbare offene Zeiten können als Planungsziele geprüft werden. Untersuchen Sie zugleich die Innenräume: Gibt es einen ruhigen Bereich, Platz für gemeinsames Tun, Lagerung und eine sichere Küche, sofern benötigt? Welche Nutzung ist mit Nachbarschaft, Mietvertrag und Schutzbedürfnissen vereinbar? Entscheiden Sie diese Fragen vor einer langfristigen Bindung.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Vergleichen Sie nicht nur die Kaltmiete. Beziehen Sie Umbau, Nebenkosten, Reinigung, Instandhaltung, Personalwege und mögliche Anforderungen an Rettungswege ein. Ein günstiger leerstehender Laden kann ungeeignet sein, wenn Umbau oder Nutzungsklärung nicht tragfähig sind. Zusagen eines Vermieters sind von der behördlich zulässigen Nutzung zu unterscheiden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-3-4",
+        "title": "Erreichbarkeit transparent veröffentlichen",
+        "paragraphs": [
+          {
+            "text": "Geben Sie nach der Prüfung den tatsächlichen Eingang, bekannte Barrieren, die passende Haltestelle und mögliche Kontaktwege an. Unterscheiden Sie recherchierte Angaben von einer Vor-Ort-Prüfung. Aktualisieren Sie die Information bei bestätigten Änderungen im redaktionellen Ablauf; dafür wird auf dieser Website keine automatische Hintergrundfunktion eingerichtet.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Der in den Berichten genannte Zugang innerhalb von 15 bis 30 Minuten ist eine mögliche Untersuchungsgröße. Er wird nicht als bereits festgelegter örtlicher Versorgungsstandard oder als nachgewiesene optimale Entfernung ausgegeben.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Beziehen Sie die sichere Rückkehr ebenso ein wie das Ankommen. Dokumentieren Sie bei jeder Variante die tatsächliche Raumfreigabe, verbleibende Umbaufragen und wiederkehrende Zusatzkosten. Legen Sie erst nach dieser Gegenüberstellung fest, welcher Standort dem geplanten offenen Betrieb dient; eine attraktive Fassade allein entscheidet die Frage nicht.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-4": {
+    "intro": "Ein abwechslungsreiches Programm soll gemeinsame Anlässe schaffen und unterschiedliche Wünsche zulassen. Ein offener Treff braucht nicht für jede Person zur selben Zeit dieselbe Tätigkeit anzubieten.",
+    "sections": [
+      {
+        "id": "t9-4-1",
+        "title": "Alltag und Begegnung verbinden",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie gemeinsam mit Interessierten einfache wiederkehrende Anlässe: ein Mittagstisch, Kaffee, ein Spiel, Lesen, gemeinsames Reparieren oder eine kleine Kulturveranstaltung. Entscheidend ist, ob Menschen die Tätigkeit selbst möchten und ob sie zu ihren Zeiten und Möglichkeiten passt. Planen Sie eine Möglichkeit zum Aufenthalt ohne Bestellung ein und benennen Sie Ausgaben vor dem Besuch.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Erinnerung an einen günstigen geförderten Mittagstisch in Polen bleibt eine persönliche Erfahrung aus dem Ausgangsmaterial. Ort, aktueller Preis und Finanzierungsbedingungen sind damit nicht unabhängig bestätigt. Die Erinnerung regt die Frage an, wie Essen und Begegnung verbunden werden könnten; sie ist kein direkt übertragbares Geschäftsmodell.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t9-4-2",
+        "title": "Ohne Anmeldung und ohne Vereinszwang",
+        "paragraphs": [
+          {
+            "text": "Unterscheiden Sie offene Aufenthaltszeiten von Angeboten mit begrenzten Plätzen, Material oder fachlicher Begleitung. Erklären Sie, wann Anmeldung nötig ist und wann spontanes Kommen möglich ist. Eine freiwillige Mitgliedschaft darf nicht als überraschende Voraussetzung erst an der Tür auftauchen. Sagen Sie auch, wer allein kommende Gäste begrüßt und wie ein erster Besuch ablaufen kann.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ein kleiner Probetermin kann zeigen, ob ein gemeinsamer Tisch tatsächlich Gespräche ermöglicht. Bitten Sie Gäste, auf Wunsch freie Plätze zu erklären oder neue Personen einzubeziehen. Drängen Sie niemanden zur Selbstdarstellung. Wer zunächst nur beobachten oder lesen möchte, sollte dies im angekündigten Rahmen ebenfalls tun können.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-4-3",
+        "title": "Vielfalt räumlich und zeitlich organisieren",
+        "paragraphs": [
+          {
+            "text": "Planen Sie ruhige und aktivere Phasen, unterschiedliche Sitzanordnungen und einen verständlichen Wochenplan. Prüfen Sie, ob Kinderaktivitäten, Musik, Beratung und konzentriertes Arbeiten getrennte Räume oder Zeiten benötigen. Fragen Sie Menschen mit unterschiedlichen Reiz- und Kommunikationsbedürfnissen. Nicht jede Person muss mit jeder anderen gemeinsame Interessen haben.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Beteiligen Sie Gäste an Auswahl und Gestaltung, ohne die gesamte Organisation unbezahlt an einzelne besonders aktive Personen zu übertragen. Eine gemeinsame kleine Aufgabe darf angeboten werden; sie darf nicht zur Bedingung für respektvollen Zugang werden. Wiederkehrende Tätigkeiten können Kontaktgelegenheiten schaffen, eine Freundschaft wird damit nicht zugesichert.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-4-4",
+        "title": "Speisen, Kultur und Kosten realistisch planen",
+        "paragraphs": [
+          {
+            "text": "Ein Mittagstisch braucht neben einem niedrigen Preis eine geklärte Finanzierung, Zuständigkeit und Versorgung. Bei Musik, Lesungen oder Filmen sind Rechte und Durchführung vorab zu prüfen. Wählen Sie zuerst wenige dauerhaft leistbare Angebote und ergänzen Sie erst nach Rückmeldung und gesicherter Kapazität. Veröffentlichen Sie nur Zeiten und Leistungen, die tatsächlich bestätigt sind.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Regelmäßige Verpflegung kann lebensmittelrechtliche Pflichten auslösen. Ehrenamt und fehlender Gewinnzweck ersetzen die Prüfung nicht.",
+            "refs": [
+              "auftrag4-lebensmittel"
+            ],
+            "kind": "recht"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-5": {
+    "intro": "Ein offener Ort benötigt klare Regeln gegen Ausgrenzung und zugleich einen respektvollen Umgang mit unterschiedlichen Bedürfnissen. Offenheit ist eine Aufgabe des Betriebs, keine Eigenschaft, die allein auf einem Plakat zugesichert werden kann.",
+    "sections": [
+      {
+        "id": "t9-5-1",
+        "title": "Zugang und Preise verständlich machen",
+        "paragraphs": [
+          {
+            "text": "Das AGG enthält für die gesetzlich erfassten zivilrechtlichen Angebote Benachteiligungsverbote. Welche Regeln im konkreten Zugang, Vertrag oder Vereinsverhältnis greifen, muss differenziert geprüft werden.",
+            "refs": [
+              "auftrag4-agg"
+            ],
+            "kind": "recht"
+          },
+          {
+            "text": "Veröffentlichen Sie deshalb ein verständliches Zugangsmodell: offene Zeiten, eventuelle Teilnahmebedingungen, erkennbare Kosten, freiwillige Ermäßigungen und Beschwerdewege. Eine Person soll nicht überraschend eine Mitgliedschaft, einen Kauf oder die Offenlegung privater Belastungen leisten müssen. Prüfen Sie, wer von einem rein digitalen Anmeldeverfahren ausgeschlossen würde.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-5-2",
+        "title": "Schutzregeln verhaltensbezogen formulieren",
+        "paragraphs": [
+          {
+            "text": "Beschreiben Sie konkret, welches Verhalten nicht akzeptiert wird: Beleidigungen, Belästigung, Drohungen, diskriminierende Abwertung und Grenzüberschreitungen. Bestimmen Sie, wer bei Beschwerden zuständig ist, wie Betroffene vertraulich sprechen können und welche nachvollziehbaren Schritte bei Verstößen möglich sind. Regeln sollten verständlich und für alle erkennbar angewandt werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Unterscheiden Sie Unsicherheit oder zurückhaltende Kommunikation von schädigendem Verhalten. Nicht jede leise Person wünscht Unterstützung, und nicht jedes Missverständnis lässt sich durch eine öffentliche Aussprache lösen. Eine geschulte Ansprechperson kann zunächst zuhören, Beteiligte nach ihrem Wunsch getrennt sprechen und gegebenenfalls passende Fachberatung hinzuziehen. Der Treff ist keine medizinische Krisenversorgung.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-5-3",
+        "title": "Unterschiede berücksichtigen",
+        "paragraphs": [
+          {
+            "text": "Fragen Sie nach konkreten Bedarfen an Ruhe, Barrierefreiheit, gewünschter Ansprache oder verständlicher Sprache. Queere Gäste, Menschen mit Behinderungen oder mit Migrationserfahrung sind keine jeweils einheitlichen Gruppen. Niemand muss seine Zugehörigkeit vor anderen erklären. Geschützte Beratung oder zielgerichtete Angebote dürfen als fachlich begründete Ergänzung geplant werden; ihre Bedingungen sind gesondert zu klären.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bestehende Stammgruppen sollten ihre Gewohnheiten erläutern können, ohne über den Zugang neuer Gäste allein zu entscheiden. Prüfen Sie Sitzordnung, Begrüßung und Mitwirkungsmöglichkeiten: Können neue Personen eigene Vorschläge machen? Werden sie in Tätigkeiten einbezogen? Gibt es einen Weg, eine belastende Situation zu verlassen, ohne öffentlich bloßgestellt zu werden?",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-5-4",
+        "title": "Beschwerden auswerten und Verantwortung sichern",
+        "paragraphs": [
+          {
+            "text": "Legen Sie einen einfachen Ablauf fest: Anliegen entgegennehmen, unmittelbaren Schutz klären, Zuständigkeit benennen, erforderliche Informationen sparsam dokumentieren und eine Rückmeldung vereinbaren. Erheben Sie keine umfassende persönliche Vorgeschichte als Voraussetzung. Beschreiben Sie Grenzen der Vertraulichkeit und mögliche Weitergabe an zuständige Fachstellen transparent.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ob sich unterschiedliche Menschen tatsächlich willkommen fühlen, muss aus ihren freiwilligen Rückmeldungen hervorgehen. Ein gemischtes Besucherfoto und eine formale Hausordnung sind für sich kein Nachweis gelebter Diskriminierungsfreiheit.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Legen Sie auch fest, wie Beschwerden über das eigene Team aufgenommen werden. Eine alternative zuständige Person kann verhindern, dass ein Anliegen ausschließlich bei der beanstandeten Person landet. Beschreiben Sie diesen Weg sichtbar und verständlich, ohne vertrauliche Vorfälle oder persönliche Konfliktgeschichten öffentlich auszubreiten.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-6": {
+    "intro": "Bezahlbarkeit für Gäste entsteht nicht durch das Verschweigen von Betriebskosten. Ein belastbares Modell unterscheidet Gründung, laufende Ausgaben, Liquidität und die Bedingungen jeder Einnahmequelle.",
+    "sections": [
+      {
+        "id": "t9-6-1",
+        "title": "Ein Budget ohne erfundene Marktpreise",
+        "paragraphs": [
+          {
+            "text": "Erstellen Sie zunächst einen Plan mit Mengen und echten Angeboten statt pauschaler Schätzwerte: Räume in Monaten mal bestätigte Monatskosten; Personalstunden mal vollständig kalkulierte Kosten; Verpflegung in Portionen mal Einkauf und Zubereitung; dazu Reinigung, Versicherung, Instandhaltung und notwendige Barriereanpassungen. Trennen Sie einmalige Investitionen von wiederkehrenden Ausgaben.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Daneben steht ein monatlicher Liquiditätsplan: Wann werden Rechnungen fällig, wann fließen zugesagte Mittel tatsächlich? Kennzeichnen Sie bewilligte Zuschüsse, verbindliche Kooperationen und unsichere Anträge getrennt. Rechnen Sie einen Ausfallfall durch, ohne dafür erfundene Marktpreise zu veröffentlichen. Eine reservierte Summe ist nur verfügbar, wenn sie tatsächlich finanziert ist.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-6-2",
+        "title": "Öffentliche Förderung passend zum Zweck prüfen",
+        "paragraphs": [
+          {
+            "text": "Bergedorfer Sondermittel stehen laut Bezirksinformation Vereinen, Initiativen, Gruppen und Einzelpersonen für vorrangig gemeinnützige bezirkliche Vorhaben offen. Für stadtteilkulturelle Projekte gibt es einen gesonderten Weg. Beide Seiten nennen regulär den 31. August für das Folgejahr; die Frist für 2027 ist am Prüfdatum bereits verstrichen.",
+            "refs": [
+              "auftrag4-sondermittel",
+              "auftrag4-kulturmittel"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Der Quartiersfonds wird für wichtige soziale Stadtteilarbeit eingesetzt. Die Bezirksvorlage 2026 enthält konkrete bestehende Einrichtungen und unterschiedliche Kostenarten. Daraus entsteht kein Anspruch einer neu gegründeten Begegnungsstätte auf laufende Förderung.",
+            "refs": [
+              "auftrag4-quartiersmittel"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "t9-6-3",
+        "title": "Kleine Projekte und zweckgebundene Stiftungsmittel",
+        "paragraphs": [
+          {
+            "text": "Die Bergedorfer Engagementseite beschreibt „Geld für Gutes“ mit bis zu 1.000 Euro je Antrag; das verlinkte Formular trägt allerdings 2025. Aktuelle Verfügbarkeit ist zu erfragen. Der Fonds Hamburger Spielräume betrifft außerschulische Kinder- und Jugendarbeit und ist kein allgemeiner Betriebskostentopf für alle Altersgruppen.",
+            "refs": [
+              "auftrag4-engagementmittel",
+              "auftrag4-spielraum"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Beim Themenfonds Migrantisches Engagement sind Mikro- und Strukturförderung an die jeweiligen Träger- und Zweckbedingungen gebunden. Die veröffentlichten Fristen 13. September beziehungsweise 11. Oktober 2026 sind verstrichen. Neue Runden dürfen erst nach Bestätigung angekündigt werden.",
+            "refs": [
+              "auftrag4-migrantmittel"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "t9-6-4",
+        "title": "Eigenmittel, soziale Preise und Bewilligung",
+        "paragraphs": [
+          {
+            "text": "Vergleichen Sie Fördermitgliedschaften, Spenden, Sachbeiträge, geteilte Räume und zulässige Einnahmen aus Kursen oder Gastronomie. Halten Sie Gegenleistungen und Zuständigkeiten schriftlich fest. Für kostenfreien Aufenthalt braucht es eine finanzierte Deckung; Gäste mit wenig Geld sollen nicht öffentlich ihre Lage begründen müssen. Steuer- und Gemeinnützigkeitsfragen müssen zum Modell passen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Hamburgs aktuelle Zuwendungsvorschriften unterscheiden Projekt- und institutionelle Förderung. Gesamtfinanzierung, ordentliche Geschäftsführung und Verwendungsnachweis sind wesentlich. Projektbeginn ist grundsätzlich vor der Bewilligung zu klären; zulässige Ausnahmen begründen keine Förderzusage.",
+            "refs": [
+              "auftrag4-lho"
+            ],
+            "kind": "recht"
+          },
+          {
+            "text": "Ein tragfähiger Plan kann außerdem feste und veränderliche Kosten unterscheiden. Fragen Sie, welche Ausgaben selbst bei wenigen Gästen weiterlaufen und welche von tatsächlicher Nutzung abhängen. Klären Sie für jede Einnahme die zeitliche Bindung und den Zweck. Unsichere Spenden sollten nicht ohne Absicherung als bereits verfügbare Dauerdeckung eingesetzt werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-7": {
+    "intro": "Rechtliche Anforderungen ergeben sich aus dem tatsächlichen Betrieb. Eine lose Initiative, ein öffentliches Café und eine größere Veranstaltungsstätte haben unterschiedliche Aufgaben und Verantwortlichkeiten.",
+    "sections": [
+      {
+        "id": "t9-7-1",
+        "title": "Nutzungskonzept als Ausgangspunkt",
+        "paragraphs": [
+          {
+            "text": "Beschreiben Sie Besucherzahl, Raumaufteilung, Öffnungszeiten, Speisen und Getränke, Musik, Außenflächen, Beschäftigung und Betreuung. Prüfen Sie dann gemeinsam mit zuständigen Stellen, welche Verfahren und Nachweise erforderlich sind. Erstellen Sie eine Entscheidungsliste mit Frage, Ansprechpartner, benötigter Unterlage, Ergebnis und noch offener Bedingung. Eine unverbindliche Auskunft ist von einer Genehmigung zu unterscheiden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Hamburgs bauordnungsrechtliche Verfahren wurden ab 2026 neu gefasst. Nutzungsänderung, zulässige Belegung und konkrete Räume sind vor Betriebsaufnahme zu klären. Die Versammlungsstättenverordnung erfasst unter anderem Versammlungsräume, die einzeln mehr als 200 Besuchende fassen, sowie mehrere Versammlungsräume mit insgesamt mehr als 200 Besuchenden, wenn diese gemeinsame Rettungswege haben. Kleinere Treffpunkte sind deshalb nicht von allgemeinem Bau- und Brandschutz befreit.",
+            "refs": [
+              "auftrag4-bauverfahren",
+              "auftrag4-vstaett"
+            ],
+            "kind": "recht"
+          }
+        ]
+      },
+      {
+        "id": "t9-7-2",
+        "title": "Gastronomie und Verpflegung unterscheiden",
+        "paragraphs": [
+          {
+            "text": "Bei einem erlaubnispflichtigen Gaststättenbetrieb ist insbesondere Alkoholausschank relevant; Erlaubnis, Betriebsart und Räume hängen zusammen. Lebensmittelrechtliche Registrierung ist unabhängig vom Gewinnzweck zu prüfen. Für erfasste Tätigkeiten können Infektionsschutzbelehrungen erforderlich sein.",
+            "refs": [
+              "auftrag4-gastrecht",
+              "auftrag4-lebensmittel",
+              "auftrag4-ifsg"
+            ],
+            "kind": "recht"
+          },
+          {
+            "text": "Klären Sie Küche, Lagerung, Ausgabe, Reinigung und Zuständigkeiten konkret. Ein mitgebrachtes Essen, ein regelmäßiger Mittagstisch und öffentlich verkaufte Speisen dürfen nicht ungeprüft gleich behandelt werden. Fragen Sie Lebensmittelüberwachung und Gesundheitsamt nach der Einordnung Ihres Konzepts. Planen Sie keine Leistung als bereits erlaubt ein, solange die nötige Klärung fehlt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-7-3",
+        "title": "Träger, Haftung und Finanzen festlegen",
+        "paragraphs": [
+          {
+            "text": "Ein eingetragener Verein und steuerliche Gemeinnützigkeit sind getrennte Fragen. Die Mindestmitgliederzahl für die Eintragung ist in § 56 BGB mit sieben angegeben. Steuerliche Begünstigung verlangt passende Satzung und tatsächliche Geschäftsführung; sie folgt nicht allein aus dem sozialen Namen der Einrichtung.",
+            "refs": [
+              "auftrag4-verein",
+              "auftrag4-gemeinnutz"
+            ],
+            "kind": "recht"
+          },
+          {
+            "text": "Vergleichen Sie einen eigenen Träger mit der Kooperation unter dem Dach einer bestehenden Organisation. Klären Sie Vertretungsbefugnisse, Vertragsunterzeichnung, Kontoführung, Buchhaltung, Haftung, Auflösung und den Umgang mit Inventar. Lassen Sie Miet-, Arbeits- und Steuerfragen fachlich prüfen. Eine Raumüberlassung durch einen öffentlichen Träger ist keine allgemeine Freigabe aller gewünschten Nutzungen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-7-4",
+        "title": "Betriebsregeln und Rechte",
+        "paragraphs": [
+          {
+            "text": "Benennen Sie Verantwortliche für Sicherheit, Schlüssel, Öffnung, Erste Hilfe, Konflikte, Beschwerden und Vertretung. Regeln Sie notwendige Anmeldedaten, Aufbewahrung und Zugriff sparsam. Fotos, Musik und Veranstaltungen benötigen eine eigene Rechteprüfung; kostenlose Teilnahme macht öffentliche Musik nicht automatisch lizenzfrei.",
+            "refs": [
+              "auftrag4-vereinsdaten",
+              "auftrag4-musik"
+            ],
+            "kind": "praxis"
+          },
+          {
+            "text": "Dokumentieren Sie vor dem Start, welche Aufgaben Ehrenamtliche übernehmen, welche Versicherung besteht und wann Fachpersonen hinzugezogen werden. Kinderbetreuung oder professionelle Hilfen dürfen nicht stillschweigend aus einem offenen Treffen entstehen. Überprüfen Sie das Konzept erneut, wenn Räume, Besucherzahlen oder Betriebsart wesentlich verändert werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bündeln Sie die Ergebnisse in einem Betriebshandbuch, das Zuständigkeiten, tatsächliche Freigaben, notwendige Kontrollen und erreichbare Ansprechpartner enthält. Kennzeichnen Sie offene Fragen und die dafür verantwortliche Person. Ein solches eigenes Arbeitsdokument ist eine praktische Empfehlung; es wird hier nicht als einheitlich gesetzlich vorgeschriebene Unterlage für jede Begegnungsstätte bezeichnet.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-8": {
+    "intro": "Verlässliche Begegnung braucht erkennbare Verantwortung. Hauptamtliche und Ehrenamtliche sollen wissen, was sie übernehmen, wo ihre Grenzen liegen und wer bei Ausfall oder Konflikten hilft.",
+    "sections": [
+      {
+        "id": "t9-8-1",
+        "title": "Aufgaben sichtbar verteilen",
+        "paragraphs": [
+          {
+            "text": "Erstellen Sie für jede Öffnungszeit einen einfachen Verantwortungsplan: Wer öffnet, begrüßt, erklärt den Ablauf, betreut Material, koordiniert Küche und schließt? Wer kann bei Krankheit vertreten? Wer darf verbindliche Zusagen machen? Unterscheiden Sie eine freundliche Gastrolle von Aufgaben mit Aufsicht, Schlüsselgewalt oder personenbezogenen Informationen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Planen Sie Koordination als tatsächliche Arbeit. Stunden für Vorbereitung, Absprachen, Abrechnung, Reinigung und Rückmeldungen dürfen nicht aus dem Personalbedarf verschwinden. Ein Betrieb, der nur von einer jederzeit verfügbaren Einzelperson abhängt, hat ein erkennbares Ausfallrisiko. Entwickeln Sie deshalb eine Vertretung, bevor umfangreiche Zeiten beworben werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-8-2",
+        "title": "Ehrenamt freiwillig und begleitet gestalten",
+        "paragraphs": [
+          {
+            "text": "Vereinbaren Sie überschaubare Aufgaben, Einarbeitung, Ansprechpartner und einen Weg, das Engagement ohne Schuldzuweisung zu beenden. Besprechen Sie notwendige Auslagen, Pausen und die Bedingungen einer möglichen Aufwandsentschädigung. Solche Zahlungen sind nicht ohne weitere Prüfung ein Ersatz für Arbeitsverträge oder sozialversicherungsrechtliche Klärung.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Hamburgs Sammelhaftpflicht ist nachrangig und deckt nicht pauschal die Haftpflicht des Trägers. Eigene Absicherung, Zuständigkeit der Unfallversicherung und der konkrete Aufgabenrahmen müssen geklärt werden.",
+            "refs": [
+              "auftrag4-ehrenversicherung"
+            ],
+            "kind": "recht"
+          }
+        ]
+      },
+      {
+        "id": "t9-8-3",
+        "title": "Begrüßen, zuhören und Grenzen wahren",
+        "paragraphs": [
+          {
+            "text": "Schulen Sie konkrete Situationen: Eine Person kommt allein und kennt niemanden. Eine Gruppe belegt scheinbar alle Plätze. Ein Gast versteht die Beschilderung nicht. Eine Person ist überfordert und möchte gehen. Üben Sie, zunächst nach dem Wunsch zu fragen, statt ungefragt die Lebensgeschichte zu erheben oder jemanden öffentlich in eine Gruppe einzuführen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine experimentelle Untersuchung zu Erstgesprächen verglich aktives Zuhören mit anderen Reaktionen. Sie beschreibt begrenzte Gesprächsergebnisse, keine automatische Entstehung von Freundschaft. Zuhören ist daher als erlernbare Möglichkeit einzuordnen, nicht als universelle Lösung.",
+            "refs": [
+              "zuhoeren"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t9-8-4",
+        "title": "Kooperation und Mitwirkung verbindlich machen",
+        "paragraphs": [
+          {
+            "text": "Halten Sie bei Kooperationen Ansprechpartner, Leistung, Räume, Finanzierung und Grenzen schriftlich fest. Eine Arztpraxis oder Beratungsstelle, die Informationen erhält, ist noch kein Partner mit zugesagter Vermittlung. Geben Sie persönliche Angaben nur auf zulässiger Grundlage weiter. Für psychische Krisen und spezialisierte Beratung bleiben professionelle Dienste zuständig.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Beteiligen Sie Gäste an Programm und Regeln, ohne sie zur unbezahlten Organisation zu verpflichten. Achten Sie darauf, dass nicht ausschließlich die lautesten oder zeitlich flexibelsten Personen Entscheidungen prägen. Eine kurze gemeinsame Auswertung nach dem Betrieb kann klären, was funktioniert, wer unerreicht bleibt und welche Unterstützung das Team selbst benötigt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Legen Sie einen festen Weg für die Zusammenarbeit mit Gästen fest: Vorschläge entgegennehmen, Zuständigkeit nennen und mitteilen, was geprüft oder abgelehnt wurde. Prüfen Sie, ob Menschen mit wenig Zeit ebenfalls mitwirken können. Die Bereitschaft zur Mitarbeit darf nicht zur verdeckten Zugangsbedingung für den offenen Aufenthalt werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-9": {
+    "intro": "Ein Angebot ist erst erreichbar, wenn Menschen verstehen, was sie erwartet und wie sie teilnehmen können. Öffentlichkeitsarbeit soll informieren und einladen, ohne persönliche Belastungen zum Werbemittel zu machen.",
+    "sections": [
+      {
+        "id": "t9-9-1",
+        "title": "Eine Einladung mit den nötigen Angaben",
+        "paragraphs": [
+          {
+            "text": "Nennen Sie Inhalt, tatsächlichen Ort, Eingang, Datum und Dauer, Kosten, Anmeldebedarf, Kontakt und bekannte Zugangsbedingungen. Ergänzen Sie: Kann ich allein kommen? Wer begrüßt neue Gäste? Ist Aufenthalt ohne Verzehr möglich? Vermeiden Sie Versprechen wie garantiert neue Freunde. Zeigen Sie stattdessen einen nachvollziehbaren Ablauf und einen erreichbaren Ansprechpartner.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Werbung muss zum realen Betrieb passen. Bewerben Sie keine täglichen Öffnungszeiten, wenn Vertretung und Finanzierung nur einen Nachmittag erlauben. Ein angekündigter barrierefreier Ort braucht konkrete geprüfte Angaben. Wenn eine Bedingung noch ungeklärt ist, muss dies vor dem Besuch erkennbar sein. Überlegen Sie, wie Terminänderungen Menschen ohne Internet erreichen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-9-2",
+        "title": "Analoge und digitale Wege verbinden",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie Aushänge, kurze gedruckte Informationen, persönliche Ansprache, lokale Medien und digitale Hinweise. Fragen Sie bei Bibliotheken, Genossenschaften, Vereinen und Beratungsstellen nach einer erlaubten Auslage oder Weitergabe. Haltestellen und öffentliche Flächen dürfen nicht eigenmächtig für Werbung genutzt werden; benötigte Zustimmung ist gesondert zu klären.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Verwenden Sie verständliche Sprache und gut lesbare Gestaltung. Bieten Sie nach Möglichkeit einen bestätigten telefonischen Kontakt an. Menschen mit geringen Lese- und Schreibkenntnissen benötigen einen mündlich erklärten Zugang. Ein ausschließlich digitales Formular mit langen Pflichtangaben kann gerade die Personen ausschließen, deren Perspektive für die Planung fehlt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-9-3",
+        "title": "Persönlich einladen ohne Druck",
+        "paragraphs": [
+          {
+            "text": "Eine konkrete Einladung darf lauten: Am Donnerstag ist ein offener Spielenachmittag. Sie können allein kommen; dort erklärt jemand den Einstieg. Fragen Sie, ob die Person weitere Informationen möchte. Eine Ablehnung soll respektiert werden. Nachbarn, Ärztinnen oder Pflegekräfte dürfen keine Listen vermeintlich einsamer Menschen für Werbung weitergeben.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Beratungsstellen und Einrichtungen können Informationen im eigenen zulässigen Rahmen weitergeben. Klären Sie dafür Zuständigkeiten und die tatsächlich bestätigten Bedingungen des Angebots. Eine vorgeschlagene Zusammenarbeit mit Nahverkehr, Wohnungsunternehmen oder Gesundheitseinrichtungen wird erst nach ausdrücklicher Zusage als Kooperation bezeichnet.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-9-4",
+        "title": "Rückmeldung zur Auffindbarkeit nutzen",
+        "paragraphs": [
+          {
+            "text": "Fragen Sie freiwillig und möglichst ohne personenbezogene Erfassung, wie Menschen auf das Angebot aufmerksam wurden und welche Information gefehlt hat. Ergänzen Sie Rückmeldungen von Personen, die trotz Einladung nicht kommen konnten. Werten Sie nicht allein Klickzahlen aus; sie sagen nichts darüber, ob jemand den Eingang gefunden oder sich willkommen gefühlt hat.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Plattform selbst aktiviert dafür keine Registrierung, automatische Besucherverfolgung oder öffentliche Einreichung. Der Leitfaden beschreibt ein mögliches Vorgehen für einen späteren realen Träger, keine bereits vorhandene Vermittlungs- oder Werbepartnerschaft.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Prüfen Sie eine Einladung vor der Verteilung zusammen mit Personen, die den Ort noch nicht kennen. Können sie Zeit, Kosten und Zugang ohne Zusatzwissen erkennen? Ein solcher Verständlichkeitstest ist eine praktische Qualitätskontrolle. Er ersetzt keine Zustimmung für eine Auslage an fremden Orten und keine Freigabe verwendeter Fotos.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-10": {
+    "intro": "Kontinuität braucht eine tragfähige Organisation. Regelmäßige Öffnung, klare Kommunikation und gesicherte Mittel sollten gemeinsam geplant werden, bevor aus einem Pilotprojekt ein dauerhafter Betrieb wird.",
+    "sections": [
+      {
+        "id": "t9-10-1",
+        "title": "Nur verlässliche Zeiten versprechen",
+        "paragraphs": [
+          {
+            "text": "Legen Sie einen tatsächlich leistbaren Grundbetrieb fest und ergänzen Sie erst danach Sonderveranstaltungen. Denken Sie an Berufstätige, Sorgearbeit, Wege und unterschiedliche Tagesrhythmen. Fragen Sie nach Abend-, Wochenend- und Feiertagswünschen, ohne diese allein aus dem Alter abzuleiten. Für Weihnachten oder andere belastend erlebte Tage braucht es dieselbe konkrete Personal-, Raum- und Finanzplanung wie sonst.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bestimmen Sie, wer Ausfälle meldet, wann eine Öffnung abgesagt werden muss und über welche analogen und digitalen Wege die Nachricht verbreitet wird. Eine persönliche Vereinbarung kann Vertrauen nur unterstützen, wenn Zuständigkeit und Vertretung geklärt sind. Wechselnde Teams sollen wesentliche Informationen rechtmäßig und sparsam weitergeben können.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-10-2",
+        "title": "Wirtschaftlichkeit laufend nachvollziehen",
+        "paragraphs": [
+          {
+            "text": "Vergleichen Sie geplante und tatsächliche Ausgaben in einem überschaubaren Rhythmus. Trennen Sie Raum, Personal, Verpflegung, Material und notwendige Instandhaltung. Kennzeichnen Sie bewilligte, beantragte und nur erhoffte Einnahmen. Prüfen Sie, ob ein bewährtes Projekt mit dem Ende einer Förderung eine Finanzierungslücke bekommt, und beginnen Sie die Klärung rechtzeitig.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Projektförderung und institutionelle Förderung sind unterschiedliche Zuwendungsarten. Ein zeitlich begrenzter Zuschuss ist keine automatische Dauerzusage. Zweckbindung und Nachweise richten sich nach den geltenden Vorschriften sowie dem konkreten Bescheid.",
+            "refs": [
+              "auftrag4-lho"
+            ],
+            "kind": "recht"
+          }
+        ]
+      },
+      {
+        "id": "t9-10-3",
+        "title": "Nutzung und Erleben gemeinsam prüfen",
+        "paragraphs": [
+          {
+            "text": "Erheben Sie nur die Daten, die zur Verbesserung erforderlich sind. Fragen Sie freiwillig nach Verständlichkeit, Sicherheit, Kosten, Anfahrt, gewünschten Zeiten und der Bereitschaft wiederzukommen. Unterscheiden Sie gelegentliche Besucher, wiederkehrende Teilnahme und selbst beschriebene Verbundenheit. Niemand soll zur Offenlegung von Diagnosen oder familiären Problemen gedrängt werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Wenn wenig Menschen kommen, prüfen Sie das Angebot statt vorschnell die Menschen zu bewerten: Stimmt die Information, passt die Zeit, gibt es Konkurrenztermine, sind Kosten oder Atmosphäre hinderlich? Auch Rückmeldungen von Nichtnutzern sind relevant. Ein voller Raum kann umgekehrt bedeuten, dass neue oder zurückhaltende Gäste keinen Zugang finden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-10-4",
+        "title": "Anpassen, kooperieren oder geordnet beenden",
+        "paragraphs": [
+          {
+            "text": "Entscheiden Sie anhand nachvollziehbarer Kriterien, was beibehalten, verändert oder eingestellt wird. Kleinere Öffnung, Kooperation oder eine Verlagerung in bestehende Räume können geprüft werden. Kommunizieren Sie Änderungen rechtzeitig. Bei einem Ende sind offene Verpflichtungen, Inventar, Förderbedingungen, Datenlöschung und Hinweise auf andere Angebote geordnet zu klären.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Wie ein offener Ort langfristig unterschiedliche Gruppen erreicht und welche Kontaktformen nach einem Besuch fortbestehen, bleibt eine standortbezogene Evaluationsfrage. Eine einzelne gelungene Veranstaltung belegt weder einen gesicherten Dauerbetrieb noch eine nachgewiesene Verringerung von Einsamkeit.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Dokumentieren Sie begründet, wenn sich der vereinbarte Schwerpunkt verändert. Ein offener Treff, der schrittweise nur noch kostenpflichtige Kurse anbietet, verändert seinen Zugang. Prüfen Sie solche Änderungen gegen ursprüngliche Ziele, Förderzwecke und Wünsche der Gäste. Berichten Sie sie transparent, statt den bisherigen Anspruch unverändert weiterzubewerben.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-11": {
+    "intro": "Ein wissenschaftlich informierter Leitfaden kann Gestaltungsentscheidungen begründen. Er kann aber nicht vorhersagen, dass ein bestimmtes Haus Menschen aller gesellschaftlichen Gruppen zusammenführt oder Einsamkeit beseitigt.",
+    "sections": [
+      {
+        "id": "t9-11-1",
+        "title": "Was die vorhandene Raumforschung aussagt",
+        "paragraphs": [
+          {
+            "text": "Die systematische Übersicht zur gebauten Umwelt beschreibt unterschiedliche untersuchte Zusammenhänge mit Einsamkeit. Räume, Messungen und Studiendesigns unterscheiden sich stark. Ein allgemeines Rezept für die ideale Raumgestaltung lässt sich daraus nicht als kausal gesichert ableiten.",
+            "refs": [
+              "umwelt"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die konzeptionelle Arbeit von Finlay und Kollegen behandelt mögliche Folgen veränderter dritter Orte als Forschungsagenda. Sie ist kein Beweis, dass eine konkrete Bergedorfer Schließung bestimmte Menschen vereinsamen ließ. Historische Bestandsveränderungen und gesundheitliche Folgen müssen getrennt belegt werden.",
+            "refs": [
+              "finlay"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t9-11-2",
+        "title": "Kontakte, Wiedersehen und Nähe unterscheiden",
+        "paragraphs": [
+          {
+            "text": "Alltagsstudien über schwache soziale Kontakte untersuchen Begegnungen und Wohlbefinden. Sie ersetzen keine Forschung zu langfristigen vertrauensvollen Beziehungen. Freundschaftsforschung beschreibt gemeinsam verbrachte Zeit und Nähe, liefert aber keine verbindliche Stundenzahl, nach der eine Freundschaft entsteht.",
+            "refs": [
+              "schwachekontakte",
+              "freundschaftzeit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Leiten Sie daraus prüfbare Gestaltungsfragen ab: Können Menschen ohne Hürde hereinkommen? Gibt es ein freiwilliges Gespräch und eine Gelegenheit zum Wiedersehen? Kann auch jemand ohne festen Freundeskreis teilnehmen? Werden aus einer gemeinsamen Aktivität selbst gewählte weitere Kontakte? Beantworten Sie diese Fragen mit Rückmeldungen statt mit alleiniger Anwesenheitszählung.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-11-3",
+        "title": "Praxisvergleiche sorgfältig nutzen",
+        "paragraphs": [
+          {
+            "text": "Vergleichen Sie reale Einrichtungen anhand derselben Merkmale: Lage, Träger, offene Zeiten, Kosten, Räume, Personal, Programm, Mitwirkung und bekannte Hürden. Notieren Sie, wo Angaben direkt bestätigt und wo sie nur aus Erinnerungen bekannt sind. Ein erfolgreich wirkendes Beispiel braucht eine nachvollziehbare Beschreibung seiner Bedingungen, bevor einzelne Elemente übertragen werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "In den fünf Berichten wiederkehrende Schilderungen können auf denselben Veranstaltungskontext zurückgehen. Sie sind keine fünf unabhängigen Bestätigungen. Die polnische Mahlzeitenerinnerung, private Gruppen und Kritik an Zielgruppentrennung bleiben jeweils als Erfahrung oder Vorschlag erkennbar. Daraus wird keine geprüfte lokale Bedarfsmessung gemacht.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t9-11-4",
+        "title": "Ein realistischer Wirksamkeitsvergleich",
+        "paragraphs": [
+          {
+            "text": "Planen Sie vor Beginn, welche Veränderung beobachtet werden soll und wie freiwillige Rückmeldungen eingeholt werden. Dokumentieren Sie Rahmenbedingungen, Wechsel im Programm und mögliche andere Einflüsse. Berücksichtigen Sie auch Personen, die nicht teilnehmen oder wieder wegbleiben. Ein einfacher Pilotversuch kann über Nutzbarkeit informieren; er ist noch keine kontrollierte Wirksamkeitsstudie.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ob gemeinsame Mahlzeiten, Kultur, praktische Aufgaben oder offener Aufenthalt in einem bestimmten Quartier unterschiedliche soziale Kreise nachhaltig verbinden, ist weiter zu untersuchen. Persönliche Zufriedenheit, neue Bekanntschaften und verringerte Einsamkeit sind eigenständige Ergebnisse und dürfen nicht gegenseitig ersetzt werden.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Ein sinnvoller Vergleich hält außerdem fest, für wen ein Angebot zugänglich war: Finanzierung, Sprache, Anmeldeweg und Öffnungszeiten können sich unterscheiden. Ein im einen Umfeld gelungenes Format kann deshalb nicht ohne Prüfung als Standard in ein anderes Quartier übertragen werden. Dokumentieren Sie diese Unterschiede bereits bei der Auswahl der Beispiele.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t9-12": {
+    "intro": "Für Fragen und Vorschläge zur Gründung einer Begegnungsstätte ist ein Kommentarbereich mit höchstens 500 Zeichen vorgesehen. In der statischen Testfassung findet keine öffentliche Einreichung statt.",
+    "sections": [
+      {
+        "id": "t9-12-1",
+        "title": "Ein konkreter Vorschlag hilft bei der Planung",
+        "paragraphs": [
+          {
+            "text": "Beschreiben Sie möglichst eine nachvollziehbare Idee: gewünschte offene Zeiten, eine gemeinsame Aktivität, eine zu prüfende Zugangshürde oder eine organisatorische Frage. Formulieren Sie, was geprüft werden müsste. Ein genannter Raum ist nicht automatisch verfügbar oder für die gewünschte Nutzung genehmigt; eine Organisation ist nicht ohne ihre Zusage beteiligt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Vermeiden Sie Namen, Kontaktdaten, Diagnosen oder vertrauliche Lebensumstände anderer Personen. Eigene Erfahrungen dürfen als persönliche Perspektive erkennbar sein. Unbestätigte Kosten, historische Angaben und vermeintliche Rechtsregeln sollten nicht als gesicherte Tatsachen formuliert werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-12-2",
+        "title": "Was eine lokale Prüfung bedeutet",
+        "paragraphs": [
+          {
+            "text": "Die Höchstgrenze beträgt 500 Zeichen. Eine vorbereitete lokale Eingabeprüfung bewertet nur die erlaubte Textlänge und eine erforderliche Texteingabe. Sie bestätigt weder wissenschaftliche Richtigkeit noch rechtliche Zulässigkeit, eine Trägerzusage oder einen tatsächlich eingereichten Vorschlag.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die öffentliche Übermittlung, dauerhafte Speicherung und Veröffentlichung bleiben deaktiviert. Diese Bürgerplattform ist keine Anmeldestelle für eine neu gegründete Einrichtung. Für vorhandene Angebote und Beratung nutzen Sie die bestätigten direkten Kontakte im Hilfebereich.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t9-12-3",
+        "title": "Vor einer späteren Freigabe",
+        "paragraphs": [
+          {
+            "text": "Eine echte Beteiligungsfunktion benötigt einen ausdrücklich beauftragten und geprüften Speicher-, Zugangs-, Datenschutz- und Moderationsablauf. Ungeprüfte Kommentare dürfen nicht automatisch erscheinen. Die hier beschriebene Vorbereitung ersetzt keinen solchen Betrieb und richtet keine laufende Hintergrundfunktion ein.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  }
+}

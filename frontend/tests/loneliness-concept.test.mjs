@@ -28,11 +28,11 @@ test('Suche erreicht alle neuen Themen und zeigt keine unveröffentlichten Beric
  for(const n of lonelinessIndex)assert(searchLoneliness(n.title).some(result=>result.id===n.id),n.title);
  assert(searchLoneliness('Ehemalige Gastwirtschaften').some(n=>n.conceptNumber==='2.5.1'));
  assert(searchLoneliness('Wohnung kaum verlassen').some(n=>n.conceptNumber==='7.3'));
- assert.equal(searchLoneliness('97 Gastwirtschaften').length,0);assert.equal(searchLoneliness('Cornelia Springer-Foart').length,0);
+ assert(searchLoneliness('97 Gastwirtschaften').every(n=>['ursachen','stadtteile'].includes(n.path[0])));assert.equal(searchLoneliness('Cornelia Springer-Foart').length,0);
 });
 test('Historische Querverweise und Kommentargrenzen ohne neue öffentliche Funktionen',()=>{
  for(const n of lonelinessIndex)for(const id of n.related||[])assert(lonelinessIndex.some(v=>v.id===id));
- assert.equal(byNumber('2.5').sharedCollection,byNumber('10.6').sharedCollection);assert(byNumber('2.5').related.includes(byNumber('10.6').id));assert(byNumber('10.6').related.includes(byNumber('2.5').id));assert.deepEqual(lonelinessHistoricalPlaces,[]);
+ assert.equal(byNumber('2.5').sharedCollection,byNumber('10.6').sharedCollection);assert(byNumber('2.5').related.includes(byNumber('10.6').id));assert(byNumber('10.6').related.includes(byNumber('2.5').id));assert(lonelinessHistoricalPlaces.length>0);assert.equal(new Set(lonelinessHistoricalPlaces.map(p=>p.id)).size,lonelinessHistoricalPlaces.length);assert(lonelinessHistoricalPlaces.every(p=>p.coordinates===null));
  for(const number of ['3','3.8'])assert.equal(byNumber(number).plannedCommentMaxLength,250);for(const number of ['9','9.12'])assert.equal(byNumber(number).plannedCommentMaxLength,500);
  const s=readFileSync('app/loneliness.tsx','utf8');assert(s.includes('href="#einsamkeit/hilfe"'));assert(s.includes('Die Kommentarfunktion ist derzeit nicht freigeschaltet.'));assert(!s.includes('Die Untergliederung wird nach Abgleich'));
 });

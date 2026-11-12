@@ -1,0 +1,262 @@
+{
+  "auftrag4-bau": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Vorschriften zum Bauordnungsrecht ab 2026",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/themen/wohnen/bauen/wege-zur-baugenehmigung/start-bauordnungsrecht-1120124",
+    "method": "Amtliche Übersicht der ab 2026 relevanten HBauO, Sonderbauverordnungen und Technischen Baubestimmungen.",
+    "limitations": "Keine Prüfung eines konkreten Gebäudes; Nutzungskonzept und zuständige Bauprüfung sind maßgeblich.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-bauverfahren": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Baugenehmigung beantragen",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/service/info/11380230/n0/",
+    "method": "Aktuelle Hamburger Verfahrensinformation einschließlich HBauO-Neufassung ab 01.01.2026.",
+    "limitations": "Genehmigungs- oder Freistellungsvoraussetzungen hängen vom Vorhaben ab. Ältere Servicebeschreibungen können überholt sein.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-vstaett": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2025,
+    "title": "Hamburgische Versammlungsstättenverordnung",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/resource/blob/1120180/f0828889160e5d9626b36738ad560357/versammlungsstaettenverordnung-vstaettvo-nichtamtliche-lesefassung-data.pdf",
+    "method": "Vom Land veröffentlichte nichtamtliche Lesefassung; insbesondere § 1 und Betreiberpflichten.",
+    "limitations": "Schwellen und Anforderungen sind konzeptabhängig; unterhalb des spezifischen Anwendungsbereichs gelten weiterhin allgemeine Bau- und Brandschutzpflichten.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-gastrecht": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Gaststättenerlaubnis beantragen",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/service/info/11277493/n0/",
+    "method": "Amtliche Hamburger Information zum Gaststättenbetrieb und Alkoholausschank.",
+    "limitations": "Betriebs-, Raum- und Angebotsbezug; andere Anmeldungen und Genehmigungen sind unabhängig zu prüfen.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-lebensmittel": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Registrierung von Lebensmittelunternehmen",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/themen/verbraucherschutz/lebensmittel/lebensmittelregistrierung-88806",
+    "method": "Hamburger Verbraucherschutz zur Registrierung auch nicht gewinnorientierter Lebensmittelunternehmen.",
+    "limitations": "Die konkrete regelmäßige oder gelegentliche Tätigkeit muss eingeordnet werden; keine vollständige Hygienefachplanung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-ifsg": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Infektionsschutzbelehrung inklusive Bescheinigung",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/service/info/11274495/",
+    "method": "Amtliche Information zu Belehrungen für erfasste Tätigkeiten im Lebensmittelbereich.",
+    "limitations": "Keine pauschale Pflicht aller Gäste; Aufgabe und Tätigkeitsumfang mit der zuständigen Stelle klären.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-gemeinnutz": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Gemeinnützigkeit für Vereine anerkennen lassen",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.com/service/info/11252793/n0/",
+    "method": "Amtliche Hamburger Steuerinformation zu Satzung und tatsächlicher Geschäftsführung.",
+    "limitations": "Vereinsregistereintragung allein begründet keine steuerliche Gemeinnützigkeit oder allgemeine Berechtigung für Spendenbestätigungen.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-verein": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§ 56 BGB: Mindestmitgliederzahl bei Vereinseintragung",
+    "publication": "Bürgerliches Gesetzbuch",
+    "url": "https://www.gesetze-im-internet.de/bgb/__56.html",
+    "method": "Amtlich bereitgestellter Bundesgesetzestext.",
+    "limitations": "Betrifft die Eintragung; kein vollständiger Leitfaden zu Rechtsform, Satzung oder Haftung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-agg": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§ 19 AGG: Zivilrechtliches Benachteiligungsverbot",
+    "publication": "Allgemeines Gleichbehandlungsgesetz",
+    "url": "https://www.gesetze-im-internet.de/agg/__19.html",
+    "method": "Amtlich bereitgestellter Bundesgesetzestext zu den erfassten Schuldverhältnissen.",
+    "limitations": "Anwendungsbereich und rechtliche Beurteilung sind differenziert; nicht jedes Vereinsverhältnis ist identisch.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-vereinsdaten": {
+    "authors": "Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit",
+    "year": 2026,
+    "title": "Datenschutz in Stiftungen und Vereinen",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://datenschutz-hamburg.de/datenschutz/stiftungen-/-vereine",
+    "method": "Information der Hamburger Datenschutzaufsicht zu Verantwortlichkeit, Rechtsgrundlagen und Vereinsorganisation.",
+    "limitations": "Keine Freigabe konkreter Anmelde-, Gesundheits- oder Bilddatenverarbeitung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-ehrenversicherung": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Versicherungsschutz im freiwilligen Engagement",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/haftpflichtversicherung-44112",
+    "method": "Amtliche Beschreibung der nachrangigen Hamburger Sammelhaftpflicht.",
+    "limitations": "Versichert nicht pauschal den Träger; bestehende eigene Versicherungen, Funktion und Tätigkeit sind einzeln zu prüfen.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-sondermittel": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Bergedorfer Sondermittel",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/buergerservice/sondermittel-56580",
+    "method": "Amtliche Förderinformation zu Berechtigten, Bezirksbezug und regulärer Frist.",
+    "limitations": "31. August für das Folgejahr; keine garantierte Bewilligung oder aktuell bestätigte Restmittelfrist.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-kulturmittel": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Förderung kultureller Projekte im Bezirk Bergedorf",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/buergerservice/projektmittel-56576",
+    "method": "Amtliche Information zu stadtteilkultureller Projektförderung.",
+    "limitations": "Kulturelle Zielbindung und Frist; keine allgemeine Garantie laufender Gebäude-/Personalkostenfinanzierung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-quartiersmittel": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Quartiersfonds Bergedorf 2026",
+    "publication": "Bezirksversammlung Bergedorf, Drucksache 22-0541",
+    "url": "https://bv-hh.de/bergedorf/documents/quartiersfonds-2026-208672",
+    "method": "Amtliche Bezirksvorlage zu konkreten Finanzierungsgegenständen und Verteilung 2026.",
+    "limitations": "Eine Vorlage oder Einzelförderung begründet keinen Anspruch anderer Träger und keine Zusage künftig verfügbarer Mittel.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-engagementmittel": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "Freiwilliges Engagement und Geld für Gutes in Bergedorf",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/freiwilliges-engagement-44222",
+    "method": "Amtliche Informationen zu Beratung und Engagementförderung bis 1.000 Euro je Antrag.",
+    "limitations": "Verlinktes Antragsformular trägt 2025; aktuelles Antragsfenster und verfügbare Mittel müssen bestätigt werden.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-lho": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2026,
+    "title": "VV zu § 46 LHO, Geltung ab 9. November 2026",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://dokumente.hamburg.de/resource/blob/1235296/5582788179583699551bdeb390dc717d/vv-zu-46-lho-geltung-ab-9-november-2026-data.pdf",
+    "method": "Aktuelle Verwaltungsvorschriften: Nr. 2 Zuwendungsarten, Nr. 3 Voraussetzungen/Beginn, Nr. 4 Finanzierung und Nr. 12 Nachweise.",
+    "limitations": "Programmspezifische Richtlinie und Bewilligung maßgeblich; Genehmigung vorzeitigen Beginns ist keine Förderzusage.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-spielraum": {
+    "authors": "BürgerStiftung Hamburg",
+    "year": 2026,
+    "title": "Gemeinschaftsfonds Hamburger Spielräume",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://buergerstiftung-hamburg.de/fonds/hamburger-spielraeume/",
+    "method": "Offizielle Anbieterinformation zu außerschulischer Kinder-/Jugendarbeit und Förderrunden 2026.",
+    "limitations": "Zielgruppen- und Projektbindung; kein allgemeiner Fonds für jeden Begegnungsstättenbetrieb, keine Zusage verfügbarer Restmittel.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-migrantmittel": {
+    "authors": "BürgerStiftung Hamburg",
+    "year": 2026,
+    "title": "Themenfonds Migrantisches Engagement",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://buergerstiftung-hamburg.de/fonds/migrantisches-engagement/",
+    "method": "Offizielle Bedingungen und Fristen zu Mikro- und Strukturförderung.",
+    "limitations": "2026 veröffentlichte Fristen sind am Prüfdatum bereits vergangen; Zielgruppen- und Trägervoraussetzungen beachten.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-musik": {
+    "authors": "GEMA",
+    "year": 2026,
+    "title": "Musiknutzung bei Vereinsveranstaltungen",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.gema.de/de/w/hilfe/musiknutzer/musik-nutzen/branchen-mehr/vereinsveranstaltungen-bei-gema-anmelden",
+    "method": "Information des Rechteverwerters zur öffentlichen Musiknutzung.",
+    "limitations": "Konkretes Repertoire, Nutzung, Tarif und mögliche Ausnahmen gesondert klären; keine pauschale Gebührenberechnung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-bildnutzung": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§ 31 UrhG: Einräumung von Nutzungsrechten",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+    "method": "Amtlicher Gesetzestext zu Nutzungsarten und Rechteeinräumung.",
+    "limitations": "Eine konkrete Erlaubnis gilt nur im gedeckten Umfang; keine pauschale Dritturheberfreigabe.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-bildeigentum": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§ 44 UrhG: Veräußerung des Originals",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.gesetze-im-internet.de/urhg/__44.html",
+    "method": "Amtlicher Gesetzestext; insbesondere Absatz 1.",
+    "limitations": "Eigentum an Vorlagen ersetzt keine Prüfung des Online-Nutzungsrechts.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-bildschutz": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§ 64 UrhG: Allgemeine Schutzdauer",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.gesetze-im-internet.de/urhg/__64.html",
+    "method": "Regelschutzdauer nach dem Tod des Urhebers.",
+    "limitations": "Kein pauschaler Fristablauf allein aus Aufnahmejahr oder unbekannter Urheberschaft.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-lichtbilder": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§ 72 UrhG: Lichtbilder",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.gesetze-im-internet.de/urhg/__72.html",
+    "method": "Amtlicher Gesetzestext zum Schutz einfacher Lichtbilder.",
+    "limitations": "Schutzart, Herstellung und erlaubte Veröffentlichung müssen für eine Fristberechnung feststehen.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-anonymebilder": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§ 66 UrhG: Anonyme und pseudonyme Werke",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.gesetze-im-internet.de/urhg/__66.html",
+    "method": "Amtlicher Gesetzestext zu abweichenden Schutzregeln.",
+    "limitations": "Unbekannter Urheber ist kein automatischer Gemeinfreiheitsnachweis.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-personenbilder": {
+    "authors": "Bundesministerium der Justiz und Bundesamt für Justiz",
+    "year": 2026,
+    "title": "§§ 22–23 KunstUrhG: Bildnisse und Grenzen von Ausnahmen",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://www.gesetze-im-internet.de/kunsturhg/__23.html",
+    "method": "Gesetzliche Ausnahmen mit Begrenzung durch berechtigte Interessen; zusammen mit § 22 zu lesen.",
+    "limitations": "Einzelfallprüfung neben Datenschutzfragen; kein Freibrief für historische Personenfotos.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-streetview": {
+    "authors": "Google",
+    "year": 2026,
+    "title": "Google Geo Guidelines: Street View",
+    "publication": "Offizielle Fachinformation / Rechtsgrundlage, Abrufstand",
+    "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/",
+    "method": "Offizielle Nutzungsrichtlinie; Abschnitt Street View, Web and apps / Additional restrictions.",
+    "limitations": "Embeds und Links von herausgelösten Screenshots unterscheiden; keine allgemeine Freigabe durch Sammler.",
+    "checked": "2026-11-12"
+  }
+}

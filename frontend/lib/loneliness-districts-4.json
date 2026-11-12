@@ -1,0 +1,843 @@
+[
+  {
+    "id": "bergedorf",
+    "title": "Bergedorf",
+    "intro": "Der Stadtteil Bergedorf umfasst unterschiedliche Teilräume. Zentrum, Bergedorf-West und Nettelnburg sind für eine alltagsnahe Betrachtung zu unterscheiden; sie werden hier nicht als zusätzliche amtliche Stadtteile gezählt.",
+    "sections": [
+      {
+        "id": "bergedorf-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 37.392.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Die Bücherhalle Bergedorf befindet sich im KörberHaus, Holzhude 1. Ihr FlexiBib-Zugang setzt ein Mindestalter von 18 Jahren und eine gültige Bücherhallenkarte voraus. Personalzeiten und erweiterte Zugangszeiten sind zu unterscheiden.",
+            "refs": [
+              "auftrag4-buecherhalle-bergedorf"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "bergedorf-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Für einen Begegnungsbesuch im Zentrum sollte die gesamte Verbindung betrachtet werden: Weg vom Wohnhaus, Querungen, Ankunft, Eingang und Heimweg. Die Nähe eines Bahnhofs allein beantwortet nicht, ob eine Person mit Rollator, Sehbehinderung oder wenig Kraft das konkrete Ziel gut erreichen kann. Ein gemeinsam erprobter Weg kann mehr klären als eine Entfernung auf der Karte.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für Bergedorf-West und Nettelnburg sollten eigene Wegbeispiele gesammelt werden. Ein zentraler Kulturort und eine wohnungsnahe Gesprächsmöglichkeit erfüllen unterschiedliche Bedürfnisse. Bei der Erhebung sind Orte zum ungezwungenen Aufenthalt getrennt von buchbaren Räumen, Kursen und Veranstaltungen mit Eintritt zu erfassen. Bestehende Angebote dürfen dabei nicht allein nach ihrer Größe bewertet werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "bergedorf-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Eine sinnvolle Befragung fragt nach gewünschten Tätigkeiten, verfügbaren Zeiten und Kosten einschließlich Anfahrt. Wer nicht kommen möchte, muss das ohne Rechtfertigung sagen können. Wünsche nach ruhigem Aufenthalt, Gespräch oder gemeinsamer Aktivität sollten getrennt erfasst werden. Berichte über frühere Lokale gehören mit genauer Standortprüfung in das gemeinsame historische Verzeichnis.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen bleibt, welche Wege und Formate Menschen aus den einzelnen Teilräumen tatsächlich nutzen und welche sie sich wünschen. Dazu fehlen hier eigene repräsentative Befragungen; aus der bloßen Zahl zentraler Einrichtungen lässt sich weder ein ausreichendes Angebot für alle noch eine Versorgungslücke ableiten.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "lohbruegge",
+    "title": "Lohbrügge",
+    "intro": "Lohbrügge wird als eigener Stadtteil betrachtet. Für die Untersuchung sind unterschiedliche Wohnumfelder und die Verbindung zum Bergedorfer Zentrum wichtig, ohne allen Einwohnern dieselben Bedürfnisse zuzuschreiben.",
+    "sections": [
+      {
+        "id": "lohbruegge-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 41.711.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das RISE-Fördergebiet Bergedorf-West umfasst Teile der Stadtteile Bergedorf und Lohbrügge. Der aktuelle Status auf der Bezirksseite nennt eine Förderlaufzeit bis 2029. Fördergebiet und amtliche Stadtteilgrenze sind deshalb auseinanderzuhalten.",
+            "refs": [
+              "auftrag4-rise-west"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "lohbruegge-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Für Lohbrügge empfiehlt sich eine Erhebung von Wegen zwischen Wohngebiet, Einkaufsgelegenheiten, Gruppenangeboten und öffentlichen Aufenthaltsorten. Eine hilfreiche Route muss nicht die kürzeste sein: Sitzgelegenheiten, sichere Querungen und ein verständlicher Eingang können für die persönliche Nutzbarkeit entscheidend sein. Diese Merkmale sollten am konkreten Weg geprüft und mit Datum dokumentiert werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Standortaufnahme sollte Kultur, Sport, Nachbarschaft, religiöse Räume und kommerzielle Treffpunkte nebeneinander erfassen. Ob ein Vereinsangebot eine Mitgliedschaft verlangt oder ein erstes Kennenlernen ermöglicht, muss direkt erfragt werden. Auch ein öffentliches Haus kann für einzelne Veranstaltungen Anmeldung oder Eintritt vorsehen; die Bedingungen gehören daher zum jeweiligen Angebot und nicht pauschal zum Gebäude.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "lohbruegge-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Für historische Treffpunkte sind Erinnerungen aus Lohbrügge besonders sorgfältig mit Namen, Hausnummern und Zeiträumen zu verbinden. Unterschiedliche Namen an derselben Anschrift ergeben noch keine zusätzlichen Standorte. Erzählungen über vertraute Besuchergruppen sollen als persönliche Erfahrungen erhalten bleiben, ohne daraus eine allgemeine Aussage über die heutige Nachbarschaft zu machen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Zu prüfen ist, welche Menschen durch bestehende Kommunikationswege erreicht werden und wer Informationen lieber gedruckt, persönlich oder telefonisch erhält. Ein verzeichnetes Angebot beweist keine gleichmäßige Teilnahme. Eine Befragung sollte deshalb auch bisherige Nichtnutzer erreichen und Gründe ergebnisoffen aufnehmen, statt fehlendes Interesse vorauszusetzen.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "neuallermoehe",
+    "title": "Neuallermöhe",
+    "intro": "Für Neuallermöhe stehen wohnungsnahe Kontakte, verbindende Wege und die unterschiedlichen Interessen von Kindern, Erwachsenen und älteren Menschen im Mittelpunkt. Eine vielfältige Bevölkerung ist keine einheitliche Zielgruppe.",
+    "sections": [
+      {
+        "id": "neuallermoehe-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 23.169.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das Bezirksamt führt Neuallermöhe seit 2012 als RISE-Fördergebiet; die veröffentlichte Förderlaufzeit reicht einschließlich 2026. Die Bücherhalle Neuallermöhe liegt am Fleetplatz 2–4 im ersten Obergeschoss des Einkaufszentrums Fleethaus.",
+            "refs": [
+              "auftrag4-rise-neu",
+              "auftrag4-buecherhalle-neu"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "neuallermoehe-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Ein örtlicher Rundgang sollte Wege zwischen Wohnhöfen, Fleeten, Einkauf, Bahnzugang und Treffpunkten prüfen. Dabei geht es um tatsächliche Querungen und Eingänge, nicht nur um Luftlinien. Menschen mit Kinderwagen, Rollstuhl oder eingeschränkter Orientierung sollten die Möglichkeit haben, ihre Erfahrungen selbst einzubringen. Eine einzelne Begehung ersetzt keine Prüfung verschiedener Tageszeiten.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für die Bücherhalle sind die Originalinformationen zu Öffnung und vorübergehenden Schließungen maßgeblich. Ein Veranstaltungsbesuch und die allgemeine Bibliotheksnutzung können unterschiedliche Voraussetzungen haben. Vor einem ersten Besuch sollten Aufzug, gewünschtes Angebot und eventuelle Anmeldung direkt geklärt werden. Die Lage im Obergeschoss wird hier nicht als Nachweis fehlender Barrierefreiheit interpretiert.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "neuallermoehe-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Für gemeinsame Aktivitäten ist zu fragen, ob sich unterschiedliche Altersgruppen tatsächlich für dasselbe Thema interessieren. Eine Hausaufgabenhilfe, ein Gesprächskreis und ein offenes Spielangebot sind nicht austauschbar. Mehrsprachige Informationen können als Vorschlag geprüft werden; welche Sprachen gebraucht werden, sollte mit den angesprochenen Menschen besprochen werden, ohne aus Herkunft auf Hilfebedarf zu schließen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen ist, welche Treffpunkte regelmäßig genutzt werden und wie sich geplante oder geförderte Maßnahmen im Alltag auswirken. Die RISE-Laufzeit ist kein Wirksamkeitsnachweis gegen Einsamkeit. Für eine spätere Bewertung wären Ziele, Teilnahme, Erfahrungen und Zugangshürden getrennt zu dokumentieren.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "curslack",
+    "title": "Curslack",
+    "intro": "Curslack wird als ländlicher Wohn- und Begegnungsraum betrachtet. Historische Identität und heutige Alltagsteilnahme sind dabei unterschiedliche Untersuchungsgegenstände.",
+    "sections": [
+      {
+        "id": "curslack-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 4.207.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt nennt das Freilichtmuseum Rieck Haus und die St.-Johannis-Kirche als örtliche Anknüpfungspunkte. Ihre Nennung bestätigt keine aktuellen Veranstaltungszeiten, Eintrittspreise oder offenen Gruppenplätze.",
+            "refs": [
+              "auftrag4-portraet-curslack"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "curslack-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Für einen Museums- oder Veranstaltungsbesuch sollte geprüft werden, ob Ankunft und Rückfahrt zum konkreten Termin zusammenpassen. Wege ab Haltestelle, Witterungsschutz und die Möglichkeit einer Pause gehören dazu. Ein einmaliger Ausflug und ein regelmäßig nutzbarer Treffpunkt sind getrennt zu erfassen, weil sie unterschiedliche Kontaktgelegenheiten schaffen können und unterschiedliche organisatorische Anforderungen haben.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine örtliche Bestandsaufnahme könnte Kultur, Vereine, Gemeinderäume und gastronomische Orte nach ihren tatsächlichen Nutzungsbedingungen vergleichen. Entscheidend ist die konkrete Frage: Kann jemand ohne bestehende Bekanntschaften kommen und zunächst zuschauen? Für religiös gebundene Räume sollte transparent sein, ob das jeweilige Angebot eine religiöse Beteiligung voraussetzt oder als weltanschaulich offenes Format organisiert wird.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "curslack-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Ankündigungen sollten die vollständigen Kosten, Anmeldung, Zielgruppe und einen erreichbaren Kontakt nennen. Wer eine Begleitung für den ersten Weg sucht, braucht eine verbindliche Vereinbarung und keine bloße allgemeine Zusage. Veranstalter könnten außerdem kenntlich machen, wer neue Besucher begrüßt und ob eine frühere Abreise ohne Erklärung möglich ist.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Zu untersuchen ist, welche Treffpunkte für Menschen ohne eigenes Auto praktisch erreichbar sind und ob gewünschte Besuchszeiten mit bestehenden Verbindungen vereinbar sind. Das ist eine offene örtliche Prüfaufgabe. Aus dem ländlichen Charakter Curslacks folgt weder automatisch soziale Nähe noch ein belegter Mangel an Kontakten.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "altengamme",
+    "title": "Altengamme",
+    "intro": "In Altengamme sollen gewachsene Begegnungsformen und heutige Zugangsmöglichkeiten gemeinsam betrachtet werden. Vertrautheit eines Ortes für langjährige Bewohner sagt noch nichts über den Einstieg neuer Personen aus.",
+    "sections": [
+      {
+        "id": "altengamme-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 2.339.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt beschreibt gemeinschaftliche Handarbeit und nennt das Gemeindehaus an der Kirchenstegel. Diese Beschreibung ist ein örtlicher Rechercheansatz, keine Bestätigung eines gegenwärtig offenen Handarbeitsangebots oder seiner Teilnahmebedingungen.",
+            "refs": [
+              "auftrag4-portraet-altengamme"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "altengamme-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Bei der Erkundung von Handarbeits-, Kultur- oder Nachbarschaftsgruppen sollten Interessierte nach einem unverbindlichen Erstbesuch fragen können. Zu klären ist, ob Vorkenntnisse, eigenes Material oder eine feste Teilnahme erwartet werden. Ein gemeinsamer Gegenstand kann ein Gespräch erleichtern; niemand muss sich jedoch für eine traditionelle Tätigkeit interessieren, nur weil sie zum Stadtteil gehört.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für die Wegeprüfung sollten konkrete Wohnlagen und Veranstaltungszeiten ausgewählt werden. Dabei sind Fußstrecken, Übergänge, Rückfahrt und mögliche Wartezeiten zu notieren. Wer körperlich eingeschränkt ist oder wenig Geld für zusätzliche Fahrten hat, sollte eigene Anforderungen nennen können. Diese Erhebung darf nicht durch die Annahme ersetzt werden, im ländlichen Raum verfüge ohnehin jeder über ein Auto.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "altengamme-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Ein offenes Format könnte neue und vertraute Formen verbinden, etwa gemeinsames Reparieren, Erzählen oder Lernen. Das ist ein zu prüfender Vorschlag und kein beschriebenes bestehendes Angebot. Vor einem Start sollten Räume, Verantwortliche, Kosten und die Bereitschaft verschiedener Interessierter geklärt werden; die Zugehörigkeit zu einer bisherigen Gruppe darf nicht stillschweigend vorausgesetzt werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen bleibt, welche vorhandenen Termine tatsächlich spontane Teilnahme erlauben und welche Menschen andere Formen bevorzugen. Persönliche Erinnerungen an frühere Gastwirtschaften sollten mit Standorten und Zeiträumen in das gemeinsame historische Verzeichnis eingehen. Daraus allein lässt sich keine Veränderung individueller Einsamkeit ableiten.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "neuengamme",
+    "title": "Neuengamme",
+    "intro": "Neuengamme braucht eine differenzierte Betrachtung von Alltagskontakten, örtlicher Geschichte und unterschiedlichen persönlichen Interessen. Historische Erinnerungsarbeit und allgemeine Geselligkeit dürfen dabei nicht gleichgesetzt werden.",
+    "sections": [
+      {
+        "id": "neuengamme-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 3.734.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt beschreibt Neuengamme als ländlich geprägten Raum und nennt die St.-Johannis-Kirche mit ihrer Kirchengemeinde. Die Beschreibung bestätigt keine aktuellen Gruppenzeiten oder Teilnahmevoraussetzungen.",
+            "refs": [
+              "auftrag4-portraet-neuengamme"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "neuengamme-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Eine alltagsbezogene Erhebung sollte fragen, wo Menschen unabhängig von einer festen Mitgliedschaft regelmäßig zusammentreffen können. Angebote von Vereinen und Gemeinden gehören ebenso dazu wie Kultur, Gastronomie und öffentliche Aufenthaltsorte. Dabei ist jeweils zu prüfen, ob ein Raum nur für Veranstaltungen öffnet oder auch einen spontanen kurzen Besuch ermöglicht. Beides kann sinnvoll sein, erfüllt aber unterschiedliche Wünsche.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für die Erreichbarkeit sind einzelne Wohnlagen und konkrete Ziele zu wählen. Die gesamte Verbindung einschließlich des Rückwegs sollte zu einer realistischen Besuchszeit betrachtet werden. Wer zum ersten Mal allein kommt, benötigt möglicherweise eine klare Wegbeschreibung oder einen vereinbarten Empfang. Ob solche Hilfen vorhanden sind, muss direkt erfragt werden und bleibt ohne Bestätigung offen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "neuengamme-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Erinnerungen an frühere Betriebe, Vereinsräume oder Tanzveranstaltungen sollten mit originaler Formulierung, Zeitraum und Herkunft bewahrt werden. Eine historische Nutzung ist zunächst ein Hinweis auf damalige Begegnungsgelegenheiten. Ob Menschen nach einem Wegfall andere Kontakte aufbauten oder sich zurückzogen, bedarf eigener Untersuchungen; Fotos eines Gebäudes beantworten diese Frage nicht.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Zu prüfen ist außerdem, welche gemeinsamen Aktivitäten Einwohner selbst wünschen und wie neue Personen daran teilnehmen könnten. Die Ergebnisse sollten verschiedene Altersgruppen und Lebenslagen sichtbar machen, ohne traditionelle Bindungen oder einen bestimmten Lebensstil als Voraussetzung guter Nachbarschaft zu behandeln. Eine repräsentative Bedarfsuntersuchung liegt hier nicht vor.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "kirchwerder",
+    "title": "Kirchwerder",
+    "intro": "Kirchwerder ist für die Untersuchung nicht auf einen einzelnen zentralen Treffpunkt zu reduzieren. Entscheidend sind konkrete Wohnlagen, Wege und gewünschte Formen der Begegnung.",
+    "sections": [
+      {
+        "id": "kirchwerder-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 10.458.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt benennt die St.-Severini-Kirche und das Zollenspieker Fährhaus als örtliche Anknüpfungspunkte. Die aktuelle Nutzbarkeit einzelner Räume oder Veranstaltungen muss bei den Verantwortlichen geprüft werden.",
+            "refs": [
+              "auftrag4-portraet-kirchwerder"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "kirchwerder-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Für eine Bestandsaufnahme sollten unterschiedliche Wohnlagen getrennt betrachtet werden. Ein Angebot kann vom einen Ausgangspunkt gut und vom anderen nur aufwendig erreichbar sein. Sinnvoll sind mehrere Wegbeispiele mit Angaben zu Fußstrecke, Umstieg, Pause und Rückfahrt. Eine reine Stadtteilliste unterschätzt solche Unterschiede und erlaubt keine Aussage darüber, wer ein Angebot tatsächlich nutzen kann.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei gastronomischen Orten sind Verzehrkosten und die Erwartung eines Konsums zu klären. Für Vereins- oder Gemeinderäume stehen andere Fragen im Vordergrund: Mitgliedschaft, Anmeldung, offene Zeiten und Begrüßung neuer Menschen. Die Kategorien sollten nicht gegeneinander ausgespielt werden. Ein Cafégespräch, ein gemeinsamer Sporttermin und ein offener Mittagstisch ermöglichen unterschiedliche Arten von Kontakt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "kirchwerder-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Für neue Begegnungsformate könnten Einwohner aus verschiedenen Wohnlagen gemeinsam passende Zeiten und Inhalte bestimmen. Denkbar wären wechselnde Orte oder begleitete Erstbesuche; beides sind Vorschläge mit zu prüfenden organisatorischen Voraussetzungen. Eine öffentlich angekündigte Veranstaltung sollte verständlich erläutern, ob allein kommende Personen willkommen sind, welche Gesamtkosten entstehen und wer Rückfragen beantwortet.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen ist, ob die heute vorhandenen Gelegenheiten den geäußerten Wünschen entsprechen und wie stark Mobilität die jeweilige Teilnahme begrenzt. Dies verlangt aktuelle Beobachtungen und Gespräche. Historische Hinweise auf geschlossene Lokale müssen standortbezogen geprüft werden; sie ergeben ohne weitere Untersuchung keine Statistik gegenwärtiger Versorgungslücken.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "ochsenwerder",
+    "title": "Ochsenwerder",
+    "intro": "Für Ochsenwerder verbindet die Untersuchung örtliche Begegnungsorte mit den Wegen zwischen Wohnlagen und gewünschten Aktivitäten. Landschaftliche Attraktivität ersetzt keine Prüfung der alltäglichen Nutzbarkeit.",
+    "sections": [
+      {
+        "id": "ochsenwerder-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 3.053.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt beschreibt Gemüse- und Blumenanbau sowie durch frühere Deichbrüche entstandene Bracks als Bestandteile der örtlichen Landschaft. Seine älteren Einwohnerzahlen werden hier nicht als aktueller Stand übernommen.",
+            "refs": [
+              "auftrag4-portraet-ochsenwerder"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "ochsenwerder-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Bei naturbezogenen Aktivitäten sollte zwischen einem frei zugänglichen Spaziergang und einem angeleiteten Gruppenangebot unterschieden werden. Zu klären sind Treffpunkt, Wegbeschaffenheit, Sitzmöglichkeiten, Dauer und Abbruchmöglichkeiten. Wer kurze Strecken bevorzugt, benötigt eine andere Information als geübte Wanderer. Ein landschaftlich reizvoller Weg ist nicht automatisch für jede körperliche Voraussetzung geeignet.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für Besuche von Gruppen oder Veranstaltungen sind Hin- und Rückverbindungen zum tatsächlichen Termin zu prüfen. Eine Fahrplanauskunft für einen Werktag ersetzt keine Prüfung am Wochenende. Fahrt- und Verzehrkosten sollten zusammen betrachtet werden. Eine gelegentliche Mitfahrmöglichkeit muss verlässlich vereinbart sein; aus einem allgemeinen Hinweis auf nachbarschaftliche Hilfe folgt noch kein verfügbarer Fahrdienst.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "ochsenwerder-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Eine Erhebung könnte danach fragen, welche Rolle Einkaufen, Gartenarbeit, Vereine und öffentliche Aufenthaltsorte für alltägliche Gespräche spielen. Dabei sollte kein landwirtschaftlicher Betrieb ungefragt als öffentlich zugänglicher Treffpunkt behandelt werden. Ein gemeinsames Projekt benötigt Zustimmung, Zuständigkeit und geklärte Bedingungen; die soziale Funktion eines Geschäfts ist von einer gewerblichen Dienstleistung zu unterscheiden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Zu untersuchen bleibt, ob Einwohner wiederkehrende kleine Treffen, größere Veranstaltungen oder andere Formen bevorzugen. Auch Nichtteilnahme kann eine persönliche Entscheidung sein. Erst dokumentierte Wünsche und geprüfte Zugangshürden erlauben begründete Vorschläge; eine pauschale Behauptung fehlender Begegnungsmöglichkeiten wäre ohne diese Erhebung nicht gerechtfertigt.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "reitbrook",
+    "title": "Reitbrook",
+    "intro": "Für Reitbrook ist eine Untersuchung gemeinsamer Nutzungen über Stadtteilgrenzen hinweg sinnvoll. Die amtliche Grenze allein beschreibt nicht, wo Menschen tatsächlich ihre Kontakte pflegen.",
+    "sections": [
+      {
+        "id": "reitbrook-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 497.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt beschreibt Verbindungen des Gemeindelebens mit Allermöhe und nennt eine gemeinsame Kirche in Allermöhe. Ältere Aussagen derselben Seite zu Buslinien werden hier nicht als heutige Fahrplanauskunft übernommen.",
+            "refs": [
+              "auftrag4-portraet-reitbrook"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "reitbrook-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Eine örtliche Aufnahme sollte deshalb nicht an der Stadtteilgrenze abbrechen. Wichtig sind tatsächlich genutzte Ziele und Wege, auch wenn der Raum im Nachbarstadtteil liegt. Bei einer kleinen Einwohnerzahl können einzelne Häuser oder Straßen unterschiedliche Verbindungen haben. Daraus folgt keine allgemeine Bewertung des sozialen Zusammenhalts; die konkreten Erfahrungen müssen erfragt werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für einen Gruppenbesuch sind die erste und die letzte Strecke besonders genau zu beschreiben. Zu prüfen sind geeignete Haltepunkte, Beleuchtung, sichere Gehwege und die Rückfahrt nach dem tatsächlichen Ende. Eine Begleitung kann als Vorschlag hilfreich sein, muss aber organisatorisch und persönlich vereinbart werden. Ohne Bestätigung wird hier kein bestehender Fahr- oder Besuchsdienst zugesagt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "reitbrook-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Vereinsaktivitäten und öffentliche Veranstaltungen sollten nach Zugang, Kosten und Möglichkeiten des Kennenlernens unterschieden werden. Bei einer eng verbundenen Gruppe kann ausdrücklich benannt werden, wer neue Interessierte empfängt. Gleichzeitig sollte es möglich sein, eine Tätigkeit auszuprobieren, ohne bereits eine dauerhafte Bindung einzugehen. Ob das vor Ort angeboten wird, ist eine offene Anfrage.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für die weitere Untersuchung wäre interessant, welche gemeinsame Infrastruktur mit Allermöhe heute genutzt wird und welche zusätzlichen Wünsche Bewohner selbst äußern. Historische Mühlen-, Gaststätten- oder Vereinsbezüge sind mit Originalquellen zu prüfen. Ein Porträttext oder eine persönliche Erinnerung allein belegt weder aktuelle Öffnung noch eine bestimmte Einsamkeitswirkung.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "allermoehe",
+    "title": "Allermöhe",
+    "intro": "Allermöhe und Neuallermöhe werden als unterschiedliche amtliche Stadtteile behandelt. Historische Namen und heutige Zuständigkeiten müssen bei Quellen und Treffpunkten jeweils genau geprüft werden.",
+    "sections": [
+      {
+        "id": "allermoehe-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 1.380.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt beschreibt das Freiluftfestival Wutzrock am Eichbaumsee und dessen Ursprung in der Jugendzentrumsbewegung. Das ist ein dokumentierter kultureller Bezug, keine Bestätigung eines konkreten künftigen Termins.",
+            "refs": [
+              "auftrag4-portraet-allermoehe"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "allermoehe-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Für die Begegnungsaufnahme sollten größere Feste und alltägliche Gelegenheiten getrennt erfasst werden. Ein Festival kann viele Menschen zusammenbringen, ist aber kein Ersatz für einen regelmäßig geöffneten Ort. Wer vor allem ruhige Gespräche sucht, benötigt andere Angaben als jemand, der eine Musikveranstaltung besuchen möchte. Auch Lautstärke, Rückzugsmöglichkeiten und die Aufenthaltsdauer sollten transparent sein.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei Angeboten am Wasser oder auf weitläufigen Flächen ist die genaue Anreise wichtig. Treffpunkt, Fußweg und Zugang zum Veranstaltungsgelände sind konkret zu nennen. Eine Bahnstation mit ähnlichem Ortsnamen darf nicht automatisch als naher Zugang verstanden werden. Für einen Erstbesuch sollten die tatsächliche Entfernung sowie Rückfahrt und mögliche saisonale Einschränkungen geprüft werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "allermoehe-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Die gemeinsame Nutzung von Räumen mit Nachbarstadtteilen kann als Untersuchungsansatz dienen. Dabei sind Zuständigkeit, Öffnung, Kosten und die Möglichkeit spontaner Teilnahme direkt zu klären. Für neue Vorhaben wären kleinere wiederkehrende Formate und größere öffentliche Ereignisse getrennt zu planen. Ein bestimmtes Format wird hier weder als vorhanden noch als generell überlegen dargestellt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen bleibt, welche Orte Menschen aus Allermöhe im Alltag aufsuchen und wie sich historische Gebietsveränderungen auf die Zuordnung alter Quellen auswirken. Erinnerungen sollten mit genauer Anschrift und Zeitraum in das gemeinsame Register eingehen. Ein alter Ortsname darf nicht ungeprüft auf die heutige Stadtteilgrenze übertragen werden.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "billwerder",
+    "title": "Billwerder",
+    "intro": "Für Billwerder müssen gewachsene Strukturen und neue Planungen mit ihrem jeweiligen Zeitstand erfasst werden. Eine angekündigte Entwicklung ist noch kein nutzbares Begegnungsangebot.",
+    "sections": [
+      {
+        "id": "billwerder-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 4.174.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt beschreibt landwirtschaftliche Nutzung sowie historische Gebietsabtrennungen und Umbenennungen. Für eine historische Standortsuche sind deshalb damalige Anschriften und heutige Grenzen getrennt zu dokumentieren.",
+            "refs": [
+              "auftrag4-portraet-billwerder"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "billwerder-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Eine aktuelle Bestandsaufnahme sollte die Verbindung zwischen Wohnlagen, bestehenden Einrichtungen und tatsächlichen Verkehrswegen untersuchen. Bei Bahn- und Buszugängen zählt nicht nur die Station, sondern auch der Weg dorthin. Unterschiedliche Tageszeiten, Umstiege und die Rückfahrt gehören in ein nachvollziehbares Wegprotokoll. Eine ausgewählte Verbindung darf nicht als Beleg für die Erreichbarkeit des gesamten Stadtteils dienen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei Neubau- und Entwicklungsplanungen sollten Flächen für Begegnung, ihr Betreiberkonzept und ihre spätere Zugänglichkeit getrennt betrachtet werden. Ein gezeichneter Gemeinschaftsraum auf einem Plan sagt noch nichts über Öffnungszeiten, Kosten oder die Begrüßung neuer Besucher aus. Bis zur verifizierten Betriebsaufnahme bleibt ein Vorhaben als Planung gekennzeichnet; konkrete Nutzungsmöglichkeiten sind gesondert zu prüfen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "billwerder-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Für vorhandene und künftige Nachbarschaften könnte gemeinsam ermittelt werden, welche Aktivitäten unterschiedliche Gruppen wirklich verbinden. Das darf weder langjährigen Bewohnern noch neu Hinzuziehenden pauschal dieselben Interessen zuschreiben. Geeignet wären Gespräche über konkrete Zeitfenster, Tätigkeiten und Zugangsbedingungen. Rückmeldungen ohne Vereins- oder Gremienbindung sollten ebenso möglich sein wie Beiträge organisierter Einrichtungen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen bleiben heutige Wegebeziehungen, verlässlich nutzbare Räume und mögliche Veränderungen durch neue Entwicklungen. Historische Gaststätten und andere Treffpunkte sind mit Namensfolgen, Umzügen und Grundstücken zu prüfen. Eine räumliche Veränderung allein belegt keine Ursache individueller Einsamkeit; dazu wären eigenständige Untersuchungen erforderlich.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "moorfleet",
+    "title": "Moorfleet",
+    "intro": "Moorfleet soll mit seinen unterschiedlichen räumlichen Nutzungen untersucht werden. Wohnumfeld, Gewerbe und wasserbezogene Freizeit eröffnen verschiedene Fragen an die alltägliche Begegnung.",
+    "sections": [
+      {
+        "id": "moorfleet-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 1.232.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt nennt die St.-Nikolai-Kirche, den Moorfleeter Deich und die Dove-Elbe. Ältere Aussagen dort zu Einkaufsmöglichkeiten oder konkreten Buslinien gelten hier nicht als überprüfter aktueller Angebotsstand.",
+            "refs": [
+              "auftrag4-portraet-moorfleet"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "moorfleet-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Für die Wegeprüfung sollten reale Ausgangspunkte gewählt werden. Gewerbliche Flächen, Verkehrsachsen und Wasser können für einzelne Verbindungen unterschiedliche Anforderungen bedeuten; ob eine konkrete Barriere besteht, muss vor Ort geprüft werden. Ein zusammenhängend wirkender Kartenraum beweist keine einfache Fußverbindung. Sichere Übergänge, Weglänge und ein geeigneter Rückweg gehören deshalb in die Erhebung.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei wasserbezogenen Vereinen und Freizeitangeboten sind Bedingungen eines Erstbesuchs zu klären: Mitgliedschaft, Ausrüstung, Kosten, körperliche Anforderungen und die Möglichkeit, zunächst nur zuzuschauen. Ein Vereinsgelände ist kein automatisch öffentlicher Aufenthaltsraum. Umgekehrt darf aus einer Mitgliedschaftsregel nicht ohne Prüfung geschlossen werden, dass es keine offenen Veranstaltungen oder Kennenlernangebote gibt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "moorfleet-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Kirchliche und andere gemeinschaftlich genutzte Räume sollten nach tatsächlichen Öffnungen und weltanschaulichen Voraussetzungen beschrieben werden. Für neue Formate kann ein Gespräch mit Verantwortlichen klären, ob eine geteilte Nutzung möglich wäre. Das ist ein Vorschlag, keine Zusage verfügbarer Räume. Bewohner sollten selbst benennen können, ob sie Gespräche, Tätigkeiten oder zunächst nur Aufenthalt wünschen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Zu untersuchen ist, wie verschiedene Wohnlagen an gewünschte Treffpunkte angebunden sind und welche Ausgaben dafür entstehen. Unbestätigte Angaben über fehlende Geschäfte, Kirchenbusse oder heutige Öffnungszeiten werden nicht übernommen. Persönliche Erinnerungen an frühere Betriebe bleiben mit Datum und Quelle als Ausgangspunkt historischer Nachprüfung erhalten.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "tatenberg",
+    "title": "Tatenberg",
+    "intro": "Für Tatenberg sind Begegnungsmöglichkeiten am Wasser und im Alltag zu unterscheiden. Freizeitbesuch von außen und die Bedürfnisse der Wohnbevölkerung sind nicht automatisch deckungsgleich.",
+    "sections": [
+      {
+        "id": "tatenberg-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 545.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt verortet die Tatenberger Schleuse an der Dove-Elbe und beschreibt wasserbezogene Freizeitnutzung. Daraus werden hier keine aktuellen Schleusenzeiten, öffentlichen Raumzugänge oder Veranstaltungsangebote abgeleitet.",
+            "refs": [
+              "auftrag4-portraet-tatenberg"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "tatenberg-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Eine Untersuchung könnte danach fragen, welche Orte tatsächlich für regelmäßige kurze Kontakte genutzt werden und welche vor allem Ausflugsziele sind. Bei einem Treffpunkt am Wasser müssen sicherer Zugang, Aufenthaltsmöglichkeiten und Wege zum nächsten geeigneten Verkehrsanschluss konkret geprüft werden. Die landschaftliche Lage allein belegt weder Offenheit noch Barrierefreiheit eines bestimmten Geländes.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für Menschen ohne eigenes Auto ist ein Besuch mit genauer Uhrzeit zu planen. Dazu gehören Fahrt, Fußstrecke, Wartezeit und die Rückkehr bei einem früheren Aufbruch. Nicht jede Person kann lange stehen oder spontan einen anderen Weg wählen. Solche Anforderungen sollten bei einer Bedarfsbefragung ausdrücklich Platz haben, statt nur nach dem gewünschten Veranstaltungsinhalt zu fragen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "tatenberg-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Vereine, gewerbliche Anbieter und Nachbarschaften könnten gemeinsam klären, ob unverbindliche Kennenlerntermine sinnvoll wären. Vor einem Versuch müssen Zuständigkeit, Sicherheit, Kosten und Anmeldung feststehen. Ein Hafen- oder Vereinsgelände wird dadurch nicht ohne Zustimmung zum öffentlichen Treffpunkt. Ebenso sollte kein kommerzieller Betreiber als Anbieter kostenloser Aufenthaltsmöglichkeiten dargestellt werden, solange er das nicht bestätigt hat.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen bleibt, welche Kombination aus wohnungsnahen und außerhalb gelegenen Kontakten Einwohner bevorzugen. Für historische Angaben sind insbesondere genaue Grundstücke und aufeinanderfolgende Nutzungen zu prüfen. Ein Foto der Schleuse oder einer Straße ist kein direkter Bildnachweis eines früheren gastronomischen Betriebs.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "spadenland",
+    "title": "Spadenland",
+    "intro": "Spadenland wird als eigener kleiner Stadtteil berücksichtigt. Eine geringe Einwohnerzahl darf nicht mit fehlenden Beziehungen oder einem bestimmten Hilfebedarf gleichgesetzt werden.",
+    "sections": [
+      {
+        "id": "spadenland-grundlage",
+        "title": "Örtliche Grundlage",
+        "paragraphs": [
+          {
+            "text": "Bevölkerung 2025: 543.",
+            "refs": [
+              "auftrag4-statistik2025"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Das offizielle Stadtteilporträt beschreibt die Lage an der Norderelbe und landwirtschaftliche beziehungsweise gärtnerische Nutzungen. Einzelne dort vorgestellte private Angebote werden ohne aktuelle Bestätigung nicht als öffentlich verfügbares Begegnungsangebot übernommen.",
+            "refs": [
+              "auftrag4-portraet-spadenland"
+            ],
+            "kind": "amtlich"
+          }
+        ]
+      },
+      {
+        "id": "spadenland-wege",
+        "title": "Begegnung und Wege untersuchen",
+        "paragraphs": [
+          {
+            "text": "Für die Erhebung sind Wege von konkreten Wohnlagen zu gewünschten Zielen sinnvoll. Dabei können auch Treffpunkte in Nachbarstadtteilen relevant sein. Eine brauchbare Verbindung sollte mit tatsächlicher Gehstrecke, Rückfahrt und möglichen Pausen beschrieben werden. Wer nicht Rad fahren oder längere Wege gehen kann, muss seine Anforderungen selbst benennen können; dafür wird hier kein bestimmtes Verkehrsverhalten unterstellt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ein Garten, Hof oder Geschäft kann Gesprächsgelegenheiten bieten, bleibt aber zunächst ein privater oder gewerblicher Ort. Vor einer öffentlichen Empfehlung sind Zugang, Zeiten, Kosten und Zustimmung zu prüfen. Eine frühere Reportage über einen geöffneten Garten ist keine dauerhafte Einladung. Medizinisch klingende Aussagen einzelner Anbieter werden außerdem nicht als wissenschaftliche Gesundheitsinformation übernommen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "spadenland-teilhabe",
+        "title": "Teilhabe und offene Prüfung",
+        "paragraphs": [
+          {
+            "text": "Für ein künftiges kleines Begegnungsformat könnte ermittelt werden, welche gemeinsame Tätigkeit und welcher Ort tatsächlich gewünscht sind. Das kann in Zusammenarbeit mit bestehenden Verantwortlichen geschehen, braucht aber keine einheitliche Vorstellung von ländlicher Nachbarschaft. Wichtig wären freiwillige Teilnahme, ein klarer Kontakt und transparente Erwartungen. Niemand sollte private Gastfreundschaft als öffentliche Infrastruktur leisten müssen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Offen ist, welche heutigen Angebote regelmäßig nutzbar sind und welche Grenzen Zeit, Kosten oder Mobilität setzen. Historische Erinnerungen sollen mit Anschrift, Zeitraum und Prüfstatus erhalten bleiben. Erst unabhängig bestätigte Standorte werden als gesicherte Ortsgeschichte bezeichnet; ein fehlender heutiger Beleg ist nicht automatisch ein Nachweis der Schließung.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  }
+]

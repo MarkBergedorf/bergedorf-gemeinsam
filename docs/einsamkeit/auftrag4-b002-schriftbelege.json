@@ -1,0 +1,385 @@
+{
+  "imageNumber": "B002",
+  "checked": "2026-11-12",
+  "method": "Tatsächliches Bild visuell gelesen; Schreibungen und Anschriften als Druckangaben, nicht als heutige Geokodierung. Linker Rand der zweiten Seite abgeschnitten: drei nur teilweise lesbare Restaurantzeilen werden nicht frei ergänzt.",
+  "limits": [
+    "Druckwerk, Herausgeber und Ausgabedatum noch nicht identifiziert. Bildunterschrift 1988 ausgebaut datiert nur den beschriebenen Ausbau, nicht sicher die Ausgabe.",
+    "Hotels und laufende Betriebe sind nicht automatisch geschlossene Begegnungsorte. Zwei Rubriken nennen Alt-Lohbrügger Hof an derselben Adresse; keine Doppelzählung.",
+    "Lohbrügger Stuben am Köhnckeweg 1 nicht automatisch identisch mit Die 13 am Köhnckeweg 13.",
+    "Kogge am Serrahnstraße 9 gegenüber Feuerwehreinsatz Serrahnstraße 2: Liegeplatz-/Adressphasen nicht ohne Prüfung gleichsetzen.",
+    "Time: Hausnummerzusatz auf dem Foto als g gelesen; Originaldruck zusätzlich prüfen.",
+    "Nicht alle schriftlichen Namen sind bereits als eigener physischer Standort verifiziert. Zusätzliche Listennamen bleiben als getrennte Recherchehinweise dieses Fundstücks auffindbar und werden nicht zu weiteren Schließungen."
+  ],
+  "entries": [
+    {
+      "name": "Hotel Alt-Lohbrügger Hof",
+      "addressAsPrinted": "Leuschnerstr. 76",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Boberger Höhe",
+      "addressAsPrinted": "Lohbrügger Landstr. 168",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Hotel am Deich",
+      "addressAsPrinted": "Allermöher Werftstieg 3",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Forsthaus",
+      "addressAsPrinted": "Reinbeker Weg 77",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Hanseat",
+      "addressAsPrinted": "Bergedorfer Str. 41",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Heckkaten",
+      "addressAsPrinted": "Kampchaussee 144",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Lauenburger Hof",
+      "addressAsPrinted": "Wentorfer Str. 3",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Hotel Sachsentor",
+      "addressAsPrinted": "Bergedorfer Schloßstr. 10",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Schützenhof",
+      "addressAsPrinted": "Lohbrügger Landstr. 119",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Hotel Vierlandentor",
+      "addressAsPrinted": "Curslacker Deich 375",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Altdeutsches Restaurant",
+      "addressAsPrinted": "Holtenklinkerstr. 154",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Alt Sande",
+      "addressAsPrinted": "Sammannreihe 42",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Alt-Lohbrügger Hof",
+      "addressAsPrinted": "Leuschnerstr. 76",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Bei André",
+      "addressAsPrinted": "Holtenklinkerstr. 65",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Blockhaus",
+      "addressAsPrinted": "Sachsentor 2",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Bürgerstuben",
+      "addressAsPrinted": "Holtenklinkerstr. 2",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Bremer Hof",
+      "addressAsPrinted": "Wickingsweg 2a",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Dorfkrug",
+      "addressAsPrinted": "Boberger Furtweg 1",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Dubrovnik",
+      "addressAsPrinted": "Alte Holstenstr. 65",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Engel",
+      "addressAsPrinted": "Alte Holstenstr. 54",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Enzo Ristorante",
+      "addressAsPrinted": "Neuer Weg 28",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Gimlich – Speiserestaurant",
+      "addressAsPrinted": "Alte Holstenstr. 70",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Gewerkschaftshaus",
+      "addressAsPrinted": "Am Pool 41",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Harlekin",
+      "addressAsPrinted": "Am Brink 5a",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Holstenwappen",
+      "addressAsPrinted": "Binnenfeldredder 34a",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Hanne-Beck-Stube",
+      "addressAsPrinted": "Holtenklinkerstr. 22",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Holstenhof",
+      "addressAsPrinted": "Lohbrügger Landstr. 38",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Holsteneck",
+      "addressAsPrinted": "Am Bahnhof 18",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Jever-Stube",
+      "addressAsPrinted": "Hassestr. 1",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "John Henry’s Treff",
+      "addressAsPrinted": "Röpraredder 4",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Kolossos zu Rhodos",
+      "addressAsPrinted": "Lohbrügger Landstr. 32",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "La Casa",
+      "addressAsPrinted": "Neuer Weg 19",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Ladenbeker Stuben",
+      "addressAsPrinted": "Krusestr. 64",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Lohbrügger Stuben",
+      "addressAsPrinted": "Köhnckeweg 1",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Kiek in",
+      "addressAsPrinted": "Alte Holstenstr. 22",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Krombacher Landhaus",
+      "addressAsPrinted": "Am Brink 14",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Laxy’s",
+      "addressAsPrinted": "Bergedorfer Str. 138",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Lung-Wah",
+      "addressAsPrinted": "Röpraredder 72",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Loma",
+      "addressAsPrinted": "Lohbrügger Markt 1",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Mamma mia",
+      "addressAsPrinted": "Lohbrügger Landstr. 13",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Mendel-Stube",
+      "addressAsPrinted": "Mendelstr. 26a",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Pagode",
+      "addressAsPrinted": "Friedrich-Frank-Bogen 172",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Peking-Ente",
+      "addressAsPrinted": "Vierlandenstr. 31",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Ristorante Rossini",
+      "addressAsPrinted": "Rothenhauschaussee 32",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Taverna Korfu",
+      "addressAsPrinted": "Lohbrügger Landstr. 90",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Sander Krug",
+      "addressAsPrinted": "Alte Holstenstr. 42",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Treff exclusiv",
+      "addressAsPrinted": "Weberade 21",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Udo 70",
+      "addressAsPrinted": "Reetwerder 9",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Veerlanner Deel",
+      "addressAsPrinted": "Bergedorfer Str. 125",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Vittoria",
+      "addressAsPrinted": "Binnenfeldredder 34c",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Weinhaus an der Bergstr.",
+      "addressAsPrinted": "Am Langberg 104",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Töpferkrug",
+      "addressAsPrinted": "Bergedorfer Str. 150",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Zeyn-Speicher",
+      "addressAsPrinted": "Kupferhof 1",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Zu den Eichen",
+      "addressAsPrinted": "August-Bebel-Str. 20",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Zum Lenz",
+      "addressAsPrinted": "Holtenklinkerstr. 122",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Zur frischen Quelle",
+      "addressAsPrinted": "Holtenklinkerstr. 30",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Zum Stübchen",
+      "addressAsPrinted": "Rappoltweg 11",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Zum Treppchen",
+      "addressAsPrinted": "Weidenbaumsweg 13",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Zollenspieker Fährhaus",
+      "addressAsPrinted": "Hauptdeich 43",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Bär’s Café Creme",
+      "addressAsPrinted": "Alte Holstenstr. 30",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Eis-Cafe Florida",
+      "addressAsPrinted": "Am Bahnhof 1",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Gelato",
+      "addressAsPrinted": "Weidenbaumsweg 17",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Café Möller",
+      "addressAsPrinted": "Alte Holstenstr. 76",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Parkcafé Napoli",
+      "addressAsPrinted": "Bergedorfer Schloßstr. 10",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "P u P Eiscafe",
+      "addressAsPrinted": "Alte Holstenstr. 49",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Caféhaus Petersen",
+      "addressAsPrinted": "Sachsentor 28",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Galerie Nyx",
+      "addressAsPrinted": "Neuer Weg 43a",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Jazz-Forum Suhrhof",
+      "addressAsPrinted": "Weidenbaumsweg 13",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Rastro",
+      "addressAsPrinted": "Alte Holstenstr. 45",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Tschako",
+      "addressAsPrinted": "Weidenbaumsweg 13",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Spectrum",
+      "addressAsPrinted": "Lohbrügger Markt 5",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Kogge",
+      "addressAsPrinted": "Serrahnstr. 9",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Time",
+      "addressAsPrinted": "Mendelstr. 26g",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    },
+    {
+      "name": "Waldschloß",
+      "addressAsPrinted": "Wentorfer Str. 155",
+      "status": "schriftlicher_materialbeleg_ausgabe_unbekannt"
+    }
+  ]
+}

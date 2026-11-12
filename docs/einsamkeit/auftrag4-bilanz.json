@@ -1,0 +1,58 @@
+{
+  "themenansichten": 27,
+  "stadtteilansichten": 14,
+  "fachtexteInsgesamt": 82,
+  "gepruefteOriginalzeilen": 446,
+  "artikelzuordnungen": 564,
+  "neueQuellenregisterEintraege": 57,
+  "wissenschaftlicheNachweiseImAuftrag": 11,
+  "wissenschaftlicheIds": [
+    "auftrag4-barrieren",
+    "auftrag4-bibliotheken",
+    "auftrag4-generationen",
+    "auftrag4-kontakt",
+    "auftrag4-mahlzeiten",
+    "dritteorte",
+    "finlay",
+    "freundschaftzeit",
+    "schwachekontakte",
+    "umwelt",
+    "zuhoeren"
+  ],
+  "wiederverwendeteQuellen": [
+    "dritteorte",
+    "finlay",
+    "freundschaftzeit",
+    "schwachekontakte",
+    "umwelt",
+    "zuhoeren"
+  ],
+  "historischeQuellen": 21,
+  "historischeErfassungsposten": 104,
+  "standortTypen": {
+    "physical_site": 31,
+    "unlocalized_lead": 70,
+    "address_complex": 3
+  },
+  "evidenz": {
+    "independent": 14,
+    "archive": 29,
+    "eyewitness": 61
+  },
+  "bildnummern": 88,
+  "medienobjekte": 85,
+  "veroeffentlichteBilddateien": 0,
+  "ungeklaerteMotivStandortzuordnungen": 38,
+  "bildarten": {
+    "haus": 1,
+    "liste": 1,
+    "direkt": 4,
+    "umfeld": 40,
+    "geschaeft": 22,
+    "werbung": 3,
+    "plan": 1,
+    "streetview": 3,
+    "zeitung": 2,
+    "innenraum_kontext": 8
+  }
+}

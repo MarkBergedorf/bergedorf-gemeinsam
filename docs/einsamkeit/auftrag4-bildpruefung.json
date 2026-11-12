@@ -1,0 +1,526 @@
+{
+  "checkedNumbers": 88,
+  "archiveImageCopies": 89,
+  "previewCopies": 88,
+  "canonicalMediaObjects": 85,
+  "mergedNumbers": {
+    "B026": "B012",
+    "B050": "B029",
+    "B074": "B070"
+  },
+  "visuallyReviewed": true,
+  "visualReviewNote": "Alle 88 Nummern anhand tatsächlicher Bildinhalte vor der Arbeitsumgebungsbereinigung gesichtet; unveränderte Archivbytes bei Wiederherstellung anhand SHA-256 geprüft. Kritische Zuordnungen korrigiert.",
+  "originalArchiveSha256": "666002201f1585df2f518e424c55b2268480c50d98fc99cf6cae4a464dacd577",
+  "originalReportSha256": "f3c14ce3e2f2b7710eadfcabad123e9228353a5c7bcd7d671ab886d120253fbf",
+  "sourceBlocks": {
+    "B001": {
+      "title": "Historische Ansicht eines Gebäudes mit angrenzendem Straßengrün.",
+      "lines": "409–412",
+      "original": "**B001 – Historische Ansicht eines Gebäudes mit angrenzendem Straßengrün.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Historischer Hauszustand; Kneipenzuordnung nicht aus dem Bild belegt.\\\nFrühere Originaldatei: `B001__image(20261111-085609).png`."
+    },
+    "B002": {
+      "title": "Smartphonefoto einer historischen Infotafel beziehungsweise eines Stadtplanes.",
+      "lines": "413–416",
+      "original": "**B002 – Smartphonefoto einer historischen Infotafel beziehungsweise eines Stadtplanes.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert eine Tafel/einen Plan; die dort lesbaren Angaben können separat ausgewertet werden.\\\nFrühere Originaldatei: `B002__image(20261111-102041).png`."
+    },
+    "B003": {
+      "title": "Historische, im Bild als Gasthof Zur Sonne bezeichnete Eckhausansicht.",
+      "lines": "417–420",
+      "original": "**B003 – Historische, im Bild als Gasthof Zur Sonne bezeichnete Eckhausansicht.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Direkter Namensnachweis. **Aussagewert:** Belegt die historische Existenz des Gasthofs unter diesem Namen.\\\nFrühere Originaldatei: `B003__image(20261111-104222).png`."
+    },
+    "B004": {
+      "title": "Straßenblick auf niedrige Geschäftsgebäude und geparkte Autos.",
+      "lines": "421–424",
+      "original": "**B004 – Straßenblick auf niedrige Geschäftsgebäude und geparkte Autos.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert Gebäude- und Straßenumgebung.\\\nFrühere Originaldatei: `B004__image(20261111-104902).png`."
+    },
+    "B005": {
+      "title": "Ladengebäude beziehungsweise Passage mit farbigem Vorbau.",
+      "lines": "425–428",
+      "original": "**B005 – Ladengebäude beziehungsweise Passage mit farbigem Vorbau.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert spätere Ladenfronten.\\\nFrühere Originaldatei: `B005__image(20261111-104915).png`."
+    },
+    "B006": {
+      "title": "Baustellenbild mit Bauschutt.",
+      "lines": "429–432",
+      "original": "**B006 – Baustellenbild mit Bauschutt.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert Abriss-/Baustellenzustand, nicht eine konkrete Kneipe.\\\nFrühere Originaldatei: `B006__image(20261111-104929).png`."
+    },
+    "B007": {
+      "title": "Gebäude- und Baustellenzustand mit „Pamukkale“-Schild.",
+      "lines": "433–436",
+      "original": "**B007 – Gebäude- und Baustellenzustand mit „Pamukkale“-Schild.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Belegt spätere Pamukkale-Beschriftung, nicht automatisch frühere Engel-Nutzung.\\\nFrühere Originaldatei: `B007__image(20261111-104941).png`."
+    },
+    "B008": {
+      "title": "Historischer Straßenzug mit Geschäften und Passanten.",
+      "lines": "437–440",
+      "original": "**B008 – Historischer Straßenzug mit Geschäften und Passanten.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert historische Straße.\\\nFrühere Originaldatei: `B008__image(20261111-104950).png`."
+    },
+    "B009": {
+      "title": "Älterer Straßenblick mit Eckgebäude.",
+      "lines": "441–444",
+      "original": "**B009 – Älterer Straßenblick mit Eckgebäude.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert historische Bebauung.\\\nFrühere Originaldatei: `B009__image(20261111-105006).png`."
+    },
+    "B010": {
+      "title": "Stadtansicht bei einem Straßen-/Platzbereich.",
+      "lines": "445–448",
+      "original": "**B010 – Stadtansicht bei einem Straßen-/Platzbereich.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert einen Ortszustand.\\\nFrühere Originaldatei: `B010__image(20261111-105029).png`."
+    },
+    "B011": {
+      "title": "Detail einer historischen Laden-/Eingangsfront.",
+      "lines": "449–452",
+      "original": "**B011 – Detail einer historischen Laden-/Eingangsfront.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert eine historische Geschäftsfront, nicht automatisch eine Kneipe.\\\nFrühere Originaldatei: `B011__image(20261111-110500).png`."
+    },
+    "B012": {
+      "title": "Historische Geschäftsstraße mit mehreren Ladeneingängen.",
+      "lines": "453–456",
+      "original": "**B012 – Historische Geschäftsstraße mit mehreren Ladeneingängen.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert eine Einkaufsstraße, nicht eine bestimmte Kneipe.\\\nFrühere Originaldatei: `B012__image(20261111-110514).png`."
+    },
+    "B013": {
+      "title": "Historische Fachwerk- und Geschäftsgebäude im Bergedorfer Zentrum.",
+      "lines": "457–460",
+      "original": "**B013 – Historische Fachwerk- und Geschäftsgebäude im Bergedorfer Zentrum.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert die historische Bau- und Handelsstruktur.\\\nFrühere Originaldatei: `B013__image(20261111-110524).png`."
+    },
+    "B014": {
+      "title": "Spätere Vergleichsaufnahme mit modernen Ladenfronten.",
+      "lines": "461–464",
+      "original": "**B014 – Spätere Vergleichsaufnahme mit modernen Ladenfronten.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert spätere Nutzungen der Geschäftsgebäude.\\\nFrühere Originaldatei: `B014__image(20261111-110535).png`."
+    },
+    "B015": {
+      "title": "Historische kolorierte Postkarte mit Bergedorfer Kirche.",
+      "lines": "465–468",
+      "original": "**B015 – Historische kolorierte Postkarte mit Bergedorfer Kirche.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert frühere Stadtansicht.\\\nFrühere Originaldatei: `B015__image(20261111-110834).png`."
+    },
+    "B016": {
+      "title": "Historische Postkarte mit Bergedorfer Kirche, handschriftlichen Grüße.",
+      "lines": "469–472",
+      "original": "**B016 – Historische Postkarte mit Bergedorfer Kirche, handschriftlichen Grüße.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert historische Stadtansicht.\\\nFrühere Originaldatei: `B016__image(20261111-110842).png`."
+    },
+    "B017": {
+      "title": "Historische Straßen-/Kirchenansicht.",
+      "lines": "473–476",
+      "original": "**B017 – Historische Straßen-/Kirchenansicht.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert historische Stadtentwicklung.\\\nFrühere Originaldatei: `B017__image(20261111-110850).png`."
+    },
+    "B018": {
+      "title": "Historischer Blick über Häuser und Wasser.",
+      "lines": "477–480",
+      "original": "**B018 – Historischer Blick über Häuser und Wasser.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert historische Stadt-/Gewässeransicht.\\\nFrühere Originaldatei: `B018__image(20261111-110900).png`."
+    },
+    "B019": {
+      "title": "Historisch kolorierte Postkarte des Ortsbereichs.",
+      "lines": "481–484",
+      "original": "**B019 – Historisch kolorierte Postkarte des Ortsbereichs.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert historische Ortsansicht.\\\nFrühere Originaldatei: `B019__image(20261111-110911).png`."
+    },
+    "B020": {
+      "title": "Neue Fotoansicht des Wasserturms.",
+      "lines": "485–488",
+      "original": "**B020 – Neue Fotoansicht des Wasserturms.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Zeigt Wasserturm, keinen Sander Treff.\\\nFrühere Originaldatei: `B020__image(20261111-111151).png`."
+    },
+    "B021": {
+      "title": "Zweite Wasserturmaufnahme.",
+      "lines": "489–492",
+      "original": "**B021 – Zweite Wasserturmaufnahme.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Zeigt Wasserturm, keinen Sander Treff.\\\nFrühere Originaldatei: `B021__image(20261111-111158).png`."
+    },
+    "B022": {
+      "title": "Wasserturm als eigenes Bauwerksmotiv.",
+      "lines": "493–496",
+      "original": "**B022 – Wasserturm als eigenes Bauwerksmotiv.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Zeigt Wasserturm, keinen Sander Treff.\\\nFrühere Originaldatei: `B022__image(20261111-111208).png`."
+    },
+    "B023": {
+      "title": "Alte Werbeanzeige für Elektronik/Schallplatten mit lesbarem Namen „Sonnenberg“.",
+      "lines": "497–500",
+      "original": "**B023 – Alte Werbeanzeige für Elektronik/Schallplatten mit lesbarem Namen „Sonnenberg“.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Belegt die Werbung und Existenz des Geschäfts Sonnenberg; kein Kneipennachweis.\\\nFrühere Originaldatei: `B023__image(20261111-111553).png`."
+    },
+    "B024": {
+      "title": "Historische Ladenfronten und Straßenverkehr.",
+      "lines": "501–504",
+      "original": "**B024 – Historische Ladenfronten und Straßenverkehr.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Belegt die frühere Einzelhandels- und Straßenlandschaft.\\\nFrühere Originaldatei: `B024__image(20261111-111616).png`."
+    },
+    "B025": {
+      "title": "Historische Ladenfronten/Fachwerkhäuser.",
+      "lines": "505–508",
+      "original": "**B025 – Historische Ladenfronten/Fachwerkhäuser.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Belegt historische Geschäftsgebäude.\\\nFrühere Originaldatei: `B025__image(20261111-111629).png`."
+    },
+    "B026": {
+      "title": "Historische Geschäftsstraße mit Ladeneingängen.",
+      "lines": "509–512",
+      "original": "**B026 – Historische Geschäftsstraße mit Ladeneingängen.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Belegt ein früheres Straßenbild.\\\nFrühere Originaldatei: `B026__image(20261111-111649).png`."
+    },
+    "B027": {
+      "title": "Historischer Geschäftsplan „Lohbrügge Schritt für Schritt“ mit dem Eintrag „Sander Krug“.",
+      "lines": "513–516",
+      "original": "**B027 – Historischer Geschäftsplan „Lohbrügge Schritt für Schritt“ mit dem Eintrag „Sander Krug“.**\\\nOrdner: Sander Krug Alte Holstenstrasse 42. Bildart: Historischer Branchenbeleg. **Aussagewert:** Schriftlicher Nachweis des Gaststättennamens in einem örtlichen Geschäftsplan; kein fotografischer Innenraumnachweis. Derselbe Plan nennt gesondert „Gaststätte Zum Kegler-Treff“ (später Sander Treff): ein Dokument, zwei getrennte Lokalnamen.\\\nFrühere Originaldatei: `B027__image(20261111-112318).png`."
+    },
+    "B028": {
+      "title": "Moderne Geschäftsfront mit großem Schriftzug und Parkplätzen.",
+      "lines": "517–520",
+      "original": "**B028 – Moderne Geschäftsfront mit großem Schriftzug und Parkplätzen.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Zeigt einen späteren Geschäfts-/Straßenzustand.\\\nFrühere Originaldatei: `B028__image(20261111-112339).png`."
+    },
+    "B029": {
+      "title": "Historische Straße mit mehreren Einzelhandelsgeschäften.",
+      "lines": "521–524",
+      "original": "**B029 – Historische Straße mit mehreren Einzelhandelsgeschäften.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Zeigt das damalige Ladengewerbe.\\\nFrühere Originaldatei: `B029__image(20261111-112346).png`."
+    },
+    "B030": {
+      "title": "Historische Aufnahme eines kleinen beschrifteten Gefäßes.",
+      "lines": "525–528",
+      "original": "**B030 – Historische Aufnahme eines kleinen beschrifteten Gefäßes.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Gegenstand mit Beschriftung; Zuordnung zu einer Gaststätte nicht nachgewiesen.\\\nFrühere Originaldatei: `B030__image(20261111-112446).png`."
+    },
+    "B031": {
+      "title": "Ältere Geschäfts-/Gebäudereihe bei Bahnstrecke.",
+      "lines": "529–532",
+      "original": "**B031 – Ältere Geschäfts-/Gebäudereihe bei Bahnstrecke.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert historische Gebäude.\\\nFrühere Originaldatei: `B031__image(20261111-112900).png`."
+    },
+    "B032": {
+      "title": "Baustelle neben Schienen und Straße.",
+      "lines": "533–536",
+      "original": "**B032 – Baustelle neben Schienen und Straße.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert einen Baustellenzustand.\\\nFrühere Originaldatei: `B032__image(20261111-112909).png`."
+    },
+    "B033": {
+      "title": "Spätere Schienen-/Bahnhofsumgebung.",
+      "lines": "537–540",
+      "original": "**B033 – Spätere Schienen-/Bahnhofsumgebung.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert veränderte Bahn-/Straßenumgebung.\\\nFrühere Originaldatei: `B033__image(20261111-112923).png`."
+    },
+    "B034": {
+      "title": "Zeitungsseite „Historischer Gasthof Zur Sonne weicht der neuen Zeit“.",
+      "lines": "541–544",
+      "original": "**B034 – Zeitungsseite „Historischer Gasthof Zur Sonne weicht der neuen Zeit“.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Zeitungsbeleg. **Aussagewert:** Zeitungsbeleg zur Geschichte des Gasthofs und zum Abriss 1970.\\\nFrühere Originaldatei: `B034__image(20261111-114943).png`."
+    },
+    "B035": {
+      "title": "Zweiteiliger Gebäudevergleich: älteres Haus und spätere Neubebauung.",
+      "lines": "545–548",
+      "original": "**B035 – Zweiteiliger Gebäudevergleich: älteres Haus und spätere Neubebauung.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Standortvergleich. **Aussagewert:** Dokumentiert einen historischen und einen späteren Bebauungszustand; kein eigenständiger Nachweis des Gaststättenbetriebs.\\\nFrühere Originaldatei: `B035__image(20261111-115004).png`."
+    },
+    "B036": {
+      "title": "Historischer Gastraum mit gedeckten Tischen und Wanddekoration.",
+      "lines": "549–552",
+      "original": "**B036 – Historischer Gastraum mit gedeckten Tischen und Wanddekoration.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Innenaufnahme aus Beitragskontext. **Aussagewert:** Zeigt eine historische Gaststubeneinrichtung; Gasthofzuordnung stammt aus gemeinsamem Bildbeitrag.\\\nFrühere Originaldatei: `B036__image(20261111-115019).png`."
+    },
+    "B037": {
+      "title": "Historische Schanktheke mit Getränkeflaschen und Ausstattung.",
+      "lines": "553–556",
+      "original": "**B037 – Historische Schanktheke mit Getränkeflaschen und Ausstattung.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Innenaufnahme aus Beitragskontext. **Aussagewert:** Zeigt eine historische Theke; genaue Lokalisierung folgt aus dem Bildkontext.\\\nFrühere Originaldatei: `B037__image(20261111-115030).png`."
+    },
+    "B038": {
+      "title": "Historischer Gastraum mit mehreren Tischen und Bestuhlung.",
+      "lines": "557–560",
+      "original": "**B038 – Historischer Gastraum mit mehreren Tischen und Bestuhlung.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Innenaufnahme aus Beitragskontext. **Aussagewert:** Zeigt historische Gastronomieeinrichtung; Lokalname ist im Bild nicht erkennbar.\\\nFrühere Originaldatei: `B038__image(20261111-115040).png`."
+    },
+    "B039": {
+      "title": "Historische Ansichtskarte mit Gasthofbezug und Straßenansicht.",
+      "lines": "561–564",
+      "original": "**B039 – Historische Ansichtskarte mit Gasthofbezug und Straßenansicht.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Historische Ansichtskarte. **Aussagewert:** Historischer Gasthof wird im Bild-/Ansichtskartenkontext bezeichnet.\\\nFrühere Originaldatei: `B039__image(20261111-115100).png`."
+    },
+    "B040": {
+      "title": "Straßenaufnahme mit moderner Bebauung und älterem Eckgebäude.",
+      "lines": "565–568",
+      "original": "**B040 – Straßenaufnahme mit moderner Bebauung und älterem Eckgebäude.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Standortvergleich. **Aussagewert:** Veranschaulicht einen Ortszustand; nicht selbst der Beleg für den Gasthof.\\\nFrühere Originaldatei: `B040__image(20261111-115120).png`."
+    },
+    "B041": {
+      "title": "Historischer großer Gast- beziehungsweise Veranstaltungssaal.",
+      "lines": "569–572",
+      "original": "**B041 – Historischer großer Gast- beziehungsweise Veranstaltungssaal.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Innenaufnahme aus Beitragskontext. **Aussagewert:** Belegt die Ausstattung eines Saals; Bezug auf Zur Sonne beruht auf Beitragskontext.\\\nFrühere Originaldatei: `B041__image(20261111-115130).png`."
+    },
+    "B042": {
+      "title": "Historisches Foto eines Getränke- oder Vorratsregals.",
+      "lines": "573–576",
+      "original": "**B042 – Historisches Foto eines Getränke- oder Vorratsregals.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Ausstattung aus Beitragskontext. **Aussagewert:** Dokumentiert Gastronomieausstattung, aber nicht selbst den Namen des Gasthofs.\\\nFrühere Originaldatei: `B042__image(20261111-115139).png`."
+    },
+    "B043": {
+      "title": "Historische Schankanlage mit Leitungen und Behältern.",
+      "lines": "577–580",
+      "original": "**B043 – Historische Schankanlage mit Leitungen und Behältern.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Ausstattung aus Beitragskontext. **Aussagewert:** Dokumentiert Schanktechnik; genaue Zuordnung zum Gasthof anhand Beitragskontext.\\\nFrühere Originaldatei: `B043__image(20261111-115148).png`."
+    },
+    "B044": {
+      "title": "Historische Verkehrsszene mit Polizeibeamtem und Passanten.",
+      "lines": "581–584",
+      "original": "**B044 – Historische Verkehrsszene mit Polizeibeamtem und Passanten.**\\\nOrdner: Allgemeine Stadtansichten ohne konkreten Kneipenbezug. Bildart: Allgemeine Ortsdokumentation. **Aussagewert:** Dokumentiert einen historischen Verkehrsmoment.\\\nFrühere Originaldatei: `B044__image(20261111-115526).png`."
+    },
+    "B045": {
+      "title": "Historische Fassadenaufnahme mit lesbarer Aufschrift „GASTHOF ZUR SONNE“.",
+      "lines": "585–588",
+      "original": "**B045 – Historische Fassadenaufnahme mit lesbarer Aufschrift „GASTHOF ZUR SONNE“.**\\\nOrdner: Gasthof Zur Sonne. Bildart: Direkter Namensnachweis. **Aussagewert:** Unmittelbarer Bildnachweis eines Gebäudes mit dem Namen „Gasthof Zur Sonne“.\\\nFrühere Originaldatei: `B045__image(20261111-115652).png`."
+    },
+    "B046": {
+      "title": "Historische gedruckte Anzeige mit den Namen „Holsteinischer Hof“ und „Fledermaus“.",
+      "lines": "589–592",
+      "original": "**B046 – Historische gedruckte Anzeige mit den Namen „Holsteinischer Hof“ und „Fledermaus“.**\\\nOrdner: Holsteinischer Hof Fledermaus. Bildart: Historische Werbeanzeige. **Aussagewert:** Dokumentiert die beworbene Existenz des Veranstaltungsortes und sein Unterhaltungsprogramm.\\\nFrühere Originaldatei: `B046__image(20261111-120330).png`."
+    },
+    "B047": {
+      "title": "Historische Straßenansicht mit Eisenbahnbrücke und Geschäftsgebäuden.",
+      "lines": "593–596",
+      "original": "**B047 – Historische Straßenansicht mit Eisenbahnbrücke und Geschäftsgebäuden.**\\\nOrdner: Holsteinischer Hof Fledermaus. Bildart: Historische Umgebung. **Aussagewert:** Dokumentiert die Umgebung am historischen Bahnhof und an der Brücke, nicht für sich allein den Gaststättennamen.\\\nFrühere Originaldatei: `B047__image(20261111-120339).png`."
+    },
+    "B048": {
+      "title": "Historische Straßen-/Brückenansicht mit Platz und Bebauung.",
+      "lines": "597–600",
+      "original": "**B048 – Historische Straßen-/Brückenansicht mit Platz und Bebauung.**\\\nOrdner: Holsteinischer Hof Fledermaus. Bildart: Historische Umgebung. **Aussagewert:** Dokumentiert die damalige Straßenlandschaft im Umfeld, nicht unmittelbar den Betrieb.\\\nFrühere Originaldatei: `B048__image(20261111-120351).png`."
+    },
+    "B049": {
+      "title": "Historische Ladenfront an einer Kreuzung mit Ladenschildern.",
+      "lines": "601–604",
+      "original": "**B049 – Historische Ladenfront an einer Kreuzung mit Ladenschildern.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert alte Geschäfte; keine bestimmte Kneipe nachgewiesen.\\\nFrühere Originaldatei: `B049__image(20261111-120406).png`."
+    },
+    "B050": {
+      "title": "Weitere historische Geschäftsstraße.",
+      "lines": "605–608",
+      "original": "**B050 – Weitere historische Geschäftsstraße.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert die damalige Straße mit Läden.\\\nFrühere Originaldatei: `B050__image(20261111-120422).png`."
+    },
+    "B051": {
+      "title": "Historisches Eckgeschäft, Fassaden- und Ladendetails.",
+      "lines": "609–612",
+      "original": "**B051 – Historisches Eckgeschäft, Fassaden- und Ladendetails.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert alte Einzelhandelsarchitektur.\\\nFrühere Originaldatei: `B051__image(20261111-120437).png`."
+    },
+    "B052": {
+      "title": "Spätere Geschäftszeile mit Beschriftungen auf Ladenfronten.",
+      "lines": "613–616",
+      "original": "**B052 – Spätere Geschäftszeile mit Beschriftungen auf Ladenfronten.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert spätere Geschäftsfronten.\\\nFrühere Originaldatei: `B052__image(20261111-121041).png`."
+    },
+    "B053": {
+      "title": "Ältere Gebäudegruppe mit Werbung und Ladenbeschilderung.",
+      "lines": "617–620",
+      "original": "**B053 – Ältere Gebäudegruppe mit Werbung und Ladenbeschilderung.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert Geschäftsgebäude und Werbeschilder.\\\nFrühere Originaldatei: `B053__image(20261111-121049).png`."
+    },
+    "B054": {
+      "title": "Spätere Aufnahme der Ladenreihe mit Einzelhandelsgeschäften.",
+      "lines": "621–624",
+      "original": "**B054 – Spätere Aufnahme der Ladenreihe mit Einzelhandelsgeschäften.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert das damalige Straßenbild mit Läden.\\\nFrühere Originaldatei: `B054__image(20261111-121100).png`."
+    },
+    "B055": {
+      "title": "Straßenübersicht mit mehreren Häusern und Geschäften.",
+      "lines": "625–628",
+      "original": "**B055 – Straßenübersicht mit mehreren Häusern und Geschäften.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert das Gebiet, aber nicht ein bestimmtes Lokal.\\\nFrühere Originaldatei: `B055__image(20261111-121112).png`."
+    },
+    "B056": {
+      "title": "Foto des Geschäfts „FARBEN-SCHMIDT“ mit Schaufenster.",
+      "lines": "629–632",
+      "original": "**B056 – Foto des Geschäfts „FARBEN-SCHMIDT“ mit Schaufenster.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Direkter Beleg des Namens „Farben-Schmidt“.\\\nFrühere Originaldatei: `B056__image(20261111-121124).png`."
+    },
+    "B057": {
+      "title": "Straßenfoto mit Ladenfronten und Fassadengestaltung.",
+      "lines": "633–636",
+      "original": "**B057 – Straßenfoto mit Ladenfronten und Fassadengestaltung.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert eine historische Geschäftsstraße.\\\nFrühere Originaldatei: `B057__image(20261111-122244).png`."
+    },
+    "B058": {
+      "title": "Historische Straßen- und Gebäudeaufnahme, im Bild mit „Weisser Rabe Lohbrügge“ beschriftet.",
+      "lines": "637–640",
+      "original": "**B058 – Historische Straßen- und Gebäudeaufnahme, im Bild mit „Weisser Rabe Lohbrügge“ beschriftet.**\\\nOrdner: Weisser Rabe Kegler Treff Sander Treff. Bildart: Beschriftetes historisches Gebäudefoto. **Aussagewert:** Belegt die historische Bezeichnung „Weißer Rabe“ im Bildkontext und zeigt das zugeordnete Gebäude.\\\nFrühere Originaldatei: `B058__image(20261111-122526).png`."
+    },
+    "B059": {
+      "title": "Historische Bildcollage mit Außen- und Innenansichten; sichtbarer bzw. begleitender Bezug zum Weißen Raben.",
+      "lines": "641–644",
+      "original": "**B059 – Historische Bildcollage mit Außen- und Innenansichten; sichtbarer bzw. begleitender Bezug zum Weißen Raben.**\\\nOrdner: Weisser Rabe Kegler Treff Sander Treff. Bildart: Historische Bildcollage. **Aussagewert:** Zeigt frühere Fassaden-/Gaststubenansichten, genaue Zuordnung der einzelnen Teilbilder aus Collage gesondert erläutern.\\\nFrühere Originaldatei: `B059__image(20261111-122535).png`."
+    },
+    "B060": {
+      "title": "Neuere Straßenansicht eines der im Gespräch genannten historischen Bereiche.",
+      "lines": "645–648",
+      "original": "**B060 – Neuere Straßenansicht eines der im Gespräch genannten historischen Bereiche.**\\\nOrdner: Weisser Rabe Kegler Treff Sander Treff. Bildart: Spätere Ortsansicht. **Aussagewert:** Dokumentiert eine spätere Umgebung, nicht selbst die Namen Kegler-Treff oder Sander Treff.\\\nFrühere Originaldatei: `B060__image(20261111-122546).png`."
+    },
+    "B061": {
+      "title": "Historische Straße mit alten Ladengeschäften.",
+      "lines": "649–652",
+      "original": "**B061 – Historische Straße mit alten Ladengeschäften.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert frühere Geschäfte.\\\nFrühere Originaldatei: `B061__image(20261111-172741).png`."
+    },
+    "B062": {
+      "title": "Spätere Geschäftsstraße mit Fachwerk- und Altbauten.",
+      "lines": "653–656",
+      "original": "**B062 – Spätere Geschäftsstraße mit Fachwerk- und Altbauten.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert spätere Ladenfronten.\\\nFrühere Originaldatei: `B062__image(20261111-172754).png`."
+    },
+    "B063": {
+      "title": "Historischer eingerichteter Café-/Gastraum mit Kronleuchter und gedeckten Tischen.",
+      "lines": "657–660",
+      "original": "**B063 – Historischer eingerichteter Café-/Gastraum mit Kronleuchter und gedeckten Tischen.**\\\nOrdner: Cafe Moeller Alte Holstenstrasse 76. Bildart: Historische Innenaufnahme. **Aussagewert:** Dokumentiert eine historische Café-Innenausstattung; zu Café Möller durch Gesprächskontext zugeordnet.\\\nFrühere Originaldatei: `B063__image(20261111-172806).png`."
+    },
+    "B064": {
+      "title": "Historische Außenaufnahme aus dem Bildblock zur Alten Holstenstraße und zu Café Möller.",
+      "lines": "661–664",
+      "original": "**B064 – Historische Außenaufnahme aus dem Bildblock zur Alten Holstenstraße und zu Café Möller.**\\\nOrdner: Cafe Moeller Alte Holstenstrasse 76. Bildart: Historisches Standortfoto. **Aussagewert:** Dokumentiert einen historischen Gebäudebereich; genaue Parzelle aus dem Foto allein nicht feststellbar.\\\nFrühere Originaldatei: `B064__image(20261111-172825).png`."
+    },
+    "B065": {
+      "title": "Aufnahme eines alten Caféraums beziehungsweise Tresens mit Spiegel und Einrichtung.",
+      "lines": "665–668",
+      "original": "**B065 – Aufnahme eines alten Caféraums beziehungsweise Tresens mit Spiegel und Einrichtung.**\\\nOrdner: Cafe Moeller Alte Holstenstrasse 76. Bildart: Historische Innenaufnahme. **Aussagewert:** Dokumentiert Café-Innenausstattung, der Eigenname ist im Bild nicht zu lesen.\\\nFrühere Originaldatei: `B065__image(20261111-172843).png`."
+    },
+    "B066": {
+      "title": "Historischer Zeitungsausschnitt über das bedrohte „Kaffee Möller“ und alte Häuser.",
+      "lines": "669–672",
+      "original": "**B066 – Historischer Zeitungsausschnitt über das bedrohte „Kaffee Möller“ und alte Häuser.**\\\nOrdner: Cafe Moeller Alte Holstenstrasse 76. Bildart: Zeitungsbeleg. **Aussagewert:** Schriftlicher Zeitungsbeleg der historischen Existenz von Kaffee Möller und der damaligen Abrissplanung.\\\nFrühere Originaldatei: `B066__image(20261111-172858).png`."
+    },
+    "B067": {
+      "title": "Altes Gebäude mit Ladenfront an der Straßenkante.",
+      "lines": "673–676",
+      "original": "**B067 – Altes Gebäude mit Ladenfront an der Straßenkante.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert ein historisches Gebäude mit Ladennutzung.\\\nFrühere Originaldatei: `B067__image(20261111-173330).png`."
+    },
+    "B068": {
+      "title": "Straßenaufnahme mit historischem Geschäftsbesatz.",
+      "lines": "677–680",
+      "original": "**B068 – Straßenaufnahme mit historischem Geschäftsbesatz.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert einen Geschäftsstraßenzug.\\\nFrühere Originaldatei: `B068__image(20261111-175032).png`."
+    },
+    "B069": {
+      "title": "Weitere Straßenaufnahme mit Einzelhandelsgeschäften.",
+      "lines": "681–684",
+      "original": "**B069 – Weitere Straßenaufnahme mit Einzelhandelsgeschäften.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert alte Läden.\\\nFrühere Originaldatei: `B069__image(20261111-175045).png`."
+    },
+    "B070": {
+      "title": "Straße mit mehreren Läden und Straßenverkehr.",
+      "lines": "685–688",
+      "original": "**B070 – Straße mit mehreren Läden und Straßenverkehr.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert eine Ladenzeile.\\\nFrühere Originaldatei: `B070__image(20261111-175053).png`."
+    },
+    "B071": {
+      "title": "Innenstadt-Ansicht der Geschäftsfronten im historischen Bergedorf.",
+      "lines": "689–692",
+      "original": "**B071 – Innenstadt-Ansicht der Geschäftsfronten im historischen Bergedorf.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert frühere Handelslandschaft.\\\nFrühere Originaldatei: `B071__image(20261111-175105).png`."
+    },
+    "B072": {
+      "title": "Spätere Aufnahme des Eckgebäudes mit Gaststättenbeschilderung an der Ecke Höperfeld.",
+      "lines": "693–696",
+      "original": "**B072 – Spätere Aufnahme des Eckgebäudes mit Gaststättenbeschilderung an der Ecke Höperfeld.**\\\nOrdner: Ballhaus Eckermann Von Hacht Zumsel. Bildart: Gebäudefoto zum Lokal. **Aussagewert:** Dokumentiert das Gebäude des späteren Lokals Zumsel; die Zuordnung beruht auf dem ursprünglichen Bildbeitrag.\\\nFrühere Originaldatei: `B072__image(20261111-181705).png`."
+    },
+    "B073": {
+      "title": "Historische beschriftete Ansicht „Sande. Waldstrasse“, mit dem Eckhaus und Aufschrift „1891“.",
+      "lines": "697–700",
+      "original": "**B073 – Historische beschriftete Ansicht „Sande. Waldstrasse“, mit dem Eckhaus und Aufschrift „1891“.**\\\nOrdner: Ballhaus Eckermann Von Hacht Zumsel. Bildart: Historische Gebäudeansicht. **Aussagewert:** Dokumentiert das historische Haus und die damalige Waldstraße; Name Eckermann/Zumsel nicht als Gaststättenschild lesbar.\\\nFrühere Originaldatei: `B073__image(20261111-181717).png`."
+    },
+    "B074": {
+      "title": "Historische Geschäftsstraße mit frühen Autos.",
+      "lines": "701–704",
+      "original": "**B074 – Historische Geschäftsstraße mit frühen Autos.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert historische Geschäfte an einer Straße.\\\nFrühere Originaldatei: `B074__image(20261111-183725).png`."
+    },
+    "B075": {
+      "title": "Weitere historische Straßenansicht mit Autos und Ladengeschäften.",
+      "lines": "705–708",
+      "original": "**B075 – Weitere historische Straßenansicht mit Autos und Ladengeschäften.**\\\nOrdner: Geschaefte Sonnenberg und historische Einzelhandelsbilder. Bildart: Geschäfts- oder Straßenbild. **Aussagewert:** Dokumentiert frühere Straßenbebauung.\\\nFrühere Originaldatei: `B075__image(20261111-183736).png`."
+    },
+    "B076": {
+      "title": "Historische Straßen- und Geschäftszeile an der Grandkoppel mit Hochhaus im Hintergrund.",
+      "lines": "709–712",
+      "original": "**B076 – Historische Straßen- und Geschäftszeile an der Grandkoppel mit Hochhaus im Hintergrund.**\\\nOrdner: Kneipe in der Ladenzeile Grandkoppel. Bildart: Standortbereich mit Zeitzeugenangabe. **Aussagewert:** Die Ladenzeile ist fotografiert; die Kneipe wird im zugehörigen Zeitzeugenbericht genannt, ist im Foto aber nicht namentlich identifiziert.\\\nFrühere Originaldatei: `B076__image(20261111-184711).png`."
+    },
+    "B077": {
+      "title": "Zweite Ansicht derselben Ladenzeile mit Geschäftsschaufenstern und Hochhaus.",
+      "lines": "713–716",
+      "original": "**B077 – Zweite Ansicht derselben Ladenzeile mit Geschäftsschaufenstern und Hochhaus.**\\\nOrdner: Kneipe in der Ladenzeile Grandkoppel. Bildart: Standortbereich mit Zeitzeugenangabe. **Aussagewert:** Ergänzende Aufnahme der Geschäftszeile; kein selbstständiger Namensbeleg für „Prangkoppel“.\\\nFrühere Originaldatei: `B077__image(20261111-184731).png`."
+    },
+    "B078": {
+      "title": "Historische Ansicht der schmalen Straße „Hinterm Graben“, mit der Beischrift „Danziger Stuben“.",
+      "lines": "717–720",
+      "original": "**B078 – Historische Ansicht der schmalen Straße „Hinterm Graben“, mit der Beischrift „Danziger Stuben“.**\\\nOrdner: Danziger Stuben Hinterm Graben. Bildart: Beschriftete Straßenaufnahme. **Aussagewert:** Dokumentiert den Straßenbereich, der im Beitrag mit den Danziger Stuben verbunden wird; nicht zwingend die Gaststätte selbst.\\\nFrühere Originaldatei: `B078__image(20261111-185418).png`."
+    },
+    "B079": {
+      "title": "Historische Fachwerk- und Backsteinbebauung in einer engen Gasse.",
+      "lines": "721–724",
+      "original": "**B079 – Historische Fachwerk- und Backsteinbebauung in einer engen Gasse.**\\\nOrdner: Danziger Stuben Hinterm Graben. Bildart: Historische Umgebung. **Aussagewert:** Dokumentiert historische Bebauung in der Nähe der Danziger Stuben.\\\nFrühere Originaldatei: `B079__image(20261111-185434).png`."
+    },
+    "B080": {
+      "title": "Weitere historische Gebäudeansicht im Straßenbereich Hinterm Graben.",
+      "lines": "725–728",
+      "original": "**B080 – Weitere historische Gebäudeansicht im Straßenbereich Hinterm Graben.**\\\nOrdner: Danziger Stuben Hinterm Graben. Bildart: Historische Umgebung. **Aussagewert:** Dokumentiert historische Bebauung, ohne den Namen der Gaststätte zu zeigen.\\\nFrühere Originaldatei: `B080__image(20261111-185449).png`."
+    },
+    "B081": {
+      "title": "Historische Postkarte einer Straße in Sande / Lohbrügge mit Gebäuden beiderseits der Straße.",
+      "lines": "729–732",
+      "original": "**B081 – Historische Postkarte einer Straße in Sande / Lohbrügge mit Gebäuden beiderseits der Straße.**\\\nOrdner: Destille Alte Holstenstrasse. Bildart: Historischer Standortkontext. **Aussagewert:** Im Begleitbeitrag wurde das spätere Gebäude der Destille rechts verortet; die Aufnahme belegt die frühere Bebauung, nicht den späteren Kneipennamen.\\\nFrühere Originaldatei: `B081__image(20261111-190106).png`."
+    },
+    "B082": {
+      "title": "Historische Anzeige „Konzerthaus Zum Anker“ mit Besitzer R. Störmer und Adresse Serrahnstraße 9.",
+      "lines": "733–736",
+      "original": "**B082 – Historische Anzeige „Konzerthaus Zum Anker“ mit Besitzer R. Störmer und Adresse Serrahnstraße 9.**\\\nOrdner: Zum Anker Serrahnstrasse 9. Bildart: Historische Werbeanzeige. **Aussagewert:** Direkter schriftlicher Beleg für das Konzert- und Gaststättenlokal „Zum Anker“.\\\nFrühere Originaldatei: `B082__image(20261111-190906).png`."
+    },
+    "B083": {
+      "title": "Straßenfoto eines späteren Gastronomiebetriebs am Serrahn mit CCB im Hintergrund.",
+      "lines": "737–740",
+      "original": "**B083 – Straßenfoto eines späteren Gastronomiebetriebs am Serrahn mit CCB im Hintergrund.**\\\nOrdner: Zum Anker Serrahnstrasse 9. Bildart: Späteres Standortfoto. **Aussagewert:** Belegt einen späteren Straßen-/Gastronomiezustand; die Identität mit dem historischen Zum Anker folgt nur aus Begleittext.\\\nFrühere Originaldatei: `B083__image(20261111-190916).png`."
+    },
+    "B084": {
+      "title": "Historische Aufnahme eines großformatigen Hauses im Serrahn-Umfeld.",
+      "lines": "741–744",
+      "original": "**B084 – Historische Aufnahme eines großformatigen Hauses im Serrahn-Umfeld.**\\\nOrdner: Zum Anker Serrahnstrasse 9. Bildart: Historische Hausansicht. **Aussagewert:** Historische Gebäudegestalt des besprochenen Standortumfelds, allein kein eindeutiger Namensbeleg.\\\nFrühere Originaldatei: `B084__image(20261111-190934).png`."
+    },
+    "B085": {
+      "title": "Übersichtsaufnahme der Baustelle und Wasserfläche am Serrahn.",
+      "lines": "745–748",
+      "original": "**B085 – Übersichtsaufnahme der Baustelle und Wasserfläche am Serrahn.**\\\nOrdner: Zum Anker Serrahnstrasse 9. Bildart: Städtebaulicher Vergleich. **Aussagewert:** Zeigt die spätere Gebietsentwicklung, nicht allein den Betrieb Zum Anker.\\\nFrühere Originaldatei: `B085__image(20261111-190948).png`."
+    },
+    "B086": {
+      "title": "Aufnahme des Gaststättengebäudes mit gut lesbaren Fassadenaufschriften „BAHNHOFS-GASTSTÄTTEN“, „HOLSTEN-BIER“ und „RISTORANTE“.",
+      "lines": "749–752",
+      "original": "**B086 – Aufnahme des Gaststättengebäudes mit gut lesbaren Fassadenaufschriften „BAHNHOFS-GASTSTÄTTEN“, „HOLSTEN-BIER“ und „RISTORANTE“.**\\\nOrdner: Bahnhofsgaststaetten Bergedorf. Bildart: Direkter Fassadenbeleg. **Aussagewert:** Unmittelbarer fotografischer Nachweis einer Bahnhofsgaststätte und einer gastronomischen Nutzung des abgebildeten Gebäudes; genaue Aufnahmezeit noch unbekannt.\\\nFrühere Originaldatei: `B086__image(20261111-195908).png`."
+    },
+    "B087": {
+      "title": "Vom Nutzer bereitgestellter Street-View-Ausschnitt des früheren Eckhaus-/Gastronomiestandorts.",
+      "lines": "753–756",
+      "original": "**B087 – Vom Nutzer bereitgestellter Street-View-Ausschnitt des früheren Eckhaus-/Gastronomiestandorts.**\\\nOrdner: Engel frueherer Standort Alte Holstenstrasse. Bildart: Street-View-Aufnahme, 2022. **Aussagewert:** Dokumentiert den Straßen- und Fassadenzustand im Juni 2022, im Gespräch dem früheren Engel zugeordnet.\\\nFrühere Originaldatei: `B087__IMG_8387.jpeg`."
+    },
+    "B088": {
+      "title": "Zweiter vom Nutzer bereitgestellter Street-View-Ausschnitt zum früheren Engel-Standort.",
+      "lines": "757–761",
+      "original": "**B088 – Zweiter vom Nutzer bereitgestellter Street-View-Ausschnitt zum früheren Engel-Standort.**\\\nOrdner: Engel frueherer Standort Alte Holstenstrasse. Bildart: Street-View-Aufnahme, 2022. **Aussagewert:** Dokumentiert denselben historischen Fassadenbereich aus anderer Ansicht; Beschriftung für exakte Nutzung im Original prüfen.\\\nFrühere Originaldatei: `B088__IMG_8388.jpeg`.\n\n**Doppelte Bezugnahme:** B027 ist eine einzige historische Geschäftsplanaufnahme, die gleichzeitig für Sander Krug und Kegler-Treff als schriftlicher Namensbeleg dient. Bilddatei nicht doppelt zählen; beide Standortdatensätze können denselben Medien-Datensatz referenzieren."
+    }
+  },
+  "reportCorrections": {
+    "B001": [
+      "Kolorierte Eckhausansicht mit Aufschrift Max Johannsen.",
+      "Schriftzug und Gebäude sind sichtbar; Zu-den-Eichen-Zuordnung erst zusammen mit historischem Ortsbeleg.",
+      "haus"
+    ],
+    "B002": [
+      "Smartphonefoto zweier gedruckter Seiten eines Gaststätten- und Freizeitverzeichnisses.",
+      "Keine Infotafel und kein Stadtplan: schriftliche Namens- und Adressbelege. Druckwerk und Ausgabe offen; „1988 ausgebaut“ datiert nicht die gesamte Liste.",
+      "liste"
+    ],
+    "B011": [
+      "Historische Geschäftseingänge mit teilweise lesbarer Juwelierbeschriftung.",
+      "Geschäftsfront, kein belegter Gaststättenbezug.",
+      "geschaeft"
+    ],
+    "B023": [
+      "Werbeanzeige Sonnenberg für TV, Video, Hifi und Schallplatten.",
+      "Direkter schriftlicher Geschäftsname; Werbung ist kein Nachweis tatsächlicher Begegnungen.",
+      "werbung"
+    ],
+    "B024": [
+      "Geschäftsfronten mit lesbarer Sonnenberg-Beschriftung.",
+      "Geschäftsnachweis, kein Gaststättenfoto.",
+      "geschaeft"
+    ],
+    "B027": [
+      "Historischer Geschäftsplan mit Namen, darunter Buchhandlung Nordmann, Fahrrad Mai und Kegler-Treff.",
+      "Schriftliche Lagehinweise; Nordmann und Mai sind getrennte Geschäfte. Auch Sander Krug und Kegler-Treff sind getrennt dargestellt.",
+      "plan"
+    ],
+    "B028": [
+      "Street-View-Wiedergabe einer Geschäftsstraße.",
+      "Spätere Umgebung, kein Nachweis einer historischen Kneipennutzung.",
+      "streetview"
+    ],
+    "B034": [
+      "Bille-Anzeigen-Rundschau: Historischer Gasthof Zur Sonne weicht der neuen Zeit.",
+      "Zeitungsbericht vom 13. August 1970, Jahrgang 7, Nr. 33, Seite 1. Ankündigung des Abbruchs; Fortsetzungsseite fehlt.",
+      "zeitung"
+    ],
+    "B051": [
+      "Fassade mit lesbarer Beschriftung Zum Treppchen.",
+      "Direkter Namensbeleg für Zum Treppchen; nicht als Rastro-Foto zuordnen.",
+      "direkt"
+    ],
+    "B057": [
+      "Rastro-Fassade mit lesbarer Lokalbeschriftung.",
+      "Direkter Namensbeleg am Gebäude; kein Schließungsdatum aus dem Foto ableitbar.",
+      "direkt"
+    ],
+    "B066": [
+      "Zeitungsausschnitt zum Café Möller mit handschriftlichem Datum 18.12.88.",
+      "Bericht über bereits beendeten Cafébetrieb; Zeitungskopf fehlt. Nicht mit Gebäudeabbruch 1991 verwechseln.",
+      "zeitung"
+    ],
+    "B087": [
+      "Street-View-Wiedergabe mit Engel-Beschriftung.",
+      "Sichtbarer Name; Aufnahmezeit, Standortfolge und heutige Nutzung zusätzlich prüfen.",
+      "streetview"
+    ],
+    "B088": [
+      "Weitere Street-View-Wiedergabe am früheren Engel-Standort.",
+      "Umgebung und Beschriftung; keine eigenständige Bestätigung von Betreiberfolge oder Umzugsdatum.",
+      "streetview"
+    ]
+  },
+  "publicImageFiles": 0,
+  "reason": "Individuelle Rechteketten offen; ZIP nicht öffentlich bereitgestellt."
+}

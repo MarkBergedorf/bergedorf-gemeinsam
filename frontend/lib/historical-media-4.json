@@ -1,0 +1,3060 @@
+[
+  {
+    "id": "B001",
+    "numbers": [
+      "B001"
+    ],
+    "title": "Kolorierte Eckhausansicht mit Aufschrift Max Johannsen.",
+    "description": "Kolorierte Eckhausansicht mit Aufschrift Max Johannsen.",
+    "evidence": "Schriftzug und Gebäude sind sichtbar; Zu-den-Eichen-Zuordnung erst zusammen mit historischem Ortsbeleg.",
+    "kind": "haus",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Kolorierte Eckhausansicht mit Aufschrift Max Johannsen.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B001",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B001_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "f7bc2d2c0a04dae6ed519285a17afbd618298388467869516958bb692ff9ea5c",
+        "dimensions": [
+          590,
+          379
+        ],
+        "reportLines": "409–412",
+        "originalFilename": "B001__image(20261111-085609).png"
+      }
+    ],
+    "siteIds": [
+      "eichen"
+    ]
+  },
+  {
+    "id": "B002",
+    "numbers": [
+      "B002"
+    ],
+    "title": "Smartphonefoto zweier gedruckter Seiten eines Gaststätten- und Freizeitverzeichnisses.",
+    "description": "Smartphonefoto zweier gedruckter Seiten eines Gaststätten- und Freizeitverzeichnisses.",
+    "evidence": "Keine Infotafel und kein Stadtplan: schriftliche Namens- und Adressbelege. Druckwerk und Ausgabe offen; „1988 ausgebaut“ datiert nicht die gesamte Liste.",
+    "kind": "liste",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Smartphonefoto zweier gedruckter Seiten eines Gaststätten- und Freizeitverzeichnisses.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B002",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B002_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "3dcf96a614e1917d6849857984842f2489c7937bc3f23315d8965f59087d9193",
+        "dimensions": [
+          946,
+          2048
+        ],
+        "reportLines": "413–416",
+        "originalFilename": "B002__image(20261111-102041).png"
+      }
+    ],
+    "siteIds": [
+      "sander-krug",
+      "rastro",
+      "spectrum",
+      "eichen",
+      "kogge",
+      "engel-alt",
+      "nyx",
+      "la-casa",
+      "suhrhof13",
+      "loma",
+      "holstenhof",
+      "holsteneck",
+      "hanne-beck",
+      "korfu",
+      "lenz",
+      "exclusiv",
+      "boberger-hoehe",
+      "schuetzenhof",
+      "time",
+      "waldschloss",
+      "toepferkrug",
+      "blockhaus",
+      "jever",
+      "mendel-stube",
+      "florida"
+    ]
+  },
+  {
+    "id": "B003",
+    "numbers": [
+      "B003"
+    ],
+    "title": "Historische, im Bild als Gasthof Zur Sonne bezeichnete Eckhausansicht.",
+    "description": "Historische, im Bild als Gasthof Zur Sonne bezeichnete Eckhausansicht.",
+    "evidence": "Belegt die historische Existenz des Gasthofs unter diesem Namen.",
+    "kind": "direkt",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische, im Bild als Gasthof Zur Sonne bezeichnete Eckhausansicht.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B003",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B003_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "0fdae75cafdeedbb240c0dc3c6fc599ba2bb6852b31ba60e0da2f4c6312f10d0",
+        "dimensions": [
+          2048,
+          1503
+        ],
+        "reportLines": "417–420",
+        "originalFilename": "B003__image(20261111-104222).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B004",
+    "numbers": [
+      "B004"
+    ],
+    "title": "Straßenblick auf niedrige Geschäftsgebäude und geparkte Autos.",
+    "description": "Straßenblick auf niedrige Geschäftsgebäude und geparkte Autos.",
+    "evidence": "Dokumentiert Gebäude- und Straßenumgebung.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Straßenblick auf niedrige Geschäftsgebäude und geparkte Autos.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B004",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B004_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "29ee3d16da5cc0df344723053d0b5ad7d504be722662ede3e32689cba6b34302",
+        "dimensions": [
+          2048,
+          1274
+        ],
+        "reportLines": "421–424",
+        "originalFilename": "B004__image(20261111-104902).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B005",
+    "numbers": [
+      "B005"
+    ],
+    "title": "Ladengebäude beziehungsweise Passage mit farbigem Vorbau.",
+    "description": "Ladengebäude beziehungsweise Passage mit farbigem Vorbau.",
+    "evidence": "Dokumentiert spätere Ladenfronten.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Ladengebäude beziehungsweise Passage mit farbigem Vorbau.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B005",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B005_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "783d6ceda4861b1f21c1793fe2a035e7dade368ab20eaa329fd3e2c1d293526b",
+        "dimensions": [
+          1080,
+          720
+        ],
+        "reportLines": "425–428",
+        "originalFilename": "B005__image(20261111-104915).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B006",
+    "numbers": [
+      "B006"
+    ],
+    "title": "Baustellenbild mit Bauschutt.",
+    "description": "Baustellenbild mit Bauschutt.",
+    "evidence": "Dokumentiert Abriss-/Baustellenzustand, nicht eine konkrete Kneipe.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Baustellenbild mit Bauschutt.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B006",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B006_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "7dae86fb18fd8c7c4cbe771be8493f6e2bd3d032d8a8d419c6a6dce02592753a",
+        "dimensions": [
+          2048,
+          1365
+        ],
+        "reportLines": "429–432",
+        "originalFilename": "B006__image(20261111-104929).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B007",
+    "numbers": [
+      "B007"
+    ],
+    "title": "Gebäude- und Baustellenzustand mit „Pamukkale“-Schild.",
+    "description": "Gebäude- und Baustellenzustand mit „Pamukkale“-Schild.",
+    "evidence": "Belegt spätere Pamukkale-Beschriftung, nicht automatisch frühere Engel-Nutzung.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Gebäude- und Baustellenzustand mit „Pamukkale“-Schild.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B007",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B007_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "930cd68152b8818aa1175f811b5e0dd7388bf6899d54053004785756fb5a7cfb",
+        "dimensions": [
+          2048,
+          1453
+        ],
+        "reportLines": "433–436",
+        "originalFilename": "B007__image(20261111-104941).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B008",
+    "numbers": [
+      "B008"
+    ],
+    "title": "Historischer Straßenzug mit Geschäften und Passanten.",
+    "description": "Historischer Straßenzug mit Geschäften und Passanten.",
+    "evidence": "Dokumentiert historische Straße.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historischer Straßenzug mit Geschäften und Passanten.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B008",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B008_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "159acd1031afa6d5d89b37b7e38b0bbedb0b8c7d3b15c7fba4649ebc1c89d473",
+        "dimensions": [
+          2048,
+          1352
+        ],
+        "reportLines": "437–440",
+        "originalFilename": "B008__image(20261111-104950).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B009",
+    "numbers": [
+      "B009"
+    ],
+    "title": "Älterer Straßenblick mit Eckgebäude.",
+    "description": "Älterer Straßenblick mit Eckgebäude.",
+    "evidence": "Dokumentiert historische Bebauung.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Älterer Straßenblick mit Eckgebäude.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B009",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B009_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "5befc7ae7ea5681184c0ffa24aed074741bfe20be98a075face9192ea6e8a75f",
+        "dimensions": [
+          2048,
+          1365
+        ],
+        "reportLines": "441–444",
+        "originalFilename": "B009__image(20261111-105006).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B010",
+    "numbers": [
+      "B010"
+    ],
+    "title": "Stadtansicht bei einem Straßen-/Platzbereich.",
+    "description": "Stadtansicht bei einem Straßen-/Platzbereich.",
+    "evidence": "Dokumentiert einen Ortszustand.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Stadtansicht bei einem Straßen-/Platzbereich.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B010",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B010_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "af0d85ee36891b51a3fca2f13234afbea2d5c9a2860120d55969f9d511b7c247",
+        "dimensions": [
+          720,
+          960
+        ],
+        "reportLines": "445–448",
+        "originalFilename": "B010__image(20261111-105029).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B011",
+    "numbers": [
+      "B011"
+    ],
+    "title": "Historische Geschäftseingänge mit teilweise lesbarer Juwelierbeschriftung.",
+    "description": "Historische Geschäftseingänge mit teilweise lesbarer Juwelierbeschriftung.",
+    "evidence": "Geschäftsfront, kein belegter Gaststättenbezug.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Geschäftseingänge mit teilweise lesbarer Juwelierbeschriftung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B011",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B011_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "149113178a4c10b720b7162e649b3c1c25b33ffec91d441b5eb9399dcd00e0ed",
+        "dimensions": [
+          807,
+          1219
+        ],
+        "reportLines": "449–452",
+        "originalFilename": "B011__image(20261111-110500).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B012",
+    "numbers": [
+      "B012",
+      "B026"
+    ],
+    "title": "Historische Geschäftsstraße mit mehreren Ladeneingängen.",
+    "description": "Historische Geschäftsstraße mit mehreren Ladeneingängen.",
+    "evidence": "Dokumentiert eine Einkaufsstraße, nicht eine bestimmte Kneipe.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Geschäftsstraße mit mehreren Ladeneingängen.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B012",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B012_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "9999c6d82f688142ce2ed01651d807c6994a8b4f70ed5ee7f7c2feef7e31c811",
+        "dimensions": [
+          2048,
+          1805
+        ],
+        "reportLines": "453–456",
+        "originalFilename": "B012__image(20261111-110514).png"
+      },
+      {
+        "number": "B026",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B026_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "1aee879014610a2801e9dd69453246c4ef2a7c5fe62f2479c39cb47c765fe854",
+        "dimensions": [
+          2048,
+          1805
+        ],
+        "reportLines": "509–512",
+        "originalFilename": "B026__image(20261111-111649).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B013",
+    "numbers": [
+      "B013"
+    ],
+    "title": "Historische Fachwerk- und Geschäftsgebäude im Bergedorfer Zentrum.",
+    "description": "Historische Fachwerk- und Geschäftsgebäude im Bergedorfer Zentrum.",
+    "evidence": "Dokumentiert die historische Bau- und Handelsstruktur.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Fachwerk- und Geschäftsgebäude im Bergedorfer Zentrum.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B013",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B013_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "7dc9bf59e838102fed9f0cf740e5c1dcab37bce9d0714fe9d39e8e9709ac9757",
+        "dimensions": [
+          1320,
+          1176
+        ],
+        "reportLines": "457–460",
+        "originalFilename": "B013__image(20261111-110524).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B014",
+    "numbers": [
+      "B014"
+    ],
+    "title": "Spätere Vergleichsaufnahme mit modernen Ladenfronten.",
+    "description": "Spätere Vergleichsaufnahme mit modernen Ladenfronten.",
+    "evidence": "Dokumentiert spätere Nutzungen der Geschäftsgebäude.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Spätere Vergleichsaufnahme mit modernen Ladenfronten.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B014",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B014_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "7716a28eb94aeb4bf677170a9dc14decb1a845b751c354bee202a1cf0b17699e",
+        "dimensions": [
+          2048,
+          1365
+        ],
+        "reportLines": "461–464",
+        "originalFilename": "B014__image(20261111-110535).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B015",
+    "numbers": [
+      "B015"
+    ],
+    "title": "Historische kolorierte Postkarte mit Bergedorfer Kirche.",
+    "description": "Historische kolorierte Postkarte mit Bergedorfer Kirche.",
+    "evidence": "Dokumentiert frühere Stadtansicht.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische kolorierte Postkarte mit Bergedorfer Kirche.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B015",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B015_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "9a14c14a5346d81816fd7f3f9ae2f01ca372f0dbe6ba9fd39015a596c81cfae7",
+        "dimensions": [
+          2048,
+          1327
+        ],
+        "reportLines": "465–468",
+        "originalFilename": "B015__image(20261111-110834).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B016",
+    "numbers": [
+      "B016"
+    ],
+    "title": "Historische Postkarte mit Bergedorfer Kirche, handschriftlichen Grüße.",
+    "description": "Historische Postkarte mit Bergedorfer Kirche, handschriftlichen Grüße.",
+    "evidence": "Dokumentiert historische Stadtansicht.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Postkarte mit Bergedorfer Kirche, handschriftlichen Grüße.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B016",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B016_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "97ecfc6fd320aebc505e539f04a4cb6c1efeb9731f3a8f1d58ace970c90574c3",
+        "dimensions": [
+          2048,
+          1327
+        ],
+        "reportLines": "469–472",
+        "originalFilename": "B016__image(20261111-110842).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B017",
+    "numbers": [
+      "B017"
+    ],
+    "title": "Historische Straßen-/Kirchenansicht.",
+    "description": "Historische Straßen-/Kirchenansicht.",
+    "evidence": "Dokumentiert historische Stadtentwicklung.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Straßen-/Kirchenansicht.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B017",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B017_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "0f405bdd34ba7af3ea65875984a9da7de2a97ddc7324682b316e051aa6fb4830",
+        "dimensions": [
+          2048,
+          1363
+        ],
+        "reportLines": "473–476",
+        "originalFilename": "B017__image(20261111-110850).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B018",
+    "numbers": [
+      "B018"
+    ],
+    "title": "Historischer Blick über Häuser und Wasser.",
+    "description": "Historischer Blick über Häuser und Wasser.",
+    "evidence": "Dokumentiert historische Stadt-/Gewässeransicht.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historischer Blick über Häuser und Wasser.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B018",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B018_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "e8daa4371ba4e19b264ca8ef52aa1139e37e20fe5aa70c95891f8944c34f563a",
+        "dimensions": [
+          2048,
+          1273
+        ],
+        "reportLines": "477–480",
+        "originalFilename": "B018__image(20261111-110900).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B019",
+    "numbers": [
+      "B019"
+    ],
+    "title": "Historisch kolorierte Postkarte des Ortsbereichs.",
+    "description": "Historisch kolorierte Postkarte des Ortsbereichs.",
+    "evidence": "Dokumentiert historische Ortsansicht.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historisch kolorierte Postkarte des Ortsbereichs.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B019",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B019_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "ca253b738407886547a92fc7775308170d3345126b56def63cb8c1d17711a855",
+        "dimensions": [
+          1590,
+          1104
+        ],
+        "reportLines": "481–484",
+        "originalFilename": "B019__image(20261111-110911).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B020",
+    "numbers": [
+      "B020"
+    ],
+    "title": "Neue Fotoansicht des Wasserturms.",
+    "description": "Neue Fotoansicht des Wasserturms.",
+    "evidence": "Zeigt Wasserturm, keinen Sander Treff.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Neue Fotoansicht des Wasserturms.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B020",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B020_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "05a117018658584f209da2956fc3f14d257b9e2bcac0f7b08b51c69a496e52fa",
+        "dimensions": [
+          960,
+          698
+        ],
+        "reportLines": "485–488",
+        "originalFilename": "B020__image(20261111-111151).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B021",
+    "numbers": [
+      "B021"
+    ],
+    "title": "Zweite Wasserturmaufnahme.",
+    "description": "Zweite Wasserturmaufnahme.",
+    "evidence": "Zeigt Wasserturm, keinen Sander Treff.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Zweite Wasserturmaufnahme.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B021",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B021_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "ba1aa23dbbcf660421b4844ee9a5cd0bdd69dc6aae3cfeecfbef390e0f864dd5",
+        "dimensions": [
+          960,
+          540
+        ],
+        "reportLines": "489–492",
+        "originalFilename": "B021__image(20261111-111158).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B022",
+    "numbers": [
+      "B022"
+    ],
+    "title": "Wasserturm als eigenes Bauwerksmotiv.",
+    "description": "Wasserturm als eigenes Bauwerksmotiv.",
+    "evidence": "Zeigt Wasserturm, keinen Sander Treff.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Wasserturm als eigenes Bauwerksmotiv.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B022",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B022_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "c7e47fc12140420b3c1be0c157bb2dc774ad1cf04f125fa0fa79466f20b172a8",
+        "dimensions": [
+          540,
+          960
+        ],
+        "reportLines": "493–496",
+        "originalFilename": "B022__image(20261111-111208).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B023",
+    "numbers": [
+      "B023"
+    ],
+    "title": "Werbeanzeige Sonnenberg für TV, Video, Hifi und Schallplatten.",
+    "description": "Werbeanzeige Sonnenberg für TV, Video, Hifi und Schallplatten.",
+    "evidence": "Direkter schriftlicher Geschäftsname; Werbung ist kein Nachweis tatsächlicher Begegnungen.",
+    "kind": "werbung",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Werbeanzeige Sonnenberg für TV, Video, Hifi und Schallplatten.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B023",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B023_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "33e5a54246687b1fb3c2bed833f51e09858df0acf6c961682ff705415255f603",
+        "dimensions": [
+          1080,
+          1049
+        ],
+        "reportLines": "497–500",
+        "originalFilename": "B023__image(20261111-111553).png"
+      }
+    ],
+    "siteIds": [
+      "sonnenberg"
+    ]
+  },
+  {
+    "id": "B024",
+    "numbers": [
+      "B024"
+    ],
+    "title": "Geschäftsfronten mit lesbarer Sonnenberg-Beschriftung.",
+    "description": "Geschäftsfronten mit lesbarer Sonnenberg-Beschriftung.",
+    "evidence": "Geschäftsnachweis, kein Gaststättenfoto.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Geschäftsfronten mit lesbarer Sonnenberg-Beschriftung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B024",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B024_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "79725bd321c7e00dbc025aa5954b24e7e593dc05b636c900aa24de41acdfac67",
+        "dimensions": [
+          2048,
+          1572
+        ],
+        "reportLines": "501–504",
+        "originalFilename": "B024__image(20261111-111616).png"
+      }
+    ],
+    "siteIds": [
+      "sonnenberg"
+    ]
+  },
+  {
+    "id": "B025",
+    "numbers": [
+      "B025"
+    ],
+    "title": "Historische Ladenfronten/Fachwerkhäuser.",
+    "description": "Historische Ladenfronten/Fachwerkhäuser.",
+    "evidence": "Belegt historische Geschäftsgebäude.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Ladenfronten/Fachwerkhäuser.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B025",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B025_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "afb898ff1ced0f8e9697734c5d35a69917ed1caa36d1bee756ed8330a854e25b",
+        "dimensions": [
+          1842,
+          2048
+        ],
+        "reportLines": "505–508",
+        "originalFilename": "B025__image(20261111-111629).png"
+      }
+    ],
+    "siteIds": [
+      "herzberg"
+    ]
+  },
+  {
+    "id": "B027",
+    "numbers": [
+      "B027"
+    ],
+    "title": "Historischer Geschäftsplan mit Namen, darunter Buchhandlung Nordmann, Fahrrad Mai und Kegler-Treff.",
+    "description": "Historischer Geschäftsplan mit Namen, darunter Buchhandlung Nordmann, Fahrrad Mai und Kegler-Treff.",
+    "evidence": "Schriftliche Lagehinweise; Nordmann und Mai sind getrennte Geschäfte. Auch Sander Krug und Kegler-Treff sind getrennt dargestellt.",
+    "kind": "plan",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historischer Geschäftsplan mit Namen, darunter Buchhandlung Nordmann, Fahrrad Mai und Kegler-Treff.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B027",
+        "archivePaths": [
+          "04_Weisser_Rabe_Kegler_Treff_Sander_Treff/B027_Geschaeftsplan_zeigt_auch_Kegler_Treff.jpg",
+          "03_Sander_Krug_Alte_Holstenstrasse_42/B027_Sander_Krug.jpg"
+        ],
+        "sha256": "fdc2cda44cbe9a4148826143462b33bc887eef7a200b3e96a166a95911103914",
+        "dimensions": [
+          1080,
+          1440
+        ],
+        "reportLines": "513–516",
+        "originalFilename": "B027__image(20261111-112318).png"
+      }
+    ],
+    "siteIds": [
+      "sander-krug",
+      "sander-treff",
+      "mai",
+      "radio-warmer",
+      "zieske",
+      "henningsen",
+      "nordmann",
+      "farben-schmidt"
+    ]
+  },
+  {
+    "id": "B028",
+    "numbers": [
+      "B028"
+    ],
+    "title": "Street-View-Wiedergabe einer Geschäftsstraße.",
+    "description": "Street-View-Wiedergabe einer Geschäftsstraße.",
+    "evidence": "Spätere Umgebung, kein Nachweis einer historischen Kneipennutzung.",
+    "kind": "streetview",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Google Street View: separate Nutzungsbedingungen; keine Freigabe einer losgelösten Screenshot-Veröffentlichung. Allgemeine Sammlungserlaubnis reicht nicht. Keine öffentliche Bilddatei.",
+    "publicFile": null,
+    "alt": "Street-View-Wiedergabe einer Geschäftsstraße.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B028",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B028_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "cda8b902d7b21a6360bc227f56242fc14d74fd48ee654f4942db64fb21b45013",
+        "dimensions": [
+          2048,
+          1002
+        ],
+        "reportLines": "517–520",
+        "originalFilename": "B028__image(20261111-112339).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B029",
+    "numbers": [
+      "B029",
+      "B050"
+    ],
+    "title": "Historische Straße mit mehreren Einzelhandelsgeschäften.",
+    "description": "Historische Straße mit mehreren Einzelhandelsgeschäften.",
+    "evidence": "Zeigt das damalige Ladengewerbe.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Straße mit mehreren Einzelhandelsgeschäften.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B029",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B029_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "e647b558c9efc91c87b08cf1d1651fb42e382d3e147414e7e50ad672dcc252fd",
+        "dimensions": [
+          261,
+          161
+        ],
+        "reportLines": "521–524",
+        "originalFilename": "B029__image(20261111-112346).png"
+      },
+      {
+        "number": "B050",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B050_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "c4455efb855ca289df090523f18026d22b5fcae4dba37e618dd0d3aacf1b918f",
+        "dimensions": [
+          1084,
+          741
+        ],
+        "reportLines": "605–608",
+        "originalFilename": "B050__image(20261111-120422).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B030",
+    "numbers": [
+      "B030"
+    ],
+    "title": "Historische Aufnahme eines kleinen beschrifteten Gefäßes.",
+    "description": "Historische Aufnahme eines kleinen beschrifteten Gefäßes.",
+    "evidence": "Gegenstand mit Beschriftung; Zuordnung zu einer Gaststätte nicht nachgewiesen.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Aufnahme eines kleinen beschrifteten Gefäßes.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B030",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B030_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "b79bb8abd1ee62332d5cc36bf2258611f8ecda192adf8dc01a586b2a4bd5674b",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "reportLines": "525–528",
+        "originalFilename": "B030__image(20261111-112446).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B031",
+    "numbers": [
+      "B031"
+    ],
+    "title": "Ältere Geschäfts-/Gebäudereihe bei Bahnstrecke.",
+    "description": "Ältere Geschäfts-/Gebäudereihe bei Bahnstrecke.",
+    "evidence": "Dokumentiert historische Gebäude.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Ältere Geschäfts-/Gebäudereihe bei Bahnstrecke.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B031",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B031_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "8b2c7f22178e2fbe0c3440c8416080c767dabfcf003ea9d7da3a446fdc7848f5",
+        "dimensions": [
+          2048,
+          1365
+        ],
+        "reportLines": "529–532",
+        "originalFilename": "B031__image(20261111-112900).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B032",
+    "numbers": [
+      "B032"
+    ],
+    "title": "Baustelle neben Schienen und Straße.",
+    "description": "Baustelle neben Schienen und Straße.",
+    "evidence": "Dokumentiert einen Baustellenzustand.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Baustelle neben Schienen und Straße.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B032",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B032_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "cdf0348332e8bf5ac2cb26734147fbe83a6d99d3b78c61efaed17d9d1315efb0",
+        "dimensions": [
+          2048,
+          1365
+        ],
+        "reportLines": "533–536",
+        "originalFilename": "B032__image(20261111-112909).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B033",
+    "numbers": [
+      "B033"
+    ],
+    "title": "Spätere Schienen-/Bahnhofsumgebung.",
+    "description": "Spätere Schienen-/Bahnhofsumgebung.",
+    "evidence": "Dokumentiert veränderte Bahn-/Straßenumgebung.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Spätere Schienen-/Bahnhofsumgebung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B033",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B033_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "d5ef839b0fa5a5f6a847acf66184e87da3945d06fb7b9a0bce6d491b4b0b8fb9",
+        "dimensions": [
+          2048,
+          1536
+        ],
+        "reportLines": "537–540",
+        "originalFilename": "B033__image(20261111-112923).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B034",
+    "numbers": [
+      "B034"
+    ],
+    "title": "Bille-Anzeigen-Rundschau: Historischer Gasthof Zur Sonne weicht der neuen Zeit.",
+    "description": "Bille-Anzeigen-Rundschau: Historischer Gasthof Zur Sonne weicht der neuen Zeit.",
+    "evidence": "Zeitungsbericht vom 13. August 1970, Jahrgang 7, Nr. 33, Seite 1. Ankündigung des Abbruchs; Fortsetzungsseite fehlt.",
+    "kind": "zeitung",
+    "dating": "13. August 1970 (Zeitungsausgabe, nicht Aufnahmedatum aller enthaltenen Motive).",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Bille-Anzeigen-Rundschau: Historischer Gasthof Zur Sonne weicht der neuen Zeit.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B034",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B034_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "56b0da4faaf4d8e041f2181e0f0443ec6bc91ed8a2cd5c80d31ba10e9759e30f",
+        "dimensions": [
+          2048,
+          1487
+        ],
+        "reportLines": "541–544",
+        "originalFilename": "B034__image(20261111-114943).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B035",
+    "numbers": [
+      "B035"
+    ],
+    "title": "Zweiteiliger Gebäudevergleich: älteres Haus und spätere Neubebauung.",
+    "description": "Zweiteiliger Gebäudevergleich: älteres Haus und spätere Neubebauung.",
+    "evidence": "Dokumentiert einen historischen und einen späteren Bebauungszustand; kein eigenständiger Nachweis des Gaststättenbetriebs.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Zweiteiliger Gebäudevergleich: älteres Haus und spätere Neubebauung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B035",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B035_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "32e1770baa93f716778a21a86ef0e74036882069a6085bc12df1b209cad1d0f9",
+        "dimensions": [
+          1564,
+          1564
+        ],
+        "reportLines": "545–548",
+        "originalFilename": "B035__image(20261111-115004).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B036",
+    "numbers": [
+      "B036"
+    ],
+    "title": "Historischer Gastraum mit gedeckten Tischen und Wanddekoration.",
+    "description": "Historischer Gastraum mit gedeckten Tischen und Wanddekoration.",
+    "evidence": "Zeigt eine historische Gaststubeneinrichtung; Gasthofzuordnung stammt aus gemeinsamem Bildbeitrag.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historischer Gastraum mit gedeckten Tischen und Wanddekoration.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B036",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B036_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "b8743cf235e5c94d64e65ac5062d05fb4038c1e351d4bd7f6655ac9f8d5cc4c1",
+        "dimensions": [
+          1777,
+          1734
+        ],
+        "reportLines": "549–552",
+        "originalFilename": "B036__image(20261111-115019).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B037",
+    "numbers": [
+      "B037"
+    ],
+    "title": "Historische Schanktheke mit Getränkeflaschen und Ausstattung.",
+    "description": "Historische Schanktheke mit Getränkeflaschen und Ausstattung.",
+    "evidence": "Zeigt eine historische Theke; genaue Lokalisierung folgt aus dem Bildkontext.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Schanktheke mit Getränkeflaschen und Ausstattung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B037",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B037_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "16b21b1978a52e06fe1fef8d64e7b800057108898a39e01b566ca55c0fb87c3e",
+        "dimensions": [
+          1798,
+          1325
+        ],
+        "reportLines": "553–556",
+        "originalFilename": "B037__image(20261111-115030).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B038",
+    "numbers": [
+      "B038"
+    ],
+    "title": "Historischer Gastraum mit mehreren Tischen und Bestuhlung.",
+    "description": "Historischer Gastraum mit mehreren Tischen und Bestuhlung.",
+    "evidence": "Zeigt historische Gastronomieeinrichtung; Lokalname ist im Bild nicht erkennbar.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historischer Gastraum mit mehreren Tischen und Bestuhlung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B038",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B038_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "f30c050bb349d58ceab08f3d08804bbac3ed9126f80d2ee7ddd1eb6de8b8cf98",
+        "dimensions": [
+          1811,
+          1218
+        ],
+        "reportLines": "557–560",
+        "originalFilename": "B038__image(20261111-115040).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B039",
+    "numbers": [
+      "B039"
+    ],
+    "title": "Historische Ansichtskarte mit Gasthofbezug und Straßenansicht.",
+    "description": "Historische Ansichtskarte mit Gasthofbezug und Straßenansicht.",
+    "evidence": "Historischer Gasthof wird im Bild-/Ansichtskartenkontext bezeichnet.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Ansichtskarte mit Gasthofbezug und Straßenansicht.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B039",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B039_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "01c611b252120c5780ec945b444b2e87d5c86f10bb01b2410e3645977a492f07",
+        "dimensions": [
+          1518,
+          984
+        ],
+        "reportLines": "561–564",
+        "originalFilename": "B039__image(20261111-115100).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B040",
+    "numbers": [
+      "B040"
+    ],
+    "title": "Straßenaufnahme mit moderner Bebauung und älterem Eckgebäude.",
+    "description": "Straßenaufnahme mit moderner Bebauung und älterem Eckgebäude.",
+    "evidence": "Veranschaulicht einen Ortszustand; nicht selbst der Beleg für den Gasthof.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Straßenaufnahme mit moderner Bebauung und älterem Eckgebäude.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B040",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B040_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "e4defdb8cfce8b12044d163e6cf4f2c818758b2922ba49223a7f24074b836578",
+        "dimensions": [
+          1008,
+          760
+        ],
+        "reportLines": "565–568",
+        "originalFilename": "B040__image(20261111-115120).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B041",
+    "numbers": [
+      "B041"
+    ],
+    "title": "Historischer großer Gast- beziehungsweise Veranstaltungssaal.",
+    "description": "Historischer großer Gast- beziehungsweise Veranstaltungssaal.",
+    "evidence": "Belegt die Ausstattung eines Saals; Bezug auf Zur Sonne beruht auf Beitragskontext.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historischer großer Gast- beziehungsweise Veranstaltungssaal.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B041",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B041_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "49be6896c21f9f64689e87e1523b402a140542930003d908383879e839a392cd",
+        "dimensions": [
+          2048,
+          1460
+        ],
+        "reportLines": "569–572",
+        "originalFilename": "B041__image(20261111-115130).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B042",
+    "numbers": [
+      "B042"
+    ],
+    "title": "Historisches Foto eines Getränke- oder Vorratsregals.",
+    "description": "Historisches Foto eines Getränke- oder Vorratsregals.",
+    "evidence": "Dokumentiert Gastronomieausstattung, aber nicht selbst den Namen des Gasthofs.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historisches Foto eines Getränke- oder Vorratsregals.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B042",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B042_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "f7143ddc7a53dbe1ceaf7fd83e88b6cf78f68e635fc24e947bea7f60b25eb448",
+        "dimensions": [
+          1836,
+          1475
+        ],
+        "reportLines": "573–576",
+        "originalFilename": "B042__image(20261111-115139).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B043",
+    "numbers": [
+      "B043"
+    ],
+    "title": "Historische Schankanlage mit Leitungen und Behältern.",
+    "description": "Historische Schankanlage mit Leitungen und Behältern.",
+    "evidence": "Dokumentiert Schanktechnik; genaue Zuordnung zum Gasthof anhand Beitragskontext.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Schankanlage mit Leitungen und Behältern.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B043",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B043_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "c20f8371d615c9e63eb0c2eaa0a7a0d22de0a80f86a6535b85a31c5aa4b27f6b",
+        "dimensions": [
+          1836,
+          1769
+        ],
+        "reportLines": "577–580",
+        "originalFilename": "B043__image(20261111-115148).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B044",
+    "numbers": [
+      "B044"
+    ],
+    "title": "Historische Verkehrsszene mit Polizeibeamtem und Passanten.",
+    "description": "Historische Verkehrsszene mit Polizeibeamtem und Passanten.",
+    "evidence": "Dokumentiert einen historischen Verkehrsmoment.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Verkehrsszene mit Polizeibeamtem und Passanten.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B044",
+        "archivePaths": [
+          "14_Allgemeine_Stadtansichten_ohne_konkreten_Kneipenbezug/B044_Stra_en_und_Geb_udeaufnahmen_zur_Stadtgeschichte.jpg"
+        ],
+        "sha256": "f359906eee89f194cb07d3d46d320fe54e436d7f999050e3202f36bc98ae49c1",
+        "dimensions": [
+          2048,
+          1551
+        ],
+        "reportLines": "581–584",
+        "originalFilename": "B044__image(20261111-115526).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B045",
+    "numbers": [
+      "B045"
+    ],
+    "title": "Historische Fassadenaufnahme mit lesbarer Aufschrift „GASTHOF ZUR SONNE“.",
+    "description": "Historische Fassadenaufnahme mit lesbarer Aufschrift „GASTHOF ZUR SONNE“.",
+    "evidence": "Unmittelbarer Bildnachweis eines Gebäudes mit dem Namen „Gasthof Zur Sonne“.",
+    "kind": "direkt",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Fassadenaufnahme mit lesbarer Aufschrift „GASTHOF ZUR SONNE“.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B045",
+        "archivePaths": [
+          "01_Gasthof_Zur_Sonne/B045_Gasthof_Zur_Sonne.jpg"
+        ],
+        "sha256": "40e270252035078db4072b4ce62b7ebd1efb95764fda497ba0116585b8f21509",
+        "dimensions": [
+          1300,
+          768
+        ],
+        "reportLines": "585–588",
+        "originalFilename": "B045__image(20261111-115652).png"
+      }
+    ],
+    "siteIds": [
+      "sonne"
+    ]
+  },
+  {
+    "id": "B046",
+    "numbers": [
+      "B046"
+    ],
+    "title": "Historische gedruckte Anzeige mit den Namen „Holsteinischer Hof“ und „Fledermaus“.",
+    "description": "Historische gedruckte Anzeige mit den Namen „Holsteinischer Hof“ und „Fledermaus“.",
+    "evidence": "Dokumentiert die beworbene Existenz des Veranstaltungsortes und sein Unterhaltungsprogramm.",
+    "kind": "werbung",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische gedruckte Anzeige mit den Namen „Holsteinischer Hof“ und „Fledermaus“.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B046",
+        "archivePaths": [
+          "02_Holsteinischer_Hof_Fledermaus/B046_Holsteinischer_Hof_Fledermaus.jpg"
+        ],
+        "sha256": "1570630261c94500947d9822bfde279d090ae767106aa65c543cc9bc04b018a3",
+        "dimensions": [
+          1237,
+          1937
+        ],
+        "reportLines": "589–592",
+        "originalFilename": "B046__image(20261111-120330).png"
+      }
+    ],
+    "siteIds": [
+      "holsteinischer-hof"
+    ]
+  },
+  {
+    "id": "B047",
+    "numbers": [
+      "B047"
+    ],
+    "title": "Historische Straßenansicht mit Eisenbahnbrücke und Geschäftsgebäuden.",
+    "description": "Historische Straßenansicht mit Eisenbahnbrücke und Geschäftsgebäuden.",
+    "evidence": "Dokumentiert die Umgebung am historischen Bahnhof und an der Brücke, nicht für sich allein den Gaststättennamen.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Straßenansicht mit Eisenbahnbrücke und Geschäftsgebäuden.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B047",
+        "archivePaths": [
+          "02_Holsteinischer_Hof_Fledermaus/B047_Holsteinischer_Hof_Fledermaus.jpg"
+        ],
+        "sha256": "fbe41be18d0bd343f42b3c2b2d4af7988638ec5deab8e95d2a6d282100f71f57",
+        "dimensions": [
+          1300,
+          629
+        ],
+        "reportLines": "593–596",
+        "originalFilename": "B047__image(20261111-120339).png"
+      }
+    ],
+    "siteIds": [
+      "holsteinischer-hof"
+    ]
+  },
+  {
+    "id": "B048",
+    "numbers": [
+      "B048"
+    ],
+    "title": "Historische Straßen-/Brückenansicht mit Platz und Bebauung.",
+    "description": "Historische Straßen-/Brückenansicht mit Platz und Bebauung.",
+    "evidence": "Dokumentiert die damalige Straßenlandschaft im Umfeld, nicht unmittelbar den Betrieb.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Straßen-/Brückenansicht mit Platz und Bebauung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B048",
+        "archivePaths": [
+          "02_Holsteinischer_Hof_Fledermaus/B048_Holsteinischer_Hof_Fledermaus.jpg"
+        ],
+        "sha256": "fb373adb3c766790fcc90c797c393eef0508e6213c21a80c3439af2c30b4bd0e",
+        "dimensions": [
+          781,
+          587
+        ],
+        "reportLines": "597–600",
+        "originalFilename": "B048__image(20261111-120351).png"
+      }
+    ],
+    "siteIds": [
+      "holsteinischer-hof"
+    ]
+  },
+  {
+    "id": "B049",
+    "numbers": [
+      "B049"
+    ],
+    "title": "Historische Ladenfront an einer Kreuzung mit Ladenschildern.",
+    "description": "Historische Ladenfront an einer Kreuzung mit Ladenschildern.",
+    "evidence": "Dokumentiert alte Geschäfte; keine bestimmte Kneipe nachgewiesen.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Ladenfront an einer Kreuzung mit Ladenschildern.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B049",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B049_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "047fa991fef372152145c4eff32eba0a68d9514f3e73e231ab21ba72c9c272a6",
+        "dimensions": [
+          1944,
+          1296
+        ],
+        "reportLines": "601–604",
+        "originalFilename": "B049__image(20261111-120406).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B051",
+    "numbers": [
+      "B051"
+    ],
+    "title": "Fassade mit lesbarer Beschriftung Zum Treppchen.",
+    "description": "Fassade mit lesbarer Beschriftung Zum Treppchen.",
+    "evidence": "Direkter Namensbeleg für Zum Treppchen; nicht als Rastro-Foto zuordnen.",
+    "kind": "direkt",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Fassade mit lesbarer Beschriftung Zum Treppchen.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B051",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B051_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "9c85ae9999510d35958865d8a6e156ad6501057c74c97c68fa3e3c5b98597104",
+        "dimensions": [
+          1400,
+          994
+        ],
+        "reportLines": "609–612",
+        "originalFilename": "B051__image(20261111-120437).png"
+      }
+    ],
+    "siteIds": [
+      "suhrhof13"
+    ]
+  },
+  {
+    "id": "B052",
+    "numbers": [
+      "B052"
+    ],
+    "title": "Spätere Geschäftszeile mit Beschriftungen auf Ladenfronten.",
+    "description": "Spätere Geschäftszeile mit Beschriftungen auf Ladenfronten.",
+    "evidence": "Dokumentiert spätere Geschäftsfronten.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Spätere Geschäftszeile mit Beschriftungen auf Ladenfronten.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B052",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B052_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "3aeba30ce088a9458187ba68f69c1d372c930f1e7f29cf5897e9ee7b9051ad23",
+        "dimensions": [
+          2040,
+          1530
+        ],
+        "reportLines": "613–616",
+        "originalFilename": "B052__image(20261111-121041).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B053",
+    "numbers": [
+      "B053"
+    ],
+    "title": "Ältere Gebäudegruppe mit Werbung und Ladenbeschilderung.",
+    "description": "Ältere Gebäudegruppe mit Werbung und Ladenbeschilderung.",
+    "evidence": "Dokumentiert Geschäftsgebäude und Werbeschilder.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Ältere Gebäudegruppe mit Werbung und Ladenbeschilderung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B053",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B053_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "02a485c538f5d5de706388e0baaa7bd4277a81024355c487779f7416096adfeb",
+        "dimensions": [
+          981,
+          655
+        ],
+        "reportLines": "617–620",
+        "originalFilename": "B053__image(20261111-121049).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B054",
+    "numbers": [
+      "B054"
+    ],
+    "title": "Spätere Aufnahme der Ladenreihe mit Einzelhandelsgeschäften.",
+    "description": "Spätere Aufnahme der Ladenreihe mit Einzelhandelsgeschäften.",
+    "evidence": "Dokumentiert das damalige Straßenbild mit Läden.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Spätere Aufnahme der Ladenreihe mit Einzelhandelsgeschäften.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B054",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B054_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "a39d1b3658b25194ce5c825fc447dc30b92e114668976b283c109573668f1e47",
+        "dimensions": [
+          960,
+          675
+        ],
+        "reportLines": "621–624",
+        "originalFilename": "B054__image(20261111-121100).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B055",
+    "numbers": [
+      "B055"
+    ],
+    "title": "Straßenübersicht mit mehreren Häusern und Geschäften.",
+    "description": "Straßenübersicht mit mehreren Häusern und Geschäften.",
+    "evidence": "Dokumentiert das Gebiet, aber nicht ein bestimmtes Lokal.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Straßenübersicht mit mehreren Häusern und Geschäften.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B055",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B055_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "19a946e0046bb5135948f0fe016c2e5e760e21ca64cea4deba2e3fdc71c024bf",
+        "dimensions": [
+          768,
+          576
+        ],
+        "reportLines": "625–628",
+        "originalFilename": "B055__image(20261111-121112).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B056",
+    "numbers": [
+      "B056"
+    ],
+    "title": "Foto des Geschäfts „FARBEN-SCHMIDT“ mit Schaufenster.",
+    "description": "Foto des Geschäfts „FARBEN-SCHMIDT“ mit Schaufenster.",
+    "evidence": "Direkter Beleg des Namens „Farben-Schmidt“.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Foto des Geschäfts „FARBEN-SCHMIDT“ mit Schaufenster.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B056",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B056_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "8d765bd3bdc15e0a70a13e0f66de3be6edb3ed06e6a68567cdd37d1286e370e2",
+        "dimensions": [
+          580,
+          386
+        ],
+        "reportLines": "629–632",
+        "originalFilename": "B056__image(20261111-121124).png"
+      }
+    ],
+    "siteIds": [
+      "farben-schmidt"
+    ]
+  },
+  {
+    "id": "B057",
+    "numbers": [
+      "B057"
+    ],
+    "title": "Rastro-Fassade mit lesbarer Lokalbeschriftung.",
+    "description": "Rastro-Fassade mit lesbarer Lokalbeschriftung.",
+    "evidence": "Direkter Namensbeleg am Gebäude; kein Schließungsdatum aus dem Foto ableitbar.",
+    "kind": "direkt",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Rastro-Fassade mit lesbarer Lokalbeschriftung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B057",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B057_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "606a1aea73ba96e8f5a31d90b586d3715273e1d08d19fd1769d19abb2d2a98dc",
+        "dimensions": [
+          1419,
+          960
+        ],
+        "reportLines": "633–636",
+        "originalFilename": "B057__image(20261111-122244).png"
+      }
+    ],
+    "siteIds": [
+      "rastro"
+    ]
+  },
+  {
+    "id": "B058",
+    "numbers": [
+      "B058"
+    ],
+    "title": "Historische Straßen- und Gebäudeaufnahme, im Bild mit „Weisser Rabe Lohbrügge“ beschriftet.",
+    "description": "Historische Straßen- und Gebäudeaufnahme, im Bild mit „Weisser Rabe Lohbrügge“ beschriftet.",
+    "evidence": "Belegt die historische Bezeichnung „Weißer Rabe“ im Bildkontext und zeigt das zugeordnete Gebäude.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Straßen- und Gebäudeaufnahme, im Bild mit „Weisser Rabe Lohbrügge“ beschriftet.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B058",
+        "archivePaths": [
+          "04_Weisser_Rabe_Kegler_Treff_Sander_Treff/B058_Wei_er_Rabe_Kegler_Treff_Sander_Treff.jpg"
+        ],
+        "sha256": "fae47605452a898e055ac31216bdad7cfb47fa681244dde1293eb8509f6d9821",
+        "dimensions": [
+          2048,
+          1630
+        ],
+        "reportLines": "637–640",
+        "originalFilename": "B058__image(20261111-122526).png"
+      }
+    ],
+    "siteIds": [
+      "sander-treff"
+    ]
+  },
+  {
+    "id": "B059",
+    "numbers": [
+      "B059"
+    ],
+    "title": "Historische Bildcollage mit Außen- und Innenansichten; sichtbarer bzw. begleitender Bezug zum Weißen Raben.",
+    "description": "Historische Bildcollage mit Außen- und Innenansichten; sichtbarer bzw. begleitender Bezug zum Weißen Raben.",
+    "evidence": "Zeigt frühere Fassaden-/Gaststubenansichten, genaue Zuordnung der einzelnen Teilbilder aus Collage gesondert erläutern.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Bildcollage mit Außen- und Innenansichten; sichtbarer bzw. begleitender Bezug zum Weißen Raben.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B059",
+        "archivePaths": [
+          "04_Weisser_Rabe_Kegler_Treff_Sander_Treff/B059_Wei_er_Rabe_Kegler_Treff_Sander_Treff.jpg"
+        ],
+        "sha256": "17d6b1e618da241ca061cf0541b90d9e2c51887a7f49679f24e4c5316259a699",
+        "dimensions": [
+          2048,
+          1536
+        ],
+        "reportLines": "641–644",
+        "originalFilename": "B059__image(20261111-122535).png"
+      }
+    ],
+    "siteIds": [
+      "sander-treff"
+    ]
+  },
+  {
+    "id": "B060",
+    "numbers": [
+      "B060"
+    ],
+    "title": "Neuere Straßenansicht eines der im Gespräch genannten historischen Bereiche.",
+    "description": "Neuere Straßenansicht eines der im Gespräch genannten historischen Bereiche.",
+    "evidence": "Dokumentiert eine spätere Umgebung, nicht selbst die Namen Kegler-Treff oder Sander Treff.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Neuere Straßenansicht eines der im Gespräch genannten historischen Bereiche.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B060",
+        "archivePaths": [
+          "04_Weisser_Rabe_Kegler_Treff_Sander_Treff/B060_Wei_er_Rabe_Kegler_Treff_Sander_Treff.jpg"
+        ],
+        "sha256": "af54e7d6016b3278ba18e361ff51af6ee7a28a32b3f807e07ea80f5d2bb2729e",
+        "dimensions": [
+          1080,
+          1620
+        ],
+        "reportLines": "645–648",
+        "originalFilename": "B060__image(20261111-122546).png"
+      }
+    ],
+    "siteIds": [
+      "sander-treff"
+    ]
+  },
+  {
+    "id": "B061",
+    "numbers": [
+      "B061"
+    ],
+    "title": "Historische Straße mit alten Ladengeschäften.",
+    "description": "Historische Straße mit alten Ladengeschäften.",
+    "evidence": "Dokumentiert frühere Geschäfte.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Straße mit alten Ladengeschäften.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B061",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B061_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "049ab317b3e820c961e676bd1f331b7f620d39b6aa911d1964031f6ebafb7d94",
+        "dimensions": [
+          1944,
+          1260
+        ],
+        "reportLines": "649–652",
+        "originalFilename": "B061__image(20261111-172741).png"
+      }
+    ],
+    "siteIds": [
+      "moeller"
+    ]
+  },
+  {
+    "id": "B062",
+    "numbers": [
+      "B062"
+    ],
+    "title": "Spätere Geschäftsstraße mit Fachwerk- und Altbauten.",
+    "description": "Spätere Geschäftsstraße mit Fachwerk- und Altbauten.",
+    "evidence": "Dokumentiert spätere Ladenfronten.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Spätere Geschäftsstraße mit Fachwerk- und Altbauten.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B062",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B062_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "eb4376d33c5df0d751066b05f5821066b0a08b8e7b072002bd30b24399a16aee",
+        "dimensions": [
+          768,
+          576
+        ],
+        "reportLines": "653–656",
+        "originalFilename": "B062__image(20261111-172754).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B063",
+    "numbers": [
+      "B063"
+    ],
+    "title": "Historischer eingerichteter Café-/Gastraum mit Kronleuchter und gedeckten Tischen.",
+    "description": "Historischer eingerichteter Café-/Gastraum mit Kronleuchter und gedeckten Tischen.",
+    "evidence": "Dokumentiert eine historische Café-Innenausstattung; zu Café Möller durch Gesprächskontext zugeordnet.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historischer eingerichteter Café-/Gastraum mit Kronleuchter und gedeckten Tischen.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B063",
+        "archivePaths": [
+          "12_Cafe_Moeller_Alte_Holstenstrasse_76/B063_Caf_Kaffee_M_ller.jpg"
+        ],
+        "sha256": "f5d669009b8919776a5bb64161bfcd12cdac54bdf441f7ed68dacc043b55ff12",
+        "dimensions": [
+          1524,
+          1107
+        ],
+        "reportLines": "657–660",
+        "originalFilename": "B063__image(20261111-172806).png"
+      }
+    ],
+    "siteIds": [
+      "moeller"
+    ]
+  },
+  {
+    "id": "B064",
+    "numbers": [
+      "B064"
+    ],
+    "title": "Historische Außenaufnahme aus dem Bildblock zur Alten Holstenstraße und zu Café Möller.",
+    "description": "Historische Außenaufnahme aus dem Bildblock zur Alten Holstenstraße und zu Café Möller.",
+    "evidence": "Dokumentiert einen historischen Gebäudebereich; genaue Parzelle aus dem Foto allein nicht feststellbar.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Außenaufnahme aus dem Bildblock zur Alten Holstenstraße und zu Café Möller.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B064",
+        "archivePaths": [
+          "12_Cafe_Moeller_Alte_Holstenstrasse_76/B064_Caf_Kaffee_M_ller.jpg"
+        ],
+        "sha256": "0e192658296b807a36ea82d80f84d1e44a61328c9f8dd70225fe8e63c570e459",
+        "dimensions": [
+          1450,
+          956
+        ],
+        "reportLines": "661–664",
+        "originalFilename": "B064__image(20261111-172825).png"
+      }
+    ],
+    "siteIds": [
+      "moeller"
+    ]
+  },
+  {
+    "id": "B065",
+    "numbers": [
+      "B065"
+    ],
+    "title": "Aufnahme eines alten Caféraums beziehungsweise Tresens mit Spiegel und Einrichtung.",
+    "description": "Aufnahme eines alten Caféraums beziehungsweise Tresens mit Spiegel und Einrichtung.",
+    "evidence": "Dokumentiert Café-Innenausstattung, der Eigenname ist im Bild nicht zu lesen.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Aufnahme eines alten Caféraums beziehungsweise Tresens mit Spiegel und Einrichtung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B065",
+        "archivePaths": [
+          "12_Cafe_Moeller_Alte_Holstenstrasse_76/B065_Caf_Kaffee_M_ller.jpg"
+        ],
+        "sha256": "c5ed40f16d2e254929c859cbb7ea9f540d2469b327389b2b30a6fbce385f5895",
+        "dimensions": [
+          1944,
+          1296
+        ],
+        "reportLines": "665–668",
+        "originalFilename": "B065__image(20261111-172843).png"
+      }
+    ],
+    "siteIds": [
+      "moeller"
+    ]
+  },
+  {
+    "id": "B066",
+    "numbers": [
+      "B066"
+    ],
+    "title": "Zeitungsausschnitt zum Café Möller mit handschriftlichem Datum 18.12.88.",
+    "description": "Zeitungsausschnitt zum Café Möller mit handschriftlichem Datum 18.12.88.",
+    "evidence": "Bericht über bereits beendeten Cafébetrieb; Zeitungskopf fehlt. Nicht mit Gebäudeabbruch 1991 verwechseln.",
+    "kind": "zeitung",
+    "dating": "Handschriftlicher Vermerk 18.12.88; Ausgabekopf fehlt.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Zeitungsausschnitt zum Café Möller mit handschriftlichem Datum 18.12.88.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B066",
+        "archivePaths": [
+          "12_Cafe_Moeller_Alte_Holstenstrasse_76/B066_Caf_Kaffee_M_ller.jpg"
+        ],
+        "sha256": "9c594d3e5c118a59c1e7a11e12e82f000e358cc77b3284a015db08269ca417b4",
+        "dimensions": [
+          2037,
+          1908
+        ],
+        "reportLines": "669–672",
+        "originalFilename": "B066__image(20261111-172858).png"
+      }
+    ],
+    "siteIds": [
+      "moeller"
+    ]
+  },
+  {
+    "id": "B067",
+    "numbers": [
+      "B067"
+    ],
+    "title": "Altes Gebäude mit Ladenfront an der Straßenkante.",
+    "description": "Altes Gebäude mit Ladenfront an der Straßenkante.",
+    "evidence": "Dokumentiert ein historisches Gebäude mit Ladennutzung.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Altes Gebäude mit Ladenfront an der Straßenkante.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B067",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B067_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "e058f509911fe2a74c518fa760fe0f03e52fa23873866fa45d94f026451b34b1",
+        "dimensions": [
+          1080,
+          738
+        ],
+        "reportLines": "673–676",
+        "originalFilename": "B067__image(20261111-173330).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B068",
+    "numbers": [
+      "B068"
+    ],
+    "title": "Straßenaufnahme mit historischem Geschäftsbesatz.",
+    "description": "Straßenaufnahme mit historischem Geschäftsbesatz.",
+    "evidence": "Dokumentiert einen Geschäftsstraßenzug.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Straßenaufnahme mit historischem Geschäftsbesatz.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B068",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B068_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "069c37fe95ddc84f7781d42484fb105c9ebe239aecbe56a8b7719ccfbba6eb4e",
+        "dimensions": [
+          1080,
+          726
+        ],
+        "reportLines": "677–680",
+        "originalFilename": "B068__image(20261111-175032).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B069",
+    "numbers": [
+      "B069"
+    ],
+    "title": "Weitere Straßenaufnahme mit Einzelhandelsgeschäften.",
+    "description": "Weitere Straßenaufnahme mit Einzelhandelsgeschäften.",
+    "evidence": "Dokumentiert alte Läden.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Weitere Straßenaufnahme mit Einzelhandelsgeschäften.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B069",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B069_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "e92529fd43837358770aeff3442c87eddbf72549f3d2cb1594d2cfa6a26d8762",
+        "dimensions": [
+          1000,
+          944
+        ],
+        "reportLines": "681–684",
+        "originalFilename": "B069__image(20261111-175045).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B070",
+    "numbers": [
+      "B070",
+      "B074"
+    ],
+    "title": "Straße mit mehreren Läden und Straßenverkehr.",
+    "description": "Straße mit mehreren Läden und Straßenverkehr.",
+    "evidence": "Dokumentiert eine Ladenzeile.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Straße mit mehreren Läden und Straßenverkehr.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B070",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B070_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "7fa056a7906adc7dddb5d987c18a80c825b6cbbe90e9fd776d4af9fd12ae5a02",
+        "dimensions": [
+          1080,
+          791
+        ],
+        "reportLines": "685–688",
+        "originalFilename": "B070__image(20261111-175053).png"
+      },
+      {
+        "number": "B074",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B074_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "95e594649844208d51830cea4c04a1f3cb9b4929199639d77e0a93828a5d9624",
+        "dimensions": [
+          960,
+          702
+        ],
+        "reportLines": "701–704",
+        "originalFilename": "B074__image(20261111-183725).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B071",
+    "numbers": [
+      "B071"
+    ],
+    "title": "Innenstadt-Ansicht der Geschäftsfronten im historischen Bergedorf.",
+    "description": "Innenstadt-Ansicht der Geschäftsfronten im historischen Bergedorf.",
+    "evidence": "Dokumentiert frühere Handelslandschaft.",
+    "kind": "innenraum_kontext",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Innenstadt-Ansicht der Geschäftsfronten im historischen Bergedorf.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B071",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B071_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "05fed791da18365d67511b30651a31566131dc32c67d4a47b557a59606bad5b4",
+        "dimensions": [
+          1080,
+          795
+        ],
+        "reportLines": "689–692",
+        "originalFilename": "B071__image(20261111-175105).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B072",
+    "numbers": [
+      "B072"
+    ],
+    "title": "Spätere Aufnahme des Eckgebäudes mit Gaststättenbeschilderung an der Ecke Höperfeld.",
+    "description": "Spätere Aufnahme des Eckgebäudes mit Gaststättenbeschilderung an der Ecke Höperfeld.",
+    "evidence": "Dokumentiert das Gebäude des späteren Lokals Zumsel; die Zuordnung beruht auf dem ursprünglichen Bildbeitrag.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Spätere Aufnahme des Eckgebäudes mit Gaststättenbeschilderung an der Ecke Höperfeld.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B072",
+        "archivePaths": [
+          "05_Ballhaus_Eckermann_Von_Hacht_Zumsel/B072_Gasthof_Timm_Lange_Ballhaus_Eckermann_Von_Hacht_Zumsel.jpg"
+        ],
+        "sha256": "71afb7f67ba12bb68c44c477aa3659f950e778759cff2ae55dc193bdf34df41d",
+        "dimensions": [
+          1080,
+          660
+        ],
+        "reportLines": "693–696",
+        "originalFilename": "B072__image(20261111-181705).png"
+      }
+    ],
+    "siteIds": [
+      "eckermann"
+    ]
+  },
+  {
+    "id": "B073",
+    "numbers": [
+      "B073"
+    ],
+    "title": "Historische beschriftete Ansicht „Sande. Waldstrasse“, mit dem Eckhaus und Aufschrift „1891“.",
+    "description": "Historische beschriftete Ansicht „Sande. Waldstrasse“, mit dem Eckhaus und Aufschrift „1891“.",
+    "evidence": "Dokumentiert das historische Haus und die damalige Waldstraße; Name Eckermann/Zumsel nicht als Gaststättenschild lesbar.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische beschriftete Ansicht „Sande. Waldstrasse“, mit dem Eckhaus und Aufschrift „1891“.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B073",
+        "archivePaths": [
+          "05_Ballhaus_Eckermann_Von_Hacht_Zumsel/B073_Gasthof_Timm_Lange_Ballhaus_Eckermann_Von_Hacht_Zumsel.jpg"
+        ],
+        "sha256": "b70144ec23b0f90222709999d6281acde0efdbe4b28eba55fa816eea374a52e6",
+        "dimensions": [
+          2048,
+          1538
+        ],
+        "reportLines": "697–700",
+        "originalFilename": "B073__image(20261111-181717).png"
+      }
+    ],
+    "siteIds": [
+      "eckermann"
+    ]
+  },
+  {
+    "id": "B075",
+    "numbers": [
+      "B075"
+    ],
+    "title": "Weitere historische Straßenansicht mit Autos und Ladengeschäften.",
+    "description": "Weitere historische Straßenansicht mit Autos und Ladengeschäften.",
+    "evidence": "Dokumentiert frühere Straßenbebauung.",
+    "kind": "geschaeft",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Weitere historische Straßenansicht mit Autos und Ladengeschäften.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B075",
+        "archivePaths": [
+          "13_Geschaefte_Sonnenberg_und_historische_Einzelhandelsbilder/B075_Historische_Gesch_fte_keine_automatischen_Kneipenbelege.jpg"
+        ],
+        "sha256": "4235ff398f6f755064388a0e39d894c8b480a319391321273f5ff3af6458711e",
+        "dimensions": [
+          960,
+          667
+        ],
+        "reportLines": "705–708",
+        "originalFilename": "B075__image(20261111-183736).png"
+      }
+    ],
+    "siteIds": []
+  },
+  {
+    "id": "B076",
+    "numbers": [
+      "B076"
+    ],
+    "title": "Historische Straßen- und Geschäftszeile an der Grandkoppel mit Hochhaus im Hintergrund.",
+    "description": "Historische Straßen- und Geschäftszeile an der Grandkoppel mit Hochhaus im Hintergrund.",
+    "evidence": "Die Ladenzeile ist fotografiert; die Kneipe wird im zugehörigen Zeitzeugenbericht genannt, ist im Foto aber nicht namentlich identifiziert.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Straßen- und Geschäftszeile an der Grandkoppel mit Hochhaus im Hintergrund.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B076",
+        "archivePaths": [
+          "11_Kneipe_in_der_Ladenzeile_Grandkoppel/B076_Gastst_tte_in_der_Ladenzeile_Grandkoppel.jpg"
+        ],
+        "sha256": "f0dc0670dc81a7ab2d42a81d0c323d2ff46e33fcd80962dfa70f71f27c5cb447",
+        "dimensions": [
+          952,
+          569
+        ],
+        "reportLines": "709–712",
+        "originalFilename": "B076__image(20261111-184711).png"
+      }
+    ],
+    "siteIds": [
+      "grandkoppel-laeden"
+    ]
+  },
+  {
+    "id": "B077",
+    "numbers": [
+      "B077"
+    ],
+    "title": "Zweite Ansicht derselben Ladenzeile mit Geschäftsschaufenstern und Hochhaus.",
+    "description": "Zweite Ansicht derselben Ladenzeile mit Geschäftsschaufenstern und Hochhaus.",
+    "evidence": "Ergänzende Aufnahme der Geschäftszeile; kein selbstständiger Namensbeleg für „Prangkoppel“.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Zweite Ansicht derselben Ladenzeile mit Geschäftsschaufenstern und Hochhaus.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B077",
+        "archivePaths": [
+          "11_Kneipe_in_der_Ladenzeile_Grandkoppel/B077_Gastst_tte_in_der_Ladenzeile_Grandkoppel.jpg"
+        ],
+        "sha256": "c8909191ed22574e4775de0ba6d3dfc56983e25944032273f5a54cdb5e962817",
+        "dimensions": [
+          806,
+          401
+        ],
+        "reportLines": "713–716",
+        "originalFilename": "B077__image(20261111-184731).png"
+      }
+    ],
+    "siteIds": [
+      "grandkoppel-laeden"
+    ]
+  },
+  {
+    "id": "B078",
+    "numbers": [
+      "B078"
+    ],
+    "title": "Historische Ansicht der schmalen Straße „Hinterm Graben“, mit der Beischrift „Danziger Stuben“.",
+    "description": "Historische Ansicht der schmalen Straße „Hinterm Graben“, mit der Beischrift „Danziger Stuben“.",
+    "evidence": "Dokumentiert den Straßenbereich, der im Beitrag mit den Danziger Stuben verbunden wird; nicht zwingend die Gaststätte selbst.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Ansicht der schmalen Straße „Hinterm Graben“, mit der Beischrift „Danziger Stuben“.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B078",
+        "archivePaths": [
+          "10_Danziger_Stuben_Hinterm_Graben/B078_Danziger_Stuben.jpg"
+        ],
+        "sha256": "e4ce877eef21a422bf9d5056c0ac6388fda7bc2d6fba8dd05b71a51b64a052d6",
+        "dimensions": [
+          1280,
+          1920
+        ],
+        "reportLines": "717–720",
+        "originalFilename": "B078__image(20261111-185418).png"
+      }
+    ],
+    "siteIds": [
+      "danziger"
+    ]
+  },
+  {
+    "id": "B079",
+    "numbers": [
+      "B079"
+    ],
+    "title": "Historische Fachwerk- und Backsteinbebauung in einer engen Gasse.",
+    "description": "Historische Fachwerk- und Backsteinbebauung in einer engen Gasse.",
+    "evidence": "Dokumentiert historische Bebauung in der Nähe der Danziger Stuben.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Fachwerk- und Backsteinbebauung in einer engen Gasse.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B079",
+        "archivePaths": [
+          "10_Danziger_Stuben_Hinterm_Graben/B079_Danziger_Stuben.jpg"
+        ],
+        "sha256": "52f508f905ce68efd9b84d0cc573d791ba92dd2498530ee400417745930188bd",
+        "dimensions": [
+          2048,
+          1475
+        ],
+        "reportLines": "721–724",
+        "originalFilename": "B079__image(20261111-185434).png"
+      }
+    ],
+    "siteIds": [
+      "danziger"
+    ]
+  },
+  {
+    "id": "B080",
+    "numbers": [
+      "B080"
+    ],
+    "title": "Weitere historische Gebäudeansicht im Straßenbereich Hinterm Graben.",
+    "description": "Weitere historische Gebäudeansicht im Straßenbereich Hinterm Graben.",
+    "evidence": "Dokumentiert historische Bebauung, ohne den Namen der Gaststätte zu zeigen.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Weitere historische Gebäudeansicht im Straßenbereich Hinterm Graben.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B080",
+        "archivePaths": [
+          "10_Danziger_Stuben_Hinterm_Graben/B080_Danziger_Stuben.jpg"
+        ],
+        "sha256": "7a4918b2a6005c6181cc73e2cefd20b5d46696e295ed39789e90ef3d0e4aac0d",
+        "dimensions": [
+          2048,
+          1399
+        ],
+        "reportLines": "725–728",
+        "originalFilename": "B080__image(20261111-185449).png"
+      }
+    ],
+    "siteIds": [
+      "danziger"
+    ]
+  },
+  {
+    "id": "B081",
+    "numbers": [
+      "B081"
+    ],
+    "title": "Historische Postkarte einer Straße in Sande / Lohbrügge mit Gebäuden beiderseits der Straße.",
+    "description": "Historische Postkarte einer Straße in Sande / Lohbrügge mit Gebäuden beiderseits der Straße.",
+    "evidence": "Im Begleitbeitrag wurde das spätere Gebäude der Destille rechts verortet; die Aufnahme belegt die frühere Bebauung, nicht den späteren Kneipennamen.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Postkarte einer Straße in Sande / Lohbrügge mit Gebäuden beiderseits der Straße.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B081",
+        "archivePaths": [
+          "09_Destille_Alte_Holstenstrasse/B081_Destille.jpg"
+        ],
+        "sha256": "d718b41224364d07e4f5ca2fceb82a102afdb6ff472ff143a0fc2b2eefdeaec8",
+        "dimensions": [
+          1102,
+          726
+        ],
+        "reportLines": "729–732",
+        "originalFilename": "B081__image(20261111-190106).png"
+      }
+    ],
+    "siteIds": [
+      "destille"
+    ]
+  },
+  {
+    "id": "B082",
+    "numbers": [
+      "B082"
+    ],
+    "title": "Historische Anzeige „Konzerthaus Zum Anker“ mit Besitzer R. Störmer und Adresse Serrahnstraße 9.",
+    "description": "Historische Anzeige „Konzerthaus Zum Anker“ mit Besitzer R. Störmer und Adresse Serrahnstraße 9.",
+    "evidence": "Direkter schriftlicher Beleg für das Konzert- und Gaststättenlokal „Zum Anker“.",
+    "kind": "werbung",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Anzeige „Konzerthaus Zum Anker“ mit Besitzer R. Störmer und Adresse Serrahnstraße 9.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B082",
+        "archivePaths": [
+          "06_Zum_Anker_Serrahnstrasse_9/B082_Konzerthaus_Zum_Anker.jpg"
+        ],
+        "sha256": "3f30f87b9bac3af8ce7c65a0d97a260c8b69aa3209255e8d4fc969d971452fbb",
+        "dimensions": [
+          403,
+          560
+        ],
+        "reportLines": "733–736",
+        "originalFilename": "B082__image(20261111-190906).png"
+      }
+    ],
+    "siteIds": [
+      "anker"
+    ]
+  },
+  {
+    "id": "B083",
+    "numbers": [
+      "B083"
+    ],
+    "title": "Straßenfoto eines späteren Gastronomiebetriebs am Serrahn mit CCB im Hintergrund.",
+    "description": "Straßenfoto eines späteren Gastronomiebetriebs am Serrahn mit CCB im Hintergrund.",
+    "evidence": "Belegt einen späteren Straßen-/Gastronomiezustand; die Identität mit dem historischen Zum Anker folgt nur aus Begleittext.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Straßenfoto eines späteren Gastronomiebetriebs am Serrahn mit CCB im Hintergrund.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B083",
+        "archivePaths": [
+          "06_Zum_Anker_Serrahnstrasse_9/B083_Konzerthaus_Zum_Anker.jpg"
+        ],
+        "sha256": "a534b0ab7494cfa180ff698ac212c8792121485dc3bdef5b55da1d43851f6436",
+        "dimensions": [
+          1080,
+          720
+        ],
+        "reportLines": "737–740",
+        "originalFilename": "B083__image(20261111-190916).png"
+      }
+    ],
+    "siteIds": [
+      "anker"
+    ]
+  },
+  {
+    "id": "B084",
+    "numbers": [
+      "B084"
+    ],
+    "title": "Historische Aufnahme eines großformatigen Hauses im Serrahn-Umfeld.",
+    "description": "Historische Aufnahme eines großformatigen Hauses im Serrahn-Umfeld.",
+    "evidence": "Historische Gebäudegestalt des besprochenen Standortumfelds, allein kein eindeutiger Namensbeleg.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Historische Aufnahme eines großformatigen Hauses im Serrahn-Umfeld.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B084",
+        "archivePaths": [
+          "06_Zum_Anker_Serrahnstrasse_9/B084_Konzerthaus_Zum_Anker.jpg"
+        ],
+        "sha256": "4f90a299dc043d52642fe96e99018e4566e37038a64791f036592a93882fbc87",
+        "dimensions": [
+          2040,
+          2036
+        ],
+        "reportLines": "741–744",
+        "originalFilename": "B084__image(20261111-190934).png"
+      }
+    ],
+    "siteIds": [
+      "anker"
+    ]
+  },
+  {
+    "id": "B085",
+    "numbers": [
+      "B085"
+    ],
+    "title": "Übersichtsaufnahme der Baustelle und Wasserfläche am Serrahn.",
+    "description": "Übersichtsaufnahme der Baustelle und Wasserfläche am Serrahn.",
+    "evidence": "Zeigt die spätere Gebietsentwicklung, nicht allein den Betrieb Zum Anker.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Übersichtsaufnahme der Baustelle und Wasserfläche am Serrahn.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B085",
+        "archivePaths": [
+          "06_Zum_Anker_Serrahnstrasse_9/B085_Konzerthaus_Zum_Anker.jpg"
+        ],
+        "sha256": "4d611c0f3864c084e662b60bfa03667981d785ae73dd5e9cf91e9a28f827d354",
+        "dimensions": [
+          1080,
+          720
+        ],
+        "reportLines": "745–748",
+        "originalFilename": "B085__image(20261111-190948).png"
+      }
+    ],
+    "siteIds": [
+      "anker"
+    ]
+  },
+  {
+    "id": "B086",
+    "numbers": [
+      "B086"
+    ],
+    "title": "Aufnahme des Gaststättengebäudes mit gut lesbaren Fassadenaufschriften „BAHNHOFS-GASTSTÄTTEN“, „HOLSTEN-BIER“ und „RISTORANTE“.",
+    "description": "Aufnahme des Gaststättengebäudes mit gut lesbaren Fassadenaufschriften „BAHNHOFS-GASTSTÄTTEN“, „HOLSTEN-BIER“ und „RISTORANTE“.",
+    "evidence": "Unmittelbarer fotografischer Nachweis einer Bahnhofsgaststätte und einer gastronomischen Nutzung des abgebildeten Gebäudes; genaue Aufnahmezeit noch unbekannt.",
+    "kind": "umfeld",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
+    "publicFile": null,
+    "alt": "Aufnahme des Gaststättengebäudes mit gut lesbaren Fassadenaufschriften „BAHNHOFS-GASTSTÄTTEN“, „HOLSTEN-BIER“ und „RISTORANTE“.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B086",
+        "archivePaths": [
+          "07_Bahnhofsgaststaetten_Bergedorf/B086_Bahnhofsgastst_tten_Bergedorf.jpg"
+        ],
+        "sha256": "fc662eb2afa1247fcf90d21a12de91f0db16e136bfcd944b7aeb506b4bb1b7fc",
+        "dimensions": [
+          2048,
+          1775
+        ],
+        "reportLines": "749–752",
+        "originalFilename": "B086__image(20261111-195908).png"
+      }
+    ],
+    "siteIds": [
+      "bahnhofsgaststaetten"
+    ]
+  },
+  {
+    "id": "B087",
+    "numbers": [
+      "B087"
+    ],
+    "title": "Street-View-Wiedergabe mit Engel-Beschriftung.",
+    "description": "Street-View-Wiedergabe mit Engel-Beschriftung.",
+    "evidence": "Sichtbarer Name; Aufnahmezeit, Standortfolge und heutige Nutzung zusätzlich prüfen.",
+    "kind": "streetview",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Google Street View: separate Nutzungsbedingungen; keine Freigabe einer losgelösten Screenshot-Veröffentlichung. Allgemeine Sammlungserlaubnis reicht nicht. Keine öffentliche Bilddatei.",
+    "publicFile": null,
+    "alt": "Street-View-Wiedergabe mit Engel-Beschriftung.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B087",
+        "archivePaths": [
+          "08_Engel_frueherer_Standort_Alte_Holstenstrasse/B087_Engel_fr_herer_Standort.jpg"
+        ],
+        "sha256": "5278757332e6338aac495382d0ebdc74eade25914b37a99df59511f6e043683f",
+        "dimensions": [
+          1536,
+          864
+        ],
+        "reportLines": "753–756",
+        "originalFilename": "B087__IMG_8387.jpeg"
+      }
+    ],
+    "siteIds": [
+      "engel-alt"
+    ]
+  },
+  {
+    "id": "B088",
+    "numbers": [
+      "B088"
+    ],
+    "title": "Weitere Street-View-Wiedergabe am früheren Engel-Standort.",
+    "description": "Weitere Street-View-Wiedergabe am früheren Engel-Standort.",
+    "evidence": "Umgebung und Beschriftung; keine eigenständige Bestätigung von Betreiberfolge oder Umzugsdatum.",
+    "kind": "streetview",
+    "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
+    "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
+    "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+    "rightsStatus": "pending",
+    "rightsNote": "Google Street View: separate Nutzungsbedingungen; keine Freigabe einer losgelösten Screenshot-Veröffentlichung. Allgemeine Sammlungserlaubnis reicht nicht. Keine öffentliche Bilddatei.",
+    "publicFile": null,
+    "alt": "Weitere Street-View-Wiedergabe am früheren Engel-Standort.",
+    "checked": "2026-11-12",
+    "variants": [
+      {
+        "number": "B088",
+        "archivePaths": [
+          "08_Engel_frueherer_Standort_Alte_Holstenstrasse/B088_Engel_fr_herer_Standort.jpg"
+        ],
+        "sha256": "7274a51766dc223af1d81ca0aaa693bfe5ac02354ec800e76bca019d314d6935",
+        "dimensions": [
+          1536,
+          864
+        ],
+        "reportLines": "757–761",
+        "originalFilename": "B088__IMG_8388.jpeg"
+      }
+    ],
+    "siteIds": [
+      "engel-alt"
+    ]
+  }
+]

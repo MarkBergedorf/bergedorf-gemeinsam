@@ -1,0 +1,1357 @@
+[
+  {
+    "id": "begegnung",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "begegnung-1",
+        "title": "Ort, Gelegenheit und Beziehung unterscheiden"
+      },
+      {
+        "id": "begegnung-2",
+        "title": "Gemeinsame Tätigkeiten und offene Zeit"
+      },
+      {
+        "id": "begegnung-3",
+        "title": "Tatsächlicher Zugang"
+      },
+      {
+        "id": "begegnung-4",
+        "title": "Bergedorfer Bestandsaufnahme"
+      }
+    ],
+    "sourceIds": [
+      "dritteorte"
+    ],
+    "quellzeilen": [],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t8-1",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t8-1-1",
+        "title": "Öffentliche, gemeinschaftliche und kommerzielle Orte"
+      },
+      {
+        "id": "t8-1-2",
+        "title": "Bibliotheken als konkretes Beispiel"
+      },
+      {
+        "id": "t8-1-3",
+        "title": "Engagement, Kultur und neue Räume"
+      },
+      {
+        "id": "t8-1-4",
+        "title": "Historische und heutige Funktion unterscheiden"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-bibliotheken",
+      "auftrag4-buecherhalle-bergedorf",
+      "auftrag4-freiraum"
+    ],
+    "quellzeilen": [
+      "B1-L68",
+      "B1-L83",
+      "B1-L84",
+      "B1-L86",
+      "B2-L43",
+      "B2-L173",
+      "B2-L214",
+      "B2-L215",
+      "B2-L337",
+      "B2-L341",
+      "B2-L342",
+      "B2-L345",
+      "B2-L359",
+      "B2-L360",
+      "B2-L362",
+      "B2-L363",
+      "B2-L364",
+      "B2-L425",
+      "B2-L426",
+      "B3-L165",
+      "B3-L171",
+      "B3-L400",
+      "B3-L414",
+      "B3-L426",
+      "B3-L428",
+      "B4-L276",
+      "B4-L278",
+      "B4-L279",
+      "B4-L280",
+      "B4-L282",
+      "B4-L283",
+      "B4-L284",
+      "B4-L285",
+      "B4-L443",
+      "B4-L503",
+      "B4-L504",
+      "B4-L518",
+      "B4-L836",
+      "B4-L1232",
+      "B4-L1373",
+      "B5-L305",
+      "B5-L309",
+      "B5-L311",
+      "B5-L313",
+      "B5-L315",
+      "B5-L317"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t8-2",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t8-2-1",
+        "title": "Offener Einstieg und verbindliche Gruppe"
+      },
+      {
+        "id": "t8-2-2",
+        "title": "Gemeinsame Mahlzeiten"
+      },
+      {
+        "id": "t8-2-3",
+        "title": "Gemeinsame Interessen verbinden"
+      },
+      {
+        "id": "t8-2-4",
+        "title": "Wünsche überprüfen"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-generationen",
+      "auftrag4-mahlzeiten"
+    ],
+    "quellzeilen": [
+      "B1-L81",
+      "B1-L85",
+      "B1-L89",
+      "B1-L90",
+      "B1-L92",
+      "B1-L93",
+      "B1-L95",
+      "B1-L259",
+      "B1-L260",
+      "B2-L29",
+      "B2-L178",
+      "B2-L337",
+      "B2-L343",
+      "B2-L344",
+      "B2-L352",
+      "B2-L353",
+      "B2-L354",
+      "B2-L355",
+      "B2-L356",
+      "B2-L443",
+      "B2-L444",
+      "B2-L445",
+      "B3-L96",
+      "B3-L304",
+      "B3-L437",
+      "B4-L40",
+      "B4-L411",
+      "B4-L424",
+      "B4-L837",
+      "B4-L985",
+      "B4-L986",
+      "B4-L1099",
+      "B5-L187",
+      "B5-L189",
+      "B5-L191",
+      "B5-L193",
+      "B5-L205",
+      "B5-L207"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t8-3",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t8-3-1",
+        "title": "Barrieren zusammen betrachten"
+      },
+      {
+        "id": "t8-3-2",
+        "title": "Weg und Raum"
+      },
+      {
+        "id": "t8-3-3",
+        "title": "Allein ankommen und sich sicher fühlen"
+      },
+      {
+        "id": "t8-3-4",
+        "title": "Zugang überprüfen statt vermuten"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-barrieren"
+    ],
+    "quellzeilen": [
+      "B1-L72",
+      "B1-L73",
+      "B1-L87",
+      "B1-L92",
+      "B1-L102",
+      "B1-L103",
+      "B1-L110",
+      "B1-L132",
+      "B1-L261",
+      "B2-L160",
+      "B2-L169",
+      "B2-L170",
+      "B2-L171",
+      "B2-L172",
+      "B2-L337",
+      "B2-L339",
+      "B2-L340",
+      "B2-L343",
+      "B2-L344",
+      "B2-L347",
+      "B2-L348",
+      "B2-L349",
+      "B2-L350",
+      "B2-L351",
+      "B2-L365",
+      "B2-L366",
+      "B2-L367",
+      "B2-L433",
+      "B2-L434",
+      "B2-L512",
+      "B2-L513",
+      "B3-L166",
+      "B3-L170",
+      "B3-L234",
+      "B3-L235",
+      "B3-L414",
+      "B4-L77",
+      "B4-L91",
+      "B4-L281",
+      "B4-L287",
+      "B4-L289",
+      "B4-L291",
+      "B4-L292",
+      "B4-L293",
+      "B4-L294",
+      "B4-L410",
+      "B4-L412",
+      "B4-L413",
+      "B4-L416",
+      "B4-L418",
+      "B4-L419",
+      "B4-L420",
+      "B4-L421",
+      "B4-L422",
+      "B4-L423",
+      "B4-L425",
+      "B4-L442",
+      "B4-L444",
+      "B4-L480",
+      "B4-L482",
+      "B4-L483",
+      "B4-L484",
+      "B4-L485",
+      "B4-L486",
+      "B4-L487",
+      "B4-L488",
+      "B4-L532",
+      "B4-L534",
+      "B4-L535",
+      "B4-L536",
+      "B4-L539",
+      "B4-L540",
+      "B4-L541",
+      "B4-L571",
+      "B4-L600",
+      "B4-L602",
+      "B4-L603",
+      "B4-L604",
+      "B4-L607",
+      "B4-L608",
+      "B4-L632",
+      "B4-L738",
+      "B4-L749",
+      "B4-L751",
+      "B4-L752",
+      "B4-L753",
+      "B4-L754",
+      "B4-L755",
+      "B4-L864",
+      "B4-L866",
+      "B4-L867",
+      "B4-L868",
+      "B4-L870",
+      "B4-L1073",
+      "B4-L1092",
+      "B4-L1233",
+      "B4-L1235",
+      "B4-L1236",
+      "B4-L1237",
+      "B4-L1238",
+      "B4-L1239",
+      "B4-L1265",
+      "B4-L1269",
+      "B4-L1373",
+      "B4-L1380",
+      "B4-L1382",
+      "B4-L1384",
+      "B4-L1390",
+      "B5-L175",
+      "B5-L177",
+      "B5-L203",
+      "B5-L213",
+      "B5-L219",
+      "B5-L237",
+      "B5-L241",
+      "B5-L243",
+      "B5-L245",
+      "B5-L435",
+      "B5-L437",
+      "B5-L439",
+      "B5-L441",
+      "B5-L443",
+      "B5-L445",
+      "B5-L447",
+      "B5-L511",
+      "B5-L521",
+      "B5-L531"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t8-4",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t8-4-1",
+        "title": "Information und Alltag"
+      },
+      {
+        "id": "t8-4-2",
+        "title": "Erfahrungen und Befürchtungen"
+      },
+      {
+        "id": "t8-4-3",
+        "title": "Mit Nichtnutzern sprechen"
+      },
+      {
+        "id": "t8-4-4",
+        "title": "Veränderungen erproben und auswerten"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-barrieren"
+    ],
+    "quellzeilen": [
+      "B2-L294",
+      "B3-L232",
+      "B3-L239",
+      "B3-L324",
+      "B3-L427",
+      "B4-L90",
+      "B4-L553",
+      "B4-L567",
+      "B4-L569",
+      "B4-L570",
+      "B4-L571",
+      "B4-L572",
+      "B4-L573",
+      "B4-L574",
+      "B4-L575",
+      "B4-L727",
+      "B4-L869",
+      "B4-L1243",
+      "B4-L1390",
+      "B5-L9",
+      "B5-L165",
+      "B5-L415"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t8-5",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t8-5-1",
+        "title": "KULTURISTENHOCH2"
+      },
+      {
+        "id": "t8-5-2",
+        "title": "Pottkieker in Großlohe"
+      },
+      {
+        "id": "t8-5-3",
+        "title": "Seniorenarbeit und gemeinsame Mahlzeiten"
+      },
+      {
+        "id": "t8-5-4",
+        "title": "Übertragung braucht eigene Prüfung"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-agfw",
+      "auftrag4-kh2",
+      "auftrag4-kh2-kontakt",
+      "auftrag4-pottkieker"
+    ],
+    "quellzeilen": [
+      "B1-L82",
+      "B1-L91",
+      "B2-L346",
+      "B3-L326",
+      "B4-L388",
+      "B4-L490",
+      "B4-L492",
+      "B4-L493",
+      "B4-L494",
+      "B4-L495",
+      "B4-L496",
+      "B4-L497",
+      "B4-L498",
+      "B4-L521",
+      "B4-L523",
+      "B4-L524",
+      "B4-L525",
+      "B4-L526",
+      "B4-L527",
+      "B4-L528",
+      "B4-L529",
+      "B4-L530",
+      "B4-L547",
+      "B4-L549",
+      "B4-L550",
+      "B4-L551",
+      "B4-L552",
+      "B4-L553",
+      "B4-L554",
+      "B4-L589",
+      "B4-L591",
+      "B4-L592",
+      "B4-L593",
+      "B4-L594",
+      "B4-L595",
+      "B4-L596",
+      "B4-L597",
+      "B4-L598",
+      "B4-L627",
+      "B4-L629",
+      "B4-L630",
+      "B4-L631",
+      "B4-L632",
+      "B4-L808",
+      "B4-L810",
+      "B4-L811",
+      "B4-L812",
+      "B4-L813",
+      "B4-L1164",
+      "B4-L1349",
+      "B4-L1386"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "stadtteile",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "stadtteile-1",
+        "title": "Stadtteil ist nicht Lebenslage"
+      },
+      {
+        "id": "stadtteile-2",
+        "title": "Vierzehn Stadtteile, unterschiedliche Zugänge"
+      },
+      {
+        "id": "stadtteile-3",
+        "title": "Gegenwart und Geschichte verbinden"
+      },
+      {
+        "id": "stadtteile-4",
+        "title": "Was die Untersuchung noch nicht leisten kann"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-statistik2025"
+    ],
+    "quellzeilen": [],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t10-1",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t10-1-1",
+        "title": "Amtliche Grundlagen mit Zeitstand"
+      },
+      {
+        "id": "t10-1-2",
+        "title": "Aktuelle Entwicklung und Beteiligung"
+      },
+      {
+        "id": "t10-1-3",
+        "title": "Bestand und persönliche Nutzbarkeit"
+      },
+      {
+        "id": "t10-1-4",
+        "title": "Lokale Forschung und Grenzen"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-rise-zentrum",
+      "auftrag4-sozialraumkern",
+      "auftrag4-statistik2025"
+    ],
+    "quellzeilen": [
+      "B1-L21",
+      "B2-L3",
+      "B2-L22",
+      "B2-L418",
+      "B2-L420",
+      "B2-L421",
+      "B2-L422",
+      "B2-L520",
+      "B3-L398",
+      "B3-L408",
+      "B4-L439",
+      "B5-L249",
+      "B5-L251"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t10-2",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t10-2-1",
+        "title": "Vollständige räumliche Übersicht"
+      },
+      {
+        "id": "t10-2-2",
+        "title": "Teilräume und geografische Korrektur"
+      },
+      {
+        "id": "t10-2-3",
+        "title": "Jede Ansicht mit nachvollziehbaren Grenzen"
+      },
+      {
+        "id": "t10-2-4",
+        "title": "Vergleich ohne Rangliste"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-grosslohe",
+      "auftrag4-rise-west"
+    ],
+    "quellzeilen": [
+      "B2-L231",
+      "B2-L421",
+      "B2-L422",
+      "B2-L428",
+      "B2-L429",
+      "B2-L430",
+      "B2-L431",
+      "B3-L399",
+      "B4-L471",
+      "B4-L473",
+      "B4-L474",
+      "B4-L475",
+      "B4-L476",
+      "B4-L1241",
+      "B5-L7",
+      "B5-L247",
+      "B5-L249",
+      "B5-L259",
+      "B5-L261",
+      "B5-L263",
+      "B5-L265",
+      "B5-L267",
+      "B5-L269",
+      "B5-L271",
+      "B5-L273",
+      "B5-L275",
+      "B5-L277",
+      "B5-L279",
+      "B5-L281",
+      "B5-L283",
+      "B5-L285",
+      "B5-L287",
+      "B5-L289",
+      "B5-L431",
+      "B5-L549"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t10-3",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t10-3-1",
+        "title": "Menschen, Orte und Zeiten"
+      },
+      {
+        "id": "t10-3-2",
+        "title": "Den gesamten Besuch prüfen"
+      },
+      {
+        "id": "t10-3-3",
+        "title": "Nutzung, Nichtnutzung und Zugehörigkeit"
+      },
+      {
+        "id": "t10-3-4",
+        "title": "Bedarf und Verantwortlichkeit"
+      }
+    ],
+    "sourceIds": [
+      "umwelt"
+    ],
+    "quellzeilen": [
+      "B1-L102",
+      "B1-L103",
+      "B1-L250",
+      "B2-L424",
+      "B2-L425",
+      "B2-L426",
+      "B2-L433",
+      "B2-L434",
+      "B2-L513",
+      "B3-L396",
+      "B3-L400",
+      "B4-L130",
+      "B4-L280",
+      "B4-L281",
+      "B4-L292",
+      "B4-L295",
+      "B4-L443",
+      "B4-L477",
+      "B4-L478",
+      "B4-L1238",
+      "B4-L1239",
+      "B5-L261",
+      "B5-L263",
+      "B5-L265",
+      "B5-L267",
+      "B5-L269",
+      "B5-L271",
+      "B5-L273",
+      "B5-L275",
+      "B5-L277",
+      "B5-L279",
+      "B5-L281",
+      "B5-L283",
+      "B5-L285",
+      "B5-L287",
+      "B5-L289",
+      "B5-L293",
+      "B5-L295",
+      "B5-L297",
+      "B5-L299",
+      "B5-L301",
+      "B5-L303",
+      "B5-L309",
+      "B5-L311",
+      "B5-L313",
+      "B5-L315",
+      "B5-L317",
+      "B5-L325",
+      "B5-L549"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t10-4",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t10-4-1",
+        "title": "Amtliche Grundlagen richtig verwenden"
+      },
+      {
+        "id": "t10-4-2",
+        "title": "Menschen ohne eigenes Auto"
+      },
+      {
+        "id": "t10-4-3",
+        "title": "Dörfliche und überörtliche Begegnung"
+      },
+      {
+        "id": "t10-4-4",
+        "title": "Offene örtliche Fragen"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-mobilitaet",
+      "auftrag4-sozialraumland"
+    ],
+    "quellzeilen": [
+      "B2-L423",
+      "B2-L432",
+      "B5-L251",
+      "B5-L291",
+      "B5-L293",
+      "B5-L295",
+      "B5-L297",
+      "B5-L299",
+      "B5-L301",
+      "B5-L523"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t10-5",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t10-5-1",
+        "title": "Veränderte Orte und Nutzungen"
+      },
+      {
+        "id": "t10-5-2",
+        "title": "Wissenschaft und örtliche Geschichte"
+      },
+      {
+        "id": "t10-5-3",
+        "title": "Informell, organisiert und digital"
+      },
+      {
+        "id": "t10-5-4",
+        "title": "Zahlen und Forschungsgrenzen"
+      }
+    ],
+    "sourceIds": [
+      "finlay"
+    ],
+    "quellzeilen": [
+      "B2-L442",
+      "B4-L437",
+      "B4-L440",
+      "B4-L457",
+      "B4-L467",
+      "B4-L468",
+      "B4-L633",
+      "B4-L1254",
+      "B4-L1257",
+      "B4-L1375",
+      "B5-L319"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t10-6",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t10-6-1",
+        "title": "Ein Standort, nachvollziehbare Nutzungsphasen"
+      },
+      {
+        "id": "t10-6-2",
+        "title": "Quellen und Erinnerungen"
+      },
+      {
+        "id": "t10-6-3",
+        "title": "Bilder mit begrenztem Aussagewert"
+      },
+      {
+        "id": "t10-6-4",
+        "title": "Stand und offene Nachweise"
+      }
+    ],
+    "sourceIds": [],
+    "quellzeilen": [
+      "B4-L1247",
+      "B4-L1249",
+      "B4-L1250",
+      "B4-L1256",
+      "B4-L1302",
+      "B4-L1314",
+      "B4-L1350"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t10-7",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t10-7-1",
+        "title": "Bedarf offen erheben"
+      },
+      {
+        "id": "t10-7-2",
+        "title": "Bestand und Zugang zusammen prüfen"
+      },
+      {
+        "id": "t10-7-3",
+        "title": "Vorschläge belastbar machen"
+      },
+      {
+        "id": "t10-7-4",
+        "title": "Offene Fragen transparent halten"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-rise-neu"
+    ],
+    "quellzeilen": [
+      "B1-L250",
+      "B1-L251",
+      "B1-L252",
+      "B2-L232",
+      "B2-L233",
+      "B2-L505",
+      "B3-L156",
+      "B3-L371",
+      "B3-L403",
+      "B3-L427",
+      "B4-L335",
+      "B4-L442",
+      "B4-L466",
+      "B4-L1230",
+      "B4-L1232",
+      "B4-L1241",
+      "B4-L1242",
+      "B4-L1243",
+      "B4-L1245",
+      "B4-L1380",
+      "B4-L1382",
+      "B4-L1384",
+      "B5-L321",
+      "B5-L323",
+      "B5-L405",
+      "B5-L457",
+      "B5-L459",
+      "B5-L549"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "begegnungsstaette",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "begegnungsstaette-1",
+        "title": "Von der Idee zum tragfähigen Konzept"
+      },
+      {
+        "id": "begegnungsstaette-2",
+        "title": "Verantwortung und Mittel vor dem Start klären"
+      },
+      {
+        "id": "begegnungsstaette-3",
+        "title": "Mitwirkung ohne vorgetäuschte Einrichtung"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-bau"
+    ],
+    "quellzeilen": [],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-1",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-1-1",
+        "title": "Offenheit konkret beschreiben"
+      },
+      {
+        "id": "t9-1-2",
+        "title": "Gemeinsame Anlässe statt verordneter Nähe"
+      },
+      {
+        "id": "t9-1-3",
+        "title": "Verschiedene Formen nebeneinander ermöglichen"
+      },
+      {
+        "id": "t9-1-4",
+        "title": "Ein überprüfbares Ziel festlegen"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-kontakt",
+      "dritteorte"
+    ],
+    "quellzeilen": [
+      "B2-L339",
+      "B2-L340",
+      "B2-L347",
+      "B2-L348",
+      "B4-L518",
+      "B4-L540",
+      "B4-L1269",
+      "B1-L79",
+      "B1-L80",
+      "B2-L174",
+      "B2-L175",
+      "B2-L292",
+      "B2-L293",
+      "B2-L511",
+      "B3-L249",
+      "B4-L500",
+      "B4-L502",
+      "B4-L505",
+      "B4-L506",
+      "B4-L507",
+      "B4-L508",
+      "B4-L509",
+      "B4-L511",
+      "B4-L513",
+      "B4-L514",
+      "B4-L515",
+      "B4-L516",
+      "B4-L517",
+      "B4-L519",
+      "B4-L542",
+      "B4-L999",
+      "B4-L1001",
+      "B4-L1002",
+      "B4-L1004",
+      "B4-L1005",
+      "B4-L1006",
+      "B4-L1066",
+      "B4-L1234",
+      "B4-L1259",
+      "B4-L1261",
+      "B4-L1270",
+      "B4-L1374"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-2",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-2-1",
+        "title": "Bestehendes zuerst erfassen"
+      },
+      {
+        "id": "t9-2-2",
+        "title": "Nutzer und Nichtnutzer erreichen"
+      },
+      {
+        "id": "t9-2-3",
+        "title": "Widersprüche sichtbar auswerten"
+      },
+      {
+        "id": "t9-2-4",
+        "title": "Von der Frage zum Pilotversuch"
+      }
+    ],
+    "sourceIds": [],
+    "quellzeilen": [
+      "B2-L505",
+      "B4-L498",
+      "B5-L321",
+      "B5-L323",
+      "B2-L292",
+      "B4-L506",
+      "B4-L537",
+      "B4-L1234",
+      "B4-L1272",
+      "B5-L473"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-3",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-3-1",
+        "title": "Den ganzen Weg vergleichen"
+      },
+      {
+        "id": "t9-3-2",
+        "title": "Zugänglichkeit als Einzelmerkmale prüfen"
+      },
+      {
+        "id": "t9-3-3",
+        "title": "Laufkundschaft, Nachbarschaft und Räume"
+      },
+      {
+        "id": "t9-3-4",
+        "title": "Erreichbarkeit transparent veröffentlichen"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-bau"
+    ],
+    "quellzeilen": [
+      "B4-L535",
+      "B5-L237",
+      "B4-L538",
+      "B4-L1267",
+      "B4-L1268",
+      "B5-L307"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-4",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-4-1",
+        "title": "Alltag und Begegnung verbinden"
+      },
+      {
+        "id": "t9-4-2",
+        "title": "Ohne Anmeldung und ohne Vereinszwang"
+      },
+      {
+        "id": "t9-4-3",
+        "title": "Vielfalt räumlich und zeitlich organisieren"
+      },
+      {
+        "id": "t9-4-4",
+        "title": "Speisen, Kultur und Kosten realistisch planen"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-lebensmittel"
+    ],
+    "quellzeilen": [
+      "B1-L259",
+      "B2-L443",
+      "B2-L444",
+      "B2-L445",
+      "B4-L526",
+      "B4-L527",
+      "B4-L539",
+      "B4-L540",
+      "B4-L541",
+      "B4-L1265",
+      "B4-L1269",
+      "B5-L245",
+      "B1-L78",
+      "B4-L543",
+      "B4-L1259",
+      "B4-L1261",
+      "B4-L1263",
+      "B4-L1264",
+      "B4-L1266",
+      "B4-L1271",
+      "B5-L233"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-5",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-5-1",
+        "title": "Zugang und Preise verständlich machen"
+      },
+      {
+        "id": "t9-5-2",
+        "title": "Schutzregeln verhaltensbezogen formulieren"
+      },
+      {
+        "id": "t9-5-3",
+        "title": "Unterschiede berücksichtigen"
+      },
+      {
+        "id": "t9-5-4",
+        "title": "Beschwerden auswerten und Verantwortung sichern"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-agg"
+    ],
+    "quellzeilen": [
+      "B2-L160",
+      "B5-L245",
+      "B4-L758",
+      "B4-L760",
+      "B4-L762",
+      "B4-L763",
+      "B4-L764",
+      "B4-L1270",
+      "B5-L59",
+      "B5-L61",
+      "B5-L63",
+      "B5-L227",
+      "B5-L229"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-6",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-6-1",
+        "title": "Ein Budget ohne erfundene Marktpreise"
+      },
+      {
+        "id": "t9-6-2",
+        "title": "Öffentliche Förderung passend zum Zweck prüfen"
+      },
+      {
+        "id": "t9-6-3",
+        "title": "Kleine Projekte und zweckgebundene Stiftungsmittel"
+      },
+      {
+        "id": "t9-6-4",
+        "title": "Eigenmittel, soziale Preise und Bewilligung"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-engagementmittel",
+      "auftrag4-kulturmittel",
+      "auftrag4-lho",
+      "auftrag4-migrantmittel",
+      "auftrag4-quartiersmittel",
+      "auftrag4-sondermittel",
+      "auftrag4-spielraum"
+    ],
+    "quellzeilen": [
+      "B4-L526",
+      "B4-L527",
+      "B4-L536",
+      "B4-L607",
+      "B4-L608",
+      "B1-L78",
+      "B4-L1263",
+      "B4-L1264",
+      "B5-L473"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-7",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-7-1",
+        "title": "Nutzungskonzept als Ausgangspunkt"
+      },
+      {
+        "id": "t9-7-2",
+        "title": "Gastronomie und Verpflegung unterscheiden"
+      },
+      {
+        "id": "t9-7-3",
+        "title": "Träger, Haftung und Finanzen festlegen"
+      },
+      {
+        "id": "t9-7-4",
+        "title": "Betriebsregeln und Rechte"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-bauverfahren",
+      "auftrag4-gastrecht",
+      "auftrag4-gemeinnutz",
+      "auftrag4-ifsg",
+      "auftrag4-lebensmittel",
+      "auftrag4-musik",
+      "auftrag4-verein",
+      "auftrag4-vereinsdaten",
+      "auftrag4-vstaett"
+    ],
+    "quellzeilen": [
+      "B5-L307",
+      "B5-L409",
+      "B5-L473",
+      "B5-L535"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-8",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-8-1",
+        "title": "Aufgaben sichtbar verteilen"
+      },
+      {
+        "id": "t9-8-2",
+        "title": "Ehrenamt freiwillig und begleitet gestalten"
+      },
+      {
+        "id": "t9-8-3",
+        "title": "Begrüßen, zuhören und Grenzen wahren"
+      },
+      {
+        "id": "t9-8-4",
+        "title": "Kooperation und Mitwirkung verbindlich machen"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-ehrenversicherung",
+      "zuhoeren"
+    ],
+    "quellzeilen": [
+      "B4-L642",
+      "B4-L1068",
+      "B5-L195",
+      "B5-L197",
+      "B5-L221",
+      "B5-L223",
+      "B5-L231"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-9",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-9-1",
+        "title": "Eine Einladung mit den nötigen Angaben"
+      },
+      {
+        "id": "t9-9-2",
+        "title": "Analoge und digitale Wege verbinden"
+      },
+      {
+        "id": "t9-9-3",
+        "title": "Persönlich einladen ohne Druck"
+      },
+      {
+        "id": "t9-9-4",
+        "title": "Rückmeldung zur Auffindbarkeit nutzen"
+      }
+    ],
+    "sourceIds": [],
+    "quellzeilen": [],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-10",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-10-1",
+        "title": "Nur verlässliche Zeiten versprechen"
+      },
+      {
+        "id": "t9-10-2",
+        "title": "Wirtschaftlichkeit laufend nachvollziehen"
+      },
+      {
+        "id": "t9-10-3",
+        "title": "Nutzung und Erleben gemeinsam prüfen"
+      },
+      {
+        "id": "t9-10-4",
+        "title": "Anpassen, kooperieren oder geordnet beenden"
+      }
+    ],
+    "sourceIds": [
+      "auftrag4-lho"
+    ],
+    "quellzeilen": [
+      "B4-L413",
+      "B4-L421",
+      "B4-L534",
+      "B5-L175",
+      "B5-L203",
+      "B3-L241",
+      "B4-L544",
+      "B4-L545",
+      "B4-L1262",
+      "B5-L215",
+      "B5-L217"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-11",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-11-1",
+        "title": "Was die vorhandene Raumforschung aussagt"
+      },
+      {
+        "id": "t9-11-2",
+        "title": "Kontakte, Wiedersehen und Nähe unterscheiden"
+      },
+      {
+        "id": "t9-11-3",
+        "title": "Praxisvergleiche sorgfältig nutzen"
+      },
+      {
+        "id": "t9-11-4",
+        "title": "Ein realistischer Wirksamkeitsvergleich"
+      }
+    ],
+    "sourceIds": [
+      "finlay",
+      "freundschaftzeit",
+      "schwachekontakte",
+      "umwelt"
+    ],
+    "quellzeilen": [
+      "B4-L526",
+      "B4-L527",
+      "B3-L249",
+      "B4-L509"
+    ],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t9-12",
+    "status": "fachtext_ausgearbeitet",
+    "sections": [
+      {
+        "id": "t9-12-1",
+        "title": "Ein konkreter Vorschlag hilft bei der Planung"
+      },
+      {
+        "id": "t9-12-2",
+        "title": "Was eine lokale Prüfung bedeutet"
+      },
+      {
+        "id": "t9-12-3",
+        "title": "Vor einer späteren Freigabe"
+      }
+    ],
+    "sourceIds": [],
+    "quellzeilen": [],
+    "forschungsgrenzen": "Ausdrücklich im Fachtext und Quellenapparat; Originalangaben und offene Einzelnachweise in auftrag4-abdeckung.json",
+    "geprueft": "2026-11-12"
+  }
+]

@@ -11,7 +11,7 @@ export const lonelinessGroups=[
 export {default as lonelinessTopics} from './loneliness-topics.json' with {type:'json'};
 import lonelinessTopics from './loneliness-topics.json' with {type:'json'};
 // A future historical place has one canonical record, referenced from both branches.
-export const lonelinessHistoricalPlaces=[];
+export {historicalPlaces as lonelinessHistoricalPlaces} from './loneliness-local.mjs';
 export function buildTopicIndex(topics=lonelinessTopics){
  const entries=[];const seen=new Set();
  function walk(nodes,parents=[]){for(const node of nodes){if(!node.id||node.id.includes('/')||seen.has(node.id))throw Error('Ungültige oder doppelte Themen-ID');seen.add(node.id);const path=[...parents.map(p=>p.id),node.id];const entry={...node,path,parents,href:lonelinessRoute+'/'+path.map(encodeURIComponent).join('/')};entries.push(entry);walk(node.children||[],[...parents,entry]);}}

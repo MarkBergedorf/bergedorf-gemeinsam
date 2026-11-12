@@ -1,5 +1,8 @@
 # Vollständige redaktionelle Auswertung der fünf Berichte
 
+> Bearbeitungsstand Auftrag 4: [Begegnung, Gründungsleitfaden und Stadtteile](auftrag4.md), [Artikelregister](auftrag4-artikelregister.json), [446-zeiliger Abgleich](auftrag4-abdeckung.json), [historischer Abgleich](auftrag4-historischer-abgleich.json) und [Bildprüfung aller 88 Nummern](auftrag4-bildpruefung.json). Frühere Dokumentationsstände und Originale bleiben unverändert.
+
+
 > Neuer Bearbeitungsstand Auftrag 3: [Lebenssituationen, Gesundheit und konkrete Hilfen](auftrag3.md), [Artikelstatus](auftrag3-artikelregister.json) und [Abdeckungsregister](auftrag3-abdeckung.json). Die früheren Dokumentationsstände bleiben unverändert nachvollziehbar.
 
 > Bearbeitungsstand Auftrag 2: [Fachtexte, Abdeckung und offene Forschung](auftrag2.md); zeilenbezogener Nachweis in [auftrag2-abdeckung.json](auftrag2-abdeckung.json). Die folgende Dokumentation beschreibt weiterhin die unveränderte vollständige Berichtserschließung aus Auftrag 1.

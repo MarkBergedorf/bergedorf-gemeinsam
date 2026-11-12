@@ -1,0 +1,312 @@
+{
+  "auftrag4-barrieren": {
+    "authors": "Braedon G. Townsend, Jessamine T.-H. Chen und Viviana M. Wuthrich",
+    "year": 2021,
+    "title": "Barriers and Facilitators to Social Participation in Older Adults: A Systematic Literature Review",
+    "publication": "Clinical Gerontologist 44(4), 359–380",
+    "url": "https://doi.org/10.1080/07317115.2020.1863890",
+    "method": "Systematischer Review von 76 Studien; Originalabstract im Forschungsrepositorium der Macquarie University geprüft.",
+    "limitations": "Schwerpunkt ältere Menschen; unterschiedliche Messungen und Kontexte, keine Bergedorfer Kausalstudie.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-mahlzeiten": {
+    "authors": "R. I. M. Dunbar",
+    "year": 2017,
+    "title": "Breaking Bread: the Functions of Social Eating",
+    "publication": "Adaptive Human Behavior and Physiology 3, 198–211",
+    "url": "https://doi.org/10.1007/s40750-017-0061-4",
+    "method": "Geschichtetes britisches Befragungspanel von 2.000 Erwachsenen; Angaben zu Mahlzeiten, Beziehungen und Wohlbefinden.",
+    "limitations": "Selbstauskunft und Pfadanalyse ersetzen keine zufällige Zuweisung; keine garantierte Einsamkeitswirkung eines Mittagstisches, keine Alkoholempfehlung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-generationen": {
+    "authors": "Rebecca Whear et al.",
+    "year": 2023,
+    "title": "What is the effect of intergenerational activities on the wellbeing and mental health of older people?: A systematic review",
+    "publication": "Campbell Systematic Reviews 19(4), e1355",
+    "url": "https://doi.org/10.1002/cl2.1355",
+    "method": "Systematischer Review von 14 Trials aus sechs Ländern; Volltext geprüft.",
+    "limitations": "Kleine Studien, unterschiedliche Aktivitäten und Ergebnisse; keine gesicherte allgemeine Wirkung auf Einsamkeit und keine Trialdaten zur sozialen Isolation älterer Menschen.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-bibliotheken": {
+    "authors": "Svanhild Aabø, Ragnar Audunson und Andreas Vårheim",
+    "year": 2010,
+    "title": "How do public libraries function as meeting places?",
+    "publication": "Library & Information Science Research 32(1), 16–26",
+    "url": "https://doi.org/10.1016/j.lisr.2009.07.008",
+    "method": "Befragung zu Bibliotheken in drei Osloer Stadtbezirken; Originalabstract geprüft.",
+    "limitations": "Beobachtete Nutzungsfunktionen, keine experimentelle Einsamkeitsintervention und keine lokale Evaluation in Bergedorf.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-kontakt": {
+    "authors": "Elizabeth Levy Paluck, Seth A. Green und Donald P. Green",
+    "year": 2019,
+    "title": "The contact hypothesis re-evaluated",
+    "publication": "Behavioural Public Policy 3(2), 129–158; online 2018",
+    "url": "https://doi.org/10.1017/bpp.2018.25",
+    "method": "Auswertung von 27 Intergruppen-Kontaktstudien mit zufälliger Zuweisung und zeitversetzter Ergebnismessung.",
+    "limitations": "Vorurteilsmaße, keine direkte Einsamkeitsmessung; heterogene Effekte, wichtige Bevölkerungs- und Anwendungsbereiche unzureichend erforscht.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-statistik2025": {
+    "authors": "Statistikamt Nord",
+    "year": 2026,
+    "title": "Hamburger Stadtteil-Profile: Berichtsjahr 2025",
+    "publication": "Amtliche Statistik, veröffentlicht 30. September 2026",
+    "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Stadtteil-Profile_HH-BJ-2025.pdf",
+    "method": "Stadtteilprofile und Quellenanmerkungen; Bergedorfer Stadtteile auf gedruckten Seiten 141–168.",
+    "limitations": "Keine Einsamkeitsmessung. Einzelmerkmale haben unterschiedliche Bezugszeiten; ein Einpersonenhaushalt beschreibt keine Beziehungsqualität oder individuellen Hilfebedarf.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-mobilitaet": {
+    "authors": "Bezirksamt Bergedorf; fair spaces, CITIES FOR FUTURE und Goudappel",
+    "year": 2024,
+    "title": "Mobilitätskonzept Vier- und Marschlande – Endbericht Mai 2024",
+    "publication": "Amtliches Mobilitätskonzept",
+    "url": "https://www.hamburg.de/resource/blob/956262/934567aef9831d8d31ca37cf8867c2c7/d-mobilita-tskonzept-vier-und-marschlande-endbericht-mai-2024--data.pdf",
+    "method": "Statistik-, Erreichbarkeits- und Mobilitätsanalysen, Vor-Ort-/Onlinebefragung; besonders Seiten 15, 24 und 55.",
+    "limitations": "Verschiedene Datenjahre, darunter MiD 2017; damalige Modellwerte und Planungsmaßnahmen, keine aktuelle Fahrplanauskunft oder Umsetzungsgarantie.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-sozialraumkern": {
+    "authors": "Bezirksamt Bergedorf",
+    "year": 2016,
+    "title": "Sozialraumbeschreibung Bergedorf-Kerngebiet",
+    "publication": "Amtliche Sozialraumplanung",
+    "url": "https://dokumente.hamburg.de/resource/blob/56158/f04356859bc131234ccb20425e6d5566/sozialraumbericht-2016-do-data.pdf",
+    "method": "Damals beschriebene Sozialräume Bergedorf-Nord, -Kern und -Ost; Einleitung Seite 4.",
+    "limitations": "Bergedorf-West ausdrücklich nicht umfasst; überwiegend Daten 2015/2016. Keine aktuelle Öffnungszeiten- oder Angebotsgarantie.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-sozialraumland": {
+    "authors": "Bezirksamt Bergedorf",
+    "year": 2016,
+    "title": "Sozialraumbeschreibungen Vier- und Marschlande",
+    "publication": "Amtliche Sozialraumplanung, Daten überwiegend 2015/2016",
+    "url": "https://dokumente.hamburg.de/resource/blob/56250/4ddbeac6ebec9b3e7f292ebef5cf9524/sozialraumbescheibungen-vm-do-data.pdf",
+    "method": "Soziale Infrastruktur, Sport, Kultur und Begegnung; Seiten 35–54.",
+    "limitations": "Historischer Planungsstand mit damaligen Einrichtungen und Terminen; keine ungeprüfte Übernahme als heutige Angebotsliste.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-rise-neu": {
+    "authors": "Bezirksamt Bergedorf",
+    "year": 2026,
+    "title": "Gebietsentwicklung Neuallermöhe",
+    "publication": "Amtliche Gebiets- und Beteiligungsinformation; Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/neuallermoehe-58018",
+    "method": "Aktuelle Statusangaben und IEK-Fortschreibungen auf der Bezirksseite.",
+    "limitations": "Förderziele sind keine abgeschlossene Wirkungsevaluation; Fördergebiet und amtliche Stadtteilgrenze unterscheiden.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-rise-west": {
+    "authors": "Bezirksamt Bergedorf",
+    "year": 2026,
+    "title": "Gebietsentwicklung Bergedorf-West",
+    "publication": "Amtliche Gebiets- und Beteiligungsinformation; Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/bergedorf-west-58034",
+    "method": "Aktuelle Statusangaben und IEK-Fortschreibungen auf der Bezirksseite.",
+    "limitations": "Förderziele sind keine abgeschlossene Wirkungsevaluation; Fördergebiet und amtliche Stadtteilgrenze unterscheiden.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-rise-zentrum": {
+    "authors": "Bezirksamt Bergedorf",
+    "year": 2026,
+    "title": "Gebietsentwicklung Zentrum Bergedorf",
+    "publication": "Amtliche Gebiets- und Beteiligungsinformation; Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/zentrum-bergedorf-624018",
+    "method": "Aktuelle Statusangaben und IEK-Fortschreibungen auf der Bezirksseite.",
+    "limitations": "Förderziele sind keine abgeschlossene Wirkungsevaluation; Fördergebiet und amtliche Stadtteilgrenze unterscheiden.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-kh2": {
+    "authors": "KULTURISTENHOCH2 / Stiftung Generationen-Zusammenhalt",
+    "year": 2026,
+    "title": "Abschluss & Auftakt",
+    "publication": "Trägerinformation, 17. Juni 2026",
+    "url": "https://kulturisten-hoch2.de/abschluss-auftakt/",
+    "method": "Ankündigung des Neustarts in Bergedorf mit dem Luisen-Gymnasium nach den Sommerferien 2026.",
+    "limitations": "Ankündigung ist keine Garantie aktuell verfügbarer Plätze oder bereits erfolgter Begleitungen.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-kh2-kontakt": {
+    "authors": "KULTURISTENHOCH2 / Stiftung Generationen-Zusammenhalt",
+    "year": 2026,
+    "title": "Kontakt",
+    "publication": "Trägerinformation; Abrufstand",
+    "url": "https://kulturisten-hoch2.de/kontakt/",
+    "method": "Veröffentlichter Kontaktweg; Telefon 0160 494 3352.",
+    "limitations": "Teilnahmevoraussetzungen, Kapazität und passende Begleitung sind individuell zu klären.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-pottkieker": {
+    "authors": "Seniorenbüro Hamburg e. V.",
+    "year": 2026,
+    "title": "Treffpunkt Großlohe",
+    "publication": "Trägerinformation; Abrufstand",
+    "url": "https://www.seniorenbuero-hamburg.de/treffpunkt-grosslohe/",
+    "method": "Offizielle Beschreibung und Angebotsübersicht des Treffpunkts in Rahlstedt/Großlohe.",
+    "limitations": "Kein Bergedorfer Standort; aktuelle Essenskosten und Anmeldung nicht bestätigt, keine unabhängige Auslastungs- oder Wirkungsprüfung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-agfw": {
+    "authors": "Arbeitsgemeinschaft der Freien Wohlfahrtspflege Hamburg e. V.",
+    "year": 2026,
+    "title": "Fachstelle für sozialraumorientierte, diversitätssensible (Senior:innen)Treffs",
+    "publication": "Trägerinformation; Abrufstand",
+    "url": "https://www.agfw-hamburg.de/seniorinnentreffs/",
+    "method": "Offizielle Beschreibung der trägerübergreifenden Fachstelle.",
+    "limitations": "Unterstützung und Vernetzung, keine Garantie gleicher Besucherzusammensetzung oder bestimmter Einsamkeitswirkung.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-freiraum": {
+    "authors": "Körber-Stiftung",
+    "year": 2026,
+    "title": "Frei Raum im KörberHaus",
+    "publication": "Anbieterinformation; Abrufstand",
+    "url": "https://koerber-stiftung.de/projekte/frei-raum/",
+    "method": "Nutzungszweck, Ausstattung, Öffnung und Bedingungen auf der Originalseite.",
+    "limitations": "Nicht buchbarer geteilter Arbeitsraum für Engagement; keine kostenlose Reservierung eines Veranstaltungssaals und keine Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-buecherhalle-bergedorf": {
+    "authors": "Stiftung Hamburger Öffentliche Bücherhallen",
+    "year": 2026,
+    "title": "Bücherhalle Bergedorf",
+    "publication": "Anbieterinformation; Abrufstand",
+    "url": "https://www.buecherhallen.de/bergedorf.html",
+    "method": "Adresse, Erreichbarkeit und Unterscheidung von Personalzeiten und FlexiBib-Zugang.",
+    "limitations": "FlexiBib setzt Alter ab 18 und gültige Bücherhallenkarte voraus. Verfügbarkeit einzelner Angebote und Barrierefreiheit konkret erfragen.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-buecherhalle-neu": {
+    "authors": "Stiftung Hamburger Öffentliche Bücherhallen",
+    "year": 2026,
+    "title": "Bücherhalle Neuallermöhe",
+    "publication": "Anbieterinformation; Abrufstand",
+    "url": "https://www.buecherhallen.de/index.php/neuallermoehe.html",
+    "method": "Adresse, Kontakt und veröffentlichte Zeiten.",
+    "limitations": "Zeitweilige Schließungen und veranstaltungsbezogene Bedingungen auf der aktuellen Originalseite prüfen; keine pauschale Zusage aller Zugangsmerkmale.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-grosslohe": {
+    "authors": "Bezirksamt Wandsbek",
+    "year": 2026,
+    "title": "Ehemaliges Fördergebiet Großlohe",
+    "publication": "Amtliche Orts- und Kontaktinformation; Abrufstand",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/wandsbek/themen/soziales/integrierte-stadtteilentwicklung/grosslohe-77394",
+    "method": "Zuordnung zum Bezirk Wandsbek und örtlicher Treffpunkt.",
+    "limitations": "Außerbezirkliches Vergleichsbeispiel; keine Bergedorfer Sozialraumdaten.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-altengamme": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Altengamme",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/altengamme-371324",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-kirchwerder": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Kirchwerder",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/kirchwerder-371572",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-neuengamme": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Neuengamme",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/neuengamme-371832",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-curslack": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Curslack",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/curslack-371496",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-moorfleet": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Moorfleet",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/moorfleet-371716",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-reitbrook": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Reitbrook",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/reitbrook-371948",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-tatenberg": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Tatenberg",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/tatenberg-372042",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-allermoehe": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Allermöhe",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/allermoehe-371268",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-billwerder": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Billwerder",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/billwerder-371444",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-ochsenwerder": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Ochsenwerder",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/ochsenwerder-371896",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  },
+  "auftrag4-portraet-spadenland": {
+    "authors": "Freie und Hansestadt Hamburg / hamburg.de",
+    "year": 2026,
+    "title": "Stadtteilporträt Spadenland",
+    "publication": "Offizielles Stadtportal; Abrufstand",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/spadenland-371988",
+    "method": "Örtliche Geografie und benannte bauliche beziehungsweise institutionelle Anknüpfungspunkte im Originalporträt geprüft.",
+    "limitations": "Redaktionelles Stadtteilporträt mit teils älteren Statistik- und Angebotsständen. Keine aktuelle Bestätigung von Öffnungszeiten, Kosten, Fahrplänen oder verfügbaren Plätzen; keine wissenschaftliche Wirkungsevaluation.",
+    "checked": "2026-11-12"
+  }
+}
