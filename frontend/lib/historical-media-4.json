@@ -11,9 +11,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b001-kolorierte-eckhausansicht-mit-aufschrift-max-johannsen.jpg",
     "alt": "Kolorierte Eckhausansicht mit Aufschrift Max Johannsen.",
     "checked": "2026-11-12",
     "variants": [
@@ -28,12 +28,15 @@
           379
         ],
         "reportLines": "409–412",
-        "originalFilename": "B001__image(20261111-085609).png"
+        "originalFilename": "B001__image(20261111-085609).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b001-kolorierte-eckhausansicht-mit-aufschrift-max-johannsen.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b001-kolorierte-eckhausansicht-mit-aufschrift-max-johannsen-vorschau.jpg"
       }
     ],
     "siteIds": [
       "eichen"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B002",
@@ -47,9 +50,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b002-smartphonefoto-zweier-gedruckter-seiten-eines-gaststatten-und-freizeitverzeichnisses.jpg",
     "alt": "Smartphonefoto zweier gedruckter Seiten eines Gaststätten- und Freizeitverzeichnisses.",
     "checked": "2026-11-12",
     "variants": [
@@ -64,7 +67,9 @@
           2048
         ],
         "reportLines": "413–416",
-        "originalFilename": "B002__image(20261111-102041).png"
+        "originalFilename": "B002__image(20261111-102041).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b002-smartphonefoto-zweier-gedruckter-seiten-eines-gaststatten-und-freizeitverzeichnisses.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b002-smartphonefoto-zweier-gedruckter-seiten-eines-gaststatten-und-freizeitverzeichnisses-vorschau.jpg"
       }
     ],
     "siteIds": [
@@ -93,7 +98,8 @@
       "jever",
       "mendel-stube",
       "florida"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B003",
@@ -107,9 +113,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b003-historische-im-bild-als-gasthof-zur-sonne-bezeichnete-eckhausansicht.jpg",
     "alt": "Historische, im Bild als Gasthof Zur Sonne bezeichnete Eckhausansicht.",
     "checked": "2026-11-12",
     "variants": [
@@ -124,12 +130,15 @@
           1503
         ],
         "reportLines": "417–420",
-        "originalFilename": "B003__image(20261111-104222).png"
+        "originalFilename": "B003__image(20261111-104222).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b003-historische-im-bild-als-gasthof-zur-sonne-bezeichnete-eckhausansicht.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b003-historische-im-bild-als-gasthof-zur-sonne-bezeichnete-eckhausansicht-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B004",
@@ -143,9 +152,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b004-straenblick-auf-niedrige-geschaftsgebaude-und-geparkte-autos.jpg",
     "alt": "Straßenblick auf niedrige Geschäftsgebäude und geparkte Autos.",
     "checked": "2026-11-12",
     "variants": [
@@ -160,10 +169,13 @@
           1274
         ],
         "reportLines": "421–424",
-        "originalFilename": "B004__image(20261111-104902).png"
+        "originalFilename": "B004__image(20261111-104902).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b004-straenblick-auf-niedrige-geschaftsgebaude-und-geparkte-autos.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b004-straenblick-auf-niedrige-geschaftsgebaude-und-geparkte-autos-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B005",
@@ -177,9 +189,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b005-ladengebaude-beziehungsweise-passage-mit-farbigem-vorbau.jpg",
     "alt": "Ladengebäude beziehungsweise Passage mit farbigem Vorbau.",
     "checked": "2026-11-12",
     "variants": [
@@ -194,10 +206,13 @@
           720
         ],
         "reportLines": "425–428",
-        "originalFilename": "B005__image(20261111-104915).png"
+        "originalFilename": "B005__image(20261111-104915).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b005-ladengebaude-beziehungsweise-passage-mit-farbigem-vorbau.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b005-ladengebaude-beziehungsweise-passage-mit-farbigem-vorbau-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B006",
@@ -211,9 +226,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b006-baustellenbild-mit-bauschutt.jpg",
     "alt": "Baustellenbild mit Bauschutt.",
     "checked": "2026-11-12",
     "variants": [
@@ -228,10 +243,13 @@
           1365
         ],
         "reportLines": "429–432",
-        "originalFilename": "B006__image(20261111-104929).png"
+        "originalFilename": "B006__image(20261111-104929).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b006-baustellenbild-mit-bauschutt.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b006-baustellenbild-mit-bauschutt-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B007",
@@ -245,9 +263,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b007-gebaude-und-baustellenzustand-mit-pamukkale-schild.jpg",
     "alt": "Gebäude- und Baustellenzustand mit „Pamukkale“-Schild.",
     "checked": "2026-11-12",
     "variants": [
@@ -262,10 +280,13 @@
           1453
         ],
         "reportLines": "433–436",
-        "originalFilename": "B007__image(20261111-104941).png"
+        "originalFilename": "B007__image(20261111-104941).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b007-gebaude-und-baustellenzustand-mit-pamukkale-schild.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b007-gebaude-und-baustellenzustand-mit-pamukkale-schild-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B008",
@@ -279,9 +300,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b008-historischer-straenzug-mit-geschaften-und-passanten.jpg",
     "alt": "Historischer Straßenzug mit Geschäften und Passanten.",
     "checked": "2026-11-12",
     "variants": [
@@ -296,10 +317,13 @@
           1352
         ],
         "reportLines": "437–440",
-        "originalFilename": "B008__image(20261111-104950).png"
+        "originalFilename": "B008__image(20261111-104950).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b008-historischer-straenzug-mit-geschaften-und-passanten.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b008-historischer-straenzug-mit-geschaften-und-passanten-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B009",
@@ -313,9 +337,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b009-alterer-straenblick-mit-eckgebaude.jpg",
     "alt": "Älterer Straßenblick mit Eckgebäude.",
     "checked": "2026-11-12",
     "variants": [
@@ -330,10 +354,13 @@
           1365
         ],
         "reportLines": "441–444",
-        "originalFilename": "B009__image(20261111-105006).png"
+        "originalFilename": "B009__image(20261111-105006).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b009-alterer-straenblick-mit-eckgebaude.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b009-alterer-straenblick-mit-eckgebaude-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B010",
@@ -347,9 +374,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b010-stadtansicht-bei-einem-straen-platzbereich.jpg",
     "alt": "Stadtansicht bei einem Straßen-/Platzbereich.",
     "checked": "2026-11-12",
     "variants": [
@@ -364,10 +391,13 @@
           960
         ],
         "reportLines": "445–448",
-        "originalFilename": "B010__image(20261111-105029).png"
+        "originalFilename": "B010__image(20261111-105029).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b010-stadtansicht-bei-einem-straen-platzbereich.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b010-stadtansicht-bei-einem-straen-platzbereich-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B011",
@@ -381,9 +411,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b011-historische-geschaftseingange-mit-teilweise-lesbarer-juwelierbeschriftung.jpg",
     "alt": "Historische Geschäftseingänge mit teilweise lesbarer Juwelierbeschriftung.",
     "checked": "2026-11-12",
     "variants": [
@@ -398,10 +428,13 @@
           1219
         ],
         "reportLines": "449–452",
-        "originalFilename": "B011__image(20261111-110500).png"
+        "originalFilename": "B011__image(20261111-110500).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b011-historische-geschaftseingange-mit-teilweise-lesbarer-juwelierbeschriftung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b011-historische-geschaftseingange-mit-teilweise-lesbarer-juwelierbeschriftung-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B012",
@@ -416,9 +449,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b012-historische-geschaftsstrae-mit-mehreren-ladeneingangen.jpg",
     "alt": "Historische Geschäftsstraße mit mehreren Ladeneingängen.",
     "checked": "2026-11-12",
     "variants": [
@@ -433,7 +466,9 @@
           1805
         ],
         "reportLines": "453–456",
-        "originalFilename": "B012__image(20261111-110514).png"
+        "originalFilename": "B012__image(20261111-110514).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b012-historische-geschaftsstrae-mit-mehreren-ladeneingangen.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b012-historische-geschaftsstrae-mit-mehreren-ladeneingangen-vorschau.jpg"
       },
       {
         "number": "B026",
@@ -446,10 +481,13 @@
           1805
         ],
         "reportLines": "509–512",
-        "originalFilename": "B026__image(20261111-111649).png"
+        "originalFilename": "B026__image(20261111-111649).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b026-historische-geschaftsstrae-mit-mehreren-ladeneingangen.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b026-historische-geschaftsstrae-mit-mehreren-ladeneingangen-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B013",
@@ -463,9 +501,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b013-historische-fachwerk-und-geschaftsgebaude-im-bergedorfer-zentrum.jpg",
     "alt": "Historische Fachwerk- und Geschäftsgebäude im Bergedorfer Zentrum.",
     "checked": "2026-11-12",
     "variants": [
@@ -480,10 +518,13 @@
           1176
         ],
         "reportLines": "457–460",
-        "originalFilename": "B013__image(20261111-110524).png"
+        "originalFilename": "B013__image(20261111-110524).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b013-historische-fachwerk-und-geschaftsgebaude-im-bergedorfer-zentrum.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b013-historische-fachwerk-und-geschaftsgebaude-im-bergedorfer-zentrum-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B014",
@@ -497,9 +538,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b014-spatere-vergleichsaufnahme-mit-modernen-ladenfronten.jpg",
     "alt": "Spätere Vergleichsaufnahme mit modernen Ladenfronten.",
     "checked": "2026-11-12",
     "variants": [
@@ -514,10 +555,13 @@
           1365
         ],
         "reportLines": "461–464",
-        "originalFilename": "B014__image(20261111-110535).png"
+        "originalFilename": "B014__image(20261111-110535).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b014-spatere-vergleichsaufnahme-mit-modernen-ladenfronten.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b014-spatere-vergleichsaufnahme-mit-modernen-ladenfronten-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B015",
@@ -531,9 +575,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b015-historische-kolorierte-postkarte-mit-bergedorfer-kirche.jpg",
     "alt": "Historische kolorierte Postkarte mit Bergedorfer Kirche.",
     "checked": "2026-11-12",
     "variants": [
@@ -548,10 +592,13 @@
           1327
         ],
         "reportLines": "465–468",
-        "originalFilename": "B015__image(20261111-110834).png"
+        "originalFilename": "B015__image(20261111-110834).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b015-historische-kolorierte-postkarte-mit-bergedorfer-kirche.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b015-historische-kolorierte-postkarte-mit-bergedorfer-kirche-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B016",
@@ -565,9 +612,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b016-historische-postkarte-mit-bergedorfer-kirche-handschriftlichen-grue.jpg",
     "alt": "Historische Postkarte mit Bergedorfer Kirche, handschriftlichen Grüße.",
     "checked": "2026-11-12",
     "variants": [
@@ -582,10 +629,13 @@
           1327
         ],
         "reportLines": "469–472",
-        "originalFilename": "B016__image(20261111-110842).png"
+        "originalFilename": "B016__image(20261111-110842).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b016-historische-postkarte-mit-bergedorfer-kirche-handschriftlichen-grue.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b016-historische-postkarte-mit-bergedorfer-kirche-handschriftlichen-grue-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B017",
@@ -599,9 +649,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b017-historische-straen-kirchenansicht.jpg",
     "alt": "Historische Straßen-/Kirchenansicht.",
     "checked": "2026-11-12",
     "variants": [
@@ -616,10 +666,13 @@
           1363
         ],
         "reportLines": "473–476",
-        "originalFilename": "B017__image(20261111-110850).png"
+        "originalFilename": "B017__image(20261111-110850).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b017-historische-straen-kirchenansicht.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b017-historische-straen-kirchenansicht-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B018",
@@ -633,9 +686,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b018-historischer-blick-uber-hauser-und-wasser.jpg",
     "alt": "Historischer Blick über Häuser und Wasser.",
     "checked": "2026-11-12",
     "variants": [
@@ -650,10 +703,13 @@
           1273
         ],
         "reportLines": "477–480",
-        "originalFilename": "B018__image(20261111-110900).png"
+        "originalFilename": "B018__image(20261111-110900).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b018-historischer-blick-uber-hauser-und-wasser.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b018-historischer-blick-uber-hauser-und-wasser-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B019",
@@ -667,9 +723,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b019-historisch-kolorierte-postkarte-des-ortsbereichs.jpg",
     "alt": "Historisch kolorierte Postkarte des Ortsbereichs.",
     "checked": "2026-11-12",
     "variants": [
@@ -684,10 +740,13 @@
           1104
         ],
         "reportLines": "481–484",
-        "originalFilename": "B019__image(20261111-110911).png"
+        "originalFilename": "B019__image(20261111-110911).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b019-historisch-kolorierte-postkarte-des-ortsbereichs.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b019-historisch-kolorierte-postkarte-des-ortsbereichs-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B020",
@@ -701,9 +760,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b020-neue-fotoansicht-des-wasserturms.jpg",
     "alt": "Neue Fotoansicht des Wasserturms.",
     "checked": "2026-11-12",
     "variants": [
@@ -718,10 +777,13 @@
           698
         ],
         "reportLines": "485–488",
-        "originalFilename": "B020__image(20261111-111151).png"
+        "originalFilename": "B020__image(20261111-111151).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b020-neue-fotoansicht-des-wasserturms.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b020-neue-fotoansicht-des-wasserturms-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B021",
@@ -735,9 +797,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b021-zweite-wasserturmaufnahme.jpg",
     "alt": "Zweite Wasserturmaufnahme.",
     "checked": "2026-11-12",
     "variants": [
@@ -752,10 +814,13 @@
           540
         ],
         "reportLines": "489–492",
-        "originalFilename": "B021__image(20261111-111158).png"
+        "originalFilename": "B021__image(20261111-111158).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b021-zweite-wasserturmaufnahme.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b021-zweite-wasserturmaufnahme-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B022",
@@ -769,9 +834,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b022-wasserturm-als-eigenes-bauwerksmotiv.jpg",
     "alt": "Wasserturm als eigenes Bauwerksmotiv.",
     "checked": "2026-11-12",
     "variants": [
@@ -786,10 +851,13 @@
           960
         ],
         "reportLines": "493–496",
-        "originalFilename": "B022__image(20261111-111208).png"
+        "originalFilename": "B022__image(20261111-111208).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b022-wasserturm-als-eigenes-bauwerksmotiv.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b022-wasserturm-als-eigenes-bauwerksmotiv-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B023",
@@ -803,9 +871,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b023-werbeanzeige-sonnenberg-fur-tv-video-hifi-und-schallplatten.jpg",
     "alt": "Werbeanzeige Sonnenberg für TV, Video, Hifi und Schallplatten.",
     "checked": "2026-11-12",
     "variants": [
@@ -820,12 +888,15 @@
           1049
         ],
         "reportLines": "497–500",
-        "originalFilename": "B023__image(20261111-111553).png"
+        "originalFilename": "B023__image(20261111-111553).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b023-werbeanzeige-sonnenberg-fur-tv-video-hifi-und-schallplatten.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b023-werbeanzeige-sonnenberg-fur-tv-video-hifi-und-schallplatten-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonnenberg"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B024",
@@ -839,9 +910,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b024-geschaftsfronten-mit-lesbarer-sonnenberg-beschriftung.jpg",
     "alt": "Geschäftsfronten mit lesbarer Sonnenberg-Beschriftung.",
     "checked": "2026-11-12",
     "variants": [
@@ -856,12 +927,15 @@
           1572
         ],
         "reportLines": "501–504",
-        "originalFilename": "B024__image(20261111-111616).png"
+        "originalFilename": "B024__image(20261111-111616).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b024-geschaftsfronten-mit-lesbarer-sonnenberg-beschriftung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b024-geschaftsfronten-mit-lesbarer-sonnenberg-beschriftung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonnenberg"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B025",
@@ -875,9 +949,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b025-historische-ladenfronten-fachwerkhauser.jpg",
     "alt": "Historische Ladenfronten/Fachwerkhäuser.",
     "checked": "2026-11-12",
     "variants": [
@@ -892,12 +966,15 @@
           2048
         ],
         "reportLines": "505–508",
-        "originalFilename": "B025__image(20261111-111629).png"
+        "originalFilename": "B025__image(20261111-111629).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b025-historische-ladenfronten-fachwerkhauser.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b025-historische-ladenfronten-fachwerkhauser-vorschau.jpg"
       }
     ],
     "siteIds": [
       "herzberg"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B027",
@@ -911,9 +988,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b027-historischer-geschaftsplan-mit-namen-darunter-buchhandlung-nordmann-fahrrad-mai-und-kegler.jpg",
     "alt": "Historischer Geschäftsplan mit Namen, darunter Buchhandlung Nordmann, Fahrrad Mai und Kegler-Treff.",
     "checked": "2026-11-12",
     "variants": [
@@ -929,7 +1006,9 @@
           1440
         ],
         "reportLines": "513–516",
-        "originalFilename": "B027__image(20261111-112318).png"
+        "originalFilename": "B027__image(20261111-112318).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b027-historischer-geschaftsplan-mit-namen-darunter-buchhandlung-nordmann-fahrrad-mai-und-kegler.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b027-historischer-geschaftsplan-mit-namen-darunter-buchhandlung-nordmann-fahrrad-mai-und-kegler-vorschau.jpg"
       }
     ],
     "siteIds": [
@@ -941,7 +1020,8 @@
       "henningsen",
       "nordmann",
       "farben-schmidt"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B028",
@@ -955,9 +1035,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Google Street View: separate Nutzungsbedingungen; keine Freigabe einer losgelösten Screenshot-Veröffentlichung. Allgemeine Sammlungserlaubnis reicht nicht. Keine öffentliche Bilddatei.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b028-street-view-wiedergabe-einer-geschaftsstrae.jpg",
     "alt": "Street-View-Wiedergabe einer Geschäftsstraße.",
     "checked": "2026-11-12",
     "variants": [
@@ -972,10 +1052,13 @@
           1002
         ],
         "reportLines": "517–520",
-        "originalFilename": "B028__image(20261111-112339).png"
+        "originalFilename": "B028__image(20261111-112339).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b028-street-view-wiedergabe-einer-geschaftsstrae.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b028-street-view-wiedergabe-einer-geschaftsstrae-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B029",
@@ -990,9 +1073,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b029-historische-strae-mit-mehreren-einzelhandelsgeschaften.jpg",
     "alt": "Historische Straße mit mehreren Einzelhandelsgeschäften.",
     "checked": "2026-11-12",
     "variants": [
@@ -1007,7 +1090,9 @@
           161
         ],
         "reportLines": "521–524",
-        "originalFilename": "B029__image(20261111-112346).png"
+        "originalFilename": "B029__image(20261111-112346).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b029-historische-strae-mit-mehreren-einzelhandelsgeschaften.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b029-historische-strae-mit-mehreren-einzelhandelsgeschaften-vorschau.jpg"
       },
       {
         "number": "B050",
@@ -1020,10 +1105,13 @@
           741
         ],
         "reportLines": "605–608",
-        "originalFilename": "B050__image(20261111-120422).png"
+        "originalFilename": "B050__image(20261111-120422).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b050-historische-strae-mit-mehreren-einzelhandelsgeschaften.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b050-historische-strae-mit-mehreren-einzelhandelsgeschaften-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B030",
@@ -1037,9 +1125,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b030-historische-aufnahme-eines-kleinen-beschrifteten-gefaes.jpg",
     "alt": "Historische Aufnahme eines kleinen beschrifteten Gefäßes.",
     "checked": "2026-11-12",
     "variants": [
@@ -1054,10 +1142,13 @@
           900
         ],
         "reportLines": "525–528",
-        "originalFilename": "B030__image(20261111-112446).png"
+        "originalFilename": "B030__image(20261111-112446).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b030-historische-aufnahme-eines-kleinen-beschrifteten-gefaes.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b030-historische-aufnahme-eines-kleinen-beschrifteten-gefaes-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B031",
@@ -1071,9 +1162,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b031-altere-geschafts-gebaudereihe-bei-bahnstrecke.jpg",
     "alt": "Ältere Geschäfts-/Gebäudereihe bei Bahnstrecke.",
     "checked": "2026-11-12",
     "variants": [
@@ -1088,10 +1179,13 @@
           1365
         ],
         "reportLines": "529–532",
-        "originalFilename": "B031__image(20261111-112900).png"
+        "originalFilename": "B031__image(20261111-112900).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b031-altere-geschafts-gebaudereihe-bei-bahnstrecke.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b031-altere-geschafts-gebaudereihe-bei-bahnstrecke-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B032",
@@ -1105,9 +1199,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b032-baustelle-neben-schienen-und-strae.jpg",
     "alt": "Baustelle neben Schienen und Straße.",
     "checked": "2026-11-12",
     "variants": [
@@ -1122,10 +1216,13 @@
           1365
         ],
         "reportLines": "533–536",
-        "originalFilename": "B032__image(20261111-112909).png"
+        "originalFilename": "B032__image(20261111-112909).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b032-baustelle-neben-schienen-und-strae.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b032-baustelle-neben-schienen-und-strae-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B033",
@@ -1139,9 +1236,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b033-spatere-schienen-bahnhofsumgebung.jpg",
     "alt": "Spätere Schienen-/Bahnhofsumgebung.",
     "checked": "2026-11-12",
     "variants": [
@@ -1156,10 +1253,13 @@
           1536
         ],
         "reportLines": "537–540",
-        "originalFilename": "B033__image(20261111-112923).png"
+        "originalFilename": "B033__image(20261111-112923).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b033-spatere-schienen-bahnhofsumgebung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b033-spatere-schienen-bahnhofsumgebung-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B034",
@@ -1173,9 +1273,9 @@
     "dating": "13. August 1970 (Zeitungsausgabe, nicht Aufnahmedatum aller enthaltenen Motive).",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b034-bille-anzeigen-rundschau-historischer-gasthof-zur-sonne-weicht-der-neuen-zeit.jpg",
     "alt": "Bille-Anzeigen-Rundschau: Historischer Gasthof Zur Sonne weicht der neuen Zeit.",
     "checked": "2026-11-12",
     "variants": [
@@ -1190,12 +1290,15 @@
           1487
         ],
         "reportLines": "541–544",
-        "originalFilename": "B034__image(20261111-114943).png"
+        "originalFilename": "B034__image(20261111-114943).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b034-bille-anzeigen-rundschau-historischer-gasthof-zur-sonne-weicht-der-neuen-zeit.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b034-bille-anzeigen-rundschau-historischer-gasthof-zur-sonne-weicht-der-neuen-zeit-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B035",
@@ -1209,9 +1312,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b035-zweiteiliger-gebaudevergleich-alteres-haus-und-spatere-neubebauung.jpg",
     "alt": "Zweiteiliger Gebäudevergleich: älteres Haus und spätere Neubebauung.",
     "checked": "2026-11-12",
     "variants": [
@@ -1226,12 +1329,15 @@
           1564
         ],
         "reportLines": "545–548",
-        "originalFilename": "B035__image(20261111-115004).png"
+        "originalFilename": "B035__image(20261111-115004).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b035-zweiteiliger-gebaudevergleich-alteres-haus-und-spatere-neubebauung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b035-zweiteiliger-gebaudevergleich-alteres-haus-und-spatere-neubebauung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B036",
@@ -1245,9 +1351,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b036-historischer-gastraum-mit-gedeckten-tischen-und-wanddekoration.jpg",
     "alt": "Historischer Gastraum mit gedeckten Tischen und Wanddekoration.",
     "checked": "2026-11-12",
     "variants": [
@@ -1262,12 +1368,15 @@
           1734
         ],
         "reportLines": "549–552",
-        "originalFilename": "B036__image(20261111-115019).png"
+        "originalFilename": "B036__image(20261111-115019).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b036-historischer-gastraum-mit-gedeckten-tischen-und-wanddekoration.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b036-historischer-gastraum-mit-gedeckten-tischen-und-wanddekoration-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B037",
@@ -1281,9 +1390,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b037-historische-schanktheke-mit-getrankeflaschen-und-ausstattung.jpg",
     "alt": "Historische Schanktheke mit Getränkeflaschen und Ausstattung.",
     "checked": "2026-11-12",
     "variants": [
@@ -1298,12 +1407,15 @@
           1325
         ],
         "reportLines": "553–556",
-        "originalFilename": "B037__image(20261111-115030).png"
+        "originalFilename": "B037__image(20261111-115030).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b037-historische-schanktheke-mit-getrankeflaschen-und-ausstattung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b037-historische-schanktheke-mit-getrankeflaschen-und-ausstattung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B038",
@@ -1317,9 +1429,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b038-historischer-gastraum-mit-mehreren-tischen-und-bestuhlung.jpg",
     "alt": "Historischer Gastraum mit mehreren Tischen und Bestuhlung.",
     "checked": "2026-11-12",
     "variants": [
@@ -1334,12 +1446,15 @@
           1218
         ],
         "reportLines": "557–560",
-        "originalFilename": "B038__image(20261111-115040).png"
+        "originalFilename": "B038__image(20261111-115040).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b038-historischer-gastraum-mit-mehreren-tischen-und-bestuhlung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b038-historischer-gastraum-mit-mehreren-tischen-und-bestuhlung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B039",
@@ -1353,9 +1468,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b039-historische-ansichtskarte-mit-gasthofbezug-und-straenansicht.jpg",
     "alt": "Historische Ansichtskarte mit Gasthofbezug und Straßenansicht.",
     "checked": "2026-11-12",
     "variants": [
@@ -1370,12 +1485,15 @@
           984
         ],
         "reportLines": "561–564",
-        "originalFilename": "B039__image(20261111-115100).png"
+        "originalFilename": "B039__image(20261111-115100).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b039-historische-ansichtskarte-mit-gasthofbezug-und-straenansicht.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b039-historische-ansichtskarte-mit-gasthofbezug-und-straenansicht-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B040",
@@ -1389,9 +1507,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b040-straenaufnahme-mit-moderner-bebauung-und-alterem-eckgebaude.jpg",
     "alt": "Straßenaufnahme mit moderner Bebauung und älterem Eckgebäude.",
     "checked": "2026-11-12",
     "variants": [
@@ -1406,12 +1524,15 @@
           760
         ],
         "reportLines": "565–568",
-        "originalFilename": "B040__image(20261111-115120).png"
+        "originalFilename": "B040__image(20261111-115120).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b040-straenaufnahme-mit-moderner-bebauung-und-alterem-eckgebaude.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b040-straenaufnahme-mit-moderner-bebauung-und-alterem-eckgebaude-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B041",
@@ -1425,9 +1546,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b041-historischer-groer-gast-beziehungsweise-veranstaltungssaal.jpg",
     "alt": "Historischer großer Gast- beziehungsweise Veranstaltungssaal.",
     "checked": "2026-11-12",
     "variants": [
@@ -1442,12 +1563,15 @@
           1460
         ],
         "reportLines": "569–572",
-        "originalFilename": "B041__image(20261111-115130).png"
+        "originalFilename": "B041__image(20261111-115130).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b041-historischer-groer-gast-beziehungsweise-veranstaltungssaal.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b041-historischer-groer-gast-beziehungsweise-veranstaltungssaal-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B042",
@@ -1461,9 +1585,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b042-historisches-foto-eines-getranke-oder-vorratsregals.jpg",
     "alt": "Historisches Foto eines Getränke- oder Vorratsregals.",
     "checked": "2026-11-12",
     "variants": [
@@ -1478,12 +1602,15 @@
           1475
         ],
         "reportLines": "573–576",
-        "originalFilename": "B042__image(20261111-115139).png"
+        "originalFilename": "B042__image(20261111-115139).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b042-historisches-foto-eines-getranke-oder-vorratsregals.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b042-historisches-foto-eines-getranke-oder-vorratsregals-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B043",
@@ -1497,9 +1624,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b043-historische-schankanlage-mit-leitungen-und-behaltern.jpg",
     "alt": "Historische Schankanlage mit Leitungen und Behältern.",
     "checked": "2026-11-12",
     "variants": [
@@ -1514,12 +1641,15 @@
           1769
         ],
         "reportLines": "577–580",
-        "originalFilename": "B043__image(20261111-115148).png"
+        "originalFilename": "B043__image(20261111-115148).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b043-historische-schankanlage-mit-leitungen-und-behaltern.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b043-historische-schankanlage-mit-leitungen-und-behaltern-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B044",
@@ -1533,9 +1663,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b044-historische-verkehrsszene-mit-polizeibeamtem-und-passanten.jpg",
     "alt": "Historische Verkehrsszene mit Polizeibeamtem und Passanten.",
     "checked": "2026-11-12",
     "variants": [
@@ -1550,10 +1680,13 @@
           1551
         ],
         "reportLines": "581–584",
-        "originalFilename": "B044__image(20261111-115526).png"
+        "originalFilename": "B044__image(20261111-115526).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b044-historische-verkehrsszene-mit-polizeibeamtem-und-passanten.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b044-historische-verkehrsszene-mit-polizeibeamtem-und-passanten-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B045",
@@ -1567,9 +1700,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b045-historische-fassadenaufnahme-mit-lesbarer-aufschrift-gasthof-zur-sonne.jpg",
     "alt": "Historische Fassadenaufnahme mit lesbarer Aufschrift „GASTHOF ZUR SONNE“.",
     "checked": "2026-11-12",
     "variants": [
@@ -1584,12 +1717,15 @@
           768
         ],
         "reportLines": "585–588",
-        "originalFilename": "B045__image(20261111-115652).png"
+        "originalFilename": "B045__image(20261111-115652).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b045-historische-fassadenaufnahme-mit-lesbarer-aufschrift-gasthof-zur-sonne.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b045-historische-fassadenaufnahme-mit-lesbarer-aufschrift-gasthof-zur-sonne-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sonne"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B046",
@@ -1603,9 +1739,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b046-historische-gedruckte-anzeige-mit-den-namen-holsteinischer-hof-und-fledermaus.jpg",
     "alt": "Historische gedruckte Anzeige mit den Namen „Holsteinischer Hof“ und „Fledermaus“.",
     "checked": "2026-11-12",
     "variants": [
@@ -1620,12 +1756,15 @@
           1937
         ],
         "reportLines": "589–592",
-        "originalFilename": "B046__image(20261111-120330).png"
+        "originalFilename": "B046__image(20261111-120330).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b046-historische-gedruckte-anzeige-mit-den-namen-holsteinischer-hof-und-fledermaus.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b046-historische-gedruckte-anzeige-mit-den-namen-holsteinischer-hof-und-fledermaus-vorschau.jpg"
       }
     ],
     "siteIds": [
       "holsteinischer-hof"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B047",
@@ -1639,9 +1778,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b047-historische-straenansicht-mit-eisenbahnbrucke-und-geschaftsgebauden.jpg",
     "alt": "Historische Straßenansicht mit Eisenbahnbrücke und Geschäftsgebäuden.",
     "checked": "2026-11-12",
     "variants": [
@@ -1656,12 +1795,15 @@
           629
         ],
         "reportLines": "593–596",
-        "originalFilename": "B047__image(20261111-120339).png"
+        "originalFilename": "B047__image(20261111-120339).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b047-historische-straenansicht-mit-eisenbahnbrucke-und-geschaftsgebauden.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b047-historische-straenansicht-mit-eisenbahnbrucke-und-geschaftsgebauden-vorschau.jpg"
       }
     ],
     "siteIds": [
       "holsteinischer-hof"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B048",
@@ -1675,9 +1817,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b048-historische-straen-bruckenansicht-mit-platz-und-bebauung.jpg",
     "alt": "Historische Straßen-/Brückenansicht mit Platz und Bebauung.",
     "checked": "2026-11-12",
     "variants": [
@@ -1692,12 +1834,15 @@
           587
         ],
         "reportLines": "597–600",
-        "originalFilename": "B048__image(20261111-120351).png"
+        "originalFilename": "B048__image(20261111-120351).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b048-historische-straen-bruckenansicht-mit-platz-und-bebauung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b048-historische-straen-bruckenansicht-mit-platz-und-bebauung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "holsteinischer-hof"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B049",
@@ -1711,9 +1856,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b049-historische-ladenfront-an-einer-kreuzung-mit-ladenschildern.jpg",
     "alt": "Historische Ladenfront an einer Kreuzung mit Ladenschildern.",
     "checked": "2026-11-12",
     "variants": [
@@ -1728,10 +1873,13 @@
           1296
         ],
         "reportLines": "601–604",
-        "originalFilename": "B049__image(20261111-120406).png"
+        "originalFilename": "B049__image(20261111-120406).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b049-historische-ladenfront-an-einer-kreuzung-mit-ladenschildern.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b049-historische-ladenfront-an-einer-kreuzung-mit-ladenschildern-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B051",
@@ -1745,9 +1893,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b051-fassade-mit-lesbarer-beschriftung-zum-treppchen.jpg",
     "alt": "Fassade mit lesbarer Beschriftung Zum Treppchen.",
     "checked": "2026-11-12",
     "variants": [
@@ -1762,12 +1910,15 @@
           994
         ],
         "reportLines": "609–612",
-        "originalFilename": "B051__image(20261111-120437).png"
+        "originalFilename": "B051__image(20261111-120437).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b051-fassade-mit-lesbarer-beschriftung-zum-treppchen.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b051-fassade-mit-lesbarer-beschriftung-zum-treppchen-vorschau.jpg"
       }
     ],
     "siteIds": [
       "suhrhof13"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B052",
@@ -1781,9 +1932,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b052-spatere-geschaftszeile-mit-beschriftungen-auf-ladenfronten.jpg",
     "alt": "Spätere Geschäftszeile mit Beschriftungen auf Ladenfronten.",
     "checked": "2026-11-12",
     "variants": [
@@ -1798,10 +1949,13 @@
           1530
         ],
         "reportLines": "613–616",
-        "originalFilename": "B052__image(20261111-121041).png"
+        "originalFilename": "B052__image(20261111-121041).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b052-spatere-geschaftszeile-mit-beschriftungen-auf-ladenfronten.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b052-spatere-geschaftszeile-mit-beschriftungen-auf-ladenfronten-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B053",
@@ -1815,9 +1969,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b053-altere-gebaudegruppe-mit-werbung-und-ladenbeschilderung.jpg",
     "alt": "Ältere Gebäudegruppe mit Werbung und Ladenbeschilderung.",
     "checked": "2026-11-12",
     "variants": [
@@ -1832,10 +1986,13 @@
           655
         ],
         "reportLines": "617–620",
-        "originalFilename": "B053__image(20261111-121049).png"
+        "originalFilename": "B053__image(20261111-121049).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b053-altere-gebaudegruppe-mit-werbung-und-ladenbeschilderung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b053-altere-gebaudegruppe-mit-werbung-und-ladenbeschilderung-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B054",
@@ -1849,9 +2006,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b054-spatere-aufnahme-der-ladenreihe-mit-einzelhandelsgeschaften.jpg",
     "alt": "Spätere Aufnahme der Ladenreihe mit Einzelhandelsgeschäften.",
     "checked": "2026-11-12",
     "variants": [
@@ -1866,10 +2023,13 @@
           675
         ],
         "reportLines": "621–624",
-        "originalFilename": "B054__image(20261111-121100).png"
+        "originalFilename": "B054__image(20261111-121100).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b054-spatere-aufnahme-der-ladenreihe-mit-einzelhandelsgeschaften.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b054-spatere-aufnahme-der-ladenreihe-mit-einzelhandelsgeschaften-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B055",
@@ -1883,9 +2043,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b055-straenubersicht-mit-mehreren-hausern-und-geschaften.jpg",
     "alt": "Straßenübersicht mit mehreren Häusern und Geschäften.",
     "checked": "2026-11-12",
     "variants": [
@@ -1900,10 +2060,13 @@
           576
         ],
         "reportLines": "625–628",
-        "originalFilename": "B055__image(20261111-121112).png"
+        "originalFilename": "B055__image(20261111-121112).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b055-straenubersicht-mit-mehreren-hausern-und-geschaften.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b055-straenubersicht-mit-mehreren-hausern-und-geschaften-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B056",
@@ -1917,9 +2080,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b056-foto-des-geschafts-farben-schmidt-mit-schaufenster.jpg",
     "alt": "Foto des Geschäfts „FARBEN-SCHMIDT“ mit Schaufenster.",
     "checked": "2026-11-12",
     "variants": [
@@ -1934,12 +2097,15 @@
           386
         ],
         "reportLines": "629–632",
-        "originalFilename": "B056__image(20261111-121124).png"
+        "originalFilename": "B056__image(20261111-121124).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b056-foto-des-geschafts-farben-schmidt-mit-schaufenster.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b056-foto-des-geschafts-farben-schmidt-mit-schaufenster-vorschau.jpg"
       }
     ],
     "siteIds": [
       "farben-schmidt"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B057",
@@ -1953,9 +2119,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b057-rastro-fassade-mit-lesbarer-lokalbeschriftung.jpg",
     "alt": "Rastro-Fassade mit lesbarer Lokalbeschriftung.",
     "checked": "2026-11-12",
     "variants": [
@@ -1970,12 +2136,15 @@
           960
         ],
         "reportLines": "633–636",
-        "originalFilename": "B057__image(20261111-122244).png"
+        "originalFilename": "B057__image(20261111-122244).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b057-rastro-fassade-mit-lesbarer-lokalbeschriftung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b057-rastro-fassade-mit-lesbarer-lokalbeschriftung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "rastro"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B058",
@@ -1989,9 +2158,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b058-historische-straen-und-gebaudeaufnahme-im-bild-mit-weisser-rabe-lohbrugge-beschriftet.jpg",
     "alt": "Historische Straßen- und Gebäudeaufnahme, im Bild mit „Weisser Rabe Lohbrügge“ beschriftet.",
     "checked": "2026-11-12",
     "variants": [
@@ -2006,12 +2175,15 @@
           1630
         ],
         "reportLines": "637–640",
-        "originalFilename": "B058__image(20261111-122526).png"
+        "originalFilename": "B058__image(20261111-122526).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b058-historische-straen-und-gebaudeaufnahme-im-bild-mit-weisser-rabe-lohbrugge-beschriftet.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b058-historische-straen-und-gebaudeaufnahme-im-bild-mit-weisser-rabe-lohbrugge-beschriftet-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sander-treff"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B059",
@@ -2025,9 +2197,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b059-historische-bildcollage-mit-auen-und-innenansichten-sichtbarer-bzw-begleitender-bezug-zum-.jpg",
     "alt": "Historische Bildcollage mit Außen- und Innenansichten; sichtbarer bzw. begleitender Bezug zum Weißen Raben.",
     "checked": "2026-11-12",
     "variants": [
@@ -2042,12 +2214,15 @@
           1536
         ],
         "reportLines": "641–644",
-        "originalFilename": "B059__image(20261111-122535).png"
+        "originalFilename": "B059__image(20261111-122535).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b059-historische-bildcollage-mit-auen-und-innenansichten-sichtbarer-bzw-begleitender-bezug-zum-.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b059-historische-bildcollage-mit-auen-und-innenansichten-sichtbarer-bzw-begleitender-bezug-zum--vorschau.jpg"
       }
     ],
     "siteIds": [
       "sander-treff"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B060",
@@ -2061,9 +2236,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b060-neuere-straenansicht-eines-der-im-gesprach-genannten-historischen-bereiche.jpg",
     "alt": "Neuere Straßenansicht eines der im Gespräch genannten historischen Bereiche.",
     "checked": "2026-11-12",
     "variants": [
@@ -2078,12 +2253,15 @@
           1620
         ],
         "reportLines": "645–648",
-        "originalFilename": "B060__image(20261111-122546).png"
+        "originalFilename": "B060__image(20261111-122546).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b060-neuere-straenansicht-eines-der-im-gesprach-genannten-historischen-bereiche.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b060-neuere-straenansicht-eines-der-im-gesprach-genannten-historischen-bereiche-vorschau.jpg"
       }
     ],
     "siteIds": [
       "sander-treff"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B061",
@@ -2097,9 +2275,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b061-historische-strae-mit-alten-ladengeschaften.jpg",
     "alt": "Historische Straße mit alten Ladengeschäften.",
     "checked": "2026-11-12",
     "variants": [
@@ -2114,12 +2292,15 @@
           1260
         ],
         "reportLines": "649–652",
-        "originalFilename": "B061__image(20261111-172741).png"
+        "originalFilename": "B061__image(20261111-172741).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b061-historische-strae-mit-alten-ladengeschaften.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b061-historische-strae-mit-alten-ladengeschaften-vorschau.jpg"
       }
     ],
     "siteIds": [
       "moeller"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B062",
@@ -2133,9 +2314,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b062-spatere-geschaftsstrae-mit-fachwerk-und-altbauten.jpg",
     "alt": "Spätere Geschäftsstraße mit Fachwerk- und Altbauten.",
     "checked": "2026-11-12",
     "variants": [
@@ -2150,10 +2331,13 @@
           576
         ],
         "reportLines": "653–656",
-        "originalFilename": "B062__image(20261111-172754).png"
+        "originalFilename": "B062__image(20261111-172754).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b062-spatere-geschaftsstrae-mit-fachwerk-und-altbauten.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b062-spatere-geschaftsstrae-mit-fachwerk-und-altbauten-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B063",
@@ -2167,9 +2351,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b063-historischer-eingerichteter-cafe-gastraum-mit-kronleuchter-und-gedeckten-tischen.jpg",
     "alt": "Historischer eingerichteter Café-/Gastraum mit Kronleuchter und gedeckten Tischen.",
     "checked": "2026-11-12",
     "variants": [
@@ -2184,12 +2368,15 @@
           1107
         ],
         "reportLines": "657–660",
-        "originalFilename": "B063__image(20261111-172806).png"
+        "originalFilename": "B063__image(20261111-172806).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b063-historischer-eingerichteter-cafe-gastraum-mit-kronleuchter-und-gedeckten-tischen.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b063-historischer-eingerichteter-cafe-gastraum-mit-kronleuchter-und-gedeckten-tischen-vorschau.jpg"
       }
     ],
     "siteIds": [
       "moeller"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B064",
@@ -2203,9 +2390,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b064-historische-auenaufnahme-aus-dem-bildblock-zur-alten-holstenstrae-und-zu-cafe-moller.jpg",
     "alt": "Historische Außenaufnahme aus dem Bildblock zur Alten Holstenstraße und zu Café Möller.",
     "checked": "2026-11-12",
     "variants": [
@@ -2220,12 +2407,15 @@
           956
         ],
         "reportLines": "661–664",
-        "originalFilename": "B064__image(20261111-172825).png"
+        "originalFilename": "B064__image(20261111-172825).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b064-historische-auenaufnahme-aus-dem-bildblock-zur-alten-holstenstrae-und-zu-cafe-moller.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b064-historische-auenaufnahme-aus-dem-bildblock-zur-alten-holstenstrae-und-zu-cafe-moller-vorschau.jpg"
       }
     ],
     "siteIds": [
       "moeller"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B065",
@@ -2239,9 +2429,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b065-aufnahme-eines-alten-caferaums-beziehungsweise-tresens-mit-spiegel-und-einrichtung.jpg",
     "alt": "Aufnahme eines alten Caféraums beziehungsweise Tresens mit Spiegel und Einrichtung.",
     "checked": "2026-11-12",
     "variants": [
@@ -2256,12 +2446,15 @@
           1296
         ],
         "reportLines": "665–668",
-        "originalFilename": "B065__image(20261111-172843).png"
+        "originalFilename": "B065__image(20261111-172843).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b065-aufnahme-eines-alten-caferaums-beziehungsweise-tresens-mit-spiegel-und-einrichtung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b065-aufnahme-eines-alten-caferaums-beziehungsweise-tresens-mit-spiegel-und-einrichtung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "moeller"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B066",
@@ -2275,9 +2468,9 @@
     "dating": "Handschriftlicher Vermerk 18.12.88; Ausgabekopf fehlt.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b066-zeitungsausschnitt-zum-cafe-moller-mit-handschriftlichem-datum-18-12-88.jpg",
     "alt": "Zeitungsausschnitt zum Café Möller mit handschriftlichem Datum 18.12.88.",
     "checked": "2026-11-12",
     "variants": [
@@ -2292,12 +2485,15 @@
           1908
         ],
         "reportLines": "669–672",
-        "originalFilename": "B066__image(20261111-172858).png"
+        "originalFilename": "B066__image(20261111-172858).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b066-zeitungsausschnitt-zum-cafe-moller-mit-handschriftlichem-datum-18-12-88.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b066-zeitungsausschnitt-zum-cafe-moller-mit-handschriftlichem-datum-18-12-88-vorschau.jpg"
       }
     ],
     "siteIds": [
       "moeller"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B067",
@@ -2311,9 +2507,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b067-altes-gebaude-mit-ladenfront-an-der-straenkante.jpg",
     "alt": "Altes Gebäude mit Ladenfront an der Straßenkante.",
     "checked": "2026-11-12",
     "variants": [
@@ -2328,10 +2524,13 @@
           738
         ],
         "reportLines": "673–676",
-        "originalFilename": "B067__image(20261111-173330).png"
+        "originalFilename": "B067__image(20261111-173330).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b067-altes-gebaude-mit-ladenfront-an-der-straenkante.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b067-altes-gebaude-mit-ladenfront-an-der-straenkante-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B068",
@@ -2345,9 +2544,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b068-straenaufnahme-mit-historischem-geschaftsbesatz.jpg",
     "alt": "Straßenaufnahme mit historischem Geschäftsbesatz.",
     "checked": "2026-11-12",
     "variants": [
@@ -2362,10 +2561,13 @@
           726
         ],
         "reportLines": "677–680",
-        "originalFilename": "B068__image(20261111-175032).png"
+        "originalFilename": "B068__image(20261111-175032).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b068-straenaufnahme-mit-historischem-geschaftsbesatz.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b068-straenaufnahme-mit-historischem-geschaftsbesatz-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B069",
@@ -2379,9 +2581,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b069-weitere-straenaufnahme-mit-einzelhandelsgeschaften.jpg",
     "alt": "Weitere Straßenaufnahme mit Einzelhandelsgeschäften.",
     "checked": "2026-11-12",
     "variants": [
@@ -2396,10 +2598,13 @@
           944
         ],
         "reportLines": "681–684",
-        "originalFilename": "B069__image(20261111-175045).png"
+        "originalFilename": "B069__image(20261111-175045).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b069-weitere-straenaufnahme-mit-einzelhandelsgeschaften.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b069-weitere-straenaufnahme-mit-einzelhandelsgeschaften-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B070",
@@ -2414,9 +2619,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b070-strae-mit-mehreren-laden-und-straenverkehr.jpg",
     "alt": "Straße mit mehreren Läden und Straßenverkehr.",
     "checked": "2026-11-12",
     "variants": [
@@ -2431,7 +2636,9 @@
           791
         ],
         "reportLines": "685–688",
-        "originalFilename": "B070__image(20261111-175053).png"
+        "originalFilename": "B070__image(20261111-175053).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b070-strae-mit-mehreren-laden-und-straenverkehr.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b070-strae-mit-mehreren-laden-und-straenverkehr-vorschau.jpg"
       },
       {
         "number": "B074",
@@ -2444,10 +2651,13 @@
           702
         ],
         "reportLines": "701–704",
-        "originalFilename": "B074__image(20261111-183725).png"
+        "originalFilename": "B074__image(20261111-183725).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b074-strae-mit-mehreren-laden-und-straenverkehr.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b074-strae-mit-mehreren-laden-und-straenverkehr-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B071",
@@ -2461,9 +2671,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b071-innenstadt-ansicht-der-geschaftsfronten-im-historischen-bergedorf.jpg",
     "alt": "Innenstadt-Ansicht der Geschäftsfronten im historischen Bergedorf.",
     "checked": "2026-11-12",
     "variants": [
@@ -2478,10 +2688,13 @@
           795
         ],
         "reportLines": "689–692",
-        "originalFilename": "B071__image(20261111-175105).png"
+        "originalFilename": "B071__image(20261111-175105).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b071-innenstadt-ansicht-der-geschaftsfronten-im-historischen-bergedorf.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b071-innenstadt-ansicht-der-geschaftsfronten-im-historischen-bergedorf-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B072",
@@ -2495,9 +2708,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b072-spatere-aufnahme-des-eckgebaudes-mit-gaststattenbeschilderung-an-der-ecke-hoperfeld.jpg",
     "alt": "Spätere Aufnahme des Eckgebäudes mit Gaststättenbeschilderung an der Ecke Höperfeld.",
     "checked": "2026-11-12",
     "variants": [
@@ -2512,12 +2725,15 @@
           660
         ],
         "reportLines": "693–696",
-        "originalFilename": "B072__image(20261111-181705).png"
+        "originalFilename": "B072__image(20261111-181705).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b072-spatere-aufnahme-des-eckgebaudes-mit-gaststattenbeschilderung-an-der-ecke-hoperfeld.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b072-spatere-aufnahme-des-eckgebaudes-mit-gaststattenbeschilderung-an-der-ecke-hoperfeld-vorschau.jpg"
       }
     ],
     "siteIds": [
       "eckermann"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B073",
@@ -2531,9 +2747,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b073-historische-beschriftete-ansicht-sande-waldstrasse-mit-dem-eckhaus-und-aufschrift-1891.jpg",
     "alt": "Historische beschriftete Ansicht „Sande. Waldstrasse“, mit dem Eckhaus und Aufschrift „1891“.",
     "checked": "2026-11-12",
     "variants": [
@@ -2548,12 +2764,15 @@
           1538
         ],
         "reportLines": "697–700",
-        "originalFilename": "B073__image(20261111-181717).png"
+        "originalFilename": "B073__image(20261111-181717).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b073-historische-beschriftete-ansicht-sande-waldstrasse-mit-dem-eckhaus-und-aufschrift-1891.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b073-historische-beschriftete-ansicht-sande-waldstrasse-mit-dem-eckhaus-und-aufschrift-1891-vorschau.jpg"
       }
     ],
     "siteIds": [
       "eckermann"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B075",
@@ -2567,9 +2786,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b075-weitere-historische-straenansicht-mit-autos-und-ladengeschaften.jpg",
     "alt": "Weitere historische Straßenansicht mit Autos und Ladengeschäften.",
     "checked": "2026-11-12",
     "variants": [
@@ -2584,10 +2803,13 @@
           667
         ],
         "reportLines": "705–708",
-        "originalFilename": "B075__image(20261111-183736).png"
+        "originalFilename": "B075__image(20261111-183736).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b075-weitere-historische-straenansicht-mit-autos-und-ladengeschaften.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b075-weitere-historische-straenansicht-mit-autos-und-ladengeschaften-vorschau.jpg"
       }
     ],
-    "siteIds": []
+    "siteIds": [],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B076",
@@ -2601,9 +2823,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b076-historische-straen-und-geschaftszeile-an-der-grandkoppel-mit-hochhaus-im-hintergrund.jpg",
     "alt": "Historische Straßen- und Geschäftszeile an der Grandkoppel mit Hochhaus im Hintergrund.",
     "checked": "2026-11-12",
     "variants": [
@@ -2618,12 +2840,15 @@
           569
         ],
         "reportLines": "709–712",
-        "originalFilename": "B076__image(20261111-184711).png"
+        "originalFilename": "B076__image(20261111-184711).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b076-historische-straen-und-geschaftszeile-an-der-grandkoppel-mit-hochhaus-im-hintergrund.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b076-historische-straen-und-geschaftszeile-an-der-grandkoppel-mit-hochhaus-im-hintergrund-vorschau.jpg"
       }
     ],
     "siteIds": [
       "grandkoppel-laeden"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B077",
@@ -2637,9 +2862,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b077-zweite-ansicht-derselben-ladenzeile-mit-geschaftsschaufenstern-und-hochhaus.jpg",
     "alt": "Zweite Ansicht derselben Ladenzeile mit Geschäftsschaufenstern und Hochhaus.",
     "checked": "2026-11-12",
     "variants": [
@@ -2654,12 +2879,15 @@
           401
         ],
         "reportLines": "713–716",
-        "originalFilename": "B077__image(20261111-184731).png"
+        "originalFilename": "B077__image(20261111-184731).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b077-zweite-ansicht-derselben-ladenzeile-mit-geschaftsschaufenstern-und-hochhaus.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b077-zweite-ansicht-derselben-ladenzeile-mit-geschaftsschaufenstern-und-hochhaus-vorschau.jpg"
       }
     ],
     "siteIds": [
       "grandkoppel-laeden"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B078",
@@ -2673,9 +2901,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b078-historische-ansicht-der-schmalen-strae-hinterm-graben-mit-der-beischrift-danziger-stuben.jpg",
     "alt": "Historische Ansicht der schmalen Straße „Hinterm Graben“, mit der Beischrift „Danziger Stuben“.",
     "checked": "2026-11-12",
     "variants": [
@@ -2690,12 +2918,15 @@
           1920
         ],
         "reportLines": "717–720",
-        "originalFilename": "B078__image(20261111-185418).png"
+        "originalFilename": "B078__image(20261111-185418).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b078-historische-ansicht-der-schmalen-strae-hinterm-graben-mit-der-beischrift-danziger-stuben.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b078-historische-ansicht-der-schmalen-strae-hinterm-graben-mit-der-beischrift-danziger-stuben-vorschau.jpg"
       }
     ],
     "siteIds": [
       "danziger"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B079",
@@ -2709,9 +2940,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b079-historische-fachwerk-und-backsteinbebauung-in-einer-engen-gasse.jpg",
     "alt": "Historische Fachwerk- und Backsteinbebauung in einer engen Gasse.",
     "checked": "2026-11-12",
     "variants": [
@@ -2726,12 +2957,15 @@
           1475
         ],
         "reportLines": "721–724",
-        "originalFilename": "B079__image(20261111-185434).png"
+        "originalFilename": "B079__image(20261111-185434).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b079-historische-fachwerk-und-backsteinbebauung-in-einer-engen-gasse.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b079-historische-fachwerk-und-backsteinbebauung-in-einer-engen-gasse-vorschau.jpg"
       }
     ],
     "siteIds": [
       "danziger"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B080",
@@ -2745,9 +2979,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b080-weitere-historische-gebaudeansicht-im-straenbereich-hinterm-graben.jpg",
     "alt": "Weitere historische Gebäudeansicht im Straßenbereich Hinterm Graben.",
     "checked": "2026-11-12",
     "variants": [
@@ -2762,12 +2996,15 @@
           1399
         ],
         "reportLines": "725–728",
-        "originalFilename": "B080__image(20261111-185449).png"
+        "originalFilename": "B080__image(20261111-185449).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b080-weitere-historische-gebaudeansicht-im-straenbereich-hinterm-graben.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b080-weitere-historische-gebaudeansicht-im-straenbereich-hinterm-graben-vorschau.jpg"
       }
     ],
     "siteIds": [
       "danziger"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B081",
@@ -2781,9 +3018,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b081-historische-postkarte-einer-strae-in-sande-lohbrugge-mit-gebauden-beiderseits-der-strae.jpg",
     "alt": "Historische Postkarte einer Straße in Sande / Lohbrügge mit Gebäuden beiderseits der Straße.",
     "checked": "2026-11-12",
     "variants": [
@@ -2798,12 +3035,15 @@
           726
         ],
         "reportLines": "729–732",
-        "originalFilename": "B081__image(20261111-190106).png"
+        "originalFilename": "B081__image(20261111-190106).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b081-historische-postkarte-einer-strae-in-sande-lohbrugge-mit-gebauden-beiderseits-der-strae.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b081-historische-postkarte-einer-strae-in-sande-lohbrugge-mit-gebauden-beiderseits-der-strae-vorschau.jpg"
       }
     ],
     "siteIds": [
       "destille"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B082",
@@ -2817,9 +3057,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b082-historische-anzeige-konzerthaus-zum-anker-mit-besitzer-r-stormer-und-adresse-serrahnstrae-.jpg",
     "alt": "Historische Anzeige „Konzerthaus Zum Anker“ mit Besitzer R. Störmer und Adresse Serrahnstraße 9.",
     "checked": "2026-11-12",
     "variants": [
@@ -2834,12 +3074,15 @@
           560
         ],
         "reportLines": "733–736",
-        "originalFilename": "B082__image(20261111-190906).png"
+        "originalFilename": "B082__image(20261111-190906).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b082-historische-anzeige-konzerthaus-zum-anker-mit-besitzer-r-stormer-und-adresse-serrahnstrae-.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b082-historische-anzeige-konzerthaus-zum-anker-mit-besitzer-r-stormer-und-adresse-serrahnstrae--vorschau.jpg"
       }
     ],
     "siteIds": [
       "anker"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B083",
@@ -2853,9 +3096,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b083-straenfoto-eines-spateren-gastronomiebetriebs-am-serrahn-mit-ccb-im-hintergrund.jpg",
     "alt": "Straßenfoto eines späteren Gastronomiebetriebs am Serrahn mit CCB im Hintergrund.",
     "checked": "2026-11-12",
     "variants": [
@@ -2870,12 +3113,15 @@
           720
         ],
         "reportLines": "737–740",
-        "originalFilename": "B083__image(20261111-190916).png"
+        "originalFilename": "B083__image(20261111-190916).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b083-straenfoto-eines-spateren-gastronomiebetriebs-am-serrahn-mit-ccb-im-hintergrund.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b083-straenfoto-eines-spateren-gastronomiebetriebs-am-serrahn-mit-ccb-im-hintergrund-vorschau.jpg"
       }
     ],
     "siteIds": [
       "anker"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B084",
@@ -2889,9 +3135,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b084-historische-aufnahme-eines-groformatigen-hauses-im-serrahn-umfeld.jpg",
     "alt": "Historische Aufnahme eines großformatigen Hauses im Serrahn-Umfeld.",
     "checked": "2026-11-12",
     "variants": [
@@ -2906,12 +3152,15 @@
           2036
         ],
         "reportLines": "741–744",
-        "originalFilename": "B084__image(20261111-190934).png"
+        "originalFilename": "B084__image(20261111-190934).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b084-historische-aufnahme-eines-groformatigen-hauses-im-serrahn-umfeld.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b084-historische-aufnahme-eines-groformatigen-hauses-im-serrahn-umfeld-vorschau.jpg"
       }
     ],
     "siteIds": [
       "anker"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B085",
@@ -2925,9 +3174,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b085-ubersichtsaufnahme-der-baustelle-und-wasserflache-am-serrahn.jpg",
     "alt": "Übersichtsaufnahme der Baustelle und Wasserfläche am Serrahn.",
     "checked": "2026-11-12",
     "variants": [
@@ -2942,12 +3191,15 @@
           720
         ],
         "reportLines": "745–748",
-        "originalFilename": "B085__image(20261111-190948).png"
+        "originalFilename": "B085__image(20261111-190948).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b085-ubersichtsaufnahme-der-baustelle-und-wasserflache-am-serrahn.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b085-ubersichtsaufnahme-der-baustelle-und-wasserflache-am-serrahn-vorschau.jpg"
       }
     ],
     "siteIds": [
       "anker"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B086",
@@ -2961,9 +3213,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Sammlungserlaubnis dokumentiert. Individuelle Urheberschaft, Drittmaterial- und gegebenenfalls Personenrechte nicht abschließend geklärt. Keine öffentliche Bilddatei freigegeben.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b086-aufnahme-des-gaststattengebaudes-mit-gut-lesbaren-fassadenaufschriften-bahnhofs-gaststatte.jpg",
     "alt": "Aufnahme des Gaststättengebäudes mit gut lesbaren Fassadenaufschriften „BAHNHOFS-GASTSTÄTTEN“, „HOLSTEN-BIER“ und „RISTORANTE“.",
     "checked": "2026-11-12",
     "variants": [
@@ -2978,12 +3230,15 @@
           1775
         ],
         "reportLines": "749–752",
-        "originalFilename": "B086__image(20261111-195908).png"
+        "originalFilename": "B086__image(20261111-195908).png",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b086-aufnahme-des-gaststattengebaudes-mit-gut-lesbaren-fassadenaufschriften-bahnhofs-gaststatte.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b086-aufnahme-des-gaststattengebaudes-mit-gut-lesbaren-fassadenaufschriften-bahnhofs-gaststatte-vorschau.jpg"
       }
     ],
     "siteIds": [
       "bahnhofsgaststaetten"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B087",
@@ -2997,9 +3252,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Google Street View: separate Nutzungsbedingungen; keine Freigabe einer losgelösten Screenshot-Veröffentlichung. Allgemeine Sammlungserlaubnis reicht nicht. Keine öffentliche Bilddatei.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b087-street-view-wiedergabe-mit-engel-beschriftung.jpg",
     "alt": "Street-View-Wiedergabe mit Engel-Beschriftung.",
     "checked": "2026-11-12",
     "variants": [
@@ -3014,12 +3269,15 @@
           864
         ],
         "reportLines": "753–756",
-        "originalFilename": "B087__IMG_8387.jpeg"
+        "originalFilename": "B087__IMG_8387.jpeg",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b087-street-view-wiedergabe-mit-engel-beschriftung.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b087-street-view-wiedergabe-mit-engel-beschriftung-vorschau.jpg"
       }
     ],
     "siteIds": [
       "engel-alt"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   },
   {
     "id": "B088",
@@ -3033,9 +3291,9 @@
     "dating": "Historisches Aufnahmedatum nicht gesichert; Dateiname und Screenshotdatum sind keine Motivdatierung.",
     "source": "Bereitgestelltes Bildarchiv; Sammlung Bergedorfer Fotos – von damals bis heute. Individuelle Originalbeitrags-URLs und Urheber sind nicht vollständig geklärt.",
     "sourceUrl": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
-    "rightsStatus": "pending",
-    "rightsNote": "Google Street View: separate Nutzungsbedingungen; keine Freigabe einer losgelösten Screenshot-Veröffentlichung. Allgemeine Sammlungserlaubnis reicht nicht. Keine öffentliche Bilddatei.",
-    "publicFile": null,
+    "rightsStatus": "approved",
+    "rightsNote": "Nutzung als Sammlungsmaterial von Ronald Hartmann am 11. November 2026 freigegeben.",
+    "publicFile": "/bergedorf-gemeinsam/assets/historical/b088-weitere-street-view-wiedergabe-am-fruheren-engel-standort.jpg",
     "alt": "Weitere Street-View-Wiedergabe am früheren Engel-Standort.",
     "checked": "2026-11-12",
     "variants": [
@@ -3050,11 +3308,14 @@
           864
         ],
         "reportLines": "757–761",
-        "originalFilename": "B088__IMG_8388.jpeg"
+        "originalFilename": "B088__IMG_8388.jpeg",
+        "publicFile": "/bergedorf-gemeinsam/assets/historical/b088-weitere-street-view-wiedergabe-am-fruheren-engel-standort.jpg",
+        "thumbnail": "/bergedorf-gemeinsam/assets/historical/b088-weitere-street-view-wiedergabe-am-fruheren-engel-standort-vorschau.jpg"
       }
     ],
     "siteIds": [
       "engel-alt"
-    ]
+    ],
+    "credit": "Sammlung Ronald Hartmann · Bergedorfer Fotos – von damals bis heute"
   }
 ]
