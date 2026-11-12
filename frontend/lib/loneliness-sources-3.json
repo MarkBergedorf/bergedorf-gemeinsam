@@ -1,0 +1,202 @@
+{
+  "mann": {
+    "authors": "Farhana Mann et al.",
+    "year": 2022,
+    "title": "Loneliness and the onset of new mental health problems in the general population",
+    "publication": "Social Psychiatry and Psychiatric Epidemiology 57, 2161–2178",
+    "url": "https://doi.org/10.1007/s00127-022-02261-7",
+    "method": "Systematischer Review longitudinaler Beobachtungsstudien; Meta-Analyse zu späteren Depressionen.",
+    "limitations": "Zeitliche Abfolge ist kein hinreichender Kausalnachweis; unterschiedliche Messungen und mögliche gemeinsame Einflussfaktoren.",
+    "checked": "2026-11-12"
+  },
+  "loades": {
+    "authors": "Maria Elizabeth Loades et al.",
+    "year": 2020,
+    "title": "Rapid Systematic Review: The Impact of Social Isolation and Loneliness on the Mental Health of Children and Adolescents in the Context of COVID-19",
+    "publication": "Journal of the American Academy of Child & Adolescent Psychiatry 59, 1218–1239.e3",
+    "url": "https://doi.org/10.1016/j.jaac.2020.05.009",
+    "method": "Rapid Review; überwiegend Beobachtungsstudien aus der Zeit vor der Pandemie.",
+    "limitations": "Häufig hohes Verzerrungsrisiko; keine kausale Langzeitbewertung konkreter Corona-Maßnahmen und keine Bergedorfer Häufigkeitsschätzung.",
+    "checked": "2026-11-12"
+  },
+  "schlaf": {
+    "authors": "Sarah C. Griffin et al.",
+    "year": 2020,
+    "title": "Loneliness and sleep: A systematic review and meta-analysis",
+    "publication": "Health Psychology Open 7",
+    "url": "https://doi.org/10.1177/2055102920913235",
+    "method": "Systematischer Review und Meta-Analyse von 27 Artikeln.",
+    "limitations": "Zusammenhang mit subjektiven Schlafstörungen, nicht mit Schlafdauer; Richtung und Kausalität ungeklärt.",
+    "checked": "2026-11-12"
+  },
+  "herzkreislauf": {
+    "authors": "Nicole K. Valtorta et al.",
+    "year": 2016,
+    "title": "Loneliness and social isolation as risk factors for coronary heart disease and stroke",
+    "publication": "Heart 102, 1009–1016",
+    "url": "https://doi.org/10.1136/heartjnl-2015-308790",
+    "method": "Systematischer Review und Meta-Analyse longitudinaler Beobachtungsstudien.",
+    "limitations": "Keine Interventionsprüfung: Aus Assoziationen folgt nicht, dass Begegnungsangebote Herzinfarkte oder Schlaganfälle verhindern.",
+    "checked": "2026-11-12"
+  },
+  "demenz": {
+    "authors": "Martina Luchetti et al.",
+    "year": 2024,
+    "title": "A meta-analysis of loneliness and risk of dementia using longitudinal data from >600,000 individuals",
+    "publication": "Nature Mental Health 2, 1350–1361",
+    "url": "https://doi.org/10.1038/s44220-024-00328-9",
+    "method": "Meta-Analyse longitudinaler Daten; außerdem kognitive Beeinträchtigungen untersucht.",
+    "limitations": "Beobachtungsdaten; frühe Krankheitsprozesse, umgekehrte Wirkrichtung und verbleibende Störfaktoren begrenzen kausale Schlüsse.",
+    "checked": "2026-11-12"
+  },
+  "angehoerige": {
+    "authors": "André Hajek, Benedikt Kretzler und Hans-Helmut König",
+    "year": 2021,
+    "title": "Informal Caregiving, Loneliness and Social Isolation: A Systematic Review",
+    "publication": "International Journal of Environmental Research and Public Health 18, 12101",
+    "url": "https://doi.org/10.3390/ijerph182212101",
+    "method": "Zwölf Studien aus Europa und Nordamerika; sieben Querschnitts- und fünf Längsschnittstudien.",
+    "limitations": "Heterogene Pflegesituationen und überwiegend Zusammenhänge; Betreuung chronisch kranker Kinder und Enkel war ausgeschlossen.",
+    "checked": "2026-11-12"
+  },
+  "autismus": {
+    "authors": "Kana Grace et al.",
+    "year": 2022,
+    "title": "Loneliness in autistic adults: A systematic review",
+    "publication": "Autism 26, 2117–2135",
+    "url": "https://doi.org/10.1177/13623613221077721",
+    "method": "Systematischer Review von 34 Artikeln.",
+    "limitations": "Wenige angepasste Messinstrumente und eigene Perspektiven; keine Übertragung auf sämtliche neurodivergenten Menschen oder ADHS.",
+    "checked": "2026-11-12"
+  },
+  "wohnungslos": {
+    "authors": "James Lachaud et al.",
+    "year": 2024,
+    "title": "Social isolation and loneliness among people living with experience of homelessness: a scoping review",
+    "publication": "BMC Public Health 24",
+    "url": "https://doi.org/10.1186/s12889-024-19850-7",
+    "method": "Scoping Review mit qualitativen, quantitativen und gemischten Studien.",
+    "limitations": "Unterschiedliche Lebenslagen und Begriffe; keine einheitliche Prävalenz für Bergedorf oder gesicherte einzelne Interventionswirkung.",
+    "checked": "2026-11-12"
+  },
+  "eltern": {
+    "authors": "Jacqueline Kent-Marvick et al.",
+    "year": 2022,
+    "title": "Loneliness in pregnant and postpartum people and parents of children aged 5 years or younger: a scoping review",
+    "publication": "Systematic Reviews 11, 196",
+    "url": "https://doi.org/10.1186/s13643-022-02065-5",
+    "method": "Scoping Review der Literatur zu Schwangerschaft, Zeit nach der Geburt und Eltern kleiner Kinder.",
+    "limitations": "Heterogene Definitionen und Forschungslücken; keine Aussage, alle Eltern seien einsam oder eine Geburt verursache Einsamkeit.",
+    "checked": "2026-11-12"
+  },
+  "besuchsforschung": {
+    "authors": "Joyce Siette, Megan Cassidy und Stefan Priebe",
+    "year": 2017,
+    "title": "Effectiveness of befriending interventions: a systematic review and meta-analysis",
+    "publication": "BMJ Open 7, e014304",
+    "url": "https://doi.org/10.1136/bmjopen-2016-014304",
+    "method": "Review von 14 Studien zu unterstützenden, zugeordneten Kontakten.",
+    "limitations": "Kleine Effekte auf zusammengefasste primäre Ergebnisse; für Einsamkeit als Einzelziel kein statistisch gesicherter Nutzen. Keine Erfolgsgarantie für Besuchsdienste.",
+    "checked": "2026-11-12"
+  },
+  "umbrella": {
+    "authors": "Thomas Hansen et al.",
+    "year": 2024,
+    "title": "Tackling social disconnection: an umbrella review of RCT-based interventions targeting social isolation and loneliness",
+    "publication": "BMC Public Health 24, 1917",
+    "url": "https://doi.org/10.1186/s12889-024-19396-8",
+    "method": "Umbrella Review von 29 systematischen Übersichten randomisierter Interventionen.",
+    "limitations": "Heterogene Maßnahmen, Zielgrößen und Studienqualität; durchschnittliche Effekte sind keine individuelle Erfolgsvorhersage.",
+    "checked": "2026-11-12"
+  },
+  "queer": {
+    "authors": "Ning Hsieh und Hui Liu",
+    "year": 2021,
+    "title": "Social Relationships and Loneliness in Late Adulthood: Disparities by Sexual Orientation",
+    "publication": "Journal of Marriage and Family 83, 57–74",
+    "url": "https://doi.org/10.1111/jomf.12681",
+    "method": "Querschnittsanalyse älterer Erwachsener in den USA.",
+    "limitations": "Keine kausale Zuschreibung an sexuelle Orientierung; nicht auf alle queeren Identitäten oder die Bergedorfer Bevölkerung übertragbar.",
+    "checked": "2026-11-12"
+  },
+  "behinderung": {
+    "authors": "Beni Gómez-Zúñiga, Modesta Pousada und Manuel Armayones",
+    "year": 2023,
+    "title": "Loneliness and disability: A systematic review of loneliness conceptualization and intervention strategies",
+    "publication": "Frontiers in Psychology 13, 1040651",
+    "url": "https://doi.org/10.3389/fpsyg.2022.1040651",
+    "method": "Systematischer Review zu Begriffen, Lebensbedingungen und Interventionsansätzen.",
+    "limitations": "Verschiedene Behinderungen und Messungen; Barrierearmut als untersuchter Faktor ist keine Garantie gegen Einsamkeit.",
+    "checked": "2026-11-12"
+  },
+  "flucht": {
+    "authors": "Thomas P. Nguyen, Mariam Al Asaad, Michelle Sena und Shameran Slewa-Younan",
+    "year": 2024,
+    "title": "Loneliness and social isolation amongst refugees resettled in high-income countries: A systematic review",
+    "publication": "Social Science & Medicine 360, 117340",
+    "url": "https://doi.org/10.1016/j.socscimed.2024.117340",
+    "method": "Systematischer Review zu nach Flucht neu angesiedelten Menschen.",
+    "limitations": "Begrenzte Interventionsforschung und unterschiedliche Aufnahmebedingungen; keine pauschale Beschreibung aller Zugewanderten.",
+    "checked": "2026-11-12"
+  },
+  "schmerz": {
+    "authors": "Toby O. Smith, Jack R. Dainty, Esther Williamson und Kathryn R. Martin",
+    "year": 2019,
+    "title": "Association between musculoskeletal pain with social isolation and loneliness: analysis of the English Longitudinal Study of Ageing",
+    "publication": "British Journal of Pain 13, 82–90",
+    "url": "https://doi.org/10.1177/2049463718802868",
+    "method": "Querschnittsanalyse von Daten der English Longitudinal Study of Ageing.",
+    "limitations": "Keine kausale Richtung bestimmbar; subjektive Einsamkeit und objektive Isolation sind unterschiedliche Ergebnisse.",
+    "checked": "2026-11-12"
+  },
+  "krisenforschung": {
+    "authors": "Heather McClelland et al.",
+    "year": 2020,
+    "title": "Loneliness as a predictor of suicidal ideation and behaviour: a systematic review and meta-analysis of prospective studies",
+    "publication": "Journal of Affective Disorders 274, 880–896",
+    "url": "https://doi.org/10.1016/j.jad.2020.05.004",
+    "method": "Systematischer Review und Meta-Analyse prospektiver Studien.",
+    "limitations": "Gruppenbezogene Zusammenhänge; keine Diagnose, individuelle Vorhersage oder alleinige Erklärung suizidaler Krisen.",
+    "checked": "2026-11-12"
+  },
+  "hikikomori": {
+    "authors": "Takahiro A. Kato, Shigenobu Kanba und Alan R. Teo",
+    "year": 2020,
+    "title": "Defining pathological social withdrawal: proposed diagnostic criteria for hikikomori",
+    "publication": "World Psychiatry 19, 116–117",
+    "url": "https://doi.org/10.1002/wps.20705",
+    "method": "Fachlicher Vorschlag zur Beschreibung ausgeprägten sozialen Rückzugs.",
+    "limitations": "Keine Wirksamkeitsstudie und keine Anleitung zur Selbstdiagnose; nicht gleichbedeutend mit Alleinsein oder Einsamkeit.",
+    "checked": "2026-11-12"
+  },
+  "bewegung": {
+    "authors": "Anastasia Shvedko et al.",
+    "year": 2018,
+    "title": "Physical activity interventions for treatment of social isolation, loneliness or low social support in older adults",
+    "publication": "Psychology of Sport and Exercise 34, 128–137",
+    "url": "https://doi.org/10.1016/j.psychsport.2017.10.003",
+    "method": "Systematischer Review randomisierter Studien; Meta-Analyse von 23 Studien.",
+    "limitations": "Kleiner Effekt auf soziale Funktionsfähigkeit; kein nachgewiesener Effekt auf Einsamkeit, soziale Unterstützung oder Netzwerke in diesem Review.",
+    "checked": "2026-11-12"
+  },
+  "kbv-hilfe": {
+    "authors": "Kassenärztliche Bundesvereinigung",
+    "year": 2026,
+    "title": "Der ärztliche Bereitschaftsdienst (116117)",
+    "publication": "Offizielle Patienteninformation; Abrufstand",
+    "url": "https://www.116117.de/de/aerztlicher-bereitschaftsdienst.php",
+    "method": "Offizielle Information zu medizinischer Dringlichkeit, Bereitschaftsdienst und Notruf.",
+    "limitations": "Keine individuelle medizinische Einschätzung; 116117 ist kein Ersatz für den Notruf bei Lebensgefahr.",
+    "checked": "2026-11-12"
+  },
+  "kbv-therapie": {
+    "authors": "Kassenärztliche Bundesvereinigung",
+    "year": 2026,
+    "title": "Psychotherapie: Wege zur Behandlung",
+    "publication": "Offizielle Patienteninformation; Abrufstand",
+    "url": "https://www.116117.de/de/psychotherapie.php",
+    "method": "Offizieller Zugang zur psychotherapeutischen Sprechstunde.",
+    "limitations": "Vermittlung eines Erstkontakts garantiert keinen unmittelbar verfügbaren Therapieplatz; individuelle Versorgung und Finanzierung sind zu klären.",
+    "checked": "2026-11-12"
+  }
+}

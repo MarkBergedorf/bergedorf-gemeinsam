@@ -1,6 +1,8 @@
 # Vollständige redaktionelle Auswertung der fünf Berichte
 
-> Neuer Bearbeitungsstand Auftrag 2: [Fachtexte, Abdeckung und offene Forschung](auftrag2.md); zeilenbezogener Nachweis in [auftrag2-abdeckung.json](auftrag2-abdeckung.json). Die folgende Dokumentation beschreibt weiterhin die unveränderte vollständige Berichtserschließung aus Auftrag 1.
+> Neuer Bearbeitungsstand Auftrag 3: [Lebenssituationen, Gesundheit und konkrete Hilfen](auftrag3.md), [Artikelstatus](auftrag3-artikelregister.json) und [Abdeckungsregister](auftrag3-abdeckung.json). Die früheren Dokumentationsstände bleiben unverändert nachvollziehbar.
+
+> Bearbeitungsstand Auftrag 2: [Fachtexte, Abdeckung und offene Forschung](auftrag2.md); zeilenbezogener Nachweis in [auftrag2-abdeckung.json](auftrag2-abdeckung.json). Die folgende Dokumentation beschreibt weiterhin die unveränderte vollständige Berichtserschließung aus Auftrag 1.
 
 Stand: 11. November 2026. Ausgangscommit: `2cdd58be5a6a3a75fc6d4081d3070c256995e16b`.
 

@@ -1,0 +1,29 @@
+.loneliness-page .loneliness-help-section{margin:2rem 0 3rem;padding:clamp(1rem,3vw,2rem);border:1px solid #b8d9cc;border-radius:18px;background:#f4faf7;color:#203d32}
+.loneliness-page .loneliness-help-section h2{font-size:1.5rem;margin:1.6rem 0 .8rem;line-height:1.35}
+.loneliness-page .loneliness-help-section p{line-height:1.7;max-width:80ch}
+.loneliness-page .loneliness-help-paths{display:flex;flex-wrap:wrap;gap:.7rem;margin:1rem 0}
+.loneliness-page .loneliness-help-paths a,.loneliness-page .loneliness-directory-link,.loneliness-page .loneliness-direct-help a{display:inline-flex;align-items:center;min-height:44px;padding:.7rem 1rem;border:1px solid #9bbcae;border-radius:10px;background:white;color:#20533e;font-weight:650;line-height:1.45}
+.loneliness-page .loneliness-urgent{border-left:4px solid #a45d2b;background:#fff8ee;padding:1rem 1.3rem;margin:1.6rem 0;color:#493322;border-radius:8px}
+.loneliness-page .loneliness-urgent h2{font-size:1.2rem;margin:0 0 .7rem}
+.loneliness-page .loneliness-urgent p{line-height:1.7;max-width:80ch}
+.loneliness-page .loneliness-urgent a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.loneliness-page .loneliness-help-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;background:white;border-radius:12px;padding:1rem;margin:1.3rem 0}
+.loneliness-page .loneliness-help-filters label{font-weight:650;line-height:1.5;display:flex;flex-direction:column;gap:.4rem;min-width:0}
+.loneliness-page .loneliness-help-filters input[type=search],.loneliness-page .loneliness-help-filters select{width:100%;min-width:0;min-height:46px;background:white;border:1px solid #8a9e94;border-radius:7px;padding:.6rem;color:#203d32;font:inherit}
+.loneliness-page .loneliness-help-filters .loneliness-help-check{flex-direction:row;align-items:center;min-height:44px;font-weight:400}
+.loneliness-page .loneliness-help-check input{width:20px;height:20px;flex-shrink:0}
+.loneliness-page .loneliness-help-filters button{justify-self:start;min-height:44px;padding:.6rem 1rem;border:1px solid #8a9e94;border-radius:7px;background:#fff;color:#203d32;font:inherit;cursor:pointer}
+.loneliness-page .loneliness-offers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;align-items:start}
+.loneliness-page .loneliness-offer{min-width:0;padding:1.3rem;border:1px solid #c9dad2;background:#fff;border-radius:12px;overflow-wrap:anywhere}
+.loneliness-page .loneliness-offer h3{font-size:1.2rem;line-height:1.45;margin:0 0 .5rem;color:#203d32}
+.loneliness-page .loneliness-offer-provider{font-size:.9rem;color:#52695e}
+.loneliness-page .loneliness-offer-contacts{list-style:none;padding:0;margin:1rem 0;display:flex;flex-wrap:wrap;gap:.4rem .9rem}
+.loneliness-page .loneliness-offer-contacts a{display:inline-block;padding:.45rem 0;min-height:44px;text-decoration:underline;text-underline-offset:3px;font-weight:650}
+.loneliness-page .loneliness-offer summary{min-height:44px;padding:.6rem 0;font-weight:650;cursor:pointer}
+.loneliness-page .loneliness-offer dl{font-size:.95rem;line-height:1.7}
+.loneliness-page .loneliness-offer dt{font-weight:700;margin-top:.8rem}
+.loneliness-page .loneliness-offer dd{margin:0}
+.loneliness-page .loneliness-offer dd ul{padding-left:1.2rem}
+.loneliness-page .loneliness-offer dd a{display:inline-block;padding:.35rem 0;text-decoration:underline;text-underline-offset:3px}
+.loneliness-page .loneliness-help-section :is(a,button,input,select,summary):focus-visible,.loneliness-page .loneliness-urgent a:focus-visible{outline:3px solid #946119;outline-offset:4px}
+@media(max-width:700px){.loneliness-page .loneliness-offers,.loneliness-page .loneliness-help-filters{grid-template-columns:minmax(0,1fr)}.loneliness-page .loneliness-help-paths a{width:100%}.loneliness-page .loneliness-help-section{padding:1rem}.loneliness-page .loneliness-offer{padding:1rem}}

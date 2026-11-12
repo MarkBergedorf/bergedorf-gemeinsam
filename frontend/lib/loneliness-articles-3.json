@@ -1,0 +1,1654 @@
+{
+  "lebenssituationen": {
+    "intro": "Einsamkeit ist in jeder Lebensphase möglich. Eine Lebenslage allein sagt nicht, ob jemand Nähe, Zugehörigkeit oder Unterstützung vermisst. Die folgenden Unterseiten verbinden unterschiedliche Alltagssituationen mit passenden Handlungsmöglichkeiten.",
+    "sections": [
+      {
+        "id": "lebenssituationen-1",
+        "title": "Lebensphase und Lebensbedingungen gemeinsam betrachten",
+        "paragraphs": [
+          {
+            "text": "Forschung zu Jugend, höherem Alter und belasteten Lebenslagen arbeitet mit unterschiedlichen Messungen. Ergebnisse sind deshalb nicht als Rangliste einsamer Bevölkerungsgruppen zu lesen. Entscheidend bleiben das persönliche Erleben, vorhandene Beziehungen und die Bedingungen, unter denen Kontakte erreichbar sind.",
+            "refs": [
+              "jugend",
+              "aeltere"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Ein Umzug, eine Geburt, der Verlust eines Menschen oder eine gesundheitliche Veränderung kann Anlass sein, das eigene Netz neu zu betrachten. Daraus folgt kein zwangsläufiger Verlauf. Fragen Sie konkret: Wer hört mir zu? Wen kann ich um praktische Hilfe bitten? Wo fühle ich mich willkommen?",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "lebenssituationen-2",
+        "title": "Mehrere Anforderungen können zusammenkommen",
+        "paragraphs": [
+          {
+            "text": "Pflege und Beruf, Alleinerziehen und wenig Geld oder eine Behinderung und ein schlecht erreichbarer Treffpunkt können gleichzeitig Aufmerksamkeit verlangen. Beginnen Sie bei der dringendsten Hürde: ein erreichbarer Beratungskontakt, eine geklärte Betreuungszeit oder ein Angebot ohne Teilnahmegebühr. Die Verantwortung für zugängliche Angebote liegt auch bei Einrichtungen und Gesellschaft.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Alleinleben ist keine Diagnose. Auch Menschen in Familien, Partnerschaften, Wohngemeinschaften oder Einrichtungen können emotionale Nähe vermissen. Unterstützung soll sich am geäußerten Bedarf orientieren, nicht am Familienstand oder an äußerlichen Zuschreibungen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "lebenssituationen-3",
+        "title": "Den eigenen Einstieg wählen",
+        "paragraphs": [
+          {
+            "text": "Die Unterseiten behandeln Kindheit und Jugend, junge Erwachsene, Erwerbsleben, Familien, höheres Alter und weitere besondere Lebenssituationen. Sie müssen sich nicht genau einer Gruppe zuordnen. Nutzen Sie mehrere passende Abschnitte. Der direkte Hilfebereich bietet Kontakte für Beratung, Pflege, Teilhabe, Trauer und psychosoziale Unterstützung.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Wenn es um die Situation einer anderen Person geht: fragen Sie nach deren Wünschen. Eine Einladung darf abgelehnt werden. Persönliche Erfahrungen aus den Berichten werden hier als Anlass für Fragen aufgenommen; sie sind keine repräsentativen Befunde über Bergedorf.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t4-1": {
+    "intro": "Kinder und Jugendliche brauchen einen Zugang, der zu Alter, Alltag und eigenen Wünschen passt. Erwachsene sollten zuhören, ohne Rückzug vorschnell zu erklären oder junge Menschen für fehlende Kontakte verantwortlich zu machen.",
+    "sections": [
+      {
+        "id": "t4-1-1",
+        "title": "Zugehörigkeit in Schule und Freizeit",
+        "paragraphs": [
+          {
+            "text": "Der Review von Loades und Kolleginnen und Kollegen fand Zusammenhänge zwischen Einsamkeit und späteren depressiven Beschwerden, teilweise auch Angst. Die überwiegend beobachtenden Studien beweisen keine einzelne Ursache. Sie begründen Aufmerksamkeit für belastete Kinder und Jugendliche, keine Diagnose anhand der Kontaktzahl.",
+            "refs": [
+              "loades"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Fragen Sie nach konkreten Situationen: Gibt es jemanden in der Pause? Ist der Wechsel in eine neue Klasse schwierig? Wird jemand ausgeschlossen oder gemobbt? Nehmen Sie Berichte ernst. Bei Mobbing reicht der Rat, freundlicher auf andere zuzugehen, nicht aus; beziehen Sie mit dem jungen Menschen geeignete schulische Bezugspersonen ein.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-1-2",
+        "title": "Übergänge, digitale Kontakte und Rückzug",
+        "paragraphs": [
+          {
+            "text": "Schulwechsel, Ausbildungssuche, Trennung der Eltern und der Verlust einer Freundschaft gehören zu den Themen der Ausgangsberichte. Digitale Kontakte sind nach ihrer Bedeutung für die betreffende Person zu besprechen. Bildschirmzeit allein beschreibt weder Beziehungsqualität noch Einsamkeit.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Hikikomori bezeichnet in einem fachlichen Kriterienvorschlag ausgeprägten sozialen Rückzug. Es ist kein anderes Wort für gern allein sein und kein Etikett für Jugendliche, die nicht an Gruppen teilnehmen möchten. Eine fachliche Abklärung darf durch eine Internetbeschreibung nicht ersetzt werden.",
+            "refs": [
+              "hikikomori"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t4-1-3",
+        "title": "Unterstützung gemeinsam organisieren",
+        "paragraphs": [
+          {
+            "text": "Vereinbaren Sie einen überschaubaren nächsten Schritt: eine vertraute Person ansprechen, nach einem ruhigen Einstieg in eine Freizeitgruppe fragen oder ein Beratungsgespräch vorbereiten. Kosten, Anfahrt und die Möglichkeit, zunächst zuzusehen, sollten vorher geklärt sein. Zwingen Sie niemanden zu einer öffentlichen Erklärung seiner Situation.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für Eltern und junge Menschen sind die Erziehungsberatung und der Jugendpsychiatrische Dienst Bergedorf in der Hilfsübersicht aufgeführt. Bei ausgeprägten psychischen Beschwerden ist professionelle Unterstützung gefragt. Bei unmittelbarer Gefahr gilt der Notruf 112; die medizinischen Hilfswege stehen im Krisenhinweis. Die in den Berichten erwähnte Jugendstudie 2026 ist noch nicht eindeutig identifiziert und wird nicht als Beleg verwendet.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-1-4",
+        "title": "Belastungen gemeinsam statt pauschal erklären",
+        "paragraphs": [
+          {
+            "text": "Soziale Vergleiche in digitalen Medien, Erwartungen an ein aktives Sozialleben und Erfahrungen während der Pandemie können im Gespräch angesprochen werden. Fragen Sie nach dem konkreten Erleben. Aus der Nutzung einer Plattform lässt sich keine gesicherte Ursache für die Situation des jungen Menschen ableiten. Die hier zitierte frühe Übersicht ist keine kausale Bewertung der gesamten Pandemie.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Nach einer psychischen Krise sollte ein erneuter Einstieg mit den behandelnden Fachpersonen und dem jungen Menschen abgestimmt werden. Schule, Ausbildungsstätte oder Jugendhilfe können nach Zuständigkeit einbezogen werden. Soziale Fähigkeiten lassen sich in einem passenden Rahmen erproben; Mobbing, Ausgrenzung oder notwendige Behandlung dürfen dabei nicht als bloß fehlende Übung umgedeutet werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t4-2": {
+    "intro": "Ausbildung, Studium, Berufseinstieg oder ein Umzug können vertraute Kontakte verändern. Junge Erwachsene brauchen keine bestimmte Anzahl von Freunden, sondern Beziehungen und Zugehörigkeit, die zu ihren Bedürfnissen passen.",
+    "sections": [
+      {
+        "id": "t4-2-1",
+        "title": "Wenn bisherige Alltagskontakte wegfallen",
+        "paragraphs": [
+          {
+            "text": "Die Forschung über Einsamkeit bei jüngeren Menschen zeigt die Bedeutung dieser Lebensphase, erlaubt aber keine pauschale Aussage, junge Erwachsene seien grundsätzlich einsamer als andere. Altersgruppen, Erhebungszeiten und Messinstrumente müssen bei Vergleichen berücksichtigt werden.",
+            "refs": [
+              "jugend"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Wer auszieht oder für Ausbildung und Arbeit umzieht, kann bestehende Freundschaften behalten und zugleich vor der Aufgabe stehen, vor Ort neue Kontakte aufzubauen. Hohe Erwartungen an eine sofort enge Freundesgruppe können als persönliche Belastung erlebt werden. Das ist ein Gesprächsanlass, kein Versagen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t4-2-2",
+        "title": "Neue Kreise schrittweise erschließen",
+        "paragraphs": [
+          {
+            "text": "Wählen Sie einen wiederkehrenden Ort oder eine gemeinsame Tätigkeit: eine Lerngruppe, ein Sport- oder Kulturangebot, ein Nachbarschaftsprojekt oder ein Ehrenamt. Prüfen Sie vorher Kosten, Uhrzeiten und Anfahrt. Ein begrenztes erstes Ziel kann genügen: teilnehmen, eine Frage stellen, sich beim nächsten Mal wiedererkennen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Untersuchungen zu kurzen Kontakten und wiederholten Begegnungen beschreiben Möglichkeiten sozialer Verbindung. Sie belegen nicht, dass jeder erste Kontakt zu Freundschaft wird. Gemeinsame Zeit und gegenseitiges Interesse brauchen Gelegenheit und Freiwilligkeit.",
+            "refs": [
+              "schwachekontakte",
+              "freundschaftzeit"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t4-2-3",
+        "title": "Wenn Übergänge zusätzlich belasten",
+        "paragraphs": [
+          {
+            "text": "Ausbildungsabbrüche, Arbeitslosigkeit, wenig Geld, psychische Beschwerden oder fehlender familiärer Rückhalt sollten getrennt angesprochen werden. Es hilft, eine praktische Schwierigkeit gezielt zu bearbeiten, statt alle Probleme mit mehr Ausgehen lösen zu wollen. Eine Sozial- oder psychosoziale Beratung kann einen Einstieg bieten.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Freundschaft, romantische Beziehung und Zugehörigkeit zu einer Gruppe sind unterschiedliche Bedürfnisse. Eine Partnerschaft ist kein vorgeschriebener Ausweg. Wer sich in einer bestehenden Gruppe nicht wohlfühlt, darf eine andere Form wählen. Für länger anhaltende Belastungen finden Sie professionelle Kontakte im Hilfebereich.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t4-3": {
+    "intro": "Erwerbsarbeit kann Kontakte ermöglichen; sie garantiert keine vertrauten Beziehungen. Auch Arbeitslosigkeit, Schichtarbeit, Selbstständigkeit und längere Erkrankungen verlangen unterschiedliche Lösungen.",
+    "sections": [
+      {
+        "id": "t4-3-1",
+        "title": "Arbeit und soziale Beziehungen unterscheiden",
+        "paragraphs": [
+          {
+            "text": "Forschung zur Arbeitswelt untersucht Zusammenhänge von Einsamkeit mit Arbeitsbedingungen und Wohlbefinden. Daraus folgt keine einheitliche Wirkung von Homeoffice oder Präsenzarbeit. Arbeitskontakte und persönliche Vertrauensbeziehungen sind unterschiedliche Dinge.",
+            "refs": [
+              "arbeit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Prüfen Sie Ihren Alltag: Sind Gespräche möglich? Passen freie Zeiten zu denen anderer Menschen? Gibt es nach einem Stellenwechsel noch Verbindung zu früheren Kolleginnen oder Kollegen? Vereinbaren Sie freiwillige Kontaktzeiten, ohne private Offenlegung gegenüber dem Arbeitgeber zu verlangen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-3-2",
+        "title": "Arbeitslosigkeit, Krankheit und finanzielle Enge",
+        "paragraphs": [
+          {
+            "text": "Die Berichte nennen den Verlust von Tagesstruktur, Geldsorgen, lange Krankschreibung sowie Schulden und Insolvenz als relevante Lebenssituationen. Das sind unterschiedliche Beratungsanliegen. Ein Begegnungsangebot kann einen finanziellen oder arbeitsrechtlichen Konflikt nicht stellvertretend bearbeiten.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Planen Sie Kontakte, die ohne Konsum oder Mitgliedsbeitrag möglich sind, und erfragen Sie tatsächliche Kosten. Halten Sie, wenn gewünscht, einen vertrauten beruflichen Kontakt aufrecht. Unterstützung bei Wohnen, Behörden und sozialen Schwierigkeiten bietet unter anderem die Soziale Beratungsstelle; welche konkrete Schuldner- oder Rechtsberatung zuständig ist, muss dort geklärt werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-3-3",
+        "title": "Für wechselnde Arbeitszeiten passende Wege",
+        "paragraphs": [
+          {
+            "text": "Bei Schichtdiensten oder Pflegeverantwortung kann ein kurzer verabredeter Anruf realistischer sein als ein fester wöchentlicher Abendtermin. Fragen Sie nach offenen Zeiten und verabreden Sie mit anderen einen tatsächlich passenden Rhythmus. Ehrenamt soll freiwillig bleiben und darf nicht zur zusätzlichen Überforderung werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Ausgangsberichte schlagen Kooperationen mit Arbeitgebern, Kammern, Gewerkschaften und Jobcentern vor. Ob solche Kooperationen vor Ort bestehen und wen sie erreichen, ist gesondert zu prüfen. Hier werden daraus weder bestehende Partnerzusagen noch nachgewiesene Wirkungen abgeleitet.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t4-4": {
+    "intro": "Familienleben und Partnerschaft schließen Einsamkeit nicht aus. Sorgearbeit, Konflikte und fehlender Rückhalt brauchen neben Begegnung oft konkrete Entlastung.",
+    "sections": [
+      {
+        "id": "t4-4-1",
+        "title": "Schwangerschaft, Elternwerden und Alltag mit Kindern",
+        "paragraphs": [
+          {
+            "text": "Ein Scoping Review behandelt Einsamkeit während Schwangerschaft, nach der Geburt und bei Eltern kleiner Kinder. Die heterogene Forschung zeigt einen Beratungsbedarf, belegt aber keinen einheitlichen Verlauf für Mütter, Väter oder andere Eltern.",
+            "refs": [
+              "eltern"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Fragen Sie nach dem, was im Alltag fehlt: ein erwachsenes Gespräch, verlässliche Betreuung, Unterstützung nach einer Geburt oder eine Bezugsperson im Notfall. Alleinerziehende können Angebote nur nutzen, wenn Kinder willkommen sind oder Betreuung tatsächlich geklärt ist. Der Wunsch nach einer gedruckten Einladung, einer telefonischen Auskunft oder einem kostenfreien Einstieg ist berechtigt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-4-2",
+        "title": "Beziehungen, Trennung und unterschiedliche Wünsche",
+        "paragraphs": [
+          {
+            "text": "Einsamkeit in einer Partnerschaft, unerfüllter Kinderwunsch, Trennung, familiäre Konflikte oder räumlich weit entfernte Angehörige sind eigenständige Themen. Sie werden nicht durch die Feststellung erledigt, jemand habe doch Familie. Vertrauliche Beratung kann sinnvoll sein, wenn gemeinsames Sprechen nicht gelingt.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Benennen Sie ein konkretes Bedürfnis: ungestörte Zeit, praktische Hilfe oder Kontakt außerhalb der Familie. Überlegen Sie, wen Sie direkt um eine begrenzte Unterstützung bitten möchten. Bei Gewalt oder kontrollierender Isolation steht Sicherheit vor gemeinsamen Ausspracheversuchen; eine spezialisierte Beratung wie die Opferhilfe kann zur Orientierung beitragen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-4-3",
+        "title": "Sorgearbeit und Hilfe für Familien",
+        "paragraphs": [
+          {
+            "text": "Bei Pflege eines Angehörigen, einem erkrankten Kind oder gleichzeitiger Verantwortung für Kinder und Eltern sollte nicht vorausgesetzt werden, dass für zusätzliche Termine Zeit vorhanden ist. Erfragen Sie Entlastung und Beratung passend zur konkreten Situation. Der Pflegestützpunkt berät zu Pflegefragen; die Erziehungsberatung zu familiären und erzieherischen Anliegen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Forschung zu pflegenden Angehörigen in unserem Quellenverzeichnis schließt die Betreuung chronisch kranker Kinder ausdrücklich aus. Deren Ergebnisse werden deshalb nicht einfach auf diese Familien übertragen. Lokale Entlastungsangebote, freie Plätze, Betreuungskosten und Voraussetzungen müssen einzeln bestätigt werden.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t4-4-4",
+        "title": "Alleinleben und familiäre Kontaktabbrüche",
+        "paragraphs": [
+          {
+            "text": "Alleinlebende Menschen jeden Alters können Verbundenheit innerhalb und außerhalb der Familie haben. Entscheidend ist, was tatsächlich fehlt. Ein verlässlicher Notfallkontakt, Vorsorgefragen und eine Person für vertrauliche Gespräche sind unterschiedliche Anliegen; eine Partnerschaft ist dafür keine Voraussetzung.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Nach familiärer Entfremdung oder einer Trennung können auch gemeinsame Freundeskreise verloren gehen. Fragen Sie sich, welche Beziehungen Sie unabhängig weiterführen möchten und welche Grenzen nötig sind. Angehörige im Ausland lassen sich nach gemeinsam vereinbarten Zeiten kontaktieren. Für praktische Vorsorgefragen können Sie eine geeignete Beratungsstelle nach ihrer Zuständigkeit fragen, ohne eine rechtliche Vertretung durch Freunde vorauszusetzen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t4-5": {
+    "intro": "Im höheren Lebensalter können sich Beziehungen, Gesundheit und Alltagswege verändern. Alter allein beschreibt weder Einsamkeit noch Hilfebedarf. Selbstbestimmung und persönliche Vorlieben bleiben maßgeblich.",
+    "sections": [
+      {
+        "id": "t4-5-1",
+        "title": "Ruhestand, Verluste und vertraute Rollen",
+        "paragraphs": [
+          {
+            "text": "Der systematische Review zu älteren Menschen nennt unter anderem Verluste und gesundheitliche Einschränkungen als untersuchte Risikofaktoren. Überwiegend beobachtete Zusammenhänge erklären nicht den Einzelfall und rechtfertigen keine Gleichsetzung von Alter und Einsamkeit.",
+            "refs": [
+              "aeltere"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Vor oder nach dem Ruhestand kann eine Bestandsaufnahme helfen: Welche Kontakte waren an die Arbeit gebunden? Welche möchten Sie behalten? Welche Aufgabe oder gemeinsame Tätigkeit ist Ihnen wichtig? Nach einem Todesfall darf Trauer Raum haben. Eine Begegnungsgruppe ist kein verpflichtender Ersatz für den verlorenen Menschen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-5-2",
+        "title": "Alleinleben, Hochaltrigkeit und Erreichbarkeit",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie Wege und Belastungen konkret: sichere Anfahrt und Rückfahrt, Sitzmöglichkeiten, Hör- und Sehbedingungen sowie gegebenenfalls Begleitung. Wer wenig Geld hat, muss nach allen Kosten einschließlich Fahrt und Verzehr fragen können. Eine Internetseite allein erreicht Menschen ohne digitalen Zugang nicht; die Hilfsübersicht enthält deshalb Telefonnummern.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Auch in einer Pflegeeinrichtung oder im betreuten Wohnen kann persönliche Nähe fehlen. Fragen Sie nach selbst gewählten Kontakten und Rückzugsmöglichkeiten. Regelmäßige Besuche sollen auf Zustimmung beruhen, nicht auf einem fremdbestimmten Programm. Kontakte zwischen Generationen sind eine Möglichkeit; sie sind nicht automatisch für alle passend.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t4-5-3",
+        "title": "Konkrete Zugänge in Bergedorf",
+        "paragraphs": [
+          {
+            "text": "Die bezirkliche Seniorenberatung kann Orientierung zu sozialen und altersbezogenen Fragen geben. Bei Pflege und Entlastung ist der Pflegestützpunkt ein direkter Zugang. Für Menschen, die ihre Wohnung selten verlassen, ist der DRK-Besuchsdienst als tatsächlich beschriebenes Angebot aufgeführt; Kosten und verfügbare Kapazitäten sind dort vorab zu erfragen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei Trauer können Einzelgespräche, ein Café oder ein gemeinsamer Spaziergang unterschiedlich passend sein. Beim Hospizdienst sind bestätigte Wege aufgeführt. Wer zunächst nur telefonieren möchte, darf dies als eigenen sinnvollen Schritt wählen. Ein Anruf oder Besuch garantiert keine Freundschaft und ersetzt keine erforderliche Behandlung.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t4-6": {
+    "intro": "Besondere Lebenslagen werden hier getrennt betrachtet. Menschen entscheiden selbst, ob sie Unterstützung wünschen. Ein gemeinsames Merkmal macht eine Gruppe nicht einheitlich und ist keine Diagnose.",
+    "sections": [
+      {
+        "id": "t4-6-1",
+        "title": "Behinderung und chronische Erkrankung",
+        "paragraphs": [
+          {
+            "text": "Der Review zu Behinderung und Einsamkeit beschreibt unterschiedliche Barrieren und Unterstützungsansätze. Es gibt keine einheitliche Erfahrung aller Menschen mit Behinderungen. Barrierearme Umgebung und Teilhabemöglichkeiten sind wichtige zu prüfende Bedingungen, keine Erfolgsgarantie.",
+            "refs": [
+              "behinderung"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Erfragen Sie Stufen, Aufzug, Türbreiten, WC, verständliche Kommunikation und Unterstützung bei der Anfahrt. Auch Erschöpfung, Schmerzen oder eine seltene Erkrankung können einen anderen Zeitplan erfordern. EUTB und die bezirkliche Beratung für körperbehinderte Menschen sind mögliche erste Anlaufstellen. Individuelle Leistungsansprüche müssen dort geklärt werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-6-2",
+        "title": "Hören, Sehen, Sprache und Neurodivergenz",
+        "paragraphs": [
+          {
+            "text": "Ein ruhiger Raum, gute Beleuchtung, langsames Sprechen, schriftliche Informationen oder eine vertraute Begleitperson können als konkrete Anpassungen erfragt werden. Menschen mit Aphasie sollen Zeit für Antworten erhalten. Wer nicht telefonieren kann, kann bestätigte E-Mail-Kontakte nutzen; wo keine schriftliche Kontaktmöglichkeit bestätigt ist, bleibt diese offen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Übersicht zu autistischen Erwachsenen zeigt die Bedeutung von Verständnis, Akzeptanz und passenden Beziehungen; die Forschung weist zugleich Mess- und Beteiligungslücken auf. Ergebnisse über Autismus werden hier nicht als Befunde über ADHS oder sämtliche neurodivergenten Menschen ausgegeben. Wünsche nach weniger Reizen oder klaren Abläufen sollten individuell erfragt werden.",
+            "refs": [
+              "autismus"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t4-6-3",
+        "title": "Psychische Belastungen, Sucht und ausgeprägter Rückzug",
+        "paragraphs": [
+          {
+            "text": "Wer sich schämt, Angst vor Gruppen hat oder nach negativen Erfahrungen zurückzieht, muss nicht zunächst eine große Veranstaltung besuchen. Ein Beratungsgespräch, eine kurze telefonische Klärung oder ein begleiteter erster Besuch kann der gewählte Einstieg sein. Bei psychischen Beschwerden sind Sozialpsychiatrischer Dienst oder Der Begleiter, bei Suchtfragen KODROBS mögliche Kontakte.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine Begleiterkrankung ist keine Erklärung für alle Beziehungsprobleme. Wünsche nach Kontakt und nach Ruhe können nebeneinander bestehen. Ausgeprägter Rückzug gehört bei erheblicher Belastung in fachliche Abklärung; Nachbarn sollten keine Diagnosen vergeben.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t4-6-4",
+        "title": "Migration, Flucht und ein neuer Wohnort",
+        "paragraphs": [
+          {
+            "text": "Die systematische Übersicht zu nach Flucht neu angesiedelten Menschen beschreibt Zusammenhänge mit psychischen Belastungen und Bedingungen wie getrennten sozialen Netzen. Die verfügbaren Studien unterscheiden sich; sie erlauben keine pauschale Aussage über alle Zugewanderten oder eine lokale Häufigkeit.",
+            "refs": [
+              "flucht"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Fragen Sie nach gewünschter Sprache, Verständlichkeit und vertraulicher Sprachmittlung. Kinder sollten nicht mit der Übersetzung hochbelastender Inhalte beauftragt werden. Kontakte zu Angehörigen im Ausland können wichtig bleiben. Ein örtliches Angebot sollte Informationen zu Zugang und Kosten auch ohne vorausgesetzte Verwaltungskenntnisse verständlich machen. Ein überprüfter Migrationsberatungszugang steht in der Hilfsübersicht.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-6-5",
+        "title": "Finanzielle Belastung und Wohnungslosigkeit",
+        "paragraphs": [
+          {
+            "text": "Ein Scoping Review untersucht Einsamkeit und Isolation bei Menschen mit Wohnungslosigkeitserfahrung. Die unterschiedlichen Studien beschreiben vielfältige Lebensbedingungen, keine einheitliche Lebensgeschichte. Eine sichere Wohnung und vertrauensvolle Beziehungen sind unterschiedliche Unterstützungsaufgaben.",
+            "refs": [
+              "wohnungslos"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Keine feste Anschrift, Schulden, fehlendes Fahrgeld oder fehlender digitaler Zugang dürfen beim ersten Orientierungsgespräch nicht verschwiegen werden müssen. Fragen Sie eine Sozialberatung konkret, welche Unterstützung ohne diese Voraussetzungen möglich ist. Die Soziale Beratungsstelle Bergedorf/Billstedt nennt Wohnungsprobleme als Arbeitsfeld; ein sofort verfügbarer Wohnplatz wird hier nicht zugesichert.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-6-6",
+        "title": "Queere Lebensweisen und Zugehörigkeit",
+        "paragraphs": [
+          {
+            "text": "Eine US-Studie älterer Erwachsener untersucht Unterschiede nach sexueller Orientierung im Zusammenhang mit Beziehungen und Einsamkeit. Sie ist kein Nachweis für alle queeren Menschen, für trans Personen oder für Bergedorf. Ausgrenzung und sichere Kontakte sollten individuell besprochen werden, ohne Identität als Defizit darzustellen.",
+            "refs": [
+              "queer"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Eine respektvolle Ansprache, gewünschter Name und Vertraulichkeit gehören zu einem passenden Kontakt. Niemand muss sich in einer Gruppe offenbaren. Für einen spezialisierten Beratungszugang verweist die Hilfsübersicht auf das Magnus-Hirschfeld-Centrum; konkrete Zuständigkeit und Zugangsbedingungen sind dort zu klären.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-6-7",
+        "title": "Gewalt, Haft, Trauer und fehlende Vertrauenspersonen",
+        "paragraphs": [
+          {
+            "text": "Die Berichte nennen Gewalterfahrung, Haft und Entlassung, inhaftierte Angehörige, Trauer und das Fehlen einer Person für Notfälle. Diese Situationen brauchen unterschiedliche Unterstützung. Eine spezialisierte Opferberatung oder Trauerbegleitung ist nicht mit allgemeiner Geselligkeit gleichzusetzen. Für Haft und Haftentlassung ist in dieser Auswahl noch kein spezifisches Bergedorfer Angebot verifiziert; Sozialberatung kann nach einer zuständigen Stelle gefragt werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei schwerer Krankheit oder am Lebensende zählt, welche Nähe die Person selbst möchte. Verlässliche Absprachen, Zustimmung und Schutz vertraulicher Informationen haben Vorrang. Mehrere Belastungen dürfen in einem ersten Gespräch gemeinsam benannt werden. Sie müssen nicht schon wissen, welche Fachstelle für alles zuständig ist.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t4-6-8",
+        "title": "Geringe Lese- und Schreibkompetenz, Geschlecht und belasteter Alltag",
+        "paragraphs": [
+          {
+            "text": "Wer Schwierigkeiten beim Lesen oder Schreiben hat, braucht einen mündlich erklärten Zugang und Unterstützung bei der Orientierung, ohne bloßgestellt zu werden. Fragen Sie nach einer verständlichen telefonischen Auskunft und danach, ob eine Anmeldung gemeinsam besprochen werden kann. Ein kompliziertes Formular darf nicht als Beleg fehlender Motivation verstanden werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Berichte nennen unterschiedliche Erwartungen an Männer und Frauen sowie Scham bei der Hilfesuche. Daraus wird hier keine wissenschaftlich belegte Eigenschaft eines Geschlechts abgeleitet. Fragen Sie nach individuellen Erfahrungen, gewünschter Ansprache und einer passenden Beratungsform. Eine allgemeine geschlechtsspezifische Wirksamkeit bestimmter Angebote ist damit nicht belegt.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Bei einem schwer zu organisierenden Alltag können mehrere Aufgaben gleichzeitig drängen: ungeöffnete Post, Geldsorgen, Wohnen, gesundheitliche Beschwerden und Kontaktverlust. Ein erster sozialer Beratungskontakt kann der gemeinsamen Sortierung dienen. Niemand muss sein Leben vor einem Gespräch bereits geordnet haben. Ein Zuzug innerhalb Deutschlands kann ebenfalls Anlass für einen neuen örtlichen Kontaktaufbau sein; dazu ist keine Migrationserfahrung erforderlich.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "gesundheit": {
+    "intro": "Einsamkeit und soziale Isolation sind für Gesundheit und Versorgung relevante Themen. Forschungsergebnisse beschreiben überwiegend Wahrscheinlichkeiten und Zusammenhänge in Gruppen. Sie sind keine Diagnose für einzelne Menschen.",
+    "sections": [
+      {
+        "id": "gesundheit-1",
+        "title": "Psychische und körperliche Gesundheit gemeinsam sehen",
+        "paragraphs": [
+          {
+            "text": "Längsschnittübersichten finden Zusammenhänge mit späteren psychischen Beschwerden und mit Herz-Kreislauf-Erkrankungen. Unterschiedliche Messungen, Gesundheitszustand und Lebensbedingungen begrenzen die Interpretation. Eine zeitliche Abfolge allein beweist nicht, dass Einsamkeit die Erkrankung verursacht hat.",
+            "refs": [
+              "mann",
+              "herzkreislauf"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Einsamkeit beschreibt fehlende gewünschte Verbundenheit; Isolation beschreibt eher die Kontaktlage. Beide müssen getrennt erfragt werden. Wer viele Termine hat, kann Nähe vermissen. Wer wenige Kontakte hat, benötigt nicht automatisch eine Behandlung.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "gesundheit-2",
+        "title": "Was aus den Befunden praktisch folgt",
+        "paragraphs": [
+          {
+            "text": "Sprechen Sie in einem medizinischen Gespräch sowohl Beschwerden als auch die Alltagssituation an: Schlaf, Schmerzen, Stimmung, Bewegung, Versorgung und verlässliche Unterstützung. Eine ärztliche oder psychotherapeutische Abklärung ist bei entsprechenden Beschwerden sinnvoll; ein Begegnungsangebot kann parallel helfen, ersetzt diese Behandlung aber nicht.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Statistische Vergleiche mit anderen Gesundheitsrisiken sind keine persönliche Prognose. Insbesondere wird hier keine feste Zahl verlorener Lebensjahre und kein individuelles Erkrankungsrisiko aus Einsamkeit berechnet. Forschung zu möglichen Stressmechanismen wird nicht als im Einzelfall bewiesene Kausalkette dargestellt.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "gesundheit-3",
+        "title": "Direkt zu geeigneter Hilfe",
+        "paragraphs": [
+          {
+            "text": "Bei unmittelbarer medizinischer Gefahr oder akuter Selbstgefährdung wählen Sie 112. Bei dringenden, nicht lebensbedrohlichen medizinischen Beschwerden, die nicht bis zur nächsten Sprechzeit warten können, ist 116117 der medizinische Bereitschaftsdienst. Für psychosoziale Beratung vor Ort finden Sie die bestätigten Kontakte oben im Hilfebereich.",
+            "refs": [
+              "kbv-hilfe"
+            ],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Unterseiten unterscheiden psychische und körperliche Befunde, Teilhabebarrieren, Pflege und professionelle Behandlung. Sie helfen, Fragen für ein Gespräch vorzubereiten. Sie ersetzen weder Diagnostik noch eine individuelle Behandlungsentscheidung.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t5-1": {
+    "intro": "Psychische Beschwerden und Einsamkeit sollten ernst genommen werden, ohne sie gleichzusetzen. Eine depressive Erkrankung ist keine bloße Folge zu weniger Freizeitkontakte.",
+    "sections": [
+      {
+        "id": "t5-1-1",
+        "title": "Depression, Angst und gemeinsame Einflussfaktoren",
+        "paragraphs": [
+          {
+            "text": "Mann und Kolleginnen und Kollegen fanden in longitudinalen Studien einen Zusammenhang zwischen Einsamkeit und späteren psychischen Problemen, besonders Depressionen. Für weitere Störungsbilder ist die Forschung schmaler. Gemeinsame Belastungen und wechselseitige Prozesse sind bei der Auswertung zu berücksichtigen; die Übersicht belegt keine einfache Ursache-Wirkungs-Regel für jeden Menschen.",
+            "refs": [
+              "mann"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Antriebsmangel, Angst vor Bewertung oder sozialer Rückzug können eine Kontaktaufnahme erschweren. Das persönliche Erleben gehört in ein vertrauliches Gespräch. Eine medizinische Diagnose lässt sich weder aus der Kontaktzahl noch aus einem einzelnen Internettext ableiten.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t5-1-2",
+        "title": "Stress, Selbstwert und Schlaf",
+        "paragraphs": [
+          {
+            "text": "Theoretische und empirische Modelle beschreiben Zusammenhänge zwischen wahrgenommener sozialer Bedrohung, Stressverarbeitung und Einsamkeit. Sie sind Erklärungsansätze und keine bei jeder Person nachgewiesene biologische Kette.",
+            "refs": [
+              "hawkley"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Der Review von Griffin und Kolleginnen und Kollegen fand einen Zusammenhang mit subjektiven Schlafstörungen, nicht mit der Schlafdauer. Richtung und Kausalität blieben offen. Schlafprobleme sollten daher eigenständig abgeklärt und nicht automatisch auf Einsamkeit zurückgeführt werden.",
+            "refs": [
+              "schlaf"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t5-1-3",
+        "title": "Psychische Krisen benötigen professionelle Wege",
+        "paragraphs": [
+          {
+            "text": "Ein Review prospektiver Studien fand Zusammenhänge mit späteren suizidalen Gedanken und Verhaltensweisen. Daraus lässt sich keine individuelle Vorhersage ableiten. Die persönliche Gefährdung muss professionell eingeschätzt werden; Einsamkeit allein erklärt eine Krise nicht.",
+            "refs": [
+              "krisenforschung"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Bei unmittelbarer Gefahr für das eigene Leben oder das Leben anderer: 112. Für dringende, nicht lebensbedrohliche medizinische Hilfe: 116117. Erwachsene können während der Dienstzeiten den Sozialpsychiatrischen Dienst, junge Menschen und Familien den Jugendpsychiatrischen Dienst Bergedorf kontaktieren. Gesprächsangebote und Ehrenamt sind keine Notfallversorgung.",
+            "refs": [
+              "kbv-hilfe"
+            ],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-1-4",
+        "title": "Behandlung und soziale Unterstützung verbinden",
+        "paragraphs": [
+          {
+            "text": "Sie können bei Hausarztpraxis oder psychotherapeutischer Sprechstunde sagen: Ich bin belastet und ziehe mich zurück; ich möchte klären, welche Unterstützung passt. Über 116117 ist die Suche nach einer psychotherapeutischen Sprechstunde möglich. Ein Erstkontakt ist keine Garantie für einen sofortigen Therapieplatz.",
+            "refs": [
+              "kbv-therapie"
+            ],
+            "kind": "praxis"
+          },
+          {
+            "text": "Parallel dürfen Sie einen geschützten sozialen Einstieg wählen: zunächst Beratung, ein kurzes Telefonat oder eine passende kleine Gruppe. Teilen Sie nur mit, was Sie mitteilen möchten. Wenn eine Gruppe überfordert, kann eine andere Kontaktform angemessener sein. Behandlung soll nicht durch den Druck ersetzt werden, einfach mehr unter Menschen zu gehen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t5-2": {
+    "intro": "Körperliche Gesundheit, soziale Kontakte und persönliche Verbundenheit hängen auf unterschiedliche Weise zusammen. Beobachtungsdaten liefern wichtige Hinweise, aber keine Garantie für die Wirkung eines bestimmten Treffens.",
+    "sections": [
+      {
+        "id": "t5-2-1",
+        "title": "Herz-Kreislauf-Gesundheit und Sterblichkeit",
+        "paragraphs": [
+          {
+            "text": "Valtorta und Kolleginnen und Kollegen fanden in longitudinalen Beobachtungsstudien Zusammenhänge schlechter sozialer Beziehungen mit neu auftretender koronarer Herzkrankheit und Schlaganfall. Untersucht wurde damit nicht, ob ein bestimmtes Begegnungsangebot diese Krankheiten verhindert.",
+            "refs": [
+              "herzkreislauf"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die Meta-Analyse zur Sterblichkeit unterscheidet Einsamkeit, soziale Isolation und Alleinleben. Ihre gruppenbezogenen Befunde sind keine persönliche Lebenserwartungsberechnung. Gesundheitszustand, Lebenslage und unterschiedliche Studienmethoden müssen berücksichtigt werden.",
+            "refs": [
+              "gesundheit"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t5-2-2",
+        "title": "Schlaf, Belastung und chronische Erkrankungen",
+        "paragraphs": [
+          {
+            "text": "Wer wegen Schmerzen, Erschöpfung oder Behandlungsterminen Kontakte einschränken muss, kann nach kurzen, planbaren oder telefonischen Formen fragen. Zugleich sollten Beschwerden medizinisch abgeklärt bleiben. Medikamente oder Therapien sollen wegen eines allgemeinen Einsamkeitstextes weder begonnen noch verändert werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Analyse zu Muskel- und Gelenkschmerzen fand Zusammenhänge mit Einsamkeit. Wegen ihres Querschnittsdesigns kann sie keine Wirkrichtung bestimmen. Subjektive Einsamkeit darf dabei nicht einfach mit objektiver Isolation gleichgesetzt werden.",
+            "refs": [
+              "schmerz"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t5-2-3",
+        "title": "Kognition und Demenz",
+        "paragraphs": [
+          {
+            "text": "Die Meta-Analyse von Luchetti und Kolleginnen und Kollegen fand in longitudinalen Daten Zusammenhänge von Einsamkeit mit späteren Demenzerkrankungen und kognitiven Beeinträchtigungen. Vorläuferprozesse einer Krankheit und verbleibende Störfaktoren begrenzen kausale Schlussfolgerungen. Daraus folgt weder eine Demenzdiagnose bei Einsamkeit noch das Versprechen, soziale Aktivitäten verhinderten Demenz.",
+            "refs": [
+              "demenz"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Bei neuen Gedächtnisproblemen oder Veränderungen im Alltag ist eine ärztliche Abklärung sinnvoll. Für Angehörige können zusätzlich Pflegeberatung und Entlastungsmöglichkeiten wichtig sein. Kontakte sollten an Fähigkeiten und Wünsche angepasst werden; eine Person darf nicht auf ihre Erkrankung reduziert werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-2-4",
+        "title": "Bewegung realistisch einordnen",
+        "paragraphs": [
+          {
+            "text": "Der Review zu Bewegungsinterventionen im höheren Alter fand einen kleinen positiven Effekt auf soziale Funktionsfähigkeit, aber keinen gesicherten Effekt auf Einsamkeit, soziale Unterstützung oder Netzwerke. Bewegung in einer Gruppe ist deshalb eine Möglichkeit für gemeinsame Aktivität, keine garantierte Einsamkeitsbehandlung.",
+            "refs": [
+              "bewegung"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Wählen Sie Belastung, Tempo und Umgebung passend zu Ihrer gesundheitlichen Situation. Bei Unsicherheit fragen Sie behandelnde Fachpersonen. Auch eine sitzende gemeinsame Tätigkeit oder ein Gespräch kann ein geeigneter sozialer Einstieg sein.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-2-5",
+        "title": "Gesundheitsverhalten und mögliche Vermittlungswege",
+        "paragraphs": [
+          {
+            "text": "Der Überblick von Hawkley und Cacioppo diskutiert unter anderem Stressverarbeitung, Schlaf und Gesundheitsverhalten als mögliche Vermittlungswege. Solche Modelle unterscheiden sich von einer im Einzelfall nachgewiesenen Ursache. Ernährung, Alkoholgebrauch und körperliche Aktivität sollten nicht aus dem bloßen Vorliegen von Einsamkeit erschlossen werden.",
+            "refs": [
+              "hawkley"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Wenn Essen, Bewegung, Alkoholkonsum oder Selbstfürsorge zur Belastung werden, sprechen Sie den konkreten Punkt in der Versorgung an. Eine Suchtberatung kann unabhängig davon genutzt werden, ob Sie Ihre Situation bereits als Abhängigkeit bezeichnen. Gemeinsames Essen oder Bewegung kann einen gewünschten Kontakt ermöglichen; eine spezifische Krankheitsbehandlung wird dadurch nicht ersetzt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t5-3": {
+    "intro": "Teilhabe scheitert oft an konkreten Bedingungen. Nicht die Person soll sich an jede Veranstaltung anpassen müssen; Angebote müssen ihre Zugänglichkeit nachvollziehbar beschreiben.",
+    "sections": [
+      {
+        "id": "t5-3-1",
+        "title": "Mobilität, Schmerzen und Erschöpfung",
+        "paragraphs": [
+          {
+            "text": "Klären Sie den gesamten Weg: Haustür, Haltestelle, Eingang, Sitzplatz und Heimfahrt. Fragen Sie nach Pausen, Begleitung und einem kürzeren ersten Aufenthalt. Bei schwankender Belastbarkeit sollte eine Absage ohne Rechtfertigungsdruck möglich sein. Eine angekündigte Barrierefreiheit ohne Einzelangaben reicht für die persönliche Planung oft nicht aus.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Forschung zu Behinderung und Einsamkeit behandelt Umweltbarrieren neben individuellen Faktoren. Die verschiedenen Erkrankungen und Lebenslagen sind nicht austauschbar. Daraus folgt, dass Zugänglichkeit konkret geprüft werden muss, nicht dass eine bestimmte Behinderung zwangsläufig Einsamkeit verursacht.",
+            "refs": [
+              "behinderung"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t5-3-2",
+        "title": "Hören, Sehen und Kommunikation",
+        "paragraphs": [
+          {
+            "text": "Fragen Sie nach ruhigen Räumen, guter Beleuchtung, lesbaren Informationen und der Möglichkeit, Fragen schriftlich zu stellen. Bei Hör- oder Sehbeeinträchtigung kann ein voller, lauter Raum ungeeignet sein. Menschen mit Sprach- oder Kommunikationsschwierigkeiten sollen selbst antworten können und Zeit erhalten.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Aphasie, neurodivergente Wahrnehmung, psychische Beschwerden und körperliche Einschränkungen erfordern unterschiedliche Anpassungen. Begleitpersonen dürfen unterstützen, ohne stellvertretend über Wünsche zu entscheiden. Für seltene Erkrankungen sollte geprüft werden, ob ein thematisch passender Austausch auch überregional möglich ist.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t5-3-3",
+        "title": "Rehabilitation und Übergang aus der Klinik",
+        "paragraphs": [
+          {
+            "text": "Vor Entlassung oder Ende einer Rehabilitation können Sie mit dem Behandlungsteam beziehungsweise Sozialdienst besprechen: Wer hilft zu Hause? Welche Wege sind möglich? Wie bleiben selbst gewählte Kontakte erhalten? Klären Sie benötigte Hilfsmittel, ambulante Versorgung und Beratungszuständigkeiten konkret. Ein Besuchsdienst übernimmt keine verordnete Pflege oder medizinische Nachsorge.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei Fragen zur Teilhabe ist EUTB ein unabhängiger Beratungszugang; bei Pflege der Pflegestützpunkt. Die bezirkliche Beratung für körperbehinderte Menschen nennt auch telefonische Beratung und Hausbesuche. Die bestätigten Einzelangaben finden Sie in der Hilfsübersicht. Ein Leistungsanspruch oder eine konkrete Finanzierung wird dadurch nicht vorweggenommen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-3-4",
+        "title": "Digital und von zu Hause verbunden bleiben",
+        "paragraphs": [
+          {
+            "text": "Ein Telefonkontakt kann eine Alternative sein, wenn ein Weg gerade nicht möglich ist. Digitale Treffen können nach persönlichen Fähigkeiten und Datenschutzwünschen erprobt werden. Niemand muss eine App installieren oder private Gesundheitsdaten in einer Gruppe offenlegen. Diese Website übermittelt keine Hilfegesuche an Einrichtungen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Welche lokalen Angebote für Menschen mit schwerer Erschöpfung, besonderen Kommunikationsbedarfen oder sehr seltenen Erkrankungen tatsächlich erreichbar sind, bleibt gezielt zu prüfen. Aus nicht gefundenen Einträgen wird kein Beweis abgeleitet, dass es keine Unterstützung gibt.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t5-4": {
+    "intro": "Pflege betrifft Versorgung und Beziehungen. Verlässliche Hilfe im Alltag, selbst gewählte Kontakte und Entlastung für Angehörige müssen gemeinsam betrachtet werden, bleiben aber unterschiedliche Aufgaben.",
+    "sections": [
+      {
+        "id": "t5-4-1",
+        "title": "Pflegende Angehörige und eigene Bedürfnisse",
+        "paragraphs": [
+          {
+            "text": "Hajek und Kollegen fanden in zwölf Studien überwiegend Zusammenhänge informeller Pflege mit Einsamkeit. Pflegesituationen und soziale Unterstützung unterschieden sich deutlich. Die Ergebnisse sind keine Beschreibung jedes pflegenden Menschen; die Pflege chronisch kranker Kinder war in diesem Review ausgeschlossen.",
+            "refs": [
+              "angehoerige"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Fragen Sie sich ohne Schuldzuweisung: Wann habe ich Zeit für ein eigenes Gespräch? Welche Aufgabe kann jemand anderes konkret übernehmen? Welche Beratung brauche ich zu Entlastung und Finanzierung? Eine Auszeit ist nur nutzbar, wenn die Versorgung in dieser Zeit geklärt ist. Lassen Sie mögliche Leistungen individuell prüfen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-4-2",
+        "title": "Zu Hause und in Einrichtungen",
+        "paragraphs": [
+          {
+            "text": "Auch bei regelmäßigen Pflegekontakten kann eine selbst gewählte vertraute Beziehung fehlen. Fragen Sie die gepflegte Person nach gewünschten Besuchen, Themen, Zeiten und Ruhe. In Einrichtungen sollten persönliche Vorlieben, Kommunikation und Kontakte außerhalb des Hauses berücksichtigt werden. Die bloße Zahl organisierter Aktivitäten sagt wenig über erlebte Nähe.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ehrenamtlicher Besuch, Haushaltshilfe und professionelle Pflege sind verschiedene Leistungen. Ein Besuchsdienst darf nicht als Ersatz für notwendige Pflege eingeplant werden. Informationen über Gesundheitszustand oder Wohnung dürfen nur mit Zustimmung weitergegeben werden. Eine Einladung bleibt freiwillig.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-4-3",
+        "title": "Demenz, Abschied und Unterstützung",
+        "paragraphs": [
+          {
+            "text": "Bei Demenz können vertraute Personen, überschaubare Abläufe und an die Situation angepasste Treffen erfragt werden. Medizinische Fragen gehören in die Behandlung. Pflegestützpunkt und Seniorenberatung können bei der Orientierung helfen; der Hospizdienst begleitet schwere Krankheit, Sterben und Trauer im beschriebenen Angebotsrahmen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für Angehörigengruppen können Sie KISS nach passenden bestehenden Angeboten fragen. Welche Gruppe aktuell aufnimmt, welche Betreuung parallel möglich ist und ob Kosten entstehen, muss der jeweilige Träger bestätigen. Die in den Berichten vorgeschlagene Angehörigenschulung wird erst nach Bestätigung eines konkreten Angebots als örtliche Leistung geführt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t5-5": {
+    "intro": "Professionelle Hilfe kann medizinische, psychotherapeutische und soziale Fragen klären. Sie müssen nicht zuerst beweisen, dass Sie Ihre Situation allein bewältigen können.",
+    "sections": [
+      {
+        "id": "t5-5-1",
+        "title": "Den ersten Behandlungs- oder Beratungskontakt wählen",
+        "paragraphs": [
+          {
+            "text": "Bei körperlichen und psychischen Beschwerden kann die Hausarztpraxis ein erster medizinischer Kontakt sein. Für eine psychotherapeutische Sprechstunde ist nach der Patienteninformation der KBV keine Überweisung erforderlich; die Suche ist auch über 116117 möglich. Ob und wann eine weitere Behandlung folgt, wird im Versorgungsprozess geklärt.",
+            "refs": [
+              "kbv-therapie"
+            ],
+            "kind": "praxis"
+          },
+          {
+            "text": "Notieren Sie vor dem Gespräch, was Sie am meisten belastet und seit wann: Stimmung, Angst, Schlaf, Schmerzen, Rückzug oder Schwierigkeiten bei der Versorgung. Fragen Sie nach dem nächsten konkreten Schritt und nach einer Kontaktmöglichkeit, falls sich die Situation verschlechtert. Sie müssen keine fertige Diagnose nennen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-5-2",
+        "title": "Psychosoziale Beratung und spezialisierte Unterstützung",
+        "paragraphs": [
+          {
+            "text": "In Bergedorf sind der Sozialpsychiatrische Dienst und Der Begleiter mögliche Zugänge für psychosoziale Fragen. Für Kinder, Jugendliche und Familien stehen Jugendpsychiatrischer Dienst und Erziehungsberatung bereit. KODROBS nennt Suchtfragen als Arbeitsfeld. Bei Gewalt und Straftaten bietet die Opferhilfe einen spezialisierten Beratungszugang; Trauerbegleitung ist wiederum eine andere Hilfeform.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ein Informationsgespräch ist nicht automatisch Psychotherapie. Zuständigkeit, Wartezeit, mögliche Kosten und eine geeignete weiterführende Stelle müssen geklärt werden. Die Hilfsübersicht unterscheidet veröffentlichte Öffnungszeiten von garantierter sofortiger Versorgung. Eine Überlastung einzelner Dienste wird aus den Veranstaltungsnotizen nicht als bestätigte lokale Tatsache übernommen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t5-5-3",
+        "title": "Akute medizinische Gefahr",
+        "paragraphs": [
+          {
+            "text": "Bei unmittelbarer Lebensgefahr oder akuter Selbstgefährdung wählen Sie 112. Wenn dringende medizinische Beschwerden nicht bis zur nächsten Sprechzeit warten können und keine Lebensgefahr besteht, ist 116117 zuständig. Warten Sie in einer akuten Gefahrensituation nicht auf eine Antwort per E-Mail oder auf ein Treffen einer Freizeitgruppe.",
+            "refs": [
+              "kbv-hilfe"
+            ],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine ehrenamtliche Gesprächsmöglichkeit kann ergänzen, übernimmt aber keine professionelle Gefährdungsabklärung. Die TelefonSeelsorge ist in der Übersicht ausdrücklich als Gesprächsangebot gekennzeichnet. Diese Bürgerplattform selbst ist kein Krisendienst und empfängt keine Hilferufe.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t5-5-4",
+        "title": "Behandlung im Alltag tatsächlich erreichen",
+        "paragraphs": [
+          {
+            "text": "Fehlt Unterstützung für einen Arzttermin, benennen Sie das frühzeitig: Anfahrt, Verständigung, Begleitung, Erinnerung im eigenen Kalender oder Rückfragen zur Therapie. Fragen Sie die Praxis beziehungsweise den Sozialdienst, welcher Weg in Ihrer Situation möglich ist. Eine Fahrt, Kostenübernahme oder Begleitung wird von dieser Plattform nicht zugesichert.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Nehmen Sie auf Wunsch eine vertraute Person mit und klären Sie, welche Informationen sie erhalten darf. Lassen Sie sich den nächsten Schritt verständlich erklären. Pflegeberatung, Teilhabeberatung oder eine Sozialberatung können bei Zuständigkeitsfragen helfen; medizinische Entscheidungen bleiben bei den behandelnden Fachpersonen und der betroffenen Person.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "selbst-aktiv-werden": {
+    "intro": "Sie müssen nicht sofort einen großen Freundeskreis aufbauen. Ein passender erster Schritt kann klein sein. Die folgenden Anregungen sind freiwillige Möglichkeiten und kein Leistungsprogramm.",
+    "sections": [
+      {
+        "id": "selbst-aktiv-werden-1",
+        "title": "Was fehlt Ihnen gerade?",
+        "paragraphs": [
+          {
+            "text": "Unterscheiden Sie: Möchten Sie reden, gemeinsam etwas tun, eine vertraute Person finden oder zuerst eine praktische Schwierigkeit klären? Schreiben Sie einen Wunsch auf, den Sie in einem Satz ausdrücken können. Wählen Sie anschließend einen erreichbaren Weg, der zu Zeit, Geld und körperlichen Möglichkeiten passt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Interventionsübersichten zeigen unterschiedliche durchschnittliche Effekte und erhebliche Unterschiede zwischen Maßnahmen. Es gibt keine eine Methode, die für alle geeignet ist. Mehr soziale Kontakte und weniger gefühlte Einsamkeit sind unterschiedliche Ziele.",
+            "refs": [
+              "umbrella"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "selbst-aktiv-werden-2",
+        "title": "Vom Vorhaben zum ersten Kontakt",
+        "paragraphs": [
+          {
+            "text": "Wählen Sie eine wiederkehrende Tätigkeit mit einem für Sie interessanten Inhalt. Fragen Sie vorher: Darf ich allein kommen? Wer begrüßt neue Personen? Welche Kosten entstehen? Kann ich zunächst kurz bleiben? Vereinbaren Sie bei Bedarf einen Treffpunkt mit einer Begleitperson. Ein erstes Ziel darf sein, den Ort kennenzulernen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Nach dem Besuch können Sie prüfen: War die Atmosphäre respektvoll? Habe ich jemanden angesprochen? Möchte ich wiederkommen oder etwas verändern? Ein einzelner Termin entscheidet nicht über Ihre Fähigkeit, Beziehungen aufzubauen. Notieren Sie einen nächsten Schritt, der sich tatsächlich umsetzen lässt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "selbst-aktiv-werden-3",
+        "title": "Auch Unterstützung wählen dürfen",
+        "paragraphs": [
+          {
+            "text": "Bei starker Unsicherheit können Beratung und ein begleiteter Einstieg sinnvoller sein als eine große Veranstaltung. Bei psychischen Beschwerden kommt professionelle Hilfe hinzu. Niemand muss sich allein durch alle Hürden arbeiten. Im Hilfebereich stehen Telefonnummern und bestätigte Zugangswege.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Berichte betonen, dass aus einem ersten Kontakt eine dauerhafte Beziehung entstehen soll. Dies ist ein berechtigtes Entwicklungsziel, keine von dieser Website garantierte Wirkung. Gegenseitigkeit, Freiwilligkeit und Zeit lassen sich nicht durch eine Anmeldung ersetzen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t6-1": {
+    "intro": "Ein erster Schritt soll machbar sein und zu Ihrem tatsächlichen Wunsch passen. Sie müssen dafür weder besonders kontaktfreudig sein noch Ihre Lebensgeschichte erzählen.",
+    "sections": [
+      {
+        "id": "t6-1-1",
+        "title": "Einen konkreten Wunsch formulieren",
+        "paragraphs": [
+          {
+            "text": "Überlegen Sie: Fehlt mir ein regelmäßiges Gespräch, gemeinsame Aktivität, emotionale Nähe oder Unterstützung im Alltag? Wählen Sie zunächst einen Schwerpunkt. Ein möglicher Satz lautet: Ich möchte einmal in der Woche mit anderen etwas unternehmen. Ein anderer: Ich brauche zuerst jemanden, mit dem ich meine Belastung besprechen kann.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Prüfen Sie die Bedingungen ehrlich: freie Zeiten, Fahrtkosten, körperliche Belastung, Betreuung von Kindern oder Angehörigen und die gewünschte Gruppengröße. Ein Angebot ist nicht passend, nur weil es in einer Liste steht. Fragen Sie nach, bevor Sie Geld ausgeben oder einen schwierigen Weg auf sich nehmen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t6-1-2",
+        "title": "Den ersten Besuch vorbereiten",
+        "paragraphs": [
+          {
+            "text": "Suchen Sie einen festen Ansprechpartner und klären Sie Ort, Uhrzeit und Eingang. Fragen Sie: Können Sie mich beim ersten Mal begrüßen? Muss ich mich anmelden? Ist Verzehr verpflichtend? Kann ich früher gehen? Schreiben Sie Adresse und Rückfahrt auf; vereinbaren Sie bei Bedarf Unterstützung.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Forschung zu kurzen Gesprächen mit Fremden zeigt, dass Erwartungen und tatsächliches Erleben auseinanderliegen können. Diese experimentellen Befunde sind eine Einladung zum vorsichtigen Erproben, keine Pflicht zu Gesprächen und keine Garantie für Freundschaft.",
+            "refs": [
+              "fremde"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t6-1-3",
+        "title": "Ein überschaubares Ziel wählen",
+        "paragraphs": [
+          {
+            "text": "Ein realistisches erstes Ziel ist, den Raum zu finden, eine Frage zu stellen oder sich eine halbe Stunde umzusehen. Wenn möglich, wählen Sie einen wiederkehrenden Termin. Entscheiden Sie nach dem Besuch selbst, ob Sie wiederkommen möchten. Sie dürfen ohne Begründung eine andere Gruppe oder Kontaktform wählen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Wer zunächst nicht hinausgehen kann oder möchte, kann ein telefonisches Orientierungsgespräch wählen. Bei medizinischen oder psychischen Beschwerden steht eine passende professionelle Abklärung neben sozialen Schritten. Geldmangel, Angst oder eingeschränkte Mobilität müssen nicht versteckt werden, wenn Sie nach einer geeigneten Zugangsmöglichkeit fragen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t6-2": {
+    "intro": "Neue Kontakte lassen sich über gemeinsame Interessen und wiederkehrende Situationen anbahnen. Entscheidend ist, dass die Form zu Ihnen passt und Begegnung ohne Druck möglich ist.",
+    "sections": [
+      {
+        "id": "t6-2-1",
+        "title": "Interessen als Gesprächsanlass",
+        "paragraphs": [
+          {
+            "text": "Überlegen Sie, was Sie auch ohne sofortige Freundschaft gern tun würden: bewegen, lesen, handwerklich arbeiten, kochen, Kultur erleben oder sich für eine Sache engagieren. Fragen Sie nach einer Schnuppermöglichkeit, einem offenen Termin oder einer kleinen Aufgabe. Eine Tätigkeit schafft einen Gesprächsanlass, ersetzt aber nicht gegenseitiges Interesse.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Studien zu schwachen sozialen Kontakten beschreiben Zusammenhänge alltäglicher Begegnungen mit Zugehörigkeit und Wohlbefinden. Solche Kontakte und enge Freundschaften haben unterschiedliche Funktionen. Ein freundliches Gespräch darf wertvoll sein, auch wenn keine engere Beziehung daraus entsteht.",
+            "refs": [
+              "schwachekontakte"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t6-2-2",
+        "title": "Nachbarschaft, Gruppen und digitale Wege",
+        "paragraphs": [
+          {
+            "text": "Ein kurzer Gruß oder eine Frage zur gemeinsamen Umgebung kann ein Einstieg sein. In Gruppen können Sie an die Tätigkeit anknüpfen: Wie funktioniert das hier? Darf ich mich dazusetzen? Digitale Gruppen können der Orientierung dienen; prüfen Sie Moderation, Datenschutz, Kosten und ob ein reales Treffen tatsächlich angeboten wird.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ein Ehrenamt kann eine gemeinsame Aufgabe bieten. Klären Sie Zeitumfang, Einarbeitung und Begleitung, bevor Sie zusagen. Helfen soll freiwillig bleiben; eine Aufgabe ist kein Ersatz für eigene Unterstützung. Gemeinsame Mahlzeiten dürfen keine versteckte Konsumpflicht enthalten. Der aktuelle Preis ist beim Anbieter zu erfragen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t6-2-3",
+        "title": "Bei begrenzten Möglichkeiten gezielt fragen",
+        "paragraphs": [
+          {
+            "text": "Fragen Sie nach kostenfreien Angeboten, Ermäßigungen, erreichbaren Zeiten und gegebenenfalls Begleitung. Eine Fahrt oder Betreuung darf nicht als automatisch finanziert vorausgesetzt werden. Bei Einschränkungen können ein kurzer Termin, Telefonkontakt oder ruhiger kleiner Kreis passender sein als ein voller Abend.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Hilfsübersicht bietet bestätigte Zugänge zu Beratung und Orientierung; KISS vermittelt Informationen zu Selbsthilfe. Nicht jede Gruppe passt zu jedem Anliegen. Lassen Sie sich Inhalt, Teilnahmebedingungen und aktuelle Aufnahmebereitschaft nennen. Verlassen Sie sich bei zeitgebundenen Terminen auf die Originalseite beziehungsweise die direkte Auskunft des Trägers.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t6-3": {
+    "intro": "Allein an einem unbekannten Ort anzukommen kann eine hohe Hürde sein. Unterstützung beim ersten Besuch darf konkret verabredet werden, ohne dass daraus eine Abhängigkeit entstehen muss.",
+    "sections": [
+      {
+        "id": "t6-3-1",
+        "title": "Vorher einen verlässlichen Kontakt herstellen",
+        "paragraphs": [
+          {
+            "text": "Rufen Sie, wenn möglich, den Veranstalter an oder nutzen Sie einen bestätigten schriftlichen Kontakt. Sagen Sie: Ich komme zum ersten Mal und kenne niemanden. Wer kann mich begrüßen? Fragen Sie nach einem eindeutigen Treffpunkt, dem Eingang und dem Ablauf. Sie müssen dafür nicht das Wort Einsamkeit verwenden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine vertraute Person kann beim ersten Weg unterstützen. Vereinbaren Sie vorher, ob sie bleibt oder nach der Begrüßung geht. Wenn keine Begleitung verfügbar ist, fragen Sie nach einer betreuten Einführung. Diese Website vermittelt selbst keine Patenschaft; eine solche Leistung ist erst nach Zusage eines tatsächlichen Anbieters verfügbar.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t6-3-2",
+        "title": "Unsicherheit ernst nehmen",
+        "paragraphs": [
+          {
+            "text": "Planen Sie eine überschaubare Dauer und eine Möglichkeit, den Termin zu beenden. Ein ruhiger Platz, kurze Pausen oder zunächst nur Zuschauen können erfragt werden. Bei sozialer Angst oder starkem Rückzug kann ein professionelles Gespräch helfen, einen geeigneten Schritt zu finden. Niemand sollte zu einer Gruppe gedrängt werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine Studie mit wiederholten Gesprächen untersuchte, wie sich Erwartungen und Erleben fremder Kontakte verändern. Sie begründet keinen universellen Trainingsplan. Persönliche Grenzen und unterschiedliche Ausgangsbedingungen bleiben maßgeblich.",
+            "refs": [
+              "ueben"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t6-3-3",
+        "title": "Begleitung mit Freiwilligkeit verbinden",
+        "paragraphs": [
+          {
+            "text": "Wer begleitet, sollte nicht stellvertretend alle Fragen beantworten. Stellen Sie die neue Person auf Wunsch vor und ermöglichen Sie eigene Entscheidungen. Besprechen Sie nachher, was hilfreich war und was beim nächsten Mal anders sein sollte. Keine Fotos, Namen oder persönlichen Geschichten ohne Zustimmung weitergeben.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Kontaktpatenschaften und feste Begrüßungspersonen sind in den Berichten vorgeschlagene Hilfen. Ob ein bestimmter Bergedorfer Treff dies tatsächlich anbietet, ist einzeln zu bestätigen. Ein erfolgter erster Besuch sagt noch nicht, ob sich eine tragfähige Beziehung entwickelt hat.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t6-4": {
+    "intro": "Aus Begegnungen können Bekanntschaften und Freundschaften entstehen. Nähe kann eingeladen, aber nicht eingefordert werden. Verlässlichkeit und gegenseitiges Interesse brauchen Zeit.",
+    "sections": [
+      {
+        "id": "t6-4-1",
+        "title": "Wiedersehen konkret erleichtern",
+        "paragraphs": [
+          {
+            "text": "Wenn ein Gespräch angenehm war, können Sie nach einem passenden Wiedersehen fragen: Sind Sie nächste Woche wieder hier? Möchten Sie einmal gemeinsam spazieren gehen? Tauschen Sie Kontaktdaten nur bei beiderseitigem Einverständnis. Eine begrenzte Einladung ist leichter zu beantworten als ein unbestimmtes Wir müssten mal etwas machen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Forschung zum Entstehen von Freundschaft untersucht gemeinsam verbrachte Zeit und Beziehungstiefe. Daraus lässt sich keine feste Stundenzahl ableiten, nach der eine bestimmte Person Ihre Freundin oder Ihr Freund sein muss.",
+            "refs": [
+              "freundschaftzeit"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t6-4-2",
+        "title": "Verlässlichkeit und Gegenseitigkeit",
+        "paragraphs": [
+          {
+            "text": "Verabreden Sie einen Rhythmus, der für beide passt. Halten Sie Zusagen ein oder sagen Sie rechtzeitig ab. Fragen Sie nach den Interessen der anderen Person und teilen Sie eigene Wünsche mit. Unterschiedliche Möglichkeiten bedeuten nicht, dass jede Einladung oder Hilfe genau gleich erwidert werden muss.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Untersuchungen zur Freundschaftspflege beschreiben unterstützende und wechselseitige Verhaltensweisen. Sie zeigen keine Garantie, dass sich eine einseitig gewünschte Beziehung durch mehr Anstrengung herstellen lässt.",
+            "refs": [
+              "pflege"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "t6-4-3",
+        "title": "Grenzen, Enttäuschungen und Veränderungen",
+        "paragraphs": [
+          {
+            "text": "Sprechen Sie Unklarheiten möglichst konkret an: Ich hatte eine Antwort erwartet; wie möchten wir das künftig handhaben? Akzeptieren Sie ein Nein und respektieren Sie den Wunsch nach Abstand. Private Informationen, Geld und Hilfszusagen verlangen klare Grenzen. Bei Druck oder Herabsetzung darf eine Beziehung beendet werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Kontakte können sich durch Krankheit, Umzug oder Sorgearbeit verändern. Ein kürzerer Anruf kann zeitweise passender sein als ein langer Besuch. Fragen Sie, statt fehlende Teilnahme sofort als Ablehnung zu bewerten. Pflegen Sie nach Möglichkeit mehrere freiwillige Verbindungen; niemand muss sämtliche Bedürfnisse allein erfüllen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t6-5": {
+    "intro": "Ein misslungener Besuch oder eine abgelehnte Einladung ist eine Erfahrung, kein Urteil über Ihren Wert. Sie dürfen das Vorgehen verändern und Unterstützung nutzen.",
+    "sections": [
+      {
+        "id": "t6-5-1",
+        "title": "Die konkrete Hürde benennen",
+        "paragraphs": [
+          {
+            "text": "Was hat nicht gepasst: Weg, Kosten, Uhrzeit, Lautstärke, Umgangston, Gruppengröße oder Inhalt? Notieren Sie möglichst eine beobachtbare Schwierigkeit. Sie müssen nicht daraus schließen, dass jede Gruppe ungeeignet ist. Ebenso müssen Sie eine respektlose Situation nicht weiter aushalten, um Ausdauer zu beweisen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Fragen Sie den Veranstalter nach einer konkreten Änderung, etwa einer Begrüßungsperson, einem ruhigeren Termin oder einem kürzeren Einstieg. Wenn das nicht möglich ist, kann eine andere Form gewählt werden: Einzelgespräch, gemeinsame Tätigkeit, Beratung oder telefonischer Kontakt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t6-5-2",
+        "title": "Ablehnung respektieren, sich selbst schützen",
+        "paragraphs": [
+          {
+            "text": "Andere Menschen dürfen eine Einladung ablehnen. Eine freundliche Nachfrage kann Klarheit schaffen; wiederholtes Drängen soll daraus nicht werden. Sie dürfen enttäuscht sein und sich mit einer vertrauten Person darüber austauschen. Veröffentlichen Sie keine persönlichen Daten oder Vorwürfe über die andere Person auf dieser Website.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Schlechte Erfahrungen aus den Berichten werden als ernstzunehmende Perspektiven erhalten. Sie sind kein Beleg dafür, dass bestimmte Bevölkerungsgruppen generell nicht kontaktbereit seien. Die Auswertung unterscheidet individuelle Erlebnisse von überprüfbaren wissenschaftlichen Aussagen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t6-5-3",
+        "title": "Wenn Belastung anhält",
+        "paragraphs": [
+          {
+            "text": "Übersichten zu Einsamkeitsinterventionen berichten unterschiedliche Ansätze und keine einheitliche Wirkung für alle. Ein ausbleibender Erfolg ist deshalb nicht automatisch mangelnde Motivation. Welche Unterstützung passt, hängt von Ziel und Ausgangssituation ab.",
+            "refs": [
+              "intervention"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Bei anhaltender Niedergeschlagenheit, Angst oder starkem Rückzug können Sie eine Hausarztpraxis, psychosoziale Beratung oder psychotherapeutische Sprechstunde ansprechen. Für den nächsten Schritt können Sie fragen: Wer ist zuständig, wie bekomme ich einen Termin, und was kann ich bis dahin tun? Bei akuter Gefahr gelten die medizinischen Notfallwege.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "hilfe": {
+    "intro": "Sie können hier direkt einen bestätigten Beratungs- oder Gesprächskontakt auswählen. Die Übersicht ist eine redaktionell überprüfte Auswahl, keine vollständige Versorgungsübersicht und keine Vermittlungsstelle.",
+    "sections": [
+      {
+        "id": "hilfe-1",
+        "title": "Den passenden Hilfewunsch unterscheiden",
+        "paragraphs": [
+          {
+            "text": "Wenn Sie zunächst reden möchten, können ein Gesprächsangebot oder eine psychosoziale Beratung passend sein. Bei Pflegefragen, Trauer, einer Behinderung, Sucht oder Wohnungsproblemen helfen unterschiedliche Fachstellen. Die Auswahl oben führt zu tatsächlichen Anlaufstellen und nennt ihre jeweiligen Bedingungen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ein Eintrag garantiert weder einen freien Platz noch sofortige Erreichbarkeit. Veröffentlichte Angaben wurden anhand von Originalseiten geprüft, nicht durch einen Testanruf oder einen Vor-Ort-Besuch. Unbestätigte Merkmale stehen ausdrücklich als unbekannt dabei.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "hilfe-2",
+        "title": "Das erste Gespräch vorbereiten",
+        "paragraphs": [
+          {
+            "text": "Sie können sagen: Ich wohne im Bezirk Bergedorf und suche Unterstützung bei … Ich weiß noch nicht, welche Stelle passt. Fragen Sie nach Zuständigkeit, Kosten, Termin und einer möglichen Alternative. Geben Sie zunächst nur die Daten an, die für die Kontaktklärung notwendig sind.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Wenn Sie die Wohnung kaum verlassen können, nennen Sie dies gleich. Fragen Sie, ob telefonische Beratung, ein Hausbesuch oder eine Begleitung möglich ist. Ein bestätigter Besuchsdienst ist keine medizinische Versorgung. Ein Gesprächsangebot übernimmt keine Notfallüberwachung.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "hilfe-3",
+        "title": "Transparenz und Grenzen",
+        "paragraphs": [
+          {
+            "text": "Alle Einträge enthalten Prüfdatum und Originalquellen. Nicht genannte Öffnungszeiten, Gebühren, Sprachmittlung oder konkrete bauliche Bedingungen werden nicht ergänzt. Eine fehlende Angabe beweist nicht, dass die Leistung nicht existiert. Informationen können sich nach der Prüfung ändern.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Diese statische Testwebsite nimmt keine Hilfegesuche entgegen, speichert keine Beratungsdaten und übermittelt keine Anfragen. Nutzen Sie die angegebene Telefonnummer oder die offizielle Website der Einrichtung. Bei unmittelbarer Gefahr gilt 112; auf eine E-Mail-Antwort sollten Sie dann nicht warten.",
+            "refs": [
+              "kbv-hilfe"
+            ],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t7-1": {
+    "intro": "Sie müssen beim ersten Kontakt nicht schon wissen, welche Unterstützung richtig ist. Es genügt, Ihr Anliegen in eigenen Worten zu beschreiben.",
+    "sections": [
+      {
+        "id": "t7-1-1",
+        "title": "Zuhören, Beratung oder Begegnung?",
+        "paragraphs": [
+          {
+            "text": "Überlegen Sie, was Ihnen heute am ehesten helfen würde: ein vertrauliches Gespräch, Orientierung zu einer belastenden Lebenslage oder eine gemeinsame Aktivität. Die TelefonSeelsorge ist als ehrenamtliches Gesprächsangebot aufgeführt; psychosoziale Beratung und Behandlung haben andere Aufgaben. Begegnung ersetzt keine medizinisch notwendige Hilfe.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Wenn Sie sich unsicher fühlen, fragen Sie eine Beratungsstelle zunächst nach der Zuständigkeit. Der Sozialpsychiatrische Dienst und Der Begleiter sind mögliche Zugänge bei psychischen Belastungen. Bei Wohnungs- und sozialen Schwierigkeiten ist die Soziale Beratungsstelle eine andere Anlaufstelle. Sie müssen nicht bei allen Stellen gleichzeitig anrufen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-1-2",
+        "title": "Mit einem kleinen Anliegen beginnen",
+        "paragraphs": [
+          {
+            "text": "Ein möglicher Einstieg lautet: Ich fühle mich häufig allein und möchte mit jemandem klären, welche Unterstützung zu mir passt. Sie dürfen nach einem kurzen ersten Gespräch fragen. Falls Sie Angst vor einer Gruppe haben, sagen Sie dies vorab. Ein Einzelkontakt kann der gewünschte Anfang sein.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bei Interesse an einer Gruppe fragen Sie nach Aufnahme, Kosten und Begrüßung beim ersten Besuch. KISS informiert über Selbsthilfezusammenschlüsse. Aktuelle Termine und Zugangsvoraussetzungen einer konkreten Gruppe werden vom jeweiligen Träger bestätigt. Eine neue Freundschaft wird nicht zugesichert.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-1-3",
+        "title": "Wenn heute keine Verbindung zustande kommt",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie die angegebenen Sprechzeiten und versuchen Sie bei nicht dringendem Anliegen einen anderen bestätigten Kontaktweg. Eine Mailantwort kann Zeit brauchen. Bei medizinischer Dringlichkeit oder unmittelbarer Gefahr nutzen Sie die im Krisenhinweis genannten professionellen Wege.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ihre Eingaben in die Filter bleiben in dieser Ansicht. Die Bürgerplattform ruft nicht für Sie an, führt keine Warteliste und versendet keine Hilfegesuche. Kontaktdaten führen unmittelbar zum jeweiligen Anbieter beziehungsweise zur Telefonfunktion Ihres Geräts.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t7-2": {
+    "intro": "Professionelle Hilfe kann eine belastende Situation fachlich klären. Wählen Sie nach Dringlichkeit und Anliegen; eine Freizeitgruppe ist keine Krisenversorgung.",
+    "sections": [
+      {
+        "id": "t7-2-1",
+        "title": "Akut oder planbar?",
+        "paragraphs": [
+          {
+            "text": "Bei unmittelbarer Lebensgefahr, schwerer medizinischer Notlage oder akuter Selbstgefährdung rufen Sie 112. Bei dringenden nicht lebensbedrohlichen medizinischen Beschwerden, die nicht bis zur nächsten Sprechzeit warten können, ist 116117 zuständig. Die Entscheidung soll nicht von einer Antwort dieser Website abhängig gemacht werden.",
+            "refs": [
+              "kbv-hilfe"
+            ],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für eine planbare psychotherapeutische Abklärung gibt es die psychotherapeutische Sprechstunde. Die KBV erläutert den Zugang über 116117. Ein vermittelter Ersttermin bedeutet nicht automatisch einen verfügbaren langfristigen Therapieplatz.",
+            "refs": [
+              "kbv-therapie"
+            ],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-2-2",
+        "title": "Die Fachstelle nach dem Anliegen auswählen",
+        "paragraphs": [
+          {
+            "text": "Bei psychischen Belastungen Erwachsener kann der Sozialpsychiatrische Dienst beraten; bei jungen Menschen und Familien der Jugendpsychiatrische Dienst beziehungsweise die Erziehungsberatung. Suchtfragen gehören zum Arbeitsfeld der KODROBS. Nach Gewalt oder einer Straftat ist die Opferhilfe ein spezialisierter Beratungszugang.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Trauer, Pflegebelastung, bedrohtes Wohnen und Teilhabefragen benötigen jeweils passende Beratung. Sie können sagen, dass mehrere Anliegen zusammenkommen, und um eine nachvollziehbare Weitervermittlung bitten. Eine Ablehnung wegen Unzuständigkeit ist keine Aussage darüber, ob Ihr Anliegen berechtigt ist.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-2-3",
+        "title": "Zugang und Vertraulichkeit klären",
+        "paragraphs": [
+          {
+            "text": "Fragen Sie nach Kosten, benötigten Unterlagen, Termin, gewünschter Sprache und körperlicher Zugänglichkeit. Sagen Sie, wenn Sie nicht telefonieren können oder die Wohnung nicht verlassen können. Nutzen Sie nur bestätigte Kontaktwege; schicken Sie sensible Angaben nicht ungefragt an mehrere Stellen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Übersicht nennt ausdrücklich, welche Angaben veröffentlicht bestätigt sind. Sie enthält keine Diagnosetests, keine medizinische Behandlungsempfehlung und keine Behauptung, Ehrenamt könne professionelle Gefährdungsabklärung ersetzen. Unbekannte Merkmale werden nicht als gesichert dargestellt.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t7-3": {
+    "intro": "Wenn Wege schwerfallen, kann Unterstützung telefonisch oder zu Hause beginnen. Entscheidend sind Ihr Wunsch, die tatsächliche Leistung des Dienstes und eine klare Absprache.",
+    "sections": [
+      {
+        "id": "t7-3-1",
+        "title": "Telefon und Hausbesuch gezielt anfragen",
+        "paragraphs": [
+          {
+            "text": "Nennen Sie beim ersten Kontakt Ihre Situation: Ich kann meine Wohnung derzeit kaum verlassen. Ist eine telefonische Beratung oder ein Hausbesuch möglich? Der Pflegestützpunkt, die bezirkliche Beratung für körperbehinderte Menschen und der Sozialpsychiatrische Dienst beschreiben in ihrem jeweiligen Aufgabenbereich Hausbesuche. Ein beliebiger Hausbesuch ohne Zuständigkeitsprüfung wird nicht zugesichert.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Der DRK-Besuchsdienst beschreibt Besuche bei älteren Menschen. Erfragen Sie Kosten, verfügbare Personen und den möglichen Rhythmus. Für schwere Krankheit und Trauer hat der Hospizdienst ein anderes Aufgabenprofil. Diese Angebote sind keine austauschbaren Leistungen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-3-2",
+        "title": "Verlässliche und freiwillige Vereinbarungen",
+        "paragraphs": [
+          {
+            "text": "Klären Sie gemeinsam: Wer kommt, wann, wie lange und zu welchem Zweck? Darf eine Begleitperson dabei sein? Wie werden Absagen mitgeteilt? Wer erhält Ihre Adresse? Öffnen Sie die Wohnung nur Personen, deren Besuch Sie tatsächlich vereinbart haben. Eine Ablehnung muss respektiert werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ein regelmäßiger Anruf ist keine automatische Sicherheitsüberwachung. Wenn ein Kontakt ausbleibt, braucht es eine vorher besprochene, angemessene Vorgehensweise. Nicht erreichbar bedeutet nicht automatisch einen Notfall. Bei tatsächlicher unmittelbarer Gefahr gelten die professionellen Notfallwege.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t7-3-3",
+        "title": "Kontakte und Versorgung auseinanderhalten",
+        "paragraphs": [
+          {
+            "text": "Die Übersicht zu Befriending-Angeboten zeigt keine gesicherte Wirkung auf Einsamkeit als einzelnes Ergebnis. Ein persönlicher Besuch kann trotzdem ein gewünschter Kontakt sein; seine Bedeutung wird von der besuchten Person mitbestimmt und nicht allein an der Zahl der Besuche gemessen.",
+            "refs": [
+              "besuchsforschung"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Notwendige Pflege, Medikamentenversorgung, Rehabilitation und Hilfsmittel sind getrennt zu organisieren. Fragen Sie Behandlungsteam, Pflegeberatung oder Teilhabeberatung nach dem zuständigen Weg. Ein ehrenamtlicher Besuch darf nicht stillschweigend für medizinische oder pflegerische Aufgaben eingeplant werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-3-4",
+        "title": "Wieder hinausgehen und wohnortnahe Wege prüfen",
+        "paragraphs": [
+          {
+            "text": "Nach längerer Bettlägerigkeit kann ein erster kurzer Weg mit Begleitung geplant werden, abgestimmt auf die gesundheitliche Situation. Wer kein Auto hat, sollte Hin- und Rückfahrt prüfen, gerade abends und am Wochenende. Eine Fahrgemeinschaft, ein Fahrdienst oder die Finanzierung einer Begleitfahrt ist erst nach konkreter Zusage verfügbar.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Mobile kleine Treffen in Wohnanlagen und wohnortnahe Angebote sind Vorschläge aus den Berichten. Konkrete Durchführung, Zustimmung, Zugänglichkeit und Kosten sind noch zu bestätigen. Für den gewünschten Zugang innerhalb von 15 bis 30 Minuten liegt kein verbindlicher örtlicher Standard vor. Die Vorschläge bleiben als Forschungs- und Planungsfragen dokumentiert.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t7-4": {
+    "intro": "Anderen zu helfen beginnt mit einer respektvollen Frage. Die betroffene Person entscheidet, ob und welche Unterstützung sie möchte.",
+    "sections": [
+      {
+        "id": "t7-4-1",
+        "title": "Ansprechen und zuhören",
+        "paragraphs": [
+          {
+            "text": "Sprechen Sie eine konkrete Beobachtung vorsichtig an: Wir haben uns länger nicht gesehen. Möchten Sie erzählen, wie es Ihnen geht? Hören Sie zu, ohne sofort eine Diagnose oder Lösung vorzugeben. Fragen Sie nach dem Wunsch: ein Gespräch, eine gemeinsame Aktivität oder Hilfe bei einem Anruf?",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Bieten Sie etwas Begrenztes an, das Sie halten können, etwa gemeinsam eine Beratungsnummer herauszusuchen oder beim ersten Weg mitzukommen. Eine Einladung darf abgelehnt werden. Geben Sie keine Namen, Gesundheitsdaten oder Adressen ohne Zustimmung an Gruppen oder diese Website weiter.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-4-2",
+        "title": "Grenzen und professionelle Unterstützung",
+        "paragraphs": [
+          {
+            "text": "Bei psychischen Beschwerden können Sie auf passende Beratung hinweisen und auf Wunsch beim Kontakt unterstützen. Bei unmittelbarer Lebensgefahr oder akuter Selbstgefährdung wählen Sie 112. Ein Helfer soll eine professionelle Gefährdungsabklärung nicht durch eigene Diagnosen oder ein Versprechen ersetzen, alles allein zu regeln.",
+            "refs": [
+              "kbv-hilfe"
+            ],
+            "kind": "praxis"
+          },
+          {
+            "text": "Pflegende Angehörige, Fachkräfte und Nachbarn dürfen eigene Grenzen benennen. Ehrenamtliche Besuche sollen mit Einarbeitung, klaren Aufgaben und einer zuständigen Ansprechperson verbunden sein. Klären Sie diese Bedingungen beim tatsächlichen Träger. Eine freiwillige Kontaktaufnahme ist keine Übernahme dauerhafter Rund-um-die-Uhr-Verantwortung.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-4-3",
+        "title": "Was hilfreiche Unterstützung ausmacht",
+        "paragraphs": [
+          {
+            "text": "Fragen Sie später nach, ob die Unterstützung gepasst hat. Mehr Termine sind nicht automatisch mehr gewünschte Nähe. Die Person kann eine andere Gruppe, eine andere Kontaktform oder zunächst Ruhe wünschen. Vermeiden Sie öffentliche Etiketten wie unsere Einsamen.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Berichte schlagen Kontaktpatenschaften, aufsuchende Ansprache und Kooperationen im Quartier vor. Konkrete Zuständigkeiten, Schulung, Datenschutz und Finanzierung müssen jeweils bestätigt werden. Diese Seite behauptet keine bereits bestehende Kooperation mit Post, Arbeitgebern, Vereinen oder Wohnungsunternehmen.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t7-5": {
+    "intro": "Die Hilfsübersicht zeigt eine überprüfte Auswahl von Zugängen für den Bezirk Bergedorf und ergänzende hamburgweite Angebote. Nutzen Sie die Filter oben, ohne sich anmelden zu müssen.",
+    "sections": [
+      {
+        "id": "t7-5-1",
+        "title": "So ist die Auswahl aufgebaut",
+        "paragraphs": [
+          {
+            "text": "Jeder Eintrag nennt Träger, Unterstützung, Zielgruppe, Einzugsgebiet, Kontakt, veröffentlichte Zeiten, Kosten, Anmeldung, Zugänglichkeit, Prüfdatum und Originalquelle. Die Angaben stammen aus veröffentlichten Informationen der Anbieter oder zuständigen öffentlichen Stellen. Es wurden keine automatisierten Abrufe und keine laufende Überwachung eingerichtet.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine Prüfung der Website ist kein Testanruf und keine Besichtigung. Angaben können sich ändern. Unbekannte Öffnungszeiten, konkrete bauliche Bedingungen oder Kosten stehen ausdrücklich als nicht bestätigt dabei. Aus einem fehlenden Eintrag folgt nicht, dass im Bezirk kein entsprechendes Angebot besteht.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "t7-5-2",
+        "title": "Filter richtig verwenden",
+        "paragraphs": [
+          {
+            "text": "Sie können nach Namen und Unterstützungsart suchen. Die Auswahl Nur ausdrücklich kostenfrei zeigt nur Angebote, deren beschriebene Leistung so bestätigt wurde. Unbekannte Kosten werden dabei nicht als kostenfrei behandelt. Entsprechendes gilt für bestätigte Hausbesuche; ein Hausbesuch erfolgt nur im Aufgabenbereich und nach Absprache.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für ein Angebot in einem bestimmten Stadtteil prüfen Sie das Einzugsgebiet und die tatsächliche Anfahrt. Die Übersicht verspricht keinen Standort in jedem Ortsteil. Fragen Sie bei Bedarf nach telefonischem Einstieg, Begleitung, Abendzeiten oder einem Wochenende. Ein in den Berichten genannter Weg von 15 bis 30 Minuten ist kein verbindlicher Versorgungsstandard.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "t7-5-3",
+        "title": "Offene Angebote und weitere Prüfung",
+        "paragraphs": [
+          {
+            "text": "Regelmäßige Kontaktpatenschaften, spezielle Telefonpartnerschaften, örtliche Angehörigenschulungen und die konkrete Bergedorfer Verfügbarkeit von Kulturistenhoch2 sind noch nicht ausreichend bestätigt. Sie werden deshalb nicht als buchbare Leistung ausgegeben. Auch aktuelle Kapazitäten, Fahrdienste und Finanzierungszusagen bleiben individuell zu klären.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die vorhandenen Karten und Verzeichnisse der Plattform bleiben unverändert erreichbar. Für diese Hilfsauswahl werden keine unbekannten Koordinaten ergänzt und keine fremden redaktionellen Inhalte automatisch übernommen. Die Filter senden Ihre Auswahl nicht an Beratungsstellen. Für einen tatsächlichen Kontakt nutzen Sie den Anbieter direkt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  }
+}

@@ -1,0 +1,684 @@
+[
+  {
+    "id": "spdi",
+    "name": "Sozialpsychiatrischer Dienst Bergedorf",
+    "provider": "Bezirksamt Bergedorf · Gesundheitsamt",
+    "kind": [
+      "Psychosozial",
+      "Beratung"
+    ],
+    "support": "Erwachsene mit psychischen Belastungen, Suchtproblemen oder demenziellen Erkrankungen; auch Angehörige und Bezugspersonen. Beratung, Krisenhilfe und Vermittlung; keine laufende Behandlung.",
+    "target": "Erwachsene mit psychischen Belastungen, Suchtproblemen oder demenziellen Erkrankungen; auch Angehörige und Bezugspersonen. Beratung, Krisenhilfe und Vermittlung; keine laufende Behandlung.",
+    "address": "Herzog-Carl-Friedrich-Platz 1, 21031 Hamburg",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 42891-2271",
+        "href": "tel:+4940428912271"
+      }
+    ],
+    "hours": "Mo–Fr 8–16 Uhr.",
+    "cost": "Beratung kostenfrei.",
+    "registration": "Vorab Kontakt aufnehmen; Hausbesuch bei Bedarf im Aufgabenbereich.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/gesundheit/sozialpsychatrischer-dienst-34932",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": true,
+    "homeVisit": true
+  },
+  {
+    "id": "pflege",
+    "name": "Pflegestützpunkt Bergedorf",
+    "provider": "Freie und Hansestadt Hamburg gemeinsam mit Kranken- und Pflegekassen",
+    "kind": [
+      "Pflege",
+      "Beratung"
+    ],
+    "support": "Pflegebedürftige Menschen, Angehörige und Ratsuchende; Beratung zu Versorgung, Entlastung und Leistungen.",
+    "target": "Pflegebedürftige Menschen, Angehörige und Ratsuchende; Beratung zu Versorgung, Entlastung und Leistungen.",
+    "address": "Weidenbaumsweg 21, 21029 Hamburg; Eingang C, 2. OG laut Sozialem Dienstleistungszentrum.",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 42899-1020",
+        "href": "tel:+4940428991020"
+      },
+      {
+        "label": "Pflegestuetzpunkt@bergedorf.hamburg.de",
+        "href": "mailto:Pflegestuetzpunkt@bergedorf.hamburg.de"
+      }
+    ],
+    "hours": "Persönlich ohne Termin: Mo 8–12, Do 14–18 Uhr. Telefonisch zusätzlich Di/Fr 8–12; weitere Termine nach Vereinbarung.",
+    "cost": "Beratung kostenfrei; Kosten späterer Leistungen gesondert klären.",
+    "registration": "Offene Zeiten oder Termin; bei Bedarf Hausbesuch.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/pflegestuetzpunkt-56364",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/soziales-dienstleistungszentrum-1110310",
+        "label": "Adresse und Sprechzeiten: Soziales Dienstleistungszentrum"
+      }
+    ],
+    "free": true,
+    "homeVisit": true
+  },
+  {
+    "id": "senioren",
+    "name": "Bezirkliche Seniorenberatung",
+    "provider": "Bezirksamt Bergedorf",
+    "kind": [
+      "Alter",
+      "Beratung"
+    ],
+    "support": "Ältere Menschen und Angehörige: Orientierung zu altersbezogenen und sozialen Fragen.",
+    "target": "Ältere Menschen und Angehörige: Orientierung zu altersbezogenen und sozialen Fragen.",
+    "address": "Konkreter Beratungsort bei der zuständigen Stelle erfragen.",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 42891-2913",
+        "href": "tel:+4940428912913"
+      },
+      {
+        "label": "040 42891-2927",
+        "href": "tel:+4940428912927"
+      },
+      {
+        "label": "040 42891-2682",
+        "href": "tel:+4940428912682"
+      }
+    ],
+    "hours": "Telefon Di/Fr 8–12; persönliche Sprechzeit Mo 8–12, Do 14–18 Uhr.",
+    "cost": "Nicht ausdrücklich bestätigt – bitte erfragen.",
+    "registration": "Zuständig: Bergedorf ohne West, Nettelnburg und Vier-/Marschlande: -2913; Lohbrügge/Bergedorf-West nördlich S-Bahn: -2927; Neuallermöhe: -2682.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/familie-senioren/senioren/beratungsangebote-56368",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": null,
+    "homeVisit": null
+  },
+  {
+    "id": "koerperberatung",
+    "name": "Beratung für körperbehinderte Menschen",
+    "provider": "Bezirksamt Bergedorf",
+    "kind": [
+      "Teilhabe",
+      "Beratung"
+    ],
+    "support": "Menschen jeden Alters mit körperlicher Behinderung oder chronischer Krankheit und Angehörige.",
+    "target": "Menschen jeden Alters mit körperlicher Behinderung oder chronischer Krankheit und Angehörige.",
+    "address": "Beratungsort erfragen; telefonische Beratung und Hausbesuche beschrieben.",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 42891-2157",
+        "href": "tel:+4940428912157"
+      },
+      {
+        "label": "040 42891-2147",
+        "href": "tel:+4940428912147"
+      }
+    ],
+    "hours": "Nachnamen A–J: Di 9–10:30 Uhr (-2157); K–Z: Mo 9–10:30 Uhr (-2147); außerdem nach Vereinbarung.",
+    "cost": "Kostenfrei.",
+    "registration": "Telefonisch abstimmen.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/familie-senioren/senioren/beratungsangebote-56368",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": true,
+    "homeVisit": true
+  },
+  {
+    "id": "drk",
+    "name": "DRK-Besuchsdienst Bergedorf und Lohbrügge",
+    "provider": "DRK Hamburg Ambulante Soziale Dienste GmbH",
+    "kind": [
+      "Besuch"
+    ],
+    "support": "Ältere Menschen zu Hause; Besuch durch Ehrenamtliche oder Bundesfreiwilligendienstleistende.",
+    "target": "Ältere Menschen zu Hause; Besuch durch Ehrenamtliche oder Bundesfreiwilligendienstleistende.",
+    "address": "Sozialstation: Bergedorfer Straße 136, 21029 Hamburg",
+    "area": "Bergedorf und Lohbrügge; konkrete Einsatzadresse abklären",
+    "contacts": [
+      {
+        "label": "040 399957-0",
+        "href": "tel:+49403999570"
+      },
+      {
+        "label": "info@drk-asd.de",
+        "href": "mailto:info@drk-asd.de"
+      }
+    ],
+    "hours": "Büro Mo–Fr 9–15 Uhr; Besuchszeiten individuell.",
+    "cost": "Für diesen örtlichen Besuchsdienst nicht bestätigt – bitte erfragen.",
+    "registration": "Anfrage bei der Sozialstation; Verfügbarkeit und Rhythmus vereinbaren.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.drk-asd.de/angebote/mobile-dienste/besuchsdienst.html",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": null,
+    "homeVisit": true
+  },
+  {
+    "id": "hospiz",
+    "name": "Hospizdienst Bergedorf: Begleitung und Trauerhilfe",
+    "provider": "Hospizdienst Bergedorf e. V.",
+    "kind": [
+      "Trauer",
+      "Besuch"
+    ],
+    "support": "Begleitung bei schwerer Krankheit und am Lebensende; Trauergespräche, Trauercafé und Trauerspaziergänge.",
+    "target": "Begleitung bei schwerer Krankheit und am Lebensende; Trauergespräche, Trauercafé und Trauerspaziergänge.",
+    "address": "Riehlstraße 64, 21033 Hamburg; Begleitung auch zu Hause, in Pflegeeinrichtungen und Kliniken.",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 72106672",
+        "href": "tel:+494072106672"
+      },
+      {
+        "label": "kontakt@hospizdienst-bergedorf.de",
+        "href": "mailto:kontakt@hospizdienst-bergedorf.de"
+      }
+    ],
+    "hours": "Trauercafé einmal monatlich Mo 16–18 Uhr: Datum auf Originalseite prüfen. Trauerspaziergang letzter Sonntag des Monats außer Dezember, Start 13:30 Uhr; Bürozeiten nicht bestätigt.",
+    "cost": "Angebote laut Anbieter kostenfrei.",
+    "registration": "Für Gespräche/Café Kontakt erbeten. Trauerspaziergang ohne Anmeldung; Start am Gemeindehaus St. Christophorus, Riehlstraße 64.",
+    "accessibility": "Zugänglichkeit der Räume und der Spazierroute nicht bestätigt – vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://hospizdienst-bergedorf.de/sterbebegleitung-trauerbegleitung/",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": true,
+    "homeVisit": true
+  },
+  {
+    "id": "begleiter",
+    "name": "Der Begleiter: psychosoziale Beratung",
+    "provider": "Der Begleiter gGmbH",
+    "kind": [
+      "Psychosozial",
+      "Beratung"
+    ],
+    "support": "Menschen mit psychischen und sozialen Belastungen; Orientierung und Beratung.",
+    "target": "Menschen mit psychischen und sozialen Belastungen; Orientierung und Beratung.",
+    "address": "Bergedorfer Schloßstraße 9, 3. OG, 21029 Hamburg. Weitere Zugänge: Harders Kamp 1, 21031; Fleetplatz 1, 3. OG, 21035 Hamburg.",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "Bergedorf: 040 72410666",
+        "href": "tel:+494072410666"
+      },
+      {
+        "label": "Bergedorf: BBB@der-begleiter.de",
+        "href": "mailto:BBB@der-begleiter.de"
+      },
+      {
+        "label": "Lohbrügge: 040 806099230",
+        "href": "tel:+4940806099230"
+      },
+      {
+        "label": "Lohbrügge: bzl@der-begleiter.de",
+        "href": "mailto:bzl@der-begleiter.de"
+      },
+      {
+        "label": "Allermöhe: 040 89725070",
+        "href": "tel:+494089725070"
+      },
+      {
+        "label": "Allermöhe: BZA@der-begleiter.de",
+        "href": "mailto:BZA@der-begleiter.de"
+      }
+    ],
+    "hours": "Bergedorf nach Termin; Lohbrügge Kontakt Mo–Fr 9–17; Allermöhe offene Beratung Di 14–15:30 Uhr.",
+    "cost": "Beratung laut Anbieterflyer kostenfrei; längerfristige ASP-Leistungen gesondert klären.",
+    "registration": "Bergedorf: -72410666; Lohbrügge: -806099230; Allermöhe: -89725070. Termin telefonisch; offene Allermöher Zeit ohne Termin.",
+    "accessibility": "Anbieter bezeichnet Allermöher Zugang als behindertengerecht; konkrete Stufen, Aufzugmaße und WC nicht bestätigt.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://der-begleiter.de/beratung/psychosoziale-beratung/",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://der-begleiter.de/wp-content/uploads/2019/04/Flyer_Beratung_240717_print.pdf",
+        "label": "Anbieterflyer: Beratung und Kosten"
+      }
+    ],
+    "free": true,
+    "homeVisit": null
+  },
+  {
+    "id": "begleiter-gruppen",
+    "name": "Offene Gruppenangebote beim Begleiter",
+    "provider": "Der Begleiter gGmbH",
+    "kind": [
+      "Begegnung"
+    ],
+    "support": "Laut Anbieter für alle Interessierten offen; konkrete Gruppe und Termin vorher bestätigen lassen.",
+    "target": "Laut Anbieter für alle Interessierten offen; konkrete Gruppe und Termin vorher bestätigen lassen.",
+    "address": "Gruppenort abhängig vom aktuellen Angebot; über Beratungskontakt klären.",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 72410666",
+        "href": "tel:+494072410666"
+      }
+    ],
+    "hours": "Aktuelle Termine auf Originalseite beziehungsweise beim Träger erfragen.",
+    "cost": "Gruppenbezogene Kosten nicht bestätigt – bitte erfragen.",
+    "registration": "In der Regel ohne Anmeldung; Ausnahmen und Kapazitätsgrenzen möglich. Vorherige Nachfrage empfohlen.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://der-begleiter.de/gruppenangebote/offene-gruppenangebote/",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://der-begleiter.de/beratung/psychosoziale-beratung/",
+        "label": "Bestätigter Beratungskontakt"
+      }
+    ],
+    "free": null,
+    "homeVisit": null
+  },
+  {
+    "id": "kiss",
+    "name": "KISS Hamburg: Selbsthilfe finden",
+    "provider": "Der PARITÄTISCHE Wohlfahrtsverband Hamburg e. V.",
+    "kind": [
+      "Selbsthilfe",
+      "Beratung"
+    ],
+    "support": "Information und Vermittlung zu bestehenden Selbsthilfegruppen; Unterstützung bei Gruppengründung.",
+    "target": "Information und Vermittlung zu bestehenden Selbsthilfegruppen; Unterstützung bei Gruppengründung.",
+    "address": "Hamburgweite Kontaktstellen; persönlicher Beratungsort nach Vereinbarung. Kein eigener Bergedorfer Standort zugesichert.",
+    "area": "Hamburgweit, auch zur Suche nach Gruppen für Bergedorf",
+    "contacts": [
+      {
+        "label": "040 395767",
+        "href": "tel:+4940395767"
+      }
+    ],
+    "hours": "Selbsthilfe-Telefon Mo–Do 11–17 Uhr.",
+    "cost": "Kosten der Beratung und einer konkreten Gruppe hier nicht bestätigt – bitte erfragen.",
+    "registration": "Persönliche Beratung nach vorheriger Vereinbarung.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.kiss-hh.de/service",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://www.kiss-hh.de/ueber-uns/was-macht-kiss-hamburg",
+        "label": "Aufgaben und Träger"
+      }
+    ],
+    "free": null,
+    "homeVisit": null
+  },
+  {
+    "id": "sozial",
+    "name": "Soziale Beratungsstelle Bergedorf/Billstedt",
+    "provider": "Integrationshilfen e. V.",
+    "kind": [
+      "Soziales",
+      "Beratung"
+    ],
+    "support": "Menschen mit besonderen sozialen Schwierigkeiten und Wohnungsproblemen; Beratung und sozialpädagogische Unterstützung.",
+    "target": "Menschen mit besonderen sozialen Schwierigkeiten und Wohnungsproblemen; Beratung und sozialpädagogische Unterstützung.",
+    "address": "Weidenbaumsweg 19, 21029 Hamburg",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 7136721",
+        "href": "tel:+49407136721"
+      },
+      {
+        "label": "info@bsbergedorf.de",
+        "href": "mailto:info@bsbergedorf.de"
+      }
+    ],
+    "hours": "Offene Beratung Mo/Di/Do 9–13 Uhr, Anmeldung jeweils bis 12 Uhr; weitere Termine telefonisch.",
+    "cost": "Nicht bestätigt – vorab erfragen.",
+    "registration": "Offene Beratung oder Termin; Zuständigkeit und benötigte Unterlagen klären.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.bsbergedorf.de/",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://integrationshilfen-hamburg.de/soziale-beratungsstelle/",
+        "label": "Träger und Zielgruppe"
+      }
+    ],
+    "free": null,
+    "homeVisit": null
+  },
+  {
+    "id": "familie",
+    "name": "Erziehungsberatung Bergedorf",
+    "provider": "Bezirksamt Bergedorf",
+    "kind": [
+      "Familie",
+      "Beratung"
+    ],
+    "support": "Kinder, Jugendliche, Eltern und Familien; Beratung bei Erziehungsfragen, Konflikten und Belastungen.",
+    "target": "Kinder, Jugendliche, Eltern und Familien; Beratung bei Erziehungsfragen, Konflikten und Belastungen.",
+    "address": "Billwerder Billdeich 648a, 21033 Hamburg",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 42891-2484",
+        "href": "tel:+4940428912484"
+      },
+      {
+        "label": "erziehungsberatung@bergedorf.hamburg.de",
+        "href": "mailto:erziehungsberatung@bergedorf.hamburg.de"
+      }
+    ],
+    "hours": "Telefonische Erreichbarkeit Mo–Do 9–15, Fr 9–13 Uhr. Offene telefonische Sprechstunde Fr 10–11:30 Uhr.",
+    "cost": "Kostenfrei, freiwillig und vertraulich.",
+    "registration": "Termin vereinbaren; offene Telefonsprechstunde ohne Termin. Keine offene Vor-Ort-Sprechstunde daraus abgeleitet.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/familie-senioren/erziehungsberatung-56344",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": true,
+    "homeVisit": null
+  },
+  {
+    "id": "jpd",
+    "name": "Jugendpsychiatrischer Dienst Bergedorf",
+    "provider": "Bezirksamt Bergedorf · Gesundheitsamt",
+    "kind": [
+      "Familie",
+      "Psychosozial",
+      "Beratung"
+    ],
+    "support": "Kinder, Jugendliche, Eltern und Bezugspersonen; Beratung bei Entwicklungsfragen und psychischen Problemen.",
+    "target": "Kinder, Jugendliche, Eltern und Bezugspersonen; Beratung bei Entwicklungsfragen und psychischen Problemen.",
+    "address": "Herzog-Carl-Friedrich-Platz 1, 21031 Hamburg",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 42891-2158",
+        "href": "tel:+4940428912158"
+      },
+      {
+        "label": "jugendpsychiatrischerdienst@bergedorf.hamburg.de",
+        "href": "mailto:jugendpsychiatrischerdienst@bergedorf.hamburg.de"
+      }
+    ],
+    "hours": "Nicht bestätigt – bitte vorab erfragen.",
+    "cost": "Kostenfrei und vertraulich.",
+    "registration": "Kontakt zur Termin- und Zuständigkeitsklärung; kein Rund-um-die-Uhr-Dienst zugesichert.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/gesundheit/jugendpsychiatrischer-dienst-56602",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": true,
+    "homeVisit": null
+  },
+  {
+    "id": "kodrobs",
+    "name": "KODROBS Bergedorf",
+    "provider": "jhj Hamburg Netzwerk gGmbH",
+    "kind": [
+      "Sucht",
+      "Beratung"
+    ],
+    "support": "Junge Erwachsene, Erwachsene und Angehörige; Beratung zu Suchtmitteln und abhängigem Verhalten. Zuständigkeit für Minderjährige gesondert erfragen.",
+    "target": "Junge Erwachsene, Erwachsene und Angehörige; Beratung zu Suchtmitteln und abhängigem Verhalten. Zuständigkeit für Minderjährige gesondert erfragen.",
+    "address": "Lohbrügger Landstraße 6, 21031 Hamburg",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 7216038",
+        "href": "tel:+49407216038"
+      },
+      {
+        "label": "bergedorf@kodrobs.de",
+        "href": "mailto:bergedorf@kodrobs.de"
+      }
+    ],
+    "hours": "Mo/Di/Fr 9–17, Do 9–19 Uhr; Mi geschlossen.",
+    "cost": "Kostenfrei, vertraulich, auf Wunsch anonym.",
+    "registration": "Telefonisch Termin vereinbaren oder während der Öffnungszeiten persönlich anfragen.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://jhj-hamburg.de/angebote/beratungsstellen/kodrobs-bergedorf/",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": true,
+    "homeVisit": null
+  },
+  {
+    "id": "eutb",
+    "name": "EUTB Teilhabeberatung Bergedorf",
+    "provider": "Hamburgische Gesellschaft für Soziale Psychiatrie e. V.",
+    "kind": [
+      "Teilhabe",
+      "Beratung"
+    ],
+    "support": "Menschen mit bestehender oder drohender Behinderung und Angehörige; unabhängige Orientierung zu Rehabilitation und Teilhabe.",
+    "target": "Menschen mit bestehender oder drohender Behinderung und Angehörige; unabhängige Orientierung zu Rehabilitation und Teilhabe.",
+    "address": "Bergedorfer Schloßstraße 9, 3. OG beim Begleiter, 21029 Hamburg",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "040 226148610",
+        "href": "tel:+4940226148610"
+      },
+      {
+        "label": "teilhabeberatung@dgsp-hamburg.de",
+        "href": "mailto:teilhabeberatung@dgsp-hamburg.de"
+      }
+    ],
+    "hours": "Telefon Mo/Di/Do/Fr 9–13 Uhr. Offen Di 15–17:30 und Fr 9:30–12 Uhr.",
+    "cost": "EUTB-Beratung kostenfrei.",
+    "registration": "Offene Zeiten; telefonische Terminvereinbarung empfohlen, um Wartezeiten zu vermeiden.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.teilhabeberatung.de/beratung/teilhabeberatung-der-hamburgischen-gesellschaft-fur-soziale-psychiatrie-bergedorf",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://www.teilhabeberatung.de/artikel/faq",
+        "label": "Kostenfreiheit der EUTB"
+      }
+    ],
+    "free": true,
+    "homeVisit": null
+  },
+  {
+    "id": "opfer",
+    "name": "Opferhilfe Hamburg",
+    "provider": "Opferhilfe Hamburg e. V.",
+    "kind": [
+      "Gewalt",
+      "Beratung"
+    ],
+    "support": "Beratung nach Gewalt, Straftaten oder belastenden Unfällen; telefonisch oder persönlich.",
+    "target": "Beratung nach Gewalt, Straftaten oder belastenden Unfällen; telefonisch oder persönlich.",
+    "address": "Paul-Nevermann-Platz 2–4, 22765 Hamburg; 1. Etage",
+    "area": "Hamburgweit; Standort Altona, telefonischer Zugang möglich",
+    "contacts": [
+      {
+        "label": "040 381993",
+        "href": "tel:+4940381993"
+      }
+    ],
+    "hours": "Telefon Mo/Fr 9–12; Di/Do 9–12 und 14–17; Mi 14–17 Uhr.",
+    "cost": "Kostenfrei und vertraulich, auf Wunsch anonym.",
+    "registration": "Termin nur im persönlichen Telefongespräch. Anbieter bittet ausdrücklich um keine Nachrichten per E-Mail oder Anrufbeantworter.",
+    "accessibility": "Eine Eingangsstufe; Aufzug mit 70 cm Türbreite laut Anbieter. WC und weitere Bedingungen nicht bestätigt.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://opferhilfe-hamburg.de/kontakt/",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://opferhilfe-hamburg.de/beratung/beratungsangebot/",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://opferhilfe-hamburg.de/ueber-uns/verein/",
+        "label": "Träger der Beratungsstelle"
+      }
+    ],
+    "free": true,
+    "homeVisit": null
+  },
+  {
+    "id": "mhc",
+    "name": "Magnus-Hirschfeld-Centrum (mhc)",
+    "provider": "Magnus Hirschfeld Centrum – Beratung und Kommunikation gGmbH (haftungsbeschränkt)",
+    "kind": [
+      "Queer",
+      "Beratung"
+    ],
+    "support": "Beratungszugänge für queere Menschen; über den allgemeinen Kontakt die passende Fachberatung erfragen.",
+    "target": "Beratungszugänge für queere Menschen; über den allgemeinen Kontakt die passende Fachberatung erfragen.",
+    "address": "Borgweg 8, 22303 Hamburg",
+    "area": "Hamburgweit; Standort Winterhude",
+    "contacts": [
+      {
+        "label": "040 27877800",
+        "href": "tel:+494027877800"
+      },
+      {
+        "label": "info@mhc-hamburg.de",
+        "href": "mailto:info@mhc-hamburg.de"
+      }
+    ],
+    "hours": "Allgemeines Büro Mo 10–13, Di–Do 10–16 Uhr; Fachberatungen haben eigene Zeiten auf der Kontaktseite.",
+    "cost": "Für die gewünschte Leistung nicht bestätigt – vorab erfragen.",
+    "registration": "Allgemeinen Kontakt zur Orientierung nutzen; fachbezogenen Termin gesondert klären.",
+    "accessibility": "Erdgeschoss über Rampe, Tür 80 cm. Ober- und Untergeschoss nur über Treppen, kein Aufzug. Beratung im Erdgeschoss vorab vereinbaren. Kein stufenloses WC im Haus; Schlüssel für das WC am U-Bahnhof Borgweg laut Anbieter erhältlich.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://mhc-hh.de/kontakt/",
+        "label": "Originalquelle des Anbieters"
+      },
+      {
+        "url": "https://mhc-hh.de/impressum/",
+        "label": "Träger"
+      },
+      {
+        "url": "https://mhc-hh.de/barrierefreiheit/",
+        "label": "Konkrete bauliche Zugangsbedingungen"
+      }
+    ],
+    "free": null,
+    "homeVisit": null
+  },
+  {
+    "id": "caritas",
+    "name": "Integrationszentrum Bergedorf",
+    "provider": "Caritasverband für das Erzbistum Hamburg e. V.",
+    "kind": [
+      "Migration",
+      "Beratung"
+    ],
+    "support": "Zugewanderte Erwachsene: Orientierung zu Alltag, Behörden, Familie, Gesundheit und Integration.",
+    "target": "Zugewanderte Erwachsene: Orientierung zu Alltag, Behörden, Familie, Gesundheit und Integration.",
+    "address": "Alte Holstenstraße 1, 21031 Hamburg",
+    "area": "Bezirk Bergedorf",
+    "contacts": [
+      {
+        "label": "iz-bergedorf@caritas-im-norden.de",
+        "href": "mailto:iz-bergedorf@caritas-im-norden.de"
+      }
+    ],
+    "hours": "Nicht bestätigt – Termin vereinbaren.",
+    "cost": "Für die konkrete Beratung hier nicht bestätigt – bitte erfragen.",
+    "registration": "Termin per E-Mail. Die Originalseite nennt unterschiedliche Telefonnummern; deshalb hier keine ungeklärte Nummer übernommen.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.caritas-im-norden.de/hamburg/flucht-migration/beratung-integration/integrationszentrum-bergedorf",
+        "label": "Originalquelle des Anbieters"
+      }
+    ],
+    "free": null,
+    "homeVisit": null
+  },
+  {
+    "id": "telefonseelsorge",
+    "name": "TelefonSeelsorge",
+    "provider": "TelefonSeelsorge",
+    "kind": [
+      "Telefon"
+    ],
+    "support": "Deutschsprachiges, vertrauliches und anonymes Gespräch zu belastenden Themen mit geschulten Ehrenamtlichen. Keine medizinische Notfallversorgung.",
+    "target": "Deutschsprachiges, vertrauliches und anonymes Gespräch zu belastenden Themen mit geschulten Ehrenamtlichen. Keine medizinische Notfallversorgung.",
+    "address": "Telefonisches Angebot; kein örtlicher Besuchskontakt.",
+    "area": "Bundesweit, auch aus Bergedorf",
+    "contacts": [
+      {
+        "label": "0800 111 0 111",
+        "href": "tel:+498001110111?oai_link_source=model_response_hotline"
+      }
+    ],
+    "hours": "Rund um die Uhr, an allen Tagen.",
+    "cost": "Kostenfrei.",
+    "registration": "Telefonisch kontaktieren.",
+    "accessibility": "Nicht bestätigt – bitte vorab erfragen.",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "url": "https://www.telefonseelsorge.de/?oai_link_source=model_response_hotline",
+        "label": "Offizielle Website der TelefonSeelsorge"
+      }
+    ],
+    "free": true,
+    "homeVisit": null
+  }
+]

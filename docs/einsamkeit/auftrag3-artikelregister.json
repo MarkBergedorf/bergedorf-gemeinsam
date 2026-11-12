@@ -1,0 +1,1359 @@
+[
+  {
+    "id": "lebenssituationen",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "lebenssituationen-1",
+        "title": "Lebensphase und Lebensbedingungen gemeinsam betrachten"
+      },
+      {
+        "id": "lebenssituationen-2",
+        "title": "Mehrere Anforderungen können zusammenkommen"
+      },
+      {
+        "id": "lebenssituationen-3",
+        "title": "Den eigenen Einstieg wählen"
+      }
+    ],
+    "sourceIds": [
+      "aeltere",
+      "jugend"
+    ],
+    "quellzeilen": [
+      "B1-L22",
+      "B2-L18",
+      "B2-L40",
+      "B2-L41",
+      "B2-L42",
+      "B3-L37",
+      "B3-L412",
+      "B3-L422",
+      "B4-L71",
+      "B4-L82",
+      "B4-L496",
+      "B4-L497",
+      "B4-L1323",
+      "B4-L1370"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t4-1",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t4-1-1",
+        "title": "Zugehörigkeit in Schule und Freizeit"
+      },
+      {
+        "id": "t4-1-2",
+        "title": "Übergänge, digitale Kontakte und Rückzug"
+      },
+      {
+        "id": "t4-1-3",
+        "title": "Unterstützung gemeinsam organisieren"
+      },
+      {
+        "id": "t4-1-4",
+        "title": "Belastungen gemeinsam statt pauschal erklären"
+      }
+    ],
+    "sourceIds": [
+      "hikikomori",
+      "loades"
+    ],
+    "quellzeilen": [
+      "B1-L35",
+      "B1-L36",
+      "B1-L37",
+      "B1-L39",
+      "B1-L88",
+      "B1-L89",
+      "B2-L110",
+      "B2-L112",
+      "B2-L113",
+      "B2-L114",
+      "B2-L118",
+      "B2-L119",
+      "B2-L120",
+      "B2-L121",
+      "B2-L122",
+      "B2-L129",
+      "B2-L130",
+      "B2-L133",
+      "B2-L134",
+      "B2-L280",
+      "B2-L281",
+      "B3-L57",
+      "B3-L59",
+      "B3-L60",
+      "B3-L61",
+      "B3-L64",
+      "B3-L65",
+      "B3-L67",
+      "B3-L68",
+      "B3-L69",
+      "B3-L212",
+      "B3-L213",
+      "B3-L215",
+      "B4-L73",
+      "B4-L94",
+      "B4-L96",
+      "B4-L97",
+      "B4-L98",
+      "B4-L99",
+      "B4-L100",
+      "B4-L101",
+      "B4-L102",
+      "B4-L106",
+      "B4-L504",
+      "B4-L684",
+      "B4-L687",
+      "B4-L688",
+      "B4-L689",
+      "B4-L693",
+      "B4-L695",
+      "B4-L696",
+      "B4-L700",
+      "B4-L781",
+      "B4-L783",
+      "B4-L784",
+      "B4-L787",
+      "B4-L788",
+      "B4-L790",
+      "B4-L793",
+      "B4-L794",
+      "B4-L797",
+      "B4-L1003",
+      "B4-L1033",
+      "B4-L1040",
+      "B4-L1127",
+      "B4-L1129",
+      "B4-L1132",
+      "B4-L1343"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t4-2",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t4-2-1",
+        "title": "Wenn bisherige Alltagskontakte wegfallen"
+      },
+      {
+        "id": "t4-2-2",
+        "title": "Neue Kreise schrittweise erschließen"
+      },
+      {
+        "id": "t4-2-3",
+        "title": "Wenn Übergänge zusätzlich belasten"
+      }
+    ],
+    "sourceIds": [
+      "freundschaftzeit",
+      "jugend",
+      "schwachekontakte"
+    ],
+    "quellzeilen": [
+      "B1-L38",
+      "B1-L39",
+      "B1-L40",
+      "B1-L88",
+      "B2-L110",
+      "B2-L112",
+      "B2-L123",
+      "B2-L124",
+      "B2-L125",
+      "B2-L126",
+      "B2-L127",
+      "B2-L132",
+      "B2-L282",
+      "B3-L57",
+      "B3-L59",
+      "B3-L61",
+      "B3-L63",
+      "B3-L66",
+      "B3-L212",
+      "B3-L213",
+      "B3-L214",
+      "B4-L74",
+      "B4-L107",
+      "B4-L108",
+      "B4-L781",
+      "B4-L783",
+      "B4-L784",
+      "B4-L785",
+      "B4-L786",
+      "B4-L787",
+      "B4-L788",
+      "B4-L792",
+      "B4-L1047",
+      "B4-L1053",
+      "B4-L1127",
+      "B4-L1130"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t4-3",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t4-3-1",
+        "title": "Arbeit und soziale Beziehungen unterscheiden"
+      },
+      {
+        "id": "t4-3-2",
+        "title": "Arbeitslosigkeit, Krankheit und finanzielle Enge"
+      },
+      {
+        "id": "t4-3-3",
+        "title": "Für wechselnde Arbeitszeiten passende Wege"
+      }
+    ],
+    "sourceIds": [
+      "arbeit"
+    ],
+    "quellzeilen": [
+      "B1-L41",
+      "B1-L42",
+      "B2-L136",
+      "B2-L138",
+      "B2-L139",
+      "B2-L140",
+      "B3-L95",
+      "B4-L75",
+      "B4-L109",
+      "B4-L115",
+      "B4-L124",
+      "B4-L127",
+      "B4-L872",
+      "B4-L874",
+      "B4-L875",
+      "B4-L876",
+      "B4-L877",
+      "B4-L879",
+      "B4-L881",
+      "B4-L882",
+      "B4-L884",
+      "B5-L139",
+      "B5-L141",
+      "B5-L143",
+      "B5-L145"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t4-4",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t4-4-1",
+        "title": "Schwangerschaft, Elternwerden und Alltag mit Kindern"
+      },
+      {
+        "id": "t4-4-2",
+        "title": "Beziehungen, Trennung und unterschiedliche Wünsche"
+      },
+      {
+        "id": "t4-4-3",
+        "title": "Sorgearbeit und Hilfe für Familien"
+      },
+      {
+        "id": "t4-4-4",
+        "title": "Alleinleben und familiäre Kontaktabbrüche"
+      }
+    ],
+    "sourceIds": [
+      "eltern"
+    ],
+    "quellzeilen": [
+      "B1-L45",
+      "B1-L46",
+      "B1-L47",
+      "B1-L48",
+      "B2-L136",
+      "B2-L141",
+      "B2-L144",
+      "B2-L145",
+      "B2-L159",
+      "B2-L289",
+      "B3-L182",
+      "B3-L225",
+      "B4-L76",
+      "B4-L113",
+      "B4-L114",
+      "B4-L732",
+      "B4-L734",
+      "B4-L735",
+      "B4-L736",
+      "B4-L737",
+      "B4-L738",
+      "B4-L739",
+      "B4-L1061",
+      "B4-L1076",
+      "B5-L69",
+      "B5-L71",
+      "B5-L73",
+      "B5-L129",
+      "B5-L131",
+      "B5-L133",
+      "B5-L135",
+      "B5-L137",
+      "B5-L153",
+      "B5-L155",
+      "B5-L157",
+      "B5-L159"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t4-5",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t4-5-1",
+        "title": "Ruhestand, Verluste und vertraute Rollen"
+      },
+      {
+        "id": "t4-5-2",
+        "title": "Alleinleben, Hochaltrigkeit und Erreichbarkeit"
+      },
+      {
+        "id": "t4-5-3",
+        "title": "Konkrete Zugänge in Bergedorf"
+      }
+    ],
+    "sourceIds": [
+      "aeltere"
+    ],
+    "quellzeilen": [
+      "B1-L43",
+      "B1-L44",
+      "B2-L162",
+      "B2-L164",
+      "B2-L165",
+      "B2-L166",
+      "B2-L167",
+      "B2-L168",
+      "B2-L169",
+      "B2-L170",
+      "B2-L171",
+      "B2-L172",
+      "B2-L173",
+      "B2-L174",
+      "B2-L175",
+      "B2-L283",
+      "B3-L218",
+      "B3-L219",
+      "B4-L79",
+      "B4-L116",
+      "B4-L503",
+      "B4-L808",
+      "B4-L810",
+      "B4-L811",
+      "B4-L812",
+      "B4-L1003",
+      "B4-L1035",
+      "B4-L1060"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t4-6",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t4-6-1",
+        "title": "Behinderung und chronische Erkrankung"
+      },
+      {
+        "id": "t4-6-2",
+        "title": "Hören, Sehen, Sprache und Neurodivergenz"
+      },
+      {
+        "id": "t4-6-3",
+        "title": "Psychische Belastungen, Sucht und ausgeprägter Rückzug"
+      },
+      {
+        "id": "t4-6-4",
+        "title": "Migration, Flucht und ein neuer Wohnort"
+      },
+      {
+        "id": "t4-6-5",
+        "title": "Finanzielle Belastung und Wohnungslosigkeit"
+      },
+      {
+        "id": "t4-6-6",
+        "title": "Queere Lebensweisen und Zugehörigkeit"
+      },
+      {
+        "id": "t4-6-7",
+        "title": "Gewalt, Haft, Trauer und fehlende Vertrauenspersonen"
+      },
+      {
+        "id": "t4-6-8",
+        "title": "Geringe Lese- und Schreibkompetenz, Geschlecht und belasteter Alltag"
+      }
+    ],
+    "sourceIds": [
+      "autismus",
+      "behinderung",
+      "flucht",
+      "queer",
+      "wohnungslos"
+    ],
+    "quellzeilen": [
+      "B1-L55",
+      "B1-L56",
+      "B1-L57",
+      "B1-L58",
+      "B1-L59",
+      "B1-L60",
+      "B1-L61",
+      "B1-L62",
+      "B1-L63",
+      "B1-L64",
+      "B1-L65",
+      "B1-L69",
+      "B1-L70",
+      "B1-L71",
+      "B1-L89",
+      "B2-L136",
+      "B2-L147",
+      "B2-L148",
+      "B2-L149",
+      "B2-L150",
+      "B2-L151",
+      "B2-L152",
+      "B2-L153",
+      "B2-L155",
+      "B2-L156",
+      "B2-L157",
+      "B2-L158",
+      "B2-L287",
+      "B2-L288",
+      "B2-L290",
+      "B2-L291",
+      "B2-L510",
+      "B3-L185",
+      "B3-L195",
+      "B3-L198",
+      "B3-L210",
+      "B3-L221",
+      "B3-L223",
+      "B3-L224",
+      "B3-L226",
+      "B3-L229",
+      "B3-L236",
+      "B3-L402",
+      "B3-L429",
+      "B4-L77",
+      "B4-L80",
+      "B4-L111",
+      "B4-L207",
+      "B4-L406",
+      "B4-L646",
+      "B4-L648",
+      "B4-L649",
+      "B4-L650",
+      "B4-L651",
+      "B4-L654",
+      "B4-L686",
+      "B4-L714",
+      "B4-L716",
+      "B4-L717",
+      "B4-L718",
+      "B4-L722",
+      "B4-L724",
+      "B4-L725",
+      "B4-L726",
+      "B4-L727",
+      "B4-L730",
+      "B4-L749",
+      "B4-L751",
+      "B4-L752",
+      "B4-L753",
+      "B4-L754",
+      "B4-L755",
+      "B4-L756",
+      "B4-L758",
+      "B4-L760",
+      "B4-L761",
+      "B4-L762",
+      "B4-L764",
+      "B4-L766",
+      "B4-L768",
+      "B4-L769",
+      "B4-L770",
+      "B4-L774",
+      "B4-L777",
+      "B4-L779",
+      "B4-L1031",
+      "B4-L1037",
+      "B4-L1038",
+      "B4-L1058",
+      "B4-L1059",
+      "B4-L1073",
+      "B4-L1077",
+      "B4-L1080",
+      "B4-L1082",
+      "B4-L1106",
+      "B4-L1108",
+      "B4-L1109",
+      "B4-L1110",
+      "B4-L1111",
+      "B4-L1244",
+      "B5-L57",
+      "B5-L65",
+      "B5-L67",
+      "B5-L75",
+      "B5-L79",
+      "B5-L81",
+      "B5-L129",
+      "B5-L147",
+      "B5-L149",
+      "B5-L161",
+      "B5-L163"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "gesundheit",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "gesundheit-1",
+        "title": "Psychische und körperliche Gesundheit gemeinsam sehen"
+      },
+      {
+        "id": "gesundheit-2",
+        "title": "Was aus den Befunden praktisch folgt"
+      },
+      {
+        "id": "gesundheit-3",
+        "title": "Direkt zu geeigneter Hilfe"
+      }
+    ],
+    "sourceIds": [
+      "herzkreislauf",
+      "kbv-hilfe",
+      "mann"
+    ],
+    "quellzeilen": [
+      "B4-L1074"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t5-1",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t5-1-1",
+        "title": "Depression, Angst und gemeinsame Einflussfaktoren"
+      },
+      {
+        "id": "t5-1-2",
+        "title": "Stress, Selbstwert und Schlaf"
+      },
+      {
+        "id": "t5-1-3",
+        "title": "Psychische Krisen benötigen professionelle Wege"
+      },
+      {
+        "id": "t5-1-4",
+        "title": "Behandlung und soziale Unterstützung verbinden"
+      }
+    ],
+    "sourceIds": [
+      "hawkley",
+      "kbv-hilfe",
+      "kbv-therapie",
+      "krisenforschung",
+      "mann",
+      "schlaf"
+    ],
+    "quellzeilen": [
+      "B1-L23",
+      "B1-L24",
+      "B1-L55",
+      "B2-L20",
+      "B2-L94",
+      "B2-L99",
+      "B2-L101",
+      "B2-L104",
+      "B2-L120",
+      "B2-L280",
+      "B2-L281",
+      "B3-L39",
+      "B3-L64",
+      "B3-L216",
+      "B3-L217",
+      "B3-L411",
+      "B3-L425",
+      "B4-L84",
+      "B4-L86",
+      "B4-L87",
+      "B4-L89",
+      "B4-L684",
+      "B4-L686",
+      "B4-L687",
+      "B4-L688",
+      "B4-L689",
+      "B4-L1040",
+      "B5-L41",
+      "B5-L43",
+      "B5-L83",
+      "B5-L85",
+      "B5-L87",
+      "B5-L89",
+      "B5-L117"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t5-2",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t5-2-1",
+        "title": "Herz-Kreislauf-Gesundheit und Sterblichkeit"
+      },
+      {
+        "id": "t5-2-2",
+        "title": "Schlaf, Belastung und chronische Erkrankungen"
+      },
+      {
+        "id": "t5-2-3",
+        "title": "Kognition und Demenz"
+      },
+      {
+        "id": "t5-2-4",
+        "title": "Bewegung realistisch einordnen"
+      },
+      {
+        "id": "t5-2-5",
+        "title": "Gesundheitsverhalten und mögliche Vermittlungswege"
+      }
+    ],
+    "sourceIds": [
+      "bewegung",
+      "demenz",
+      "gesundheit",
+      "hawkley",
+      "herzkreislauf",
+      "schmerz"
+    ],
+    "quellzeilen": [
+      "B1-L23",
+      "B1-L28",
+      "B2-L20",
+      "B2-L94",
+      "B2-L100",
+      "B2-L102",
+      "B3-L40",
+      "B3-L411",
+      "B3-L425",
+      "B4-L84",
+      "B4-L86",
+      "B4-L88",
+      "B5-L83",
+      "B5-L87",
+      "B5-L89",
+      "B5-L91",
+      "B5-L93"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t5-3",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t5-3-1",
+        "title": "Mobilität, Schmerzen und Erschöpfung"
+      },
+      {
+        "id": "t5-3-2",
+        "title": "Hören, Sehen und Kommunikation"
+      },
+      {
+        "id": "t5-3-3",
+        "title": "Rehabilitation und Übergang aus der Klinik"
+      },
+      {
+        "id": "t5-3-4",
+        "title": "Digital und von zu Hause verbunden bleiben"
+      }
+    ],
+    "sourceIds": [
+      "behinderung"
+    ],
+    "quellzeilen": [
+      "B1-L25",
+      "B1-L26",
+      "B1-L57",
+      "B1-L58",
+      "B1-L103",
+      "B2-L104",
+      "B2-L147",
+      "B2-L148",
+      "B2-L149",
+      "B2-L150",
+      "B2-L284",
+      "B3-L66",
+      "B3-L172",
+      "B3-L214",
+      "B3-L234",
+      "B4-L91",
+      "B4-L117",
+      "B4-L287",
+      "B4-L289",
+      "B4-L293",
+      "B4-L294",
+      "B4-L666",
+      "B4-L668",
+      "B4-L669",
+      "B4-L670",
+      "B4-L671",
+      "B4-L672",
+      "B4-L1035",
+      "B4-L1082",
+      "B5-L83",
+      "B5-L99",
+      "B5-L101",
+      "B5-L103",
+      "B5-L105",
+      "B5-L107",
+      "B5-L109",
+      "B5-L111",
+      "B5-L113",
+      "B5-L115"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t5-4",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t5-4-1",
+        "title": "Pflegende Angehörige und eigene Bedürfnisse"
+      },
+      {
+        "id": "t5-4-2",
+        "title": "Zu Hause und in Einrichtungen"
+      },
+      {
+        "id": "t5-4-3",
+        "title": "Demenz, Abschied und Unterstützung"
+      }
+    ],
+    "sourceIds": [
+      "angehoerige"
+    ],
+    "quellzeilen": [
+      "B1-L27",
+      "B1-L51",
+      "B1-L52",
+      "B1-L53",
+      "B1-L54",
+      "B1-L119",
+      "B2-L176",
+      "B2-L177",
+      "B2-L321",
+      "B3-L94",
+      "B3-L179",
+      "B3-L180",
+      "B3-L181",
+      "B3-L228",
+      "B4-L78",
+      "B4-L308",
+      "B4-L617",
+      "B4-L673",
+      "B4-L741",
+      "B4-L743",
+      "B4-L744",
+      "B4-L745",
+      "B4-L746",
+      "B4-L747",
+      "B4-L816",
+      "B4-L818",
+      "B4-L819",
+      "B4-L820",
+      "B4-L821",
+      "B4-L822",
+      "B4-L824",
+      "B4-L826",
+      "B4-L827",
+      "B4-L828",
+      "B4-L829",
+      "B4-L984",
+      "B4-L1054",
+      "B4-L1079",
+      "B4-L1081",
+      "B4-L1091",
+      "B4-L1093",
+      "B5-L157",
+      "B5-L159",
+      "B5-L333",
+      "B5-L335"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t5-5",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t5-5-1",
+        "title": "Den ersten Behandlungs- oder Beratungskontakt wählen"
+      },
+      {
+        "id": "t5-5-2",
+        "title": "Psychosoziale Beratung und spezialisierte Unterstützung"
+      },
+      {
+        "id": "t5-5-3",
+        "title": "Akute medizinische Gefahr"
+      },
+      {
+        "id": "t5-5-4",
+        "title": "Behandlung im Alltag tatsächlich erreichen"
+      }
+    ],
+    "sourceIds": [
+      "kbv-hilfe",
+      "kbv-therapie"
+    ],
+    "quellzeilen": [
+      "B2-L131",
+      "B4-L92",
+      "B4-L691",
+      "B4-L699",
+      "B4-L795",
+      "B5-L95",
+      "B5-L97",
+      "B5-L117",
+      "B5-L331"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "selbst-aktiv-werden",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "selbst-aktiv-werden-1",
+        "title": "Was fehlt Ihnen gerade?"
+      },
+      {
+        "id": "selbst-aktiv-werden-2",
+        "title": "Vom Vorhaben zum ersten Kontakt"
+      },
+      {
+        "id": "selbst-aktiv-werden-3",
+        "title": "Auch Unterstützung wählen dürfen"
+      }
+    ],
+    "sourceIds": [
+      "umbrella"
+    ],
+    "quellzeilen": [],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t6-1",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t6-1-1",
+        "title": "Einen konkreten Wunsch formulieren"
+      },
+      {
+        "id": "t6-1-2",
+        "title": "Den ersten Besuch vorbereiten"
+      },
+      {
+        "id": "t6-1-3",
+        "title": "Ein überschaubares Ziel wählen"
+      }
+    ],
+    "sourceIds": [
+      "fremde"
+    ],
+    "quellzeilen": [
+      "B4-L408",
+      "B5-L7",
+      "B5-L53",
+      "B5-L151",
+      "B5-L497",
+      "B5-L499",
+      "B5-L531",
+      "B5-L548"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t6-2",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t6-2-1",
+        "title": "Interessen als Gesprächsanlass"
+      },
+      {
+        "id": "t6-2-2",
+        "title": "Nachbarschaft, Gruppen und digitale Wege"
+      },
+      {
+        "id": "t6-2-3",
+        "title": "Bei begrenzten Möglichkeiten gezielt fragen"
+      }
+    ],
+    "sourceIds": [
+      "schwachekontakte"
+    ],
+    "quellzeilen": [
+      "B4-L412",
+      "B4-L1244",
+      "B5-L209",
+      "B5-L501",
+      "B5-L505",
+      "B5-L511",
+      "B5-L521"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t6-3",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t6-3-1",
+        "title": "Vorher einen verlässlichen Kontakt herstellen"
+      },
+      {
+        "id": "t6-3-2",
+        "title": "Unsicherheit ernst nehmen"
+      },
+      {
+        "id": "t6-3-3",
+        "title": "Begleitung mit Freiwilligkeit verbinden"
+      }
+    ],
+    "sourceIds": [
+      "ueben"
+    ],
+    "quellzeilen": [
+      "B1-L91",
+      "B1-L262",
+      "B2-L358",
+      "B4-L594",
+      "B5-L179",
+      "B5-L195",
+      "B5-L197",
+      "B5-L221",
+      "B5-L223",
+      "B5-L235",
+      "B5-L239",
+      "B5-L341",
+      "B5-L449",
+      "B5-L513",
+      "B5-L548"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t6-4",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t6-4-1",
+        "title": "Wiedersehen konkret erleichtern"
+      },
+      {
+        "id": "t6-4-2",
+        "title": "Verlässlichkeit und Gegenseitigkeit"
+      },
+      {
+        "id": "t6-4-3",
+        "title": "Grenzen, Enttäuschungen und Veränderungen"
+      }
+    ],
+    "sourceIds": [
+      "freundschaftzeit",
+      "pflege"
+    ],
+    "quellzeilen": [
+      "B2-L105",
+      "B2-L106",
+      "B5-L199",
+      "B5-L211",
+      "B5-L517",
+      "B5-L519",
+      "B5-L548",
+      "B5-L552"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t6-5",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t6-5-1",
+        "title": "Die konkrete Hürde benennen"
+      },
+      {
+        "id": "t6-5-2",
+        "title": "Ablehnung respektieren, sich selbst schützen"
+      },
+      {
+        "id": "t6-5-3",
+        "title": "Wenn Belastung anhält"
+      }
+    ],
+    "sourceIds": [
+      "intervention"
+    ],
+    "quellzeilen": [
+      "B5-L515"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "hilfe",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "hilfe-1",
+        "title": "Den passenden Hilfewunsch unterscheiden"
+      },
+      {
+        "id": "hilfe-2",
+        "title": "Das erste Gespräch vorbereiten"
+      },
+      {
+        "id": "hilfe-3",
+        "title": "Transparenz und Grenzen"
+      }
+    ],
+    "sourceIds": [
+      "kbv-hilfe"
+    ],
+    "quellzeilen": [],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t7-1",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t7-1-1",
+        "title": "Zuhören, Beratung oder Begegnung?"
+      },
+      {
+        "id": "t7-1-2",
+        "title": "Mit einem kleinen Anliegen beginnen"
+      },
+      {
+        "id": "t7-1-3",
+        "title": "Wenn heute keine Verbindung zustande kommt"
+      }
+    ],
+    "sourceIds": [],
+    "quellzeilen": [
+      "B1-L114",
+      "B1-L115",
+      "B1-L116",
+      "B1-L126",
+      "B1-L182",
+      "B1-L183",
+      "B2-L107",
+      "B3-L186",
+      "B4-L408",
+      "B4-L414",
+      "B5-L425",
+      "B5-L427",
+      "B5-L550"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t7-2",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t7-2-1",
+        "title": "Akut oder planbar?"
+      },
+      {
+        "id": "t7-2-2",
+        "title": "Die Fachstelle nach dem Anliegen auswählen"
+      },
+      {
+        "id": "t7-2-3",
+        "title": "Zugang und Vertraulichkeit klären"
+      }
+    ],
+    "sourceIds": [
+      "kbv-hilfe",
+      "kbv-therapie"
+    ],
+    "quellzeilen": [
+      "B1-L35",
+      "B1-L56",
+      "B1-L118",
+      "B1-L120",
+      "B1-L121",
+      "B1-L122",
+      "B1-L123",
+      "B1-L124",
+      "B1-L125",
+      "B1-L273",
+      "B2-L107",
+      "B2-L142",
+      "B2-L143",
+      "B2-L286",
+      "B3-L227",
+      "B4-L691",
+      "B4-L702",
+      "B4-L704",
+      "B4-L705",
+      "B4-L706",
+      "B4-L707",
+      "B4-L708",
+      "B4-L709",
+      "B4-L710",
+      "B4-L711",
+      "B4-L712",
+      "B4-L719",
+      "B4-L720",
+      "B4-L747",
+      "B4-L774",
+      "B4-L776",
+      "B4-L777",
+      "B4-L1004",
+      "B4-L1039",
+      "B4-L1087",
+      "B5-L65",
+      "B5-L67",
+      "B5-L85",
+      "B5-L479"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t7-3",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t7-3-1",
+        "title": "Telefon und Hausbesuch gezielt anfragen"
+      },
+      {
+        "id": "t7-3-2",
+        "title": "Verlässliche und freiwillige Vereinbarungen"
+      },
+      {
+        "id": "t7-3-3",
+        "title": "Kontakte und Versorgung auseinanderhalten"
+      },
+      {
+        "id": "t7-3-4",
+        "title": "Wieder hinausgehen und wohnortnahe Wege prüfen"
+      }
+    ],
+    "sourceIds": [
+      "besuchsforschung"
+    ],
+    "quellzeilen": [
+      "B1-L263",
+      "B2-L169",
+      "B2-L170",
+      "B2-L171",
+      "B2-L172",
+      "B2-L358",
+      "B3-L219",
+      "B3-L220",
+      "B3-L330",
+      "B4-L290",
+      "B4-L291",
+      "B4-L582",
+      "B4-L666",
+      "B4-L668",
+      "B4-L669",
+      "B4-L670",
+      "B4-L671",
+      "B4-L672",
+      "B4-L675",
+      "B4-L677",
+      "B4-L678",
+      "B4-L679",
+      "B4-L680",
+      "B4-L681",
+      "B4-L682",
+      "B4-L1036",
+      "B4-L1064",
+      "B4-L1075",
+      "B4-L1245",
+      "B5-L181",
+      "B5-L183",
+      "B5-L185",
+      "B5-L293",
+      "B5-L295",
+      "B5-L297",
+      "B5-L299",
+      "B5-L301",
+      "B5-L327",
+      "B5-L329",
+      "B5-L337",
+      "B5-L339",
+      "B5-L343",
+      "B5-L345",
+      "B5-L347",
+      "B5-L349",
+      "B5-L527",
+      "B5-L529"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t7-4",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t7-4-1",
+        "title": "Ansprechen und zuhören"
+      },
+      {
+        "id": "t7-4-2",
+        "title": "Grenzen und professionelle Unterstützung"
+      },
+      {
+        "id": "t7-4-3",
+        "title": "Was hilfreiche Unterstützung ausmacht"
+      }
+    ],
+    "sourceIds": [
+      "kbv-hilfe"
+    ],
+    "quellzeilen": [
+      "B1-L117",
+      "B4-L698",
+      "B4-L821",
+      "B5-L427",
+      "B5-L469",
+      "B5-L507",
+      "B5-L509"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  },
+  {
+    "id": "t7-5",
+    "status": "fachtext_veroeffentlichungsfertig",
+    "sections": [
+      {
+        "id": "t7-5-1",
+        "title": "So ist die Auswahl aufgebaut"
+      },
+      {
+        "id": "t7-5-2",
+        "title": "Filter richtig verwenden"
+      },
+      {
+        "id": "t7-5-3",
+        "title": "Offene Angebote und weitere Prüfung"
+      }
+    ],
+    "sourceIds": [],
+    "quellzeilen": [
+      "B1-L113",
+      "B1-L130",
+      "B2-L27",
+      "B2-L134",
+      "B2-L232",
+      "B2-L233",
+      "B2-L427",
+      "B2-L428",
+      "B2-L429",
+      "B2-L430",
+      "B2-L431",
+      "B2-L432",
+      "B2-L457",
+      "B2-L458",
+      "B2-L459",
+      "B2-L460",
+      "B2-L462",
+      "B3-L371",
+      "B3-L426",
+      "B4-L44",
+      "B4-L327",
+      "B4-L656",
+      "B4-L658",
+      "B4-L659",
+      "B4-L660",
+      "B4-L661",
+      "B4-L662",
+      "B4-L936",
+      "B4-L938",
+      "B4-L939",
+      "B4-L940",
+      "B4-L941",
+      "B4-L943",
+      "B4-L1067",
+      "B4-L1232",
+      "B4-L1233",
+      "B4-L1234",
+      "B4-L1236",
+      "B4-L1237",
+      "B4-L1240",
+      "B4-L1299",
+      "B4-L1316",
+      "B5-L405",
+      "B5-L421",
+      "B5-L429",
+      "B5-L431",
+      "B5-L433",
+      "B5-L435",
+      "B5-L437",
+      "B5-L439",
+      "B5-L441",
+      "B5-L443",
+      "B5-L445",
+      "B5-L447",
+      "B5-L525"
+    ],
+    "forschungsgrenzen": "Im Fachtext und bei den Quellen; offene Berichtsnachweise in auftrag3-abdeckung.json.",
+    "geprueft": "2026-11-12"
+  }
+]
