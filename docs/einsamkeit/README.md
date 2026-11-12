@@ -1,5 +1,7 @@
 # Vollständige redaktionelle Auswertung der fünf Berichte
 
+> Neuer Bearbeitungsstand Auftrag 2: [Fachtexte, Abdeckung und offene Forschung](auftrag2.md); zeilenbezogener Nachweis in [auftrag2-abdeckung.json](auftrag2-abdeckung.json). Die folgende Dokumentation beschreibt weiterhin die unveränderte vollständige Berichtserschließung aus Auftrag 1.
+
 Stand: 11. November 2026. Ausgangscommit: `2cdd58be5a6a3a75fc6d4081d3070c256995e16b`.
 
 ## Abschluss und Grenzen

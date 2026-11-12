@@ -1,3 +1,4 @@
+import {lonelinessArticleText} from './loneliness-articles.mjs';
 // Public hierarchy only; the editorial source inventory stays outside this bundle.
 export const lonelinessRoute='#einsamkeit';
 export const lonelinessGroups=[
@@ -21,5 +22,5 @@ export function resolveLonelinessPath(parts=[],index=lonelinessIndex){return ind
 export function lonelinessParentHref(node){return node?.parents.at(-1)?.href||lonelinessRoute;}
 export function lonelinessBreadcrumbs(node){return [{title:'Einsamkeit in Bergedorf',href:lonelinessRoute},...(node?[...node.parents,node].map(n=>({title:n.title,href:n.href})):[])];}
 const normalize=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('de');
-export function searchLoneliness(query,index=lonelinessIndex){const words=normalize(query).trim().split(/\s+/).filter(Boolean);return words.length?index.filter(n=>{const text=normalize([n.title,n.description,n.content].join(' '));return words.every(w=>text.includes(w));}):[];}
+export function searchLoneliness(query,index=lonelinessIndex){const words=normalize(query).trim().split(/\s+/).filter(Boolean);return words.length?index.filter(n=>{const text=normalize([n.title,n.description,n.content,lonelinessArticleText(n.id)].join(' '));return words.every(w=>text.includes(w));}):[];}
 export function lonelinessSearchHref(query){const q=String(query||'').trim().slice(0,300);return lonelinessRoute+(q?'?'+new URLSearchParams({q}).toString():'');}

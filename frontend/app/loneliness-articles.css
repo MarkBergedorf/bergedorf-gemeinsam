@@ -1,0 +1,25 @@
+/* Scoped to editorial loneliness views and their memory-only comment preview. */
+.loneliness-page .loneliness-article{max-width:80ch;margin:48px auto 0;font-size:17px;line-height:1.85}
+.loneliness-page .loneliness-article-lead{font-size:21px;line-height:1.7;color:#284b3c}
+.loneliness-page .loneliness-article-date{font-size:14px;color:#536159;margin:14px 0 24px}
+.loneliness-page .loneliness-article section{margin-top:38px}
+.loneliness-page .loneliness-article h2{font-size:clamp(1.4rem,3vw,1.9rem);margin-bottom:22px;scroll-margin-top:130px}
+.loneliness-page .loneliness-article-outline{background:#f1f5f0;border:1px solid #d8e2d7;border-radius:10px;padding:20px 24px;margin:24px 0}
+.loneliness-page .loneliness-article-outline ul{list-style:none;margin:8px 0 0;padding:0}
+.loneliness-page .loneliness-article-outline button{text-align:left;min-height:44px;display:block;text-decoration:underline;text-underline-offset:4px;color:#285a48;padding:8px 0;line-height:1.6;font-size:16px;max-width:100%}
+.loneliness-page .loneliness-paragraph{margin:22px 0}.loneliness-page .loneliness-paragraph p{margin:5px 0 0}
+.loneliness-page .loneliness-paragraph-label{font-size:12px;font-weight:700;letter-spacing:.05em;color:#536159}
+.loneliness-page .loneliness-kind-forschungsfrage{border-left:3px solid #9a7747;background:#faf7f1;padding:16px 20px;border-radius:0 8px 8px 0}
+.loneliness-page .loneliness-kind-forschung{border-left:3px solid #6f8e78;padding-left:20px}
+.loneliness-page .loneliness-citation{font-size:14px;line-height:1.7}.loneliness-page .loneliness-citation a{display:inline-block;max-width:100%;padding:3px 0;text-underline-offset:3px;overflow-wrap:anywhere}
+.loneliness-page .loneliness-references{border-top:1px solid #d8e2d7;padding-top:30px;font-size:15px;line-height:1.75}
+.loneliness-page .loneliness-references ol{padding-left:24px}.loneliness-page .loneliness-references li{padding:12px 0 22px;border-bottom:1px solid #e1e6df}.loneliness-page .loneliness-references li p{margin-top:8px}
+.loneliness-page .loneliness-topic-body ul{line-height:1.8;padding-left:24px}.loneliness-page .loneliness-topic-body li{margin:8px 0}
+.loneliness-page .loneliness-comment{max-width:80ch;margin:40px auto;padding:28px;border:1px solid #b7cbb9;border-radius:10px;background:#f1f5f0;line-height:1.8}
+.loneliness-page .loneliness-comment h2{margin-bottom:18px}.loneliness-page .loneliness-comment form{margin-top:22px}.loneliness-page .loneliness-comment label{display:block;font-weight:650;margin-bottom:10px}
+.loneliness-page .loneliness-comment textarea{display:block;width:100%;box-sizing:border-box;resize:vertical;min-height:130px;padding:14px;border:1px solid #718274;background:#fff;border-radius:6px;color:#182e23;font:inherit}
+.loneliness-page .loneliness-comment textarea:focus-visible,.loneliness-page .loneliness-article h2:focus{outline:3px solid #285a48;outline-offset:4px}.loneliness-page .loneliness-comment textarea[aria-invalid=true]{border:2px solid #a3332e}
+.loneliness-page .loneliness-comment #loneliness-comment-help{font-size:14px;color:#536159;margin-top:12px}.loneliness-page .loneliness-comment #loneliness-comment-count{font-size:14px;margin:12px 0}
+.loneliness-page .loneliness-comment-actions{display:flex;gap:12px;flex-wrap:wrap}.loneliness-page .loneliness-comment button{min-height:46px;padding:10px 20px;border-radius:6px;background:#285a48;color:white;font-weight:650}.loneliness-page .loneliness-comment button[type=button]{background:#fff;color:#285a48;border:1px solid #718274}
+.loneliness-page .loneliness-comment-error{color:#8e2925;font-weight:650;margin:12px 0}.loneliness-page .loneliness-comment-result{margin:18px 0 0;padding:16px;background:#fff;border-left:3px solid #285a48}
+@media(max-width:600px){.loneliness-page .loneliness-article{font-size:16px;margin-top:32px}.loneliness-page .loneliness-article-lead{font-size:19px}.loneliness-page .loneliness-article-outline,.loneliness-page .loneliness-comment{padding:18px}.loneliness-page .loneliness-kind-forschungsfrage{padding:14px}.loneliness-page .loneliness-kind-forschung{padding-left:14px}.loneliness-page .loneliness-comment-actions{flex-direction:column;align-items:stretch}}

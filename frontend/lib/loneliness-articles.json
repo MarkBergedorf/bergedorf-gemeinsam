@@ -1,0 +1,1606 @@
+{
+  "verstehen": {
+    "intro": "Einsamkeit bezeichnet eine schmerzlich erlebte Lücke in den eigenen Beziehungen. Dieser Bereich hilft, das Erleben genau zu beschreiben, ohne Menschen auf ihre Kontaktzahl oder ihre Lebensform zu reduzieren.",
+    "sections": [
+      {
+        "id": "orientierung",
+        "title": "Vier Fragen zur Orientierung",
+        "paragraphs": [
+          {
+            "text": "Was fehlt mir: Gesellschaft im Alltag, eine vertraute Person, Zugehörigkeit zu einer Gruppe oder das Gefühl, überhaupt verstanden zu werden? Bin ich gerade allein, oder fühle ich mich auch unter Menschen unverbunden? Ist das Gefühl erst kürzlich aufgetreten, kehrt es wieder oder begleitet es mich seit langer Zeit? Diese Fragen dienen der persönlichen Orientierung; sie sind kein Diagnosetest.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die Unterthemen unterscheiden Begriffe und Formen, vertiefen das persönliche Erleben, erklären mögliche Rückzugsprozesse und behandeln die gesellschaftliche Verantwortung. Die Beispiele sind redaktionell formulierte Verständnishilfen. Sie beschreiben keine bestimmten Bewohnerinnen und Bewohner Bergedorfs.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "subjektiv",
+        "title": "Weshalb Kontakte allein nicht ausreichen",
+        "paragraphs": [
+          {
+            "text": "Der Forschungsüberblick von Hawkley und Cacioppo unterscheidet die subjektiv wahrgenommene Isolation von objektiven Kontaktmerkmalen. Entscheidend ist, ob Beziehungen als passend und tragfähig erlebt werden. Eine große Zahl von Begegnungen kann deshalb mit Einsamkeit zusammenfallen. Umgekehrt sagt die Tatsache, dass jemand allein lebt, noch nicht, wie verbunden sich diese Person fühlt.",
+            "refs": [
+              "hawkley"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Für Gespräche über Einsamkeit heißt das: zuerst zuhören, welche Verbindung tatsächlich vermisst wird. Die Aufforderung, einfach mehr Menschen zu treffen, beantwortet noch nicht die Frage nach Vertrautheit, Gegenseitigkeit oder Zugehörigkeit. Niemand muss sich für ein geringeres Kontaktbedürfnis rechtfertigen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "weg",
+        "title": "Den passenden Einstieg finden",
+        "paragraphs": [
+          {
+            "text": "Wenn Sie Begriffe klären möchten, beginnen Sie bei „Begriffe, Formen und Abgrenzungen“. Wenn Ihnen trotz Kontakten Nähe fehlt, ist „Das persönliche Erleben“ passend. Für langjährigen Rückzug folgt ein eigener Abschnitt. Praktische Schritte zum Aufbau freiwilliger Beziehungen stehen im Hauptthema „Was ist ein gesundes Kennenlernen?“; örtliche Angebote werden erst nach gesonderter Prüfung als Hilfsangebote bezeichnet.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t1-1": {
+    "intro": "Alleinsein, Isolation und Einsamkeit beschreiben verschiedene Dinge. Die Unterscheidung ist wichtig, damit Unterstützung am tatsächlichen Anliegen ansetzt.",
+    "sections": [
+      {
+        "id": "begriffe",
+        "title": "Alleinsein, Isolation und Einsamkeit",
+        "paragraphs": [
+          {
+            "text": "Alleinsein beschreibt zunächst eine Situation ohne anwesende andere Menschen; es kann freiwillig und erholsam sein. Soziale Isolation bezeichnet einen objektiv beschreibbaren Mangel an Beziehungen oder Kontakten. Einsamkeit meint im verbreiteten Diskrepanzansatz das unangenehme Erleben, dass die vorhandenen Beziehungen den gewünschten nicht entsprechen. Daneben gibt es bedürfnisbezogene und existenzielle Begriffsansätze. Luhmann zeigt, dass diese Definitionen nicht vollständig austauschbar sind.",
+            "refs": [
+              "luhmann"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "formen",
+        "title": "Emotionale, soziale und existenzielle Einsamkeit",
+        "paragraphs": [
+          {
+            "text": "Emotionale Einsamkeit betrifft insbesondere fehlende enge Verbundenheit; soziale Einsamkeit das vermisste Netzwerk oder die Zugehörigkeit zu einem Kreis. Eine qualitative Forschungssynthese unterscheidet diese von existenzieller Einsamkeit, bei der grundlegendes Getrenntsein und fehlendes Verstandenwerden im Mittelpunkt stehen. Die Formen können sich überlagern. Die Synthese bewertet die begriffliche Evidenz für soziale Einsamkeit höher als für die beiden anderen Formen.",
+            "refs": [
+              "mansfield"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die systematische Arbeit von Ettema und Kollegen untersucht existenzielle Einsamkeit vor allem im Zusammenhang mit dem Lebensende. Sie beschreibt unterschiedliche philosophische und psychologische Deutungen. Das ist keine Grundlage, jedes Gefühl von Sinnlosigkeit als dieselbe Erfahrung einzuordnen oder daraus eine Diagnose abzuleiten.",
+            "refs": [
+              "existenz"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "zeit",
+        "title": "Dauer, Intensität und persönliche Bedürfnisse",
+        "paragraphs": [
+          {
+            "text": "Vorübergehende, wiederkehrende und länger anhaltende Einsamkeit unterscheiden den zeitlichen Verlauf. Häufigkeit und Stärke sind zusätzliche Dimensionen. Einheitliche zeitliche Grenzwerte für „chronisch“ werden nicht überall verwendet. Ebenso gibt es keine feste Kontaktzahl, die bei jedem Menschen ausreichende Verbundenheit garantiert.",
+            "refs": [
+              "luhmann"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Für die eigene Beschreibung können Sie festhalten: In welchen Situationen tritt das Gefühl auf, wie lange hält es an und welche Beziehung wird vermisst? Erholsamer Rückzug muss nicht beendet werden, nur weil andere Menschen geselliger leben. Ungewollte Einsamkeit sollte ebenso ernst genommen werden, wenn nach außen viele Kontakte bestehen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t1-2": {
+    "intro": "Sichtbare Geselligkeit und inneres Verbundensein sind nicht dasselbe. Hier geht es um Nähe, Verlässlichkeit, Gegenseitigkeit und das Erleben, wahrgenommen zu werden.",
+    "sections": [
+      {
+        "id": "erleben",
+        "title": "Unter Menschen und doch ohne Nähe",
+        "paragraphs": [
+          {
+            "text": "In der qualitativen Synthese von Mansfield und Kollegen werden unter anderem fehlende Zugehörigkeit, emotionale Distanz und das Erleben des Getrenntseins erschlossen. Solche Erfahrungsbeschreibungen erklären, warum die bloße Anwesenheit anderer noch keine Antwort auf Einsamkeit ist. Sie belegen keine Häufigkeit dieser Erfahrungen in Bergedorf.",
+            "refs": [
+              "mansfield"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Ein redaktionelles Beispiel: Jemand spricht täglich mit Kolleginnen und Kollegen, hat aber niemanden, dem persönliche Sorgen anvertraut werden können. Eine andere Person lebt in einer Partnerschaft und vermisst dennoch Verständnis. Ein drittes Beispiel ist das Gefühl, dass niemand nachfragt, wenn man bei einem Treffen fehlt. Das sind unterschiedliche Anliegen: Gesprächsgelegenheiten, eine Vertrauensbeziehung und wahrgenommene Zugehörigkeit sollten nicht gleichgesetzt werden.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "gegenseitig",
+        "title": "Wenn Beziehungen einseitig wirken",
+        "paragraphs": [
+          {
+            "text": "Almaatouq und Kollegen zeigen anhand begrenzter sozialer Netzwerke, dass Menschen Freundschaft nicht immer wechselseitig benennen und die Einschätzung des Gegenübers falsch erwarten können. Aus einer einzelnen ausbleibenden Nachricht lässt sich deshalb weder eine Freundschaft noch deren Fehlen sicher ablesen. Die Studie untersucht keine allgemeingültige Ursache von Einsamkeit.",
+            "refs": [
+              "gegenseitigkeit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Fragen Sie konkret nach: Wünsche ich mir mehr Initiative, zuverlässige Absprachen oder ein vertraulicheres Gespräch? Sprechen Sie einen Wunsch ohne Forderung an, etwa: „Ich würde mich freuen, wenn du dich auch gelegentlich meldest.“ Unterstützung geben zu wollen ist ein legitimer Wunsch; Zugehörigkeit darf aber nicht davon abhängig gemacht werden, dass jemand ständig nützlich ist.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "scham",
+        "title": "Scham und Unsichtbarkeit ansprechen",
+        "paragraphs": [
+          {
+            "text": "Die Untersuchung von Barreto und Kollegen unterscheidet abwertende Urteile über Einsamkeit, wahrgenommenes gesellschaftliches Stigma und eigene Scham beziehungsweise Verbergen. Diese Ebenen sind nicht identisch. Die Befragung beschreibt Zusammenhänge und Unterschiede innerhalb einer selbstselektierten Stichprobe, keine zwangsläufige Reaktion aller Betroffenen.",
+            "refs": [
+              "stigma"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Ein Gespräch kann mit „Mir fehlt eine Person zum Reden“ beginnen, ohne dass jemand ein öffentliches Etikett übernehmen muss. Wer zuhört, sollte die Erfahrung nicht mit dem Hinweis auf vorhandene Familie oder zahlreiche Bekannte bestreiten. Die Person entscheidet selbst, wem sie wie viel anvertrauen möchte.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t1-3": {
+    "intro": "Längerer Rückzug lässt sich nicht mit mangelndem Willen erklären. Sinnvoll ist ein genauer Blick auf Belastungen, Erwartungen, Kontaktgelegenheiten und mögliche Unterstützung.",
+    "sections": [
+      {
+        "id": "dynamik",
+        "title": "Ein mögliches Zusammenspiel statt eines festen Schicksals",
+        "paragraphs": [
+          {
+            "text": "Das Erklärungsmodell von Hawkley und Cacioppo verbindet Einsamkeit mit erhöhter Wachsamkeit gegenüber sozialen Bedrohungen, ungünstigen Erwartungen und Rückzugsverhalten. Das kann einen sich verstärkenden Prozess beschreiben: Erwartete Ablehnung erschwert Kontakt, ausbleibende Kontakte bestätigen die Erwartung. Es handelt sich um ein Forschungsmodell, nicht um den Nachweis, dass jede einsame Person so denkt oder handelt.",
+            "refs": [
+              "hawkley"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Der kognitionspsychologische Review von Cacioppo und Hawkley behandelt unter anderem die verstärkte Verarbeitung sozialer Bedrohung. Gruppenbefunde über Aufmerksamkeit und Erwartungen erlauben keine Aussage, eine konkrete Wahrnehmung von Ausgrenzung sei eingebildet. Tatsächliche Zurückweisung und ungünstige Deutungen müssen auseinandergehalten werden.",
+            "refs": [
+              "kognition"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "jahre",
+        "title": "Wenn Kontakte seit Jahren fehlen",
+        "paragraphs": [
+          {
+            "text": "Die Berichte stellen die Frage, ob lange Isolation soziale Fähigkeiten schwächt. Ohne geeignete individuelle Untersuchung lässt sich daraus kein allgemeiner Fähigkeitsverlust ableiten. Für einen Wiedereinstieg ist zunächst zu klären: Fehlen erreichbare Menschen, sichere Orte, Übung, Kraft oder Vertrauen? Was früher leichtfiel, und was heute schwerfällt, sollte die betreffende Person selbst beschreiben dürfen.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Ein möglicher, selbst bestimmter Anfang ist ein kurzer wiederkehrender Kontakt statt des Anspruchs, sofort einen Freundeskreis aufzubauen. Planen Sie eine überschaubare Begegnung und erlauben Sie sich, sie zu beenden. Nachher können Sie Erwartung und tatsächliches Erleben vergleichen. Ein schwieriges Gespräch ist kein Gesamturteil über Ihre Beziehungsfähigkeit.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "unterstuetzung",
+        "title": "Unterstützung passend auswählen",
+        "paragraphs": [
+          {
+            "text": "Ein Review randomisierter Studien findet im Durchschnitt eine Verringerung von Einsamkeit durch psychologische Interventionen. Die Wirkungen und die Qualität der untersuchten Verfahren unterscheiden sich jedoch erheblich. Daraus folgt weder ein bestimmtes Behandlungsangebot in Bergedorf noch, dass jede Form von Einsamkeit psychotherapeutisch behandelt werden muss.",
+            "refs": [
+              "intervention"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Bei anhaltendem Leidensdruck kann eine persönliche fachliche Beratung helfen, die Situation einzuordnen. Die Informationen hier ersetzen diese Klärung nicht. Kontaktmöglichkeiten, soziale Hindernisse und psychische Belastungen sollten dabei gemeinsam betrachtet werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t1-4": {
+    "intro": "Einsamkeit betrifft persönliche Lebensqualität und die Bedingungen gesellschaftlicher Teilhabe. Öffentliche Verantwortung und individuelle Unterstützung gehören deshalb in dieselbe Diskussion.",
+    "sections": [
+      {
+        "id": "gesundheit",
+        "title": "Gesundheitliche Bedeutung ohne Übertreibung",
+        "paragraphs": [
+          {
+            "text": "Die Meta-Analyse von Holt-Lunstad und Kollegen findet in prospektiven Beobachtungsstudien Zusammenhänge zwischen Einsamkeit beziehungsweise sozialer Isolation und erhöhter Sterblichkeit. Unterschiedliche Belastungen und Lebensbedingungen sind mitzudenken. Der Befund ist keine persönliche Lebenserwartungsprognose und keine experimentell bewiesene Wirkung jeder einzelnen Einsamkeitserfahrung.",
+            "refs": [
+              "gesundheit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die vertiefte Darstellung gesundheitlicher Zusammenhänge gehört zum gesonderten Hauptthema „Einsamkeit und Gesundheit“. Hier ist entscheidend: Menschen sollen mit ihren Bedürfnissen ernst genommen und nicht durch zugespitzte Risikovergleiche beschämt werden.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "teilhabe",
+        "title": "Anerkennung, Teilhabe und Demokratie",
+        "paragraphs": [
+          {
+            "text": "Schobins Forschungsübersicht behandelt Beziehungen zwischen Einsamkeit, Vertrauen, politischer Beteiligung und demokratischen Einstellungen. Sie benennt erhebliche Forschungslücken und unterschiedliche vermutete Wirkungsrichtungen. Veranstaltungsnotizen über Radikalisierung ersetzen diese Prüfung nicht. Eine pauschale Aussage, einsame Menschen seien demokratiefeindlich oder radikal, lässt sich daraus nicht rechtfertigen.",
+            "refs": [
+              "demokratie"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Für die Plattform ist gesellschaftliche Anerkennung ein redaktionelles Leitprinzip: Zugang zu Begegnung, Information und Mitwirkung darf nicht von Einkommen, einem vorhandenen Freundeskreis oder überzeugendem Auftreten abhängen. Nachbarschaften und Vereine werden hier als mögliche Felder der Beteiligung betrachtet; ein demokratiestärkender Effekt jeder Veranstaltung wird nicht zugesichert.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "kosten",
+        "title": "Wirtschaftliche Folgen: Was ist belegt?",
+        "paragraphs": [
+          {
+            "text": "Gerst-Emerson und Jayawardhana untersuchen ältere Erwachsene in den USA. Länger anhaltende Einsamkeit hing nach statistischer Kontrolle unter anderem mit häufigeren Arztkontakten zusammen. Diese Beobachtung berechnet weder die durch Einsamkeit verursachten Gesamtkosten noch die Einsparung durch ein Begegnungsprojekt.",
+            "refs": [
+              "versorgung"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Für Bergedorf wären Versorgung, Teilhabehindernisse und mögliche wirtschaftliche Belastungen getrennt zu untersuchen. Welche Aufwendungen entstehen wodurch? Welche Unterstützung erreicht Menschen tatsächlich? Ohne lokale Daten und ein nachvollziehbares Vergleichsdesign werden hier keine Eurobeträge oder Einsparversprechen veröffentlicht.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "ursachen": {
+    "intro": "Einsamkeit hat keine einheitliche Ursache. Der Bereich unterscheidet persönliche Erfahrungen, Veränderungen von Beziehungen und gesellschaftliche Bedingungen und fragt, welche Erklärungen wissenschaftlich tragfähig sind.",
+    "sections": [
+      {
+        "id": "ebenen",
+        "title": "Drei Ebenen gemeinsam betrachten",
+        "paragraphs": [
+          {
+            "text": "Auf persönlicher Ebene geht es etwa um Wünsche nach Nähe, Unsicherheit oder belastende Erfahrungen. Auf Beziehungsebene stehen Verluste, fehlende Gegenseitigkeit und Veränderungen im sozialen Netz. Auf gesellschaftlicher Ebene werden Bezahlbarkeit, Zugänglichkeit, Wohn- und Arbeitsbedingungen sowie Begegnungsräume untersucht. Diese Gliederung ist ein Ordnungsrahmen, keine Rangfolge der Schuld.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die Meta-Analyse zu Persönlichkeit und Einsamkeit zeigt Zusammenhänge mit mehreren Persönlichkeitsdimensionen. Korrelationen bedeuten weder, dass eine Persönlichkeit Einsamkeit allein verursacht, noch dass Menschen unabänderlich einsam bleiben. Auch ein geselliges Auftreten ersetzt keine individuell passenden Beziehungen.",
+            "refs": [
+              "persoenlichkeit"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "belege",
+        "title": "Was „Risikofaktor“ bedeutet",
+        "paragraphs": [
+          {
+            "text": "Ein statistischer Zusammenhang bedeutet zunächst, dass Merkmale gemeinsam auftreten. Ein prospektiver Zusammenhang zeigt zusätzlich eine zeitliche Reihenfolge. Ein kausaler Nachweis benötigt ein Design, das andere Erklärungen ausreichend ausschließt. In jedem Unterthema stehen deshalb Befund, Einordnung und offene Frage getrennt. Ein Lebensereignis ist kein sicherer Auslöser für jede Person.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Für die persönliche Orientierung können Sie einen zeitlichen Verlauf notieren: Was hat sich verändert, welche Kontakte gingen verloren, welche Wege oder Kosten wurden schwierig und welche Beziehungen fehlen heute? Diese Sammlung kann ein Beratungsgespräch vorbereiten; sie weist allein keine wissenschaftliche Ursache nach.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "lokal",
+        "title": "Der besondere Blick auf Bergedorf",
+        "paragraphs": [
+          {
+            "text": "Wie verändern sich spontane Begegnungen, wenn vertraute Treffpunkte schließen oder anders genutzt werden? Welche Funktionen übernehmen neue Orte? Der Zweig „Verschwundene Begegnungsorte in Bergedorf“ enthält die vollständige Untersuchungssystematik. Eine lokale historische Bestandsaufnahme und die Recherche einzelner Betriebe folgen in Auftrag 4.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-1": {
+    "intro": "Beziehungserfahrungen, persönliche Erwartungen und konkrete Kontaktmöglichkeiten müssen zusammen betrachtet werden. Kontaktprobleme sind keine Charakterdiagnose.",
+    "sections": [
+      {
+        "id": "erfahrungen",
+        "title": "Unsicherheit, Ablehnung und Vertrauen",
+        "paragraphs": [
+          {
+            "text": "Der Review zu unter 25-Jährigen findet wiederholt längsschnittliche Zusammenhänge von Einsamkeit mit geringer Akzeptanz durch Gleichaltrige, Viktimisierung, sozialer Angst, niedrigem Selbstwert und Schüchternheit. Andere untersuchte Faktoren sind weniger gut abgesichert. Die Befunde gelten für die untersuchten Altersgruppen und beweisen keinen universellen Weg von einer Erfahrung zur Einsamkeit.",
+            "refs": [
+              "jugend"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die Themen Mobbing, Ausgrenzung und Diskriminierung verlangen daher einen Blick auf das Verhalten des Umfelds. Die Verantwortung für Übergriffe darf nicht in eine Forderung nach mehr Kontaktfähigkeit der betroffenen Person umgedeutet werden. Für Gewalt- und Traumafolgen ist eine vertiefte fachliche Ausarbeitung in den dafür vorgesehenen Themen erforderlich.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "naehe",
+        "title": "Kontakt wünschen und dennoch Abstand brauchen",
+        "paragraphs": [
+          {
+            "text": "Ein redaktionelles Beispiel: Eine Person möchte jemanden kennenlernen, befürchtet aber nach einem Vertrauensbruch zu viel Nähe. Eine andere vermeidet Nachfragen, weil sie niemandem zur Last fallen möchte. Solche Beschreibungen sind Ausgangspunkte für ein Gespräch. Sie ersetzen keinen Nachweis über die Motivation einer anderen Person.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Trennen Sie den Wunsch von der Befürchtung: „Ich hätte gern Gesellschaft, möchte aber noch nicht über Privates reden.“ Prüfen Sie eine konkrete Situation statt sich insgesamt als unfähig zu bewerten. Ein passender Kontakt muss nicht sofort vertraulich werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "beziehungen",
+        "title": "Einseitigkeit und Kontaktabbrüche",
+        "paragraphs": [
+          {
+            "text": "Fehlende Initiative, Konflikte, wechselnde Erwartungen und abgebrochene Beziehungen werden im Bereich Kennenlernen getrennt behandelt. Klären Sie nach Möglichkeit, ob ein Kontakt als lose Bekanntschaft oder als enge Freundschaft verstanden wird. Gegenseitigkeit bedeutet hier freiwillige Aufmerksamkeit und Verlässlichkeit, nicht eine minutengenaue Bilanz von Nachrichten und Hilfeleistungen.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Welche belastenden Erfahrungen und welche realen Zugangshindernisse tragen im jeweiligen Fall zum Rückzug bei? Für diese Frage sind Verlauf und Kontext wichtiger als eine pauschale Liste angeblicher persönlicher Defizite.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-2": {
+    "intro": "Umzüge, Übergänge, Verluste und gesundheitliche Veränderungen können vertraute Beziehungen und Alltagsroutinen verändern. Welche Folgen daraus entstehen, muss für die jeweilige Lebenslage geprüft werden.",
+    "sections": [
+      {
+        "id": "verlust",
+        "title": "Trauer, Trennung und veränderte Netzwerke",
+        "paragraphs": [
+          {
+            "text": "Dahlberg und Kollegen identifizieren in einem Review längsschnittlicher Studien bei älteren Erwachsenen unter anderem Partnerverlust, begrenzte Netzwerke, geringe soziale Aktivität und ungünstige Gesundheit als relevante Risiken. Die Stärke und Konsistenz der Befunde unterscheidet sich. Trauer und Einsamkeit sind dabei nicht gleichzusetzen; eine neue Bekanntschaft ersetzt nicht die verstorbene Person.",
+            "refs": [
+              "aeltere"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Nach einem Verlust kann es hilfreich sein, getrennt zu benennen, was fehlt: die konkrete Person, gemeinsame Tagesabläufe, vertrauliche Gespräche oder der bisherige Freundeskreis. Unterstützung sollte Raum für Trauer lassen. Neue Kontakte dürfen Freundschaften und Alltagsgesellschaft bedeuten und müssen nicht als Partnersuche verstanden werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "uebergaenge",
+        "title": "Schule, Ausbildung, Studium und Beruf",
+        "paragraphs": [
+          {
+            "text": "Die Berichte nennen Schul- und Ausbildungswechsel, Studienbeginn, Abbruch einer Ausbildung, Berufseinstieg, Arbeitsplatzwechsel und Arbeitslosigkeit. Für eine sorgfältige Betrachtung ist jeweils zu fragen: Welche Kontakte bestehen weiter, welche täglichen Begegnungen fallen weg und wie erreichbar sind neue Kreise? Diese Fragen benennen mögliche Mechanismen, keine gesicherten Folgen jedes Übergangs.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Auch Elternschaft, Alleinerziehen, Ruhestand, Zuzug aus einer anderen Stadt oder einem anderen Land und häufige Ortswechsel gehören in diese Bestandsaufnahme. Familiäre Konflikte können den Zugang zu Eltern, Kindern, Geschwistern oder gemeinsamen Freundeskreisen betreffen. Die bloße Lebensform erlaubt keine Aussage, ob eine Person einsam ist.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "alltag",
+        "title": "Gesundheit und Mobilität mitdenken",
+        "paragraphs": [
+          {
+            "text": "Erfassen Sie bei Veränderungen auch Wege, Tageszeiten, Kraft und Zugänglichkeit. Kann ein bestehender Kontakt in einer anderen Form fortgeführt werden? Ist ein Treffen ohne Begleitperson möglich? Braucht es eine ruhige Umgebung oder einen kürzeren Weg? Die Fragen sollen Unterstützung konkret machen, ohne gesundheitliche Einschränkungen oder einen Umzug als zwangsläufige Ursache auszugeben.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "In den Veranstaltungsberichten erwähnte Studien des Bundesinstituts für Bevölkerungsforschung sind noch nicht eindeutig identifiziert. Die dort berichteten Übergangsbezüge werden deshalb nicht als zitierte Ergebnisse dieses Instituts ausgegeben. Alters- und lebenslagenspezifische Vertiefungen folgen in den entsprechenden Hauptthemen.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-3": {
+    "intro": "Beziehungen entstehen unter konkreten Lebensbedingungen. Kosten, Zeit, erreichbare Räume und soziale Zugangsregeln gehören deshalb in die Ursachenforschung.",
+    "sections": [
+      {
+        "id": "armut",
+        "title": "Armut und gesellschaftlicher Zugang",
+        "paragraphs": [
+          {
+            "text": "Dittmann und Goebel verbinden eine Forschungsübersicht mit deutschen Panelanalysen. Armut und Einsamkeit hängen zusammen; die Auswertung betrachtet auch Veränderungen innerhalb von Personen. Finanzielle Einschränkungen und Teilhabe werden als wichtige Zusammenhänge diskutiert. Trotz statistischer Kontrollen sind solche Analysen kein experimenteller Nachweis eines einzigen, für alle Menschen gleichen Mechanismus.",
+            "refs": [
+              "armut"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Für die örtliche Bestandsaufnahme sind Eintritt, Verzehr, Fahrtkosten, Mitgliedschaft und Information getrennt zu erfassen. Die Berichte fragen auch nach Schulden, Insolvenz, finanzieller Scham und kostenpflichtigen Informationsmedien. Diese Gesichtspunkte werden als zu prüfende Zugangshindernisse erhalten; daraus wird keine pauschale Behauptung über das Verhalten einkommensarmer Menschen abgeleitet.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "arbeit",
+        "title": "Arbeitswelt, Zeit und digitale Veränderungen",
+        "paragraphs": [
+          {
+            "text": "Der Review von Bryan und Kollegen beschreibt Beziehungen zwischen Einsamkeit am Arbeitsplatz, Arbeitsbedingungen und Wohlbefinden. Er weist ausdrücklich auf zu wenige Längsschnittdaten und unzureichend kontrollierte Begleitfaktoren hin. Eine einfache Aussage, Homeoffice oder ein bestimmtes Arbeitsmodell verursache Einsamkeit, geht über diese Evidenz hinaus.",
+            "refs": [
+              "arbeit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die Meta-Analyse von Ernst und Kollegen findet im Mittel mehr Einsamkeit während der COVID-19-Pandemie als davor, bei stark unterschiedlichen Studienergebnissen. Daraus lassen sich die Wirkungen von Kontaktbeschränkungen, Krankheit, wirtschaftlicher Belastung und weiteren gleichzeitigen Veränderungen nicht einzeln bestimmen.",
+            "refs": [
+              "pandemie"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "zugang",
+        "title": "Infrastruktur und Ausgrenzung prüfen",
+        "paragraphs": [
+          {
+            "text": "Ein sinnvoller örtlicher Zugangstest fragt: Gibt es einen konsumfreien Aufenthalt? Funktioniert der Weg auch ohne Auto? Passen Öffnungszeiten zu Schichtarbeit und Sorgeaufgaben? Sind Anmeldung, Internetzugang oder bestehende Gruppenkenntnis nötig? Können Menschen mit Behinderungen den Ort nutzen? Wie wird Ausgrenzung angesprochen? Das sind Prüfkriterien für Angebote, keine bereits erhobenen Bergedorfer Ergebnisse.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Welche Veränderungen der Nachbarschaft und welche digitalen oder analogen Kontaktformen erweitern Möglichkeiten, welche verschließen sie? Dafür sind die Erfahrungen unterschiedlicher Nutzerinnen und Nutzer einschließlich bisheriger Nichtnutzender zu erheben.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-4": {
+    "intro": "Die Frage nach veränderten Kennenlernformen betrifft mehr als die Zahl geöffneter Lokale. Entscheidend sind die tatsächlichen Gelegenheiten, fremden Menschen ungezwungen und wiederholt zu begegnen.",
+    "sections": [
+      {
+        "id": "orte",
+        "title": "Räumliche Gelegenheit und soziale Beziehung",
+        "paragraphs": [
+          {
+            "text": "Der Review von Sugiyama und Kollegen untersucht sogenannte dritte Orte außerhalb von Wohnung und Arbeitsplatz: Gemeinschaftseinrichtungen, lokale Geschäfte, offene beziehungsweise grüne Räume und Übergangsräume. Die Literatur beschreibt Beziehungen zu Interaktion und sozialen Netzwerken älterer Menschen. Ein Gespräch, eine Bekanntschaft und die Verringerung von Einsamkeit sind jedoch unterschiedliche Ergebnisse.",
+            "refs": [
+              "dritteorte"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Für die Systematik dieser Seite werden drei Schritte getrennt: Ein Ort ist zugänglich; Menschen kommen miteinander ins Gespräch; daraus entwickelt sich möglicherweise eine freiwillige Beziehung. Ein Raumangebot ist noch kein Freundschaftsnachweis. Wiederkehr und Verlässlichkeit werden im Bereich Kennenlernen anhand eigener Studien vertieft.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "vergleich",
+        "title": "Frühere und heutige Formen vergleichen",
+        "paragraphs": [
+          {
+            "text": "Die Unterthemen betrachten vertraute Begegnungsformen, ihren Wandel und die möglichen Folgen. Gastwirtschaften, Cafés, Vereine, Gemeindehäuser, Arbeitsorte, öffentliche Plätze und organisierte Angebote werden nach denselben Funktionen verglichen. Dabei geht es um spontane Teilnahme ohne Begleitung, wiederkehrende Kontakte und informellen Austausch, nicht um eine vorweggenommene Bewertung früherer Zeiten.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Ein fairer Vergleich fragt nach Kosten, Zugang, Öffnungszeiten, Wiederkehr, Aufnahme neuer Gäste und tatsächlicher Nutzung. Eine neue Einrichtung kann erst dann als funktionaler Ersatz eingeordnet werden, wenn diese Merkmale und die Perspektive der bisherigen Nutzerinnen und Nutzer geprüft wurden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "frage",
+        "title": "Die zentrale Bergedorfer Untersuchungsfrage",
+        "paragraphs": [
+          {
+            "text": "Kann der Verlust vertrauter Begegnungsformen bei Menschen, die diese Formen gewohnt waren, zum Rückgang sozialer Kontakte und zu Einsamkeit beitragen? Zu untersuchen wären Veränderungen vor und nach dem Verlust, die Nutzung anderer Orte und gleichzeitig auftretende Lebensereignisse. Für Bergedorf liegt hier noch kein ausreichender kausaler Nachweis vor. Die Frage bleibt ausdrücklich offen.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-4-1": {
+    "intro": "Frühere Begegnungsformen werden als soziale Funktionen betrachtet. Ob und wie einzelne Bergedorfer Orte diese Funktionen erfüllten, wird erst anhand historischer Quellen geprüft.",
+    "sections": [
+      {
+        "id": "alltagsorte",
+        "title": "Gastwirtschaft, Café, Verein und Gemeinde",
+        "paragraphs": [
+          {
+            "text": "Finlay und Kollegen beschreiben dritte Orte als Teil sozialer Infrastruktur außerhalb von Zuhause und Arbeit. Dazu zählen öffentliche und kommerzielle Räume. Ihr Beitrag entwickelt eine Forschungsagenda zu Begegnung, Unterstützung und möglichen Folgen von Schließungen; er ist keine lokale Schließungsstudie.",
+            "refs": [
+              "finlay"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die Arbeitskategorien umfassen Gastwirtschaften und Kneipen, Cafés, Vereinslokale, Gemeindehäuser und andere informelle Treffpunkte. Zusätzlich werden Nachbarschaft, Arbeitsplatz und dörfliche Gemeinschaft als Kontexte erfasst. Ein Gebäudename allein belegt noch nicht, dass fremde Menschen ohne Mitgliedschaft oder Begleitung willkommen waren.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "funktionen",
+        "title": "Welche Funktionen sind zu dokumentieren?",
+        "paragraphs": [
+          {
+            "text": "Für jeden später recherchierten Ort wird getrennt gefragt: Konnte man allein und ohne Verabredung kommen? Traf man dieselben Menschen wieder? Gab es Gespräche mit unbekannten Gästen? Wurden Informationen über Arbeit, Nachbarschaftshilfe, Haushalt oder praktische Unterstützung ausgetauscht? Wer konnte teilnehmen, wer wurde ausgeschlossen? Erinnerungen dazu brauchen jeweils Datum, Kontext und eine überprüfbare Fundstelle.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ein Stammtisch, ein offener Tresen und eine angemeldete Gruppenveranstaltung können unterschiedliche Zugangsvoraussetzungen haben. Die Bezeichnungen ersetzen keine Prüfung. Auch die Begegnung verschiedener sozialer Gruppen darf nicht allein aus einem historischen Foto oder dem Bestehen eines Lokals abgeleitet werden.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "quellen",
+        "title": "Erinnerungen bewahren, Aussagen prüfen",
+        "paragraphs": [
+          {
+            "text": "Für Bergedorf werden historische Anzeigen, Adressbücher, Vereins- und Gemeindearchive sowie nachvollziehbar dokumentierte Erinnerungen benötigt. Welche Quelle belegt den Betrieb, welche die soziale Nutzung? Widersprechende Perspektiven bleiben sichtbar. Konkrete Namen, Betriebszeiten und Funktionen werden in Auftrag 4 recherchiert und nicht aus Veranstaltungsnotizen ergänzt.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-4-2": {
+    "intro": "Wandel kann Schließung, neue Nutzung, andere Öffnungszeiten oder veränderte Gewohnheiten bedeuten. Diese Vorgänge sollen einzeln beschrieben und anschließend vergleichbar gemacht werden.",
+    "sections": [
+      {
+        "id": "veraenderung",
+        "title": "Was hat sich tatsächlich verändert?",
+        "paragraphs": [
+          {
+            "text": "Ein Ort kann bestehen bleiben und als Treffpunkt dennoch unzugänglich werden, etwa wenn eine bislang offene Zeit entfällt. Umgekehrt sagt eine Schließung allein noch nicht, wo sich frühere Gäste anschließend treffen. Für die Untersuchung sind daher Gebäude, Betrieb, Nutzungsform und Nutzerkreis auseinanderzuhalten.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die Dokumentation soll für einen festgelegten Zeitraum alte und neue Orte umfassen: Eröffnung, Schließung, Umnutzung, Zugang, Kosten, Veranstaltungsbindung und spontane Nutzung. Veränderte Freizeitgewohnheiten oder digitale Kontakte werden als eigene Untersuchungsfragen erfasst. Eine Erklärung für eine Schließung benötigt einen Beleg und darf nicht allein aus dem späteren Zustand abgeleitet werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "ersatz",
+        "title": "Organisierte und spontane Begegnung",
+        "paragraphs": [
+          {
+            "text": "Für eine allein kommende Person ist zu unterscheiden, ob ein Angebot eine Anmeldung, Mitgliedschaft oder Begleitung voraussetzt. Ein informeller Aufenthalt ohne festes Programm ist eine andere Teilnahmeform als ein Kurs. Beide werden nach ihrem tatsächlichen Zugang untersucht; die eine Form wird nicht grundsätzlich zur besseren erklärt.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Welche Menschen nutzen heutige Gruppenangebote, welche vermissen eine vertraute spontane Form? Welche Rolle spielen Preis, Sprache, Mobilität, Schichtarbeit und Sorgeverantwortung? Lassen sich ehemalige Stammgäste an neuen Orten wiederfinden? Diese Fragen werden anhand von Nutzungsdaten und Gesprächen geprüft, nicht durch einen pauschalen Generationenvergleich entschieden.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      },
+      {
+        "id": "grenze",
+        "title": "Forschungsrahmen",
+        "paragraphs": [
+          {
+            "text": "Die systematische Übersicht von Bower und Kollegen umfasst Wohnumwelt und gebaute Räume und beschreibt ein vielschichtiges Verhältnis zu Einsamkeit. Sie fordert weitere begriffliche und empirische Klärung. Der Forschungsstand trägt deshalb keinen einfachen Schluss vom baulichen Wandel auf die Einsamkeit einzelner Bewohnerinnen oder Bewohner.",
+            "refs": [
+              "umwelt"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-4-3": {
+    "intro": "Der mögliche Verlust gewohnter Begegnungen ist eine wichtige Frage. Um sie zu beantworten, müssen Alltag, Beziehungen und Einsamkeit getrennt untersucht werden.",
+    "sections": [
+      {
+        "id": "schwachekontakte",
+        "title": "Was alltägliche Bekanntschaften bedeuten können",
+        "paragraphs": [
+          {
+            "text": "Sandstrom und Dunn finden in Alltagsstudien Zusammenhänge zwischen Begegnungen mit schwächeren sozialen Bindungen und Wohlbefinden beziehungsweise Zugehörigkeit. Das zeigt die Bedeutung, auch Bekannte in den Blick zu nehmen. Es beweist weder, dass jede kurze Begegnung hilft, noch dass lose Kontakte eine fehlende Vertrauensperson ersetzen.",
+            "refs": [
+              "schwachekontakte"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Für die Bergedorfer Untersuchung werden deshalb kurze Gespräche, wiederkehrendes Wiedererkennen, Bekanntschaften, vertrauliche Beziehungen und informelle Hilfe gesondert erfasst. Ein Verlust der Gelegenheit ist etwas anderes als der nachgewiesene Abbruch einer Beziehung. Die persönliche politische Bewertung heutiger Hilfestrukturen aus den Berichten bleibt als Bewertung im Quellenregister erhalten.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "hypothese",
+        "title": "Vertraute Routinen und neue Anforderungen",
+        "paragraphs": [
+          {
+            "text": "Die Arbeitshypothese lautet: Wer eine offene, wiederkehrende Begegnungsform gewohnt war, könnte beim Wegfall Schwierigkeiten haben, andere Zugänge zu finden. Zu prüfen sind konkrete Routinen und Fähigkeiten, nicht das Lebensalter als pauschale Erklärung. Es ist zu erheben, ob und wie sich Kontakte tatsächlich verändert haben und welche anderen Ereignisse zeitgleich auftraten.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Ein Interview kann mit einer Zeitlinie arbeiten: Wo begegneten Sie früher wem? Was fiel wann weg? Wo treffen Sie diese Menschen heute? Was ist schwerer geworden? Welche neue Form passt zu Ihnen? Antworten bleiben persönliche Erfahrungen, bis ihre Reichweite und mögliche andere Einflüsse geprüft sind.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "kausal",
+        "title": "Warum Kontaktgelegenheit nicht gleich Einsamkeitswirkung ist",
+        "paragraphs": [
+          {
+            "text": "Lee und Tan berichten in einer begrenzten US-Stichprobe älterer Hauseigentümer einen Zusammenhang dritter Orte mit Unterstützungsnetzwerken, aber keinen entsprechenden Zusammenhang mit Einsamkeit. Gerade diese Unterscheidung zeigt, warum Zugänglichkeit, Netzwerke und subjektive Einsamkeit nicht als dieselbe Messgröße behandelt werden sollten.",
+            "refs": [
+              "leetan"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-5": {
+    "intro": "Dieser vorhandene Unterordner bündelt die Systematik für verschwundene Begegnungsorte in Bergedorf. Die sechs Unterteilungen und die gemeinsame historische Sammlung bleiben erhalten.",
+    "sections": [
+      {
+        "id": "gegenstand",
+        "title": "Was als Begegnungsort untersucht wird",
+        "paragraphs": [
+          {
+            "text": "Erfasst werden frühere Gastwirtschaften und Kneipen, Cafés, Vereinslokale, Gemeindehäuser und andere offene oder informelle Räume. Die Stadtteilansicht ordnet die räumliche Verteilung; die historische Ansicht vergleicht Entwicklungen. Ein Ort erhält später einen eindeutigen Datensatz, auf den die verschiedenen Themen verweisen. Doppelte Einträge sollen keine künstlich erhöhten Bestandszahlen erzeugen.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Der gemeinsame Datensatz soll enthalten: eindeutige Kennung, belegte Namen und Namenswechsel, historische und heutige Adresse, räumliche Zuordnung, belegten Betriebszeitraum, Art und Zugangsbedingungen, dokumentierte soziale Funktionen, Schließung oder Umnutzung mit Beleg, heutige Nutzung mit Prüfdatum sowie Quellen und offene Fragen. Schätzungen, Erinnerungen und gesicherte Daten werden getrennt gekennzeichnet.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "evidenz",
+        "title": "Wissenschaftliche Grundlage und örtliche Grenze",
+        "paragraphs": [
+          {
+            "text": "Der Scoping Review zu dritten Orten erschließt sehr unterschiedliche Orte und Studien. Für Bergedorf folgt daraus ein Prüfauftrag zu Erreichbarkeit, Begegnung und Netzwerken; keine bereits nachgewiesene örtliche Einsamkeitswirkung.",
+            "refs": [
+              "dritteorte"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die Berichte enthalten unterschiedliche Einschätzungen darüber, ob weggefallene Orte ersetzt wurden. Diese werden nicht zu einem gemeinsamen vermeintlichen Ergebnis geglättet. Die persönliche historische Zählung ist bislang nicht amtlich oder unabhängig verifiziert und wird nicht als öffentliche Bestandszahl verwendet.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "vorgehen",
+        "title": "Arbeitsschritte für Auftrag 4",
+        "paragraphs": [
+          {
+            "text": "Zunächst Quellenlage und Zeiträume festlegen. Dann Orte identifizieren, Namens- und Adresswechsel abgleichen und sämtliche Fundstellen dokumentieren. Anschließend Nutzungen und soziale Funktionen gesondert prüfen. Erst danach lässt sich ein räumlicher und zeitlicher Vergleich von Schließungen, Neueröffnungen und Ersatzfunktionen begründen. Erinnerungen bereichern die Untersuchung, ersetzen aber keine Bestandsprüfung.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die Frage bleibt: Welche früheren Kontaktgelegenheiten fehlen heute tatsächlich, für wen und mit welchen Folgen? Ein Rückgang von Betrieben, ein Verlust sozialer Funktionen und ein Anstieg von Einsamkeit benötigen jeweils eigene Nachweise.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-5-1": {
+    "intro": "Gastwirtschaften und Kneipen sind eine eigene historische Kategorie. Untersucht werden ihre belegten Betriebsdaten und ihre tatsächlichen sozialen Funktionen.",
+    "sections": [
+      {
+        "id": "wissenschaft",
+        "title": "Gaststätten als sozialer Kontext",
+        "paragraphs": [
+          {
+            "text": "Dunbar und Kollegen untersuchen britische Gaststätten mit Befragungen und Beobachtungen. Ein regelmäßig besuchtes lokales Pub steht dabei mit Merkmalen sozialer Einbindung in Zusammenhang. Die Auswahl der Gäste und weitere Unterschiede begrenzen kausale Schlüsse. Die Studie ist weder eine Untersuchung geschlossener Bergedorfer Betriebe noch eine Empfehlung für Alkohol.",
+            "refs": [
+              "pub"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "erfassung",
+        "title": "Vorgesehene Erfassung pro Betrieb",
+        "paragraphs": [
+          {
+            "text": "Zu prüfen sind Name, frühere Schreibweisen, Adresse, Betriebszeitraum und Art der Gastwirtschaft. Ein Namenswechsel wird nicht automatisch als Schließung gezählt. Angaben zum letzten Betriebstag, zur Umnutzung und zu Schließungsgründen benötigen jeweils eigene Belege. Fotos werden nur mit geklärter Herkunft und Nutzungsberechtigung verwendet.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für die soziale Funktion werden Stammkundschaft, spontane Besuche ohne Verabredung, Kontakte ohne Vereinsmitgliedschaft und belegte Hilfs- oder Informationsnetzwerke getrennt erfasst. Auch Kosten, Konsumpflicht, soziale Ausschlüsse und der Zugang verschiedener Gruppen gehören zur Untersuchung. Eine erinnerte gesellige Situation ist noch kein Nachweis gleicher Zugänglichkeit für alle.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "offen",
+        "title": "Konkrete Betriebe folgen in Auftrag 4",
+        "paragraphs": [
+          {
+            "text": "Welche Einrichtungen ermöglichten tatsächlich wiederkehrende Begegnungen? Welche Kontakte blieben nach der Schließung erhalten? Wurden Arbeitsinformationen, handwerkliche Hilfe oder Unterstützung im Haushalt vermittelt? Die Berichte liefern hierzu Rechercheanlässe, aber noch keine geprüften Aussagen über einzelne Betriebe. Das historische Verzeichnis bleibt bis zur belegten Erfassung leer.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Unterschiedliche Erinnerungen an Schließungszahlen und Ersatzangebote werden im internen Register samt Fundstellen bewahrt. Eine öffentliche Aussage entsteht erst nach dem Abgleich mit weiteren Quellen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-5-2": {
+    "intro": "Cafés werden nach ihrer Nutzung als Begegnungsraum untersucht. Eine gastronomische Bezeichnung allein belegt weder Offenheit noch einen besonderen sozialen Effekt.",
+    "sections": [
+      {
+        "id": "zugang",
+        "title": "Kaffeehaus, Café und informeller Aufenthalt",
+        "paragraphs": [
+          {
+            "text": "Die spätere Recherche soll unterschiedliche Betriebstypen unterscheidbar machen: ein Café mit regelmäßigem Aufenthalt, einen gastronomischen Betrieb mit wechselnder Kundschaft und einen ausdrücklich organisierten Treff. Entscheidend ist, wie Menschen den Ort nutzen konnten. Historische Begriffe und Selbstdarstellungen werden mit Datum und Quelle dokumentiert.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Pro Café werden belegter Name, Adresse, Zeitraum, Zielgruppen soweit dokumentiert, Öffnungszeiten und Zugang erfasst. Konnte man allein kommen? War längerer Aufenthalt möglich? Gab es Verzehrpflicht oder andere Kosten? Wurden neue Gäste einbezogen? Solche Informationen dürfen nicht aus der Einrichtung oder dem Stadtteil vermutet werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "funktion",
+        "title": "Soziale Funktion getrennt vom Betrieb prüfen",
+        "paragraphs": [
+          {
+            "text": "Für die spätere Darstellung sind wiederkehrende Kontakte, Gespräche zwischen Fremden, Treffen bereits bestehender Kreise und Veranstaltungen zu unterscheiden. Eine Anzeige belegt ein Angebot, noch nicht dessen tatsächliche Nutzung. Eine Erinnerung belegt die Erfahrung der erzählenden Person, noch nicht die Erfahrung aller damaligen Gäste.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Das Quellenblatt erhält deshalb getrennte Felder für Betriebsnachweis und Funktionsnachweis. Wird nur einer gefunden, bleibt der andere offen. Fotos, Zeitungsberichte und Interviews werden mit genauer Fundstelle und vorhandenen Nutzungserlaubnissen dokumentiert. Unsichere Jahresangaben bleiben als unsicher sichtbar.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "forschungsfrage",
+        "title": "Vergleich mit heutigen Möglichkeiten",
+        "paragraphs": [
+          {
+            "text": "Welche früheren Caféfunktionen bestehen heute an anderen Orten? Welche Personen können diese nutzen, zu welchen Kosten und Zeiten? Hier wird noch kein bestimmtes Bergedorfer Café als verschwunden oder als Ersatz benannt. Die empirische Grundlage zum Verhältnis von gebauter Umwelt und Einsamkeit steht im übergeordneten Ursachenbereich; örtliche Ergebnisse folgen nach der Recherche. Die Einzelrecherchen sind für Auftrag 4 vorgesehen.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-5-3": {
+    "intro": "Bei Vereinslokalen und Gemeinschaftsräumen kommt es besonders darauf an, zwischen Mitgliedschaft und offenem Zugang zu unterscheiden.",
+    "sections": [
+      {
+        "id": "formen",
+        "title": "Raum, Organisation und Nutzung auseinanderhalten",
+        "paragraphs": [
+          {
+            "text": "Ein Vereinslokal kann ein eigener Betrieb, ein angemieteter Raum oder ein wechselnder Treffpunkt sein. Für die historische Dokumentation werden daher der Ort und die ihn nutzende Organisation getrennt erfasst. Eine Umbenennung des Vereins oder ein Umzug der Gruppe ist kein ausreichender Beleg für den Verlust sämtlicher Kontakte.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Zu dokumentieren sind Eigentum oder Nutzung soweit belegt, Zeitraum, Aktivitäten, Mitgliedschaftsbedingungen, Gastzugang und Hinweise auf offene Veranstaltungen. Wurde nur nach Anmeldung eingelassen? Konnten neue Menschen regelmäßig teilnehmen? Für jede Aussage braucht es eine zeitlich passende Quelle.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "gruppen",
+        "title": "Einbindung und Ausschlüsse untersuchen",
+        "paragraphs": [
+          {
+            "text": "Die Berichte fragen, ob gemeinsame Interessen den ersten Kontakt erleichtern und ob formale Mitgliedschaft ohne tatsächliche Einbeziehung bestehen kann. Die spätere Untersuchung soll deshalb nicht nur Mitgliedszahlen übernehmen. Erfahrungen von neu Hinzugekommenen, langjährigen Mitgliedern und Ausgeschiedenen sind getrennt zu dokumentieren.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Ein Quellenblatt kann unterscheiden: Angebot vorhanden, Teilnahme nachgewiesen, wiederkehrende Begegnungen dokumentiert, neue Kontakte berichtet und langfristige Beziehungen belegt. Diese Stufen werden nicht automatisch voneinander abgeleitet. Konflikte und Ausschlüsse werden mit konkretem Kontext dokumentiert und nicht pauschal einer Vereinsform zugeschrieben.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "vergleich",
+        "title": "Was bei einer Schließung erhalten bleibt",
+        "paragraphs": [
+          {
+            "text": "Verliert nur der Raum seine Funktion oder löst sich auch die regelmäßige Gruppe auf? Gibt es einen neuen Treffpunkt? Welche Menschen können ihm folgen? Die Antwort verlangt Nutzungs- und Verlaufsinformationen. Eine Schließungsliste allein beantwortet die Frage nach Einsamkeit nicht. Konkrete Bergedorfer Vereinslokale werden in Auftrag 4 recherchiert.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-5-4": {
+    "intro": "Gemeindehäuser, Nachbarschaftsräume und andere informelle Treffpunkte werden nach tatsächlicher Zugänglichkeit und Nutzung betrachtet.",
+    "sections": [
+      {
+        "id": "typen",
+        "title": "Offene Begegnung genau beschreiben",
+        "paragraphs": [
+          {
+            "text": "Zur Arbeitskategorie gehören Gemeindehäuser, kirchliche und andere Gemeinschaftsräume, nachbarschaftlich genutzte Räume und informelle Treffpunkte. Diese Einteilung behauptet nicht, dass bestimmte Einrichtungen früher überall vorhanden oder für jede Person offen waren. Träger, Adresse und einzelne Nutzungsformen werden jeweils mit Fundstelle dokumentiert.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Wichtige Fragen sind: War das Angebot an eine Gemeindezugehörigkeit gebunden? Gab es offene Zeiten ohne Anmeldung? Konnte eine einzelne Person spontan teilnehmen? Welche Barrieren bestanden bei Kosten, Wegen, Sprache oder baulichem Zugang? Bei wechselnden Angeboten muss der untersuchte Zeitraum klar benannt werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "nachweise",
+        "title": "Angebot und tatsächliche Begegnung",
+        "paragraphs": [
+          {
+            "text": "Ein Programmblatt kann eine offene Einladung belegen. Für wiederkehrende Kontakte und informelle Hilfe braucht es weitere Hinweise auf die Nutzung. Interviews sollten sowohl positive Erfahrungen als auch begründete Nichtteilnahme zulassen. Niemand soll persönliche Einsamkeit offenlegen müssen, um über die Zugänglichkeit eines Ortes Auskunft zu geben.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Historische Gemeindeunterlagen, Nachbarschaftsberichte und nachvollziehbare Erinnerungen werden getrennt erfasst. Bei personenbezogenen Angaben sind Belegbarkeit, Veröffentlichungszweck und Schutz persönlicher Informationen vor einer späteren Veröffentlichung zu prüfen. Unsichere Angaben werden nicht durch vermutete Träger oder Öffnungszeiten ergänzt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "auftrag4",
+        "title": "Lokale Recherche offenhalten",
+        "paragraphs": [
+          {
+            "text": "Welche Funktionen bestanden zu welchem Zeitpunkt? Welche Räume sind weggefallen, umgezogen oder heute anders zugänglich? Die bestehenden Themen zu Gemeinde, Nachbarschaft und Begegnungsstätten bleiben verknüpft. Ein gemeinsamer historischer Datensatz verhindert, dass dasselbe Haus in mehreren Themen als mehrere verschwundene Orte gezählt wird. Einzelrecherchen folgen in Auftrag 4.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-5-5": {
+    "intro": "Die örtliche Verteilung muss auf einer klaren räumlichen Grundlage untersucht werden. Bezirk, Stadtteil und kleinere Quartiere dürfen nicht ungeprüft gleichgesetzt werden.",
+    "sections": [
+      {
+        "id": "raeume",
+        "title": "Räumliche Einordnung vorbereiten",
+        "paragraphs": [
+          {
+            "text": "Die Konzeption nennt Bergedorf, Lohbrügge, Neuallermöhe, Bergedorf-West, weitere Bereiche und die Vier- und Marschlande. Das ist der redaktionelle Untersuchungsumfang, keine hier neu festgelegte amtliche Gebietseinteilung. Für Auftrag 4 werden die passende räumliche Ebene und historische Grenzänderungen anhand amtlicher Unterlagen geprüft.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Jeder Ort erhält eine belegte Adresse und eine zeitlich passende räumliche Zuordnung. Bei nicht eindeutig lokalisierbaren Erinnerungen bleibt die Lage unsicher. Für einen Vergleich müssen Gebiet, Zeitraum und Art der erfassten Orte übereinstimmen. Dichteangaben brauchen einen nachvollziehbaren Bezugswert.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "vergleich",
+        "title": "Bergedorfer Zentrum und Lohbrügge",
+        "paragraphs": [
+          {
+            "text": "Die Berichte enthalten vergleichende Eindrücke zu früherer Gastronomie und wohngeprägten Bereichen. Diese werden als Perspektiven im Quellenregister bewahrt. Sie sind noch keine geprüfte Aussage über die historische Verteilung. Hier werden deshalb keine lokalen Rangfolgen, Bestandszahlen oder Versorgungsdefizite behauptet.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Eine spätere Auswertung soll nicht nur Adressen zählen: Wege, Erreichbarkeit, Öffnungszeiten, Kosten und reale Zugangsmöglichkeiten gehören als eigene Angaben dazu. Ländlicher und dichter bebauter Raum können erst nach Untersuchung der konkreten Bedingungen verglichen werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "frage",
+        "title": "Was räumlich zu prüfen ist",
+        "paragraphs": [
+          {
+            "text": "Welche Orte waren für wen erreichbar? Welche Gebiete hatten welche Arten wiederkehrender Begegnung? Wo sind Funktionen weggefallen und wo neu entstanden? Wie werden Menschen ohne eigenes Auto, mit begrenzter Mobilität oder mit ungewöhnlichen Arbeitszeiten berücksichtigt? Diese Fragen sind ein Untersuchungsplan und keine Feststellung über einzelne Stadtteile. Die Ortsrecherche und amtliche Abgrenzung folgen in Auftrag 4.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-5-6": {
+    "intro": "Historische Entwicklung soll nachvollziehbar und ohne nostalgische Vorentscheidung beschrieben werden. Schließungen, Neueröffnungen, Funktionswandel und unterschiedliche Erinnerungen werden gemeinsam geprüft.",
+    "sections": [
+      {
+        "id": "zeitlinie",
+        "title": "Eine überprüfbare Zeitlinie",
+        "paragraphs": [
+          {
+            "text": "Zuerst einen Untersuchungszeitraum und die erfassten Ortstypen festlegen. Für jeden Ort folgen belegte Ereignisse: Eröffnung, Umbenennung, veränderte Nutzung, Umzug, Schließung und gegebenenfalls Wiedereröffnung. Ein fehlender Eintrag in einem einzelnen Adressbuch beweist noch keine Schließung. Unsichere Anfangs- und Enddaten werden als Intervalle oder offene Angaben behandelt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Zur Bewertung von Veränderung gehören auch neue Begegnungsorte und andere übernommene Funktionen. Ein heutiger Gastronomiebetrieb, eine soziale Begegnungsstätte und eine historische Gastwirtschaft dürfen nicht allein aufgrund einer ähnlichen Adresse gleichgesetzt werden. Der gemeinsame Datensatz soll diese Unterschiede erhalten.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "perspektiven",
+        "title": "Widersprechende Erfahrungen bewahren",
+        "paragraphs": [
+          {
+            "text": "Die Ausgangsberichte enthalten sowohl die Einschätzung eines nicht hinreichenden Ersatzes als auch den Hinweis auf neu entstandene Angebote. Keine dieser Sichtweisen wird hier als bestätigte Gesamtbilanz ausgegeben. Für die spätere Analyse werden beide mit Fundstelle, Aussageart und noch erforderlichem Nachweis dokumentiert.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Zu jeder sozialen Funktion wird gefragt: Wer berichtet davon, für welchen Zeitraum und für welche Gruppe? Welche unabhängigen Quellen passen dazu? Welche Menschen kommen in den überlieferten Erinnerungen nicht vor? Ein Bericht über damalige Hilfevermittlung darf weder als Beweis flächendeckender Versorgung noch als Beweis heutiger Unterversorgung verwendet werden.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "kausal",
+        "title": "Historische Veränderung und heutige Einsamkeit",
+        "paragraphs": [
+          {
+            "text": "Erst eine getrennte Untersuchung von Orten, Nutzung, Kontakten und subjektivem Erleben kann die Einsamkeitsfrage sinnvoll bearbeiten. Besonders wichtig sind Menschen, deren vertraute Kontaktform weggefallen ist. Welche Beziehungen verloren sie tatsächlich, welche bleiben bestehen und welche Übergänge in neue Formen gelingen? Die wissenschaftliche Frage bleibt offen; konkrete historische Belege folgen in Auftrag 4.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t2-6": {
+    "intro": "Nicht jede plausible Erklärung ist eine belegte Ursache. Hier wird offengelegt, was verschiedene Forschungsformen leisten und was für Bergedorf noch untersucht werden muss.",
+    "sections": [
+      {
+        "id": "design",
+        "title": "Zusammenhang, Verlauf und kausale Wirkung",
+        "paragraphs": [
+          {
+            "text": "Eine Querschnittsbefragung beschreibt gemeinsam auftretende Merkmale zu einem Zeitpunkt. Eine Längsschnittstudie verfolgt Entwicklungen und kann zeitliche Reihenfolgen prüfen. Auch dann können weitere Einflüsse bestehen. Randomisierte Studien vergleichen zugewiesene Bedingungen; ihre Ergebnisse gelten zunächst für die untersuchte Maßnahme und Population. Historische Quellen beantworten wiederum andere Fragen als Interventionsexperimente.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Ein Review bündelt Studien nach festgelegten Regeln; eine Meta-Analyse fasst geeignete statistische Ergebnisse zusammen. Qualität, Vergleichbarkeit und mögliche Verzerrungen der Einzelstudien bleiben entscheidend. Eine große Studienzahl allein beseitigt keine unpassenden Messungen oder fehlende Vergleichsgruppen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "forschungsluecken",
+        "title": "Offene Fragen zu Begegnungsinfrastruktur",
+        "paragraphs": [
+          {
+            "text": "Für Bergedorf fehlen hier verifizierte historische Bestandsdaten und eine Untersuchung der individuellen Folgen verschwundener Orte. Benötigt würden ein transparenter Vorher-Nachher-Vergleich, Angaben zu Neueröffnungen und Funktionen sowie getrennte Messungen von Kontakten, Unterstützung und Einsamkeit. Alter, Gesundheit, Umzug, Verlustereignisse und finanzielle Lage müssten im Design berücksichtigt werden.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          },
+          {
+            "text": "Welche Gruppen werden erreicht, welche bleiben außen vor? Verändert eine neue Einrichtung nur die Besucherzahl oder auch wiederkehrende Beziehungen? Welche Menschen vermissen gerade eine ungeplante Kontaktform? Diese Fragen sind noch nicht durch die fünf Berichte beantwortet.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      },
+      {
+        "id": "transparenz",
+        "title": "Wie diese Seite mit Quellen umgeht",
+        "paragraphs": [
+          {
+            "text": "Wissenschaftliche Absätze nennen die zugrunde liegenden Veröffentlichungen unmittelbar. Praktische Beispiele sind als redaktionelle Anregungen gekennzeichnet; sie versprechen keine Wirkung. Historische Erinnerungen und politische Bewertungen bleiben mit ihren Fundstellen in der internen Dokumentation. Nicht identifizierte Veranstaltungshinweise werden nicht als wissenschaftlicher Nachweis verwendet. Quellenlage und Bearbeitungsstand werden bei weiteren Aufträgen erneut geprüft.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "kennenlernen": {
+    "intro": "Gesundes Kennenlernen meint hier einen freiwilligen, respektvollen und für beide Seiten passenden Aufbau von Kontakt. Gemeint sind Bekanntschaften, Freundschaften, Nachbarschaft und andere soziale Beziehungen – nicht nur romantische Beziehungen.",
+    "sections": [
+      {
+        "id": "rahmen",
+        "title": "Ein wissenschaftlich informierter, kein diagnostischer Begriff",
+        "paragraphs": [
+          {
+            "text": "„Gesundes Kennenlernen“ wird auf dieser Seite als redaktioneller Orientierungsrahmen verwendet, nicht als einheitlich validierte psychologische Diagnose oder festes Trainingsprogramm. Forschung zu Gesprächserleben, Nähe und Freundschaft liefert Anhaltspunkte. Respekt, Freiwilligkeit und persönliche Grenzen sind die verbindlichen Maßstäbe dieser Plattform; sie werden nicht davon abhängig gemacht, ob ein Verhalten statistisch mehr Sympathie erzeugt.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Ein gelungener erster Kontakt muss keine Freundschaft werden. Ein angenehmes kurzes Gespräch, eine lose Bekanntschaft oder ein respektvoll beendeter Kontakt können passende Ergebnisse sein. Beide Menschen entscheiden über Nähe, Tempo und Fortsetzung.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "entwicklung",
+        "title": "Vom ersten Gespräch zur tragfähigen Beziehung",
+        "paragraphs": [
+          {
+            "text": "Hall untersucht den Zusammenhang von gemeinsam verbrachter Zeit, Aktivitäten und wachsender Nähe. Die Studien mit kürzlich Umgezogenen und Studienanfängern sprechen dafür, wiederkehrende gemeinsame Zeit beim Freundschaftsaufbau zu beachten. Sie liefern keine verpflichtende Stundenzahl und keine Garantie, dass aus jeder wiederholten Begegnung Freundschaft entsteht.",
+            "refs": [
+              "freundschaftzeit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Die Unterthemen führen vom ersten Gespräch über wiederkehrende Bekanntschaften zur Beziehungspflege. Schwierige Erfahrungen, Ablehnung und Grenzen erhalten eigene Abschnitte. Ein sinnvoller erster Schritt kann deshalb klein bleiben: ein Gruß, eine kurze Frage, eine gemeinsame Tätigkeit und später eine freiwillige Einladung.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "bedingungen",
+        "title": "Keine Pflicht zur Offenheit oder Leistung",
+        "paragraphs": [
+          {
+            "text": "Sie müssen weder besonders unterhaltsam sein noch persönliche Belastungen offenlegen. Fragen Sie, ob ein Gespräch gerade passt, hören Sie auf die Antwort und erlauben Sie ein Nein. Wo Gespräche beschämend, abwertend oder kontrollierend werden, steht der Schutz der Beteiligten vor dem Wunsch nach Fortsetzung. Die lokale Kommentareingabe unten dient ausschließlich der Zeichenprüfung und veröffentlicht nichts.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-1": {
+    "intro": "Ein tragfähiger Kontakt braucht einen Rahmen, in dem beide Menschen entscheiden können, was sie möchten. Interesse ist eine Einladung und kein Anspruch auf Nähe.",
+    "sections": [
+      {
+        "id": "grundlagen",
+        "title": "Respekt, Interesse und Freiwilligkeit",
+        "paragraphs": [
+          {
+            "text": "Für diese Seite gelten folgende Maßstäbe: Die andere Person darf eine Frage offenlassen, ein Thema wechseln, Abstand wünschen oder ein Treffen ablehnen. Niemand muss Freundschaft, körperliche Nähe oder persönliche Informationen als Gegenleistung für Unterstützung anbieten. Unterschiede in Alter, Lebenssituation, Sprache oder Kontaktbedürfnis begründen keine geringere Würde.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Fragen Sie beispielsweise: „Passt ein kurzes Gespräch?“ oder „Möchten Sie beim nächsten Mal wieder dabei sein?“ Eine Zustimmung zu einem Gespräch ist keine Zustimmung zur Weitergabe von Kontaktdaten oder zum Teilen persönlicher Erlebnisse. Solche Entscheidungen werden jeweils neu und konkret getroffen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "vertrauen",
+        "title": "Vertrauen und persönliche Grenzen",
+        "paragraphs": [
+          {
+            "text": "Tagebuchstudien von Laurenceau und Kollegen verbinden erlebte Nähe mit Selbstöffnung und wahrgenommener zugewandter Reaktion des Gegenübers. Entscheidend ist dabei nicht nur das Erzählen, sondern auch, wie eine Antwort erlebt wird. Der Befund ist keine Aufforderung, Fremden sofort intime Einzelheiten anzuvertrauen.",
+            "refs": [
+              "naehe"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Eine redaktionelle Orientierung ist: erst eine überschaubare Information teilen, die Reaktion wahrnehmen und dann selbst entscheiden, ob mehr passend ist. Vertraulichkeit lässt sich ausdrücklich ansprechen. Zuverlässige kleine Absprachen können wichtiger sein als große Versprechen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "unterschiede",
+        "title": "Unterschiedliche Bedürfnisse anerkennen",
+        "paragraphs": [
+          {
+            "text": "Ein Mensch möchte häufig kurze Kontakte, ein anderer seltene längere Gespräche. Manche bevorzugen gemeinsame Tätigkeiten, andere einen ruhigen Austausch. Die Aufgabe ist nicht, ein einheitliches Kontaktmaß zu erreichen, sondern eine freiwillige Übereinstimmung zu finden. Nähe darf langsam wachsen; ebenso darf eine Bekanntschaft locker bleiben. Eigene Wünsche und die Grenzen des Gegenübers haben gleichzeitig Platz.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-2": {
+    "intro": "Ein erster Kontakt kann kurz, freundlich und ohne große Selbstdarstellung beginnen. Die folgenden Schritte sind Anregungen, keine verpflichtenden Gesprächstechniken.",
+    "sections": [
+      {
+        "id": "ersterkontakt",
+        "title": "Ein passender Einstieg",
+        "paragraphs": [
+          {
+            "text": "Epley und Schroeder untersuchen unter anderem Gespräche mit Fremden beim Pendeln. In den untersuchten Situationen fiel das Erleben zugewiesener Gespräche günstiger aus, als viele Teilnehmende zuvor erwartet hatten. Das belegt einen kurzfristigen Effekt dieser Versuchssituationen; es sagt nicht, dass jede fremde Person angesprochen werden möchte.",
+            "refs": [
+              "fremde"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Wählen Sie eine Situation, in der ein kurzer Austausch möglich ist. Eine Frage zur gemeinsamen Tätigkeit oder zum Ort kann genügen. Vermeiden Sie Fragen, die sofort eine persönliche Rechtfertigung verlangen. Wenn jemand nicht sprechen möchte oder das Gespräch beendet, lassen Sie es dabei.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "zuhoeren",
+        "title": "Zuhören und nachfragen",
+        "paragraphs": [
+          {
+            "text": "Weger und Kollegen vergleichen aktives Zuhören mit ungefragten Ratschlägen und einfachen Bestätigungen. In den arrangierten Erstgesprächen fühlten sich Menschen bei aktivem Zuhören stärker verstanden. Ein solches Experiment prüft begrenzte Gesprächsreaktionen, nicht die Entstehung langfristiger Freundschaften.",
+            "refs": [
+              "zuhoeren"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Lassen Sie ausreden und fragen Sie nach, was die Person selbst anspricht: „Was hat Ihnen daran gefallen?“ Eine kurze Rückfrage wie „Habe ich das richtig verstanden?“ kann Missverständnisse klären. Fragen sollen Interesse ausdrücken und kein Verhör werden. Auch etwas Eigenes beizutragen gehört zum Austausch.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "gruppen",
+        "title": "Gruppen, Schüchternheit und Gesprächsstile",
+        "paragraphs": [
+          {
+            "text": "Wenn Sie einer Gruppe begegnen, können Sie zunächst nach dem Ablauf fragen und sich an einer gemeinsamen Tätigkeit beteiligen. Eine gastgebende Person kann Einzelpersonen einbeziehen, statt Begleitung vorauszusetzen. Geben Sie sich und anderen Zeit. Blickkontakt, Redetempo und gesprochene Sprache werden hier nicht als Eignungstest für Freundschaft verwendet.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Spontanes Kommen ohne vorherige Verabredung ist in den Berichten ein eigenes Anliegen. Ob ein örtlicher Treff diese Möglichkeit tatsächlich bietet, muss gesondert geprüft werden. Ein offenes Gespräch ersetzt noch nicht die wiederkehrende Gelegenheit, einander kennenzulernen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-3": {
+    "intro": "Eine Bekanntschaft entsteht nicht allein dadurch, dass Kontaktdaten ausgetauscht wurden. Wichtig sind freiwillige Gelegenheiten, einander wiederzusehen und Erwartungen abzustimmen.",
+    "sections": [
+      {
+        "id": "wiederkehr",
+        "title": "Wiedersehen und gemeinsame Aktivitäten",
+        "paragraphs": [
+          {
+            "text": "Halls Studien zeigen Zusammenhänge zwischen gemeinsam verbrachter Zeit, Freizeitaktivitäten und wachsender Nähe. Ein einmaliges Treffen erlaubt noch keine Aussage über eine dauerhafte Beziehung. Die Daten rechtfertigen keine feste Kontaktquote, die jede Person erfüllen müsste.",
+            "refs": [
+              "freundschaftzeit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Nach einem angenehmen Gespräch können Sie konkret und leicht ablehnbar fragen: „Ich bin nächste Woche wieder hier. Wollen wir dann weiterreden?“ Oder Sie schlagen eine kurze gemeinsame Tätigkeit vor. Eine Einladung sollte Zeit, Ort und Umfang verständlich machen. Erst bei beiderseitigem Wunsch werden Kontaktdaten ausgetauscht.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "verlaesslichkeit",
+        "title": "Kleine Absprachen und realistisches Tempo",
+        "paragraphs": [
+          {
+            "text": "Halten Sie eine getroffene Verabredung ein oder sagen Sie rechtzeitig ab. Sprechen Sie offen an, wenn seltene Treffen besser passen. Ein wiederholtes Gespräch darf eine lose Bekanntschaft bleiben. Wer sich mehr Nähe wünscht, kann das vorsichtig ausdrücken; daraus entsteht keine Verpflichtung für die andere Person.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Außerhalb einer Veranstaltung in Kontakt zu bleiben ist eine eigene Entscheidung. Eine Gruppe sollte Kontaktdaten nicht ohne Einwilligung verteilen. Niemand muss sich einer Chatgruppe anschließen oder private Erreichbarkeit anbieten, um weiterhin teilnehmen zu dürfen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "gegenseitig",
+        "title": "Interesse prüfen, ohne Druck aufzubauen",
+        "paragraphs": [
+          {
+            "text": "Achten Sie über mehrere Begegnungen auf beiderseitige Initiative und das tatsächliche Erleben. Wenn Sie unsicher sind, fragen Sie einmal verständlich nach. Eine ausdrückliche Absage wird akzeptiert; anhaltender Rückzug wird nicht durch wiederholtes Nachsetzen beantwortet. So kann eine Bekanntschaft wachsen, ohne dass ein Mensch zum Projekt des anderen wird.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Für spätere Projekte ist getrennt zu prüfen: Fand ein erstes Gespräch statt, kam es zum Wiedersehen, entstand eine freiwillige Bekanntschaft und wurde diese als hilfreich erlebt? Besucherzahlen allein beantworten diese Fragen nicht.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-4": {
+    "intro": "Freundschaft entsteht im Zusammenspiel von gemeinsamer Zeit, erlebtem Verständnis und freiwilliger Verlässlichkeit. Nicht jede Bekanntschaft soll dieselbe Nähe erreichen.",
+    "sections": [
+      {
+        "id": "naehe",
+        "title": "Selbstöffnung und zugewandte Reaktion",
+        "paragraphs": [
+          {
+            "text": "Die Meta-Analyse von Collins und Miller unterscheidet mehrere Richtungen des Zusammenhangs zwischen Selbstöffnung und Sympathie: Menschen öffnen sich eher gegenüber Personen, die sie mögen; Selbstöffnung kann auch mit größerer Sympathie zusammenhängen. Die Ergebnisse sind kontextabhängig. Mehr und immer intimere Informationen sind deshalb kein allgemeines Rezept.",
+            "refs": [
+              "selbstoeffnung"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Teilen Sie nur, was sich für Sie passend anfühlt. Fragen Sie vor einem belastenden Thema, ob die andere Person gerade zuhören kann. Eine Vertrauensperson darf Grenzen haben und dennoch zugewandt sein. Freundschaften, Nachbarschaftshilfe und Partnerschaften werden nicht als austauschbare Beziehungsformen behandelt.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "pflege",
+        "title": "Langfristige Beziehungspflege",
+        "paragraphs": [
+          {
+            "text": "Oswald, Clark und Kelly untersuchen Verhaltensweisen der Freundschaftspflege. Sie unterscheiden unter anderem positive Zuwendung, Unterstützung, Offenheit und gemeinsame Interaktion. Ihre Studien beschreiben beziehungsbezogene Zusammenhänge; sie garantieren keine Wirkung einer einzelnen Nachricht oder Aktivität.",
+            "refs": [
+              "pflege"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Eine alltagstaugliche Anregung ist, sich nach vereinbarten Gelegenheiten wieder zu melden, Interesse an wichtigen Ereignissen zu zeigen und Absprachen zu klären. Bei Umzug oder veränderten Arbeitszeiten kann gemeinsam nach einem anderen Rhythmus gesucht werden. Unterstützung muss zu den Möglichkeiten beider Menschen passen und darf auch von der sonst eher unterstützten Person ausgehen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "qualitaet",
+        "title": "Wenn eine Vertrauensperson fehlt",
+        "paragraphs": [
+          {
+            "text": "Wer viele Bekannte, aber keine vertrauliche Beziehung hat, kann überlegen, mit wem ein etwas persönlicheres Gespräch freiwillig möglich wäre. Nicht eine Person muss sämtliche Bedürfnisse erfüllen. Klären Sie Nähe schrittweise, ohne Bekanntschaften abzuwerten. Einseitige Belastung, Vereinnahmung und dauerhafte Abwertung werden im Abschnitt über Grenzen behandelt.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Ob eine Begegnung Einsamkeit längerfristig verändert, muss zusätzlich zu Kontaktzahl und Beziehungsdauer untersucht werden. Subjektive Verbundenheit, Freiwilligkeit und Sicherheit sollen als eigene Ergebnisse berücksichtigt werden.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-5": {
+    "intro": "Unsicherheit und schwierige Erfahrungen verdienen Aufmerksamkeit. Sie erlauben keine pauschale Aussage, jemand sei für Beziehungen ungeeignet.",
+    "sections": [
+      {
+        "id": "erwartungen",
+        "title": "Angst vor Ablehnung und negative Selbsteinschätzung",
+        "paragraphs": [
+          {
+            "text": "Boothby und Kollegen finden in mehreren Studien, dass Gesprächspartner die Sympathie des Gegenübers im Mittel unterschätzen. Dieser „Liking Gap“ beschreibt eine durchschnittliche Fehleinschätzung in den untersuchten Situationen. Er beweist nicht, dass eine bestimmte Person Sie mag, und darf eine ausdrückliche Ablehnung nicht übergehen.",
+            "refs": [
+              "likinggap"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Trennen Sie nach einer Begegnung Beobachtung und Bewertung: „Das Gespräch dauerte kurz“ ist beobachtbar; „Ich bin uninteressant“ ist eine weitergehende Deutung. Fragen Sie, was tatsächlich gesagt wurde, statt Gedanken des Gegenübers als sicher anzunehmen. Reale Zurückweisung oder Ausgrenzung wird damit nicht bestritten.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "belastungen",
+        "title": "Vertrauensbrüche und Rückzug",
+        "paragraphs": [
+          {
+            "text": "Die Berichte nennen die Angst, zur Last zu fallen, schmerzhafte Freundschaften, Mobbing und lange Isolation. Diese Aspekte werden hier als Anliegen für einen geschützten, selbst bestimmten Kontaktaufbau behandelt. Sie werden nicht zu einer Ferndiagnose zusammengezogen. Bei Gewalt- oder traumatischen Erfahrungen gehört eine vertiefte fachliche Betrachtung in den dafür vorgesehenen Bereich.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Sie können eine Begegnung zeitlich begrenzen, eine gemeinsame Tätigkeit wählen oder um eine ruhige Einführung in eine Gruppe bitten. Niemand muss schlechte Erfahrungen erzählen, um Rücksicht zu erhalten. Wenn ein Umfeld abwertend oder ausgrenzend reagiert, ist nicht mehr Anpassungsleistung der betroffenen Person das einzige Thema.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "tempo",
+        "title": "Nach langjähriger Isolation beginnen",
+        "paragraphs": [
+          {
+            "text": "Beginnen Sie mit einem Schritt, den Sie selbst für tragbar halten. Ziel kann zunächst sein, einen Ort kennenzulernen oder eine kurze Frage zu stellen. Erst danach wird über eine Wiederholung entschieden. Die hier genannten Übungen ersetzen keine Behandlung; bei erheblicher Belastung kann persönliche fachliche Unterstützung sinnvoll sein. Forschung über kurze Erstgespräche ist kein ausreichender Wirksamkeitsnachweis für den gesamten Weg aus jahrelanger Isolation.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-6": {
+    "intro": "Ein respektvoller Kontakt schließt ein, dass jemand Nein sagt oder Abstand möchte. Freiwilligkeit und Schutz haben Vorrang vor dem Wunsch, eine Beziehung fortzusetzen.",
+    "sections": [
+      {
+        "id": "ablehnung",
+        "title": "Ein Nein gilt ohne Überredung",
+        "paragraphs": [
+          {
+            "text": "Die redaktionelle Regel dieser Plattform lautet: Eine Absage wird angenommen. Niemand muss fehlendes Interesse begründen oder eine Gelegenheit geben, um höflich zu sein. Aus einer abgelehnten Einladung folgt kein Urteil über den Wert eines Menschen. Wer enttäuscht ist, darf dieses Gefühl haben, ohne die andere Person verantwortlich für eine Fortsetzung zu machen.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Eine mögliche Antwort ist: „Danke für die klare Rückmeldung.“ Verzichten Sie auf wiederholte Nachrichten, Schuldzuweisungen oder den Versuch, eine Absage vor der Gruppe zu verhandeln. Bei unklaren Erwartungen kann einmal sachlich nachgefragt werden. Eindeutige Distanzwünsche werden danach respektiert.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "gespraeche",
+        "title": "Gespräche und Grenzen abstimmen",
+        "paragraphs": [
+          {
+            "text": "Mastroianni und Kollegen untersuchen gewünschte und tatsächliche Gesprächsenden. Die beiden Studien zeigen, dass Beteiligte die Wünsche des Gegenübers häufig nicht richtig einschätzen. Diese begrenzten Befunde sprechen dafür, Zeit und Fortsetzung ausdrücklich abzustimmen; sie begründen keine starre Gesprächsdauer.",
+            "refs": [
+              "gespraechsende"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Sagen Sie beispielsweise: „Ich muss gleich los“ oder „Möchten Sie noch reden oder brauchen Sie eine Pause?“ Die andere Person muss nicht erst eine Begründung liefern. Respekt gilt auch für Themen, Körperabstand, Bilder und Weitergabe persönlicher Informationen.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "schutz",
+        "title": "Konflikte, Ausgrenzung und Übergriffe",
+        "paragraphs": [
+          {
+            "text": "Für Begegnungsgruppen sind klare Regeln gegen Beleidigung, Diskriminierung, Bedrängen und unerwünschte Kontaktaufnahme erforderlich. Konfliktklärung darf keine erzwungene Versöhnung werden. Bei kontrollierendem oder gewalttätigem Verhalten steht Schutz vor Beziehungserhalt; eine allgemeine Gesprächsübung ist dafür keine ausreichende Hilfe.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Für spätere moderierte Angebote müssen Ansprechpersonen, Beschwerdewege und Grenzen der Vertraulichkeit vorab geklärt sein. Die Plattform aktiviert hier weder eine Kontaktvermittlung noch einen öffentlichen Kommentarbereich. Persönliche Sicherheit wird nicht aus einer freundlichen ersten Begegnung abgeleitet.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-7": {
+    "intro": "Praktische Anregungen sollen nachvollziehbar auf Forschung bezogen sein. Sie sind keine Erfolgsgarantie und kein Ersatz für eine persönliche fachliche Einschätzung.",
+    "sections": [
+      {
+        "id": "evidenz",
+        "title": "Was die Studien tatsächlich untersuchen",
+        "paragraphs": [
+          {
+            "text": "Gesprächsstudien untersuchen häufig kurzfristiges Erleben oder Sympathie. Freundschaftsstudien betrachten gemeinsame Zeit, Nähe und Pflege über längere Abschnitte. Psychologische Interventionsstudien prüfen wiederum bestimmte Verfahren gegen Einsamkeit. Diese Ergebnisse dürfen nicht als dieselbe Wirkung ausgegeben werden. Forschung zu Selbstöffnung und Responsivität ergänzt Bindungsfragen, erlaubt aber keine Diagnose eines „Bindungstyps“ aus wenigen Begegnungen.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Sandstrom, Boothby und Cooney untersuchen wiederholte Gespräche mit Fremden über eine Woche. Gegenüber der Kontrollbedingung wurden Erwartungen zu Ablehnung und eigener Gesprächsfähigkeit günstiger; Verbesserungen bestanden noch bei kurzer Nachbeobachtung. Eine dauerhafte Freundschafts- oder Therapiewirkung bei langjähriger Isolation wurde damit nicht nachgewiesen.",
+            "refs": [
+              "ueben"
+            ],
+            "kind": "forschung"
+          }
+        ]
+      },
+      {
+        "id": "uebung",
+        "title": "Eine selbst bestimmte Übung",
+        "paragraphs": [
+          {
+            "text": "Wählen Sie eine sichere, passende Begegnungssituation. Notieren Sie für sich eine konkrete Erwartung, etwa dass eine kurze Frage ungelegen kommen könnte. Fragen Sie zunächst, ob ein Gespräch passt. Nachher vergleichen Sie Ihre Erwartung mit dem tatsächlichen Verlauf. Entscheiden Sie selbst, ob und wann Sie eine ähnliche Begegnung wiederholen möchten. Die Notiz muss weder hier eingegeben noch geteilt werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Eine zweite Anregung ist eine kleine wiederkehrende Tätigkeit mit beiderseitigem Interesse. Vereinbaren Sie nur, was zeitlich und persönlich passt. Der Erfolg wird nicht daran gemessen, wie viele Menschen Sie ansprechen, sondern daran, ob ein Kontakt freiwillig, respektvoll und für Sie passend ist.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "grenzen",
+        "title": "Grenzen der Übertragung",
+        "paragraphs": [
+          {
+            "text": "Viele Studien stammen aus bestimmten Ländern, Hochschulkontexten oder ausgewählten Alltagssituationen. Andere Sprachen, Behinderungen, soziale Lebenslagen und belastende Erfahrungen sind nicht automatisch ausreichend abgebildet. Die Übungen sind deshalb redaktionelle Ableitungen mit begrenztem Geltungsanspruch. Eigene Rückmeldungen und bessere Forschung können eine Anpassung erforderlich machen.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die Berichte nennen auch psychische Widerstandsfähigkeit und soziale Kompetenzen. Welche Übungen Selbstvertrauen, Teilhabe oder längerfristige Verbundenheit tatsächlich verbessern, ist jeweils gesondert zu prüfen. Ein positives Erstgespräch belegt diese weitergehenden Wirkungen noch nicht.",
+            "refs": [],
+            "kind": "forschungsfrage"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  },
+  "t3-8": {
+    "intro": "Für dieses Hauptthema ist ein später moderierter Kommentarbereich mit höchstens 250 Zeichen vorgesehen. Hier lässt sich ausschließlich eine lokale Texteingabe prüfen.",
+    "sections": [
+      {
+        "id": "zweck",
+        "title": "Welche Rückmeldungen später möglich sein sollen",
+        "paragraphs": [
+          {
+            "text": "Gedacht sind kurze Erfahrungen, Fragen und Hinweise zu respektvollem Kennenlernen. Die Themenbereiche Bekanntschaft, Freundschaft und Nachbarschaft bleiben eingeschlossen. Ein Kommentar soll andere Personen nicht identifizierbar bloßstellen, keine Kontaktdaten Dritter enthalten und keine vertraulichen Gesprächsinhalte ungefragt weitergeben.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die maximale Länge soll kurze Beiträge ermöglichen. Wissenschaftliche Belege und ausführliche Erfahrungen benötigen gegebenenfalls andere redaktionelle Wege; sie werden nicht durch eine einzelne kurze Rückmeldung ersetzt. Kommentare wären persönliche Aussagen und dürften nicht automatisch als wissenschaftliche Erkenntnisse erscheinen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "betrieb",
+        "title": "Was die lokale Prüfung macht",
+        "paragraphs": [
+          {
+            "text": "Das Textfeld ist bedienbar. „Eingabe prüfen“ kontrolliert ausschließlich, ob Text vorhanden ist und höchstens 250 Zeichen eingegeben wurden. Leerraum allein ist kein Kommentar. Gezählt werden Zeichen wie in der Eingabefeld-Längenbegrenzung; einzelne Symbole können technisch mehr als eine Zeicheneinheit belegen. Die Anzeige zeigt die verwendete Länge unmittelbar.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Die Eingabe bleibt im Arbeitsspeicher dieser Formularansicht. Es gibt keine Übermittlung, dauerhafte Speicherung oder Veröffentlichung. Beim Verlassen der Ansicht oder Neuladen wird sie verworfen. Eine erfolgreiche Prüfung bedeutet ausdrücklich keine Einreichung.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "spaeter",
+        "title": "Voraussetzungen einer späteren Freischaltung",
+        "paragraphs": [
+          {
+            "text": "Ein öffentlicher Betrieb benötigt zuvor einen ausdrücklich beauftragten Speicher- und Moderationsablauf, geregelten Zugang, Datenschutz- und Sicherheitsprüfung sowie eine Entscheidung über Änderungsverlauf, Beschwerden und Löschung. Ungeprüfte Kommentare dürfen nicht automatisch veröffentlicht werden. Der vollständige Funktionstest ist in Auftrag 7 vorgesehen; hier werden nur Gestaltung, Längengrenze und die lokale Eingabeprüfung vorbereitet.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-12"
+  }
+}
