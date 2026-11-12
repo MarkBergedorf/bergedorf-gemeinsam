@@ -32,3 +32,14 @@ Alle 88 großen Dateien werden gegen die bereits dokumentierten Archivprüfsumme
 Der Produktionsbuild bewahrt `noindex`, vier Beispieldatensätze, 69 redaktionelle Verzeichniseinträge und null operative Nutzerdatensätze. Öffentliche Schreibfunktionen, Karten, Installation, die Themenhierarchie und die private Sites-Version 99 werden nicht geändert.
 
 Eine lokale Browserausführung ist durch die verfügbare Umgebung blockiert (Chromium: Unix-Socket nicht erlaubt; Cloud-Browser erreicht den lokalen Server nicht). Eine echte Smartphoneprüfung ist deshalb nicht bestätigt. Die Browserdarstellung und Auslieferung werden nach der GitHub-Pages-Veröffentlichung gesondert kontrolliert. Die große Dateiübertragung erfolgt mit Abgleich der von GitHub bestätigten Git-Blob-SHAs vor dem Aktualisieren von main.
+
+## Bestätigter Abschluss
+
+- Implementierungscommit: `2caf829596ac379180506882a26611ce40d30cba`.
+- 134 Frontendtests bestanden; Produktionsbuild und Pages-Synchronisierung erfolgreich.
+- Vollständiger lokaler und von GitHub bestätigter Dateibaum identisch: `6dbdee9d9f3ff176329a9151f548163bb712ccd9`.
+- Alle 176 unterschiedlichen Bilddateien (88 große Fassungen und 88 Vorschauen) vor der Branch-Aktualisierung unter der jeweils erwarteten Git-Blob-Prüfsumme auf GitHub bestätigt.
+- GitHub-Pages-Lauf `43308682174`: abgeschlossen, Ergebnis `success`, Commit stimmt mit dem Implementierungscommit überein.
+- Öffentliche Browserprüfung: Galerien zunächst geschlossen und ohne Bildknoten. Gasthof Zur Sonne: zwölf von zwölf Vorschauen geladen. Kaffee Möller: fünf von fünf Vorschauen geladen; Großansicht B066 öffentlich mit 2037 × 1908 Pixeln geöffnet.
+- Öffentliche Gesamtübersicht: drei Galerien mit 38, 29 und 21 Abbildungen; geöffnet insgesamt 88 Bildknoten und 88 unterschiedliche ursprüngliche Bildnummern.
+- Keine echte Smartphoneprüfung und keine vollständige Screenreader-/Mehrbrowserprüfung bestätigt. Keine neue historische Ortsrecherche oder abschließende Rechtekettenprüfung behauptet. Die private Sites-Version 99 blieb unverändert.
