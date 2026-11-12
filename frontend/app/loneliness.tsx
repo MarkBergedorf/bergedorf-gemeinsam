@@ -1,4 +1,5 @@
 'use client';
+import {HistoricalDirectoryEntry} from './historical-directory-entry';
 import {useEffect,useRef,useState} from 'react';
 import {ArrowRight,ArrowLeft,Search,HeartHandshake,BookOpen} from 'lucide-react';
 import {useRoute,navigate} from './navigation';
@@ -27,6 +28,7 @@ export function LonelinessPage(){
  {node&&node.path[0]==='hilfe'&&<LonelinessHelp key={pathKey} id={node.id}/>}
  {node&&['lebenssituationen','gesundheit','selbst-aktiv-werden','begegnung','begegnungsstaette','stadtteile'].includes(node.path[0])&&<p className="loneliness-direct-help"><a href="#einsamkeit/hilfe">Direkt zu Beratung, Gesprächsangeboten und praktischer Unterstützung</a></p>}
  {node&&node.path[0]==='gesundheit'&&<LonelinessUrgentHelp/>}
+ {(isRoot||['begegnung','stadtteile'].includes(node?.id))&&<HistoricalDirectoryEntry/>}
  <section className="loneliness-search" aria-labelledby="loneliness-search-heading"><h2 id="loneliness-search-heading">Themensuche</h2><form role="search" aria-label="Einsamkeitsthemen durchsuchen" onSubmit={e=>{e.preventDefault();navigate(lonelinessSearchHref(draft),{scroll:false})}}><label htmlFor="loneliness-search">Vorhandene Themen durchsuchen</label><div><input id="loneliness-search" type="search" value={draft} maxLength={300} onChange={e=>setDraft(e.target.value)} placeholder="Zum Beispiel: Begegnung oder Unterstützung"/><button type="submit"><Search aria-hidden="true" size={18}/> Suchen</button></div></form><p>Die Suche berücksichtigt nur tatsächlich vorhandene Überschriften, Kurzbeschreibungen und redaktionelle Texte.</p>
  {q&&<section className="loneliness-results" aria-labelledby="loneliness-results-heading"><h3 id="loneliness-results-heading">Suchergebnisse für „{q}“</h3><p role="status">{results.length} {results.length===1?'Thema gefunden':'Themen gefunden'}.{results.length===0?' Versuchen Sie einen anderen Suchbegriff.':''}</p><ul>{results.map(result=><li key={result.href}><a href={result.href}>{result.title}</a><p className="loneliness-result-path">{lonelinessBreadcrumbs(result).map(c=>c.title).join(' › ')}</p><p>{topicDescription(result)}</p></li>)}</ul><a href={lonelinessRoute}>Suche zurücksetzen und alle Themen anzeigen</a></section>}
  </section>
