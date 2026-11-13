@@ -14,7 +14,8 @@ const source=readFileSync('app/encounter-policy.tsx','utf8');
 const code=ts.transpileModule(source.replace("import './encounter-policy.css';",''),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
 const components={};new Function('require','exports',code)(createRequire(import.meta.url),components);
 const html=renderToStaticMarkup(React.createElement(components.EncounterPolicyArticle));
-function withoutOperatingExpansion(value){const replacements=JSON.parse(readFileSync('tests/fixtures/encounter-operation-authorized-changes.json','utf8'));for(const {before,after} of replacements.toReversed()){assert(value.includes(after),'Dokumentierte Ergänzung muss vorhanden sein');value=value.replace(after,before)}return value;}
+function withoutPopulationExpansion(value){const replacements=JSON.parse(readFileSync('tests/fixtures/encounter-population-authorized-changes.json','utf8'));for(const {before,after} of replacements.toReversed()){assert(value.includes(after),'Neue dokumentierte Ergänzung muss vorhanden sein');value=value.replace(after,before)}return value;}
+function withoutOperatingExpansion(value){value=withoutPopulationExpansion(value);const replacements=JSON.parse(readFileSync('tests/fixtures/encounter-operation-authorized-changes.json','utf8'));for(const {before,after} of replacements.toReversed()){assert(value.includes(after),'Dokumentierte Ergänzung muss vorhanden sein');value=value.replace(after,before)}return value;}
 test('Alle 138 bisherigen Themen bytegleich erhalten; genau ein direkt aufrufbarer Synthesebeitrag hinzugefügt',()=>{
  assert(originalHierarchyBytes().equals(execFileSync('git',['show',base+':frontend/lib/loneliness-topics.json'])));
  assert.equal(lonelinessIndex.length,139);assert.equal(lonelinessTopics.length,18);
@@ -117,4 +118,19 @@ test('Vollständige Hausordnungsgrundsätze, alle 25 neuen Teilabschnitte und Qu
  const rules=operating.find(s=>s.number===19).blocks.find(b=>b.kind==='ol');assert.equal(rules.items.length,18);const view=rendered(19);for(const rule of rules.items)assert(view.includes(rule));assert(view.includes('verhältnismäßig'));assert(view.includes('keine bereits geltende Hausordnung'));assert(html.includes('encounter-house-rules'));
  for(const section of operating){assert(html.includes(section.title));for(const block of section.blocks){if(block.kind==='p')assert(block.text.trim());for(const ref of block.refs||[])assert(html.includes('Quelle: '),ref);}}
  assert(html.includes('keine Aktivierung neuer Websitefunktionen'));assert.equal((html.match(/<form /g)||[]).length,1);assert(!/fetch\s*\(|XMLHttpRequest|sendBeacon|localStorage|sessionStorage|indexedDB/.test(source));
+});
+
+test('Neue politische Ergänzungen erhalten den vollständigen bisherigen Beitrag bis auf dokumentierte Änderungen',()=>{
+ assert.equal(withoutPopulationExpansion(source),execFileSync('git',['show','181c6fe8b69a3bcd1a5f1ede79d1f24e080b4caa:frontend/app/encounter-policy.tsx'],{encoding:'utf8'}));
+});
+test('Historische Kontaktverluste als Untersuchungsauftrag mit Sammlung und Lebensgeschichten',()=>{
+ for(const t of ['encounter-history-loneliness','88 Bildern','Menschen und ihre Lebensgeschichten','Scham','keine Befragung über heutige Einsamkeit','ohne verpflichtende Teilnahme'])assert(html.includes(t),t);
+});
+test('KörberHaus: offene Angebote, überprüfte Zeiten und negative zielbezogene Bewertung getrennt',()=>{
+ for(const t of ['50 m²','kostenlos, ohne Anmeldung','Montag bis Samstag von 7 bis 22 Uhr','Sonn- und Feiertagen geschlossen','Montag bis Freitag von 10 bis 17 Uhr','ab 18 Uhr bis nach der Pause','Persönliche, nicht repräsentative Erfahrung','keine repräsentative Erhebung','als nicht ausreichend','nicht als Nachweis','https://koerberhaus.de/besuchen/oeffnungszeiten','https://koerberhaus.de/mitmachen'])assert(html.includes(t),t);
+});
+test('90-Prozent-Forderung verlangt gemeinsamen Anteil einschließlich Nichtnutzern und fünf Fragen',()=>{
+ const section=html.match(/<section aria-labelledby="encounter-population-target"[\s\S]*?<\/section>/)[0];
+ const questions=section.match(/<ol aria-label="Fünf Fragen[^>]*>[\s\S]*?<\/ol>/)[0];assert.equal((questions.match(/<li>/g)||[]).length,5);
+ for(const t of ['mindestens 90 Prozent','kein bereits gemessener Wert','Dieselben befragten Personen','Einzelne Quoten','erstmaligen Besuchs','Nichtnutzer bleiben','alle 14 Stadtteile','Teilnahmeverweigerungen','fehlende Befragungsdaten','ein paar Hundert'])assert(section.includes(t),t);
 });
