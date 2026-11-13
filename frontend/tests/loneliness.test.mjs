@@ -6,7 +6,7 @@ import {lonelinessTopics,lonelinessGroups,lonelinessIndex,buildTopicIndex,resolv
 import {parseRoute} from '../lib/navigation.mjs';
 test('Alle 18 beauftragten Hauptthemen unverändert und genau einer visuellen Gruppe zugeordnet',()=>{
  const expected=['Einsamkeit verstehen','Warum entsteht Einsamkeit?','Was ist ein gesundes Kennenlernen?','Einsamkeit in unterschiedlichen Lebensphasen und Lebenssituationen','Einsamkeit und Gesundheit','Was kann ich selbst gegen Einsamkeit tun?','Hilfe, Beratung und Unterstützung finden','Begegnung und Gemeinschaft im Alltag','Wie gründe ich eine Begegnungsstätte, die von allen Gruppen der Gesellschaft besucht wird?','Einsamkeit in Bergedorf – Stadtteile und örtliche Lebensbedingungen','Organisationen, Einrichtungen und Netzwerke','Menschen erreichen, die bisher keine Angebote nutzen','Wissenschaft, Forschung und Wirksamkeit','Das Hamburger Bündnis gegen Einsamkeit','Politik, Strategien und öffentliche Verantwortung','Digitale Beziehungen, Medien und neue Technologien','Veranstaltungen, Projekte und Mitwirkung','Quellen, Dokumentation und Transparenz'];
- assert.deepEqual(lonelinessTopics.map(n=>n.title),expected);assert.equal(lonelinessGroups.length,4);assert.equal(lonelinessIndex.length,138);
+ assert.deepEqual(lonelinessTopics.map(n=>n.title),expected);assert.equal(lonelinessGroups.length,4);assert.equal(lonelinessIndex.length,139);
  for(const n of lonelinessTopics){assert.equal(lonelinessGroups.filter(g=>g.id===n.group).length,1);assert(n.description.trim());assert(n.children.length>0);assert.equal(n.content,'');}
 });
 test('Jede veröffentlichte Adresse lässt sich direkt auflösen, falsche Pfade werden nicht umgedeutet',()=>{

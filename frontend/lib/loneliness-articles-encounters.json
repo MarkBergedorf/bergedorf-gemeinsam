@@ -1,0 +1,152 @@
+{
+  "t2-7": {
+    "date": "13. November 2026",
+    "intro": "Neue Kontakte benötigen erreichbare Orte, Zeit und die Möglichkeit wiederzukommen. Dieser Beitrag verbindet die vorhandenen Unterthemen über veränderte Kennenlernformen und verschwundene Orte, ohne sie zu ersetzen. Er untersucht konkrete Hindernisse; der Titel ist keine statistisch belegte Aussage, dass Kennenlernen heute für alle schwieriger sei als früher.",
+    "sections": [
+      {
+        "id": "historischer-wandel",
+        "title": "Frühere Treffpunkte und dokumentierter Wandel",
+        "paragraphs": [
+          {
+            "text": "Gaststätten, Kneipen, Cafés, Tanz- und Vereinslokale boten Gelegenheiten für Aufenthalt und wiederkehrende Begegnungen. Das vorhandene historische Verzeichnis erschließt dazu Bilder, Anzeigen, Zeitungsartikel und Erinnerungen mit unterschiedlichem Belegstatus. Beispielsweise dokumentiert der Datensatz Sander Krug an der Alten Holstenstraße 42 den früheren Betrieb anhand der gedruckten Liste B002 und des Plans B027; die dort angeführte Stadtteilzeitung Nr. 59 von 2023 erinnert ihn als nicht mehr vorhandenes Geschäft. Widersprüchliche Betriebsdaten bleiben im Originaldatensatz erkennbar.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Mit dem Ende eines konkreten Betriebs entfällt die Möglichkeit, gerade dieses Lokal regelmäßig aufzusuchen. Ob für frühere Gäste ein gleichwertiger Ersatz erreichbar wurde und welche Kontakte davon betroffen waren, muss gesondert untersucht werden. Die Sammlung belegt weder für alle Lokale dieselben früheren Zugangsbedingungen noch eine alleinige oder überwiegende Verursachung heutiger Einsamkeit durch deren Verlust.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "spontane-kontakte",
+        "title": "Spontane Anwesenheit und wiederkehrende Kontakte",
+        "paragraphs": [
+          {
+            "text": "Forschung zu schwachen sozialen Bindungen zeigt Zusammenhänge zwischen alltäglichen Interaktionen, Zugehörigkeitsgefühl und Wohlbefinden. Halls Befragungen und Verlaufsdaten verbinden gemeinsam verbrachte Zeit und Freizeitaktivitäten mit größerer Beziehungsnähe. Daraus folgt keine feste Stundenregel für einzelne Menschen und kein örtlicher Wirksamkeitsnachweis.",
+            "refs": [
+              "schwachekontakte",
+              "freundschaftzeit"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Ein Sitzplatz neben anderen Menschen ist zunächst eine Aufenthaltsmöglichkeit. Regelmäßige Öffnung, gemeinsame Tätigkeiten und eine ansprechbare gastgebende Person können als Gestaltungsvorschläge Gelegenheiten zum Gespräch schaffen. Für die örtliche Untersuchung sind spontane Teilnahme ohne Verabredung, die Möglichkeit allein zu kommen und die Wahrscheinlichkeit wiederholter Begegnungen getrennt zu erfassen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "kosten",
+        "title": "Kosten und wirtschaftliche Zugangshürden",
+        "paragraphs": [
+          {
+            "text": "Die im Projekt dokumentierte Expertise zu Einsamkeit und Armut beschreibt finanzielle Benachteiligung und eingeschränkte Teilhabe als miteinander verbundene Lebensbedingungen. Ein statistischer Zusammenhang erlaubt keine Zuschreibung an jede Person mit geringem Einkommen.",
+            "refs": [
+              "armut"
+            ],
+            "kind": "forschung"
+          },
+          {
+            "text": "Eintritt, Mindestverzehr, Speisen- und Getränkepreise, Mitgliedsbeiträge, Kursgebühren und Fahrtkosten sind getrennte Kosten. Für regelmäßige Besuche zählt die wiederkehrende Gesamtbelastung. Ob ein konkreter Ort bezahlbar ist, ist anhand aktueller Preise und freiwilliger Rückmeldungen zu prüfen. Es liegt hier keine vollständige Bergedorfer Preis- und Zugangsübersicht vor.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "oeffentlicher-raum",
+        "title": "Geschäfte, Einkaufsstraßen und öffentliche Aufenthaltsorte",
+        "paragraphs": [
+          {
+            "text": "Die amtliche Gebietsbeschreibung zum Zentrum Bergedorf nennt die Schließung früherer Karstadt-Standorte und untergenutzte Flächen als Entwicklungsanlässe. Das RISE-Gebiet soll unter anderem Begegnung, Kultur und Freizeit stärken. Diese dokumentierten Veränderungen sind keine Zählung sämtlicher verlorener Treffpunkte.",
+            "refs": [
+              "zwischen-rise"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Für einen belastbaren Vergleich sind Sitzgelegenheiten, Wetterschutz, öffentlich zugängliche Innenräume, Toiletten, Barrierefreiheit und erreichbare Öffnungszeiten vor Ort zu erfassen. Eine bloße Karte von Gebäuden sagt noch nicht, ob dort Gespräche willkommen sind. Ob diese Voraussetzungen in allen Bergedorfer Stadtteilen ausreichen, bleibt eine zu untersuchende Frage.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "lebenssituationen",
+        "title": "Unterschiedliche Lebenssituationen und persönliche Hürden",
+        "paragraphs": [
+          {
+            "text": "Wer allein kommt und kein vorhandenes Netzwerk nutzen kann, benötigt verständliche Information zum ersten Besuch. Erwerbszeiten, Sorgearbeit, verfügbares Einkommen, ein stufenloser Weg und geeignete Verkehrsverbindungen sind konkrete Prüfmerkmale. Lebensalter, Herkunft oder Behinderung erklären nicht pauschal, ob jemand Kontakte sucht oder Schwierigkeiten erlebt.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Eine örtliche Erhebung sollte daher Wege mit Mobilitätshilfen, zugängliche Toiletten, Ruhe- und Sitzmöglichkeiten, verständliche Hinweise sowie Abend- und Wochenendzeiten prüfen. Freiwillige Gespräche mit Menschen verschiedener Lebenslagen müssen auch Personen einbeziehen, die bisher keine Angebote besuchen. Ein ausschließlich unter Stammgästen erhobenes Urteil erfasst diese Zugangshürden nicht.",
+            "refs": [],
+            "kind": "praxis"
+          }
+        ]
+      },
+      {
+        "id": "digital",
+        "title": "Digitale Kontakte und persönliche Begegnungen",
+        "paragraphs": [
+          {
+            "text": "Digitale Kommunikation kann zur Information, Terminabstimmung und Kontaktpflege genutzt werden. Der Zugang setzt ein geeignetes Gerät, Verbindung und Bedienmöglichkeiten voraus. Wer einen Treffpunkt ausschließlich online ankündigt, stellt diese Voraussetzungen auch für den Erstkontakt. Eine zusätzliche analoge Bekanntmachung ist deshalb ein praktischer Vorschlag.",
+            "refs": [],
+            "kind": "einordnung"
+          },
+          {
+            "text": "Ein Onlinekontakt und ein regelmäßiges persönliches Treffen sind unterschiedliche Kontaktformen. Dieser Beitrag behauptet weder, dass soziale Netzwerke generell persönliche Beziehungen verdrängen, noch dass digitale Kontakte allein eine örtliche Begegnungsinfrastruktur ersetzen. Beides müsste an konkreten Nutzungsformen und geeigneten Daten untersucht werden.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "angebote",
+        "title": "Vorhandene offene Angebote berücksichtigen",
+        "paragraphs": [
+          {
+            "text": "Das KörberHaus beschreibt sich als offenen Begegnungsort für alle Generationen und Kulturen. Es ist deshalb ausdrücklich in die Bestandsaufnahme einzubeziehen. Aus dieser Selbstdarstellung allein folgen noch keine Aussagen über die Preise jedes Angebots, spontane Teilnahme an sämtlichen Veranstaltungen oder die vollständige Erfüllung aller politischen Kriterien.",
+            "refs": [
+              "zwischen-koerber"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Die Bezirksvorlage zur Sanierung und Erweiterung des Bürgerhauses Allermöhe beschreibt ebenfalls einen generations- und kulturübergreifenden Ort und die Zusammenarbeit von Bezirksamt, Stadtentwicklungsbehörde, SAGA und Trägerverein. Diese vorhandene Infrastruktur darf nicht übergangen werden. Ausbauplanung und dauerhaft nachgewiesene Zielerreichung sind getrennt zu prüfen.",
+            "refs": [
+              "zwischen-allermoehe"
+            ],
+            "kind": "amtlich"
+          },
+          {
+            "text": "Für Bergedorf fehlt in dieser Untersuchung eine vollständige, nach denselben Kriterien geprüfte Bestandsaufnahme zu spontanen Besuchen, Anmeldung, Mitgliedschaft, Konsumzwang und laufenden Preisen. Eine flächendeckende Versorgungslücke wird deshalb hier nicht als bereits vermessenes Forschungsergebnis ausgegeben. Die verlinkten Hilfs- und Stadtteilbereiche bieten zusätzliche konkrete Zugänge.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      },
+      {
+        "id": "handeln",
+        "title": "Handlungsmöglichkeiten und politische Forderung",
+        "paragraphs": [
+          {
+            "text": "Aus den Prüfmerkmalen ergeben sich nachvollziehbare Verbesserungsansätze: verlässliche offene Zeiten, barrierefreie Räume, günstige Verpflegung, Aufenthalt ohne Konsumzwang, analoge Information und Unterstützung beim ersten Besuch. Ob diese Maßnahmen vor Ort wirken, muss mit Nutzenden und bisher nicht erreichten Menschen überprüft werden.",
+            "refs": [],
+            "kind": "praxis"
+          },
+          {
+            "text": "Die unabhängige Bürgerplattform fordert politisch eine dauerhafte öffentliche Finanzierung allgemein zugänglicher, generationenübergreifender Begegnungsstätten. Diese Forderung und ihre Bewertungskriterien sind im eigenständigen Politikbeitrag dokumentiert. Historische Dokumentation, wissenschaftliche Untersuchung und politische Bewertung bleiben unterschiedliche Funktionen.",
+            "refs": [],
+            "kind": "einordnung"
+          }
+        ]
+      }
+    ]
+  }
+}

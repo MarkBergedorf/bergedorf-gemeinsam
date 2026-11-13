@@ -301,6 +301,26 @@
         "content": "",
         "children": [],
         "conceptLine": 106
+      },
+      {
+        "id": "t2-7",
+        "title": "Warum ist es heute schwierig, neue Menschen kennenzulernen?",
+        "description": "Begegnungsorte, Kosten, öffentlicher Raum und persönliche Zugänge: Forschung, Bergedorfer Quellen und offene Bestandsfragen.",
+        "content": "",
+        "children": [],
+        "scope": [
+          "Frühere und heutige Begegnungsorte nach denselben Zugangskriterien vergleichen.",
+          "Kosten, Mobilität, Zeit und digitale Zugänge getrennt untersuchen.",
+          "Bestehende Angebote und örtliche Forschungsfragen sichtbar machen."
+        ],
+        "related": [
+          "t2-4",
+          "t2-5",
+          "t3-5",
+          "t8-3",
+          "t10-6"
+        ],
+        "conceptNumber": "2.7"
       }
     ],
     "conceptLine": 47,

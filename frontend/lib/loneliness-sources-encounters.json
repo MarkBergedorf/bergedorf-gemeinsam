@@ -1,0 +1,32 @@
+{
+  "zwischen-rise": {
+    "authors": "Bezirksamt Bergedorf",
+    "year": 2026,
+    "title": "Gebietsentwicklung Zentrum Bergedorf",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/zentrum-bergedorf-624018",
+    "publication": "hamburg.de, geprüft 13.11.2026",
+    "method": "Amtliche Gebietsbeschreibung, Förderphase 2022–2029.",
+    "limitations": "Keine vollständige Evaluation heutiger Begegnungsmöglichkeiten.",
+    "checked": "2026-11-13"
+  },
+  "zwischen-koerber": {
+    "authors": "KörberHaus",
+    "year": 2026,
+    "title": "Treffpunkt für alle Generationen und Kulturen",
+    "url": "https://koerberhaus.de/",
+    "publication": "Anbieterinformation, geprüft 13.11.2026",
+    "method": "Selbstbeschreibung des Begegnungsortes.",
+    "limitations": "Keine unabhängige Wirkungsmessung oder vollständige Zugangsprüfung.",
+    "checked": "2026-11-13"
+  },
+  "zwischen-allermoehe": {
+    "authors": "Bezirksversammlung Bergedorf",
+    "year": 2026,
+    "title": "22-0934: Sanierung, Modernisierung und Erweiterung des Bürgerhauses Allermöhe – Sachstand",
+    "url": "https://bv-hh.de/bergedorf/documents/sanierung-modernisierung-und-erweiterung-des-buergerhauses-allermoehe-sachstand-232961",
+    "publication": "Öffentliche Bezirksvorlage, geprüft 13.11.2026",
+    "method": "Dokumentation des Ausbauvorhabens.",
+    "limitations": "Ein Vorhaben ist kein Nachweis sämtlicher Nutzungskriterien.",
+    "checked": "2026-11-13"
+  }
+}

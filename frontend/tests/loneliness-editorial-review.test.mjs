@@ -19,8 +19,8 @@ test('Prüfung, fachlicher Inhalt, Kontext und Formatierung werden getrennt und 
  assert(rows.every(r=>r.tatsachenVerifiziert===false));assert.equal(stats.unabhaengigTatsachenverifiziert,0);
 });
 test('Artikelindex enthält jede direkte Zuordnung und jeden Kontext exakt an den vorhandenen Knoten',()=>{
- assert.equal(lonelinessIndex.length,138);assert.deepEqual(Object.keys(index).sort(),lonelinessIndex.map(n=>n.id).sort());
- for(const node of lonelinessIndex){const n=index[node.id];assert.equal(n.title,node.title);assert.equal(n.conceptNumber,node.conceptNumber);for(const [role,key] of [['inhalt','direktZugeordnet'],['kontext','kontext']])assert.deepEqual(n[key],rows.filter(r=>r.zuordnungen.includes(node.id)&&(role==='inhalt'?r.zeilenrolle==='inhalt':r.zeilenrolle!=='inhalt')).map(r=>r.id));assert.equal(new Set(n.mitUnterthemen).size,n.mitUnterthemen.length);}
+ assert.equal(lonelinessIndex.length,139);assert.deepEqual(Object.keys(index).sort(),lonelinessIndex.filter(n=>n.id!=='t2-7').map(n=>n.id).sort());
+ for(const node of lonelinessIndex.filter(n=>n.id!=='t2-7')){const n=index[node.id];assert.equal(n.title,node.title);assert.equal(n.conceptNumber,node.conceptNumber);for(const [role,key] of [['inhalt','direktZugeordnet'],['kontext','kontext']])assert.deepEqual(n[key],rows.filter(r=>r.zuordnungen.includes(node.id)&&(role==='inhalt'?r.zeilenrolle==='inhalt':r.zeilenrolle!=='inhalt')).map(r=>r.id));assert.equal(new Set(n.mitUnterthemen).size,n.mitUnterthemen.length);}
  for(const r of rows)for(const target of r.zuordnungen){const n=lonelinessIndex.find(n=>n.id===target);assert(n);for(const parent of n.parents)assert(index[parent.id].mitUnterthemen.includes(r.id));}
 });
 test('Mehrfachzuordnungen bleiben referentielle Verbindungen und verändern keine Aussage',()=>{

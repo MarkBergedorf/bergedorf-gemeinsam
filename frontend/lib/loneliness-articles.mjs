@@ -8,7 +8,9 @@ import socialSources from './loneliness-sources-4-social.json' with {type:'json'
 import guideSources from './loneliness-sources-4-guide.json' with {type:'json'};
 import {historicalSearchText,districtSearchText} from './loneliness-local.mjs';
 import {lonelinessHelpText} from './loneliness-help.mjs';
-const articles={...originalArticles,...newArticles,...social,...guide},sources={...originalSources,...newSources,...socialSources,...guideSources};
+import encounters from './loneliness-articles-encounters.json' with {type:'json'};
+import encounterSources from './loneliness-sources-encounters.json' with {type:'json'};
+const articles={...encounters,...originalArticles,...newArticles,...social,...guide},sources={...encounterSources,...originalSources,...newSources,...socialSources,...guideSources};
 export {articles as lonelinessArticles,sources as lonelinessSources};
 export function lonelinessArticleText(id){const a=articles[id];return a?[a.intro,lonelinessHelpText(id),historicalSearchText(id),districtSearchText(id),...a.sections.flatMap(s=>[s.title,...s.paragraphs.map(p=>p.text)])].join(' '):'';}
 // Same UTF-16 units as textarea maxlength. No storage or network side effects.

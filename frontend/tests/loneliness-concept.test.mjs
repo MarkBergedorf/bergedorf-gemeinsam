@@ -6,13 +6,13 @@ import {lonelinessTopics,lonelinessIndex,lonelinessHistoricalPlaces,resolveLonel
 import {parseRoute} from '../lib/navigation.mjs';
 const concept=readFileSync('../docs/einsamkeit/gesamtkonzeption.md','utf8');
 const byNumber=number=>lonelinessIndex.find(n=>n.conceptNumber===number);
-test('Verbindliche Konzeption: exakt 18 Hauptthemen, 108 Unterthemen, 12 Vertiefungen und unveränderte Titel',()=>{
+test('Verbindliche Konzeption: 18 Hauptthemen, 109 Unterthemen, 12 Vertiefungen nach beauftragter Ergänzung und unveränderte Titel',()=>{
  const headings=[...concept.matchAll(/^(#{2,4}) (\d+(?:\.\d+)*)(?:\.)? (.+)$/gm)];
- assert.equal(headings.length,138);assert.equal(lonelinessIndex.length,headings.length);
- for(const [depth,wanted] of [[1,18],[2,108],[3,12]])assert.equal(lonelinessIndex.filter(n=>n.path.length===depth).length,wanted);
+ assert.equal(headings.length,138);assert.equal(lonelinessIndex.length,headings.length+1);
+ for(const [depth,wanted] of [[1,18],[2,109],[3,12]])assert.equal(lonelinessIndex.filter(n=>n.path.length===depth).length,wanted);
  for(const [,marks,number,title] of headings){const n=byNumber(number);assert(n,number);assert.equal(n.title,title);assert.equal(n.path.length,marks.length-1);assert(n.description.trim());assert.equal(n.content,'');if(n.parents.length)assert.equal(n.parents.at(-1).conceptNumber,number.split('.').slice(0,-1).join('.'));}
  assert.deepEqual(lonelinessTopics.map(n=>n.id),['verstehen','ursachen','kennenlernen','lebenssituationen','gesundheit','selbst-aktiv-werden','hilfe','begegnung','begegnungsstaette','stadtteile','netzwerke','menschen-erreichen','forschung','buendnis','politik','digital','mitwirkung','quellen']);
- assert.equal(new Set(lonelinessIndex.map(n=>n.id)).size,138);assert.equal(new Set(lonelinessIndex.map(n=>n.href)).size,138);
+ assert.equal(new Set(lonelinessIndex.map(n=>n.id)).size,139);assert.equal(new Set(lonelinessIndex.map(n=>n.href)).size,139);
 });
 test('Alle vereinbarten Schwerpunktpunkte verlustfrei als Themenumfang übernommen',()=>{
  let current;
