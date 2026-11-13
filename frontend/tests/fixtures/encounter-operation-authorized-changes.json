@@ -1,0 +1,34 @@
+[
+  {
+    "before": "import './encounter-policy.css';",
+    "after": "import './encounter-policy.css';\nimport operatingSections from '../lib/encounter-operating-concept.json';"
+  },
+  {
+    "before": " 'Besuche sind grundsätzlich auch spontan und ohne vorherige Anmeldung möglich.',",
+    "after": " 'Der Besuch der Begegnungsstätte ist während der gesamten täglichen Öffnungszeiten jederzeit ohne Anmeldung, Registrierung, Einladung oder vorherige Terminvereinbarung möglich.',"
+  },
+  {
+    "before": "<h3 id=\"encounter-concept-11\">Mitmachen statt ausschließlich konsumieren</h3>",
+    "after": "<h3 id=\"encounter-concept-11\">Freiwilliges Mitmachen und eigenständige Beteiligung ermöglichen</h3><p><strong>Niemand muss mitmachen.</strong> Besucher dürfen essen, trinken, sitzen, lesen, sprechen oder einfach die Gesellschaft anderer Menschen genießen, ohne Aufgaben zu übernehmen. Sämtliche nachfolgend beschriebenen Formen von Eigeninitiative bleiben freiwillig.</p>"
+  },
+  {
+    "before": "const sources=[\n",
+    "after": "const sources=[\n [\"jugendschutz-alkohol\", \"Bundesrecht: § 9 Jugendschutzgesetz – alkoholische Getränke\", \"https://www.gesetze-im-internet.de/juschg/__9.html\", \"Alters- und Abgaberegeln; beim späteren realen Betrieb anzuwenden.\"],\n [\"gastg-alkohol\", \"Bundesrecht: § 20 Gaststättengesetz – allgemeine Verbote\", \"https://www.gesetze-im-internet.de/gastg/__20.html\", \"Insbesondere Nr. 2 zur Alkoholabgabe an erkennbar Betrunkene in Ausübung eines Gewerbes.\"],\n [\"polizei-aufgaben\", \"Bundesrecht: § 163 Strafprozessordnung – Aufgaben der Polizei im Ermittlungsverfahren\", \"https://www.gesetze-im-internet.de/stpo/__163.html\", \"Gesetzliche Aufgaben bleiben durch die politische Präsenzforderung unberührt.\"],\n [\"polizei-buergernah\", \"Polizei Hamburg: Bürgernahe Beamte im Quartier, Team PK46\", \"https://www.polizei.hamburg/ihre-polizei/polizeikommissariate/polizeikommissariat-46/unser-team-am-pk46\", \"Beschreibt Bürgernähe und Ansprechbarkeit; keine Personalzusage für Bergedorf gemeinsam.\"],\n [\"unfall-sgb\", \"Bundesrecht: § 2 SGB VII – Versicherung kraft Gesetzes\", \"https://www.gesetze-im-internet.de/sgb_7/__2.html\", \"Je nach Träger und Tätigkeit insbesondere Abs. 1 Nr. 9/10 und Abs. 2 prüfen.\"],\n [\"unfall-bgw\", \"BGW: Ehrenamtlich Helfende – organisierter Rahmen und Unfallversicherung\", \"https://www.bgw-online.de/bgw-online-de/faq/helfende-01-selbst-engagieren-69170\", \"Träger- und tätigkeitsbezogene Voraussetzungen; keine pauschale Deckungszusage.\"],\n [\"unfall-dguv\", \"DGUV: Versicherungsschutz im Ehrenamt\", \"https://www.dguv.de/de/ihr_partner/ehrenamt/index.jsp\", \"Gesetzliche und ergänzende Versicherungswege; konkrete Zuständigkeit vorher klären.\"],\n [\"gremium-oecd\", \"OECD (2022): Guidelines for Citizen Participation Processes\", \"https://www.oecd.org/en/publications/2022/09/oecd-guidelines-for-citizen-participation-processes_63b34541.html\", \"Evidenzbasierte Beteiligungsgrundsätze als methodische Anregung; keine Validierung des konkreten Gremiums.\"],\n"
+  },
+  {
+    "before": "export function EncounterSpatialSocialConcept()",
+    "after": "// BEGIN operating-concept-renderer\nfunction OperatingText({text}:{text:string}){return <>{text.split(/(\\*\\*.*?\\*\\*)/g).filter(Boolean).map((part,i)=>part.startsWith('**')?<strong key={i}>{part.slice(2,-2)}</strong>:<span key={i}>{part}</span>)}</>}\nexport function EncounterOperatingSections({numbers,level=3}:{numbers:number[],level?:2|3}){const Heading=level===2?'h2':'h3';return <>{operatingSections.filter(section=>numbers.includes(section.number)).map(section=><section key={section.number} className={section.number===19?'panel encounter-house-rules':'encounter-operating-section'} aria-labelledby={'encounter-operating-'+section.number}><Heading id={'encounter-operating-'+section.number}>{section.title}</Heading>{section.blocks.map((block:any,i:number)=>block.kind==='subheading'?<h4 key={i}><OperatingText text={block.text}/></h4>:block.kind==='ul'?<ul key={i}>{block.items.map((item:string,j:number)=><li key={j}><OperatingText text={item}/></li>)}</ul>:block.kind==='ol'?<ol key={i}>{block.items.map((item:string,j:number)=><li key={j}><OperatingText text={item}/></li>)}</ol>:<p key={i}><OperatingText text={block.text}/>{block.refs?.map((ref:string)=><Source key={ref} id={ref}/>)}</p>)}</section>)}</>}\nexport function EncounterOperatingConcept(){return <section className=\"encounter-operating-concept\" aria-labelledby=\"encounter-operating-heading\"><h2 id=\"encounter-operating-heading\">Betrieb, Zugang und Hausordnung: jeder Mensch ist willkommen</h2><p>Diese zusätzlichen verbindlichen politischen Zielanforderungen konkretisieren das gesamte Begegnungsstättenmodell. Sie sind keine Beschreibung eines bereits bestehenden Betriebs, keine Personal- oder Finanzierungszusage und keine Aktivierung neuer Websitefunktionen. Die zehn Erfolgskriterien gelten weiterhin; ihre Zielerreichung ist anhand des vollständigen Konzepts einschließlich der folgenden Anforderungen zu prüfen.</p><EncounterOperatingSections numbers={Array.from({length:22},(_,i)=>i+2)}/></section>}\n// END operating-concept-renderer\nexport function EncounterSpatialSocialConcept()"
+  },
+  {
+    "before": "<EncounterSpatialSocialConcept/>\n",
+    "after": "<EncounterSpatialSocialConcept/>\n<EncounterOperatingConcept/>\n<EncounterOperatingSections numbers={[24]} level={2}/>\n"
+  },
+  {
+    "before": "<section><h2>Finanzierung und Wirtschaftlichkeit</h2>",
+    "after": "<section><h2>Finanzierung und Wirtschaftlichkeit</h2><EncounterOperatingSections numbers={[26]}/>"
+  },
+  {
+    "before": "<section><h2>Tatsächliche Wirkung prüfen</h2>",
+    "after": "<section><h2>Tatsächliche Wirkung prüfen</h2><EncounterOperatingSections numbers={[25]}/>"
+  }
+]

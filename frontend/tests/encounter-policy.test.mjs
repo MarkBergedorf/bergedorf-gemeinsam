@@ -11,9 +11,10 @@ import {lonelinessArticles,lonelinessSources} from '../lib/loneliness-articles.m
 import {originalHierarchyBytes} from './fixtures/original-hierarchy.mjs';
 const base='3e71a9b6c11426fd20cbbd0b7335efc6a60759e5';
 const source=readFileSync('app/encounter-policy.tsx','utf8');
-const code=ts.transpileModule(source.replace("import './encounter-policy.css';",''),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS}}).outputText;
+const code=ts.transpileModule(source.replace("import './encounter-policy.css';",''),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
 const components={};new Function('require','exports',code)(createRequire(import.meta.url),components);
 const html=renderToStaticMarkup(React.createElement(components.EncounterPolicyArticle));
+function withoutOperatingExpansion(value){const replacements=JSON.parse(readFileSync('tests/fixtures/encounter-operation-authorized-changes.json','utf8'));for(const {before,after} of replacements.toReversed()){assert(value.includes(after),'Dokumentierte Ergänzung muss vorhanden sein');value=value.replace(after,before)}return value;}
 test('Alle 138 bisherigen Themen bytegleich erhalten; genau ein direkt aufrufbarer Synthesebeitrag hinzugefügt',()=>{
  assert(originalHierarchyBytes().equals(execFileSync('git',['show',base+':frontend/lib/loneliness-topics.json'])));
  assert.equal(lonelinessIndex.length,139);assert.equal(lonelinessTopics.length,18);
@@ -50,7 +51,7 @@ test('Datenschutz und Freischaltkonzept decken politischen Bezug, Bestätigung, 
 });
 test('Standortkonzept: ausschließlich beauftragte Präzisierungen; sämtlicher übriger politischer Text bytegleich',()=>{
  const changes=JSON.parse(readFileSync('tests/fixtures/encounter-concept-authorized-changes.json','utf8'));
- let restored=source;
+ let restored=withoutOperatingExpansion(source);
  const begin=restored.indexOf('export function EncounterSpatialSocialConcept()'),end=restored.indexOf('export function EncounterPolicyArticle()',begin);
  assert(begin>0&&end>begin);restored=restored.slice(0,begin)+restored.slice(end);
  restored=restored.replace('<EncounterSpatialSocialConcept/>\n','');
@@ -70,7 +71,50 @@ test('Tägliche lange Öffnung und gleichzeitige Nutzung in den weiterhin zehn K
 });
 test('Vollständiges räumliches und soziales Konzept ist sichtbar gerendert, keine redaktionellen Arbeitsanweisungen',()=>{
  const concept=renderToStaticMarkup(React.createElement(components.EncounterSpatialSocialConcept));
- for(const term of ['morgens vor der Arbeit','nach der Schule','nach Feierabend','Seniorentag','Jugendtag','Familientag','eigenständige','wichtigste planerische Entscheidung','Fußgängerfrequenz','Einkaufsstraßen','100 Meter','Luftlinienentfernung','barrierefrei nutzbare Wegstrecke','verkehrlichen Voraussetzungen','drei Kilometern','Kindergärten','Kindertagesstätten','Schulen','Universitäten','Hochschulen','Seniorenwohnanlagen','Pflegeeinrichtungen','Sozialwohnungen','mittleren Einkommensgruppen','wohlhabender Menschen','Haushaltsstrukturen','Öffentliche Einrichtungen','Leicht bewegliche Stühle','zusammengestellt','Bewegungsflächen','Rollstühle','Fluchtwege','Sicherheitsanforderungen','gemeinsam Zeit zu verbringen','zeitweiligem Rückzug','freiwilliger Beteiligung','Neue Besucher freundlich begrüßen','wenn dies erwünscht ist','Schüchternen','abgeschotteten Gruppen','Personalauswahl','Einarbeitung','Personalbemessung','Mitmachen statt ausschließlich konsumieren','Eigeninitiative','gegenseitige Rücksichtnahme','keine nicht vorhandenen Schulen'])assert(concept.includes(term),term);
+ for(const term of ['morgens vor der Arbeit','nach der Schule','nach Feierabend','Seniorentag','Jugendtag','Familientag','eigenständige','wichtigste planerische Entscheidung','Fußgängerfrequenz','Einkaufsstraßen','100 Meter','Luftlinienentfernung','barrierefrei nutzbare Wegstrecke','verkehrlichen Voraussetzungen','drei Kilometern','Kindergärten','Kindertagesstätten','Schulen','Universitäten','Hochschulen','Seniorenwohnanlagen','Pflegeeinrichtungen','Sozialwohnungen','mittleren Einkommensgruppen','wohlhabender Menschen','Haushaltsstrukturen','Öffentliche Einrichtungen','Leicht bewegliche Stühle','zusammengestellt','Bewegungsflächen','Rollstühle','Fluchtwege','Sicherheitsanforderungen','gemeinsam Zeit zu verbringen','zeitweiligem Rückzug','freiwilliger Beteiligung','Neue Besucher freundlich begrüßen','wenn dies erwünscht ist','Schüchternen','abgeschotteten Gruppen','Personalauswahl','Einarbeitung','Personalbemessung','Freiwilliges Mitmachen und eigenständige Beteiligung ermöglichen','Eigeninitiative','gegenseitige Rücksichtnahme','keine nicht vorhandenen Schulen'])assert(concept.includes(term),term);
  assert(!concept.includes('Ersetze sie'));assert(!concept.includes('bisherige Formulierung'));assert(!concept.includes('Berichte insbesondere'));
  assert.equal((concept.match(/<h3 /g)||[]).length,11);
+});
+
+test('Umfassende Betriebserweiterung erhält den kompletten bisherigen politischen Quelltext bis auf dokumentierte beauftragte Änderungen',()=>{
+ const previous=execFileSync('git',['show','4daec04cfe551def2323418bb2d810c058303a33:frontend/app/encounter-policy.tsx'],{maxBuffer:1e6}).toString();assert.equal(withoutOperatingExpansion(source),previous);
+ const c=components.encounterCriteria;assert.equal(c.length,10);assert.equal(c[3],'Der Besuch der Begegnungsstätte ist während der gesamten täglichen Öffnungszeiten jederzeit ohne Anmeldung, Registrierung, Einladung oder vorherige Terminvereinbarung möglich.');
+ assert(!html.includes('Besuche sind grundsätzlich auch spontan und ohne vorherige Anmeldung möglich.'));assert(!html.includes('Mitmachen statt ausschließlich konsumieren'));
+});
+const operating=JSON.parse(readFileSync('lib/encounter-operating-concept.json','utf8'));
+const rendered=n=>renderToStaticMarkup(React.createElement(components.EncounterOperatingSections,{numbers:[n],level:n===24?2:3}));
+const cases=[
+ [3,'Besuch immer ohne Anmeldung',['während der gesamten täglichen Öffnungszeiten jederzeit ohne Anmeldung, Registrierung, Einladung oder vorherige Terminvereinbarung','vollständiger Belegung','keine allgemeine Anmeldepflicht','vom normalen Besuch klar getrennt']],
+ [5,'Unbegrenzter freiwilliger Aufenthalt',['so lange bleiben, wie er möchte','keine allgemeine Aufenthaltsbegrenzung','regelmäßig Speisen oder Getränke kauft','weiterhin sitzen bleiben']],
+ [5,'Freiwillige Platzfreigabe ohne Druck',['einmal freundlich gefragt','freiwillig','Ablehnung ist zu respektieren','nicht als Aufforderung, Erwartung, Druckmittel oder verpflichtende Anweisung']],
+ [4,'Großzügiger gemeinsamer Saal und sichere Kapazität',['großzügiger gemeinsamer Saal','15 bis 30 Minuten','baurechtlichen Anforderungen','Barrierefreie Sanitäranlagen','Rettungswege']],
+ [6,'Ausreichendes reguläres Betriebs- und Servicepersonal',['Spitzenzeiten','Reinigung und Hygiene','Krankheit, Urlaub','zusätzlich zum normalen Betriebspersonal']],
+ [7,'Vier täglich besetzte eigenständige Funktionen',['Alle vier Funktionen müssen an jedem Öffnungstag besetzt sein','keinen einzigen Öffnungstag','einzigen allgemeinen Sozialarbeitsstelle']],
+ [7,'Vertraute Vertretungspersonen und echte Dienstplanung',['Mindestens zwei','Vorzugsweise drei','fünf','Zeitarbeitspersonal','Dienstpläne','Krankheit, Urlaub']],
+ [8,'Eine ruhige bürgernahe Polizeipräsenz ohne Fallteam',['genau einem','nicht, dass zwei oder drei','unaufdringliche Präsenz','gesetzlich vorgeschriebenen polizeilichen Aufgaben','Kooperationsvereinbarung','§ 163 StPO']],
+ [9,'Eigenständige Suchtansprechperson und Beratung',['Täglich','Suchthilfe','keine zusätzliche Polizeikraft','keine allgemeine Überwachungsfunktion','Suchterkrankung allein ist kein Grund']],
+ [10,'Eigenständige Hilfe bei Armut und Wohnungslosigkeit',['eigenständige','nicht einfach mit der Suchtansprechperson gleichgesetzt','Körpergeruchs','darf nicht zu einer','diskriminierenden Zugangskontrolle']],
+ [11,'Toleranz- und Begegnungsbeauftragter mit geprüfter Eignung',['Täglich','Empathisch und kommunikativ','natürliche Autorität','ohne sie unter Druck zu setzen','Auswahl und Einarbeitung','freiwillig']],
+ [13,'Striktes Rauchverbot',['strikt rauchfrei','keine Raucherräume','E-Zigaretten','Hausrechts']],
+ [13,'Belüftung, Klimatisierung und Wartung',['Frischluftaustausch','Kühlung','Beheizung','Wartung','Raumgröße, Belegung']],
+ [14,'Nur fertig gekauftes Alsterwasser als Alkohol-Ausnahme',['einzige gewünschte Ausnahme','fertig gekauftes Alsterwasser','entsprechend gekennzeichnetes Produkt','§ 9 JuSchG','§ 20 Nr. 2 GastG']],
+ [14,'Kein automatischer Ausschluss alkoholisierter Menschen',['nicht allein deshalb ausgeschlossen','bloße Alkoholisierung nicht automatisch','Maßgeblich bleibt ihr Verhalten']],
+ [15,'Drogenkonsum ausschließen, Menschen mit Suchterkrankung willkommen',['Konsum illegaler Drogen','Außenflächen','ausdrücklich willkommen','öffentlichen Straßenraum','Hausrecht']],
+ [16,'Bettelverbot als Verhaltensregel',['Bettelverbot','konkrete Verhalten','Menschen ohne Geld','vollständig willkommen']],
+ [17,'Anonyme einmalig einlösbare Gutscheine',['anonym weitergegeben und eingelöst','Ohne personenbezogene Registrierung','unbefugte Mehrfachnutzung','nicht fortlaufend erratbarem','unteilbarer Vorgang','kein','Gutscheinverkauf']],
+ [18,'Diskriminierungsverbot und Verhalten statt Zuschreibung',['Vermögen','Wohnungslosigkeit','Äußerem Erscheinungsbild','Gesundheitlichen Beeinträchtigungen','konkrete Verhalten']],
+ [20,'Alle Besuchs-, Personal- und Funktionsräume auf einer Ebene',['durchgehend ebenerdige, stufenlose','Erdgeschoss','Küche','Lagerflächen','Büros','Personalräume','Sanitäranlagen','keine Stufen','leicht zu reinigen']],
+ [21,'Regulärer ÖPNV statt Sonderfahrten',['100 Meter','frühen Morgen und am Abend','Barrierefreie Fahrzeuge','Sonderfahrt','nicht als gleichwertige Lösung','Pflegeeinrichtung','selbstständig']],
+ [22,'Freiwillige Eigeninitiative ohne Mitmachpflicht',['Niemand muss mitmachen','nicht verpflichtet','Freiwillige Eigeninitiative','geeignet, sicher und organisatorisch geregelt']],
+ [23,'Versicherungsrechtliche Prüfung vor Tätigkeit',['zuständigen gesetzlichen Unfallversicherungsträger','nachträgliche Eintragung','rückwirkenden Versicherungsschutz','§ 2 Abs. 2 SGB VII','vor Beginn','datenschutzrechtlichen Anforderungen']],
+ [24,'Ehrenamtliches demokratisches Gremium',['Mindestens zehn Mitglieder','Keine starre zahlenmäßige Obergrenze','OECD','Interessenkonflikten','Abberufungen','keine','hoheitlichen Befugnisse']],
+ [25,'Datensparsame wissenschaftliche Erfolgskontrolle',['Besucherzahlen zu unterschiedlichen Tageszeiten','Wiederkehrende Besuche','anonymen Gutscheine','Gremiums','geeignete Untersuchungsergebnisse','nicht allein anhand des Aussehens']],
+ [26,'Vollständige dauerhafte Wirtschaftsplanung',['Zentrale Standortlage','Klimatisierung','Drei eigenständige soziale Schlüsselfunktionen','Polizeipräsenz','Vertretungsregelungen','Versicherungsschutz','Gutscheinsystems','Evaluation','Verkehrsanbindung']]
+];
+for(const [n,label,terms] of cases)test(label,()=>{const view=rendered(n);for(const term of terms)assert(view.includes(term),label+': '+term);assert(html.includes(view));});
+test('Vollständige Hausordnungsgrundsätze, alle 25 neuen Teilabschnitte und Quellverweise im tatsächlichen Artikel gerendert',()=>{
+ assert.deepEqual(operating.map(s=>s.number),Array.from({length:25},(_,i)=>i+2));
+ const rules=operating.find(s=>s.number===19).blocks.find(b=>b.kind==='ol');assert.equal(rules.items.length,18);const view=rendered(19);for(const rule of rules.items)assert(view.includes(rule));assert(view.includes('verhältnismäßig'));assert(view.includes('keine bereits geltende Hausordnung'));assert(html.includes('encounter-house-rules'));
+ for(const section of operating){assert(html.includes(section.title));for(const block of section.blocks){if(block.kind==='p')assert(block.text.trim());for(const ref of block.refs||[])assert(html.includes('Quelle: '),ref);}}
+ assert(html.includes('keine Aktivierung neuer Websitefunktionen'));assert.equal((html.match(/<form /g)||[]).length,1);assert(!/fetch\s*\(|XMLHttpRequest|sendBeacon|localStorage|sessionStorage|indexedDB/.test(source));
 });
