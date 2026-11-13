@@ -48,3 +48,29 @@ test('Datenschutz und Freischaltkonzept decken politischen Bezug, Bestätigung, 
  for(const t of ['Scanner-GET','Raten','Widerruf','Löschjobs','MFA','Einmaliger','70 %','45 %'])assert((plan+source).includes(t),t);
  assert(readFileSync('pages/backend-client.mjs','utf8').includes('writesEnabled:false'));
 });
+test('Standortkonzept: ausschließlich beauftragte Präzisierungen; sämtlicher übriger politischer Text bytegleich',()=>{
+ const changes=JSON.parse(readFileSync('tests/fixtures/encounter-concept-authorized-changes.json','utf8'));
+ let restored=source;
+ const begin=restored.indexOf('export function EncounterSpatialSocialConcept()'),end=restored.indexOf('export function EncounterPolicyArticle()',begin);
+ assert(begin>0&&end>begin);restored=restored.slice(0,begin)+restored.slice(end);
+ restored=restored.replace('<EncounterSpatialSocialConcept/>\n','');
+ for(const [before,after] of Object.entries(changes.criteria)){assert(restored.includes(after));restored=restored.replace(after,before)}
+ assert(restored.includes(changes.implementation.after));restored=restored.replace(changes.implementation.after,changes.implementation.before);
+ restored=restored.replace(' Die tägliche Öffnung von möglichst frühmorgens bis spätabends und die grundsätzlich jederzeit gleichzeitige gemeinsame Nutzung sind verbindlicher Bestandteil. Der zusätzliche Personal-, Energie-, Reinigungs- und Betriebsbedarf gehört von Beginn an in die öffentliche Finanzierungsplanung.','');
+ restored=restored.replace(' Zu prüfen ist ausdrücklich, ob unterschiedliche gesellschaftliche Gruppen den Ort tatsächlich gleichzeitig nutzen und miteinander in Kontakt kommen; ein bloßer Wechsel voneinander getrennter Gruppenangebote reicht nicht aus.','');
+ const previous=execFileSync('git',['show','8191b601474d0ecb3446372d5396e286beb25928:frontend/app/encounter-policy.tsx'],{maxBuffer:1e6}).toString();assert.equal(restored,previous);
+});
+test('Tägliche lange Öffnung und gleichzeitige Nutzung in den weiterhin zehn Kriterien verankert',()=>{
+ assert.equal(components.encounterCriteria.length,10);
+ assert.equal(components.encounterCriteria[6],'Die Begegnungsstätte muss täglich geöffnet sein, mit langen, verlässlichen Öffnungszeiten von möglichst frühmorgens bis spätabends. Sie muss an jedem Tag als selbstverständlicher Begegnungsort zur Verfügung stehen und darf nicht nur an einzelnen Wochentagen oder zu begrenzten Veranstaltungszeiten zugänglich sein.');
+ for(const term of ['gleichzeitig','Seniorentage','Jugendtage','Familientage','Herkunft','sozialem Status','Behinderung'])assert(components.encounterCriteria.slice(0,2).join(' ').includes(term));
+ for(const term of ['eigenständige','Umbenennung'])assert(components.encounterCriteria[0].includes(term));
+ for(const term of ['100 Meter','Wegstrecke','drei Kilometern','Fußgängerfrequenz','selbstständig','Rollstühle'])assert(components.encounterCriteria[5].includes(term));
+ assert(components.encounterCriteria[8].includes('dauerhaft öffentlich finanziert'));assert(components.encounterCriteria[9].includes('gleichzeitige Nutzung'));
+});
+test('Vollständiges räumliches und soziales Konzept ist sichtbar gerendert, keine redaktionellen Arbeitsanweisungen',()=>{
+ const concept=renderToStaticMarkup(React.createElement(components.EncounterSpatialSocialConcept));
+ for(const term of ['morgens vor der Arbeit','nach der Schule','nach Feierabend','Seniorentag','Jugendtag','Familientag','eigenständige','wichtigste planerische Entscheidung','Fußgängerfrequenz','Einkaufsstraßen','100 Meter','Luftlinienentfernung','barrierefrei nutzbare Wegstrecke','verkehrlichen Voraussetzungen','drei Kilometern','Kindergärten','Kindertagesstätten','Schulen','Universitäten','Hochschulen','Seniorenwohnanlagen','Pflegeeinrichtungen','Sozialwohnungen','mittleren Einkommensgruppen','wohlhabender Menschen','Haushaltsstrukturen','Öffentliche Einrichtungen','Leicht bewegliche Stühle','zusammengestellt','Bewegungsflächen','Rollstühle','Fluchtwege','Sicherheitsanforderungen','gemeinsam Zeit zu verbringen','zeitweiligem Rückzug','freiwilliger Beteiligung','Neue Besucher freundlich begrüßen','wenn dies erwünscht ist','Schüchternen','abgeschotteten Gruppen','Personalauswahl','Einarbeitung','Personalbemessung','Mitmachen statt ausschließlich konsumieren','Eigeninitiative','gegenseitige Rücksichtnahme','keine nicht vorhandenen Schulen'])assert(concept.includes(term),term);
+ assert(!concept.includes('Ersetze sie'));assert(!concept.includes('bisherige Formulierung'));assert(!concept.includes('Berichte insbesondere'));
+ assert.equal((concept.match(/<h3 /g)||[]).length,11);
+});
