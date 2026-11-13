@@ -14,7 +14,8 @@ const source=readFileSync('app/encounter-policy.tsx','utf8');
 const code=ts.transpileModule(source.replace("import './encounter-policy.css';",''),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
 const components={};new Function('require','exports',code)(createRequire(import.meta.url),components);
 const html=renderToStaticMarkup(React.createElement(components.EncounterPolicyArticle));
-function withoutPopulationExpansion(value){const replacements=JSON.parse(readFileSync('tests/fixtures/encounter-population-authorized-changes.json','utf8'));for(const {before,after} of replacements.toReversed()){assert(value.includes(after),'Neue dokumentierte Ergänzung muss vorhanden sein');value=value.replace(after,before)}return value;}
+function withoutUsageRefinement(value){const {before,after}=JSON.parse(readFileSync('tests/fixtures/encounter-usage-authorized-change.json','utf8'));assert(value.includes(after));return value.replace(after,before);}
+function withoutPopulationExpansion(value){value=withoutUsageRefinement(value);const replacements=JSON.parse(readFileSync('tests/fixtures/encounter-population-authorized-changes.json','utf8'));for(const {before,after} of replacements.toReversed()){assert(value.includes(after),'Neue dokumentierte Ergänzung muss vorhanden sein');value=value.replace(after,before)}return value;}
 function withoutOperatingExpansion(value){value=withoutPopulationExpansion(value);const replacements=JSON.parse(readFileSync('tests/fixtures/encounter-operation-authorized-changes.json','utf8'));for(const {before,after} of replacements.toReversed()){assert(value.includes(after),'Dokumentierte Ergänzung muss vorhanden sein');value=value.replace(after,before)}return value;}
 test('Alle 138 bisherigen Themen bytegleich erhalten; genau ein direkt aufrufbarer Synthesebeitrag hinzugefügt',()=>{
  assert(originalHierarchyBytes().equals(execFileSync('git',['show',base+':frontend/lib/loneliness-topics.json'])));
@@ -129,8 +130,10 @@ test('Historische Kontaktverluste als Untersuchungsauftrag mit Sammlung und Lebe
 test('KörberHaus: offene Angebote, überprüfte Zeiten und negative zielbezogene Bewertung getrennt',()=>{
  for(const t of ['50 m²','kostenlos, ohne Anmeldung','Montag bis Samstag von 7 bis 22 Uhr','Sonn- und Feiertagen geschlossen','Montag bis Freitag von 10 bis 17 Uhr','ab 18 Uhr bis nach der Pause','Persönliche, nicht repräsentative Erfahrung','keine repräsentative Erhebung','als nicht ausreichend','nicht als Nachweis','https://koerberhaus.de/besuchen/oeffnungszeiten','https://koerberhaus.de/mitmachen'])assert(html.includes(t),t);
 });
-test('90-Prozent-Forderung verlangt gemeinsamen Anteil einschließlich Nichtnutzern und fünf Fragen',()=>{
+test('90-Prozent-Ziel misst tatsächliche regelmäßige selbst initiierte Nutzung ohne Fragenkatalog oder neue Funktion',()=>{
  const section=html.match(/<section aria-labelledby="encounter-population-target"[\s\S]*?<\/section>/)[0];
- const questions=section.match(/<ol aria-label="Fünf Fragen[^>]*>[\s\S]*?<\/ol>/)[0];assert.equal((questions.match(/<li>/g)||[]).length,5);
- for(const t of ['mindestens 90 Prozent','kein bereits gemessener Wert','Dieselben befragten Personen','Einzelne Quoten','erstmaligen Besuchs','Nichtnutzer bleiben','alle 14 Stadtteile','Teilnahmeverweigerungen','fehlende Befragungsdaten','ein paar Hundert'])assert(section.includes(t),t);
+ for(const term of ['mindestens 90 Prozent der Bergedorfer Bevölkerung','tatsächlich regelmäßig, freiwillig, spontan und aus eigener Initiative','Besuchshäufigkeit','Gründe für Besuche','Entstehung und Pflege sozialer Kontakte','bei denselben Menschen','Nichtnutzer bleiben','alle 14 Stadtteile','kein bereits gemessener Wert','fehlende Evaluationsdaten'])assert(section.includes(term),term);
+ assert(!/<form|<input|<button|<ol|<li|Kennen Sie|Frage [1-5]|Fragenkatalog/.test(section));
+ assert(!section.includes('die die Begegnungsstätte kennen, bereits besucht haben, sie erneut besuchen möchten'));
+ assert.equal(withoutUsageRefinement(source),execFileSync('git',['show','1e72976af7ab7ddc2c513a0026b692868d2d2839:frontend/app/encounter-policy.tsx'],{encoding:'utf8'}));
 });
