@@ -5,13 +5,14 @@ import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import articles from '../lib/loneliness-articles-6.json' with {type:'json'};
 import sources from '../lib/loneliness-sources-6.json' with {type:'json'};
+import middleArticles from '../lib/loneliness-articles-5.json' with {type:'json'};
 import {lonelinessArticles,lonelinessSources,lonelinessArticleText} from '../lib/loneliness-articles.mjs';
 import {lonelinessIndex,lonelinessTopics,resolveLonelinessPath,lonelinessBreadcrumbs,lonelinessParentHref,searchLoneliness} from '../lib/loneliness.mjs';
 import {lonelinessEvents,eventGroup,eventGroups,berlinDate} from '../lib/loneliness-events.mjs';
 import {editorialConnections,themeConnections,platformConnections} from '../lib/loneliness-connections.mjs';
 const baseline='5f1119ad5471fbc04a074b45707976589f37d8d7';
 test('Auftrag 6: alle 14 vorhandenen Ansichten 17/18 ausgearbeitet, frühere Daten bytegleich',()=>{
- const targets=lonelinessIndex.filter(n=>['mitwirkung','quellen'].includes(n.path[0]));assert.equal(targets.length,14);assert.deepEqual(Object.keys(articles).sort(),targets.map(n=>n.id).sort());assert.equal(Object.keys(lonelinessArticles).length,97);
+ const targets=lonelinessIndex.filter(n=>['mitwirkung','quellen'].includes(n.path[0]));assert.equal(targets.length,14);assert.deepEqual(Object.keys(articles).sort(),targets.map(n=>n.id).sort());assert.equal(Object.keys(lonelinessArticles).length,139);
  for(const n of targets){const a=articles[n.id];assert.equal(a.date,'14. November 2026');assert(a.sections.length>=3);assert(lonelinessArticleText(n.id).length>700);for(const s of a.sections)for(const p of s.paragraphs){assert(p.text);assert(Array.isArray(p.refs));if(p.kind==='institution')assert(p.refs.length);for(const ref of p.refs)assert(lonelinessSources[ref],ref)}}
  for(const f of ['loneliness-topics.json','loneliness-articles.json','loneliness-articles-3.json','loneliness-articles-4-social.json','loneliness-articles-4-guide.json','loneliness-articles-encounters.json','loneliness-help.json','historical-media-4.json','historical-places-4.json','encounter-operating-concept.json'])assert(readFileSync('lib/'+f).equals(execFileSync('git',['show',baseline+':frontend/lib/'+f],{maxBuffer:8e6})),f);
  for(const f of ['frontend/app/encounter-policy.tsx','frontend/pages/privacy.tsx','frontend/app/platform.tsx'])assert(readFileSync('../'+f).equals(execFileSync('git',['show',baseline+':'+f],{maxBuffer:8e6})),f);
@@ -38,6 +39,6 @@ test('Suche findet tatsächliche neue Fachtexte und Termine; keine erfundenen Fu
 });
 test('Gesamtabgleich erfasst jede der fünf Berichtszeilen und alle zusätzlichen Konzeptschwerpunkte ohne Verifikationsfiktion',()=>{
  const audit=JSON.parse(readFileSync('../docs/einsamkeit/auftrag6-gesamtabgleich.json','utf8'));const rows=readFileSync('../docs/einsamkeit/bestandsaufnahme.jsonl','utf8').trim().split('\n').map(JSON.parse);assert.equal(rows.length,2550);assert.equal(audit.zeilen.length,rows.length);assert.equal(new Set(audit.zeilen.map(r=>r.id)).size,2550);
- for(let i=0;i<rows.length;i++){const r=rows[i],a=audit.zeilen[i];assert.equal(a.id,r.id);assert.equal(a.originalSha256,createHash('sha256').update(r.original).digest('hex'));assert.equal(a.originalaussageVerifiziert,false);if(r.zeilenrolle!=='formatierung')assert(a.offen.length);for(const t of a.zielansichten){assert.equal(t.fachtextVeroeffentlicht,Boolean(lonelinessArticles[t.id]));if(!t.fachtextVeroeffentlicht)assert(t.offen)}}
+ for(let i=0;i<rows.length;i++){const r=rows[i],a=audit.zeilen[i];assert.equal(a.id,r.id);assert.equal(a.originalSha256,createHash('sha256').update(r.original).digest('hex'));assert.equal(a.originalaussageVerifiziert,false);if(r.zeilenrolle!=='formatierung')assert(a.offen.length);for(const t of a.zielansichten){assert.equal(t.fachtextVeroeffentlicht,Boolean(lonelinessArticles[t.id]&&!middleArticles[t.id]));if(!t.fachtextVeroeffentlicht)assert(t.offen)}}
  assert.equal(audit.bilanz.offeneAnsichten,42);assert.equal(audit.bilanz.konzeptSchwerpunkte,audit.zusaetzlicheKonzeptSchwerpunkte.length);assert.equal(audit.hauptthemen.length,18);
 });

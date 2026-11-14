@@ -1,0 +1,2061 @@
+{
+  "netzwerke": {
+    "date": "14. November 2026",
+    "intro": "Einsamkeitsprävention betrifft viele Arbeitsfelder. Ein Netzwerk ist dann hilfreich, wenn Menschen passende Zugänge finden und Zuständigkeiten verständlich sind – nicht allein, weil viele Namen auf einer Liste stehen.",
+    "sections": [
+      {
+        "id": "netzwerke-5-1",
+        "title": "Akteure und Aufgaben",
+        "paragraphs": [
+          {
+            "text": "Wohlfahrtsverbände, Vereine, Stiftungen und Nachbarschaftsinitiativen können Begegnung organisieren. Pflegeeinrichtungen und Beratungsstellen haben andere Aufgaben als Schulen, Hochschulen, Wohnungsunternehmen oder Betriebe. Politische Institutionen entscheiden in ihrem Zuständigkeitsbereich über Rahmenbedingungen und Mittel. Diese Rollen sind nicht austauschbar.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Die AGFW führt die Hamburger Spitzenverbände auf. KISS erschließt Selbsthilfe; die Freiwilligenagentur Bergedorf informiert über Engagement. Solche überprüften institutionellen Zugänge sind keine Liste sämtlicher Mitglieder des Hamburger Bündnisses.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-agfw",
+              "auftrag5-kiss",
+              "auftrag6-freiwillig"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "netzwerke-5-2",
+        "title": "Drei verschiedene Beziehungen",
+        "paragraphs": [
+          {
+            "text": "Eine tatsächlich existierende Organisation ist nicht automatisch Bündnispartner. Eine Kooperation benötigt einen konkreten Beleg zu Beteiligten und Vorhaben. Die in den Auftaktaufbereitungen vorgeschlagenen Partner bleiben Vorschläge, solange Zustimmung und Zuständigkeit fehlen. Eine Mitgliedschaft in der bundesweiten Allianz ist wiederum eine andere Beziehung als Beteiligung am Hamburger Prozess.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Eine gemeinsame Einladung von AKTIVOLI und BgEH zum Fachtag 2026 ist dokumentiert. Das ist ein konkreter Kooperationsbeleg, keine pauschale Bestätigung sämtlicher im Auftakt erwähnten Verbindungen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-aktivoli"
+            ]
+          },
+          {
+            "text": "Das öffentliche Mitgliederverzeichnis der bundesweiten Allianz führt die Bergedorf-Bille-Stiftung. Eine einzelne Organisation vertritt damit nicht automatisch das Bundesland Hamburg.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-mitglieder"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "netzwerke-5-3",
+        "title": "Zugang statt bloßer Vernetzung",
+        "paragraphs": [
+          {
+            "text": "Für eine Weitervermittlung sind Leistung, Kosten, Sprache, Zugänglichkeit und Anmeldeweg entscheidend. Menschen sollen nicht zwischen unzuständigen Stellen weitergereicht werden. Ein begleiteter erster Kontakt kann mit Einverständnis angeboten werden. Persönliche Problemdaten werden nicht vorsorglich in einem allgemeinen Netzwerkverteiler gesammelt. Die verlinkten bestehenden Verzeichnisse bleiben in ihrer bisherigen Funktion erhalten.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t11-1": {
+    "date": "14. November 2026",
+    "intro": "Organisationen können unterschiedliche Formen von Unterstützung und Begegnung ermöglichen. Ihre Bedeutung muss an der konkreten Aufgabe und am tatsächlichen Zugang beurteilt werden.",
+    "sections": [
+      {
+        "id": "t11-1-5-1",
+        "title": "Wohlfahrt, Beratung und Selbsthilfe",
+        "paragraphs": [
+          {
+            "text": "Die AGFW Hamburg nennt AWO, Caritas, Paritätischen, DRK, Diakonisches Werk und Jüdische Gemeinde als Mitgliedsverbände. Daraus folgt keine automatische Teilnahme jedes angeschlossenen Dienstes an einem bestimmten Einsamkeitsprojekt. KISS informiert über Selbsthilfe und berät Interessierte; Selbsthilfe wird nicht mit professioneller Behandlung gleichgesetzt.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-agfw",
+              "auftrag5-kiss"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t11-1-5-2",
+        "title": "Pflege, Familie, Bildung und Freizeit",
+        "paragraphs": [
+          {
+            "text": "Pflegeeinrichtungen können Kontakte im Alltag unterstützen, müssen aber Selbstbestimmung und persönliche Belastbarkeit beachten. Beratungsstellen können bei sozialen Problemen weiterhelfen. Schulen und Hochschulen erreichen Menschen in Übergängen; Kultur und Sport schaffen andere Kontaktanlässe. Eine Einrichtung sollte transparent benennen, ob sie Beratung, Begegnung, Behandlung oder Vermittlung leistet. Ein gelegentlicher Aktionstag ersetzt keinen dauerhaft verlässlichen Zugang.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Die überprüften Seiten von KörberHaus und Freiwilligenagentur erschließen Kultur, Aktivitäten und Engagement. Die konkrete Teilnahme wird jeweils beim Anbieter geprüft; freie Plätze und Kostenfreiheit werden nicht aus dem Organisationsnamen abgeleitet.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-kalender",
+              "auftrag6-freiwillig"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t11-1-5-3",
+        "title": "Zusammenarbeit begrenzen und öffnen",
+        "paragraphs": [
+          {
+            "text": "Vereine und Initiativen können Gastzugänge ohne sofortige Mitgliedschaft anbieten. Religions- und Weltanschauungsgemeinschaften sollten erkennbar machen, ob Teilnahme an religiösen Handlungen erwartet wird. Menschen dürfen einen Ort ablehnen, ohne dadurch ihren Wunsch nach anderen Kontakten rechtfertigen zu müssen. Bei jedem Angebot bleiben konkrete Zugangshürden und der Umgang mit neuen Gästen gesondert zu betrachten.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t11-2": {
+    "date": "14. November 2026",
+    "intro": "Das Wohnumfeld ist ein möglicher Kontaktbereich, aber auch ein privater Lebensraum. Nachbarschaftliche Aufmerksamkeit darf nicht zur Kontrolle oder Kennzeichnung einzelner Bewohner werden.",
+    "sections": [
+      {
+        "id": "t11-2-5-1",
+        "title": "Wohnungsunternehmen und Genossenschaften",
+        "paragraphs": [
+          {
+            "text": "Die Bergedorf-Bille-Stiftung beschreibt nachbarschaftliche Treffpunkte und Aktivitäten in den Quartieren ihrer Stifterin. Die Verbindung zu einer Genossenschaft ist damit konkret belegt. Daraus folgt weder, dass alle Wohnungsunternehmen entsprechende Angebote haben, noch dass jede Person jedes Gruppenangebot ohne weitere Bedingungen nutzen kann.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-stiftung"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t11-2-5-2",
+        "title": "Hausmeister, Verwaltung und Quartiersmanagement",
+        "paragraphs": [
+          {
+            "text": "Hausmeistereien und Verwaltungen können öffentliches Informationsmaterial zugänglich machen und an zuständige Stellen verweisen. Sie sollen keine Listen vermeintlich einsamer Menschen führen. Quartiersmanagement kann Räume und Akteure zusammenbringen; Gemeindeeinrichtungen können eigene offene Angebote beitragen. Eine tatsächliche Kooperation muss mit Aufgaben, Einverständnis und erreichbaren Ansprechpartnern vereinbart sein.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Für ein Gespräch im Wohnumfeld sind Respekt und Verlässlichkeit wichtig: anklopfen oder grüßen, eine Einladung anbieten und eine Ablehnung akzeptieren. Ein Aushang sollte Kosten, Termin, Zugang und eine analoge Kontaktmöglichkeit nennen. Eine Weitergabe von Mieterdaten an Initiativen wird hier nicht vorgeschlagen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t11-2-5-3",
+        "title": "Nicht nur bestehende Gruppen erreichen",
+        "paragraphs": [
+          {
+            "text": "Eine gute Wohnadresse oder ein Gemeinschaftsraum beweist noch keine gesellschaftliche Einbindung. Zu prüfen sind Menschen, die nie kommen, nur schwer aus der Wohnung gelangen oder sich dort nicht zugehörig fühlen. Veränderungen sollten mit Bewohnerinnen und Bewohnern entwickelt werden; persönliche Geschichten sind keine allgemeine Statistik über ein Quartier.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t11-3": {
+    "date": "14. November 2026",
+    "intro": "Weitere Alltagsakteure können Informationen zugänglich machen. Ihre mögliche Eignung als Netzwerkpartner ist von einer bereits bestehenden Zusammenarbeit zu unterscheiden.",
+    "sections": [
+      {
+        "id": "t11-3-5-1",
+        "title": "Gesundheit und Arbeitswelt",
+        "paragraphs": [
+          {
+            "text": "Praxen, Apotheken, Jobcenter und Arbeitsverwaltung können auf passende öffentliche Informationen hinweisen, wenn dies zu ihrer Aufgabe und zur konkreten Situation passt. Unternehmen, Gewerkschaften und Wirtschaftsorganisationen können soziale Bedingungen am Arbeitsplatz und die Vereinbarkeit von Arbeit und Begegnung aufgreifen. Daraus wird keine zusätzliche Beratungs- oder Überwachungspflicht dieser Stellen abgeleitet.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t11-3-5-2",
+        "title": "Post, Handel, Verkehr und Medien",
+        "paragraphs": [
+          {
+            "text": "Die Auftaktaufbereitungen schlagen unter anderem Briefzustellung, Einzelhandel, Hausmeistereien und Nahverkehr als mögliche Kontakt- oder Informationswege vor. Das sind Diskussionsvorschläge. Eine Vereinbarung mit Post, DHL oder HVV ist damit nicht nachgewiesen. Auch eine Mediennennung bedeutet keine bestätigte Partnerschaft.",
+            "kind": "auftakt",
+            "refs": []
+          },
+          {
+            "text": "Eine geeignete Aufgabe wäre beispielsweise das freiwillige Auslegen geprüfter Informationen. Die Diagnose vermeintlicher Einsamkeit bei Kundinnen und Kunden gehört nicht dazu. Mitarbeitende brauchen klare Grenzen, Schulung für die übernommene Aufgabe und eine zuständige Rückfragemöglichkeit; Vertraulichkeit darf nicht einer möglichst großen Reichweite geopfert werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t11-3-5-3",
+        "title": "Bildung, Religion und Forschung",
+        "paragraphs": [
+          {
+            "text": "An der Universität Hamburg werden soziale Netzwerke und Einsamkeit als Forschungsfeld beschrieben. Das belegt vorhandene Expertise, keine zugesagte Mitarbeit im Bergedorfer Vorhaben.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-uni"
+            ]
+          },
+          {
+            "text": "Schüler-, Eltern- und Studierendenvertretungen sowie Religions- und Weltanschauungsgemeinschaften können Perspektiven einbringen. Ob sie teilnehmen möchten und wen sie vertreten, ist jeweils zu klären. Ein vorgeschlagener Partner wird erst nach überprüfter Zustimmung als beteiligt bezeichnet.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t11-4": {
+    "date": "14. November 2026",
+    "intro": "Vernetzung braucht einen verständlichen Arbeitsauftrag. Für Menschen, die Unterstützung suchen, zählt, ob ein Kontakt zuverlässig weiterführt und nicht nur eine neue Zuständigkeitsrunde eröffnet.",
+    "sections": [
+      {
+        "id": "t11-4-5-1",
+        "title": "Kooperation konkret beschreiben",
+        "paragraphs": [
+          {
+            "text": "Eine Vereinbarung sollte Zweck, Aufgaben, verantwortliche Stellen, Zeitraum und Ressourcen festhalten. Unterscheiden Sie Information, Vermittlung, gemeinsame Durchführung und Finanzierung. Eine Organisation, die einen Raum bereitstellt, übernimmt damit nicht automatisch die fachliche Betreuung. Öffentliche Aussagen über Partner werden vorher abgestimmt.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "AKTIVOLI und das Hamburger Bündnis werden auf einer Originalseite gemeinsam als Einladende eines Fachtags genannt. So lässt sich eine bestimmte Kooperation dokumentieren, ohne daraus eine unbegrenzte Partnerschaft abzuleiten.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-aktivoli"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t11-4-5-2",
+        "title": "Vermittlung mit Einverständnis",
+        "paragraphs": [
+          {
+            "text": "Klären Sie zunächst, ob die Person einen Kontakt möchte, welche Hilfe gesucht wird und welche Stelle zuständig ist. Eine öffentliche Telefonnummer kann ohne Fallweitergabe ausreichen. Soll ein Kontakt begleitet werden, werden Umfang und Übermittlung persönlicher Angaben vorher geklärt. Die bestehende Website führt keine solche Kontaktvermittlung durch.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t11-4-5-3",
+        "title": "Fachlichkeit und Ehrenamt",
+        "paragraphs": [
+          {
+            "text": "Gemeinsamer Austausch kann Doppelarbeit sichtbar machen. Fachkräfte und Ehrenamtliche benötigen trotzdem getrennte Verantwortlichkeiten, Unterstützung und Wege für Beschwerden. Ein Netzwerk kann fehlende Öffnungszeiten, Personal oder Finanzierung nicht allein durch Sitzungen ausgleichen. Prüfen Sie regelmäßig, ob Menschen tatsächlich Zugang fanden, wo Weiterverweisungen scheiterten und welche Beteiligten oder Nichtnutzer bisher fehlen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t11-5": {
+    "date": "14. November 2026",
+    "intro": "Für Bergedorf sind bereits überprüfte institutionelle Einstiege vorhanden. Diese Auswahl bleibt eine Orientierung und kein vollständiges Versorgungs- oder Mitgliederverzeichnis.",
+    "sections": [
+      {
+        "id": "t11-5-5-1",
+        "title": "Konkrete Einstiege",
+        "paragraphs": [
+          {
+            "text": "KörberHaus und Bücherhalle Bergedorf erschließen kulturelle und gemeinschaftliche Möglichkeiten; die Freiwilligenagentur unterstützt bei freiwilligem Engagement. KISS Hamburg berät zur Selbsthilfe. Die vorhandenen Hilfsansichten führen außerdem zu fachlichen Beratungszugängen. Träger, konkrete Leistung und Zugang sind getrennt zu prüfen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-kalender",
+              "auftrag4-buecherhalle-bergedorf",
+              "auftrag6-freiwillig",
+              "auftrag5-kiss"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t11-5-5-2",
+        "title": "Wohnumfeld und Bündnis",
+        "paragraphs": [
+          {
+            "text": "Die Bergedorf-Bille-Stiftung beschreibt Nachbarschaftsarbeit und ist Trägerin der BgEH-Geschäftsstelle. Das ist eine bestätigte institutionelle Rolle. Nicht jede Person, die ein Stiftungsangebot nutzt, ist dadurch Mitglied eines Bündnisses. Die Geschäftsstelle ist kein allgemeiner Behandlung- oder Krisendienst.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-stiftung"
+            ]
+          },
+          {
+            "text": "Nutzen Sie die Originalseiten für aktuelle Ansprechpartner, Anmeldungen und Programmänderungen. Erfragen Sie nicht bestätigte Preise und Zugangsmerkmale direkt. Die in diesem Auftrag ergänzten institutionellen Nachweise sind am 14. November 2026 geprüft; ältere Hilfseinträge behalten ausdrücklich ihren eigenen Prüftermin.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t11-5-5-3",
+        "title": "Bestehendes Verzeichnis erhalten",
+        "paragraphs": [
+          {
+            "text": "Die Links zum Verzeichnis und Organisationsbereich erschließen die vorhandenen Funktionen. Es wird weder ein neues Organisationsprofil angelegt noch eine Einreichung freigeschaltet. Eine im redaktionellen Text erwähnte Einrichtung erhält nicht automatisch einen geprüften eigenen Plattform-Eintrag. Meldungen und Ergänzungen brauchen weiterhin die vorgesehenen redaktionellen und technischen Verfahren.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "menschen-erreichen": {
+    "date": "14. November 2026",
+    "intro": "Wer kein Angebot nutzt, darf nicht automatisch als desinteressiert gelten. Ebenso wenig darf jede allein lebende oder zurückgezogen lebende Person als einsam eingestuft werden.",
+    "sections": [
+      {
+        "id": "menschen-erreichen-5-1",
+        "title": "Nichtnutzung verstehen",
+        "paragraphs": [
+          {
+            "text": "Die Forschung zu Stigma und sozialen Teilhabebarrieren beschreibt unterschiedliche Hemmnisse. Fehlendes Vertrauen, Scham, Kosten, räumliche Bedingungen und persönliche Passung sind getrennt zu betrachten. Befunde zu älteren Menschen werden nicht ohne Weiteres auf alle Lebensphasen übertragen.",
+            "kind": "forschung",
+            "refs": [
+              "stigma",
+              "auftrag4-barrieren"
+            ]
+          },
+          {
+            "text": "Menschen können sich Gemeinschaft wünschen und organisierte Gruppen dennoch ablehnen. Andere möchten keinen zusätzlichen Kontakt. Aufsuchende Ansätze müssen diesen Unterschied respektieren und dürfen keine Diagnose aus Wohnform, Kleidung, Alter oder Häufigkeit eines Besuchs ableiten.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "menschen-erreichen-5-2",
+        "title": "Mehrere Kontaktwege offenhalten",
+        "paragraphs": [
+          {
+            "text": "Persönliche Ansprache, Telefon, Briefe, leicht verständliche Aushänge, vertraute Alltagsorte und digitale Kommunikation sollten sich ergänzen. Kleine erste Schritte, Begleitung und eine verlässliche Ansprechperson können angeboten werden. Sprachzugang, geringe Lese- und Schreibkompetenz sowie Menschen ohne Internet sind ausdrücklich einzuplanen. Ein QR-Code allein ist kein analoger Informationsweg.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "menschen-erreichen-5-3",
+        "title": "Freiwilligkeit und Erfolg",
+        "paragraphs": [
+          {
+            "text": "Eine Einladung soll ohne Beschämung angenommen oder abgelehnt werden können. Unterstützung braucht klare Grenzen und bei fachlichem Bedarf passende professionelle Stellen. Ob ein Weg funktioniert, zeigt sich nicht nur an Kontaktzahlen: Beobachten Sie freiwillige Anschlusskontakte, Abbrüche und die weiterhin nicht erreichten Menschen. Persönliche Daten werden dafür nicht unnötig öffentlich gesammelt.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t12-1": {
+    "date": "14. November 2026",
+    "intro": "Fehlende Teilnahme kann viele Gründe haben. Ohne die Perspektive der betreffenden Menschen zu kennen, sollte nicht auf Bequemlichkeit, fehlenden Willen oder eine Erkrankung geschlossen werden.",
+    "sections": [
+      {
+        "id": "t12-1-5-1",
+        "title": "Persönliche und soziale Hürden",
+        "paragraphs": [
+          {
+            "text": "Stigmaforschung untersucht, wie Einsamkeit wahrgenommen wird und warum das Sprechen darüber erschwert sein kann. Ein systematischer Review zur Teilhabe älterer Menschen beschreibt Barrieren und förderliche Bedingungen. Beide Quellen begründen eine differenzierte Betrachtung; sie liefern keine einzelne Erklärung für jeden Rückzug in Bergedorf.",
+            "kind": "forschung",
+            "refs": [
+              "stigma",
+              "auftrag4-barrieren"
+            ]
+          },
+          {
+            "text": "Gruppenangst, eine frühere Abweisung, Trauer oder fehlendes Vertrauen können in einer konkreten Lebensgeschichte wichtig sein. Aus dem bloßen Fernbleiben lässt sich der jeweilige Grund nicht sicher erkennen. Auch ein als offen beschriebenes Angebot muss subjektiv nicht passend wirken.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-1-5-2",
+        "title": "Materielle und organisatorische Hindernisse",
+        "paragraphs": [
+          {
+            "text": "Kosten für Eintritt, Getränke, Material und Anfahrt gehören zusammen. Ein kostenloser Raum ist nicht ausreichend, wenn keine bezahlbare Rückfahrt möglich ist. Behinderungen, gesundheitliche Belastungen, Pflegeaufgaben und unpassende Öffnungszeiten können eigene Lösungen erfordern. Nicht bestätigte Barrierefreiheit darf nicht zugesagt werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-1-5-3",
+        "title": "Information zugänglich machen",
+        "paragraphs": [
+          {
+            "text": "Sprachbarrieren und geringe Lese- und Schreibkompetenz verlangen verständliche mündliche und schriftliche Wege. Menschen ohne Internet brauchen Telefonnummern, persönliche Auskunft und lesbare Aushänge. Eine abgesagte Teilnahme kann Anlass sein, nach Hindernissen zu fragen; sie ist keine Erlaubnis, Druck auszuüben oder sensible Daten bei Dritten einzuholen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t12-2": {
+    "date": "14. November 2026",
+    "intro": "Persönliche Wege können über bereits vertraute Menschen beginnen. Ein Gesprächsangebot ist dabei etwas anderes als ein Auftrag, die Lebensführung einer anderen Person zu verändern.",
+    "sections": [
+      {
+        "id": "t12-2-5-1",
+        "title": "Vertrauenspersonen und Alltagskontakte",
+        "paragraphs": [
+          {
+            "text": "Angehörige, Nachbarn, Hausärzte, Pflege- und Betreuungspersonen können zuhören und auf Wunsch einen Zugang vermitteln. Fragen Sie, ob ein Gespräch oder eine Begleitung erwünscht ist. Klären Sie, ob sich die Person eher einen Besuch, eine kleine Gruppe oder zunächst nur Informationen wünscht. Ein bekanntes Gesicht kann helfen; daraus folgt kein allgemeiner Wirkungsnachweis.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-2-5-2",
+        "title": "Aufsuchende Angebote",
+        "paragraphs": [
+          {
+            "text": "Der Hamburger Hausbesuch ist ein amtlich beschriebenes, kostenloses Informationsangebot für Seniorinnen und Senioren. Er darf nicht als allgemeiner Hausbesuchsdienst für alle Altersgruppen oder als Behandlung dargestellt werden. Die jeweils aktuellen Voraussetzungen stehen auf der Originalseite.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-hausbesuch"
+            ]
+          },
+          {
+            "text": "Aufsuchende Sozialarbeit benötigt einen passenden Auftrag und fachliche Zuständigkeit. Ehrenamtliche Besuche brauchen Vorbereitung, Begleitung und ein geklärtes Vorgehen bei Überforderung. Niemand erhält durch eine Initiative ein Recht auf Zutritt zur Wohnung. Eine Ablehnung ist zu respektieren.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-2-5-3",
+        "title": "Behutsam weitergehen",
+        "paragraphs": [
+          {
+            "text": "Verabreden Sie nur Schritte, die tatsächlich leistbar sind. Eine kurze Einführung, ein gemeinsamer erster Weg oder ein vereinbarter Rückruf können konkreter sein als eine lange Angebotsliste. Bei professionellem Unterstützungsbedarf wird an die zuständige Stelle verwiesen; Nachbarschaftshilfe ersetzt weder Pflege noch Therapie. Fallinformationen werden nur im erforderlichen, geklärten Rahmen weitergegeben.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t12-3": {
+    "date": "14. November 2026",
+    "intro": "Öffentliche Information muss dort ankommen können, wo Menschen ihren Alltag verbringen. Eine Website allein erreicht Menschen ohne digitalen Zugang nicht.",
+    "sections": [
+      {
+        "id": "t12-3-5-1",
+        "title": "Analoge Wege",
+        "paragraphs": [
+          {
+            "text": "Flyer, Aushänge, Genossenschaftsmedien, Wohnanlagen, Praxen, Apotheken, Lokalzeitungen und Hinweise im Nahverkehr sind mögliche Wege. Vor einer Verteilung sind Erlaubnis, Aktualität und Zuständigkeit zu klären. Eine Auslage stellt keine bestätigte Kooperation mit allen dort genannten Akteuren her. Informationen sollen einladen und keine Person öffentlich als einsam markieren.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-3-5-2",
+        "title": "Was auf eine Einladung gehört",
+        "paragraphs": [
+          {
+            "text": "Nennen Sie Ort, Datum, Beginn, voraussichtliche Dauer, Kosten, Anmeldebedarf und eine erreichbare Kontaktmöglichkeit. Beschreiben Sie den Ablauf und ob man allein kommen, zunächst zuschauen oder spontan vorbeikommen darf. Verwenden Sie gut lesbare Schrift und verständliche Sprache. Ein Link oder QR-Code kann ergänzen, darf aber nicht der einzige Weg zu wesentlichen Angaben sein.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-3-5-3",
+        "title": "Zugang und Aktualität prüfen",
+        "paragraphs": [
+          {
+            "text": "Destatis weist für 2025 Menschen aus, die das Internet noch nie genutzt haben. Die veröffentlichte Erhebung betrifft die Altersgruppe 16 bis 74; ältere Menschen und weitere digitale Barrieren werden damit nicht vollständig beschrieben.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-offline"
+            ]
+          },
+          {
+            "text": "Fragen Sie bei neuen Gästen freiwillig nach dem Zugangsweg und nach unklaren Angaben. Entfernen oder korrigieren Sie abgelaufene Aushänge. Eine hohe verteilte Auflage ist kein Beleg, dass bisher isolierte Menschen erreicht wurden oder neue Beziehungen entstanden sind.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t12-4": {
+    "date": "14. November 2026",
+    "intro": "Vertrauen entsteht nicht durch eine möglichst eindringliche Problembeschreibung. Die Ansprache soll Raum für unterschiedliche Wünsche und ein selbstbestimmtes Nein lassen.",
+    "sections": [
+      {
+        "id": "t12-4-5-1",
+        "title": "Einladung statt Etikett",
+        "paragraphs": [
+          {
+            "text": "Sprechen Sie über eine gemeinsame Tätigkeit oder einen offenen Aufenthaltsort, ohne die Person als hilflos oder einsam festzulegen. Fragen Sie nach Interessen und nach dem gewünschten Umfang von Kontakt. Vermeiden Sie ein öffentliches Herausstellen persönlicher Schwierigkeiten. Auch Menschen, die Unterstützung brauchen, entscheiden über den Umgang mit ihrer Geschichte.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-4-5-2",
+        "title": "Verlässlichkeit und Grenzen",
+        "paragraphs": [
+          {
+            "text": "Nennen Sie einen festen Ansprechpartner, realistische Erreichbarkeit und den nächsten vereinbarten Schritt. Ständig wechselnde Kontakte und nicht eingehaltene Rückrufe können ein konkretes Angebot unzuverlässig machen. Ehrenamtliche müssen keine dauernde Erreichbarkeit versprechen; professionelle Stellen sollen ihren tatsächlichen Aufgabenbereich benennen. Eine Ablehnung oder ein Gesprächsabbruch wird nicht als persönliches Versagen bewertet.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-4-5-3",
+        "title": "Datenschutz im Gespräch",
+        "paragraphs": [
+          {
+            "text": "Erfragen Sie nur Angaben, die für den vereinbarten nächsten Schritt nötig sind. Gesundheits-, Einkommens- oder Familieninformationen gehören nicht in öffentliche Gruppen oder ungeschützte Verteiler. Vor einer Weitergabe sind Zweck, Empfänger und notwendiger Umfang zu klären. Auf dieser Website wird keine neue Kontaktakte eingerichtet. Bei einer fachlichen Überforderung ist ein transparenter Verweis an passende Unterstützung sinnvoller als ein nicht einlösbares Hilfsversprechen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t12-5": {
+    "date": "14. November 2026",
+    "intro": "Ein Kontaktweg muss nicht nur sichtbar sein, sondern die vorgesehenen Menschen tatsächlich erreichen. Erfolgskontrolle soll sowohl gelungene Zugänge als auch Ausschlüsse untersuchen.",
+    "sections": [
+      {
+        "id": "t12-5-5-1",
+        "title": "Erreichte und Nichterreichte",
+        "paragraphs": [
+          {
+            "text": "Dokumentieren Sie getrennt Informationsreichweite, freiwillige Rückmeldungen, erste Besuche und wiederkehrende Nutzung. Fragen Sie auch außerhalb bereits zufriedener Gruppen nach Barrieren. Die Zahl verteilter Flyer oder angeklickter Beiträge darf nicht mit der Zahl erreichten einsamen Menschen gleichgesetzt werden. Für eine Aussage über die Bevölkerung braucht es ein geeignetes Auswahlverfahren.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-5-5-2",
+        "title": "Passung und Verlauf",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie, ob der erste Kontakt zu einer gewünschten weiteren Begegnung führte, ob die Person sich respektiert fühlte und welche Kosten oder Zugangsprobleme blieben. Ein Abbruch kann auf unpassende Zeiten oder ein ungewünschtes Format hinweisen; sein Grund wird nicht geraten. Kurze freiwillige Rückmeldungen können hilfreich sein, dürfen aber nicht zur Bedingung für weitere Teilnahme werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t12-5-5-3",
+        "title": "Wirkung wissenschaftlich untersuchen",
+        "paragraphs": [
+          {
+            "text": "Interventionsreviews unterscheiden Kontaktangebote, psychologische Ansätze und unterschiedliche Ergebnismaße. Aus einem erfolgreichen Erstkontakt folgt noch keine nachgewiesene Verringerung von Einsamkeit.",
+            "kind": "forschung",
+            "refs": [
+              "umbrella",
+              "intervention"
+            ]
+          },
+          {
+            "text": "Für eine belastbare Bewertung sind Ausgangslage, definierte Zielgrößen, längere Nachbeobachtung und nach Möglichkeit geeignete Vergleichsgruppen nötig. Kosten und Aufwand sowie unerwünschte Folgen gehören dazu. Ergebnisse werden aggregiert und mit Grenzen veröffentlicht; keine personenbezogene Liste der vermeintlich Nichterreichten.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "forschung": {
+    "date": "14. November 2026",
+    "intro": "Forschung hilft, Einsamkeit zu verstehen und Maßnahmen zu prüfen. Sie muss Begriffe, Messungen und Wirkungsbehauptungen unterscheiden; eine politische Zielvorgabe ist kein wissenschaftlicher Befund.",
+    "sections": [
+      {
+        "id": "forschung-5-1",
+        "title": "Von der Frage zum passenden Beleg",
+        "paragraphs": [
+          {
+            "text": "Einsamkeit bezeichnet eine subjektiv erlebte Diskrepanz zwischen gewünschten und vorhandenen Beziehungen; soziale Isolation betrifft eher objektive Kontaktbedingungen. Deshalb sind allein wohnen, geringe Kontaktzahl und Einsamkeit nicht gleichzusetzen. Wissenschaftliche Definitionen berücksichtigen unterschiedliche Formen und Zeitverläufe.",
+            "kind": "forschung",
+            "refs": [
+              "luhmann"
+            ]
+          },
+          {
+            "text": "Psychologie und Sozialpsychologie untersuchen Wahrnehmung und Beziehungen, Soziologie und Sozialarbeit gesellschaftliche Bedingungen und Zugänge. Public Health, Demografie, Stadtforschung und Kommunikationswissenschaft ergänzen andere Maßstäbe. Ergebnisse müssen zum jeweiligen Gegenstand passen.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "forschung-5-2",
+        "title": "Messung und Intervention",
+        "paragraphs": [
+          {
+            "text": "UCLA- und De-Jong-Gierveld-Skalen sind untersuchte Messinstrumente. Interventionsreviews prüfen unter anderem psychologische und soziale Ansätze. Ein Messinstrument beantwortet aber nicht automatisch, wodurch eine Veränderung verursacht wurde.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-ucla",
+              "auftrag5-djg",
+              "intervention"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "forschung-5-3",
+        "title": "Was vor Ort noch geprüft werden muss",
+        "paragraphs": [
+          {
+            "text": "Für Bergedorf sind Zielgruppen, Nichtnutzer, Ausgangslage, regelmäßige Nutzung und längerfristige Ergebnisse eigens zu untersuchen. Reine Besucherzahlen reichen nicht. Eine Forschungslücke wird benannt, statt sie mit einer plausiblen Geschichte zu füllen. Die politische Begegnungsstättenforderung und ihr 90-Prozent-Ziel bleiben als normative redaktionelle Position erkennbar.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t13-1": {
+    "date": "14. November 2026",
+    "intro": "Wissenschaftliche Grundlagen betreffen sowohl individuelles Erleben als auch gesellschaftliche Bedingungen. Keine einzelne Disziplin kann sämtliche Fragen zu Einsamkeit allein beantworten.",
+    "sections": [
+      {
+        "id": "t13-1-5-1",
+        "title": "Begriffe und Ebenen",
+        "paragraphs": [
+          {
+            "text": "Eine Person kann viele Kontakte haben und dennoch eine bestimmte Nähe vermissen. Umgekehrt ist Alleinsein nicht automatisch belastend. Die begriffliche Unterscheidung ist wichtig, bevor Häufigkeiten verglichen oder Maßnahmen entwickelt werden. Emotionale und soziale Dimensionen werden unter anderem in der De-Jong-Gierveld-Forschung getrennt betrachtet.",
+            "kind": "forschung",
+            "refs": [
+              "luhmann",
+              "auftrag5-djg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t13-1-5-2",
+        "title": "Disziplinen verbinden",
+        "paragraphs": [
+          {
+            "text": "Psychologie betrachtet Erleben und Verarbeitung, Sozialpsychologie Interaktionen und Gruppenzugehörigkeit. Soziologie, Sozialarbeit und Public Health beziehen soziale Lage, Versorgung und Teilhabe ein. Stadt- und Raumforschung fragt nach erreichbaren Gelegenheiten; Kommunikationswissenschaft nach digitalen und persönlichen Beziehungen. Demografie beschreibt Bevölkerungs- und Haushaltsstrukturen, ohne aus einer Haushaltsform automatisch Einsamkeit abzuleiten.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t13-1-5-3",
+        "title": "Eine überprüfbare Untersuchung",
+        "paragraphs": [
+          {
+            "text": "Eine gute Forschungsfrage benennt Bevölkerung, Ort, Zeitraum und Ergebnisgröße. Anschließend wird ein passendes Design gewählt: qualitative Interviews für Erfahrungen, Befragungen für Verteilungen oder geeignete Vergleichsdesigns für Veränderungen. Die Auswahl der Teilnehmenden und fehlende Antworten müssen nachvollziehbar sein. Persönliche Erfahrungen können Forschungsfragen begründen, ersetzen aber keine repräsentative Erhebung. Vertrauliche Daten und sensible Merkmale dürfen nicht allein für eine möglichst eindrucksvolle Darstellung erhoben werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t13-2": {
+    "date": "14. November 2026",
+    "intro": "Nationale und internationale Daten erschließen unterschiedliche Bevölkerungen und Zeiträume. Eine große Studie ist nicht automatisch eine genaue Beschreibung eines einzelnen Hamburger Stadtteils.",
+    "sections": [
+      {
+        "id": "t13-2-5-1",
+        "title": "Deutschland: Langzeitdaten",
+        "paragraphs": [
+          {
+            "text": "Das Einsamkeitsbarometer 2024 nutzt SOEP-Daten und beschreibt Entwicklungen bis 2021. Die Originalveröffentlichung berichtet beispielsweise 7,6 Prozent mit erhöhter Einsamkeitsbelastung für 2017 und 11,3 Prozent für 2021; das erste Pandemiejahr lag deutlich höher. Diese Werte werden nicht als heutige Bergedorfer Quote ausgegeben.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-barometer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t13-2-5-2",
+        "title": "Unterschiedliche Schwerpunktberichte",
+        "paragraphs": [
+          {
+            "text": "Die amtliche Veröffentlichung zum Barometer 2026 beschreibt einen Schwerpunkt zu Inklusion und Menschen mit Behinderungen. Publikationsjahr und Untersuchungszeitraum sind auseinanderzuhalten; die hier geprüfte Publikationsbeschreibung ersetzt keine eigene vollständige Auswertung des Berichts.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-barometer26"
+            ]
+          },
+          {
+            "text": "Jugend, Erwerbsalter, Care-Arbeit, Migration und soziale Lage benötigen jeweils passende Untersuchungen. Altersgruppen und Schwellenwerte verschiedener Studien dürfen nicht einfach zu einer gemeinsamen Prozentzahl zusammengefügt werden. Die in den Auftaktberichten genannte Jugendtrendstudie bleibt ohne eindeutig identifizierte Originalpublikation offen.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t13-2-5-3",
+        "title": "Internationale Vergleiche",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie Sprache und Validierung der Skala, Erhebungsjahr, Stichprobe und soziale Rahmenbedingungen. Länderunterschiede können nicht allein aus einer abweichenden Prozentzahl erklärt werden. Auch statistische Zusammenhänge mit gesellschaftlichem Vertrauen oder Beteiligung belegen nicht, dass jede einsame Person bestimmte politische Einstellungen hat. Gruppenbefunde sind keine Diagnose einzelner Menschen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t13-3": {
+    "date": "14. November 2026",
+    "intro": "Einsamkeit wissenschaftlich zu messen verlangt ein klar bestimmtes Instrument und eine nachvollziehbare Auswertung. Diese Seite stellt Grundlagen vor und richtet keinen Fragebogen oder Selbsttest ein.",
+    "sections": [
+      {
+        "id": "t13-3-5-1",
+        "title": "Zwei etablierte Skalen",
+        "paragraphs": [
+          {
+            "text": "Russells Untersuchung zur UCLA Loneliness Scale Version 3 prüft Zuverlässigkeit und Gültigkeit in mehreren Stichproben. De Jong Gierveld und van Tilburg untersuchten die sechs Fragen umfassende De-Jong-Gierveld-Kurzskala mit emotionaler und sozialer Dimension. Die Instrumente sind nicht identisch und ihre Werte nicht beliebig austauschbar.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-ucla",
+              "auftrag5-djg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t13-3-5-2",
+        "title": "Befragung und Repräsentativität",
+        "paragraphs": [
+          {
+            "text": "Vor einer Erhebung sind Zielpopulation, Übersetzung, Auswahl, Bezugszeitraum, Auswertung und Umgang mit fehlenden Angaben festzulegen. Eine Befragung nur unter Stammgästen beschreibt keine gesamte Bezirksbevölkerung. Sprachliche und digitale Zugangsbarrieren können beeinflussen, wer überhaupt antwortet. Gewichtung und statistische Unsicherheit sollen offengelegt werden; sie ersetzen keine gute Stichprobe.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t13-3-5-3",
+        "title": "Grenzen und Datenschutz",
+        "paragraphs": [
+          {
+            "text": "Ein Skalenwert ist keine automatische medizinische Diagnose. Für Vergleiche müssen Version, Antwortformat und Grenzwert nachvollziehbar sein. Eigene Zusatzfragen zu Besuchshäufigkeit messen andere Aspekte und werden getrennt ausgewertet. Das politische 90-Prozent-Ziel für tatsächlich regelmäßige gesellschaftliche Nutzung ist keine neue validierte Einsamkeitsskala.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Teilnahme bleibt freiwillig. Eine Befragung darf nicht zur Zugangsvoraussetzung für einen Treffpunkt werden. Datenumfang, Aufbewahrung und Veröffentlichung sind vorab zu klären; personenbezogene Antworten gehören nicht in öffentliche Unterstützer- oder Besucherlisten.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t13-4": {
+    "date": "14. November 2026",
+    "intro": "Welche Maßnahme hilft, hängt von Bedarf, Zielgruppe und untersuchtem Ergebnis ab. Kontaktgelegenheiten, psychologische Behandlung und strukturelle Veränderungen verfolgen unterschiedliche unmittelbare Ziele.",
+    "sections": [
+      {
+        "id": "t13-4-5-1",
+        "title": "Psychologische Ansätze",
+        "paragraphs": [
+          {
+            "text": "Hickin und Kolleginnen beziehungsweise Kollegen finden in ihrer Metaanalyse randomisierter Studien eine kleine bis mittlere durchschnittliche Verringerung von Einsamkeit durch psychologische Interventionen gegenüber Kontrollgruppen. Die Ergebnisse sind heterogen; daraus folgt kein gleich großer Nutzen für alle Menschen oder eine Behandlungsempfehlung ohne individuelle Prüfung.",
+            "kind": "forschung",
+            "refs": [
+              "intervention"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t13-4-5-2",
+        "title": "Soziale Kontakte und Gemeinschaft",
+        "paragraphs": [
+          {
+            "text": "Reviews zu Besuchs- und Befriending-Angeboten sowie der breitere Umbrella-Review zeigen eine vielfältige und methodisch uneinheitliche Interventionslandschaft. Ein organisierter Kontakt ist nicht automatisch eine Freundschaft. Befunde zu bestimmten Gruppen und kombinierten Ergebnissen dürfen nicht als garantierte Einsamkeitswirkung jedes Besuchsdienstes dargestellt werden.",
+            "kind": "forschung",
+            "refs": [
+              "besuchsforschung",
+              "umbrella"
+            ]
+          },
+          {
+            "text": "Gemeinsame Aktivitäten und wiederkehrende Gelegenheiten sind praktische Ansätze; ob sie im Einzelfall passende Beziehungen ermöglichen, muss untersucht werden. Ein sozialer Bedarf wird nicht allein durch Therapie gelöst, wenn etwa Mobilität, Kosten oder Räume fehlen.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t13-4-5-3",
+        "title": "Strukturelle Ansätze prüfen",
+        "paragraphs": [
+          {
+            "text": "Barrierefreie Räume, bezahlbare Angebote und erreichbarer Verkehr können konkrete Teilnahmehindernisse adressieren. Ihre Umsetzung ist dennoch getrennt von einer nachgewiesenen Veränderung subjektiver Einsamkeit zu bewerten. Vergleichen Sie Maßnahmen anhand derselben klaren Ziele und passenden Daten, statt eine einzelne Erfolgszahl aus unterschiedlichen Studien zu übernehmen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t13-5": {
+    "date": "14. November 2026",
+    "intro": "Projekte wissenschaftlich zu bewerten heißt, ihre tatsächlichen Ziele und Wirkungen zu prüfen. Eine gefüllte Veranstaltung kann erfolgreich durchgeführt sein, ohne dass dadurch nachhaltige Beziehungen entstanden sind.",
+    "sections": [
+      {
+        "id": "t13-5-5-1",
+        "title": "Mehr als Besucherzahlen",
+        "paragraphs": [
+          {
+            "text": "Trennen Sie Besuche von einzelnen Personen, Erstbesuche von wiederkehrender Nutzung und Zufriedenheit von Beziehungsergebnissen. Erfassen Sie freiwillig, ob Kontakte über einen Anlass hinaus bestehen, ob Menschen selbstständig wiederkommen und ob sie sich zugehörig fühlen. Hohe Auslastung kann zugleich Wartezeiten oder Ausschlüsse erzeugen; auch diese Folgen gehören zur Bewertung.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t13-5-5-2",
+        "title": "Ausgangslage, Vergleich und Zeit",
+        "paragraphs": [
+          {
+            "text": "Legen Sie vor Beginn Ziele, Indikatoren, Erhebungszeitpunkte und Auswertungsregeln fest. Eine Ausgangsmessung und spätere Nachbeobachtungen können Veränderungen beschreiben. Vergleichsgruppen oder randomisierte Zuteilungen sind je nach Fragestellung und ethischer Vertretbarkeit zu prüfen. Ein einfacher Vorher-Nachher-Unterschied beweist keine alleinige Projektursache.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Untersuchen Sie Abbrüche, fehlende Daten, nicht erreichte Gruppen, Kosten und mögliche unerwünschte Folgen. Wer nicht wiederkommt, darf nicht aus der Erfolgsbilanz verschwinden. Evaluation sollte möglichst unabhängig und unter Beteiligung der Betroffenen geplant werden; die Teilnahme bleibt freiwillig.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t13-5-5-3",
+        "title": "Politische und wissenschaftliche Maßstäbe",
+        "paragraphs": [
+          {
+            "text": "Der politische Anspruch einer dauerhaften allgemeinen Begegnungsinfrastruktur geht über ein einzelnes Interventionsergebnis hinaus. Der 90-Prozent-Zielwert betrifft tatsächliche regelmäßige, freiwillige und selbst initiierte Nutzung; seine fachliche Operationalisierung ist vorab festzulegen. Ein vorhandenes Budget oder ein abgeschlossenes Bauprojekt ist noch kein Nachweis dieses gesellschaftlichen Erfolgs.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t13-6": {
+    "date": "14. November 2026",
+    "intro": "Forschungsstand bedeutet eine begründete Auswahl geeigneter Quellen mit offengelegter Lesetiefe. Ein einzelner neuer Titel widerlegt nicht automatisch die gesamte bisherige Forschung.",
+    "sections": [
+      {
+        "id": "t13-6-5-1",
+        "title": "Originale und Synthesen",
+        "paragraphs": [
+          {
+            "text": "Originalstudien untersuchen bestimmte Menschen und Bedingungen; systematische Reviews bündeln Studien nach festgelegten Kriterien. Ein Umbrella-Review bewertet wiederum Reviews. Die Ebenen haben unterschiedliche Aussagegrenzen; wiederkehrende Primärstudien dürfen nicht wie unabhängige Mehrfachbeweise gezählt werden.",
+            "kind": "forschung",
+            "refs": [
+              "umbrella"
+            ]
+          },
+          {
+            "text": "Nennen Sie Titel, Autorenschaft, Jahr, Publikationsort, Originallink, Methode und Grenzen. Machen Sie kenntlich, ob Volltext oder Abstract geprüft wurde. Eine Bibliografie oder Pressemitteilung ist kein Ersatz für einen Ergebnisnachweis, wenn die konkrete Aussage dort nicht enthalten ist.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t13-6-5-2",
+        "title": "Institutionen und Statistik",
+        "paragraphs": [
+          {
+            "text": "Das Kompetenznetz Einsamkeit ist am ISS e.V. angesiedelt und unterstützt Wissensvermittlung und Vernetzung. Seine Materialien können zu Originalforschung führen. Eine Netzwerkseite ist selbst nicht automatisch eine wissenschaftliche Wirkungsstudie.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-allianz"
+            ]
+          },
+          {
+            "text": "Das Barometer 2024 erschließt nationale Langzeitdaten. Regionale Auswertungen brauchen passende Fallzahlen und ein geeignetes Design; die nationale Erhebung wird nicht als Bergedorfer Vollerhebung ausgegeben.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-barometer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t13-6-5-3",
+        "title": "Offene Forschung erhalten",
+        "paragraphs": [
+          {
+            "text": "Dokumentieren Sie ungeklärte Studienidentitäten, abweichende Ergebnisse und methodische Lücken. Langfristige Wirkungen neuer Technologien, schwer erreichbare Nichtnutzer und nachhaltige Beziehungen bleiben eigenständige Forschungsfragen. Aktualisierungen sollen begründet werden; alte Fassungen und Korrekturen bleiben im redaktionellen Nachweis nachvollziehbar.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "buendnis": {
+    "date": "14. November 2026",
+    "intro": "Das Hamburger Bündnis gegen Einsamkeit ist ein zivilgesellschaftlicher Vernetzungs- und Entwicklungsprozess. Bergedorf gemeinsam informiert darüber als unabhängige private Bürgerplattform und ist nicht seine offizielle Website.",
+    "sections": [
+      {
+        "id": "buendnis-5-1",
+        "title": "Entwicklung und Zuständigkeit",
+        "paragraphs": [
+          {
+            "text": "Projektaktivitäten sind bereits für 2024 dokumentiert; ein amtlicher Bericht beschreibt einen Vernetzungsauftakt im Februar 2025. Die Geschäftsstelle liegt bei der Bergedorf-Bille-Stiftung. Diese Schritte werden auseinandergehalten, statt aus unterschiedlichen „Auftakt“-Bezeichnungen einen einzigen Gründungstag zu konstruieren.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-ursprung",
+              "auftrag5-kickoff",
+              "auftrag5-stiftung"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "buendnis-5-2",
+        "title": "Strategieprozess und Informationsgrundlage",
+        "paragraphs": [
+          {
+            "text": "Die offizielle Bündnisseite kündigt einen Strategie- und Strukturprozess für 2027 an. Dieser dient der Entwicklung von Grundlagen für eine Hamburger Strategie; er ist kein hier belegter Senatsbeschluss über eine fertige Landesstrategie. Die bestehenden Terminansichten führen bestätigte Ankündigungen, Planungen und Archiv getrennt.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          },
+          {
+            "text": "Die fünf Ausgangsberichte enthalten außerdem Vorträge, Erfahrungen und Gruppenbeiträge des Online-Auftakts. Sie werden als Aufbereitungen mit teilweise gemeinsamem Ursprung gekennzeichnet. Einzelne Namen und Terminangaben wurden geprüft; offene Wortlaut- und Rollenfragen bleiben ausdrücklich bestehen.",
+            "kind": "auftakt",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "buendnis-5-3",
+        "title": "Mitwirkung und Grenzen",
+        "paragraphs": [
+          {
+            "text": "Für Interesse am Bündnis ist die veröffentlichte Geschäftsstelle zuständig. Die Bürgerplattform kann Informationen und politische Positionen erschließen, nimmt aber keine Bündnisanmeldungen entgegen und spricht nicht im Namen der Veranstalter. Für die Bewertung des Prozesses sind dokumentierte Ergebnisse, einbezogene Nichtnutzer und tatsächliche Umsetzung wichtiger als allein die Zahl von Treffen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-1": {
+    "date": "14. November 2026",
+    "intro": "Die Entstehung des Bündnisses muss anhand unterschiedlicher Entwicklungsschritte beschrieben werden. Projektbeginn, Vernetzungsauftakt und eine formale Gründung sind nicht automatisch dasselbe.",
+    "sections": [
+      {
+        "id": "t14-1-5-1",
+        "title": "Was sich zeitlich belegen lässt",
+        "paragraphs": [
+          {
+            "text": "Ein Originalbericht der Bergedorf-Bille dokumentiert Projektaktivitäten gegen Einsamkeit 2024. Hamburg beschreibt einen Kick-Off im Februar 2025. Die Stiftung nennt die Trägerschaft der Geschäftsstelle seit 2025. Ein darüber hinausgehender genauer formaler Gründungstag wird hier ohne passenden Nachweis nicht festgelegt.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-ursprung",
+              "auftrag5-kickoff",
+              "auftrag5-stiftung"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-1-5-2",
+        "title": "Ziel und beteiligte Arbeitsfelder",
+        "paragraphs": [
+          {
+            "text": "Die Bündnisseite beschreibt Vernetzung von Stiftungen, Wohlfahrt, Genossenschaften, Vereinen und Initiativen sowie Beiträge zu einer Hamburger Strategieentwicklung. Diese Selbstbeschreibung begründet kein vollständiges geprüftes Mitgliederregister und keine zugesagte Beteiligung jeder in den Berichten vorgeschlagenen Organisation.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          },
+          {
+            "text": "Die Einbeziehung verschiedener Altersgruppen, Lebenslagen und Stadtteile ist als Ziel von tatsächlich erreichter Abdeckung zu unterscheiden. Auch eine starke Beteiligung von Einrichtungen zeigt noch nicht, ob bisher isolierte Menschen ihre Perspektiven einbringen konnten.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-1-5-3",
+        "title": "Struktur und Verantwortung",
+        "paragraphs": [
+          {
+            "text": "Die offiziellen Teamangaben nennen Cornelia Springer-Fouad als Geschäftsführerin der Stiftung und Swantje Tiedemann für das Bündnisprojekt. Eine Stiftungsgeschäftsstelle ist kein Amt und übernimmt nicht allein die staatliche Entscheidung über Haushaltsmittel.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-team"
+            ]
+          },
+          {
+            "text": "Für künftige Aussagen über Mitgliedschaft, Entscheidungsregeln und Finanzierung sind aktuelle Originalunterlagen heranzuziehen. Offene Strukturfragen bleiben als Prüfaufgaben erhalten.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-2": {
+    "date": "14. November 2026",
+    "intro": "Der Online-Auftakt wird in zwei Ebenen erschlossen: die überprüfte offizielle Ankündigung und die als solche gekennzeichneten Inhalte der übergebenen Veranstaltungsaufbereitungen.",
+    "sections": [
+      {
+        "id": "t14-2-5-1",
+        "title": "Termin und Namen",
+        "paragraphs": [
+          {
+            "text": "Die Originalankündigung nennt den 10. November 2026, 15:00–16:30 Uhr, als Online-Termin. Die aktuelle Teamseite bestätigt die Schreibweise Cornelia Springer-Fouad; die KNE-Teamseite nennt Axel Weber. Aktuelle Institutionsangaben bestätigen jedoch nicht automatisch jede beim Auftakt zugeschriebene Rolle.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh",
+              "auftrag5-team",
+              "auftrag5-kneteam"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-2-5-2",
+        "title": "Vorträge und Diskussion laut Berichten",
+        "paragraphs": [
+          {
+            "text": "Die Aufbereitungen beschreiben die Vorstellung des Strategieprozesses, bundesweite Vernetzung, Forschung und gesellschaftliche Folgen von Einsamkeit. Berichtet werden Diskussionen über Versorgungslücken, verlorene informelle Treffpunkte, eigene Freizeitgruppen, Mahlzeitenangebote und erreichbare Hilfen. Einzelne Teilnehmerperspektiven sind keine repräsentative Aussage über ganz Hamburg.",
+            "kind": "auftakt",
+            "refs": []
+          },
+          {
+            "text": "Ebenfalls berichtet werden digitale Vorstellungen, Abstimmungen und Breakout-Räume sowie technische Schwierigkeiten. Die Angaben von ungefähr 90 Anmeldungen, sieben Räumen oder etwa 66 Teilnehmenden sind nicht unabhängig bestätigt und werden nicht als amtliche Teilnehmerstatistik verwendet. Die genannten Zahlen bleiben im Originalregister erhalten.",
+            "kind": "auftakt",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-2-5-3",
+        "title": "Was noch abzugleichen ist",
+        "paragraphs": [
+          {
+            "text": "Originalaufzeichnung, Folien, vollständige Referentenliste, genaue Sprecherzuordnung und endgültige Abstimmungsergebnisse liegen dieser Bearbeitung nicht als überprüfte Originaldokumentation vor. Die Berichte nennen eine höhere Zustimmung zum Themenfeld Orte; daraus wird kein quantifiziertes offizielles Abstimmungsergebnis gemacht. Ein angekündigter Versand von Folien ist kein Nachweis, dass diese bereits veröffentlicht wurden.",
+            "kind": "ungeprueft",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-3": {
+    "date": "14. November 2026",
+    "intro": "Die drei Dialogforen sind als thematische Arbeitsstränge des angekündigten Strategieprozesses erschlossen. Ihre Themen sind bestätigt angekündigt; Ergebnisse stehen damit noch nicht fest.",
+    "sections": [
+      {
+        "id": "t14-3-5-1",
+        "title": "Drei miteinander verbundene Perspektiven",
+        "paragraphs": [
+          {
+            "text": "Die Bündnisseite benennt Orte und öffentlichen Raum, Care und Lebenslagen sowie Armut, Wohnen und soziale Sicherheit als geplante Dialogfelder. Die Termine werden im vorhandenen gemeinsamen Veranstaltungsbestand als Planungen geführt, solange weitere Einladungsangaben fehlen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-3-5-2",
+        "title": "Gemeinsame Fragen",
+        "paragraphs": [
+          {
+            "text": "Jedes Forum sollte Zugang, Bezahlbarkeit, Verlässlichkeit und die Perspektive von Nichtnutzern behandeln. Mobilität betrifft Räume ebenso wie Pflege und Armut; Sprachzugang und digitale Ausgrenzung passen nicht nur in ein einziges Feld. Wiederkehrende Fragen sollten miteinander verknüpft werden, ohne besondere Lebenslagen aus der Dokumentation zu verlieren.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Die Auftaktaufbereitungen sehen die Sammlung von Erfahrungen und Handlungsvorschlägen als Vorbereitung der Foren. Sie sind keine bereits beschlossenen Arbeitsprogramme und keine Belege für fertige Empfehlungen.",
+            "kind": "auftakt",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-3-5-3",
+        "title": "Von der Planung zur überprüfbaren Arbeit",
+        "paragraphs": [
+          {
+            "text": "Vor einer Ergebnisaussage sind Einladung, Beteiligte, Verfahren und dokumentierte Resultate zu prüfen. Empfehlungen benötigen klar benannte Adressaten und Zuständigkeiten. Eine erfolgreiche Diskussion bedeutet noch keine Finanzierung oder Umsetzung. Der weitere Stand soll mit Datum und Originalquelle ergänzt werden; vergangene Plantermine bleiben ohne Durchführungsbeleg ausdrücklich Planungen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-3-1": {
+    "date": "14. November 2026",
+    "intro": "Der Dialogbereich Orte, Begegnungen, Quartiere und öffentlicher Raum behandelt die räumlichen Voraussetzungen gesellschaftlicher Kontakte. Er ist nicht auf einzelne Gebäude oder Veranstaltungsprogramme zu verkürzen.",
+    "sections": [
+      {
+        "id": "t14-3-1-5-1",
+        "title": "Themen und Planungsstatus",
+        "paragraphs": [
+          {
+            "text": "Die offizielle Bündnisseite kündigt diesen Dialogbereich für 2027 an. Ein angekündigter Termin ist keine abgeschlossene Veranstaltung und kein beschlossenes Bau- oder Förderprogramm. Die vorhandene Terminübersicht hält Planungen getrennt von konkreten Ankündigungen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-3-1-5-2",
+        "title": "Welche Bedingungen betrachtet werden sollen",
+        "paragraphs": [
+          {
+            "text": "In den Auftaktaufbereitungen werden offene Treffpunkte, Nachbarschaften, öffentliche Plätze, verschwundene Gastwirtschaften, barrierefreie Räume und bezahlbare Mahlzeiten angesprochen. Diese Fragen sind als Diskussionsanliegen erschlossen, nicht als bereits gemeinsam verabschiedete Forderungen.",
+            "kind": "auftakt",
+            "refs": []
+          },
+          {
+            "text": "Zu prüfen sind stufenlose Wege, nutzbare Toiletten, Aufenthaltsmöglichkeiten ohne Konsumzwang, spontane Besuche, soziale Atmosphäre und tatsächliche Erreichbarkeit. Die Situation in ländlicher geprägten Teilräumen unterscheidet sich von einer zentralen Lage mit hoher Fußgängerfrequenz. Nichtnutzer sollen ausdrücklich einbezogen werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-3-1-5-3",
+        "title": "Verbindung zur politischen Forderung",
+        "paragraphs": [
+          {
+            "text": "Bergedorf gemeinsam fordert eigenständige dauerhaft öffentlich finanzierte Begegnungsstätten nach dem vorhandenen Betriebskonzept. Diese redaktionelle politische Forderung wird dem Bündnis nicht als eigener Beschluss zugeschrieben. Eine Aufzählung vorhandener Einrichtungen ersetzt nach dem erklärten Maßstab der Plattform keinen Nachweis gesellschaftlicher Zielerreichung.",
+            "kind": "forderung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-3-2": {
+    "date": "14. November 2026",
+    "intro": "Care, Gleichstellung, Familie und Lebenslagen verbinden die Frage nach Gemeinschaft mit dem Alltag von Sorgearbeit und unterschiedlichen zeitlichen, körperlichen und sozialen Möglichkeiten.",
+    "sections": [
+      {
+        "id": "t14-3-2-5-1",
+        "title": "Angekündigter Arbeitsstrang",
+        "paragraphs": [
+          {
+            "text": "Die offizielle Bündnisseite kündigt dieses Dialogfeld im Strategieprozess an. Noch offene Uhrzeiten, Räume und Teilnahmebedingungen werden nicht ergänzt. Ein angekündigtes Forum begründet keine bereits beschlossene neue Versorgung für Familien oder pflegebedürftige Menschen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-3-2-5-2",
+        "title": "Sorgearbeit und Lebenssituationen",
+        "paragraphs": [
+          {
+            "text": "Die Aufbereitungen nennen pflegende Angehörige, junge Mütter, Alleinerziehende, ältere und hausgebundene Menschen, Behinderungen, Trauer und biografische Übergänge. Die Nennung bezeichnet Diskussionsbedarf, keine einheitliche Erfahrung aller Angehörigen einer Gruppe.",
+            "kind": "auftakt",
+            "refs": []
+          },
+          {
+            "text": "Zu prüfen sind nutzbare Tageszeiten, Entlastung bei Sorgepflichten, Assistenz, Begleitung, Kinderbetreuung und erreichbare Rückwege. Ein Angebot kann formal offen sein und zeitlich dennoch an der Lebensrealität vorbeigehen. Gleichstellung bedeutet auch, Verantwortung für Zugang nicht allein den Betroffenen oder ihren Angehörigen aufzubürden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-3-2-5-3",
+        "title": "Beteiligung und Grenzen",
+        "paragraphs": [
+          {
+            "text": "Beteiligte sollen Erfahrungen ohne erzwungene Offenlegung ihrer Gesundheit oder Familiengeschichte einbringen können. Einrichtungen müssen erklären, welche Pflege- oder Betreuungsleistung sie tatsächlich erbringen können. Ein allgemeiner Treffpunkt ersetzt keine erforderliche fachliche Versorgung. Umgekehrt darf der Bedarf an Unterstützung gesellschaftliche Begegnung nicht automatisch ausschließen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-3-3": {
+    "date": "14. November 2026",
+    "intro": "Armut, Wohnen und soziale Sicherheit beeinflussen die Bedingungen gesellschaftlicher Teilhabe. Das Dialogfeld soll materielle Hindernisse sichtbar machen, ohne Menschen öffentlich nach Bedürftigkeit zu sortieren.",
+    "sections": [
+      {
+        "id": "t14-3-3-5-1",
+        "title": "Planung und Forschungsbezug",
+        "paragraphs": [
+          {
+            "text": "Die Bündnisseite benennt dieses Themenfeld als geplanten Teil des Strategieprozesses. Eine solche Ankündigung ist keine neue bewilligte Sozialleistung.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          },
+          {
+            "text": "Die Forschung zu Einsamkeit und Armut behandelt Zusammenhänge zwischen sozialer Lage und Kontaktmöglichkeiten. Daraus folgt nicht, dass jede Person mit geringem Einkommen einsam ist oder dass Geld allein jede Beziehungsschwierigkeit löst.",
+            "kind": "forschung",
+            "refs": [
+              "armut"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-3-3-5-2",
+        "title": "Kosten und Wohnbedingungen",
+        "paragraphs": [
+          {
+            "text": "Betrachten Sie Eintritt, Verpflegung, Material, digitale Geräte und Fahrtkosten gemeinsam. Auch räumliche Unsicherheit, fehlende Privatsphäre oder häufige Umzüge können als konkrete Erfahrung in die Bedarfsanalyse eingehen. Wohnungslose Menschen müssen eigene Zugänge finden können; ein Meldeadress- oder Vereinsbezug darf nicht ungeprüft als allgemeine Eintrittsbedingung vorausgesetzt werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-3-3-5-3",
+        "title": "Verlässliche politische Schritte",
+        "paragraphs": [
+          {
+            "text": "Ein Vorschlag sollte benennen, welche Stelle ein Hindernis bearbeiten kann und welche Ressourcen nötig wären. Zeitlich befristete Zuschüsse und dauerhafte Betriebskosten sind getrennt zu planen. Die Auswertung darf Betroffene nicht auf einen Kostenfaktor reduzieren. Ob ein Zugang tatsächlich genutzt wird und Beziehungen ermöglicht, bleibt zusätzlich zu einer Finanzierung zu prüfen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-4": {
+    "date": "14. November 2026",
+    "intro": "Die Arbeitsgruppen werden hier als Inhalte der übergebenen Auftaktaufbereitungen dokumentiert. Ohne geprüfte Originalaufzeichnung oder autorisiertes Ergebnisprotokoll werden sie nicht als verbindliche Bündnisbeschlüsse ausgegeben.",
+    "sections": [
+      {
+        "id": "t14-4-5-1",
+        "title": "Leitfragen und Verfahren",
+        "paragraphs": [
+          {
+            "text": "Die Berichte nennen drei Leitfragen: bislang wenig berücksichtigte Themen und Menschen, zusätzlich einzubeziehende Akteure sowie Voraussetzungen für sinnvolle Teilnahme. Berichtet werden kurze digitale Gruppenrunden, technische Probleme bei der Einteilung, Rückmeldungen im Plenum und Möglichkeiten für nachträgliche Notizen. Genaue Gruppen- und Teilnehmerzahlen bleiben ungeprüft.",
+            "kind": "auftakt",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-4-5-2",
+        "title": "Wenig erreichte Menschen",
+        "paragraphs": [
+          {
+            "text": "Genannt werden stark zurückgezogene junge Menschen, Übergänge nach Schule, Studium oder Umzug, Mobilitätseinschränkungen, hausgebundene Menschen, sprachliche und kulturelle Hürden, Trauer, psychische Belastungen und desorganisierte Lebenssituationen. Weitere Beiträge betreffen migrantische und queere Menschen, Alleinerziehende, Pflegebedürftige und pflegende Angehörige. Diese Sammlung ist keine Häufigkeitsstatistik und keine Diagnose der genannten Gruppen.",
+            "kind": "auftakt",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-4-5-3",
+        "title": "Vorgeschlagene Partner und Zugänge",
+        "paragraphs": [
+          {
+            "text": "Die Aufbereitungen schlagen Jugendberufsagentur, Kinder- und Jugendpsychiatrie, Einrichtungen für junge Erwachsene, Schüler-, Eltern- und Studierendenvertretungen, Selbsthilfe/KISS, Angehörigenberatung und politische Fachsprecher vor. Weitere Vorschläge betreffen Pflege- und Seniorenbegleitung, Suchthilfe, Hochschulen, Wirtschaft, Finanzsektor und Jobcenter. Aus der Erwähnung folgt keine zugesagte Mitarbeit.",
+            "kind": "auftakt",
+            "refs": []
+          },
+          {
+            "text": "Als mögliche Zugänge erscheinen Pflegestützpunkte, barrierefreies Leben, Angehörigenschulen, Hausmeistereien, Postzustellung, Gewerkschaften, Genossenschaftsmedien, Flyer, Themencafés, Nahverkehr und Nachbarschaftsprojekte. Eine Kooperation etwa mit HVV oder Post ist daraus nicht nachgewiesen.",
+            "kind": "auftakt",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-4-5-4",
+        "title": "Kommunikation, Religion und Ressourcen",
+        "paragraphs": [
+          {
+            "text": "Beiträge behandeln internationale und innerdeutsche Zuzüge, Flucht, Wohnungs- und Obdachlosigkeit sowie einladende Ansprache und Scham. Kirchen, Stiftungen, Fördermittelgeber und bestehende Programme werden als mögliche Ressourcen genannt. Gewünscht werden Koordination, Fortbildung, eine Informationsstruktur und Berücksichtigung des Aufwands beteiligter Organisationen.",
+            "kind": "auftakt",
+            "refs": []
+          },
+          {
+            "text": "Zur jungen Bevölkerung werden Erwartungen an ein aktives Sozialleben, idealisierte soziale Medien und verdeckte Einsamkeit trotz selbstbewussten Auftretens diskutiert. Die Sammlung enthält Fragen zum Verhältnis zielgruppenspezifischer und generationenübergreifender Arbeit. Keine dieser Diskussionen wird hier in ein bereits bewilligtes Maßnahmenpaket umgeschrieben.",
+            "kind": "auftakt",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-4-5-5",
+        "title": "Ergebnisse sichern und offene Punkte",
+        "paragraphs": [
+          {
+            "text": "Für einen belastbaren Ergebnisstand sind Sprecherkontext, genaue Formulierungen, abweichende Positionen und die spätere Zusammenführung zu prüfen. Die Originalzeilen bleiben im redaktionellen Register erhalten. Die Dokumentation ersetzt weder eine Betroffenenbefragung noch die Zustimmung vorgeschlagener Netzwerkpartner. Endgültige Abstimmungszahlen und die tatsächliche Übernahme einzelner Vorschläge sind weiterhin offen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-5": {
+    "date": "14. November 2026",
+    "intro": "Die weitere Entwicklung soll als nachvollziehbarer Verlauf dokumentiert werden. Eine Terminplanung, eine durchgeführte Veranstaltung und eine umgesetzte Empfehlung sind verschiedene Schritte.",
+    "sections": [
+      {
+        "id": "t14-5-5-1",
+        "title": "Veranstaltungen und Veröffentlichungen",
+        "paragraphs": [
+          {
+            "text": "Die offizielle Bündnisseite führt Fach- und Onlineformate sowie Forum- und Dialogplanungen auf. Der gemeinsame Veranstaltungsbereich übernimmt keine ungeprüften Wiederholungen und ordnet vergangene Termine ins Archiv ein. Die ursprünglichen Aufbereitungen bleiben als datierte Grundlage erhalten.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-5-5-2",
+        "title": "Empfehlungen und politische Aufnahme",
+        "paragraphs": [
+          {
+            "text": "Dokumentiert werden sollen veröffentlichte Ergebnisse, offene Fragen und die verantwortlichen Stellen. Wenn Empfehlungen an Politik oder Verwaltung übergeben werden, sind Empfänger, Datum und tatsächlicher Gegenstand zu nennen. Eine Übergabe ist keine automatische Zustimmung. Für einen politischen Beschluss oder eine Bewilligung braucht es jeweils eine passende Originalunterlage.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Die Bundesstrategie, die bundesweite Allianz und das Hamburger Bündnis sind unterschiedliche Ebenen. Fortschritte eines bundesweiten Netzwerks belegen keinen abgeschlossenen Hamburger Landesprozess. Umgekehrt kann eine lokale Kooperation bereits arbeiten, während ein übergreifendes Konzept noch entwickelt wird.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-5-5-3",
+        "title": "Widersprüche nicht glätten",
+        "paragraphs": [
+          {
+            "text": "Die Januar-Ankündigung zu KrisenNETZ/U25 lag in unterschiedlichen Abrufständen mit abweichendem Datum vor. Genauere künftige Konferenz-, Preis- und Barometerdaten sind nicht aus einer bloßen Wiederholung in mehreren Berichten zu bestätigen. Noch fehlende Originalnachweise bleiben in der Prüfliste; die bestehende Terminübersicht aus Auftrag 6 wird unverändert erhalten.",
+            "kind": "ungeprueft",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t14-6": {
+    "date": "14. November 2026",
+    "intro": "Für Kontakt und Beteiligung am Hamburger Bündnis sind dessen veröffentlichte Stellen zuständig. Die Bürgerplattform kann zu diesen Originalinformationen führen, nimmt aber keine Anmeldung für das Bündnis entgegen.",
+    "sections": [
+      {
+        "id": "t14-6-5-1",
+        "title": "Offizielle Kontaktwege",
+        "paragraphs": [
+          {
+            "text": "Die Bündnisseite nennt die Geschäftsstelle bei der Bergedorf-Bille-Stiftung und bgeh@bergedorf-bille.de als öffentlichen Kontakt. Die Teamseite bestätigt die Schreibweise Swantje Tiedemann. Nutzen Sie die Originalseite für aktuelle Zuständigkeiten und Teilnahmeinformationen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh",
+              "auftrag5-team"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t14-6-5-2",
+        "title": "Interessen und Beiträge",
+        "paragraphs": [
+          {
+            "text": "Einzelpersonen und Organisationen können ihre Perspektive, ein konkretes Thema oder eine mögliche Mitarbeit verständlich beschreiben. Nennen Sie, ob Sie Erfahrungen beitragen, ein Angebot vorstellen oder organisatorisch mitwirken möchten. Beschreiben Sie auch Voraussetzungen wie barrierefreien Zugang, Sprache oder passende Tageszeiten. Vertrauliche Falldaten und Namen Dritter sind dafür regelmäßig nicht erforderlich.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Ein Interesse an Mitwirkung ist keine zugesagte Mitgliedschaft oder Beauftragung. Die Regeln eines Hamburger Bündnisformats sind von denen der bundesweiten Allianz zu unterscheiden. Auch ein Eintrag in einen Veranstalterverteiler ist keine politische Petition oder Vollmacht.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t14-6-5-3",
+        "title": "Unabhängigkeit der Plattform",
+        "paragraphs": [
+          {
+            "text": "Bergedorf gemeinsam ist eine private unabhängige Bürgerplattform, keine offizielle Bündnisseite und keine Behörde. Ihre politische Begegnungsstättenforderung ist eine eigene redaktionelle Position. Öffentliche Schreibfunktionen und Unterstützerregistrierung bleiben deaktiviert; es wird kein neuer Verteiler und kein Kontaktformular für Bündnisdaten eingerichtet.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "politik": {
+    "date": "14. November 2026",
+    "intro": "Einsamkeit wird auf Bundes-, Landes- und Bezirksebene bearbeitet. Öffentliche Verantwortung verlangt, Ziele, Zuständigkeiten, Geld, Umsetzung und Ergebnisse nachvollziehbar auseinanderzuhalten.",
+    "sections": [
+      {
+        "id": "politik-5-1",
+        "title": "Ebenen und belegter Stand",
+        "paragraphs": [
+          {
+            "text": "Die Bundesregierung beschloss ihre Strategie am 13. Dezember 2023. Der Start der bundesweiten Allianz wurde für den 22. Juni 2026 amtlich dokumentiert. Das sind unterschiedliche Schritte: Strategiebeschluss und begonnene Vernetzung.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-strategie",
+              "auftrag5-allianzstart"
+            ]
+          },
+          {
+            "text": "In Hamburg ist ein zivilgesellschaftlicher Strategieprozess angekündigt. Die Originalankündigung wird nicht als Beleg einer bereits beschlossenen und umgesetzten Landesstrategie verwendet.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "politik-5-2",
+        "title": "Politische Bewertung und Tatsachen",
+        "paragraphs": [
+          {
+            "text": "Die Plattform kann öffentliche Förderung anhand ihres erklärten gesellschaftlichen Ziels politisch bewerten. Diese Position ersetzt keine Tatsachenprüfung einzelner Maßnahmen. Ebenso darf die bloße Existenz eines geförderten Angebots nicht automatisch als umfassender gesellschaftlicher Erfolgsnachweis gelten.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Prüfen Sie bei jeder Maßnahme: Wer hat was beschlossen oder angekündigt? Welche Mittel sind tatsächlich verfügbar? Was ist umgesetzt und welche Wirkung wurde mit welcher Methode untersucht? Eine parlamentarische Frage oder ein Antrag ist nicht selbst schon eine beschlossene Lösung.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "politik-5-3",
+        "title": "Beteiligung und Kontrolle",
+        "paragraphs": [
+          {
+            "text": "Die Bezirksversammlung wirkt an den Verwaltungsaufgaben des Bezirks mit und kontrolliert sie. Beschlüsse und Empfehlungen sind nach Zuständigkeitsbereich zu unterscheiden. Die bestehenden Politiklinks führen zu Originalunterlagen und zum Sitzungskalender.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-bezirk",
+              "auftrag5-kompetenz"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "t15-1": {
+    "date": "14. November 2026",
+    "intro": "Die Bundesebene verbindet strategische Zielsetzung, Forschung, Vernetzung und Modellmaßnahmen. Bundesweite Aktivitäten ersetzen nicht automatisch eine konkrete erreichbare Versorgung in Bergedorf.",
+    "sections": [
+      {
+        "id": "t15-1-5-1",
+        "title": "Bundesstrategie: beschlossen",
+        "paragraphs": [
+          {
+            "text": "Der Kabinettsbeschluss vom 13. Dezember 2023 stellt einen bestätigten politischen Ausgangspunkt dar. Die Strategie enthält unterschiedliche Maßnahmen und Prüfaufträge. Das Beschließen des Gesamtdokuments bedeutet nicht, dass jede darin genannte Maßnahme bereits vollständig umgesetzt oder wissenschaftlich evaluiert ist.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-strategie"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t15-1-5-2",
+        "title": "Allianz und Kompetenznetz: begonnen",
+        "paragraphs": [
+          {
+            "text": "Der Start der Allianz im Juni 2026 ist amtlich dokumentiert. Sie bündelt verschiedene gesellschaftliche Arbeitsfelder.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-allianzstart"
+            ]
+          },
+          {
+            "text": "Das am ISS e.V. angesiedelte Kompetenznetz unterstützt die Umsetzung und Wissensvermittlung. Die Allianzbeschreibung erläutert Formate und Mitgliedschaft: Für Einzelpersonen ist eine relevante institutionelle Anbindung vorgesehen; eine beliebige Anmeldung begründet keine Mitgliedschaft.",
+            "kind": "institution",
+            "refs": [
+              "auftrag5-allianz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t15-1-5-3",
+        "title": "Forschung, Förderung und Wirkung",
+        "paragraphs": [
+          {
+            "text": "Forschungspublikationen, Veranstaltungen, Förderprogramme und Kooperationsvereinbarungen sind getrennt zu dokumentieren. Ein bundesweiter Aktionstag schafft Aufmerksamkeit, belegt aber keine dauerhafte Wirkung bei allen Teilnehmenden. Die örtliche Umsetzung benötigt konkrete Träger, Ressourcen und Zugänge. Haushalts- und Förderentscheidungen sind an ihrem tatsächlichen Umfang zu prüfen; ein Netzwerkname ist keine individuelle Leistungszusage.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t15-2": {
+    "date": "14. November 2026",
+    "intro": "Auf Hamburger Landesebene sind politische Ziele, zivilgesellschaftliche Initiativen und amtliche Entscheidungen voneinander zu unterscheiden. Diese Seite behauptet keinen bereits belegten Abschluss einer Hamburger Landesstrategie gegen Einsamkeit.",
+    "sections": [
+      {
+        "id": "t15-2-5-1",
+        "title": "Politische Vereinbarung und Strategievorhaben",
+        "paragraphs": [
+          {
+            "text": "Der veröffentlichte Koalitionsvertrag 2025 behandelt gesellschaftlichen Zusammenhalt und Teilhabe. Eine Koalitionsvereinbarung ist ein politisches Programm und nicht gleichbedeutend mit einem bestimmten ausgeführten Projekt.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-koalition"
+            ]
+          },
+          {
+            "text": "Das Bündnis kündigt die Erarbeitung von Grundlagen für eine Hamburger Strategie an. Eine solche Ankündigung belegt weder einen Senatsbeschluss über ein fertiges Strategiedokument noch dessen flächendeckende Umsetzung.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t15-2-5-2",
+        "title": "Senat, Bürgerschaft und Verwaltung",
+        "paragraphs": [
+          {
+            "text": "Bei politischen Unterlagen ist zu prüfen, welches Organ entscheidet und welche Stelle umsetzt. Eine parlamentarische Anfrage dokumentiert Fragen; erst die genaue Antwort kann belegen, was die Verwaltung zu einem Sachverhalt mitteilt. Haushaltsansätze, Bewilligungen und tatsächlich erbrachte Leistungen sind getrennt auszuweisen.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Die in den Auftaktberichten angesprochene konkrete CDU-Anfrage und die Behauptung einer bundesweit einzigartigen Hamburger Sonderstellung sind hier nicht als vollständig geprüfter Originalnachweis verfügbar. Sie werden deshalb nicht als bestätigte Alleinstellung Hamburgs veröffentlicht.",
+            "kind": "ungeprueft",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t15-2-5-3",
+        "title": "Umsetzung konkret verfolgen",
+        "paragraphs": [
+          {
+            "text": "Als überprüfbares Einzelbeispiel berichtet eine Verwaltungsmitteilung aus Hamburg-Mitte 2026 die Beschriftung zweier Zuhörbänke in Hamm als umgesetzt. Das ist ein örtlicher Vollzugsschritt, kein Nachweis einer erreichten Einsamkeitswirkung und keine Umsetzung der allgemeinen Begegnungsstättenforderung.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-baenke"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "t15-3": {
+    "date": "14. November 2026",
+    "intro": "Bezirkliche Verantwortung betrifft die örtlichen Lebensbedingungen und die Kontrolle konkreter Verwaltungsschritte. Bergedorf ist dabei nicht mit anderen Hamburger Bezirken gleichzusetzen.",
+    "sections": [
+      {
+        "id": "t15-3-5-1",
+        "title": "Zuständigkeiten und Ausschüsse",
+        "paragraphs": [
+          {
+            "text": "Die Bezirksversammlung Bergedorf fasst Beschlüsse zu Bezirksangelegenheiten, wirkt an Verwaltungsaufgaben mit und bildet Fachausschüsse. Gegenüber Fachbehörden können Empfehlungen erforderlich sein, wenn eine Angelegenheit nicht im eigenen Entscheidungsbereich liegt.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-bezirk",
+              "auftrag5-kompetenz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t15-3-5-2",
+        "title": "Sozialplanung und Infrastruktur",
+        "paragraphs": [
+          {
+            "text": "Eine örtliche Bestandsaufnahme sollte Treffpunkte, öffentliche Räume, tatsächliche Preise, Öffnungszeiten, Barrierefreiheit und Verkehrswege gemeinsam betrachten. Stadtteilprofile und Sozialraumberichte sind datierte Grundlagen, keine vollständigen Echtzeitverzeichnisse. Bewohner ohne Vereinsbezug oder digitale Zugänge sollen ebenfalls an der Bedarfsklärung mitwirken können.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Die dauerhaft finanzierte allgemeine Begegnungsstätte ist eine politische Forderung der Plattform. Ein bezirklicher Beratungsauftrag oder eine Empfehlung bindet nicht automatisch einen künftigen Landeshaushalt. Für die Umsetzung müssen zuständige Stellen und Finanzierung benannt werden.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t15-3-5-3",
+        "title": "Dokumente sorgfältig lesen",
+        "paragraphs": [
+          {
+            "text": "Der Harburger Antrag 22-1897 bittet um Einladungen zum Thema Einsamkeit. Er wird als Antrag mit Beratungsnachweis dargestellt, nicht als bestätigte Durchführung oder Bergedorfer Beschluss.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-harburg"
+            ]
+          },
+          {
+            "text": "Nutzen Sie für Bergedorf den vorhandenen offiziellen Sitzungskalender und die zugehörigen Unterlagen. Übertragen Sie Termine, Aussagen oder Beschlüsse anderer Bezirke nicht ungekennzeichnet auf Bergedorf.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t15-4": {
+    "date": "14. November 2026",
+    "intro": "Ressortübergreifende Verantwortung bedeutet, zusammenhängende Hindernisse gemeinsam zu bearbeiten. Sie darf nicht dazu führen, dass am Ende niemand für einen konkreten Zugang zuständig ist.",
+    "sections": [
+      {
+        "id": "t15-4-5-1",
+        "title": "Mehrere Politikfelder",
+        "paragraphs": [
+          {
+            "text": "Die Bundesstrategie behandelt Einsamkeit als bereichsübergreifende Herausforderung und sieht ressortübergreifenden Austausch vor. Sie benennt unter anderem soziale Orte und kommunale Planung als Handlungsfelder.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-strategie"
+            ]
+          },
+          {
+            "text": "Soziales und Gesundheit, Bildung, Jugend und Familie, Pflege, Stadtentwicklung, Wohnen, Mobilität, Kultur, Sport, Arbeitsmarkt und Wirtschaft betrachten unterschiedliche Alltagsbedingungen. Ein günstiger Treffpunkt kann an fehlendem Verkehr scheitern; ein vorhandener Bus kann fehlende geeignete Räume nicht ersetzen.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t15-4-5-2",
+        "title": "Aufgaben verbindlich klären",
+        "paragraphs": [
+          {
+            "text": "Benennen Sie eine koordinierende Stelle, die zuständigen Fachbereiche, gemeinsame Ziele und konkrete Rückmeldetermine. Fachliche Zuständigkeiten werden nicht durch einen allgemeinen Runden Tisch aufgehoben. Koordination benötigt Zeit und Ressourcen. Entscheidungen sollen dokumentieren, wer ein Hindernis bearbeiten kann und wo eine andere Ebene entscheiden muss.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t15-4-5-3",
+        "title": "Keine grenzenlose Datenweitergabe",
+        "paragraphs": [
+          {
+            "text": "Zusammenarbeit ist nicht gleichbedeutend mit einer gemeinsamen personenbezogenen Akte für alle Beteiligten. Öffentliche Angebotsdaten können gemeinsam erschlossen werden; vertrauliche Fallinformationen brauchen einen geklärten Zweck, zulässigen Umfang und Schutz. Betroffene sollen beteiligt werden, ohne ihre Lebensgeschichte mehreren Gremien offenlegen zu müssen. Erfolge sind an tatsächlichem Zugang und gesellschaftlichen Ergebnissen zu prüfen, nicht nur an der Zahl beteiligter Ressorts.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t15-5": {
+    "date": "14. November 2026",
+    "intro": "Finanzierung muss zum geforderten Leistungsumfang passen. Ein einmaliger Projektzuschuss und eine verlässliche dauerhafte Betriebsfinanzierung sind verschiedene Instrumente.",
+    "sections": [
+      {
+        "id": "t15-5-5-1",
+        "title": "Förderwege unterscheiden",
+        "paragraphs": [
+          {
+            "text": "Öffentliche Gelder, Stiftungsförderung, Trägerbeiträge und freiwilliges Engagement können unterschiedliche Teile eines Vorhabens tragen. Eine Ausschreibung benennt Voraussetzungen, noch keine Bewilligung. Ein bewilligtes Budget beweist nicht, dass Räume tatsächlich geöffnet oder dauerhaft personell abgesichert sind.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Hamburgische Zuwendungen sind am geltenden Haushalts- und Förderrahmen zu prüfen. Die vorhandenen Hinweise zur LHO und zu Förderwegen ersetzen keine individuelle Förderzusage.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag4-lho"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t15-5-5-2",
+        "title": "Dauerhafte Kosten sichtbar machen",
+        "paragraphs": [
+          {
+            "text": "Trennen Sie Aufbau, Miete, Energie, Personal, Reinigung, Vertretung, Instandhaltung, Zugänglichkeit und Evaluation. Ehrenamtliche Beiträge sind wertvoll, dürfen aber eine zugesagte verlässliche Öffnung nicht verdeckt von unbezahlter Verfügbarkeit abhängig machen. Auch Koordination, Fortbildung und die Beteiligung von Menschen mit zusätzlichen Barrieren verursachen Aufwand.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t15-5-5-3",
+        "title": "Transparenz und gesellschaftliches Ziel",
+        "paragraphs": [
+          {
+            "text": "Bergedorf gemeinsam fordert einen wesentlichen dauerhaft öffentlich finanzierten Anteil der laufenden Kosten allgemeiner Begegnungsstätten. Günstige Preise und offene Nutzung sollen nicht allein von Konsumumsätzen abhängen. Dies ist eine politische Forderung, keine bestehende Finanzierungszusage.",
+            "kind": "forderung",
+            "refs": []
+          },
+          {
+            "text": "Veröffentlichen Sie Mittelgeber, Zweck, Laufzeit, Auflagen und den tatsächlich erreichten Stand. Besucherzahlen und ausgegebene Gelder allein belegen weder nachhaltige Beziehungen noch das vollständige politische Erfolgsziel.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t15-6": {
+    "date": "14. November 2026",
+    "intro": "Politische Vorhaben werden verständlicher, wenn jeder Schritt einen klaren Status, eine Quelle und ein Datum erhält. Mehrere Phasen dürfen nicht zu einer einzigen Erfolgsmeldung verschmolzen werden.",
+    "sections": [
+      {
+        "id": "t15-6-5-1",
+        "title": "Statusleiter mit Beleg",
+        "paragraphs": [
+          {
+            "text": "Vorgeschlagen bedeutet eine Idee; geprüft einen dokumentierten Prüfprozess; beantragt einen tatsächlich eingereichten Antrag. Beschlossen verlangt den zuständigen Beschluss. Begonnen bezeichnet belegte erste Umsetzungsschritte; umgesetzt eine konkret erbrachte Leistung. Abgeschlossen und evaluiert sind weitere, voneinander zu unterscheidende Aussagen. Eine fehlende Quelle wird nicht durch die wahrscheinlichste Phase ersetzt.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t15-6-5-2",
+        "title": "Drei belegte Beispiele",
+        "paragraphs": [
+          {
+            "text": "Die Bundesstrategie ist beschlossen. Der Start der Allianz dokumentiert begonnene bundesweite Vernetzung. Die Mitteilung zu Zuhörbänken in Hamm beschreibt eine örtlich umgesetzte Beschriftung. Diese drei Belege betreffen unterschiedliche Gegenstände und tragen keine gemeinsame Behauptung einer bereits erfolgreichen Gesamtversorgung.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-strategie",
+              "auftrag5-allianzstart",
+              "auftrag5-baenke"
+            ]
+          },
+          {
+            "text": "Der Hamburger Strategieprozess bleibt nach der vorliegenden Originalankündigung ein angekündigtes zivilgesellschaftliches Vorhaben.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t15-6-5-3",
+        "title": "Widersprüche und Kontrolle",
+        "paragraphs": [
+          {
+            "text": "Lesen Sie Dokumenttyp, Datum, zuständiges Gremium und Verwaltungsauskunft zusammen. Wenn spätere Berichte einem früheren Stand widersprechen, bleibt die Abfolge nachvollziehbar; eine nicht geprüfte Variante wird nicht ausgewählt. Kosten, Verzögerungen, Abbrüche und nicht erreichte Gruppen gehören zur Kontrolle. Der Nachweis, dass eine Maßnahme ausgeführt wurde, ersetzt keine Untersuchung ihres gesellschaftlichen Ergebnisses.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "digital": {
+    "date": "14. November 2026",
+    "intro": "Digitale Kommunikation kann soziale Beziehungen unterstützen, ist aber nicht automatisch eine tragfähige Beziehung. Zugleich darf gesellschaftliche Teilhabe nicht von Smartphone oder Internetanschluss abhängig werden.",
+    "sections": [
+      {
+        "id": "digital-5-1",
+        "title": "Nutzung differenziert betrachten",
+        "paragraphs": [
+          {
+            "text": "Halls narrativer Review beschreibt einen schwachen allgemeinen Zusammenhang zwischen sozialer Mediennutzung und Einsamkeit und betont soziale Interaktionen und unterschiedliche Nutzungsbedingungen. Daraus wird weder eine pauschale Schädlichkeit noch eine universelle Schutzwirkung aller Plattformen abgeleitet.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-social"
+            ]
+          },
+          {
+            "text": "Messenger, Videogespräche, Interessengruppen und digitale Freundschaften unterscheiden sich von öffentlichen Feeds, Werbung oder automatisierten Gesprächen. Zeit am Bildschirm allein beschreibt die Qualität eines Kontakts nicht.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "digital-5-2",
+        "title": "Technologien und Risiken",
+        "paragraphs": [
+          {
+            "text": "Zu KI-Gesprächspartnern liegen sowohl Befunde momentaner Entlastung als auch explorative längerfristige Beobachtungen vor. Sie untersuchen verschiedene Maße und Designs. Kurzfristige Veränderung wird nicht als Ersatz für dauerhafte menschliche Beziehungen oder professionelle Versorgung ausgegeben.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-ai",
+              "auftrag5-ailang"
+            ]
+          },
+          {
+            "text": "Die Polizei Hamburg informiert über Liebesbetrug mit vorgetäuschten Beziehungen. Diese dokumentierte Betrugsform rechtfertigt konkrete Vorsicht, keine pauschale Abwertung digitaler Kontakte.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-betrug"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "digital-5-3",
+        "title": "Analoge Teilhabe sichern",
+        "paragraphs": [
+          {
+            "text": "Informationen, Einladungen und Anmeldungen brauchen auch nutzbare analoge Wege. Kosten, Kenntnisse, Sprache, Behinderungen und fehlende Geräte sind mitzudenken. Diese Website eröffnet keine neue Kontaktbörse oder KI-Beratung; öffentliche Schreibfunktionen bleiben gesperrt.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t16-1": {
+    "date": "14. November 2026",
+    "intro": "Digitale Kontakte reichen von einer kurzen Nachricht bis zu langjährigen Freundschaften. Ihr Wert hängt nicht allein davon ab, ob Menschen sich im selben Raum befinden.",
+    "sections": [
+      {
+        "id": "t16-1-5-1",
+        "title": "Unterschiedliche Kontaktformen",
+        "paragraphs": [
+          {
+            "text": "Messenger können bestehende Beziehungen im Alltag begleiten. Videogespräche ermöglichen Gespräch und sichtbare Reaktionen über Entfernung. Online-Gemeinschaften verbinden Interessen und Erfahrungen; digitale Freundschaften können für Beteiligte wichtig sein. Ein öffentlicher Kommentar, ein automatisches Like und ein persönliches Gespräch sind dennoch unterschiedliche Formen von Austausch.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t16-1-5-2",
+        "title": "Forschungsstand und Grenzen",
+        "paragraphs": [
+          {
+            "text": "Der narrative Review von Hall untersucht soziale Medien im Zusammenhang mit Zugehörigkeit und Einsamkeit. Er betont die Einbettung in konkrete Beziehungen statt einer Erklärung allein durch allgemeine Nutzungszeit. Solche Ergebnisse beantworten nicht jede Frage nach einzelnen Plattformen, Altersgruppen oder Situationen.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-social"
+            ]
+          },
+          {
+            "text": "Klären Sie Erwartungen an Antwortzeiten, Vertraulichkeit und Gesprächsumfang. Ein Kontakt darf Pausen machen; ständige digitale Erreichbarkeit ist keine Pflicht. Bei öffentlichen Gruppen sollte erkennbar sein, wer mitliest und wie Konflikte moderiert werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t16-1-5-3",
+        "title": "Online und offline verbinden",
+        "paragraphs": [
+          {
+            "text": "Ein Treffen vor Ort kann erwünscht sein, muss es aber nicht. Prüfen Sie Sicherheit, erreichbaren Ort, Kosten und freiwillige Zustimmung. Menschen mit Mobilitätseinschränkungen können digitale Kontakte nutzen, ohne dadurch auf reale Begegnung verzichten zu müssen. Umgekehrt soll niemand digitale Kanäle verwenden müssen, um von analogen Angeboten zu erfahren. Die Wahl der Kontaktform bleibt selbstbestimmt.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t16-2": {
+    "date": "14. November 2026",
+    "intro": "Einsamkeit trotz vieler Nachrichten oder großer Kontaktlisten ist begrifflich möglich: Zahl und Qualität von Beziehungen sind verschiedene Dinge. Die Ursachen im Einzelfall dürfen daraus nicht geraten werden.",
+    "sections": [
+      {
+        "id": "t16-2-5-1",
+        "title": "Was die Forschung trägt",
+        "paragraphs": [
+          {
+            "text": "Halls Review fasst unterschiedliche Nutzungsformen und Zeithorizonte zusammen. Ein schwacher allgemeiner Zusammenhang zwischen sozialer Mediennutzung und Einsamkeit erlaubt keine pauschale Kausalaussage. Welche Menschen auf welche Weise Zugehörigkeit gewinnen oder Belastung erleben, verlangt genauere Betrachtung.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-social"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t16-2-5-2",
+        "title": "Vergleich, Ausschluss und Konflikte",
+        "paragraphs": [
+          {
+            "text": "Sozialer Vergleich, ausbleibende Antworten, Ausschluss aus Gruppen oder Cybermobbing sind unterschiedliche Erfahrungen, die nicht mit einer einzigen Kennzahl erfasst werden sollten. Dass ein Feed viele soziale Aktivitäten zeigt, sagt wenig darüber aus, wie tragfähig die Beziehungen der gezeigten Menschen sind. Einzelne persönliche Erfahrungen bleiben als solche kenntlich.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Für Gruppen sind verständliche Regeln, erreichbare Moderation und Beschwerdewege wichtig. Betroffene müssen nicht öffentlich ihre gesamte Geschichte schildern, um einen problematischen Beitrag zu melden. Der Umgang mit Belastung sollte sich an der konkreten Situation orientieren; allgemeine Verbote oder Schuldzuweisungen ersetzen keine Unterstützung.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t16-2-5-3",
+        "title": "Eigene Nutzung reflektieren",
+        "paragraphs": [
+          {
+            "text": "Achten Sie darauf, ob ein Kanal gewünschte Gespräche ermöglicht oder eher belastende Gewohnheiten verstärkt. Verabredete Pausen und andere Kontaktwege sind mögliche praktische Schritte, keine hier nachgewiesene Behandlung. Eine persönliche Beratung kann bei anhaltender Belastung passend sein; die vorhandenen Hilfsansichten erschließen fachliche Zugänge.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t16-3": {
+    "date": "14. November 2026",
+    "intro": "Digitale Kontaktvermittlung kann Interessen und erreichbare Aktivitäten erschließen. Ein Profil, ein Match oder ein Gruppenbeitritt beweist aber weder Identität noch Sicherheit oder eine entstehende Freundschaft.",
+    "sections": [
+      {
+        "id": "t16-3-5-1",
+        "title": "Angebot und Geschäftsmodell",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie, wer eine Freizeit- oder Nachbarschaftsplattform betreibt, welche Kosten entstehen, wer Daten sehen kann und wie Moderation und Beschwerden funktionieren. Ein öffentliches Profil sollte nur die nötigen Angaben enthalten. Eine Zusage der Plattform über einen passenden Kontakt wird nicht mit einer Garantie sozialer Beziehung gleichgesetzt.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t16-3-5-2",
+        "title": "Dokumentierte Betrugsrisiken",
+        "paragraphs": [
+          {
+            "text": "Die Polizei Hamburg beschreibt Romance- beziehungsweise Love-Scamming: vorgetäuschte Beziehungen werden für finanzielle Forderungen genutzt. Geldforderungen und Identitätsangaben sind kritisch zu prüfen; bei einem Verdacht sind Belege zu sichern und die zuständigen Stellen zu kontaktieren.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-betrug"
+            ]
+          },
+          {
+            "text": "Teilen Sie keine Zugangscodes, Ausweiskopien oder vertraulichen Gesundheitsdaten mit unbekannten Kontakten. Für ein erstes Treffen kann ein öffentlicher gut erreichbarer Ort gewählt werden. Niemand muss zu einem privaten Treffpunkt wechseln oder eine digitale Unterhaltung fortsetzen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t16-3-5-3",
+        "title": "Datenschutz und Plattformgrenzen",
+        "paragraphs": [
+          {
+            "text": "Vor einer Weitergabe fremder Kontaktdaten ist deren Einverständnis erforderlich zu klären; private Geschichten gehören nicht ungefragt in Gruppen. Datensparsame Vermittlung und nachvollziehbare Löschung sind von allgemeinen Werbeversprechen zu unterscheiden. Bergedorf gemeinsam bietet in dieser Testfassung keine aktive Kontaktbörse, keine Partnervermittlung und keine neue Registrierungsfunktion an.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t16-4": {
+    "date": "14. November 2026",
+    "intro": "KI-Gesprächspartner können sprachlich auf persönliche Anliegen reagieren. Welche Wirkung das auf Einsamkeit hat, muss anhand konkreter Studien, Zeiträume und Ergebnismaße beurteilt werden.",
+    "sections": [
+      {
+        "id": "t16-4-5-1",
+        "title": "Kurzfristige Befunde",
+        "paragraphs": [
+          {
+            "text": "De Freitas und Mitautoren berichten in mehreren Studien momentane Verringerungen von Einsamkeit nach KI-Interaktion; eine Verlaufsstudie umfasst eine Woche. Das Gefühl, gehört zu werden, spielt in ihren Untersuchungen eine Rolle. Diese Befunde sind kein Nachweis langfristig entstandener menschlicher Beziehungen.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-ai"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t16-4-5-2",
+        "title": "Längerfristige Beobachtung",
+        "paragraphs": [
+          {
+            "text": "Folk und Dunn untersuchen einen zwölfmonatigen Verlauf. Für emotionale Isolation und ein breiteres Verbundenheitsmaß ergeben sich unterschiedliche Zusammenhänge; die Autoren kennzeichnen die Analyse als explorativ. Eine Beobachtungsstudie belegt nicht allein, dass KI-Nutzung eine Veränderung verursacht. Kurzfristige Entlastung und langfristige soziale Einbindung sind getrennte Fragen.",
+            "kind": "forschung",
+            "refs": [
+              "auftrag5-ailang"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t16-4-5-3",
+        "title": "Erwartungen, Bindung und Daten",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie, ob Gespräche reale gewünschte Kontakte ergänzen oder im eigenen Alltag verdrängen, und ob Kosten oder Nutzungsdruck entstehen. Emotionale Abhängigkeit und problematische Bindung sind zu untersuchende Risiken, keine hier behauptete sichere Folge jeder KI-Nutzung. Beachten Sie, welche persönlichen Inhalte gespeichert oder weiterverwendet werden. Ein sprachlich überzeugendes System ist kein menschlicher Freund und keine garantierte fachliche Hilfe. Diese Bürgerplattform richtet weder einen KI-Begleiter noch eine Therapie- oder Krisenfunktion ein.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t16-5": {
+    "date": "14. November 2026",
+    "intro": "Digitale Teilhabe verlangt mehr als einen vorhandenen Internetanschluss. Auch Fähigkeiten, Kosten, Sprache und konkrete Barrierefreiheit entscheiden darüber, ob ein Angebot nutzbar ist.",
+    "sections": [
+      {
+        "id": "t16-5-5-1",
+        "title": "Menschen ohne Internet",
+        "paragraphs": [
+          {
+            "text": "Destatis berichtet für 2025 gut drei Prozent der 16- bis 74-Jährigen, die das Internet noch nie genutzt haben. Diese Altersgrenze lässt ältere Menschen unberücksichtigt; außerdem beschreibt sie nicht alle Probleme mit Geräten, Kosten oder Bedienung. Der Wert wird nicht als Bergedorfer Quote oder vollständiges Maß digitaler Ausgrenzung verwendet.",
+            "kind": "amtlich",
+            "refs": [
+              "auftrag5-offline"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t16-5-5-2",
+        "title": "Unterstützung ohne Entmündigung",
+        "paragraphs": [
+          {
+            "text": "Persönliche Hilfe sollte auf Wunsch erklären und gemeinsames Ausprobieren ermöglichen. Zugangsdaten bleiben bei der Person; Hilfe begründet keine Erlaubnis, ihre Kontakte oder Nachrichten dauerhaft zu kontrollieren. Verständliche Sprache, lesbare Schrift, Tastaturbedienung und zugängliche Medien sind konkrete Qualitätsmerkmale. Eine pauschale Behauptung von Barrierefreiheit ersetzt deren Prüfung nicht.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t16-5-5-3",
+        "title": "Analoge Alternativen erhalten",
+        "paragraphs": [
+          {
+            "text": "Angebote sollen auch telefonisch, über Aushänge oder persönliche Auskunft auffindbar sein. Eine ausschließlich digitale Anmeldung kann Menschen ausschließen, obwohl der eigentliche Treffpunkt erreichbar wäre. Für Einrichtungen sind verlässliche analoge Informationswege und Unterstützung beim Zugang zu prüfen. Die vorhandenen redaktionellen Texte können informieren; eine neue Schulung, Geräteausgabe oder Kontaktvermittlung wird durch diese Website nicht als bereits verfügbar dargestellt.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  }
+}

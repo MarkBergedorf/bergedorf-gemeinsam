@@ -1,0 +1,282 @@
+{
+  "auftrag5-strategie": {
+    "authors": "Bundesregierung / BMBFSFJ",
+    "year": 2023,
+    "title": "Strategie der Bundesregierung gegen Einsamkeit",
+    "url": "https://www.bmbfsfj.bund.de/bmbfsfj/service/publikationen/strategie-der-bundesregierung-gegen-einsamkeit-234582",
+    "publication": "Originalquelle",
+    "method": "Amtliche Publikationsseite und einschlägige Abschnitte der Strategie geprüft; Kabinettsbeschluss 13.12.2023.",
+    "limitations": "Strategiebeschluss und angekündigte Einzelmaßnahmen sind keine vollständige Wirkungsevaluation.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-allianzstart": {
+    "authors": "BMBFSFJ",
+    "year": 2026,
+    "title": "Start der Allianz gegen Einsamkeit",
+    "url": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/pressemitteilungen/aktionswoche-gemeinsam-aus-der-einsamkeit-start-der-allianz-gegen-einsamkeit-erstmals-deutscher-gemeinsamkeitspreis-ausgelobt-290074",
+    "publication": "Originalquelle",
+    "method": "Amtliche Mitteilung zum Start am 22. Juni 2026 geprüft.",
+    "limitations": "Begonnene Vernetzung belegt noch keine flächendeckende Versorgung oder Wirkung.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-allianz": {
+    "authors": "Kompetenznetz Einsamkeit / ISS e.V.",
+    "year": "o. J.",
+    "title": "Allianz gegen Einsamkeit: Struktur und Beteiligung",
+    "url": "https://kompetenznetz-einsamkeit.de/begleitung-der-allianz-gegen-einsamkeit",
+    "publication": "Originalquelle",
+    "method": "Selbstdarstellung zu Trägerschaft, Formaten und Mitgliedschaft gelesen.",
+    "limitations": "Keine amtliche Zuständigkeit der Allianz für individuelle Versorgung; Mitgliedschaft wird nicht allein aus Interesse abgeleitet.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-mitglieder": {
+    "authors": "Kompetenznetz Einsamkeit",
+    "year": "o. J.",
+    "title": "Mitglieder der Allianz gegen Einsamkeit",
+    "url": "https://kompetenznetz-einsamkeit.de/mitglieder-der-allianz-gegen-einsamkeit",
+    "publication": "Originalquelle",
+    "method": "Öffentliches Mitgliederverzeichnis, insbesondere Bergedorf-Bille-Stiftung, geprüft.",
+    "limitations": "Stand einer veränderlichen Liste; einzelne Organisationen vertreten damit nicht automatisch das Bundesland Hamburg.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-barometer": {
+    "authors": "Kompetenznetz Einsamkeit / ISS e.V.",
+    "year": 2024,
+    "title": "Veröffentlichung des Einsamkeitsbarometers 2024",
+    "url": "https://kompetenznetz-einsamkeit.de/veroeffentlichung-des-einsamkeitsbarometers-2024",
+    "publication": "Originalquelle",
+    "method": "Originalveröffentlichung: SOEP-Auswertungen und berichtete Zeitvergleiche geprüft.",
+    "limitations": "Beobachtungsdaten 1992–2021; keine aktuelle Bergedorfer Prävalenz und kein Kausalnachweis.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-barometer26": {
+    "authors": "BMBFSFJ / Kompetenznetz Einsamkeit",
+    "year": 2026,
+    "title": "Einsamkeitsbarometer 2026 – Fokusanalyse Inklusion",
+    "url": "https://familienportal.de/bmbfsfj/service/publikationen/einsamkeitsbarometer-2026-286390",
+    "publication": "Originalquelle",
+    "method": "Amtliche Publikationsbeschreibung geprüft; Veröffentlichung 5.6.2026.",
+    "limitations": "Publikationsbeschreibung, kein hier vollständig ausgewerteter Datensatz oder Volltext; keine neuen Prozentwerte daraus übernommen.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-ucla": {
+    "authors": "Daniel W. Russell",
+    "year": 1996,
+    "title": "UCLA Loneliness Scale (Version 3): reliability, validity, and factor structure",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8576833/",
+    "publication": "Journal of Personality Assessment 66(1), 20–40; DOI 10.1207/s15327752jpa6601_2",
+    "method": "Originalabstract und bibliografischer Nachweis geprüft; Untersuchung psychometrischer Eigenschaften in mehreren Stichproben.",
+    "limitations": "Kein diagnostischer Schnelltest; Validität in den untersuchten Stichproben ersetzt keine lokale Validierung oder Grenzwertprüfung.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-djg": {
+    "authors": "Jenny de Jong Gierveld und Theo van Tilburg",
+    "year": 2006,
+    "title": "A 6-item scale for overall, emotional, and social loneliness: Confirmatory tests on survey data",
+    "url": "https://research.vu.nl/en/publications/a-6-item-scale-for-overall-emotional-and-social-loneliness-confir/",
+    "publication": "Research on Aging 28(5), 582–598; DOI 10.1177/0164027506289723",
+    "method": "Originalabstract im Universitätsrepositorium; zwei Befragungen mit insgesamt 9.448 Personen.",
+    "limitations": "Emotionale und soziale Dimensionen; keine automatische Übertragbarkeit beliebiger Übersetzungen oder eigener Schwellenwerte.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-social": {
+    "authors": "Jeffrey A. Hall",
+    "year": 2025,
+    "title": "Loneliness and social media",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39668643/",
+    "publication": "Annals of the New York Academy of Sciences 1543(1), 5–16; DOI 10.1111/nyas.15275",
+    "method": "Originalabstract des narrativen Reviews geprüft; Publikation Januar 2025, online Dezember 2024.",
+    "limitations": "Narrativer Review, keine universelle Kausalaussage über jede Plattform oder Nutzungsform.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-ai": {
+    "authors": "Julian De Freitas, Zeliha Oğuz-Uğuralp, Ahmet Kaan Uğuralp und Stefano Puntoni",
+    "year": "2025/2026",
+    "title": "AI Companions Reduce Loneliness",
+    "url": "https://doi.org/10.1093/jcr/ucaf040",
+    "publication": "Journal of Consumer Research 52(6), 1126–1148",
+    "method": "Originalabstract über Verlagsindex geprüft; fünf Studien, darunter ein einwöchiger Verlauf; Onlinepublikation 2025, Heft 2026.",
+    "limitations": "Kurzfristige momentane Veränderung ist kein Nachweis langfristig tragfähiger menschlicher Beziehungen oder psychotherapeutischer Versorgung.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-ailang": {
+    "authors": "Dunigan Folk und Elizabeth Dunn",
+    "year": 2026,
+    "title": "How Does Turning to AI for Companionship Predict Loneliness and Vice Versa?",
+    "url": "https://doi.org/10.1177/09567976261427747",
+    "publication": "Psychological Science 37(4), 276–286",
+    "method": "Originalabstract und zugänglicher Verlagsauszug geprüft: 12-Monats-Verlauf mit 2.149 Personen.",
+    "limitations": "Explorative Beobachtungsanalyse; Ergebnisse abhängig vom Maß, keine randomisierte Kausalerklärung.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-offline": {
+    "authors": "Statistisches Bundesamt",
+    "year": 2026,
+    "title": "Gut 3 Prozent der Bevölkerung im Alter von 16 bis 74 Jahren sind offline",
+    "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_09_p002.html",
+    "publication": "Originalquelle",
+    "method": "Amtliche IKT-Auswertung für 2025 und Altersabgrenzung geprüft.",
+    "limitations": "Nie genutztes Internet ist ein bestimmter Indikator; über 74-Jährige und weitere Kompetenz-/Kostenbarrieren werden damit nicht vollständig erfasst.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-betrug": {
+    "authors": "Polizei Hamburg",
+    "year": "o. J.",
+    "title": "Love Scamming / Romance Scamming",
+    "url": "https://www.polizei.hamburg/romance-scamming-792214",
+    "publication": "Originalquelle",
+    "method": "Offizielle Präventionsinformation geprüft.",
+    "limitations": "Hinweise zur Betrugsprävention, keine Häufigkeitsmessung unter einsamen Personen.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-stiftung": {
+    "authors": "Bergedorf-Bille-Stiftung",
+    "year": "o. J.",
+    "title": "Stiftung und Geschäftsstelle des Bündnisses",
+    "url": "https://stiftung.bergedorf-bille.de/",
+    "publication": "Originalquelle",
+    "method": "Offizielle Selbstdarstellung mit Stiftungstätigkeit und Trägerschaft seit 2025 geprüft.",
+    "limitations": "Selbstauskunft, keine unabhängige Wirksamkeitsprüfung.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-team": {
+    "authors": "Bergedorf-Bille-Stiftung",
+    "year": "o. J.",
+    "title": "Organe und Team",
+    "url": "https://stiftung.bergedorf-bille.de/ueber-uns/organe-der-stiftung",
+    "publication": "Originalquelle",
+    "method": "Schreibweisen Cornelia Springer-Fouad und Swantje Tiedemann sowie veröffentlichte Funktionen geprüft.",
+    "limitations": "Aktuelle Teamseite bestätigt nicht jede Rolle beim Auftakt oder eine vollständige Referentenliste.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-aktivoli": {
+    "authors": "AKTIVOLI-Landesnetzwerk Hamburg",
+    "year": 2026,
+    "title": "Fachtag Engagiert gegen Einsamkeit",
+    "url": "https://aktivoli.de/aktivoli-fachtag-engagiert-gegen-einsamkeit/",
+    "publication": "Originalquelle",
+    "method": "Veranstalterseite bestätigt gemeinsame Einladung mit BgEH zum Fachtag am 18.9.2026.",
+    "limitations": "Zeitangaben in Ankündigungs-/Programmständen abweichend; hier keine genaue Uhrzeit oder Teilnehmerzahl als gesichert übernommen.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-agfw": {
+    "authors": "Arbeitsgemeinschaft der Freien Wohlfahrtspflege Hamburg",
+    "year": "o. J.",
+    "title": "Mitgliedsverbände",
+    "url": "https://www.agfw-hamburg.de/mitgliedsverbaende/",
+    "publication": "Originalquelle",
+    "method": "Offizielle Liste der Hamburger Spitzenverbände geprüft.",
+    "limitations": "Verbandszugehörigkeit ist kein Beleg für Beteiligung an einem bestimmten Bündnisprojekt.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-kiss": {
+    "authors": "KISS Hamburg",
+    "year": "o. J.",
+    "title": "Was macht KISS Hamburg?",
+    "url": "https://www.kiss-hh.de/ueber-uns/was-macht-kiss-hamburg",
+    "publication": "Originalquelle",
+    "method": "Offizielle Selbstdarstellung zu Information und Beratung zur Selbsthilfe geprüft.",
+    "limitations": "Kein Nachweis eines bestimmten freien Gruppenplatzes oder einer Behandlung.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-hausbesuch": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": "o. J.",
+    "title": "Hamburger Hausbesuch für Seniorinnen und Senioren",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/pflege/hausbesuch-86112",
+    "publication": "Originalquelle",
+    "method": "Amtliche Beschreibung als kostenloses Informationsangebot geprüft.",
+    "limitations": "Kein allgemeiner Besuchsdienst für sämtliche Altersgruppen und kein Anspruch auf einen sofortigen Termin.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-uni": {
+    "authors": "Universität Hamburg",
+    "year": "o. J.",
+    "title": "Felix Roleder: Forschung und soziale Netzwerke",
+    "url": "https://www.theologie.uni-hamburg.de/einrichtungen/kontakt/felix-roleder.html",
+    "publication": "Originalquelle",
+    "method": "Universitäre Forschungsdarstellung zu Einsamkeit und sozialen Netzwerken geprüft.",
+    "limitations": "Belegt ein Forschungsfeld, keine Kooperation mit Bergedorf gemeinsam oder dem Hamburger Strategieprozess.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-koalition": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2025,
+    "title": "Koalitionsvertrag: Sozialen Zusammenhalt stärken – Teilhabe sichern",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/senat/senatsthemen/koalitionsvertrag-2025/sozialen-zusammenhalt-staerken-teilhabe-sichern--1055678",
+    "publication": "Originalquelle",
+    "method": "Amtlich veröffentlichter politischer Vereinbarungstext geprüft.",
+    "limitations": "Koalitionsvereinbarung ist kein einzelner Vollzugs- oder Wirkungsnachweis und keine hier belegte beschlossene Hamburger Einsamkeitsstrategie.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-baenke": {
+    "authors": "Bezirksamt Hamburg-Mitte",
+    "year": 2026,
+    "title": "Zuhörbänke in Hamm – Mitteilung 23-1813.1",
+    "url": "https://bv-hh.de/hamburg-mitte/documents/zuhoerbaenke-in-hamm-austausch-im-oeffentlichen-raum-foerdern-234143",
+    "publication": "Originalquelle",
+    "method": "Amtlicher indexierter Dokumenttext: Beschluss vom 23.6.2026, Verwaltungsmitteilung 25.8.2026, Beschriftung laut Verwaltung in KW30 umgesetzt.",
+    "limitations": "Direktabruf zeitweise Timeout; bestätigter Verwaltungsbericht, keine eigene Ortsbesichtigung oder Wirkungsevaluation.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-harburg": {
+    "authors": "Bezirksversammlung Harburg",
+    "year": 2026,
+    "title": "Gemeinsam aus der Einsamkeit – Antrag 22-1897",
+    "url": "https://bv-hh.de/harburg/documents/gemeinsamer-antrag-spd-gruene-betr-gemeinsam-aus-der-einsamkeit-228699",
+    "publication": "Originalquelle",
+    "method": "Amtlicher Antragstext und Beratungsnachweis 16.6.2026 geprüft.",
+    "limitations": "Antrag ist kein belegter Durchführungsbeschluss. Aussagen im Antrag werden nicht pauschal als amtlich bestätigte Tatsachen übernommen.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-kneteam": {
+    "authors": "Kompetenznetz Einsamkeit",
+    "year": "o. J.",
+    "title": "Projektteam und Kontakt",
+    "url": "https://kompetenznetz-einsamkeit.de/das-kne/projektteam",
+    "publication": "Originalquelle",
+    "method": "Offizielle Teamseite nennt Axel Weber; Aufgabenbereiche Netzwerk, Forschung und Transfer.",
+    "limitations": "Bestätigt Namen und institutionellen Zusammenhang, nicht den genauen Wortlaut oder eine vollständige Rolle beim Hamburger Online-Auftakt.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-kickoff": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": 2025,
+    "title": "Kick-Off für das Bündnis gegen Einsamkeit",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/kick-off-bghe-1028146",
+    "publication": "Originalquelle",
+    "method": "Amtliche Darstellung zum Vernetzungsauftakt Februar 2025 geprüft.",
+    "limitations": "Vernetzungstreffen ist nicht gleichbedeutend mit Beschluss einer Landesstrategie; kein Nachweis sämtlicher späterer Mitgliedschaften.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-ursprung": {
+    "authors": "Bergedorf-Bille eG",
+    "year": 2024,
+    "title": "BEI UNS, Herbst 2024: Wir tun was gegen Einsamkeit! (S. 27)",
+    "url": "https://bergedorf-bille.de/fileadmin/user_upload/Genossenschaft/Service/Oeffentlichkeitsarbeit/BEI_UNS_2024_03.pdf",
+    "publication": "Originalquelle",
+    "method": "Original-PDF, Ausgabe Herbst 2024, gedruckte Seite 27 gelesen: Projekt, Aktionen im Juni 2024 und angestrebter Netzwerkaufbau.",
+    "limitations": "Belegt Projektvorläufer und Aktivitäten, keinen hier unabhängig bestätigten formalen Gründungstag.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-bezirk": {
+    "authors": "Freie und Hansestadt Hamburg",
+    "year": "o. J.",
+    "title": "Bezirksversammlung Bergedorf: Aufgaben und Ausschüsse",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/bezirksversammlung",
+    "publication": "Originalquelle",
+    "method": "Amtliche Aufgabenbeschreibung und bestehender Zugang zum Sitzungskalender geprüft.",
+    "limitations": "Allgemeine Zuständigkeiten, keine konkrete Finanzierungs- oder Betriebszusage für die politische Forderung.",
+    "checked": "2026-11-14"
+  },
+  "auftrag5-kompetenz": {
+    "authors": "Senatskanzlei Hamburg",
+    "year": "o. J.",
+    "title": "Bezirksversammlung: Beschlüsse und Empfehlungen",
+    "url": "https://www.hamburg.de/barrierefrei/gebaerdensprache/politik/bezirksversammlung-576068",
+    "publication": "Originalquelle",
+    "method": "Amtliche Erklärung zu Beschlüssen im Zuständigkeitsbereich des Bezirksamts und Empfehlungen an Fachbehörden gelesen.",
+    "limitations": "Keine abschließende Einzelfallprüfung des Haushalts- oder Zuwendungsrechts.",
+    "checked": "2026-11-14"
+  }
+}

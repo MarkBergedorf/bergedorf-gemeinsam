@@ -1,0 +1,183 @@
+{
+  "stand": "2026-11-14",
+  "methode": "GET mit Lesen von höchstens 512 Antwortbytes; technische Erreichbarkeit, keine vollständige Inhaltsprüfung. Sperren und Timeouts werden nicht als gelöschte Quellen ausgegeben.",
+  "geprueft": 28,
+  "erreichbar": 15,
+  "results": [
+    {
+      "url": "https://aktivoli.de/aktivoli-fachtag-engagiert-gegen-einsamkeit/",
+      "status": 200,
+      "final": "https://aktivoli.de/aktivoli-fachtag-engagiert-gegen-einsamkeit/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://bergedorf-bille.de/fileadmin/user_upload/Genossenschaft/Genossenschaft-PDF/Geschaeftsbericht_2024_Bergedorf-Bille_interaktiv_VORAB.pdf",
+      "status": 404,
+      "result": "HTTP Error 404: Not Found",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://bv-hh.de/hamburg-mitte/documents/zuhoerbaenke-in-hamm-austausch-im-oeffentlichen-raum-foerdern-234143",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://bv-hh.de/harburg/documents/gemeinsamer-antrag-spd-gruene-betr-gemeinsam-aus-der-einsamkeit-228699",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1093/jcr/ucaf040",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/09567976261427747",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://familienportal.de/bmbfsfj/service/publikationen/einsamkeitsbarometer-2026-286390",
+      "status": 200,
+      "final": "https://familienportal.de/bmbfsfj/service/publikationen/einsamkeitsbarometer-2026-286390",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/begleitung-der-allianz-gegen-einsamkeit",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/begleitung-der-allianz-gegen-einsamkeit",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/das-kne/projektteam",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/das-kne/projektteam",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/mitglieder-der-allianz-gegen-einsamkeit",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/mitglieder-der-allianz-gegen-einsamkeit",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/veroeffentlichung-des-einsamkeitsbarometers-2024",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/veroeffentlichung-des-einsamkeitsbarometers-2024",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39668643/",
+      "status": 203,
+      "final": "https://pubmed.ncbi.nlm.nih.gov/39668643/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8576833/",
+      "status": 203,
+      "final": "https://pubmed.ncbi.nlm.nih.gov/8576833/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://research.vu.nl/en/publications/a-6-item-scale-for-overall-emotional-and-social-loneliness-confir/",
+      "status": 200,
+      "final": "https://research.vu.nl/en/publications/a-6-item-scale-for-overall-emotional-and-social-loneliness-confir/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://stiftung.bergedorf-bille.de/",
+      "status": 200,
+      "final": "https://stiftung.bergedorf-bille.de/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://stiftung.bergedorf-bille.de/ueber-uns/organe-der-stiftung",
+      "status": 200,
+      "final": "https://stiftung.bergedorf-bille.de/ueber-uns/organe-der-stiftung",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.agfw-hamburg.de/mitgliedsverbaende/",
+      "status": 200,
+      "final": "https://www.agfw-hamburg.de/mitgliedsverbaende/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/pressemitteilungen/aktionswoche-gemeinsam-aus-der-einsamkeit-start-der-allianz-gegen-einsamkeit-erstmals-deutscher-gemeinsamkeitspreis-ausgelobt-290074",
+      "status": 200,
+      "final": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/pressemitteilungen/aktionswoche-gemeinsam-aus-der-einsamkeit-start-der-allianz-gegen-einsamkeit-erstmals-deutscher-gemeinsamkeitspreis-ausgelobt-290074",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/service/publikationen/strategie-der-bundesregierung-gegen-einsamkeit-234582",
+      "status": 200,
+      "final": "https://www.bmbfsfj.bund.de/bmbfsfj/service/publikationen/strategie-der-bundesregierung-gegen-einsamkeit-234582",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_09_p002.html",
+      "status": 200,
+      "final": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_09_p002.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/barrierefrei/gebaerdensprache/politik/bezirksversammlung-576068",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/pflege/hausbesuch-86112",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/kick-off-bghe-1028146",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/bezirksversammlung",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/senat/senatsthemen/koalitionsvertrag-2025/sozialen-zusammenhalt-staerken-teilhabe-sichern--1055678",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.kiss-hh.de/ueber-uns/was-macht-kiss-hamburg",
+      "status": 200,
+      "final": "https://www.kiss-hh.de/ueber-uns/was-macht-kiss-hamburg",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.polizei.hamburg/romance-scamming-792214",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.theologie.uni-hamburg.de/einrichtungen/kontakt/felix-roleder.html",
+      "status": 200,
+      "final": "https://www.theologie.uni-hamburg.de/einrichtungen/kontakt/felix-roleder.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    }
+  ],
+  "korrektur": {
+    "sourceId": "auftrag5-ursprung",
+    "alterAbruf": "HTTP 404; bisheriger Link nicht beibehalten",
+    "ersatzUrl": "https://bergedorf-bille.de/fileadmin/user_upload/Genossenschaft/Service/Oeffentlichkeitsarbeit/BEI_UNS_2024_03.pdf",
+    "status": 200,
+    "inhalt": "Original-PDF im Rechercheabruf gelesen; S. 27"
+  }
+}

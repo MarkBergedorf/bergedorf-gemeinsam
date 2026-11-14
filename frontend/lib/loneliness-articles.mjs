@@ -1,3 +1,5 @@
+import middleArticles from './loneliness-articles-5.json' with {type:'json'};
+import middleSources from './loneliness-sources-5.json' with {type:'json'};
 import finalArticles from './loneliness-articles-6.json' with {type:'json'};
 import finalSources from './loneliness-sources-6.json' with {type:'json'};
 import {eventSearchText} from './loneliness-events.mjs';
@@ -13,7 +15,7 @@ import {historicalSearchText,districtSearchText} from './loneliness-local.mjs';
 import {lonelinessHelpText} from './loneliness-help.mjs';
 import encounters from './loneliness-articles-encounters.json' with {type:'json'};
 import encounterSources from './loneliness-sources-encounters.json' with {type:'json'};
-const articles={...finalArticles,...encounters,...originalArticles,...newArticles,...social,...guide},sources={...finalSources,...encounterSources,...originalSources,...newSources,...socialSources,...guideSources};
+const articles={...middleArticles,...finalArticles,...encounters,...originalArticles,...newArticles,...social,...guide},sources={...middleSources,...finalSources,...encounterSources,...originalSources,...newSources,...socialSources,...guideSources};
 export {articles as lonelinessArticles,sources as lonelinessSources};
 export function lonelinessArticleText(id){const a=articles[id];return a?[a.intro,eventSearchText(id),lonelinessHelpText(id),historicalSearchText(id),districtSearchText(id),...a.sections.flatMap(s=>[s.title,...s.paragraphs.map(p=>p.text)])].join(' '):'';}
 // Same UTF-16 units as textarea maxlength. No storage or network side effects.
