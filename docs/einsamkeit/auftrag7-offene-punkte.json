@@ -1,0 +1,293 @@
+{
+  "stand": "2026-11-14",
+  "hinweis": "Ergänzt das erhaltene ursprüngliche Fragenregister; keine Überschreibung historischer Prüfentscheidungen. Geklärt nur im ausdrücklich benannten Umfang.",
+  "fragen": [
+    {
+      "id": "P01",
+      "thema": "Stiftungsname und koordinierende Stelle",
+      "originalRegister": "offene-prueffragen.json#P01",
+      "quellzeilen": [
+        "B1-L137",
+        "B2-L549",
+        "B3-L13",
+        "B4-L17"
+      ],
+      "status": "im benannten Umfang geklärt",
+      "aktuellerStand": "Name Bergedorf-Bille-Stiftung und Bündnisgeschäftsstelle durch Originalseiten geprüft. Kein exakter formaler Gründungstag daraus abgeleitet."
+    },
+    {
+      "id": "P02",
+      "thema": "Personennamen, Funktionen und Kontaktrollen",
+      "originalRegister": "offene-prueffragen.json#P02",
+      "quellzeilen": [
+        "B1-L138",
+        "B1-L139",
+        "B1-L149",
+        "B2-L550",
+        "B3-L27",
+        "B4-L434"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Cornelia Springer-Fouad, Swantje Tiedemann und Axel Weber institutionell geprüft. Exakte Rollen und Wortbeiträge zum November-Auftakt bleiben offen."
+    },
+    {
+      "id": "P03",
+      "thema": "Kompetenznetz: KNE/KME",
+      "originalRegister": "offene-prueffragen.json#P03",
+      "quellzeilen": [
+        "B1-L147",
+        "B3-L114",
+        "B3-L117"
+      ],
+      "status": "im benannten Umfang geklärt",
+      "aktuellerStand": "KNE/Kompetenznetz Einsamkeit und ISS anhand Originalseite geklärt; fehlerhafter Originalwortlaut bleibt im Archiv."
+    },
+    {
+      "id": "P04",
+      "thema": "Preisname und Preisjahrgänge",
+      "originalRegister": "offene-prueffragen.json#P04",
+      "quellzeilen": [
+        "B1-L236",
+        "B1-L237",
+        "B1-L238",
+        "B2-L78",
+        "B2-L80",
+        "B2-L492",
+        "B3-L129",
+        "B3-L382",
+        "B4-L191",
+        "B4-L192",
+        "B4-L193",
+        "B4-L194"
+      ],
+      "status": "offen",
+      "aktuellerStand": "Eindeutige Zuordnung von Preisname, Jahrgang und konkreter Ausschreibung bleibt offen."
+    },
+    {
+      "id": "P05",
+      "thema": "26. November und Veranstaltungsreihe",
+      "originalRegister": "offene-prueffragen.json#P05",
+      "quellzeilen": [
+        "B1-L228",
+        "B2-L482",
+        "B2-L554",
+        "B3-L377",
+        "B4-L215",
+        "B4-L1173"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "26.11.2026, 11:30–12:45, kommunale Strategien durch BgEH-Ankündigung belegt. Das klärt nicht jede anderslautende Ausgangsnotiz."
+    },
+    {
+      "id": "P06",
+      "thema": "Strategietermine 2027 und 3. Mai",
+      "originalRegister": "offene-prueffragen.json#P06",
+      "quellzeilen": [
+        "B1-L229",
+        "B1-L230",
+        "B2-L256",
+        "B2-L268",
+        "B3-L378",
+        "B3-L379",
+        "B3-L380",
+        "B4-L323",
+        "B4-L1181",
+        "B4-L1185"
+      ],
+      "status": "offen",
+      "aktuellerStand": "Vier erhaltene Planungsdaten Februar/April/Mai/August 2027 im aktuellen Veranstaltertext nicht erneut bestätigt; zusätzlich Januar-Datumswiderspruch und Septemberforum offen."
+    },
+    {
+      "id": "P07",
+      "thema": "Bundeskonferenz, Aktionswoche und Barometer",
+      "originalRegister": "offene-prueffragen.json#P07",
+      "quellzeilen": [
+        "B1-L234",
+        "B2-L87",
+        "B2-L90",
+        "B4-L201",
+        "B4-L202",
+        "B4-L204",
+        "B4-L206"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Aktionswoche 2026/2027 und Publikation des Barometers bibliografisch erschlossen. Konferenz-/Ausschreibungstermine und vollständige neue Datenauswertung nicht pauschal geklärt."
+    },
+    {
+      "id": "P08",
+      "thema": "Krisennetz",
+      "originalRegister": "offene-prueffragen.json#P08",
+      "quellzeilen": [
+        "B1-L232",
+        "B4-L1175"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Aktuelle Veranstalterseite nennt IN VIA, KrisenNETZ und U25. Frühere Terminabweichung 20./21. Januar bleibt offen; keine bestätigte Einladung auf der Plattform daraus erstellt."
+    },
+    {
+      "id": "P09",
+      "thema": "Miller & Willi",
+      "originalRegister": "offene-prueffragen.json#P09",
+      "quellzeilen": [
+        "B4-L388"
+      ],
+      "status": "offen",
+      "aktuellerStand": "Eindeutige Identität und aktuelle Projektquelle Miller & Willi bleiben offen."
+    },
+    {
+      "id": "P10",
+      "thema": "SAIWIR und Angebotsdatenbank",
+      "originalRegister": "offene-prueffragen.json#P10",
+      "quellzeilen": [
+        "B4-L45",
+        "B4-L664",
+        "B4-L944",
+        "B4-L1363"
+      ],
+      "status": "offen",
+      "aktuellerStand": "SAIWIR-Schreibweise, Rechtsstatus und tatsächlich betriebene Datenbank weiterhin nicht eindeutig bestätigt."
+    },
+    {
+      "id": "P11",
+      "thema": "Klönschnacker und HVV",
+      "originalRegister": "offene-prueffragen.json#P11",
+      "quellzeilen": [
+        "B4-L859",
+        "B4-L860",
+        "B4-L861"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "BgEH dokumentiert Klönschnack-Aktionen und frühere S-Bahn-Ankündigung. Durchführung, aktuelle Reichweite und Wirkung sind damit nicht pauschal bestätigt."
+    },
+    {
+      "id": "P12",
+      "thema": "Hamburger Allianzmitgliedschaft und politische Ausgangslage",
+      "originalRegister": "offene-prueffragen.json#P12",
+      "quellzeilen": [
+        "B1-L142",
+        "B1-L143",
+        "B2-L553",
+        "B3-L74",
+        "B3-L75",
+        "B4-L145",
+        "B4-L146",
+        "B4-L173",
+        "B4-L176"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Bergedorf-Bille-Stiftung im nationalen Allianzverzeichnis belegt. Keine automatische Vertretung Hamburgs; genaue parlamentarische Anfrage und Hamburger Alleinstellung nicht bestätigt. Angekündigte Strategie ist keine umgesetzte Landesstrategie."
+    },
+    {
+      "id": "P13",
+      "thema": "Historische Zählung und unterschiedliche Einschätzungen",
+      "originalRegister": "offene-prueffragen.json#P13",
+      "quellzeilen": [
+        "B4-L461",
+        "B4-L462",
+        "B4-L464",
+        "B4-L466",
+        "B4-L467",
+        "B4-L468",
+        "B4-L469",
+        "B4-L475"
+      ],
+      "status": "offen",
+      "aktuellerStand": "104 Erfassungsposten sind keine 104 geschlossenen Kneipen. 31 Standortdatensätze, 3 Adresskomplexe und 70 unlokalisierte Hinweise bleiben getrennt. Persönliche Zahl 97 nicht wissenschaftlich bestätigt."
+    },
+    {
+      "id": "P14",
+      "thema": "Polnisches Mahlzeitenbeispiel",
+      "originalRegister": "offene-prueffragen.json#P14",
+      "quellzeilen": [
+        "B1-L82",
+        "B2-L346",
+        "B4-L523",
+        "B4-L526",
+        "B4-L527",
+        "B4-L528"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Das politische Milchbar-Modell bleibt mit vorhandenen Originalquellen erschlossen. Der konkrete erinnerte Fernsehbeitrag, Ort und damalige Preis bleiben unidentifiziert."
+    },
+    {
+      "id": "P15",
+      "thema": "Praxisbeispiele und aktuelle Angebotsdaten",
+      "originalRegister": "offene-prueffragen.json#P15",
+      "quellzeilen": [
+        "B1-L91",
+        "B4-L549",
+        "B4-L550",
+        "B4-L551",
+        "B4-L554",
+        "B4-L591",
+        "B4-L594",
+        "B4-L596"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "18 vorhandene Hilfszugänge mit datiertem Prüfstand und Grenzen erhalten. Individuelle Kapazität, Barrierefreiheit und aktuelle Preise aller örtlichen Angebote sind nicht vollständig erhoben."
+    },
+    {
+      "id": "P16",
+      "thema": "Wissenschaftliche Studien, Messung und Kausalität",
+      "originalRegister": "offene-prueffragen.json#P16",
+      "quellzeilen": [
+        "B2-L552",
+        "B2-L556",
+        "B3-L60",
+        "B4-L96",
+        "B4-L120",
+        "B4-L137",
+        "B4-L140",
+        "B4-L910",
+        "B5-L85",
+        "B5-L121",
+        "B5-L379"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Alle Forschungsabsätze besitzen Quellen und Grenzen. Keine pauschale Kausalverifikation sämtlicher Ursprungsbehauptungen; einzelne Studienidentitäten und Langzeitwirksamkeit bleiben offen."
+    },
+    {
+      "id": "P17",
+      "thema": "Sozialraumbeschreibungen und Mobilitätskonzept",
+      "originalRegister": "offene-prueffragen.json#P17",
+      "quellzeilen": [
+        "B5-L251",
+        "B5-L255"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Vorhandene amtliche Sozialraum- und Mobilitätsbelege aus Auftrag 4 erhalten. Keine Behauptung einer vollständigen aktuellen Datenbasis für alle Stadtteile und Behinderungs-/Zugangsmerkmale."
+    },
+    {
+      "id": "P18",
+      "thema": "Partner, Zusagen und Rollen von Einrichtungen",
+      "originalRegister": "offene-prueffragen.json#P18",
+      "quellzeilen": [
+        "B3-L258",
+        "B4-L795",
+        "B4-L851",
+        "B4-L853",
+        "B4-L854",
+        "B4-L1292"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Tatsächliche Institutionen und einige konkrete Kooperationen belegt; vorgeschlagene Netzwerkpartner bleiben ohne Zusage Vorschläge."
+    },
+    {
+      "id": "P19",
+      "thema": "Beteiligung, Redaktion, Datenschutz und Organisationsrecht",
+      "originalRegister": "offene-prueffragen.json#P19",
+      "quellzeilen": [
+        "B1-L133",
+        "B1-L134",
+        "B5-L307",
+        "B5-L347",
+        "B5-L349",
+        "B5-L481",
+        "B5-L483",
+        "B5-L487"
+      ],
+      "status": "teilweise geklärt",
+      "aktuellerStand": "Zwei ausschließlich lokale Kommentarprüfungen bedienbar; keine Speicherung/Übermittlung. Backend, redaktionelle Arbeitsabläufe, Rechteprüfung und Einwilligungs-/Löschprozesse vor produktiven Funktionen gesondert entwickeln."
+    }
+  ]
+}

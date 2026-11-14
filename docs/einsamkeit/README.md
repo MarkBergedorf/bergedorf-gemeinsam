@@ -72,3 +72,7 @@ Die Themenzuordnung ist jeweils möglich; Identität, Datum oder Beleglage sind 
 Die nach vollständiger Lektüre festgelegten Punkt-, Abschnitts- und Zeilenentscheidungen stehen in `scripts/einsamkeit/auswertung.py`; die konkreten Prüffragen und Wiederholungserschließung in `scripts/einsamkeit/prueffragen.py`. Keine automatische Stichwortklassifikation: Abschnittsentscheidungen sind aus der Lektüre festgelegt und für fachlich unterschiedliche Aussagen zeilengenau präzisiert. Ausführung vom Repository aus: `python scripts/einsamkeit/auswertung.py`. Originalfelder werden zuvor gegen den Ausgangscommit und die ursprünglichen Prüfsummen kontrolliert; bei Abweichungen bricht der Lauf ab. Das Verfahren ist eine reproduzierbare Anwendung redaktioneller Entscheidungen, keine autonome wissenschaftliche Bewertung.
 
 Technischer Abschlussnachweis: `pruefung.md`.
+
+## Abschluss der ersten Entwicklungsphase – Auftrag 7
+
+Aktueller technischer und redaktioneller Prüfstand: [Abschlussbericht Auftrag 7](auftrag7.md). Die älteren Berichte oben bleiben datierte historische Stände. Aktuell sind 18 Hauptthemen mit 139 Themenansichten ausgearbeitet; einzelne Belege und zusätzliche Funktionen bleiben ausdrücklich offen. [Fortgeschriebene Prüffragen](auftrag7-offene-punkte.json) · [Gesamtabgleich](auftrag7-gesamtabgleich.json).

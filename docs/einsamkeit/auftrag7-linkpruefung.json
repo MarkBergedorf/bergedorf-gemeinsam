@@ -1,0 +1,1280 @@
+{
+  "stand": "2026-11-14",
+  "methode": "GET mit Lesen von höchstens 512 Antwortbytes; technische Erreichbarkeit, keine vollständige Inhaltsprüfung. Sperren und Timeouts werden nicht als gelöschte Quellen ausgegeben.",
+  "geprueft": 212,
+  "erreichbar": 163,
+  "results": [
+    {
+      "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/",
+      "status": 200,
+      "final": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://aktivoli.de/aktivoli-fachtag-engagiert-gegen-einsamkeit/",
+      "status": 200,
+      "final": "https://aktivoli.de/aktivoli-fachtag-engagiert-gegen-einsamkeit/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://bergedorf-bille.de/fileadmin/user_upload/Genossenschaft/Service/Oeffentlichkeitsarbeit/BEI_UNS_2024_03.pdf",
+      "status": 200,
+      "final": "https://bergedorf-bille.de/fileadmin/user_upload/Genossenschaft/Service/Oeffentlichkeitsarbeit/BEI_UNS_2024_03.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://blogs.sub.uni-hamburg.de/bergedorf/?p=184",
+      "status": 200,
+      "final": "https://blogs.sub.uni-hamburg.de/bergedorf/?p=184",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://blogs.sub.uni-hamburg.de/bergedorf/?p=5615",
+      "status": 200,
+      "final": "https://blogs.sub.uni-hamburg.de/bergedorf/?p=5615",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://buergerstiftung-hamburg.de/fonds/hamburger-spielraeume/",
+      "status": 200,
+      "final": "https://buergerstiftung-hamburg.de/fonds/hamburger-spielraeume/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://buergerstiftung-hamburg.de/fonds/migrantisches-engagement/",
+      "status": 200,
+      "final": "https://buergerstiftung-hamburg.de/fonds/migrantisches-engagement/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://bv-hh.de/bergedorf/documents/quartiersfonds-2026-208672",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://bv-hh.de/bergedorf/documents/sanierung-der-raeume-fuer-ein-cafe-im-bergedorfer-schloss-27236",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://bv-hh.de/bergedorf/documents/sanierung-modernisierung-und-erweiterung-des-buergerhauses-allermoehe-sachstand-232961",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://bv-hh.de/bergedorf/documents/was-passiert-in-der-alten-holstenstrasse-45-47-217359",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://bv-hh.de/hamburg-mitte/documents/zuhoerbaenke-in-hamm-austausch-im-oeffentlichen-raum-foerdern-234143",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://bv-hh.de/harburg/documents/gemeinsamer-antrag-spd-gruene-betr-gemeinsam-aus-der-einsamkeit-228699",
+      "status": null,
+      "result": "The read operation timed out",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://d-nb.info/1370244703/34",
+      "status": 200,
+      "final": "https://d-nb.info/1370244703/34",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://datenschutz-hamburg.de/datenschutz/stiftungen-/-vereine",
+      "status": 200,
+      "final": "https://datenschutz-hamburg.de/datenschutz/stiftungen-/-vereine",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://der-begleiter.de/beratung/psychosoziale-beratung/",
+      "status": 200,
+      "final": "https://der-begleiter.de/beratung/psychosoziale-beratung/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://der-begleiter.de/gruppenangebote/offene-gruppenangebote/",
+      "status": 200,
+      "final": "https://der-begleiter.de/gruppenangebote/offene-gruppenangebote/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://der-begleiter.de/wp-content/uploads/2019/04/Flyer_Beratung_240717_print.pdf",
+      "status": 200,
+      "final": "https://der-begleiter.de/wp-content/uploads/2019/04/Flyer_Beratung_240717_print.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doczz.net/doc/6069106/gastliches-in-bergedorf",
+      "status": 200,
+      "final": "https://doczz.net/doc/6069106/gastliches-in-bergedorf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1002/cl2.1355",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1002/per.2229",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1002/wps.20705",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1007/s00127-022-02261-7",
+      "status": 200,
+      "final": "https://link.springer.com/article/10.1007/s00127-022-02261-7?error=cookies_not_supported&code=54d3a197-f1be-433a-9fe2-311a3289fc95",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1007/s11017-010-9141-1",
+      "status": 200,
+      "final": "https://link.springer.com/article/10.1007/s11017-010-9141-1?error=cookies_not_supported&code=b17a66d5-7728-43ec-87e2-53b736d45cc5",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1007/s12160-010-9210-8",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1007/s40750-016-0058-4",
+      "status": 200,
+      "final": "https://link.springer.com/article/10.1007/s40750-016-0058-4?error=cookies_not_supported&code=d24e174c-b258-4ef1-b1fb-050cc27315f3",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1007/s40750-017-0061-4",
+      "status": 200,
+      "final": "https://link.springer.com/article/10.1007/s40750-017-0061-4?error=cookies_not_supported&code=f1d4a3d9-6920-42fd-b824-5b8b8839af13",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cpr.2021.102066",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S0272735821001094",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.healthplace.2019.102225",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S135382921930735X",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.healthplace.2022.102962",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S1353829222002234",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jaac.2020.05.009",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S0890856720303373",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jad.2020.05.004",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S0165032719329726",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jesp.2022.104356",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S0022103122000750",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.lisr.2009.07.008",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S074081880900139X",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.psychsport.2017.10.003",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S1469029217302777",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.socscimed.2024.117340",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S0277953624007949",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.tics.2009.06.005",
+      "status": 200,
+      "final": "https://linkinghub.elsevier.com/retrieve/pii/S1364661309001478",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1017/bpp.2018.25",
+      "status": 200,
+      "final": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1037/0022-3514.74.5.1238",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1037/0033-2909.116.3.457",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1037/a0037323",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1037/amp0001005",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1038/s44220-024-00328-9",
+      "status": 200,
+      "final": "https://www.nature.com/articles/s44220-024-00328-9?error=cookies_not_supported&code=caa57edd-6818-40ff-b3b2-05399d9bb89f",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1073/pnas.2011809118",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1080/07317115.2020.1863890",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1080/10904018.2013.813234",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1080/13607863.2021.1876638",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1093/geront/gnac180",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1093/jcr/ucaf040",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1093/occmed/kqad138",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1111/jomf.12681",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1111/nyas.15266",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1136/bmjopen-2016-014304",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1136/heartjnl-2015-308790",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/0146167214529799",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/0265407518761225",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/02654075221087190",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/0739456X19870295",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/0956797618783714",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/09567976261427747",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/13623613221077721",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/1745691614568352",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/2049463718802868",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1177/2055102920913235",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.1186/s12889-024-19396-8",
+      "status": 200,
+      "final": "https://link.springer.com/article/10.1186/s12889-024-19396-8?error=cookies_not_supported&code=64a91c3c-bbc4-4b9a-be71-3b712fdf6265",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1186/s12889-024-19850-7",
+      "status": 200,
+      "final": "https://link.springer.com/article/10.1186/s12889-024-19850-7?error=cookies_not_supported&code=b776c4f4-0759-439a-bfe9-0d2035406877",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1186/s13643-022-02065-5",
+      "status": 200,
+      "final": "https://link.springer.com/article/10.1186/s13643-022-02065-5?error=cookies_not_supported&code=6be08dcd-b77b-498c-af36-88c565dbf2f4",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0151588",
+      "status": 200,
+      "final": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0151588",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.1521/jscp.23.3.413.35460",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.2105/AJPH.2014.302427",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://doi.org/10.3389/fpsyg.2022.1040651",
+      "status": 200,
+      "final": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1040651/full",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.3390/ijerph182111522",
+      "status": 200,
+      "final": "https://www.mdpi.com/1660-4601/18/21/11522",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://doi.org/10.3390/ijerph182212101",
+      "status": 200,
+      "final": "https://www.mdpi.com/1660-4601/18/22/12101",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://dokumente.hamburg.de/resource/blob/1235296/5582788179583699551bdeb390dc717d/vv-zu-46-lho-geltung-ab-9-november-2026-data.pdf",
+      "status": 200,
+      "final": "https://dokumente.hamburg.de/resource/blob/1235296/5582788179583699551bdeb390dc717d/vv-zu-46-lho-geltung-ab-9-november-2026-data.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://dokumente.hamburg.de/resource/blob/56158/f04356859bc131234ccb20425e6d5566/sozialraumbericht-2016-do-data.pdf",
+      "status": 200,
+      "final": "https://dokumente.hamburg.de/resource/blob/56158/f04356859bc131234ccb20425e6d5566/sozialraumbericht-2016-do-data.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://dokumente.hamburg.de/resource/blob/56250/4ddbeac6ebec9b3e7f292ebef5cf9524/sozialraumbescheibungen-vm-do-data.pdf",
+      "status": 200,
+      "final": "https://dokumente.hamburg.de/resource/blob/56250/4ddbeac6ebec9b3e7f292ebef5cf9524/sozialraumbescheibungen-vm-do-data.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2023/2014/text.html",
+      "status": 200,
+      "final": "https://eli.gov.pl/api/acts/DU/2023/2014/text.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2011/7456/pdf/jahresbericht_2004.pdf",
+      "status": 403,
+      "result": "HTTP Error 403: Forbidden",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+      "status": 200,
+      "final": "https://eur-lex.europa.eu/?uri=CELEX:32016R0679",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://familienportal.de/bmbfsfj/service/publikationen/einsamkeitsbarometer-2026-286390",
+      "status": 200,
+      "final": "https://familienportal.de/bmbfsfj/service/publikationen/einsamkeitsbarometer-2026-286390",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://geschichts-kontor.de/audiotour_serrahn_3/",
+      "status": 200,
+      "final": "https://geschichts-kontor.de/audiotour_serrahn_3/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://geschichts-kontor.de/roland_sander/",
+      "status": 200,
+      "final": "https://geschichts-kontor.de/roland_sander/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://hospizdienst-bergedorf.de/sterbebegleitung-trauerbegleitung/",
+      "status": 200,
+      "final": "https://hospizdienst-bergedorf.de/sterbebegleitung-trauerbegleitung/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://img.sub.uni-hamburg.de/kitodo/PPN1012344304_19111210/PDF/00000011.pdf",
+      "status": 200,
+      "final": "https://img.sub.uni-hamburg.de/kitodo/PPN1012344304_19111210/PDF/00000011.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://integrationshilfen-hamburg.de/soziale-beratungsstelle/",
+      "status": 200,
+      "final": "https://integrationshilfen-hamburg.de/soziale-beratungsstelle/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://jhj-hamburg.de/angebote/beratungsstellen/kodrobs-bergedorf/",
+      "status": 200,
+      "final": "https://jhj-hamburg.de/angebote/beratungsstellen/kodrobs-bergedorf/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://koerber-stiftung.de/projekte/frei-raum/",
+      "status": 200,
+      "final": "https://koerber-stiftung.de/projekte/frei-raum/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://koerber-stiftung.de/veranstaltungen/lesung-rilke-bewegt/",
+      "status": 200,
+      "final": "https://koerber-stiftung.de/veranstaltungen/lesung-rilke-bewegt/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://koerberhaus.de/",
+      "status": 200,
+      "final": "https://koerberhaus.de/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://koerberhaus.de/besuchen/oeffnungszeiten",
+      "status": 200,
+      "final": "https://koerberhaus.de/besuchen/oeffnungszeiten",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://koerberhaus.de/mitmachen",
+      "status": 200,
+      "final": "https://koerberhaus.de/mitmachen",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://koerberhaus.de/veranstaltungen",
+      "status": 200,
+      "final": "https://koerberhaus.de/veranstaltungen",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/aktionswoche",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/aktionswoche",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/begleitung-der-allianz-gegen-einsamkeit",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/begleitung-der-allianz-gegen-einsamkeit",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/das-kne/projektteam",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/das-kne/projektteam",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/deutscher-gemeinsamkeitspreis-2026",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/deutscher-gemeinsamkeitspreis-2026",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/download/2872/",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/download/2872/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/download/2943/",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/download/2943/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/mitglieder-der-allianz-gegen-einsamkeit",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/mitglieder-der-allianz-gegen-einsamkeit",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/veranstaltungen",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/veranstaltungen",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/veroeffentlichung-des-einsamkeitsbarometers-2024",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/veroeffentlichung-des-einsamkeitsbarometers-2024",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kompetenznetz-einsamkeit.de/wp-content/uploads/2022/06/KNE_Expertise01_220607.pdf",
+      "status": 200,
+      "final": "https://kompetenznetz-einsamkeit.de/wp-content/uploads/2022/06/KNE_Expertise01_220607.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kulturisten-hoch2.de/abschluss-auftakt/",
+      "status": 200,
+      "final": "https://kulturisten-hoch2.de/abschluss-auftakt/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://kulturisten-hoch2.de/kontakt/",
+      "status": 200,
+      "final": "https://kulturisten-hoch2.de/kontakt/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://lohbruegge.de/das-ballhaus-eckermann/",
+      "status": 200,
+      "final": "https://lohbruegge.de/das-ballhaus-eckermann/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://lohbruegge.de/der-schuetzenhof/",
+      "status": 200,
+      "final": "https://lohbruegge.de/der-schuetzenhof/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://lohbruegge.de/holsteinische-zollstation/",
+      "status": 200,
+      "final": "https://lohbruegge.de/holsteinische-zollstation/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://lohbruegge.de/holstenhof/",
+      "status": 200,
+      "final": "https://lohbruegge.de/holstenhof/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://lohbruegge.de/wohnhaus-des-sander-arztes/",
+      "status": 200,
+      "final": "https://lohbruegge.de/wohnhaus-des-sander-arztes/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://lohbruegge.de/wp-content/uploads/2024/02/Stadtteilzeitung_59_mail.pdf",
+      "status": 200,
+      "final": "https://lohbruegge.de/wp-content/uploads/2024/02/Stadtteilzeitung_59_mail.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://mhc-hh.de/barrierefreiheit/",
+      "status": 200,
+      "final": "https://mhc-hh.de/barrierefreiheit/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://mhc-hh.de/impressum/",
+      "status": 200,
+      "final": "https://mhc-hh.de/impressum/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://mhc-hh.de/kontakt/",
+      "status": 200,
+      "final": "https://mhc-hh.de/kontakt/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://opferhilfe-hamburg.de/beratung/beratungsangebot/",
+      "status": 200,
+      "final": "https://opferhilfe-hamburg.de/beratung/beratungsangebot/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://opferhilfe-hamburg.de/kontakt/",
+      "status": 200,
+      "final": "https://opferhilfe-hamburg.de/kontakt/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://opferhilfe-hamburg.de/ueber-uns/verein/",
+      "status": 200,
+      "final": "https://opferhilfe-hamburg.de/ueber-uns/verein/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39668643/",
+      "status": 203,
+      "final": "https://pubmed.ncbi.nlm.nih.gov/39668643/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8576833/",
+      "status": 203,
+      "final": "https://pubmed.ncbi.nlm.nih.gov/8576833/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://research.vu.nl/en/publications/a-6-item-scale-for-overall-emotional-and-social-loneliness-confir/",
+      "status": 200,
+      "final": "https://research.vu.nl/en/publications/a-6-item-scale-for-overall-emotional-and-social-loneliness-confir/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://stiftung.bergedorf-bille.de/",
+      "status": 200,
+      "final": "https://stiftung.bergedorf-bille.de/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://stiftung.bergedorf-bille.de/bgeh",
+      "status": 200,
+      "final": "https://stiftung.bergedorf-bille.de/bgeh",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://stiftung.bergedorf-bille.de/ueber-uns/organe-der-stiftung",
+      "status": 200,
+      "final": "https://stiftung.bergedorf-bille.de/ueber-uns/organe-der-stiftung",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://tsg-bergedorf.de/de/soziales/ehrenamt/",
+      "status": 200,
+      "final": "https://tsg-bergedorf.de/de/soziales/ehrenamt/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.116117.de/de/aerztlicher-bereitschaftsdienst.php",
+      "status": 200,
+      "final": "https://www.116117.de/de/aerztlicher-bereitschaftsdienst.php",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.116117.de/de/psychotherapie.php",
+      "status": 200,
+      "final": "https://www.116117.de/de/psychotherapie.php",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.abendblatt.de/hamburg/bergedorf/article115449296/Nach-38-Jahren-Die-13-schliesst-ihre-Tueren.html",
+      "status": 200,
+      "final": "https://www.abendblatt.de/hamburg/bergedorf/article115449296/Nach-38-Jahren-Die-13-schliesst-ihre-Tueren.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.agfw-hamburg.de/mitgliedsverbaende/",
+      "status": 200,
+      "final": "https://www.agfw-hamburg.de/mitgliedsverbaende/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.agfw-hamburg.de/seniorinnentreffs/",
+      "status": 200,
+      "final": "https://www.agfw-hamburg.de/seniorinnentreffs/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.bgw-online.de/bgw-online-de/faq/helfende-01-selbst-engagieren-69170",
+      "status": 200,
+      "final": "https://www.bgw-online.de/bgw-online-de/faq/helfende-01-selbst-engagieren-69170",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/pressemitteilungen/aktionswoche-gemeinsam-aus-der-einsamkeit-start-der-allianz-gegen-einsamkeit-erstmals-deutscher-gemeinsamkeitspreis-ausgelobt-290074",
+      "status": 200,
+      "final": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/pressemitteilungen/aktionswoche-gemeinsam-aus-der-einsamkeit-start-der-allianz-gegen-einsamkeit-erstmals-deutscher-gemeinsamkeitspreis-ausgelobt-290074",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/service/publikationen/strategie-der-bundesregierung-gegen-einsamkeit-234582",
+      "status": 200,
+      "final": "https://www.bmbfsfj.bund.de/bmbfsfj/service/publikationen/strategie-der-bundesregierung-gegen-einsamkeit-234582",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.boell-hamburg.de/de/form/you-re-not-alone-strategien",
+      "status": 200,
+      "final": "https://www.boell-hamburg.de/de/form/you-re-not-alone-strategien",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.bsbergedorf.de/",
+      "status": 200,
+      "final": "https://www.bsbergedorf.de/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.buecherhallen.de/bergedorf.html",
+      "status": 200,
+      "final": "https://www.buecherhallen.de/bergedorf.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.buecherhallen.de/index.php/neuallermoehe.html",
+      "status": 200,
+      "final": "https://www.buecherhallen.de/index.php/neuallermoehe.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.caritas-im-norden.de/hamburg/flucht-migration/beratung-integration/integrationszentrum-bergedorf",
+      "status": 200,
+      "final": "https://www.caritas-im-norden.de/hamburg/flucht-migration/beratung-integration/integrationszentrum-bergedorf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_09_p002.html",
+      "status": 200,
+      "final": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_09_p002.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.dguv.de/de/ihr_partner/ehrenamt/index.jsp",
+      "status": 200,
+      "final": "https://www.dguv.de/de/ihr_partner/ehrenamt/index.jsp",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.drk-asd.de/angebote/mobile-dienste/besuchsdienst.html",
+      "status": 200,
+      "final": "https://www.drk-asd.de/angebote/mobile-dienste/besuchsdienst.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.facebook.com/profile/100055060130452/search/?q=kneipen",
+      "status": 200,
+      "final": "https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fprofile%2F100055060130452%2Fsearch%2F%3Fq%3Dkneipen",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.freiwilligen-agentur-bergedorf.de/freiwillige/come-and-take-part/",
+      "status": 200,
+      "final": "https://www.freiwilligen-agentur-bergedorf.de/freiwillige/come-and-take-part/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gema.de/de/w/hilfe/musiknutzer/musik-nutzen/branchen-mehr/vereinsveranstaltungen-bei-gema-anmelden",
+      "status": 200,
+      "final": "https://www.gema.de/de/w/hilfe/musiknutzer/musik-nutzen/branchen-mehr/vereinsveranstaltungen-bei-gema-anmelden",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/agg/__19.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/agg/__19.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__56.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/bgb/__56.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gastg/__20.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/gastg/__20.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/juschg/__9.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/juschg/__9.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/kunsturhg/__23.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/kunsturhg/__23.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_7/__2.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/sgb_7/__2.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__163.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/stpo/__163.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__44.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/urhg/__44.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__64.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/urhg/__64.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__66.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/urhg/__66.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__72.html",
+      "status": 200,
+      "final": "https://www.gesetze-im-internet.de/urhg/__72.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.gov.pl/web/ias-olsztyn/dotacje-do-barow-mlecznych-informacje-o-kwotach-prognozowanych-dotacji",
+      "status": 200,
+      "final": "https://www.gov.pl/web/ias-olsztyn/dotacje-do-barow-mlecznych-informacje-o-kwotach-prognozowanych-dotacji",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.com/service/info/11252793/n0/",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/barrierefrei/gebaerdensprache/politik/bezirksversammlung-576068",
+      "status": 200,
+      "final": "https://www.hamburg.de/barrierefrei/gebaerdensprache/politik/bezirksversammlung-576068",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/allermoehe-371268",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/altengamme-371324",
+      "status": 200,
+      "final": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/altengamme-371324",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/billwerder-371444",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/curslack-371496",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/kirchwerder-371572",
+      "status": 200,
+      "final": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/kirchwerder-371572",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/moorfleet-371716",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/neuengamme-371832",
+      "status": 200,
+      "final": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/neuengamme-371832",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/ochsenwerder-371896",
+      "status": 200,
+      "final": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/ochsenwerder-371896",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/reitbrook-371948",
+      "status": 200,
+      "final": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/reitbrook-371948",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/spadenland-371988",
+      "status": 200,
+      "final": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/spadenland-371988",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/tatenberg-372042",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/themen/wohnen/bauen/wege-zur-baugenehmigung/start-bauordnungsrecht-1120124",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/themen/verbraucherschutz/lebensmittel/lebensmittelregistrierung-88806",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/themen/verbraucherschutz/lebensmittel/lebensmittelregistrierung-88806",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/aktuelles/pressemeldungen/fuer-ein-altersfreundliches-hamburg-934528",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/aktuelles/pressemeldungen/fuer-ein-altersfreundliches-hamburg-934528",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/haushalt/vv-zur-lho-205842",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/haushalt/vv-zur-lho-205842",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/gesundheit/gesundheitsfoerderung/gesundheit-im-alter/gutes-miteinander-33360",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/gesundheit/gesundheitsfoerderung/gesundheit-im-alter/gutes-miteinander-33360",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/pflege/hausbesuch-86112",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/pflege/hausbesuch-86112",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/art-foerderrichtlinie-fe-41466",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/art-foerderrichtlinie-fe-41466",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/haftpflichtversicherung-44112",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/haftpflichtversicherung-44112",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/kick-off-bghe-1028146",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/engagement/kick-off-bghe-1028146",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/bezirksversammlung",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/bezirksversammlung",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/buergerservice/projektmittel-56576",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/buergerservice/projektmittel-56576",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/buergerservice/sondermittel-56580",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/buergerservice/sondermittel-56580",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/familie-senioren/erziehungsberatung-56344",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/familie-senioren/erziehungsberatung-56344",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/familie-senioren/senioren/beratungsangebote-56368",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/familie-senioren/senioren/beratungsangebote-56368",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/gesundheit/jugendpsychiatrischer-dienst-56602",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/gesundheit/jugendpsychiatrischer-dienst-56602",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/gesundheit/sozialpsychatrischer-dienst-34932",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/gesundheit/sozialpsychatrischer-dienst-34932",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/freiwilliges-engagement-44222",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/freiwilliges-engagement-44222",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/bergedorf-west-58034",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/bergedorf-west-58034",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/neuallermoehe-58018",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/neuallermoehe-58018",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/zentrum-bergedorf-624018",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/integrierte-stadtteilentwicklung/zentrum-bergedorf-624018",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/pflegestuetzpunkt-56364",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/pflegestuetzpunkt-56364",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/soziales-dienstleistungszentrum-1110310",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/soziales/soziales-dienstleistungszentrum-1110310",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/wandsbek/themen/soziales/integrierte-stadtteilentwicklung/grosslohe-77394",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/bezirke/wandsbek/themen/soziales/integrierte-stadtteilentwicklung/grosslohe-77394",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/senat/senatsthemen/koalitionsvertrag-2025/sozialen-zusammenhalt-staerken-teilhabe-sichern--1055678",
+      "status": 200,
+      "final": "https://www.hamburg.de/politik-und-verwaltung/senat/senatsthemen/koalitionsvertrag-2025/sozialen-zusammenhalt-staerken-teilhabe-sichern--1055678",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/resource/blob/1120180/f0828889160e5d9626b36738ad560357/versammlungsstaettenverordnung-vstaettvo-nichtamtliche-lesefassung-data.pdf",
+      "status": 200,
+      "final": "https://www.hamburg.de/resource/blob/1120180/f0828889160e5d9626b36738ad560357/versammlungsstaettenverordnung-vstaettvo-nichtamtliche-lesefassung-data.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/resource/blob/57956/309678ceb9fe8dba4900efd7cb02c422/vergnuegungsstaettenkonzept-data.pdf",
+      "status": 200,
+      "final": "https://www.hamburg.de/resource/blob/57956/309678ceb9fe8dba4900efd7cb02c422/vergnuegungsstaettenkonzept-data.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/resource/blob/946730/573bfff205ba1300e3aa17a8aa4481ad/staedtebauliches-gutachten-data.pdf",
+      "status": 200,
+      "final": "https://www.hamburg.de/resource/blob/946730/573bfff205ba1300e3aa17a8aa4481ad/staedtebauliches-gutachten-data.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/resource/blob/956262/934567aef9831d8d31ca37cf8867c2c7/d-mobilita-tskonzept-vier-und-marschlande-endbericht-mai-2024--data.pdf",
+      "status": 200,
+      "final": "https://www.hamburg.de/resource/blob/956262/934567aef9831d8d31ca37cf8867c2c7/d-mobilita-tskonzept-vier-und-marschlande-endbericht-mai-2024--data.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/service/info/11274495/",
+      "status": 200,
+      "final": "https://www.hamburg.de/service/info/11274495/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/service/info/11277493/n0/",
+      "status": 200,
+      "final": "https://www.hamburg.de/service/info/11277493/n0/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.hamburg.de/service/info/11380230/n0/",
+      "status": 200,
+      "final": "https://www.hamburg.de/service/info/11380230/n0/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.kiku-hh.de/das-haus/",
+      "status": 200,
+      "final": "https://www.kiku-hh.de/das-haus/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.kiss-hh.de/service",
+      "status": 200,
+      "final": "https://www.kiss-hh.de/service",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.kiss-hh.de/ueber-uns/was-macht-kiss-hamburg",
+      "status": 200,
+      "final": "https://www.kiss-hh.de/ueber-uns/was-macht-kiss-hamburg",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/2022/09/oecd-guidelines-for-citizen-participation-processes_63b34541.html",
+      "status": 200,
+      "final": "https://www.oecd.org/en/publications/2022/09/oecd-guidelines-for-citizen-participation-processes_63b34541.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.polizei.hamburg/ihre-polizei/polizeikommissariate/polizeikommissariat-46/unser-team-am-pk46",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.polizei.hamburg/romance-scamming-792214",
+      "status": 503,
+      "result": "HTTP Error 503: Service Unavailable",
+      "offen": "Erreichbarkeit manuell nachprüfen; technische Sperre oder Zeitüberschreitung ist kein Beweis einer falschen Quelle."
+    },
+    {
+      "url": "https://www.restaurant-holstenhof.de/",
+      "status": 200,
+      "final": "https://www.restaurant-holstenhof.de/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.seniorenbuero-hamburg.de/treffpunkt-grosslohe/",
+      "status": 200,
+      "final": "https://www.seniorenbuero-hamburg.de/treffpunkt-grosslohe/",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Stadtteil-Profile_HH-BJ-2025.pdf",
+      "status": 200,
+      "final": "https://www.statistik-nord.de/fileadmin/Dokumente/Stadtteil-Profile_HH-BJ-2025.pdf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.teilhabeberatung.de/artikel/faq",
+      "status": 200,
+      "final": "https://www.teilhabeberatung.de/artikel/faq",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.teilhabeberatung.de/beratung/teilhabeberatung-der-hamburgischen-gesellschaft-fur-soziale-psychiatrie-bergedorf",
+      "status": 200,
+      "final": "https://www.teilhabeberatung.de/beratung/teilhabeberatung-der-hamburgischen-gesellschaft-fur-soziale-psychiatrie-bergedorf",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.telefonseelsorge.de/?oai_link_source=model_response_hotline",
+      "status": 200,
+      "final": "https://www.telefonseelsorge.de/?oai_link_source=model_response_hotline",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    },
+    {
+      "url": "https://www.theologie.uni-hamburg.de/einrichtungen/kontakt/felix-roleder.html",
+      "status": 200,
+      "final": "https://www.theologie.uni-hamburg.de/einrichtungen/kontakt/felix-roleder.html",
+      "result": "erreichbar; Inhalt nicht pauschal verifiziert"
+    }
+  ]
+}
