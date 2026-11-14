@@ -1,0 +1,92 @@
+{
+  "auftrag6-bgeh": {
+    "authors": "Bergedorf-Bille-Stiftung / Bündnis gegen Einsamkeit Hamburg",
+    "year": "o. J.",
+    "title": "Bündnis: Veranstaltungen, Projekte und Mitwirkung",
+    "url": "https://stiftung.bergedorf-bille.de/bgeh",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Offizielle Veranstalterseite geprüft; konkrete Terminangaben von vorläufigen Planungen getrennt.",
+    "limitations": "Keine Wirkungsevaluation. Januar-Termin in unterschiedlichen Abrufständen abweichend; daher nicht als bestätigter Termin übernommen. Zusagen, Kapazität und Änderungen beim Veranstalter prüfen.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-boell": {
+    "authors": "Heinrich-Böll-Stiftung Hamburg",
+    "year": "o. J.",
+    "title": "You re not alone – Strategien gegen Einsamkeit II",
+    "url": "https://www.boell-hamburg.de/de/form/you-re-not-alone-strategien",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Von der Bündnisseite verlinkte Anmeldeseite geöffnet.",
+    "limitations": "Externe Anmeldung; Bergedorf gemeinsam erfasst keine Anmeldung und gibt keine Platzzusage.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-rilke": {
+    "authors": "Körber-Stiftung",
+    "year": "o. J.",
+    "title": "Lesung: Rilke bewegt",
+    "url": "https://koerber-stiftung.de/veranstaltungen/lesung-rilke-bewegt/",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Originaltermin: 28. November 2026, 16 Uhr im KörberHaus; Anmeldung ab 14. November, 9 Uhr.",
+    "limitations": "Keine eigene Bestätigung freier Plätze, Kosten oder vollständiger Barrierefreiheit; bei der Veranstalterin nachsehen.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-kalender": {
+    "authors": "KörberHaus",
+    "year": "o. J.",
+    "title": "Alle Veranstaltungen und wiederkehrende Angebote",
+    "url": "https://koerberhaus.de/veranstaltungen",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Veranstalterkalender geprüft; verweist auch auf das Programmheft wiederkehrender Angebote.",
+    "limitations": "Ein Kalenderlink ist kein Nachweis eines bestimmten heute verfügbaren Platzes. Keine ungeprüfte Fortschreibung einer Veranstaltungsserie.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-freiwillig": {
+    "authors": "Freiwilligenagentur Hamburg-Bergedorf",
+    "year": "o. J.",
+    "title": "Take part / Mitmachen!",
+    "url": "https://www.freiwilligen-agentur-bergedorf.de/freiwillige/come-and-take-part/",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Offizielle Kontakt- und Beteiligungsinformation geprüft.",
+    "limitations": "Keine individuelle Vermittlung oder Verfügbarkeit zugesagt; Aufgaben, Zeit und Rahmen direkt vereinbaren.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-sport": {
+    "authors": "TSG Bergedorf von 1860 e.V.",
+    "year": "o. J.",
+    "title": "Ehrenamt und Sportangebote",
+    "url": "https://tsg-bergedorf.de/de/soziales/ehrenamt/",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Anbieterseite zu ehrenamtlichen Tätigkeiten und Zugang zum Sportangebot geprüft.",
+    "limitations": "Keine konkrete Kurszeit, Mitgliedschaftsfreiheit, Kostenfreiheit oder Einsamkeitswirkung daraus abgeleitet.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-woche": {
+    "authors": "Kompetenznetz Einsamkeit",
+    "year": "o. J.",
+    "title": "Aktionswoche Gemeinsam aus der Einsamkeit",
+    "url": "https://kompetenznetz-einsamkeit.de/aktionswoche",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Offizielle Ankündigung des Zeitraums 21.–27. Juni 2027 und Dokumentation 2026 gelesen.",
+    "limitations": "Bestätigter Aktionszeitraum, noch kein vollständiges örtliches Veranstaltungsprogramm oder Teilnahmeversprechen.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-preis": {
+    "authors": "Kompetenznetz Einsamkeit",
+    "year": "o. J.",
+    "title": "Deutscher Gemeinsamkeitspreis 2026",
+    "url": "https://kompetenznetz-einsamkeit.de/deutscher-gemeinsamkeitspreis-2026",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Offizielle Seite zum Jahrgang 2026 geöffnet.",
+    "limitations": "Die Existenz dieser Seite bestätigt keine Ausschreibung im Januar 2027 und keine Bewerbungsbedingungen für einen künftigen Jahrgang.",
+    "checked": "2026-11-14"
+  },
+  "auftrag6-kne": {
+    "authors": "Kompetenznetz Einsamkeit",
+    "year": "o. J.",
+    "title": "Veranstaltungen und Dokumentationen",
+    "url": "https://kompetenznetz-einsamkeit.de/veranstaltungen",
+    "publication": "Originalangebot beziehungsweise Veranstalterinformation",
+    "method": "Offizielle Übersicht unterscheidet Dokumentation und Hinweise auf aktuelle Veröffentlichungen.",
+    "limitations": "Nicht als Nachweis einer bestimmten Konferenz im Juni 2027 oder eines bereits terminierten Barometers verwendet.",
+    "checked": "2026-11-14"
+  }
+}

@@ -1,3 +1,6 @@
+import finalArticles from './loneliness-articles-6.json' with {type:'json'};
+import finalSources from './loneliness-sources-6.json' with {type:'json'};
+import {eventSearchText} from './loneliness-events.mjs';
 import originalArticles from './loneliness-articles.json' with {type:'json'};
 import originalSources from './loneliness-sources.json' with {type:'json'};
 import newArticles from './loneliness-articles-3.json' with {type:'json'};
@@ -10,9 +13,9 @@ import {historicalSearchText,districtSearchText} from './loneliness-local.mjs';
 import {lonelinessHelpText} from './loneliness-help.mjs';
 import encounters from './loneliness-articles-encounters.json' with {type:'json'};
 import encounterSources from './loneliness-sources-encounters.json' with {type:'json'};
-const articles={...encounters,...originalArticles,...newArticles,...social,...guide},sources={...encounterSources,...originalSources,...newSources,...socialSources,...guideSources};
+const articles={...finalArticles,...encounters,...originalArticles,...newArticles,...social,...guide},sources={...finalSources,...encounterSources,...originalSources,...newSources,...socialSources,...guideSources};
 export {articles as lonelinessArticles,sources as lonelinessSources};
-export function lonelinessArticleText(id){const a=articles[id];return a?[a.intro,lonelinessHelpText(id),historicalSearchText(id),districtSearchText(id),...a.sections.flatMap(s=>[s.title,...s.paragraphs.map(p=>p.text)])].join(' '):'';}
+export function lonelinessArticleText(id){const a=articles[id];return a?[a.intro,eventSearchText(id),lonelinessHelpText(id),historicalSearchText(id),districtSearchText(id),...a.sections.flatMap(s=>[s.title,...s.paragraphs.map(p=>p.text)])].join(' '):'';}
 // Same UTF-16 units as textarea maxlength. No storage or network side effects.
 export const lonelinessCommentLimit=250;
 export function validateLonelinessComment(value){

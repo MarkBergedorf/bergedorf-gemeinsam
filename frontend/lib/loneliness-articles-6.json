@@ -1,0 +1,640 @@
+{
+  "mitwirkung": {
+    "date": "14. November 2026",
+    "intro": "Begegnung kann mit einem offenen Nachmittag, einer gemeinsamen Mahlzeit, Bewegung oder einer eigenen Initiative beginnen. Dieser Bereich verbindet überprüfte Termine mit praktischer Orientierung und deutlich gekennzeichneten noch offenen Vorhaben.",
+    "sections": [
+      {
+        "id": "mitwirkung-6-1",
+        "title": "Eine Orientierung, kein vollständiger Veranstaltungskalender",
+        "paragraphs": [
+          {
+            "text": "Die Terminübersicht ist eine redaktionelle Auswahl. Sie unterscheidet bestätigte Ankündigungen, Planungen und vergangene Termine. Ein veröffentlichter Termin ist keine Platzgarantie. Aktualisierungen erfolgen redaktionell, nicht durch eine automatische Übernahme fremder Kalender.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Wählen Sie nach Interesse, erreichbarem Stadtteil, Tageszeit und eigenen Möglichkeiten. Regelmäßige Begegnungen, einzelne Kulturtermine, Sport, gemeinsame Mahlzeiten und freiwillige Mitarbeit sind unterschiedliche Zugänge. Niemand muss seine Einsamkeit erklären, um nach einer passenden Gelegenheit zu suchen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "mitwirkung-6-2",
+        "title": "Vor dem ersten Besuch",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie bei der veranstaltenden Stelle Beginn und Ende, Kosten einschließlich Material oder Verpflegung, Anmeldung, Stornierung, Zugang und Rückfahrt. Bei Rollstuhl, Assistenz, Pflegebegleitung oder anderen Bedürfnissen sind konkrete räumliche Bedingungen wichtiger als ein allgemeines Versprechen von Barrierefreiheit. Eine fehlende Angabe bedeutet nicht, dass ein Angebot ungeeignet oder geeignet ist.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Das KörberHaus bietet einen eigenen Kalender mit einmaligen und wiederkehrenden Angeboten. Die Freiwilligenagentur informiert über Möglichkeiten, sich im Bezirk einzubringen. Die Links führen zu den verantwortlichen Anbietern; Bergedorf gemeinsam ist weder Veranstalter noch Vermittlungsdienst.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-kalender",
+              "auftrag6-freiwillig"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mitwirkung-6-3",
+        "title": "Mitgestalten ohne Scheinfunktion",
+        "paragraphs": [
+          {
+            "text": "Öffentliche Einreichungen, Kommentare, Kontaktvermittlung und die Unterstützerregistrierung sind in dieser Testwebsite nicht freigeschaltet. Die vorhandenen lokalen Eingabeprüfungen reichen nichts ein. Nutzen Sie für eine konkrete externe Veranstaltung deren Originalseite; für eine redaktionelle Korrektur die bestehenden Kontaktdaten im Impressum.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t17-1": {
+    "date": "14. November 2026",
+    "intro": "Hier finden Sie überprüfte Zugänge zu Begegnungen in Bergedorf. Ein einzelner Kulturtermin ersetzt weder eine dauerhafte Begegnungsinfrastruktur noch ein Angebot in jedem Stadtteil.",
+    "sections": [
+      {
+        "id": "t17-1-6-1",
+        "title": "Regelmäßig oder einmalig",
+        "paragraphs": [
+          {
+            "text": "Im KörberHaus-Kalender sind einmalige Veranstaltungen und wiederkehrende Angebote erschlossen. Kultur, gemeinsames Tun und Freizeit können dort nach dem aktuellen Programm ausgewählt werden. Ein wiederkehrender Titel wird hier nicht automatisch mit neuen Terminen fortgeschrieben.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-kalender"
+            ]
+          },
+          {
+            "text": "Für ein regelmäßiges Angebot klären Sie, ob jederzeit ein Einstieg möglich ist, ob eine Gruppe geschlossen ist und welche Verpflichtungen bestehen. Ein einmaliger Besuch kann zum Kennenlernen dienen, ist aber kein Beleg einer entstandenen Beziehung.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-1-6-2",
+        "title": "Wochenende, Feiertage und gemeinsame Mahlzeiten",
+        "paragraphs": [
+          {
+            "text": "Als konkreter Samstagstermin ist die Lesung „Rilke bewegt“ am 28. November 2026 um 16 Uhr im KörberHaus angekündigt. Die Originalseite nennt einen Anmeldebeginn am 14. November um 9 Uhr. Kosten und freie Plätze werden hier nicht als bestätigt behauptet.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-rilke"
+            ]
+          },
+          {
+            "text": "Für gemeinsame Mahlzeiten sehen Sie nach aktuellen Koch- und Essensangeboten im Veranstalterprogramm. Erfragen Sie Preis, Ernährungsbedürfnisse und ob ein Gespräch oder nur die Verpflegung vorgesehen ist. Für Weihnachten, Silvester, Ostern und andere Feiertage liegt dieser Auswahl noch kein einzeln verifiziertes Bergedorfer Begegnungsangebot vor. Diese Lücke bleibt ausdrücklich offen; reguläre Öffnungszeiten werden nicht auf Feiertage übertragen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-1-6-3",
+        "title": "Alle Stadtteile berücksichtigen",
+        "paragraphs": [
+          {
+            "text": "Die bisher geprüfte Auswahl ist räumlich ungleich verteilt. Ein Angebot im Bergedorfer Zentrum belegt keine Versorgung der Vier- und Marschlande oder anderer Teilräume. Über die Stadtteilansichten lassen sich örtliche Bedingungen prüfen; fehlende Termine müssen dort weiter recherchiert werden. Auch Rückwege am Abend und am Wochenende gehören zur Auswahl.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t17-2": {
+    "date": "14. November 2026",
+    "intro": "Projekte lassen sich unterstützen, selbst entwickeln oder gemeinsam mit einer bestehenden Einrichtung erproben. Eine Projektidee, eine Ausschreibung, eine Bewilligung und ein dauerhaft laufendes Angebot sind unterschiedliche Bearbeitungsstände.",
+    "sections": [
+      {
+        "id": "t17-2-6-1",
+        "title": "Ein überprüfter Förderhinweis",
+        "paragraphs": [
+          {
+            "text": "Die Bergedorf-Bille-Stiftung kündigt für „Kuchen verbindet“ ein Kuchenbudget bis 150 Euro pro Veranstaltung an. Anträge sind laut Seite bis Ende 2026 nach dem Windhundprinzip möglich. Verfügbarkeit und Bedingungen sind dort zu prüfen; eine Zusage für ein eigenes Projekt entsteht dadurch nicht.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          },
+          {
+            "text": "Legen Sie Anlass, Ort, offene Zielgruppe, Kosten, Aufgabenverteilung und den Zugang für neue Personen fest. Planen Sie nicht nur die Veranstaltung selbst, sondern auch eine Möglichkeit zum freiwilligen Wiedersehen. Ob neue Kontakte entstehen, muss geprüft werden und darf nicht aus der Förderung allein abgeleitet werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-2-6-2",
+        "title": "Ausschreibungen richtig lesen",
+        "paragraphs": [
+          {
+            "text": "Der Deutsche Gemeinsamkeitspreis hat eine offizielle Seite zum Jahrgang 2026. Das bestätigt weder eine bereits offene Ausschreibung für Januar 2027 noch deren Teilnahmebedingungen. Die in den Auftaktnotizen erwähnten künftigen Preis-, Konferenz- und Barometertermine bleiben ohne passenden Originalnachweis offen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-preis",
+              "auftrag6-kne"
+            ]
+          },
+          {
+            "text": "Vor einer Bewerbung klären Sie Frist, Antragsberechtigung, Eigenmittel, förderfähige Kosten, Laufzeit, Berichtspflichten und Datenverarbeitung direkt anhand der aktuellen Ausschreibung. Verwenden Sie keine Frist eines früheren Jahrgangs für einen neuen Antrag.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-2-6-3",
+        "title": "Von der Idee zum tragfähigen Projekt",
+        "paragraphs": [
+          {
+            "text": "Vereine können Räume und Erfahrung einbringen; Initiativen können zunächst ein kleines offenes Treffen erproben. Fachleute können bei Bedarf, Zugang, Schutzkonzept und Auswertung unterstützen. Eine dauerhafte Einrichtung benötigt zusätzlich verlässliche Finanzierung und Zuständigkeiten. Eine Projektförderung ist dafür allein keine Betriebsgarantie.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t17-3": {
+    "date": "14. November 2026",
+    "intro": "Hamburger Fachveranstaltungen und bundesweite Aktionen können Wissen und Zusammenarbeit erschließen. Die Übersicht trennt konkrete Ankündigungen von Planungen und vom historischen Rückblick.",
+    "sections": [
+      {
+        "id": "t17-3-6-1",
+        "title": "Hamburger Bündnis und Dialog",
+        "paragraphs": [
+          {
+            "text": "Für den 26. November 2026, 11:30–12:45 Uhr, ist eine Online-Veranstaltung zu kommunalen Strategien gegen Einsamkeit angekündigt. Die Veranstalterseite verlinkt die Anmeldung bei der Heinrich-Böll-Stiftung Hamburg. Die Aufnahme hier ist keine Anmeldung.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh",
+              "auftrag6-boell"
+            ]
+          },
+          {
+            "text": "Für den Strategieprozess sind weitere Foren angekündigt. Wo Uhrzeit oder Raum noch fehlen, werden diese als Planung angezeigt. Ein zivilgesellschaftlicher Strategieprozess ist noch kein beschlossener Hamburger Landesaktionsplan und kein Nachweis bereits umgesetzter staatlicher Maßnahmen.",
+            "kind": "vorhaben",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-3-6-2",
+        "title": "Bundesweite Zusammenarbeit",
+        "paragraphs": [
+          {
+            "text": "Das Kompetenznetz Einsamkeit nennt den 21.–27. Juni 2027 als Zeitraum der nächsten Aktionswoche „Gemeinsam aus der Einsamkeit“. Das bestätigt den Rahmen; konkrete örtliche Aktionen und deren Teilnahmebedingungen müssen einzeln geprüft werden. Die Woche 2026 ist bereits vergangen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-woche"
+            ]
+          },
+          {
+            "text": "Organisationen können ein eigenes Format vorbereiten und die zuständige Veranstalterseite auf Bedingungen zur Beteiligung prüfen. Erreichbarkeit, Kosten und eine nachvollziehbare Beschreibung sollten vor einer Veröffentlichung feststehen. Es wird kein eigener Anmelde- oder Kalenderdienst auf dieser Website eröffnet.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-3-6-3",
+        "title": "Unbestätigte Termine bleiben sichtbar offen",
+        "paragraphs": [
+          {
+            "text": "Für den Januar-Fachtermin zu KrisenNETZ und U25 lagen abweichende Datumsangaben in unterschiedlichen Abrufständen vor. Er wird deshalb nicht als bestätigter Termin aufgeführt. Auch ein Online-Forum im September 2027, ein konkreter Konferenztag im Juni und ein Barometer-Veröffentlichungstag sind in dieser Bearbeitung nicht bestätigt. Veranstaltungsnotizen ersetzen keine eindeutige Einladung.",
+            "kind": "ungeprueft",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t17-4": {
+    "date": "14. November 2026",
+    "intro": "Mitwirkung kann klein beginnen: ein Gespräch, eine gemeinsam organisierte Mahlzeit, ein Nachbarschaftstreffen oder eine fachliche Mitarbeit. Sie soll freiwillig bleiben und zu den eigenen Möglichkeiten passen.",
+    "sections": [
+      {
+        "id": "t17-4-6-1",
+        "title": "Einzelpersonen und Nachbarschaft",
+        "paragraphs": [
+          {
+            "text": "Sie können jemanden zu einem Spaziergang einladen, einen offenen Spieletermin vorschlagen oder eine kleine Nachbarschaftsgruppe beginnen. Beschreiben Sie Ort, Zeit, Kosten und Ansprechpartner verständlich. Veröffentlichen Sie fremde Kontaktdaten nur mit Einverständnis. Ein Treffen darf auch ohne Mitgliedschaft beginnen; für Räume und Durchführung müssen Zuständigkeiten dennoch geklärt sein.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Die Freiwilligenagentur Bergedorf informiert über passende freiwillige Tätigkeiten und nennt auf ihrer Mitmach-Seite direkte Kontaktmöglichkeiten. Bei der TSG Bergedorf sind Sport und ehrenamtliche Tätigkeiten erschlossen. Konkrete Kursplätze und Mitgliedschaftsbedingungen sind gesondert beim Anbieter zu prüfen.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-freiwillig",
+              "auftrag6-sport"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t17-4-6-2",
+        "title": "Vereine, Initiativen und Organisationen",
+        "paragraphs": [
+          {
+            "text": "Bestehende Organisationen können einen offenen Einstieg ermöglichen, Räume teilen und neue Gäste begrüßen. Informieren Sie über Anmeldung, Beiträge, Unterstützung und echte Zugangshürden. Arbeiten Sie mit anderen Trägern zusammen, ohne deren Zustimmung oder Kapazität vorauszusetzen. Ehrenamtliche Mitarbeit ersetzt nicht automatisch professionelle Verantwortung oder Versicherungsschutz.",
+            "kind": "empfehlung",
+            "refs": []
+          },
+          {
+            "text": "Das Hamburger Bündnis nennt eine öffentliche Kontaktmöglichkeit für Interessierte und Organisationen. Dort können Interessen und mögliche Beiträge eingebracht werden. Eine Kontaktaufnahme ist keine zugesagte Mitgliedschaft oder vertragliche Partnerschaft.",
+            "kind": "institution",
+            "refs": [
+              "auftrag6-bgeh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t17-4-6-3",
+        "title": "Fachlich und politisch beteiligen",
+        "paragraphs": [
+          {
+            "text": "Fachkräfte können überprüfbare Bedarfserfahrungen, Untersuchungen und Vorschläge beitragen, ohne vertrauliche Falldaten offenzulegen. Bürgerinnen und Bürger können politische Anliegen formulieren und öffentliche Beratungen verfolgen. Zuständigkeit, Antragsweg und Beteiligungsbedingungen sind beim jeweiligen politischen Organ zu prüfen. Plattformtexte sind keine amtlichen Beschlüsse.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t17-5": {
+    "date": "14. November 2026",
+    "intro": "Konkrete Verbesserungsvorschläge sollen den Alltag beschreiben, den sie erleichtern. Ein seltenes Problem wird nicht deshalb bedeutungslos, weil bisher nur wenige Menschen darüber sprechen.",
+    "sections": [
+      {
+        "id": "t17-5-6-1",
+        "title": "Bedarf nachvollziehbar beschreiben",
+        "paragraphs": [
+          {
+            "text": "Benennen Sie Stadtteil, Situation, fehlende Gelegenheit und gewünschte Veränderung. Trennen Sie eigene Beobachtungen von Angaben Dritter. Beschreiben Sie beispielsweise fehlende günstige Mahlzeiten, Öffnungslücken am Wochenende, schwer erreichbare Räume oder fehlende Gelegenheiten für spontane Kontakte. Eine einzelne Erfahrung ist wichtig, aber keine repräsentative Häufigkeitsmessung.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-5-6-2",
+        "title": "Menschen einbeziehen, die nicht kommen",
+        "paragraphs": [
+          {
+            "text": "Sprechen Sie nicht ausschließlich mit Stammgästen. Beziehen Sie nach Möglichkeit Menschen ohne Vereinsbezug, mit Schichtarbeit, wenig Geld, Mobilitätseinschränkungen oder schlechten früheren Erfahrungen ein. Niemand muss sich öffentlich als einsam bezeichnen oder Gesundheitsdaten mitteilen, um einen Bedarf zu benennen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-5-6-3",
+        "title": "Vorschlag, Entscheidung und Umsetzung",
+        "paragraphs": [
+          {
+            "text": "Eine Idee ist zunächst ein Vorschlag. Eine angekündigte Prüfung ist keine Bewilligung; ein Beschluss ist noch kein gebauter, geöffneter und dauerhaft finanzierter Ort. Dokumentieren Sie, wer entschieden hat, welche Mittel tatsächlich bewilligt wurden und welche überprüfbaren Schritte umgesetzt sind. Politische Zielbewertungen bleiben als solche gekennzeichnet.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Die Bürgerplattform hat Bereiche für Anliegen und Erfahrungsberichte. Öffentliche Einreichungen sind in dieser Testfassung deaktiviert. Die Links dienen derzeit der Orientierung und zeigen keine funktionierende Übermittlung an.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t17-6": {
+    "date": "14. November 2026",
+    "intro": "Die Sonderseite verbindet Wissen und Begegnung mit den bestehenden Bereichen der Bürgerplattform. Inhalte werden über Links erschlossen, nicht in mehrere unabhängige Fassungen kopiert.",
+    "sections": [
+      {
+        "id": "t17-6-6-1",
+        "title": "Den passenden bestehenden Bereich nutzen",
+        "paragraphs": [
+          {
+            "text": "Anliegen behandeln konkrete Verbesserungen im Bezirk. Erfahrungsberichte machen persönliche Perspektiven kenntlich. Geschichte und Erinnerungen erschließen historische Quellen und Zeitzeugnisse. Politik trennt öffentliche Unterlagen von redaktionellen Forderungen. Verzeichnis und Organisationsbereich dienen der Orientierung über Einrichtungen und deren Angebote. Die nachfolgenden Links führen in diese vorhandenen Bereiche.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-6-6-2",
+        "title": "Was die Testfassung tatsächlich kann",
+        "paragraphs": [
+          {
+            "text": "Vorhandene redaktionelle Texte, Suche, Quellen und Navigation sind lesbar. Öffentliche Anmeldung, Einreichung, Diskussion und Kontaktvermittlung sind nicht freigeschaltet. Eine lokale Formularprüfung versendet nichts. Auch die freiwillige Unterstützung der politischen Begegnungsstättenforderung ist nur vorbereitet; es werden keine E-Mail-Adressen registriert und keine Petitionshinweise verschickt.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t17-6-6-3",
+        "title": "Korrekturen und sensible Erfahrungen",
+        "paragraphs": [
+          {
+            "text": "Für einen redaktionellen Hinweis sind die vorhandenen Kontaktangaben im Impressum maßgeblich. Nennen Sie die betroffene Seite, den möglichen Fehler und möglichst einen Originalbeleg. Verzichten Sie auf nicht erforderliche Angaben über Gesundheit oder andere Personen. Eine spätere Veröffentlichung persönlicher Erfahrungen braucht Einwilligung und redaktionelle Prüfung; sie darf nicht durch die bloße Zusendung versprochen werden.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "quellen": {
+    "date": "14. November 2026",
+    "intro": "Nachvollziehbare Information beginnt mit der Frage, welche Art von Aussage vorliegt und was der Beleg tatsächlich trägt. Die fünf Ausgangsberichte sind redaktionelle Arbeitsgrundlagen, keine fünf unabhängigen Bestätigungen derselben Tatsachen.",
+    "sections": [
+      {
+        "id": "quellen-6-1",
+        "title": "Ein gemeinsamer Nachweisstandard",
+        "paragraphs": [
+          {
+            "text": "Wesentliche Tatsachen erhalten eine zuordenbare Originalquelle möglichst direkt am Absatz. Erfasst werden Titel, Autorenschaft oder herausgebende Institution, Jahr beziehungsweise Datum, zugänglicher Link, geprüfter Teil, Aussagekraft, Einschränkungen und letzter Prüftermin. Ein Link allein beweist nicht jede Aussage auf der verlinkten Website.",
+            "kind": "einordnung",
+            "refs": []
+          },
+          {
+            "text": "Die vorhandenen Fachtexte führen ihre Quellen am Textende auf. Fehlende bibliografische Angaben oder Prüftermine werden als nicht dokumentiert kenntlich gemacht, nicht ergänzt. Die sichtbare Quellenprüfung ist eine redaktionelle Prüfung des jeweils beschriebenen Inhalts, keine Garantie dauerhafter Verfügbarkeit.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "quellen-6-2",
+        "title": "Aussagearten unterscheiden",
+        "paragraphs": [
+          {
+            "text": "Wissenschaftlicher Befund, amtliche Tatsache, institutionelle Selbstauskunft, historischer Beleg, persönliche Erinnerung, Auftaktaussage, fachliche Empfehlung und politische Forderung werden unterschieden. Ebenso werden angekündigte Vorhaben, nachgewiesene Umsetzung und noch ungeprüfte Angaben getrennt. Ein Veranstalter kann einen Termin bestätigen, aber damit keine wissenschaftliche Wirkung belegen.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "quellen-6-3",
+        "title": "Vollständigkeit offenlegen",
+        "paragraphs": [
+          {
+            "text": "Die Themenstruktur umfasst alle 18 Hauptthemen. Im derzeit veröffentlichten Stand sind die Hauptthemen 1 bis 10 sowie jetzt 17 und 18 ausgearbeitet; für 11 bis 16 fehlen noch die vorgesehenen Fachausarbeitungen. Eine vollständige Struktur ist keine vollständige Veröffentlichung. Der ausführliche Bearbeitungsbericht führt die Quellenzeilen und verbleibenden Aufgaben nachvollziehbar auf.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t18-1": {
+    "date": "14. November 2026",
+    "intro": "Wissenschaftliche Quellen sollen eine Aussage überprüfbar machen. Bekanntheit einer Publikation oder die Anzahl von Verweisen ersetzen nicht die Prüfung von Fragestellung, Methode und Übertragbarkeit.",
+    "sections": [
+      {
+        "id": "t18-1-6-1",
+        "title": "Studien nachvollziehbar benennen",
+        "paragraphs": [
+          {
+            "text": "Geben Sie Titel, Autorenschaft oder Institution, Erscheinungsjahr, Zeitschrift oder Bericht sowie DOI oder zugängliche Originalquelle an. Benennen Sie untersuchte Menschen und Region, Zeitraum, Messverfahren und Art der Untersuchung. Halten Sie fest, ob Volltext, Abstract oder nur bibliografische Angaben geprüft wurden. Ein hinter einer Bezahlschranke liegender Volltext wird nicht als gelesen ausgegeben.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-1-6-2",
+        "title": "Wirkung und Zusammenhang trennen",
+        "paragraphs": [
+          {
+            "text": "Ein beobachteter statistischer Zusammenhang wird nicht in einen Kausalnachweis umgeschrieben. Ein Praxisbeispiel belegt keine allgemeine Verringerung von Einsamkeit. Ausländische oder auf eine Altersgruppe begrenzte Ergebnisse werden nicht ungeprüft auf Bergedorf übertragen. Politische Erfolgsziele sind normative Festlegungen und keine aus Studien abgeleiteten Naturkonstanten.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-1-6-3",
+        "title": "Lücken und Aktualisierung",
+        "paragraphs": [
+          {
+            "text": "Prüfen Sie neue Fassungen, Korrekturen und widersprechende belastbare Forschung. Eine nicht identifizierte Studie bleibt offen, auch wenn ihr vermutetes Ergebnis plausibel klingt. Der wissenschaftliche Quellenweg bleibt mit den passenden Fachartikeln verknüpft; ein Registereintrag bestätigt keine darüber hinausgehende Berichtsaussage.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t18-2": {
+    "date": "14. November 2026",
+    "intro": "Historische Dokumentation unterscheidet, dass ein Ort zu einer Zeit existierte, welche Funktion er hatte und wie Menschen ihn erlebten. Diese Ebenen benötigen unterschiedliche Belege.",
+    "sections": [
+      {
+        "id": "t18-2-6-1",
+        "title": "Herkunft und Fundstelle",
+        "paragraphs": [
+          {
+            "text": "Bei Fotos und Anzeigen werden Sammlung, Bildnummer, erkennbare Datierung und Zuordnung genannt; bei Zeitungen Titel, Ausgabe, Datum und Fundstelle, soweit vorhanden. Adressbücher, Karten und Archive benötigen Ausgabe beziehungsweise Signatur oder Blattangabe. Unleserliche oder fehlende Angaben bleiben offen. Rechtegrundlage und historische Aussagekraft sind verschiedene Fragen.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-2-6-2",
+        "title": "Was der Beleg trägt",
+        "paragraphs": [
+          {
+            "text": "Ein Foto oder eine Anzeige kann eine bestimmte Nutzung dokumentieren, aber nicht ohne Weiteres ein Gründungs- oder Schließungsdatum. Mehrere Namen an derselben Adresse sind nicht automatisch mehrere gleichzeitig bestehende Orte. Namenswechsel, Umzug, Nutzungswechsel und räumliche Unsicherheit bleiben getrennt sichtbar. Die bestehende Sammlung behält ihre Bildnummern, Quellenkonflikte und Erfassungsposten.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-2-6-3",
+        "title": "Erinnerungen bewahren",
+        "paragraphs": [
+          {
+            "text": "Persönliche Erinnerungen können Bedeutung, Atmosphäre und Kontaktgewohnheiten erschließen. Sie werden als Erinnerungen mit Herkunft und zeitlichem Bezug gekennzeichnet; sie sind weder amtliche Statistik noch automatisch ein überprüftes Schließungsdatum. Widersprüche werden dokumentiert und nicht durch eine passend erscheinende Variante ersetzt.",
+            "kind": "erinnerung",
+            "refs": []
+          },
+          {
+            "text": "Die historische Sammlung wird mit der Frage nach verlorenen Begegnungsorten verknüpft. Daraus folgt kein bereits nachgewiesener allgemeiner Zusammenhang zwischen einer Gaststättenschließung und heutiger individueller Einsamkeit.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t18-3": {
+    "date": "14. November 2026",
+    "intro": "Politische und behördliche Quellen dokumentieren unterschiedliche Schritte öffentlicher Verantwortung. Die Bedeutung einer Unterlage ergibt sich aus ihrem konkreten Status und Inhalt.",
+    "sections": [
+      {
+        "id": "t18-3-6-1",
+        "title": "Antrag ist nicht Beschluss",
+        "paragraphs": [
+          {
+            "text": "Nennen Sie zuständiges Organ, Dokumenttitel, Drucksachennummer, Datum und Fundstelle. Trennen Sie Antrag, parlamentarische Anfrage, Verwaltungsantwort, Beschluss, Förderentscheidung und tatsächliche Umsetzung. Ein öffentliches Sitzungsdatum ist noch kein inhaltlicher Beschluss. Eine ältere Vorlage belegt nicht automatisch den heutigen Stand.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-3-6-2",
+        "title": "Förderung und Zielerreichung",
+        "paragraphs": [
+          {
+            "text": "Bergedorf gemeinsam bewertet die geforderte Begegnungsinfrastruktur anhand des erklärten gesellschaftlichen Ziels. Dies ist eine redaktionelle politische Position. Förderbeträge und die Existenz einzelner Angebote sind von nachgewiesener Nutzung, dauerhaftem Betrieb und der Bewertung anhand dieses Ziels zu unterscheiden.",
+            "kind": "forderung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-3-6-3",
+        "title": "Nachprüfbare Fortschritte",
+        "paragraphs": [
+          {
+            "text": "Für umgesetzte Maßnahmen benennen Sie die tatsächliche Leistung und ihren Zeitpunkt: etwa eröffnete Räume, bestätigte Öffnung, bereitgestelltes Personal oder ausgezahlte Förderung. Eine angekündigte Landesstrategie darf nicht als bereits beschlossene und umgesetzte Strategie bezeichnet werden. Ungeprüfte Aussagen aus dem Auftakt über Hamburgs politische Sonderstellung bleiben als offene Nachweisfrage erhalten.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t18-4": {
+    "date": "14. November 2026",
+    "intro": "Eine verlässliche Angebotsbeschreibung hilft bei der Entscheidung, ob ein Kontakt im eigenen Alltag möglich ist. Sie ersetzt keine individuelle Beratung und keine Platzzusage.",
+    "sections": [
+      {
+        "id": "t18-4-6-1",
+        "title": "Einheitliche Angaben",
+        "paragraphs": [
+          {
+            "text": "Dokumentiert werden Träger, Angebotsname, Zielgruppe ohne vorschnelle Zuschreibung, konkrete Leistung, Adresse beziehungsweise online, öffentliche Kontaktmöglichkeit, Erreichbarkeit, Kosten, Anmeldebedingungen, Barrierefreiheit und Datum der letzten Prüfung. „Nicht bestätigt – bitte erfragen“ ist etwas anderes als kostenlos, jederzeit offen oder barrierefrei.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-4-6-2",
+        "title": "Konkrete Merkmale statt pauschaler Versprechen",
+        "paragraphs": [
+          {
+            "text": "Bei Zugänglichkeit sind stufenloser Weg, Aufzug, Türbreite, Toilette, Assistenz und Sprachzugang getrennt zu prüfen. Ein zentraler Standort garantiert keinen nutzbaren Rückweg zu später Stunde. Klären Sie Feiertage und Ausnahmen gesondert. Die Prüfung einer öffentlichen Website ist keine persönliche Betriebsbesichtigung.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-4-6-3",
+        "title": "Aktualität und Verantwortung",
+        "paragraphs": [
+          {
+            "text": "Die vorhandenen Hilfseinträge tragen ihre eigenen Prüfdaten. Sie werden durch diese Bearbeitung nicht stillschweigend auf heute umdatiert. Neue Veranstaltungshinweise und externe Einstiege tragen einen eigenen Prüftermin. Änderungen, ausgefallene Termine und nicht mehr erreichbare Stellen müssen redaktionell nachgetragen werden; eine automatische Aktualisierung wird nicht behauptet.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t18-5": {
+    "date": "14. November 2026",
+    "intro": "Die Herkunft einer Aussage muss erkennbar bleiben. Plausibilität genügt weder für die Korrektur eines automatisch transkribierten Namens noch für die Bestätigung eines Veranstaltungstermins.",
+    "sections": [
+      {
+        "id": "t18-5-6-1",
+        "title": "Befunde, Dokumentation und Erinnerungen",
+        "paragraphs": [
+          {
+            "text": "Wissenschaftlich belegte Aussagen werden mit konkreter Untersuchung und Grenzen verknüpft; amtlich bestätigte Tatsachen mit der zuständigen Originalunterlage. Historisch dokumentierte Angaben erhalten Fundstellen. Persönliche Erinnerungen bleiben eine eigene Perspektive. Institutionelle Selbstauskünfte belegen, was ein Anbieter veröffentlicht, nicht automatisch seine Wirkung.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-5-6-2",
+        "title": "Auftakt und Transkriptionsfehler",
+        "paragraphs": [
+          {
+            "text": "Die fünf übergebenen Berichte enthalten Planungen, Veranstaltungsnotizen und zusätzliche Themenvorschläge mit teilweise gemeinsamem Ursprung. Sie sind keine unabhängige Bestätigung von Namen, Zahlen und Jahresangaben. Unklare Namen oder Zuständigkeiten werden bis zum Abgleich mit Originalaufzeichnung, Folien oder offiziellen Angaben nicht als gesicherte Identität veröffentlicht.",
+            "kind": "auftakt",
+            "refs": []
+          },
+          {
+            "text": "Die in den Unterlagen erwähnten Studienbezeichnungen, einzelnen Referentenrollen und einige Terminangaben bleiben Gegenstand der dokumentierten Einzelprüfung. Die offizielle Ankündigung eines Auftakts bestätigt dessen Datum und Veranstalter; sie beweist nicht sämtliche darin berichteten Wortbeiträge oder die tatsächliche Durchführung.",
+            "kind": "ungeprueft",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-5-6-3",
+        "title": "Empfehlung, Forderung und Umsetzung",
+        "paragraphs": [
+          {
+            "text": "Fachliche Empfehlungen erklären ihre Grundlage und ihren Anwendungsbereich. Politische Forderungen nennen ihren Urheber. Angekündigte Vorhaben bleiben Planungen. Tatsächlich umgesetzte Maßnahmen benötigen einen passenden Umsetzungsbeleg. Noch ungeprüfte Angaben werden kenntlich gemacht oder bis zur Klärung nicht als Tatsachen veröffentlicht; sie verschwinden nicht aus der Aufgabenliste.",
+            "kind": "empfehlung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  },
+  "t18-6": {
+    "date": "14. November 2026",
+    "intro": "Bergedorf gemeinsam ist eine private, unabhängige Bürgerplattform. Sie ist keine Behörde und keine offizielle Vertretung des Hamburger Bündnisses gegen Einsamkeit.",
+    "sections": [
+      {
+        "id": "t18-6-6-1",
+        "title": "Redaktion und Korrekturen",
+        "paragraphs": [
+          {
+            "text": "Die redaktionelle Verantwortung liegt beim Betreiber der Plattform; die bestehenden Angaben im Impressum bleiben maßgeblich. Fremde Angebote werden nach überprüfbaren Originalquellen beschrieben, persönliche Erfahrungen und politische Wertungen davon getrennt. Ein Hinweis auf einen möglichen Fehler ist ein Anlass zur Prüfung und kein automatischer Austausch eines Textes.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-6-6-2",
+        "title": "Datenschutz und technische Grenzen",
+        "paragraphs": [
+          {
+            "text": "Öffentliche Schreibfunktionen sind in der GitHub-Pages-Testfassung deaktiviert. Es gibt keine aktive Unterstützerregistrierung, keine automatisierte Kontaktvermittlung und keinen Versand von Veranstaltungs- oder Petitionsnachrichten. Externe Anmeldungen finden beim jeweiligen Veranstalter unter dessen Bedingungen statt. Die bestehenden Datenschutz- und Moderationsregeln bleiben erhalten.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "t18-6-6-3",
+        "title": "Offene Aufgaben sichtbar halten",
+        "paragraphs": [
+          {
+            "text": "Der Gesamtbericht unterscheidet veröffentlichte Artikel, thematische Zuordnung, noch fehlende Ausarbeitungen und offene Einzelnachweise. Die 18 Hauptthemen bleiben erhalten, auch wenn nicht jedes bereits einen Fachtext hat. Ein erschlossenes Thema ist nicht gleichbedeutend mit einer vollständig verifizierten Aussage aus einem Ausgangsbericht.",
+            "kind": "einordnung",
+            "refs": []
+          }
+        ]
+      }
+    ]
+  }
+}
