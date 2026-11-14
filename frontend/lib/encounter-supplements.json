@@ -1,0 +1,810 @@
+{
+  "betrieb": {
+    "title": "Ergänzende Betriebs- und Organisationsanforderungen",
+    "intro": "Politische Konzeptfortschreibung vom 14. November 2026. Diese Anforderungen ergänzen das vollständige bisherige Betriebskonzept und die 18 Hausordnungsgrundsätze. Eine reale Einrichtung, Finanzierung oder Personalvereinbarung wird damit nicht behauptet.",
+    "sections": [
+      {
+        "id": "bestand",
+        "title": "Verbindlicher Bestand und ergänzende Festlegungen",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Die zehn bestehenden Erfolgskriterien, der große gemeinsame Saal, die tägliche lange Öffnung, freie Aufenthaltsdauer und der fehlende Konsum- und Mitmachzwang bleiben verbindlich. Das Haus soll ein selbstverständlicher Ort für die gesamte Gesellschaft werden. Seine Hauptaufgabe ist die Verringerung insbesondere ungewollter Einsamkeit durch alltägliche freiwillige Begegnung.",
+          "Die zentrale Lage, höchstens 100 Meter tatsächlich barrierefrei nutzbare Wegstrecke zur geeigneten ÖPNV-Haltestelle und das möglichst innerhalb von drei Kilometern gesellschaftlich gemischte Einzugsgebiet bleiben erhalten. Die gesamte Einrichtung einschließlich Küche, Lager, Personal- und Nebenräumen liegt im Erdgeschoss und bleibt vollständig stufenfrei. Eine umfangreichere Betrachtung von Barrierefreiheit ersetzt keine dieser Vorgaben.",
+          "Auch Gutscheinkonzept, demokratische Kontrolle, vier täglich besetzte Schlüsselfunktionen und dauerhafte wesentliche öffentliche Finanzierung bleiben bestehen. Die folgenden Abschnitte konkretisieren ihre Umsetzung. Bei abweichenden älteren Formulierungen haben die hier ausdrücklich ausgewiesenen späteren Präzisierungen Vorrang."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "spontan",
+        "title": "Spontaner Zugang auch bei schwerster Pflegebedürftigkeit",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Jeder Mensch soll während der Öffnungszeiten unangemeldet kommen können. Das gilt ausdrücklich für dauerhaft bettlägerige Menschen, auch wenn medizinisch kein Umsetzen in einen Rollstuhl möglich ist. Weder eine Reservierung noch eine besondere Voranmeldung für einen Besuch im Pflegebett wird zur regulären Zugangsvoraussetzung.",
+          "Notwendiger Krankentransport, Begleitung, medizinische Versorgung und Pflege werden durch die jeweils dafür verantwortlichen Personen, Dienste oder Einrichtungen vorbereitet und durchgeführt. Diese notwendige Vorbereitung des Transports ist von einer Anmeldung bei der Begegnungsstätte zu unterscheiden. Die Begegnungsstätte übernimmt durch den Besuch nicht automatisch medizinische Behandlung, Überwachung oder Pflege.",
+          "Der organisatorische Normalfall ist eine auf unterschiedliche unangemeldete Besuche vorbereitete Einrichtung. Aufnahmemöglichkeiten müssen deshalb bei Standortwahl, Eingängen, Türbreiten, Möblierung und Personalorganisation von Anfang an berücksichtigt werden. Der Gesundheitszustand wird nicht zum Anlass einer allgemeinen gesellschaftlichen Aussonderung."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "alltag",
+        "title": "Erstbesuch, Wiederkehr und hohe Auslastung",
+        "kind": "Betriebskonzept",
+        "refs": [],
+        "items": [],
+        "paragraphs": [
+          "Ein Erstbesucher soll bereits am Eingang erkennen, dass er ohne Kaufabsicht, Mitgliedschaft oder besonderen Anlass willkommen ist. Verständliche Informationen erklären freien Aufenthalt und fehlenden Mitmachzwang. Personal bietet Orientierung und einen freien Platz an, ohne ein Gespräch oder persönliche Auskunft zur Bedingung zu machen.",
+          "Wiederkehrende Besucher sollen vertraute Gesichter und nachvollziehbare Abläufe antreffen können. Das begründet weder bevorzugte Reservierungen noch einen Anspruch etablierter Gruppen auf exklusive Bereiche. Gemeinsame Tische und respektvolle Ansprache sollen auch allein kommenden Menschen Zugang erleichtern; zeitweiliger stiller Aufenthalt bleibt möglich.",
+          "Bei hoher Auslastung werden tatsächliche freie Kapazitäten, flexible Möblierung und sichere Wege geprüft. Freie Aufenthaltsdauer bleibt erhalten; zusätzliche Gäste werden nicht durch erzwungenen Konsum oder willkürliche Aufenthaltsfristen aufgenommen. Wiederkehrende Engpässe sind als Kapazitätsproblem zu dokumentieren und durch Raum-, Personal- und Standortplanung zu bearbeiten. Es wird keine jederzeit unbegrenzt verfügbare Platzkapazität versprochen.",
+          "Die tägliche lange Öffnung soll unterschiedliche Alltagsrhythmen erreichen: vor und nach der Arbeit, tagsüber, nach Arztbesuchen und bei ungeplanter Freizeit. Welche Menschen zu welchen Zeiten tatsächlich Zugang finden und welche fernbleiben, muss die Betriebsbeobachtung zeigen. Die Tagesgestaltung folgt dem gemeinsamen offenen Aufenthalt und wird nicht in exklusive Zielgruppenzeitfenster aufgeteilt."
+        ]
+      },
+      {
+        "id": "aufnahme",
+        "title": "Ein Pflegebett im normalen gemeinschaftlichen Aufenthalt",
+        "kind": "Betriebskonzept",
+        "paragraphs": [
+          "Beim Eintreffen begrüßt eine zuständige Person den Besucher und stimmt mit ihm und den Begleitpersonen ab, welche konkrete Fläche und Zugänglichkeit benötigt werden. Dabei werden Wünsche, Kommunikationsmöglichkeiten und Privatsphäre respektiert. Die Person selbst bleibt der Ansprechpartner; es wird nicht ausschließlich über sie gesprochen.",
+          "Zunächst wird eine geeignete freie Fläche im gemeinsamen Saal geprüft. Wenn erforderlich, werden bewegliche Tische und Stühle kurzfristig umgestellt. Zu berücksichtigen sind Stellfläche des Bettes, seitliche Zugänglichkeit, Bewegungsflächen für Begleitpersonen und Mobilitätshilfsmittel sowie der Weg bis zum Platz. Verkehrs-, Flucht- und Rettungswege bleiben frei. Medizinische Geräte werden ausschließlich nach den hierfür geltenden fachlichen Sicherheitsanforderungen genutzt.",
+          "Andere Besucher dürfen freiwillig beim Platzschaffen helfen. Dies ist eine normale gemeinsame Alltagshandlung, keine inszenierte Hilfsveranstaltung. Währenddessen können Begrüßungen und Gespräche entstehen, sofern sie erwünscht sind. Niemand wird zur Hilfe oder zur persönlichen Kontaktaufnahme verpflichtet. Pflegerische Handgriffe und Transportaufgaben bleiben bei den zuständigen qualifizierten Personen.",
+          "Eine angemessene Wartezeit kann erforderlich sein. Ob sie im konkreten Fall medizinisch und pflegerisch vertretbar ist, beurteilen die dafür Verantwortlichen anhand des individuellen Zustands; eine beispielhafte halbe Stunde ist keine allgemein zulässige Wartezeit. Die Einrichtung schöpft ihre tatsächlichen organisatorischen Möglichkeiten aus. Sie verspricht keine sofort verfügbare Stellfläche unabhängig von Belegung und Sicherheit.",
+          "Das Pflegebett soll möglichst mitten im normalen gesellschaftlichen Leben stehen. Allein die Pflegebedürftigkeit rechtfertigt keinen Verweis in einen gesonderten Raum. Persönlich gewünschter Rückzug und tatsächlich notwendige Schutz-, Hygiene- und Sicherheitsmaßnahmen sind individuell zu berücksichtigen. Ob die Aufnahme Zugehörigkeit fördert, untersucht der Forschungsbereich M."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "raum",
+        "title": "Offene Räume und bewegliche Einrichtung",
+        "kind": "Betriebskonzept",
+        "paragraphs": [
+          "Ein möglichst großer zusammenhängender Gemeinschaftsbereich ist die räumliche Grundlage. Nicht zwingend erforderliche Innenwände sollen vermieden werden. Toiletten, Küche und hygienisch getrennte Arbeitsbereiche, Technik, statisch oder brandschutzrechtlich notwendige Abtrennungen sowie Räume für Schutz und Vertraulichkeit bleiben möglich und sind fachlich zu planen.",
+          "Tische, Stühle und weitere Elemente müssen im tatsächlichen Alltag praktikabel beweglich sein. Ihre Anordnung soll Platzschaffen, zusätzliche Sitzgemeinschaften und die Aufnahme größerer Hilfsmittel erlauben. Diese Flexibilität darf nicht auf Kosten standsicherer Möbel, selbstständig nutzbarer Sitzplätze oder ständig freier Durchgänge gehen.",
+          "Offenheit und akustische Nutzbarkeit müssen zusammen geplant werden. Schallminderung, verständliche Gespräche, gute Beleuchtung und erkennbare Orientierung sind Teil desselben Raumentwurfs. Eine offene Fläche allein gewährleistet weder angenehmen Aufenthalt noch gesellschaftlichen Kontakt. Änderungen der Anordnung werden auf ihre tatsächliche Nutzbarkeit geprüft."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "technik",
+        "title": "Weiterentwicklung aus dem tatsächlichen Betrieb",
+        "kind": "Betriebskonzept",
+        "paragraphs": [
+          "Der spätere Betrieb soll zeigen, wo Bewegungsflächen, Stromanschlüsse, Lüftung, Sanitäranlagen, Beleuchtung oder Orientierung verbessert werden müssen. Wiederkehrende Schwierigkeiten werden als organisatorische Probleme dokumentiert, ohne unnötig Diagnosen und persönliche Lebensgeschichten der Betroffenen zu erfassen.",
+          "Für jede festgestellte Schwierigkeit werden zuständige Stelle, fachlich geprüfte Lösung, Priorität und Umsetzung festgehalten. Anschließend wird geprüft, ob die Änderung das Problem tatsächlich beseitigt. Zusätzliche Steckdosen für zulässige Hilfsmittel und andere elektrische oder bauliche Arbeiten werden durch qualifizierte Fachbetriebe umgesetzt.",
+          "Eine praktische Verbesserung verändert nicht den gesellschaftlichen Grundzweck. Aus einem Platzproblem darf beispielsweise nicht stillschweigend eine allgemeine Anmeldepflicht für pflegebedürftige Besucher werden. Technische und organisatorische Lösungen sollen den offenen Zugang ermöglichen."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "barrieren",
+        "title": "Barrierefreiheit über Stufenfreiheit hinaus",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Die vollständige bauliche Stufenfreiheit bleibt unverändert. Ergänzend müssen Akustik, sensorische Einschränkungen, kognitive Zugänglichkeit, verständliche Kommunikation, gut erkennbare Wege, geeignete Beleuchtung und zugängliche Sanitäranlagen berücksichtigt werden. Mobilitätshilfsmittel unterscheiden sich; die Planung muss ihre tatsächlichen Bewegungs- und Nutzungsbedürfnisse prüfen.",
+          "Finanzielle und soziale Barrieren gehören ebenfalls zur Zugänglichkeitsprüfung: Wer ohne Geld kommt, darf bleiben; wer keine organisatorischen Verfahren versteht, soll verständliche Unterstützung erhalten. Unangemeldeter Zugang und fehlende Mitgliedschaftspflicht sind konkrete organisatorische Eigenschaften. Menschen mit unterschiedlichen Einschränkungen sollen an der Planung und Erprobung beteiligt werden.",
+          "Artikel 9 der UN-Behindertenrechtskonvention betrifft Zugänglichkeit, Artikel 19 die selbstbestimmte Lebensführung und Einbeziehung in die Gemeinschaft. Der nordische Scoping Review des norwegischen Instituts für öffentliche Gesundheit von 2026 beschreibt das Zusammenwirken räumlicher, kommunikativer und organisatorischer Barrieren. Er liefert keine abgeschlossene Wirksamkeitsprüfung dieses Hauses; eine Qualitätsbewertung der aufgenommenen Studien wurde dort nicht durchgeführt.",
+          "Die aktuelle Hamburger Behördenseite unterscheidet die seit Januar 2026 geltenden Regelwerke von den Vorschriften für ältere Bauanträge. Für einen konkreten Standort müssen Bauordnung, technische Bestimmungen und gegebenenfalls Sonderbauanforderungen geprüft werden. Die politische Forderung nach vollständiger Stufenfreiheit der gesamten Einrichtung gilt zusätzlich und wird nicht als bloße Wiedergabe gesetzlicher Mindestanforderungen ausgegeben."
+        ],
+        "refs": [
+          "un",
+          "universal",
+          "hbau"
+        ],
+        "items": []
+      },
+      {
+        "id": "teams",
+        "title": "Korrektur: vier eigenständige Funktionsteams",
+        "kind": "Verbindliche Konzeptpräzisierung",
+        "paragraphs": [
+          "Die vier Schlüsselfunktionen bilden vier personell besetzte, organisatorisch und fachlich eigenständige Teams. Sie sind kein gemeinsames Gesamtteam. Eine fallbezogene Kooperation ist möglich; daraus entsteht keine gemeinsame organisatorische Einheit. Insbesondere bleibt die Polizei außerhalb eines allgemeinen sozialpädagogischen Fallteams.",
+          "Jedes Team organisiert tägliche Anwesenheit, feste bekannte Ansprechpartner, Einarbeitung und geeignete Vertretungen eigenständig. Die bisherigen Anforderungen an tägliche Funktionsbesetzung und vertraute Vertretungen bleiben bestehen. Personalbemessung muss lange Öffnung, Urlaub, Krankheit und weitere Ausfälle tatsächlich abdecken; eine beispielhafte Zahl von Teammitgliedern ist kein rechnerischer Nachweis ausreichender Besetzung.",
+          "Die bürgernahe Polizeifunktion soll freundlich, vertrauensbildend und unaufdringlich ansprechbar sein. Tatsächliche Präsenz, Zeiten und Zuständigkeiten bedürfen einer Vereinbarung mit der zuständigen Polizeibehörde. Gesetzliche Aufgaben bleiben bestehen. Dieses Konzept behauptet keine Personalzusage und schafft keine neuen polizeilichen Befugnisse."
+        ],
+        "refs": [],
+        "items": [
+          "Team 1 – Bürgernahe Polizeifunktion: polizeiliche Ansprechpartnerfunktion im alltäglichen gemeinsamen Aufenthalt.",
+          "Team 2 – Suchtansprechfunktion: eigenständige Fachzuständigkeit für suchtbezogene Probleme, Beratung und Hilfsvermittlung.",
+          "Team 3 – Armut und Wohnungslosigkeit: Unterstützung bei Armut, Wohnungslosigkeit und sozialen Notlagen.",
+          "Team 4 – Toleranz und Begegnung: respektvolles Miteinander, unaufdringliche Kontaktförderung, Konfliktbearbeitung und Unterstützung bei Diskriminierung."
+        ]
+      },
+      {
+        "id": "dienstplanung",
+        "title": "Öffentliche Funktionspläne ohne Namen",
+        "kind": "Betriebskonzept",
+        "paragraphs": [
+          "Für jede Funktion ist ein öffentlich einsehbarer Plan vorgesehen. Er zeigt den Tag, die vorgesehene Verfügbarkeit der Funktion, eine gegebenenfalls organisierte Vertretung und vorübergehende organisatorische Abweichungen. Die Information betrifft das Angebot, nicht die persönlichen Schichten einzelner Beschäftigter.",
+          "Namen, personenbezogene Ausfallgründe und andere unnötige Beschäftigtendaten werden nicht veröffentlicht. Die interne Personalplanung bleibt von dieser öffentlichen Funktionsübersicht getrennt. Jedes Team verantwortet seine Planung und die rechtzeitige Aktualisierung der Angebotsinformation.",
+          "Da noch keine tatsächliche Begegnungsstätte besteht, gibt es hier keinen realen Dienstplan. Beispielzeiten aus früheren Materialien sind keine festgelegten Dienst- oder Öffnungszeiten. Die Website beschreibt die Anforderung; sie entwickelt kein Personalverwaltungssystem."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "leitung",
+        "title": "Qualifikation, Leitung und Zusammenarbeit",
+        "kind": "Betriebskonzept",
+        "paragraphs": [
+          "Betriebsleitung und Beschäftigte müssen das gesamte gesellschaftliche Modell verstehen. Allgemeine Erfahrung in sozialen Einrichtungen allein genügt nicht. Auswahl und Einarbeitung prüfen fachliche Eignung, soziale Kompetenz, nichtdiskriminierendes Verhalten, Respekt vor Selbstbestimmung, Konfliktlösung, Zusammenarbeit, wirtschaftliche Verantwortung und Bereitschaft zur unabhängigen Evaluation.",
+          "Verantwortungsbereiche, Entscheidungswege und Grenzen fachlicher Interventionen werden vor dem Betrieb verbindlich beschrieben. Kontaktförderung bleibt ein Angebot. Niemand muss ein Beratungsgespräch führen oder an einer Aktivität teilnehmen, um den Saal nutzen zu dürfen.",
+          "Externe Organisationen können fachliche Beiträge leisten. Ihre Beteiligung darf das Haus nicht in ein gewöhnliches Beratungszentrum, ein getrenntes Zielgruppenangebot oder ein Veranstaltungsprogramm umwandeln. Neue Probleme werden fachlich und nachvollziehbar bearbeitet; persönliche Vorlieben einzelner Leitungskräfte ersetzen die verbindlichen Grundprinzipien nicht."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "traeger",
+        "title": "Nicht gewinnorientierte Trägerschaft und Vergütung",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Der Betrieb soll nicht gewinnorientiert sein. Die geeignete Rechtsform und eine gegebenenfalls mögliche steuerliche Gemeinnützigkeit sind vor Gründung fachlich und rechtlich zu prüfen. Nicht gewinnorientierter Betrieb ist eine konzeptionelle Anforderung und keine Behauptung eines bereits anerkannten Steuerstatus.",
+          "Zusätzliche politische Vorgabe: Betreiber und deren Angehörige sollen aus dem Betrieb keine Gehaltszahlungen erhalten. Unabhängige Beschäftigte einschließlich Betriebsleitung und Fachpersonal dürfen regulär vergütet werden. Dieses besondere Vergütungsverbot ist keine allgemeine gesetzliche Regel des Gemeinnützigkeitsrechts. § 55 AO untersagt unter anderem zweckfremde Ausgaben und unverhältnismäßig hohe Vergütungen; daraus folgt kein pauschales Verbot jeder angemessenen Arbeitsvergütung an nahestehende Personen.",
+          "Vor Gründung sind Betreiber, Angehörige und wirtschaftlich verbundene Personen eindeutig zu definieren. Gehalt, tatsächlicher Auslagenersatz, mittelbare Vorteile und externe Dienstleistungsverträge müssen getrennt geregelt werden. Offenlegung wirtschaftlicher Beziehungen, Befangenheit bei Entscheidungen und eine Prüfung von Umgehungsgeschäften gehören zur Organisationsverfassung."
+        ],
+        "refs": [
+          "ao",
+          "bgb27"
+        ],
+        "items": []
+      },
+      {
+        "id": "kontrolle",
+        "title": "Demokratische Kontrolle mit verbindlicher Wirkung",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Das demokratische ehrenamtliche Kontrollgremium mit mindestens zehn Mitgliedern bleibt bestehen. Seine Rechte sollen über bloße Beratung hinausgehen: verbindliche Information, Kontrolle, Eingriff, Entscheidung, Beschwerdebearbeitung, Korrektur und Überprüfung verantwortlicher Personen.",
+          "Wahlverfahren, Amtszeit, demokratische Legitimation, Zugang zu notwendigen Unterlagen, Umgang mit Befangenheit und Umsetzung der Beschlüsse müssen vor Gründung verbindlich geregelt sein. Beschwerden gegen Beschäftigte und gegen Gremiumsmitglieder benötigen unabhängige Bearbeitungswege. Persönliche oder politische Interessen dürfen wissenschaftliche Ergebnisse nicht verändern.",
+          "Die unveränderlichen gesellschaftlichen Grundprinzipien sollen nicht durch eine einfache Mehrheit aufgehoben werden können. Die Rechtsgestaltung muss zugleich gesetzliche Vertretung und Verantwortlichkeit des Trägers gewährleisten. Bei einem Verein ist insbesondere die Stellung des Vorstands nach § 26 BGB zu berücksichtigen. Verbindliche interne Rechte und gesetzliche Außenvertretung sind sorgfältig aufeinander abzustimmen."
+        ],
+        "refs": [
+          "bgb"
+        ],
+        "items": []
+      },
+      {
+        "id": "schutz",
+        "title": "Hausordnung, Schutz und überprüfbare Entscheidungen",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Die 18 bisherigen Hausordnungsgrundsätze bleiben bestehen. Schutzmaßnahmen richten sich nach konkretem Verhalten. Armut, Wohnungslosigkeit, Suchterkrankung, Behinderung, psychische Erkrankung oder andere persönliche Merkmale sind kein Ersatz für die Prüfung eines tatsächlichen Verstoßes.",
+          "Für gewöhnliche erhebliche Verhaltensverstöße sieht das politische Konzept grundsätzlich ein Hausverbot von höchstens 72 Stunden vor. Bei körperlicher Gewalt soll ein unbefristetes Hausverbot möglich sein. Die rechtliche und organisatorische Umsetzung ist vor einem realen Betrieb auszuarbeiten; die Vorgabe wird hier nicht als bereits geprüfte Hausrechtsregel ausgegeben.",
+          "Akute Bedrohungen und körperliche Gewalt verlangen Schutz und fachliche Gefahrenbearbeitung. Wiederholte Belästigungen und Diskriminierung benötigen nachvollziehbare Deeskalation, Dokumentation und Prüfung. Medizinische Notfälle und suchtbezogene Krisen müssen an zuständige qualifizierte Stellen weitergegeben werden. Besonders gefährdete Personen sind angemessen zu schützen.",
+          "Für Maßnahmen werden Anlass, Entscheidung, Dauer, zuständige Stelle und Überprüfung datensparsam festgehalten. Betroffene erhalten einen verständlichen Beschwerdeweg. Beschwerden gegen Personal oder Gremiumsmitglieder dürfen nicht ausschließlich von der beschuldigten Person bearbeitet werden. Verhältnismäßigkeit, Nichtdiskriminierung und wirksamer Schutz gelten zugleich."
+        ],
+        "refs": [
+          "agg"
+        ],
+        "items": []
+      },
+      {
+        "id": "verpflegung",
+        "title": "Verpflegung, Preise und diskrete Gutscheine",
+        "kind": "Betriebskonzept",
+        "paragraphs": [
+          "Bezahlbare Speisen und Getränke schaffen einen alltäglichen Aufenthaltsanlass. Sie sind ein wichtiger Zugang zum gemeinsamen Leben, bleiben aber dem Begegnungszweck untergeordnet. Aufenthalt ohne Einkauf und ohne Beteiligung an Aufgaben ist selbstverständlich möglich.",
+          "Die spätere Planung muss Speisenumfang, Nachfrage, Küchenausstattung, Personal, Lagerung, Lebensmittelhygiene und barrierefreie Ausgabe gemeinsam bestimmen. Preisberechnung trennt Wareneinsatz, Personal- und Betriebskosten sowie öffentlichen Zuschuss. Hohe Nachfrage darf nicht zu einer faktischen Verdrängung von Gästen führen, die nichts konsumieren.",
+          "Der Umgang mit mitgebrachten Lebensmitteln ist verständlich und unter Beachtung tatsächlich geltender Hygiene- und Sicherheitsanforderungen auszugestalten. Das bestehende Konzept wird dadurch nicht in einen Konsumzwang umgewandelt. Individuelle Unterstützung bei der Speisenausgabe muss ohne öffentliche Kennzeichnung als bedürftig möglich sein.",
+          "Das anonyme Gutscheinsystem soll diskret funktionieren. Ausgabe, Gültigkeit, Abrechnung und Schutz vor Mehrfacheinlösung sind organisatorisch zu regeln. Eine datensparsame Einmalkennung eines Gutscheins ist von einer personenbezogenen Besucherdatei zu unterscheiden. Erst eine reale Prüfung kann festlegen, welches Verfahren zuverlässig und ohne unnötige personenbezogene Erfassung funktioniert. Hier wird keine neue Gutscheinfunktion aktiviert."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "finanzen",
+        "title": "Vollständige Finanzierung und gesellschaftliche Wirtschaftlichkeit",
+        "kind": "Betriebskonzept",
+        "paragraphs": [
+          "Die wirtschaftliche Planung beginnt mit tatsächlichem Raumbedarf und verlässlichem täglichem Betrieb. Investitionen umfassen Grundstück oder Immobilienzugang, Neu- oder Umbau, technische Ausstattung, Barrierefreiheit, Ersteinrichtung und Inbetriebnahme. Kapitalbindung, Ersatzbeschaffung und Instandhaltung sind gesondert auszuweisen.",
+          "Der Personalplan enthält Betriebsleitung, Verwaltung, Gastronomie, Reinigung und die vier eigenständigen Funktionsteams einschließlich Vertretungsreserven. Er muss die tatsächliche Öffnungsdauer abdecken. Kosten des Trägers werden von Aufwendungen anderer Beteiligter getrennt, etwa Polizei oder öffentlichem Verkehr. Eine außerhalb des Trägerhaushalts finanzierte Funktion ist gesellschaftlich nicht kostenlos.",
+          "Laufende Kosten umfassen Lebensmittel, Energie, Wasser, Lüftung, Klimatisierung, Wartung, Versicherungen, Reinigung und Verwaltung. Verkaufserlöse, dauerhafte öffentliche Zuschüsse und weitere zulässige Mittel werden getrennt geplant. Liquidität, notwendige Rücklagen, Preisentwicklungen und Anschlussfinanzierung gehören zum Wirtschaftsmodell. Zusätzliche Mittel ersetzen die Forderung nach dauerhafter wesentlicher öffentlicher Finanzierung nicht.",
+          "Gesellschaftliche Wirtschaftlichkeit ist eine zusätzliche Untersuchung: Welche Wirkungen können den Ausgaben tatsächlich zugerechnet werden? Der internationale Review zu Social Prescribing von Lynch und Kollegen (2026) beschreibt unterschiedliche gesundheitsökonomische Methoden und begrenzte robuste Nachweise. Er liefert keine Einsparsumme für Bergedorf. Vermiedene Gesundheits- oder Pflegekosten werden erst bei geeigneten empirischen Belegen als Wirkung bewertet; dieselbe Wirkung darf nicht mehrfach verbucht werden.",
+          "Es liegen keine belastbaren Beträge, bewilligten Zuschüsse oder Förderzusagen für diesen Standort vor. Ein späterer Wirtschaftsplan muss Annahmen, Datengrundlagen, Finanzierungslücken und Sensitivität gegenüber Belegung und Preisen sichtbar machen. Die politische Forderung nach Finanzierung ist von ihrer tatsächlichen Sicherung zu unterscheiden."
+        ],
+        "refs": [
+          "economics"
+        ],
+        "items": []
+      },
+      {
+        "id": "transfer",
+        "title": "Pilotstandort und mögliche bundesweite Übertragung",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Zunächst soll ein realer Standort in Bergedorf unabhängig wissenschaftlich begleitet werden. Über weitere Standorte wird anhand tatsächlicher Erfahrungen und Ergebnisse beraten. Eine Einführung in Hamburg oder Deutschland ist weder beschlossen noch finanziert.",
+          "Allgemeine Offenheit, Freiwilligkeit, Nichtdiskriminierung, gemeinsame Nutzung, fehlender Konsumzwang, vollständige Stufenfreiheit, demokratische Kontrolle und die übrigen verbindlichen Mindestanforderungen bleiben erhalten. Ein Pilotprojekt darf nicht nur einzelne leicht umsetzbare Bestandteile übernehmen und anschließend die Wirkung des vollständigen Modells behaupten.",
+          "Regional anpassbar sind unter anderem Kapazität, Zahl der Standorte, konkrete Raumausstattung, Personalbemessung und Verkehrsorganisation, soweit verbindliche Mindestanforderungen erhalten bleiben. Vergleiche müssen dokumentieren, welche Merkmale gleich und welche verändert sind. Der Forschungsauftrag prüft Voraussetzungen, Grenzen und Kosten einer Übertragung."
+        ],
+        "refs": [],
+        "items": []
+      }
+    ]
+  },
+  "forschung": {
+    "title": "Eigenständiger Forschungsauftrag und wissenschaftlich begleitetes Pilotprojekt",
+    "intro": "Konzept für eine spätere unabhängige Untersuchung. Es existieren noch keine Forschungsdaten, wissenschaftliche Beauftragung, gesicherte Finanzierung oder beschlossene Eröffnung des Bergedorfer Gesamtmodells.",
+    "sections": [
+      {
+        "id": "zweck",
+        "title": "Begegnungsort und eigenständiger Forschungsauftrag",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Die wissenschaftliche Begleitung soll ein verbindlicher Bestandteil einer späteren tatsächlichen Verwirklichung werden. Sie ist mehr als eine Sammlung vorhandener Studien: Ein eigener Forschungsauftrag untersucht das konkrete Zusammenspiel aus offenem Ort, vier eigenständigen Funktionsteams, täglicher langer Öffnung, Hausordnung, Finanzierung und demokratischer Kontrolle.",
+          "Das Haus erfüllt gleichzeitig eine gesellschaftliche und eine wissenschaftliche Funktion. Vorrang hat der gewöhnliche freiwillige gemeinsame Aufenthalt. Besucher sollen sich nicht als Teilnehmer eines dauerhaften Experiments fühlen. Nutzung ohne Forschungsteilnahme bleibt uneingeschränkt möglich. Die Untersuchung darf ungezwungene Begegnungen nicht durch ständige Erhebungen ersetzen."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "ausgang",
+        "title": "Wissenschaftliche Ausgangserhebung vor der Eröffnung",
+        "kind": "Forschungsplanung",
+        "paragraphs": [
+          "Die wissenschaftliche Arbeit beginnt möglichst mit der Standortplanung. Vor der Eröffnung werden Einsamkeitsbelastung, soziale Beziehungen, vorhandene Begegnungsorte, Hilfsangebote und Möglichkeiten spontaner Kontakte untersucht. Die gesellschaftliche Zusammensetzung des Einzugsgebiets und die tatsächlich nutzbare öffentliche Verkehrsanbindung gehören zur Bestandsaufnahme.",
+          "Bauliche, soziale, finanzielle, kommunikative und organisatorische Zugangshindernisse werden getrennt erfasst. Auch Menschen, die vorhandene Einrichtungen nicht nutzen, gehören in die Untersuchung. Ausgangsdaten für spätere Kostenvergleiche werden vorab festgelegt. Erhebungsgebiet, Bezugsbevölkerung, Instrumente und Zeitpunkte müssen dokumentiert sein, damit spätere Veränderungen überhaupt interpretierbar werden."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-a",
+        "title": "Forschungsbereich A – Allgemeine Begegnungsinfrastruktur",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Welche Wirkung hat ein dauerhaft offener, bezahlbarer und freiwillig nutzbarer Begegnungsort auf gesellschaftliche Teilhabe?",
+          "Öffentliche Zugänglichkeit und tatsächliche Teilnahme werden getrennt betrachtet. Bestehende Orte im Einzugsgebiet liefern den Ausgangskontext."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-b",
+        "title": "Forschungsbereich B – Wiederkehrende Vertrautheit",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Welche Bedeutung haben wiederkehrende Begegnungen und vertraute Gesichter?",
+          "Wiedererkennen, Grüßen, kurze Gespräche und Erwartung eines Wiedersehens werden von der bloßen Besuchshäufigkeit unterschieden."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-c",
+        "title": "Forschungsbereich C – Zugehörigkeit ohne Freundschaft",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Kann Zugehörigkeit wachsen, ohne dass enge Freundschaften entstehen?",
+          "Subjektives Willkommen und gesellschaftliche Einbindung werden gesondert von Zahl und Intensität enger Beziehungen untersucht."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-d",
+        "title": "Forschungsbereich D – Gesellschaftliche Durchmischung",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Wie entwickeln sich Wahrnehmung, Toleranz und Vorurteile bei freiwilligen wiederkehrenden Kontakten?",
+          "Gemeinsame Anwesenheit, tatsächlicher Kontakt und verändertes Verständnis sind unterschiedliche Untersuchungsebenen. Zugehörigkeiten werden nicht aus dem Aussehen zugeschrieben."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-e",
+        "title": "Forschungsbereich E – Freiwillige gegenseitige Hilfe",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Entstehen spontane Unterstützungsleistungen zwischen Besuchern?",
+          "Kleine Alltagshilfen, Vermittlung professioneller Unterstützung und längerfristige Hilfe werden unterschieden. Hilfe darf nie Forschungspflicht werden."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-f",
+        "title": "Forschungsbereich F – Einsamkeit und psychische Gesundheit",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Welche Veränderungen von Einsamkeit, Verbundenheit, Wohlbefinden und psychischer Belastung lassen sich beobachten?",
+          "Validierte Instrumente und geeignete Vergleiche ersetzen keine Behandlung. Gesundheitsdaten werden ausschließlich in rechtlich und ethisch gesondert geprüften Verfahren erhoben."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-g",
+        "title": "Forschungsbereich G – Umfassende Barrierefreiheit",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Welche Eigenschaften beeinflussen tatsächliche Zugänglichkeit?",
+          "Räumliche, akustische, sensorische, kognitive, kommunikative, finanzielle und organisatorische Hürden werden zusammen mit den Betroffenen untersucht."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-h",
+        "title": "Forschungsbereich H – Gesellschaftliche Verankerung",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Wie wird aus gelegentlichem Besuch eine selbstverständliche wiederkehrende Nutzung?",
+          "Jährliche Nutzung, wöchentliche Gewohnheit, spontane Besuche und Aufenthaltsdauer werden getrennt ausgewertet."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-i",
+        "title": "Forschungsbereich I – Die vier eigenständigen Funktionsteams",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Welche Bedeutung haben die vier fachlichen Funktionen für Konflikte, Sicherheit, Akzeptanz und Betrieb?",
+          "Besetzung, Vertretung, wahrgenommene Zugänglichkeit und Grenzen der Zusammenarbeit werden geprüft. Die Eigenständigkeit der Teams bleibt dokumentiert."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-j",
+        "title": "Forschungsbereich J – Wirtschaftlichkeit",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Welche tatsächlichen Kosten und zurechenbaren gesellschaftlichen Auswirkungen entstehen?",
+          "Investition, Regelbetrieb, Kosten anderer öffentlicher Beteiligter und gesellschaftliche Wirkungen werden getrennt gerechnet; hypothetische Einsparungen sind keine Einnahmen."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-k",
+        "title": "Forschungsbereich K – Spontaneität",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Wie beeinflussen unangemeldete ungeplante Besuche zwischenmenschliche Kontakte?",
+          "Selbstbestimmte Teilnahme, ungeplante Begegnung und organisierte Aktivität werden unterschieden. Ein Zwang zur Voranmeldung wäre eine Veränderung des untersuchten Modells."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-l",
+        "title": "Forschungsbereich L – Spontane gesellschaftliche Hilfe",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Unter welchen Bedingungen führt freiwillige Hilfe zu weiteren Beziehungen?",
+          "Untersucht werden konkrete gemeinsame Alltagshandlungen und daraus entstehende Gespräche, auch außerhalb des Hauses. Eine automatische Wirkung wird nicht vorausgesetzt."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-m",
+        "title": "Forschungsbereich M – Schwer pflegebedürftige Besucher",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Wie erleben Menschen mit erheblichen Mobilitäts- und Pflegeeinschränkungen ihre spontane Aufnahme?",
+          "Selbstbestimmung, Würde, Zugehörigkeit, Wartezeiten und tatsächliche Teilhabe werden aus ihrer Perspektive untersucht. Pflegebedürftigkeit begründet keine verpflichtende Forschungsteilnahme."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-n",
+        "title": "Forschungsbereich N – Räumliche Flexibilität",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Wie beeinflussen offene Räume, bewegliche Möbel und technische Anpassungen die Nutzung?",
+          "Platzschaffen, freie Rettungswege, akustische Aufenthaltsqualität, Orientierung und nachträgliche Verbesserungen werden im tatsächlichen Betrieb geprüft."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bereich-o",
+        "title": "Forschungsbereich O – Organisatorische Weiterentwicklung",
+        "kind": "Forschungsfrage",
+        "paragraphs": [
+          "Welche Betriebserkenntnisse führen zu Verbesserungen, ohne den Grundzweck zu verändern?",
+          "Problembeschreibung, fachliche Entscheidung, Umsetzung und erneute Prüfung werden nachvollziehbar dokumentiert. Die Untersuchung erfasst auch erfolglose Anpassungen."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "methoden",
+        "title": "Untersuchung ohne permanente Besucherbefragung",
+        "kind": "Forschungsplanung",
+        "paragraphs": [
+          "Möglichst wenig eingreifende Methoden umfassen anonyme Auslastungszählungen, tatsächliche Öffnungszeiten, zusammenfassende Betriebskennzahlen und organisatorische Problemdokumentation. Fachliche Interventionen werden nur in geeignet anonymisierter Zusammenfassung ausgewertet. Eine bloße Entfernung von Namen macht einen Bericht über einen erkennbaren Einzelfall noch nicht anonym.",
+          "Zeitlich begrenzte Beobachtungen und freiwillige Befragungen in angemessenen Abständen können ergänzen. Monatliche freiwillige Befragungen sind ein Ausgangsvorschlag, keine bereits begründete Pflichtfrequenz. Die unabhängige wissenschaftliche Einrichtung legt Methodik und Häufigkeit nach Erhebungsziel und Belastung fest. Ständige Ansprache derselben Besucher soll vermieden werden.",
+          "Für wiederholte Messungen sind Auswahl, Ausfälle und mögliche Unterschiede zwischen Teilnehmenden und Nichtteilnehmenden zu untersuchen. Einfache Auslastungszählungen zählen Aufenthalte und keine eindeutigen Personen. Sie können deshalb weder eigenständig die bevölkerungsbezogene Nutzungsquote noch subjektive Einsamkeit messen. Es entsteht auf dieser Website kein Fragebogen und keine neue Umfrage- oder Forschungsdatenerfassungsfunktion."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "bevoelkerung",
+        "title": "Repräsentative Bevölkerung einschließlich Nichtnutzern",
+        "kind": "Forschungsplanung",
+        "paragraphs": [
+          "Die Wirkung auf die gesamte erwachsene Wohnbevölkerung verlangt eine entsprechende bevölkerungsbezogene Stichprobe. Menschen ohne Besuch und Menschen mit eingeschränkter Mobilität müssen erreichbar sein. Auswahlverfahren, unterschiedliche Teilnahmechancen, Gewichtung, Antwortausfälle und Unsicherheit werden offengelegt. Eine Besucherbefragung allein bildet die Bevölkerung nicht ab.",
+          "Ergänzende Befragungen in Fußgängerzonen und an anderen öffentlichen Orten können Gründe für Nutzung und Fernbleiben erschließen. Der vorgeschlagene Zeitraum 13 bis 18 Uhr ist eine mögliche Planung und keine wissenschaftlich begründete alleinige Erhebungszeit. Häufig anwesende Menschen haben andere Auswahlchancen als selten oder nie Anwesende. Eine solche Ortsbefragung ist nicht automatisch repräsentativ.",
+          "Die wissenschaftliche Leitung bestimmt geeignete zugängliche Erhebungswege. Ergebnisse sollen getrennt für Bevölkerung, Nutzer und Nichtnutzer ausgewiesen werden, soweit Stichprobenumfang und Datenschutz dies zulassen. Nichtantwort und Nichterreichbarkeit werden nicht stillschweigend als fehlender Bedarf gewertet."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "unabhaengig",
+        "title": "Fachliche Unabhängigkeit und vorab festgelegte Auswertung",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Betreiber, Betriebsleitung und Kontrollgremium dürfen Ergebnisse nicht nach persönlichen oder politischen Erwartungen verändern. Auch nicht erreichte Ziele und unerwünschte Befunde werden nachvollziehbar veröffentlicht. Auswahl des wissenschaftlichen Partners, Finanzierung, Interessenbindungen und Zuständigkeiten sind offenzulegen.",
+          "Forschungsfragen, primäre Zielgrößen, Stichprobenplanung, Erhebungszeitpunkte und Auswertungsverfahren sollen vor Beginn verbindlich festgehalten werden. Spätere begründete Änderungen bleiben mit Datum und Begründung sichtbar. Dadurch werden nachträgliche Auswahl günstiger Ergebnisse und eine Verschiebung der Erfolgsmaßstäbe vermieden."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "datenschutz",
+        "title": "Datenschutz und Forschungsethik",
+        "kind": "Rechtlicher Prüfrahmen",
+        "paragraphs": [
+          "Tatsächlich anonyme Statistik ist von personenbezogenen Forschungsdaten und besonderen Datenkategorien wie Gesundheitsangaben zu unterscheiden. Identifizierbare Informationen über Diagnosen, politische Ansichten oder vertrauliche Lebensumstände werden nicht pauschal im normalen Betrieb protokolliert. Pseudonymisierung ist weiterhin eine Verarbeitung personenbezogener Daten.",
+          "Personenbezogene Forschung benötigt eine passende rechtliche Grundlage und geeignete Schutzmaßnahmen. Vor einer späteren Erhebung sind insbesondere Art. 5, 6, 9, 13, 25, 32 und gegebenenfalls 89 DSGVO, Forschungsethik, freiwillige Beteiligung, Zweckbindung, Datenminimierung, Aufbewahrung, Löschung und erforderliche Genehmigungen zu prüfen. Bei einer Einwilligung muss verständlich sein, welche Daten wofür und wie lange verwendet werden.",
+          "Einwilligung zur Forschung ist keine Eintrittskarte. Ablehnung und Widerruf dürfen die normale Nutzung nicht beeinträchtigen. Vertrauliche Beratung wird nicht zur allgemeinen Forschungsquelle. Zugriffsrechte und Veröffentlichung werden vorab begrenzt. Kleine Fallzahlen und einzigartige Situationen müssen auch bei scheinbar anonymen Auszügen gegen Wiedererkennbarkeit geprüft werden.",
+          "Die gegenwärtige Website erhebt durch dieses Konzept keine Forschungsdaten. Es werden weder neue Registrierungen noch Besucherkennungen, Fragebögen oder Gesundheitsprofile aktiviert."
+        ],
+        "refs": [
+          "dsgvo"
+        ],
+        "items": []
+      },
+      {
+        "id": "nutzungsziel",
+        "title": "Ausdrückliche Fortschreibung des politischen 90-Prozent-Ziels",
+        "kind": "Verbindliche Konzeptpräzisierung",
+        "paragraphs": [
+          "Das politische Ziel bleibt: mindestens 90 Prozent der gesamten Wohnbevölkerung ab 18 Jahren sollen mindestens einen entsprechenden Begegnungsort eigeninitiativ und nachweislich wiederkehrend nutzen. Das ist eine politische Zielvorgabe, kein gemessener Wert und kein wissenschaftlich belegter erreichbarer Schwellenwert.",
+          "Neu präzisiert gegenüber dem bisherigen veröffentlichten Nutzungsmaßstab: Auch ein eigeninitiierter, wiederkehrender Besuch einmal jährlich kann für diese Quote zählen. Ein einziger Erstbesuch weist keine Wiederkehr nach. Eine Einladung zum ersten Besuch schließt spätere selbst initiierte Nutzung nicht aus. Bei mehreren besuchten Einrichtungen wird dieselbe Person in der bevölkerungsbezogenen Quote nur einmal berücksichtigt.",
+          "Die wissenschaftliche Erhebung muss daher Wiederkehr und Eigeninitiative ausdrücklich operationalisieren. Eine repräsentative freiwillige Angabe über zurückliegende Besuche kann hierzu dienen; daraus folgt keine Pflicht zu einer personenbezogenen Eingangskontrolle. Methode, Erinnerungszeitraum und Unsicherheit werden offengelegt.",
+          "Das anspruchsvollere Entwicklungsziel bleibt, dass möglichst viele Menschen die Orte mindestens ein- bis zweimal wöchentlich oder häufiger von sich aus aufsuchen. Jährliche Wiederkehr ist keine intensive Alltagsverankerung. Nutzungsquote, Besuchshäufigkeit, Aufenthaltsdauer, spontane Kontakte und gesellschaftliche Einbindung werden deshalb getrennt berichtet."
+        ],
+        "refs": [],
+        "items": [
+          "Einmal jährlich wiederkehrend",
+          "Mehrmals jährlich",
+          "Monatlich",
+          "Wöchentlich",
+          "Mehrmals wöchentlich",
+          "Täglich"
+        ]
+      },
+      {
+        "id": "einsamkeit",
+        "title": "Mindestens zehn Prozent relative Verringerung als Teilerfolg",
+        "kind": "Politischer Zielmaßstab und Forschungsplanung",
+        "paragraphs": [
+          "Die Verringerung von Einsamkeit ist eine eigenständige Zielgröße. Eine wissenschaftlich nachgewiesene relative Verringerung um mindestens zehn Prozent soll als Teilerfolg anerkannt werden, auch wenn das 90-Prozent-Nutzungsziel noch nicht erreicht ist. Sie bedeutet nicht automatisch, dass alle politischen Anforderungen erfüllt sind.",
+          "Vor Beginn muss festgelegt werden, auf welche Messgröße sich dieses Ziel bezieht: beispielsweise den Anteil erheblich einsamer Menschen oder die Intensität eines geeigneten validierten Einsamkeitsmaßes. Prävalenz, mittlere Intensität, soziale Beziehungen, Zugehörigkeit und wahrgenommene Unterstützung sind unterschiedliche Größen. Instrument, Schwelle, Bezugsbevölkerung und Zeitraum werden vorab bestimmt.",
+          "Rechenbeispiel ohne reale Projektdaten: Sinkt ein Anteil von 20 auf 18 Prozent, beträgt die relative Verringerung (20 − 18) / 20 = 10 Prozent. Der Unterschied beträgt zwei Prozentpunkte. Eine standardisierte Mittelwertsdifferenz aus einer Metaanalyse ist weder dieses Prozentmaß noch eine Veränderung in Prozentpunkten.",
+          "Validierte Instrumente sind vorhanden. Die ONS empfiehlt eine Kombination indirekter Fragen zu Einsamkeit mit einer direkten Häufigkeitsfrage. Für eine deutschsprachige Bergedorfer Erhebung sind Eignung, validierte Fassung und Vergleichbarkeit wissenschaftlich zu prüfen. Messung allein weist die Ursache einer Veränderung nicht nach; Unsicherheitsintervalle und Vergleichsdesign gehören zur Bewertung."
+        ],
+        "refs": [
+          "ons"
+        ],
+        "items": []
+      },
+      {
+        "id": "vergleich",
+        "title": "Vergleichsverfahren und Grenzen kausaler Zuordnung",
+        "kind": "Forschungsplanung",
+        "paragraphs": [
+          "Eine reine Vorher-nachher-Betrachtung kann allgemeine gesellschaftliche Entwicklungen mit einer Projektwirkung verwechseln. Wiederholte Bevölkerungsbefragungen, geeignete Vergleichsgebiete und längerfristige Beobachtung sollen die Zuordnung stärken. Bei späteren mehreren Standorten kann eine zeitlich gestaffelte Eröffnung untersucht werden.",
+          "Die verantwortliche wissenschaftliche Einrichtung bestimmt das konkrete Design anhand tatsächlicher Bedingungen. Vergleichbarkeit der Gebiete, Ausgangsunterschiede, Veränderungen anderer Angebote, freiwillige Auswahl der Besucher und Ausfälle müssen berücksichtigt werden. Eine zeitliche Abfolge ist noch kein Kausalnachweis.",
+          "Besucher und Nichtbesucher werden getrennt betrachtet, ohne daraus ungeprüft eine Wirkung abzuleiten: Menschen, die freiwillig kommen, können sich bereits vorher von Fernbleibenden unterscheiden. Veröffentlichung trennt beobachtete Entwicklung, bereinigten statistischen Zusammenhang und nach Methode belastbar zurechenbare Wirkung."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "ebenen",
+        "title": "Acht Ebenen der Gesamtbewertung",
+        "kind": "Forschungsplanung",
+        "paragraphs": [
+          "Die acht Ebenen werden einzeln ausgewiesen und anschließend in einer nachvollziehbaren Gesamtauswertung verbunden. Eine hohe Auslastung ersetzt keinen Nachweis von Zugehörigkeit, und eine Verbesserung einer Zielgröße beweist nicht die Erfüllung aller anderen Ziele. Umsetzungstreue und Wirkung sind getrennt zu beurteilen."
+        ],
+        "refs": [],
+        "items": [
+          "Ebene 1 – Umsetzung: Wurden alle verbindlichen Grundprinzipien tatsächlich eingehalten?",
+          "Ebene 2 – Zugang und Nutzung: Wer nutzt den Ort, wie häufig und warum; wer bleibt fern?",
+          "Ebene 3 – Gesellschaftliche Vertrautheit: Entstehen Wiedererkennung, Bekanntschaften und Zugehörigkeit?",
+          "Ebene 4 – Gesellschaftliche Durchmischung: Kommen unterschiedliche gesellschaftliche Gruppen tatsächlich freiwillig in Kontakt?",
+          "Ebene 5 – Gegenseitige Unterstützung: Entstehen freiwillige Hilfen innerhalb und außerhalb der Einrichtung?",
+          "Ebene 6 – Einsamkeit und Wohlbefinden: Geht die Einsamkeitsbelastung nach geeigneter Messung und Zuordnung zurück?",
+          "Ebene 7 – Wirtschaftlichkeit: Welche tatsächlichen Kosten und zurechenbaren Wirkungen entstehen?",
+          "Ebene 8 – Langfristige Entwicklung: Bleiben Veränderungen bestehen und entstehen weitere Möglichkeiten?"
+        ]
+      },
+      {
+        "id": "pilot",
+        "title": "Mögliche erste Erprobung in Bergedorf",
+        "kind": "Politisches Vorhaben",
+        "paragraphs": [
+          "Die folgende Reihenfolge beschreibt ein mögliches späteres Vorgehen. Sie behauptet keine bereits beschlossene Trägerschaft, Finanzierung, wissenschaftliche Beauftragung oder Eröffnung. Wissenschaftliche Ausgangserhebung und Konzeption müssen so früh vorbereitet sein, dass Daten vor dem Betriebsbeginn vorliegen."
+        ],
+        "refs": [],
+        "items": [
+          "Politische Beratung",
+          "Bestandsaufnahme und wissenschaftliche Ausgangserhebung",
+          "Festlegung der Organisationsstruktur",
+          "Standortprüfung",
+          "Wirtschaftsplanung",
+          "Finanzierungssicherung",
+          "Auswahl qualifizierter Beschäftigter",
+          "Vorbereitung der unabhängigen wissenschaftlichen Begleitung",
+          "Eröffnung des ersten realen Standorts",
+          "Laufende Betriebsdokumentation",
+          "Wiederholte wissenschaftliche Untersuchungen",
+          "Veröffentlichung der Ergebnisse",
+          "Prüfung weiterer Standorte"
+        ]
+      },
+      {
+        "id": "weiterentwicklung",
+        "title": "Weiterentwicklung mit transparenten Ergebnissen",
+        "kind": "Politische Forderung",
+        "paragraphs": [
+          "Praktische Abläufe, technische Ausstattung und organisatorische Maßnahmen sollen anhand überprüfbarer Erfahrungen verbessert werden. Die verbindlichen gesellschaftlichen Grundprinzipien bleiben erhalten. Fachliche Kritik und rechtlich notwendige Änderungen werden sachlich geprüft und begründet dokumentiert. Einzelne Personen oder Organisationen dürfen den Grundzweck nicht allein nach persönlicher Vorstellung umgestalten.",
+          "Zu veröffentlichen sind Forschungsziele, Methoden, Datengrundlagen, wesentliche Ergebnisse, nicht erreichte Ziele, methodische Grenzen, Interessenkonflikte, Kostenentwicklung und Verbesserungsvorschläge. Voraussetzungen und Grenzen einer Übertragung gehören dazu. Sensible personenbezogene Forschungsdaten werden nicht veröffentlicht.",
+          "Die Untersuchung bleibt ein fortlaufender Lernprozess. Auch eine erreichte Nutzungsquote beendet die Prüfung von Qualität, Zugang und Einsamkeit nicht. Ergebnisberichte müssen nachvollziehbar darstellen, welche Schlussfolgerungen durch Daten gedeckt sind und welche weiterhin politische Forderung oder offene Forschungsfrage bleiben."
+        ],
+        "refs": [],
+        "items": []
+      }
+    ]
+  },
+  "wissenschaft": {
+    "title": "Wissenschaftliche Grundlagen und gesellschaftliche Wirkungsmechanismen",
+    "intro": "Wissenschaftliche Ergänzung zum politischen Begegnungsstättenkonzept. Forschungsstand und Konzeptfolgen werden getrennt ausgewiesen. Der Hauptzweck bleibt die Verringerung insbesondere ungewollter Einsamkeit durch alltägliche freiwillige Begegnung.",
+    "sections": [
+      {
+        "id": "begriffe",
+        "title": "Einsamkeit, Kontakte und Zugehörigkeit unterscheiden",
+        "kind": "Wissenschaftliche Begriffsgrundlage",
+        "paragraphs": [
+          "Einsamkeit bezeichnet das belastende subjektive Erleben, dass die eigenen sozialen Beziehungen hinter den gewünschten Beziehungen zurückbleiben. Ungewollte Einsamkeit unterscheidet sich damit vom selbst gewählten Alleinsein. Soziale Isolation beschreibt dagegen objektiv bestimmbare geringe soziale Einbindung. Kontaktzahl und Einsamkeit sind keine austauschbaren Kennzahlen.",
+          "Soziale Verbundenheit umfasst Struktur, Funktion und Qualität sozialer Beziehungen. Subjektive Zugehörigkeit ist die Erfahrung, willkommen und Teil eines Umfelds zu sein. Gesellschaftliche Teilhabe betrifft tatsächliche Möglichkeiten und Beteiligung am gesellschaftlichen Leben. Eine hohe Zahl kurzer Kontakte erlaubt noch keine Aussage über erlebte Qualität oder Unterstützung. WHO und OECD behandeln diese Unterschiede als wesentlich für Messung und Politik."
+        ],
+        "refs": [
+          "who",
+          "oecd"
+        ],
+        "items": [
+          "Gesellschaftliche Vertrautheit: wiederkehrendes Wahrnehmen, Wiedererkennen und Erwartung vertrauter Menschen; im Projekt als eigenes Untersuchungsmerkmal zu bestimmen.",
+          "Schwache soziale Bindungen (Weak Ties): weniger enge Beziehungen, beispielsweise zu Bekannten; nicht gleichbedeutend mit völlig unbekannten Personen.",
+          "Bekanntschaft: eine persönliche Beziehung mit gegenseitiger Kenntnis, deren Nähe und Häufigkeit variieren können.",
+          "Freundschaft: engere freiwillige persönliche Beziehung; sie ist ein mögliches, aber kein verpflichtendes Ergebnis des Besuchs.",
+          "Soziale Unterstützung: tatsächlich erhaltene oder als verfügbar wahrgenommene emotionale, praktische oder informative Hilfe; beides ist getrennt zu erfassen.",
+          "Gesellschaftliche Durchmischung: gemeinsame Nutzung durch Menschen unterschiedlicher Lebenssituationen; tatsächliche Kontakte und Akzeptanz werden zusätzlich geprüft.",
+          "Öffentliche soziale Infrastruktur: zugängliche Orte und Bedingungen, die gesellschaftlichen Aufenthalt und Begegnung ermöglichen, etwa Bibliotheken, Parks und Begegnungshäuser."
+        ]
+      },
+      {
+        "id": "geschichte",
+        "title": "Historische Treffpunkte und gesellschaftlicher Wandel",
+        "kind": "Historische Forschung und lokale Dokumentation",
+        "paragraphs": [
+          "Gastwirtschaften waren nicht nur Verkaufsorte für Essen und Getränke. Sozialhistorische Forschung beschreibt sie auch als Räume des Gesprächs, gemeinsamer Unterhaltung, politischer Verständigung und wiederkehrender Bekanntschaft. Eine Untersuchung des industriellen Manchester zeigt zugleich, dass solche Orte in eine von Klasse, Alltagsrhythmen und kulturellen Praktiken geprägte Gesellschaft eingebettet waren. Dieser Befund betrifft einen bestimmten historischen Kontext und ist kein Nachweis identischer Verhältnisse in Bergedorf.",
+          "Industrialisierung veränderte Wohnorte, Arbeitszeiten und Formen öffentlicher Geselligkeit. In Manchester boten Pubs einen Treffpunkt außerhalb enger Wohnungen und Fabriken; zugleich bestanden soziale Abgrenzungen zwischen unterschiedlichen Freizeitmilieus. Die historische Bedeutung eines Ortes darf deshalb nicht allein aus räumlicher Nähe abgeleitet werden. Wer tatsächlich Zugang hatte, dort willkommen war und mit wem sprach, muss anhand zeitgenössischer Quellen geprüft werden.",
+          "Die Bergedorfer Sammlung erschließt dokumentierte Standorte, Bilder, Anzeigen, Zeitungsartikel und persönliche Erinnerungen. Wiederkehrende Besuche, gemeinsames Erleben, Kennenlernen ohne Mitgliedschaft und gegenseitige Hilfe lassen sich dort als lokale Fragestellungen verfolgen. Die überlieferten Bildnummern, Ortszuordnungen und unterschiedlichen Belegstärken bleiben erhalten. Eine Erinnerung ist ein wichtiges Zeugnis individuellen Erlebens; sie ersetzt keine allgemeine historische Bevölkerungsstudie.",
+          "Konzeptionell stellt sich die Frage, was Menschen verlieren, wenn ihr vertrauter Treffpunkt verschwindet: einen Aufenthaltsort, bekannte Gesichter, beiläufige Gespräche oder ein Unterstützungsnetz. Das ist für konkrete Orte und Personen zu untersuchen. Dass Gaststättenschließungen allein oder überwiegend heutige Einsamkeit verursacht hätten, wird hier nicht behauptet.",
+          "Eine weitere offene Frage betrifft Menschen, deren vertraute Art des Kennenlernens in heutigen zeitlich gebundenen oder programmorientierten Angeboten wenig Platz findet. Werden sie in bestehenden Nutzerbefragungen überhaupt erreicht? Ihre mögliche Unsichtbarkeit ist ein Forschungsauftrag, keine bereits bezifferte Bevölkerungsgruppe. Vergleiche müssen sowohl frühere Funktionen als auch heutige Zugangsmöglichkeiten und Veränderungen des Alltags berücksichtigen."
+        ],
+        "refs": [
+          "history"
+        ],
+        "items": []
+      },
+      {
+        "id": "weak-ties",
+        "title": "Weak Ties: soziale Bedeutung außerhalb enger Freundschaft",
+        "kind": "Empirische Forschung",
+        "paragraphs": [
+          "Sandstrom und Dunn (2014) untersuchten alltägliche Kontakte zu Bekannten. In einer Untersuchung berichteten Studierende an Tagen mit mehr Kontakten zu Mitstudierenden als gewöhnlich mehr Glück und Zugehörigkeit. Weitere Untersuchungen bezogen alltägliche starke und schwache Bindungen ein. Die Ergebnisse verbinden solche Kontakte mit sozialem und emotionalem Wohlbefinden; sie belegen keine bevölkerungsweite Wirkung eines bestimmten Begegnungshauses.",
+          "Tanaka, Noto und Sawamiya (2025) befragten 385 Studierende. Schwache Bindungen waren in Regressionsanalysen positiv mit subjektivem Wohlbefinden, Lebenszufriedenheit und Hoffnung verbunden. Die Befragung ist ein ergänzender Zusammenhangsbefund aus einer bestimmten Population. Sie zeigt nicht, dass eine zusätzliche Bekanntschaft bei jedem Menschen dieselbe Veränderung hervorruft.",
+          "Für die Konzeption folgt daraus ein eigenes Wirkungsziel: Nicht nur neue Freundschaften zählen. Grüßen, kurze Gespräche, gegenseitiges Wiedererkennen und die Erwartung eines Wiedersehens sollen gesondert untersucht werden. Das Gefühl, anderen nicht vollständig unbekannt zu sein, wird als subjektive Erfahrung von bloßen Kontaktzählungen unterschieden.",
+          "Ein vertrautes Gesicht ohne Gespräch ist dabei noch nicht automatisch eine soziale Bindung im engeren Forschungssinn. Der spätere Forschungsauftrag soll unterscheiden, ob jemand nur wiedererkannt wird, ob gegenseitige Kenntnis besteht, ob Gespräche stattfinden und ob Unterstützung verfügbar wird. Dadurch wird ein möglicher Übergang untersuchbar, ohne alle Formen von Nähe mit Freundschaft gleichzusetzen."
+        ],
+        "refs": [
+          "sandstrom",
+          "tanaka"
+        ],
+        "items": []
+      },
+      {
+        "id": "exposure",
+        "title": "Wiederholte Wahrnehmung und Mere-Exposure-Effekt",
+        "kind": "Psychologische Forschung und Übertragungsgrenze",
+        "paragraphs": [
+          "Die Metaanalyse von Montoya und Kollegen (2017) untersucht wiederholte Darbietung im Verhältnis zu Wiedererkennung, Vertrautheit und positiver Bewertung. Diese psychologischen Größen hängen zusammen, sind aber nicht identisch. Die Untersuchung liefert einen Ansatz zur Frage, ob wiederkehrende Gesichter das Erleben eines Ortes verändern.",
+          "Die Übertragung auf ein gesellschaftliches Begegnungshaus ist eine eigene Hypothese. Wiederholtes Sehen bedeutet nicht automatisch Freundschaft, Akzeptanz oder Hilfe. Für Bergedorf ist deshalb zu untersuchen, wie wiederkehrende Wahrnehmung, tatsächliche Kontaktqualität, freiwillige Gespräche und persönliche Zugehörigkeit zusammenwirken. Ein Raumplan oder eine Besuchszählung kann diese Beziehungen nicht allein nachweisen."
+        ],
+        "refs": [
+          "exposure"
+        ],
+        "items": []
+      },
+      {
+        "id": "zugehoerigkeit",
+        "title": "Zugehörigkeit ohne Freundschaft",
+        "kind": "Konzeptfolge und Forschungsfrage",
+        "paragraphs": [
+          "Das Modell zielt ausdrücklich auch auf gesellschaftliche Einbindung ohne enge Freundschaft. Jemand soll kommen können, vertraute Gesichter antreffen und sich willkommen fühlen, ohne eine neue persönliche Bindung eingehen zu müssen. Wiederkehrende gemeinsame Erlebnisse und gegenseitige Wahrnehmung sind deshalb eigenständige Ziele.",
+          "Diese Zielrichtung ist an die Forschung zu schwachen Bindungen anschlussfähig. Ob das konkrete Haus sie erreicht, wird getrennt geprüft: Fühlen sich Besucher wahrgenommen? Werden sie wiedererkannt? Erwarten sie freiwillige Gesprächsmöglichkeiten? Möchten sie erneut kommen? Die Entstehung von Bekanntschaften und Freundschaften wird zusätzlich erfasst, aber nicht als einzige Form gesellschaftlichen Erfolgs behandelt.",
+          "Auch ein stiller Aufenthalt soll möglich bleiben. Kontaktförderndes Personal bietet Orientierung und Anschluss an, respektiert jedoch persönliche Grenzen. Zugehörigkeit lässt sich nicht durch verpflichtendes Mitmachen herstellen. Eine spätere Befragung darf deshalb nicht bereits unterstellen, dass allein anwesende oder schweigende Menschen keinen Nutzen erleben."
+        ],
+        "refs": [
+          "sandstrom"
+        ],
+        "items": []
+      },
+      {
+        "id": "durchmischung",
+        "title": "Von gemeinsamer Anwesenheit zu Verständnis und Toleranz",
+        "kind": "Forschungsstand und Wirkungsannahme",
+        "paragraphs": [
+          "Pettigrew und Tropp (2006) fassten 515 Studien mit 713 unabhängigen Stichproben zusammen. Im Durchschnitt war Intergruppenkontakt mit weniger Vorurteilen verbunden. Die Kontaktbedingungen sind bedeutsam. Daraus folgt kein automatischer Akzeptanzgewinn, wenn Menschen lediglich denselben Raum nutzen.",
+          "Das Bergedorfer Modell schafft einen gemeinsamen freiwilligen Aufenthaltsraum ohne Aufteilung nach Einkommen, Alter, Herkunft, Behinderung oder sozialer Lage. Für die Prüfung sind mehrere Vorgänge zu unterscheiden: gemeinsame Anwesenheit, freiwillige Kontaktaufnahme, wiederkehrende Bekanntschaft, gegenseitiges Verständnis, mögliche Vorurteilsverringerung und Unterstützung. Diese Vorgänge sind keine bereits nachgewiesene lineare Wirkungskette.",
+          "Praktisch sollen respektvolle Ansprache, gleiche Nutzungsrechte, Schutz vor Diskriminierung und fachliche Konfliktbearbeitung den freiwilligen Kontakt ermöglichen. Niemand muss mit einer bestimmten Person sprechen oder persönliche Lebensgeschichten offenlegen. Tatsächliche Durchmischung und Qualität der Begegnungen müssen untersucht werden; eine äußerliche Zuordnung von Besuchern zu Gruppen ist dafür ungeeignet."
+        ],
+        "refs": [
+          "contact"
+        ],
+        "items": []
+      },
+      {
+        "id": "hilfe",
+        "title": "Freiwillige gegenseitige Unterstützung innerhalb und außerhalb",
+        "kind": "Forschungsstand und eigenständige Hypothesen",
+        "paragraphs": [
+          "Moreton, Kelly und Sandstrom (2023) behandeln soziale Unterstützung durch schwächere Bindungen. Ihre Literaturübersicht zeigt die Bedeutung eines vielfältigen Unterstützungsumfelds und beschreibt auch Hemmnisse, Hilfe anzubieten. Sie ist keine Untersuchung des Bergedorfer Hauses und keine Garantie spontaner Hilfe zwischen allen Gästen.",
+          "Im Konzept kann etwa ein Besucher mit beschädigter Kleidung professionelle Hilfsvermittlung erhalten; zugleich könnte jemand freiwillig passende Kleidung anbieten. Diese Situation ist ein konzeptionelles Beispiel und kein dokumentiertes Ereignis. Persönliche Hilfe ergänzt professionelle Unterstützung. Sie begründet keine Pflicht zur Versorgung anderer Besucher.",
+          "Haradas experimentelle Arbeit zu helfendem Eingreifen untersucht die Eindeutigkeit einer Situation und Beziehungen zwischen den anwesenden Beobachtern. Die bibliografische Zuordnung lautet Jahrgang 1985, veröffentlicht im Februar 1986. Sie untersucht nicht unmittelbar, ob vorherige Bekanntschaft mit einer gestürzten Person im öffentlichen Raum die Hilfe erhöht. Dieses Beispiel darf nicht als Ergebnis der Studie ausgegeben werden.",
+          "Der Forschungsauftrag prüft deshalb gesondert: Entstehen kleine Hilfen zwischen zunächst unbekannten Gästen? Fördern wiederkehrende Kontakte Unterstützung? Reichen Beziehungen über den Besuch hinaus bis zum Wiedererkennen auf der Straße? Verändert sich Hilfeverhalten? Spontanes gemeinsames Platzschaffen für einen Besucher im Pflegebett ist ein weiterer möglicher Untersuchungsfall. Persönliche Würde und Freiwilligkeit bleiben bei jeder Untersuchung erhalten."
+        ],
+        "refs": [
+          "support",
+          "harada"
+        ],
+        "items": []
+      },
+      {
+        "id": "gesundheit",
+        "title": "Einsamkeit, soziale Verbundenheit und psychische Gesundheit",
+        "kind": "Forschungsstand",
+        "paragraphs": [
+          "Forschung verbindet soziale Beziehungen mit psychischer und körperlicher Gesundheit. Der Überblick von Holt-Lunstad (2024) ordnet soziale Verbundenheit als wichtigen Gesundheitsfaktor ein und unterscheidet mehrere Beziehungsdimensionen. Damit ist die Bedeutung des Themas begründet; der Nachweis einer bestimmten baulichen oder organisatorischen Intervention bleibt eine andere Frage.",
+          "Die longitudinale Untersuchung „Prospective Associations Between Social Connectedness and Mental Health“ (2022) verband Befragung und Krankenversicherungsdaten von Beschäftigten. Die zweite Erhebungswelle umfasste 1.209 Personen. Der Zusammenhang stärkerer Verbundenheit mit späterer psychischer Gesundheit ist ein prospektiver Beobachtungsbefund. Er ist kein Heilungsnachweis für einen Besuch in einer Begegnungsstätte.",
+          "Menschen mit psychischen Erkrankungen sollen gleichberechtigt am gewöhnlichen gesellschaftlichen Leben teilnehmen können. Das Haus ist keine medizinische oder psychotherapeutische Behandlung und verspricht keine Heilung durch Gemeinschaft. Die spätere Evaluation kann Einsamkeit, wahrgenommene Unterstützung, Zugehörigkeit und Wohlbefinden untersuchen; gesundheitsbezogene Daten erfordern ein gesondertes rechtliches und ethisches Verfahren. Im normalen Aufenthalt gibt es keine Einteilung nach Diagnosen."
+        ],
+        "refs": [
+          "health",
+          "prospective"
+        ],
+        "items": []
+      },
+      {
+        "id": "interventionen",
+        "title": "Was Forschung zur Verringerung von Einsamkeit zeigt",
+        "kind": "Systematische Forschungsübersichten",
+        "paragraphs": [
+          "Lasgaard und Kollegen (2026; online vorab 2025) bezogen 280 Studien in eine Metaanalyse ein. Für kurzfristige Wirkungen enthielt die Auswertung 122 randomisierte Studien. Deren standardisierte Mittelwertsdifferenz betrug −0,50 mit 95-Prozent-Konfidenzintervall von −0,60 bis −0,39. Die Autoren bewerteten die Sicherheit der Schätzungen als niedrig oder sehr niedrig. Es wurden unterschiedliche Interventionen untersucht, nicht das Bergedorfer Gesamtmodell.",
+          "Blodgett und Kollegen (2025) untersuchten 95 Studien zu 101 Interventionen. Die Übersicht behandelt unter anderem psychologische, kontaktbezogene und unterstützende Ansätze. Unterschiedliche Designs und Populationen begrenzen pauschale Übertragungen. Die Existenz wirksamer Maßnahmen ist ein Forschungsbefund; daraus folgt noch keine identische Wirkung eines offenen Hauses ohne verpflichtende Aktivitäten.",
+          "Standardisierte Effektmaße beschreiben Veränderungen relativ zu statistischer Streuung. Sie dürfen nicht als prozentualer Rückgang der Einsamkeit gelesen werden. Das politische Ziel einer relativen Verringerung um mindestens zehn Prozent benötigt einen vorab bestimmten eigenen Messmaßstab und eine geeignete Vergleichsmethodik."
+        ],
+        "refs": [
+          "lasgaard",
+          "blodgett"
+        ],
+        "items": []
+      },
+      {
+        "id": "japan",
+        "title": "Japanische Community Salons: gezielte Altersgruppe und lokale Teilnahme",
+        "kind": "Internationaler Forschungs- und Praxisvergleich",
+        "paragraphs": [
+          "Community Salons in Japan schaffen wohnortnahe soziale Teilnahme vor allem für ältere Menschen. Im untersuchten Taketoyo-Programm gehören gemeinsame Aktivitäten zur Nutzung. Zugangsbedingungen und Teilnahmeintensität sind daher für das jeweilige Programm zu bestimmen; sie sind nicht mit einem täglich lange geöffneten, altersübergreifenden freien Aufenthalt gleichzusetzen.",
+          "Hikichi und Kollegen (2015) untersuchten 2.421 ältere Menschen mit Ausgangserhebung vor Programmeinführung und späteren Daten zu funktionellen Einschränkungen. Propensity-Score- und Instrumentvariablenanalysen sollten Auswahlunterschiede bearbeiten. Die Ergebnisse betreffen funktionelle Einschränkungen, nicht unmittelbar das Bergedorfer Einsamkeitsziel. Die Methodik besitzt eigene Annahmen und ersetzt keine randomisierte Prüfung des hiesigen Gesamtmodells.",
+          "Hirai und Kollegen (2025) untersuchen dagegen nachfolgende Pflegekosten über drei Jahre in JAGES. Diese Arbeit ist von der Fünfjahresuntersuchung zu funktionellen Einschränkungen zu unterscheiden. Die in den Ausgangsmaterialien benachbarten Befunde werden deshalb getrennt zugeordnet. Übertragbar sind Forschungsfragen zur lokalen Erreichbarkeit, wiederkehrender Teilnahme und Kostenbeobachtung; konkrete Einsparungen für Bergedorf ergeben sich daraus nicht."
+        ],
+        "refs": [
+          "japan",
+          "hirai"
+        ],
+        "items": []
+      },
+      {
+        "id": "mehrgenerationen",
+        "title": "Deutsche Mehrgenerationenhäuser: geförderte Begegnung und Angebote",
+        "kind": "Internationaler Forschungs- und Praxisvergleich",
+        "paragraphs": [
+          "Das Bundesprogramm Mehrgenerationenhaus verbindet lokalen offenen Treff, freiwilliges Engagement und organisierte Angebote. Es richtet sich an unterschiedliche Generationen. Tatsächliche Öffnung, Kosten und Zugänge einzelner Angebote sind einrichtungsbezogen zu prüfen; die Programmbezeichnung allein bestätigt keine uneingeschränkte spontane Nutzung zu jeder gewünschten Zeit.",
+          "Die Programmevaluation für 2021 bis 2024 dokumentiert Arbeit, Teilhabe und Einschätzungen der Beteiligten. Solche Befragungen geben wichtige Auskunft über erlebte Beiträge. Sie sind von einem kausalen Bevölkerungsnachweis getrennt zu behandeln. Für Bergedorf sind Koordination, Förderung und der offene Treff anschlussfähig; das eigenständige Modell verlangt zusätzlich die beschriebenen verbindlichen Betriebsmerkmale. Eine bloße Umbenennung eines bestehenden Hauses erfüllt diese Anforderungen nicht."
+        ],
+        "refs": [
+          "mgh"
+        ],
+        "items": []
+      },
+      {
+        "id": "sheds",
+        "title": "Men’s Sheds: Kontakt durch gemeinsames Tun",
+        "kind": "Internationaler Forschungs- und Praxisvergleich",
+        "paragraphs": [
+          "Men’s Sheds sind gemeinschaftliche Werkstatt- und Begegnungsorte, die besonders ältere Männer ansprechen. Gemeinsame Tätigkeiten ermöglichen informelle Gespräche und Zugehörigkeit. Mitgliedschaft, Zeiten und konkrete Zugänge variieren vor Ort. Das geschlechtsspezifische und tätigkeitsbezogene Angebot unterscheidet sich von der allgemeinen Offenheit und dem fehlenden Mitmachzwang des Bergedorfer Modells.",
+          "Der Mixed-Methods-Review von Foettinger und Kollegen (2022) berichtet positive Hinweise zu selbst eingeschätzter Gesundheit, sozialer Isolation und Wohlbefinden. Er betont den Bedarf an längsschnittlicher Forschung zu kausalen Zusammenhängen. Die Befunde stützen die Untersuchung informeller Kontakte, belegen aber keine identische Wirkung bei allen gesellschaftlichen Gruppen oder ohne gemeinsame Tätigkeit."
+        ],
+        "refs": [
+          "sheds"
+        ],
+        "items": []
+      },
+      {
+        "id": "bibliotheken",
+        "title": "Bibliotheken als soziale Infrastruktur",
+        "kind": "Internationaler Forschungs- und Praxisvergleich",
+        "paragraphs": [
+          "Bibliotheken verbinden einen alltäglichen Nutzungsanlass mit öffentlichem Aufenthalt, Information und unterschiedlichen Angeboten. Zu prüfen sind Hausöffnungszeiten, frei zugängliche Flächen und Voraussetzungen einzelner Dienstleistungen. Freier Aufenthalt und eine gegebenenfalls erforderliche Ausleihregistrierung sind unterschiedliche Zugangsfragen.",
+          "Die Querschnittsstudie „Public libraries to promote public health and wellbeing“ (2024) umfasste 605 Befragte und zwölf Interviews. Sie beschreibt Bibliotheken als sichere Orte und benennt mangelnde Bekanntheit von Angeboten als Hürde. Es handelt sich nicht um einen kausalen Nachweis bevölkerungsweiter Einsamkeitsreduktion. Für Bergedorf sind der niedrigschwellige Aufenthaltsanlass und Informationszugang wichtig; Bibliotheksfunktionen und das vollständige Begegnungsmodell sind nicht identisch."
+        ],
+        "refs": [
+          "libraries"
+        ],
+        "items": []
+      },
+      {
+        "id": "cafes",
+        "title": "Cafés und Diners: Gespräche im gewöhnlichen Alltag",
+        "kind": "Internationaler Forschungs- und Praxisvergleich",
+        "paragraphs": [
+          "Die Untersuchung „Loneliness and social infrastructure in rural America“ (2025) analysiert 1.129 Erwachsene im erwerbsfähigen Alter. Mehr als zehn Minuten Gespräch pro durchschnittlicher Woche in Cafés, Diners oder ähnlichen Einrichtungen waren mit geringeren Chancen eines positiven Einsamkeitsscreenings verbunden. Die Querschnittsanalyse berücksichtigt weitere Merkmale, weist aber keine Ursache nach.",
+          "Der untersuchte Zusammenhang betrifft tatsächliche Nutzung und Gespräch, nicht allein das Vorhandensein eines Gebäudes. Ländliche US-Kontexte sind zudem keine städtische Bergedorfer Bevölkerung. Cafés besitzen alltägliche Besuchsanlässe, können aber Preise und Konsumerwartungen haben. Das politische Modell soll diese finanziellen Hürden senken und Aufenthalt ausdrücklich ohne Einkauf ermöglichen. Ob dadurch vergleichbare Beziehungen entstehen, ist eine Forschungsfrage."
+        ],
+        "refs": [
+          "cafes"
+        ],
+        "items": []
+      },
+      {
+        "id": "einordnung",
+        "title": "Gesamteinordnung: Forschungsgrundlage und noch ungeprüftes Gesamtmodell",
+        "kind": "Wissenschaftliche Einordnung",
+        "paragraphs": [
+          "Die gesundheitliche Bedeutung sozialer Beziehungen ist breit untersucht. Für bestimmte Interventionen gegen Einsamkeit, schwache Bindungen und Intergruppenkontakt liegen empirische Ergebnisse vor. Forschung zu sozialer Infrastruktur erschließt Orte und Zugänge; die Wirkung einzelner Raum- und Betriebsmodelle ist gesondert zu beurteilen.",
+          "Die vollständige Kombination aus offenem Begegnungsort, vier eigenständigen Funktionsteams, besonderer Hausordnung, täglicher langer Öffnung, öffentlicher Finanzierung und demokratischem Kontrollgremium ist damit nicht bereits wissenschaftlich validiert. Ebenso sind die Erreichbarkeit der 90-Prozent-Quote und die konkrete Einsamkeitswirkung offen. Eine weltweite Einmaligkeit wird ohne systematische internationale Recherche nicht behauptet.",
+          "Die politische Forderung kann sich auf erforschte Einzelzusammenhänge beziehen und zugleich einen eigenen unabhängigen Forschungsauftrag verlangen. Jede Veröffentlichung muss zwischen wissenschaftlicher Erkenntnis, beobachtetem Zusammenhang, ungeprüfter Wirkungsannahme, politischer Forderung und Forschungsfrage unterscheiden. Die Kennzeichnungen in diesen Ergänzungen und die Quellenangaben machen diese Trennung sichtbar."
+        ],
+        "refs": [],
+        "items": []
+      },
+      {
+        "id": "fachfunktionen",
+        "title": "Fachfunktionen: vorhandene Forschung und eigene Prüfung",
+        "kind": "Forschungsstand und Forschungsfrage",
+        "refs": [
+          "police"
+        ],
+        "items": [],
+        "paragraphs": [
+          "Dobson, Dittmann und Yeager (2025) untersuchen, wie transparente Kommunikation der polizeilichen Kontaktabsicht wahrgenommenes Vertrauen beeinflusst. Das Forschungsprogramm verbindet Beobachtungen mit experimentellen Untersuchungen. Die Ergebnisse zeigen die Bedeutung der konkreten Ansprache; sie validieren keine Polizeifunktion im Begegnungshaus.",
+          "Für Bergedorf sind Vertrauen, Verständnis der Zuständigkeit und wahrgenommene Freiwilligkeit fachlicher Ansprache zu untersuchen. Auch Suchtansprechfunktion, Armutshilfe und Toleranzfunktion benötigen eigene Qualifikationsprofile, Handlungsgrenzen und Qualitätskontrolle. Das Vorhandensein fachlicher Methoden belegt nicht bereits den Nutzen ihrer vollständigen Kombination. Die vier Teams bleiben eigenständig."
+        ]
+      }
+    ]
+  }
+}
