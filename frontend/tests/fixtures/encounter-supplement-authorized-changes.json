@@ -1,0 +1,10 @@
+[
+  {
+    "before": "import {EncounterPolicyArticle,encounterPolicyHref} from './encounter-policy';",
+    "after": "import {EncounterPolicyArticle,encounterPolicyHref} from './encounter-policy';\nimport {EncounterExpansionNavigation,EncounterSupplementArticle} from './encounter-supplements';"
+  },
+  {
+    "before": "{page==='bezirk'?<BoroughPage/>",
+    "after": "{page==='politik'&&route.tab==='begegnungsorte'&&!route.id&&<EncounterExpansionNavigation/>}{page==='politik'&&route.tab==='begegnungsorte'&&route.id?<EncounterSupplementArticle/>:page==='bezirk'?<BoroughPage/>"
+  }
+]

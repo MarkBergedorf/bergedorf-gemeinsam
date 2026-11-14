@@ -1,0 +1,250 @@
+[
+  {
+    "id": "who",
+    "title": "WHO (2025): From loneliness to social connection: charting a path to healthier societies. Report of the WHO Commission on Social Connection.",
+    "url": "https://www.who.int/publications/i/item/978240112360",
+    "method": "Internationaler Kommissionsbericht, veröffentlicht am 30. Juni 2025.",
+    "limits": "Gesundheitliche Bedeutung und Handlungsrahmen; keine Evaluation des Bergedorfer Hauses.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "oecd",
+    "title": "OECD (2025): Social Connections and Loneliness in OECD Countries.",
+    "url": "https://www.oecd.org/en/publications/social-connections-and-loneliness-in-oecd-countries_6df2d6a0-en.html",
+    "method": "Internationaler vergleichender Bericht, 16. Oktober 2025. DOI: 10.1787/6df2d6a0-en.",
+    "limits": "Unterschiedliche Datenquellen und Dimensionen; Infrastrukturansatz ist kein Nachweis des hiesigen Gesamtmodells.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "sandstrom",
+    "title": "Sandstrom, G. M. & Dunn, E. W. (2014): Social Interactions and Well-Being: The Surprising Power of Weak Ties. Personality and Social Psychology Bulletin, 40(7), 910–922.",
+    "url": "https://repository.essex.ac.uk/15300/",
+    "method": "Studien zu alltäglichen Interaktionen und Wohlbefinden. DOI: 10.1177/0146167214529799; Metadaten und Abstract im Autorenrepositorium geprüft.",
+    "limits": "Kein Versuch zum Bergedorfer Raum- und Betriebsmodell; Volltext im Repositorium nicht verfügbar.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "tanaka",
+    "title": "Tanaka, K., Noto, M. & Sawamiya, Y. (2025): Effect of Weak Ties on Well-being. Japanese Journal of Applied Psychology, 50(3), 187–195.",
+    "url": "https://www.jstage.jst.go.jp/article/oushinken/50/3/50_187/_article/-char/en",
+    "method": "Fragebogenerhebung mit 385 Studierenden und multipler Regression. DOI: 10.24651/oushinken.50.3_187.",
+    "limits": "Zusammenhangsbefund; keine kausale Untersuchung des Hauses und keine repräsentative erwachsene Stadtbevölkerung.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "exposure",
+    "title": "Montoya, R. M. und Kollegen (2017): A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking. Psychological Bulletin.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28263645/",
+    "method": "Metaanalyse zu wiederholter Wahrnehmung. DOI: 10.1037/bul0000085.",
+    "limits": "Wiedererkennung und Bewertung von Reizen sind kein direkter Freundschafts- oder Akzeptanznachweis im Begegnungshaus.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "contact",
+    "title": "Pettigrew, T. F. & Tropp, L. R. (2006): A meta-analytic test of intergroup contact theory. Journal of Personality and Social Psychology, 90(5), 751–783.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16737372/",
+    "method": "Metaanalyse, 515 Studien, 713 unabhängige Stichproben. DOI: 10.1037/0022-3514.90.5.751.",
+    "limits": "Kontaktbedingungen und Studiendesigns sind zu unterscheiden; bloße Anwesenheit ist kein garantierter Vorurteilsabbau.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "support",
+    "title": "Moreton, J., Kelly, C. S. & Sandstrom, G. M. (2023): Social support from weak ties: Insight from the literature on minimal social interactions. Social and Personality Psychology Compass, 17(3), e12729.",
+    "url": "https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/spc3.12729",
+    "method": "Literaturübersicht, erstmals 6. Januar 2023. DOI: 10.1111/spc3.12729.",
+    "limits": "Kein empirischer Wirkungsnachweis für spontane Hilfe im konkreten Bergedorfer Modell.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "harada",
+    "title": "Harada, J. (Jahrgang 1985; veröffentlicht 1986): Bystander intervention: The effect of ambiguity of the helping situation and the interpersonal relationship between bystanders. Japanese Psychological Research, 27(4), 177–184.",
+    "url": "https://doi.org/10.4992/psycholres1954.27.177",
+    "method": "Experimentelle Untersuchung; Verlagsangabe: Veröffentlichung 20. Februar 1986.",
+    "limits": "Beziehungen zwischen Beobachtern nicht mit Bekanntschaft zur hilfsbedürftigen Person gleichsetzen.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "health",
+    "title": "Holt-Lunstad, J. (2024): Social connection as a critical factor for mental and physical health: evidence, trends, challenges, and future implications. World Psychiatry, 23, 312–332.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/wps.21224",
+    "method": "Forschungsübersicht. DOI: 10.1002/wps.21224.",
+    "limits": "Bedeutung sozialer Beziehungen ist kein Heilungsversprechen durch einen Begegnungsort.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "prospective",
+    "title": "Prospective Associations Between Social Connectedness and Mental Health. Evidence From a Longitudinal Survey and Health Insurance Claims Data (2022). International Journal of Public Health.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9218058/",
+    "method": "Längsschnittbefragung mit Versicherungsdaten; zweite Welle 1.209 Beschäftigte.",
+    "limits": "Beobachtungsstudie und erheblicher Rückgang der Teilnahme zwischen den Wellen; keine Prüfung einer Begegnungsstätte.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "lasgaard",
+    "title": "Lasgaard, M. und Kollegen (2026): Are loneliness interventions effective for reducing loneliness? A meta-analytic review of 280 studies. American Psychologist, 81(1), 36–52.",
+    "url": "https://pure.au.dk/portal/en/publications/are-loneliness-interventions-effective-for-reducing-loneliness-a-/",
+    "method": "Präregistrierter systematischer Review und Metaanalyse. DOI: 10.1037/amp0001578; online vorab 23. Oktober 2025.",
+    "limits": "Evidenzsicherheit niedrig oder sehr niedrig; standardisierte Mittelwertsdifferenzen sind keine prozentualen Rückgänge.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "blodgett",
+    "title": "Blodgett, J. M., Tiley, K., Harkness, F. & Musella, M. (2025): What works to reduce loneliness: a rapid systematic review of 101 interventions. Journal of Public Health Policy, 46(2), 245–268.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119363/",
+    "method": "95 Studien zu 101 Interventionen; DOI: 10.1057/s41271-025-00561-1.",
+    "limits": "Verschiedene Interventionen und Designs; keine direkte Validierung eines programmfreien offenen Hauses.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "japan",
+    "title": "Hikichi, H., Kondo, N., Kondo, K., Aida, J., Takeda, T. & Kawachi, I. (2015): Effect of a community intervention programme promoting social interactions on functional disability prevention for older adults: propensity score matching and instrumental variable analyses, JAGES Taketoyo study. Journal of Epidemiology & Community Health, 69, 905–910.",
+    "url": "https://jech.bmj.com/content/early/2015/04/17/jech-2014-205345",
+    "method": "2.421 ältere Menschen; Ausgangserhebung 2006, spätere funktionelle Einschränkungen. DOI: 10.1136/jech-2014-205345.",
+    "limits": "Nicht randomisiert; Zielgröße funktionelle Einschränkung, keine direkte Messung des Bergedorfer Einsamkeitsziels.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "hirai",
+    "title": "Hirai, H., Saito, M., Takeda, T. & Kondo, K. (2025): Examination of the relationship between participation in salons aimed at care prevention through the promotion of social participation and the subsequent cost of care: A 3-year prospective follow-up study in JAGES. Archives of Gerontology and Geriatrics.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39541754/",
+    "method": "Dreijährige prospektive Untersuchung. DOI: 10.1016/j.archger.2024.105688.",
+    "limits": "Nicht die fünfjährige Untersuchung von Hikichi; keine übertragbare Einsparsumme für Bergedorf.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "mgh",
+    "title": "Valtin, A., Eckl, V., Ekert-Kaiser, S., Klische, L., Groß, R. & Theel, T. (2024): Zwischenbericht zur Evaluation im Bundesprogramm Mehrgenerationenhaus. Miteinander – Füreinander (2021–2028). Evaluationszeitraum 2021–2024. Berlin.",
+    "url": "https://www.mehrgenerationenhaeuser.de/fachinformationen/evaluation",
+    "method": "Offizielle Evaluationsseite mit Bericht und weiteren Zwischenberichten.",
+    "limits": "Programmevaluation und Beteiligteneinschätzungen; kein kausaler Bevölkerungsnachweis des neuen Bergedorfer Gesamtmodells.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "sheds",
+    "title": "Foettinger, L. und Kollegen (2022): The Role of Community-Based Men’s Sheds in Health Promotion for Older Men: A Mixed-Methods Systematic Review. American Journal of Men’s Health.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8928410/",
+    "method": "Mixed-Methods-Review. DOI: 10.1177/15579883221084490.",
+    "limits": "Zielgruppenspezifisch; Bedarf an längsschnittlicher Kausalforschung und Prüfung der Übertragbarkeit.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "libraries",
+    "title": "Public libraries to promote public health and wellbeing: a cross-sectional study of community-dwelling adults (2024). BMC Public Health.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11069228/",
+    "method": "605 Befragte, zwölf Interviews. DOI: 10.1186/s12889-024-18535-5.",
+    "limits": "Querschnitt; Nutzungserleben und Barrieren, kein bevölkerungsweiter kausaler Einsamkeitsnachweis.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "cafes",
+    "title": "Loneliness and social infrastructure in rural America: A cross-sectional analysis of existing relationships (2025). Wellbeing, Space and Society, 8, 100262.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12687765/",
+    "method": "Querschnittsbefragung, 1.129 Erwachsene im erwerbsfähigen Alter. DOI: 10.1016/j.wss.2025.100262.",
+    "limits": "Statistischer Zusammenhang und ländlicher US-Kontext; weder kausal noch unmittelbar auf Bergedorf übertragbar.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "history",
+    "title": "Proximity and Segregation in Industrial Manchester. The Historical Journal.",
+    "url": "https://www.cambridge.org/core/journals/historical-journal/article/proximity-and-segregation-in-industrial-manchester/1D109B09C3402C4A3A9598C1E1FC4714",
+    "method": "Sozialhistorische Originaluntersuchung zu räumlicher Nähe, Klasse und Alltag im industriellen Manchester.",
+    "limits": "Kontextspezifische historische Untersuchung; keine Bergedorfer Einsamkeitsstudie. Keine ungeprüften bibliografischen Einzelangaben ergänzt.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "un",
+    "title": "Vereinte Nationen: Convention on the Rights of Persons with Disabilities, insbesondere Artikel 9 und 19.",
+    "url": "https://www.un.org/esa/socdev/enable/rights/convtexte.htm",
+    "method": "Originaltext des Übereinkommens: Zugänglichkeit und Einbeziehung in die Gemeinschaft.",
+    "limits": "Menschenrechtlicher Rahmen; konkrete Bau- und Organisationsplanung erfordert zusätzliche Prüfung des anwendbaren Rechts.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "universal",
+    "title": "Borge, T. C., Lidal, I. B., Refsdal, T. L. & Bergsund, H. B. (2026): Research on the importance of universal design for the everyday lives and social participation of different population groups in the Nordic countries: A scoping review. Norwegian Institute of Public Health.",
+    "url": "https://www.fhi.no/en/publ/2026/Research-on-the-importance-of-universal-design-for-the-everyday-lives-and-social-participation-of-different-population-groups-in-the-Nordic-countries/",
+    "method": "Veröffentlicht 10. November 2026; Scoping Review mit 120 Studien; ISBN 978-82-8406-594-6.",
+    "limits": "Überwiegend qualitative Studien; keine Bewertung der methodischen Qualität oder Evidenzsicherheit.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "ao",
+    "title": "Bundesrecht: § 55 Abgabenordnung – Selbstlosigkeit.",
+    "url": "https://www.gesetze-im-internet.de/ao_1977/__55.html",
+    "method": "Originalnorm; insbesondere Abs. 1 Nr. 1 und 3.",
+    "limits": "Kein allgemeines pauschales Gehaltsverbot für Angehörige; die zusätzliche politische Vorgabe ist gesondert zu gestalten.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "bgb",
+    "title": "Bundesrecht: § 26 BGB – Vorstand und Vertretung.",
+    "url": "https://www.gesetze-im-internet.de/bgb/__26.html",
+    "method": "Originalnorm als Prüfrahmen einer möglichen Vereinsstruktur.",
+    "limits": "Rechtsform noch offen; keine fertig geprüfte Satzung oder Verlagerung gesetzlicher Verantwortung.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "dsgvo",
+    "title": "Europäische Union: Verordnung (EU) 2016/679 – Datenschutz-Grundverordnung.",
+    "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+    "method": "Originalverordnung, insbesondere Art. 5, 6, 9, 13, 25, 32 und 89.",
+    "limits": "Eine konkrete spätere Forschung benötigt ihren eigenen Rechts- und Ethikrahmen; diese Website erfasst keine Forschungsdaten.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "economics",
+    "title": "Lynch, M., Keating, A. J., Morrow, E. & Spencer, L. H. (2026): The health economics of social prescribing: systematic review of the international evidence. Frontiers in Public Health.",
+    "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1753435/full",
+    "method": "Systematischer Review, 18 Studien. DOI: 10.3389/fpubh.2026.1753435.",
+    "limits": "Unterschiedliche Bewertungsverfahren; Social Prescribing ist nicht das Bergedorfer Betriebsmodell und begründet keine Einsparzusage.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "ons",
+    "title": "Office for National Statistics: Recommended national indicators of loneliness; ergänzende Messanleitung.",
+    "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/compendium/nationalmeasurementofloneliness/2018/recommendednationalindicatorsofloneliness",
+    "method": "Methodische Originalempfehlung zu indirekten und direkter Einsamkeitsfrage.",
+    "limits": "Für Bergedorf sind validierte deutsche Fassung, Population, Schwellen und Auswertungsverfahren vorab festzulegen.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "barometer",
+    "title": "Dierkes, M., Gibson-Kunze, M., Mitschke, C., Möller, L., Schobin, J. & Stahlmann, A. (2026): Einsamkeitsfokusanalyse zu Inklusion: Einsamkeit bei Menschen mit Behinderungen. BMBFSFJ (Hrsg.).",
+    "url": "https://www.publikationen-bundesregierung.de/pp-de/publikationssuche/einsamkeit-inklusion-2437166",
+    "method": "Einsamkeitsbarometer 2026, offizielle Veröffentlichung; Stand 29. Mai 2026.",
+    "limits": "Nationale Fokusanalyse; keine lokale Baseline und kein Wirkungsnachweis des geplanten Hauses.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "bgb27",
+    "title": "Bundesrecht: § 27 BGB – Bestellung und Geschäftsführung des Vorstands.",
+    "url": "https://www.gesetze-im-internet.de/bgb/__27.html",
+    "method": "Originalnorm; Abs. 3 zur grundsätzlich unentgeltlichen Vorstandstätigkeit.",
+    "limits": "Rechtsform, Satzung und zulässige Regelungen sind gesondert zu prüfen; kein pauschales Verbot jeder Arbeitsvergütung an Angehörige.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "agg",
+    "title": "Bundesrecht: § 19 AGG – Zivilrechtliches Benachteiligungsverbot.",
+    "url": "https://www.gesetze-im-internet.de/agg/__19.html",
+    "method": "Originalnorm zu öffentlich zugänglichen zivilrechtlichen Leistungen im geregelten Anwendungsbereich.",
+    "limits": "Die Anwendung und konkrete Schutzmaßnahmen sind für den tatsächlichen Träger und Betrieb rechtlich auszuarbeiten.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "hbau",
+    "title": "Freie und Hansestadt Hamburg: Vorschriften zum Bauordnungsrecht, Regelwerke ab 1. Januar 2026.",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/themen/wohnen/bauen/wege-zur-baugenehmigung/start-bauordnungsrecht-1120124",
+    "method": "Aktuelle behördliche Einstiegsseite zu HBauO und einschlägigen Verordnungen, getrennt von den Regeln für Bauanträge bis Ende 2025.",
+    "limits": "Konkreter Standort, Genehmigung, technische Anforderungen und mögliche Sonderbauvorschriften sind vorab fachlich zu prüfen; die politische vollständige Stufenfreiheit bleibt zusätzlich verbindlich.",
+    "checked": "2026-11-14"
+  },
+  {
+    "id": "police",
+    "title": "Dobson, K. S. H., Dittmann, A. G. & Yeager, D. S. (2025): A transparency statement improves trust in community-police interactions. Nature Communications.",
+    "url": "https://doi.org/10.1038/s41467-024-55709-6",
+    "method": "Beobachtungen, präregistriertes Feldexperiment und Online-Experimente zur transparenten Kommunikation polizeilicher Kontaktabsicht.",
+    "limits": "US-Kontext; keine Evaluation einer ständig besetzten Polizeifunktion im Bergedorfer Begegnungshaus.",
+    "checked": "2026-11-14"
+  }
+]
