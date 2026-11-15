@@ -2767,7 +2767,12 @@
     "provider": null,
     "paymentEnabled": false,
     "asOf": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "expenseEvidence": {
+      "status": "not-published",
+      "entries": [],
+      "publishedAt": null
+    }
   },
   "permissions": {
     "role": "reader",
