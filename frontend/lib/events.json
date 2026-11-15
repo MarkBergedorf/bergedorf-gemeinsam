@@ -1,0 +1,35 @@
+{
+ "series":[{
+  "id":"nachtwaechter-kultur-kulinarik",
+  "title":"Mit dem Nachtwächter durch Bergedorf – Kultur und Kulinarik",
+  "organizer":"Bergedorfer Museumslandschaft",
+  "type":"Kultur und Geschichte",
+  "description":["Die Bergedorfer Museumslandschaft verbindet bei diesem Angebot ein gemeinsames Essen mit einem historischen Nachtwächterrundgang. Zunächst steht ein Abendessen am Schlosspark auf dem Programm. Anschließend holt der Nachtwächter die Gruppe mit Horn und Laterne ab und begleitet sie durch die historische Bergedorfer Altstadt.","Unterwegs geht es um frühere Zünfte, Amtsleute, alte Flussläufe und historische Gebäude. Der Abend bietet Gelegenheit, Bergedorfs Geschichte auf einem geführten Rundgang kennenzulernen und gemeinsam Zeit zu verbringen."],
+  "reviewNotice":"Für diesen Rundgang liegen auf Bergedorf gemeinsam bisher keine veröffentlichten Besucherbewertungen vor."
+ }],
+ "occurrences":[{
+  "id":"nachtwaechter-2026-11-25",
+  "seriesId":"nachtwaechter-kultur-kulinarik",
+  "date":"2026-11-25",
+  "startsAt":"2026-11-25T19:00:00+01:00",
+  "endsAt":"2026-11-25T22:00:00+01:00",
+  "district":"Bergedorf",
+  "location":"Schlosspark und historische Altstadt Bergedorfs",
+  "meetingPoint":null,
+  "route":null,
+  "priceEUR":45,
+  "additionalCosts":"Getränke zusätzlich; deren Preise sind nicht angegeben.",
+  "registration":"Telefonische Anmeldung beim Veranstalter: 040 42891-2509",
+  "phone":"+4940428912509",
+  "registrationDeadline":null,
+  "accessibility":null,
+  "ageRequirements":null,
+  "availability":null,
+  "announcementStatus":"announced",
+  "checkedOn":"2026-11-15",
+  "sourceUrl":"https://www.bergedorfer-museumslandschaft.de/programm/2026-11-25/841/mit-dem-nachtwaechter-durch-bergedorf-kultur-und-kulinarik",
+  "contactUrl":"https://www.bergedorfer-museumslandschaft.de/service",
+  "sourceNote":"Offizielles Programm und offizieller Besucherservice geprüft. Die Veranstaltungsquelle nennt 45 Euro zuzüglich Getränke sowie 428 91 2509; der Besucherservice bestätigt die Hamburger Vorwahl 040."
+ }],
+ "publishedReviews":[]
+}
