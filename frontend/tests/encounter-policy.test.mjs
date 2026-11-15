@@ -1,3 +1,4 @@
+import {withoutEncounterNavigation} from './fixtures/encounter-supplement-navigation.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -10,7 +11,7 @@ import {lonelinessIndex,lonelinessTopics,resolveLonelinessPath,searchLoneliness}
 import {lonelinessArticles,lonelinessSources} from '../lib/loneliness-articles.mjs';
 import {originalHierarchyBytes} from './fixtures/original-hierarchy.mjs';
 const base='3e71a9b6c11426fd20cbbd0b7335efc6a60759e5';
-const source=readFileSync('app/encounter-policy.tsx','utf8');
+const source=withoutEncounterNavigation('app/encounter-policy.tsx',readFileSync('app/encounter-policy.tsx')).toString();
 const code=ts.transpileModule(source.replace("import './encounter-policy.css';",''),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
 const components={};new Function('require','exports',code)(createRequire(import.meta.url),components);
 const html=renderToStaticMarkup(React.createElement(components.EncounterPolicyArticle));

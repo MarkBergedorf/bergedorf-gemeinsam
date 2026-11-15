@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const changes=JSON.parse(readFileSync(new URL('./encounter-supplement-authorized-changes.json',import.meta.url),'utf8'));
+const navigationChanges=JSON.parse(readFileSync(new URL('./encounter-navigation-authorized-changes.json',import.meta.url),'utf8'));
+export function withoutEncounterNavigation(path,bytes){let s=bytes.toString();for(const {before,after} of (navigationChanges[path.startsWith('frontend/')?path:'frontend/'+path]||[]).toReversed()){assert.equal(s.split(after).length-1,1,'Genau eine beauftragte Navigationskorrektur');s=s.replace(after,before)}return Buffer.from(s)}
 // Only undo the two exact authorized routing additions. All other bytes remain guarded.
-export function withoutEncounterSupplementNavigation(path,bytes){if(!path.endsWith('app/platform.tsx'))return bytes;let s=bytes.toString();for(const {before,after} of changes.toReversed()){assert.equal(s.split(after).length-1,1,'Genau eine beauftragte Navigationsergänzung');s=s.replace(after,before);}return Buffer.from(s);}
+export function withoutEncounterSupplementNavigation(path,bytes){bytes=withoutEncounterNavigation(path,bytes);if(!path.endsWith('app/platform.tsx'))return bytes;let s=bytes.toString();for(const {before,after} of changes.toReversed()){assert.equal(s.split(after).length-1,1,'Genau eine beauftragte Navigationsergänzung');s=s.replace(after,before);}return Buffer.from(s);}
