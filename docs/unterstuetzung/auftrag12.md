@@ -92,7 +92,31 @@ Quellenidentitäten, offene Einzelnachweise und wissenschaftliche Einschränkung
 
 ## Veröffentlichungsnachweis und Livekontrolle
 
-Dieser Abschnitt wird nach dem tatsächlichen Pages-Deployment mit Commit, Lauf, Prüfergebnissen und Prüfbildern ergänzt. Bis dahin enthält dieser Bericht keine Behauptung einer bereits erfolgten Veröffentlichung von Auftrag 12.
+**Veröffentlicht und live geprüft.**
+
+- Erstveröffentlichung: `2bbf7e2b3393ae5c375ef97745ecc5da4035436a`, exakt geprüfter Produktionsbaum `e1ec71424daaefe932792e614d8e01a5bda033bd`.
+- Erster GitHub-Pages-Lauf: [43769342214](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/43769342214), Build, Deployment und Statusmeldung erfolgreich.
+- Bei der Sichtprüfung festgestellte und behobene Darstellungskorrektur: Das Pfeilsymbol an den neuen externen Links erschien im Prüf-Browser als fehlendes Zeichen. Es wurde durch die lesbare Beschriftung „(extern)“ ersetzt. Danach erneut alle 278 Tests bestanden, Produktionsbuild und Pages-Synchronisierung erfolgreich.
+- **Endgültig veröffentlichter Anwendungscode: `19ebedf2321914f83dcc8219bd8db731a282e306`.** Produktionsbaum: `c0fe8fa752cb9214bd56293502c0ed383be30b0c`.
+- **GitHub-Pages-Lauf der Korrektur: [43769912050](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/43769912050), abgeschlossen mit `success`.**
+- Tatsächlich geladene Live-JavaScriptdatei nach erneutem Laden: `/bergedorf-gemeinsam/assets/index-NUhol6ws.js`; sie entspricht dem korrigierten Produktionsbuild.
+- Tatsächlich geöffnete Adresse: https://markbergedorf.github.io/bergedorf-gemeinsam/#unterstuetzung
+
+Erneute Livekontrolle nach der Korrektur: bestätigte Bruttoeingänge als erste Kennzahl; Gebühren, Rückzahlungen, Plattformausgaben und Bestand getrennt; fehlende Finanzdaten ausdrücklich unbestätigt; keine erfundenen Nullbeträge oder öffentlichen Belege. GoFundMe-Vorbereitung und lesbare Quellenlinks vorhanden. Zahlungslink und öffentlicher Belegupload fehlen weiterhin bewusst. Die Seite verwendet keine Zahlungs-, Registrierungs- oder Belegannahmeformulare. Kein unbeabsichtigter Zahlungsaufruf und keine neue öffentliche Datenerfassung wurden aktiviert.
+
+Desktop: 1363 CSS-Pixel, Dokumentbreite und scrollWidth jeweils 1348. Schmaler Reflow nach der Korrektur: 340 CSS-Pixel, Dokumentbreite und scrollWidth jeweils 337; kein überlaufendes Element außerhalb der vorhandenen Finanz-Tabellenscrollbereiche. Kennzahlen umbrechen lesbar. Mobiles Menü zuvor live geöffnet und geschlossen; alle elf bisherigen Hauptmenüpunkte vorhanden. Der Finanz-Tabellenscrollbereich ist weiterhin beschriftet und mit tabindex 0 per Tastatur erreichbar; seine innere Tabellenbreite betrug bei der schmalen Prüfung 441 gegenüber 299 CSS-Pixeln im Scrollbereich. Der Desktopzoom wurde nach der Prüfung zurückgesetzt. Kein physisches Mobilgerät getestet.
+
+Interne Links zur ergänzten Datenschutzerklärung und zurück sowie zum Impressum live aufgerufen. Die Aktualisierungsschaltfläche funktioniert, ohne bestätigte Zahlungen zu erfinden. Alle elf bisherigen Hauptbereiche live über ihre vorhandene Navigation geöffnet: Start, Anliegen, Erfahrungsberichte, Geschichte, Politik, Verzeichnis, Organisationen, Über uns, Nachrichten, Veranstaltungen und Einsamkeit. Die Seitenüberschriften wurden jeweils kontrolliert. Der umfassende Inhalts- und Funktionsbestandsschutz stützt sich zusätzlich auf die 278 automatisierten Tests und den bytegenauen Quellvergleich; eine neue vollständige wissenschaftliche Einzelprüfung sämtlicher Fachtexte wurde nicht vorgenommen.
+
+Keine Anwendungsfehler in den erfassten Browser-Fehlermeldungen nach der finalen Livekontrolle. Browser-Erweiterungsmeldungen wurden dabei von Anwendungsfehlern unterschieden.
+
+Prüfbilder der veröffentlichten Korrekturfassung:
+
+- [Desktop: erste Finanzkennzahlen](auftrag12-live-desktop.jpg)
+- [Schmale Ansicht: hervorgehobener Bruttoeingang](auftrag12-live-schmal.jpg)
+- [GoFundMe-Vorbereitung mit korrigierten externen Quellenlinks](auftrag12-live-gofundme.jpg)
+
+Der abschließende Dokumentationscommit ergänzt ausschließlich diesen Bericht und die drei Prüfbilder. Der geprüfte Anwendungscode und der Produktionsbuild bleiben dabei unverändert. Die endgültige Commit-ID einschließlich der Dokumentation wird im Abschluss genannt und ist über die Repository-Historie nachvollziehbar.
 
 ## Noch erforderliche Voraussetzungen
 
