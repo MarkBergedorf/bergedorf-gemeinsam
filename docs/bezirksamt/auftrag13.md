@@ -60,7 +60,28 @@ Ausschließlich erfundene Testangaben und eigens erzeugte, entsprechend beschrif
 
 ## Veröffentlichung und Liveprüfung
 
-Noch ausstehend. Dieser Abschnitt wird nach tatsächlicher Veröffentlichung mit Commit und Veröffentlichungsnachweis ergänzt.
+**Veröffentlicht und live geprüft.**
+
+- Veröffentlichter Anwendungscode: **`77efd6b0eaaa5d2f9a9112772e47552236e4ea43`**. Vollständiger geprüfter Git-Baum: `da3ae7094882de728ab124386ebc9fc9cd37bff5`.
+- GitHub-Pages-Lauf [44416872657](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/44416872657): abgeschlossen mit **success**; Build, Deployment und Statusmeldung erfolgreich.
+- Tatsächlich geöffnet: https://markbergedorf.github.io/bergedorf-gemeinsam/#organisation/eintrag/editorial-bezirksamt — nach Kartenrücknavigation zusätzlich `?from=%23organisation`.
+- Tatsächlich geladene Produktionsdatei: `/bergedorf-gemeinsam/assets/index-D1_YzIFU.js`.
+- Live-HTTP-Prüfung: `index.html` sowie beide Referenz-PDFs antworten mit **200** und sind bytegleich mit dem geprüften Produktionsstand. Original-SHA-256 wie oben; Ausfüllhilfe-SHA-256: `96866cee9a77dae8dffce80478b861e0ee50147d8fad5507ac5f2b07ccd895b5`.
+
+Live erneut geprüft: keine vorausgewählte Rechteoption; Meldung ohne Fotos und persönliche Pflichtangaben; drei lokal eingelesene Testbilder; CC0-Erklärung mit drei tatsächlich vollständig geladenen 800×550-Pixel-Bildern und Unterschriftsseite; Nein verhindert Dateiauswahl; Ja erlaubt ausschließlich lokale Einfügung eines ausdrücklich als nicht unterschrieben gekennzeichneten Test-PDFs. Der Scan bleibt ungeprüft. Änderung der Bildbeschreibung entfernt Erklärung und Scanzuordnung und deaktiviert den Rückupload bis zur Neuerstellung. Schließen/Wiederöffnen erhält die Ansichtsdaten; Testdaten anschließend bewusst entfernt. Bei späterer Rückkehr leeres Formular, keine dauerhafte Speicherung.
+
+Desktop live: 1.363 CSS-Pixel, Dokument-Scrollbreite 1.348; Dialog-Client-/Scrollbreite jeweils 963. Schmaler Reflow live: 340 CSS-Pixel, Dokument-Scrollbreite 337; Dialog-Client-/Scrollbreite jeweils 319. Kein horizontaler Überlauf des Dialogs. Texte und Foto-Beschreibungsfelder lesbar und editierbar; Fokusmarkierung sichtbar. Schmales Hauptmenü geöffnet und geschlossen, alle elf Menüeinträge vorhanden. Zoom anschließend zurückgesetzt. Kein physisches Mobilgerät getestet.
+
+Alle elf bisherigen Hauptbereiche live über ihre Navigation aufgerufen und Überschriften kontrolliert: Start, Anliegen, Erfahrungsberichte, Geschichte, Politik, Verzeichnis, Organisationen, Über uns, Nachrichten, Veranstaltungen, Einsamkeit. Zusätzlich anderes Organisationsprofil (Bethesda) ohne neuen Meldungsbutton, Bezirksamtsprofil mit unveränderten Kontakten, Standortlink und Kartenrücklink erfolgreich. Kartenkacheln ohne Einwilligung weiterhin nicht geladen. Ergänzte Datenschutzhinweise live gelesen. Anmeldung bleibt gesperrt; keine E-Mail-Abfrage oder Kontoerstellung. Keine neue Kommentar-, Umfrage- oder sonstige serverseitige Erfassung aktiviert. Der vollständige Bestandsabgleich stützt sich ergänzend auf die automatisierten Tests und den bytegenauen Quellvergleich; keine neue wissenschaftliche Vollprüfung sämtlicher Fachtexte.
+
+In den abschließend erfassten Browser-Fehlermeldungen ausschließlich Meldungen der Browser-Erweiterung zur Metadatenübermittlung, keine dort ausgewiesenen Anwendungsfehler. Eine einzelne ungewöhnlich langsame Browserreaktion wurde beobachtet; anschließend waren Eingaben und lokale Bildverarbeitung erfolgreich. Daraus wird keine garantierte Reaktionszeit abgeleitet.
+
+Prüfbilder der veröffentlichten Fassung:
+
+- [Desktop](auftrag13-live-desktop.jpg)
+- [Schmaler Reflow](auftrag13-live-schmal.jpg)
+
+Der abschließende Dokumentationscommit ergänzt nur diesen Bericht und die beiden Prüfbilder. Anwendungscode und Produktionsdateien bleiben unverändert. Die endgültige Commit-ID einschließlich Dokumentation wird im Abschluss genannt und ist in der Repository-Historie nachprüfbar.
 
 ## Offene Punkte vor produktiver Freischaltung
 
