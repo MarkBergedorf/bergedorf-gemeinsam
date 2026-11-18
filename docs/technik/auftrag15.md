@@ -68,7 +68,28 @@ HTTP-Abrufe mit einem Crawler-User-Agent sind ausschließlich **synthetische Kom
 
 ## Veröffentlichung und öffentliche Prüfungen
 
-Noch ausstehend. Veröffentlichungscommit, Pages-Lauf, öffentliche HTML-/Bildantworten, externe Prüfungen und Prüfbilder werden nach tatsächlicher Veröffentlichung ergänzt. Bis dahin wird keine erfolgreiche Livevorschau behauptet.
+**Veröffentlicht und öffentlich geprüft.**
+
+- Veröffentlichter Anwendungs-/Metadatenstand: **`6febd4cd92e1a2b20076f0c858849828b9ae6415`**; geprüfter vollständiger Baum `faa8bd0401e8adfbd656b82f0517d202ac1fb1a7`. Entfernt erzeugter Git-Baum vor der Hauptbranch-Aktualisierung exakt mit dem lokal geprüften Baum abgeglichen. Hauptbranch per erwarteter Ausgangs-ID geschützt aktualisiert.
+- GitHub-Pages-Lauf [44424478755](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/44424478755): **completed / success**, Build, Deployment und Statusmeldung erfolgreich.
+- Tatsächlich geöffnete Website: https://markbergedorf.github.io/bergedorf-gemeinsam/#start
+- Tatsächlich geladene Anwendung: `/bergedorf-gemeinsam/assets/index-tm7NvBRT.js`.
+- Öffentliche Startseite und PNG: jeweils **HTTP 200**, vollständig bytegleich mit der geprüften Ausgabe. Bild-MIME **image/png**, Signatur und tatsächliche Abmessungen **1200×630** bestätigt; auch direkt im Browser vollständig geladen. Keine Anmeldung für Seite oder Bild.
+- Normale HTTP-Abfrage und vier zusätzliche synthetische Kennungen (`facebookexternalhit`, `WhatsApp`, `LinkedInBot`, `Twitterbot`) liefern jeweils die vollständigen Tags vor JavaScript und das korrekte PNG. Diese selbst ausgeführten Abfragen sind ausdrücklich keine offiziellen Dienst-Crawlernachweise.
+- Range-Prüfung: **HTTP 206**, `Content-Range: bytes 0-2717/2718`, vollständige 2.718-Byte-Seite bereits in diesem Bereich; Sharingtags im frühen Head. Kein `X-Robots-Tag`-Header nachgewiesen. Robots-Adressen weiterhin 404, der HTML-Metatag unverändert `noindex, nofollow, noarchive`.
+- Rohes HTTP-Prüfprotokoll mit Antwortheadern, Tags, Hashes, Kennungen und Grenzen: [auftrag15-http-pruefung.json](auftrag15-http-pruefung.json).
+
+Alle elf Hauptbereiche live über die vorhandene Navigation geöffnet und Überschriften kontrolliert: Start, Anliegen, Erfahrungen, Geschichte, Politik, Verzeichnis, Organisationen, Über uns, Nachrichten, Veranstaltungen und Einsamkeit. Zusätzlich Unterstützungsseite aufgerufen. Keine Fachtexte oder offenen Quellenidentitäten als neu wissenschaftlich abgenommen erklärt. Die vollständige Erhaltung stützt sich zusätzlich auf 298 Regressionstests und den bytegenauen Quellvergleich.
+
+Desktop live: 1.363 CSS-Pixel, Dokument-Client-/Scrollbreite jeweils 1.348. Vorhandenes Schlossfoto vollständig geladen (natürliche Breite 1.600 Pixel), bestehende Gestaltung erhalten. Schmaler Reflow live: 340 CSS-Pixel, Dokument-Client-/Scrollbreite jeweils 337, kein horizontaler Überlauf. Mobiles Menü geöffnet/geschlossen, alle elf Einträge vorhanden; Zoom anschließend zurückgesetzt. Kein physisches Mobilgerät und keine vollständige Prüfung weiterer Browser/Betriebssysteme.
+
+Prüfbilder:
+
+- [Desktop nach Veröffentlichung](auftrag15-live-desktop.jpg)
+- [Schmaler Reflow nach Veröffentlichung](auftrag15-live-schmal.jpg)
+- [Externer Prüfer mit ausgelesenem Bild und nachgebildeter Vorschau](auftrag15-externer-checker.jpg) – **keine Aufnahme aus Facebook selbst**.
+
+Der abschließende Dokumentationscommit ergänzt ausschließlich diesen Bericht, das HTTP-Protokoll und Prüfbilder. Der geprüfte Anwendungscode und die Produktionsdateien bleiben unverändert. Die endgültige Commit-ID einschließlich dieser Nachweise steht im Abschluss und in der Repository-Historie.
 
 ## Externe Dienste und Cache
 
@@ -77,3 +98,22 @@ Die Prüfung unterscheidet vier Ebenen: (1) vorhandene statische Tags, (2) öffe
 Offizielle Prüfwerkzeuge: Meta Sharing Debugger und LinkedIn Post Inspector; WhatsApp, soweit tatsächlich zugänglich. Bei vorhandenen Anmelde- oder Zugriffsgrenzen werden keine Erfolge behauptet. Es werden keine Nachrichten oder öffentlichen Beiträge allein zu Testzwecken versendet. Zugängliche Neuabfragen/Cache-Erneuerungen sind nach der Veröffentlichung zu versuchen und konkret zu dokumentieren. Eine allgemeine sofortige Aktualisierung sämtlicher vorhandener Shares wird nicht zugesagt.
 
 Technische Quellen und Grenzen: [Quellenprüfung](auftrag15-quellen.md).
+
+
+## Tatsächliche externe Prüfungen und verbleibende Grenzen
+
+Nach dem erfolgreichen Pages-Deployment wurde die endgültige Basisadresse ohne Cache-Query in den folgenden Werkzeugen geprüft:
+
+| Dienst / Werkzeug | Tatsächlicher Versuch und Ergebnis | Was damit offen bleibt |
+| --- | --- | --- |
+| **Meta Sharing Debugger** – https://developers.facebook.com/tools/debug/ | Offizielles Werkzeug geöffnet; meldet „Log into Facebook to use this tool“. Ohne Anmeldung kein Eingabefeld/kein Scrape-Ergebnis. Optionale Cookies abgelehnt. Keine Anmeldung vorgenommen. | Kein bestätigter Facebook-Crawlerabruf, kein „Scrape Again“, keine bestätigte Cache-Aktualisierung und keine tatsächliche Facebook-Produktvorschau. |
+| **LinkedIn Post Inspector** – https://www.linkedin.com/post-inspector/ | Endgültige Websiteadresse eingegeben und **Inspect** ausgeführt. Anschließend Anmeldung im eingebetteten LinkedIn-Fenster; Endadresse `/post-inspector/login`. Keine Vorschau oder erfolgreiche Cache-Erneuerung erhalten. | Tatsächlicher LinkedIn-Crawler und Produktvorschau nicht bestätigt; keine Anmeldung vorgenommen. |
+| **WhatsApp** | Keine Nachricht versandt und keine angemeldete WhatsApp-Produktansicht getestet. Die WhatsApp-ähnliche Darstellung im externen Prüfer ist nur eine Nachbildung. | Echte WhatsApp-Linkvorschau, persönliche Vorschau-Einstellungen und bestehender WhatsApp-Cache ungeprüft. |
+| **X und weitere Dienste** | Twitter-Metadaten vorhanden, synthetischer Twitterbot-Abruf erfolgreich; kein tatsächlicher Post-/Chat-Test. | Echte Dienst-Crawler und tatsächliche Produktdarstellung ungeprüft. |
+| **CachePlex Share Preview Checker** – https://www.cacheplex.com/share-preview-checker/ | Öffentliche Websiteadresse eingegeben, **Check preview** ausgeführt. Ergebnis: **HTTP 200, 0 errors, 0 warnings, 0 tips**, korrekter Titel/Beschreibung, „Image loads for crawlers“, **1200×630, 86 KB PNG**. Alle relevanten Tags in der tatsächlich zurückgegebenen Tabelle vorhanden. Bild in den nachgebildeten WhatsApp-, Facebook- und LinkedIn-Ansichten sichtbar. | Belegt eine erfolgreiche externe Auslesung und Bildprüfung durch diesen Prüfdienst, nicht die Auswertung durch Meta/LinkedIn/WhatsApp oder deren tatsächliche Oberflächen. Der Dienst bezeichnet seine Layouts selbst als Approximation und ändert keine fremden Plattform-Caches. |
+
+Die neue Bild-URL verhindert die Wiederverwendung einer alten Datei unter derselben Bildadresse. Ein bereits gespeicherter Seiten-Cache eines sozialen Dienstes kann trotzdem alte Metadaten enthalten; ein konkreter veralteter Cacheeintrag wurde hier mangels Dienstzugriff nicht beobachtet. Es wird deshalb weder ein vorhandenes Cacheproblem als Ursache erfunden noch dessen Beseitigung behauptet. Facebook/LinkedIn benötigen für ihren abschließenden Crawler-/Cache-Nachweis eine zugängliche angemeldete Sitzung. WhatsApp muss in einer tatsächlichen App-Ansicht geprüft werden. Es wurden keine öffentlichen Posts, Nachrichten, Konten oder neuen Anmeldeverbindungen dafür angelegt.
+
+**Abnahmestand:** Der Codefehler ist behoben, die neue Fassung tatsächlich veröffentlicht, Original-HTML und öffentliches Bild sind verifiziert und ein unabhängiger externer Abruf/Auswertung ist erfolgreich. Eine vollständige praktische Freigabe der echten Facebook-, WhatsApp- und LinkedIn-Produktvorschauen ist **noch offen**. Es gibt keinen belegten Anlass, `noindex` oder andere Sicherheitseinstellungen dafür zu lockern.
+
+**Fortsetzung von Auftrag 14:** Pull Request #3 bleibt separat offen. Bei seiner später freigegebenen Integration muss er auf den dann aktuellen Hauptbranch abgestimmt und neu gebaut werden; die neuen Metadaten und die Bilddatei aus Auftrag 15 dürfen durch ältere generierte HTML-/Assetstände nicht zurückgesetzt werden.

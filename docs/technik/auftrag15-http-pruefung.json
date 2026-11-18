@@ -1,0 +1,316 @@
+{
+  "checked_at": "2026-11-19T00:54:47.176190+01:00",
+  "scope": "Synthetic HTTP compatibility; not proof of actual service crawler or product preview",
+  "requests": [
+    {
+      "user_agent": "Bergedorf-QA/15 (ordinary HTTP client)",
+      "synthetic_not_service_crawler": true,
+      "responses": [
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+          "status": 200,
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Content-Length": "2718",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-a9e\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 2718,
+          "sha256": "800ade3b23873743e3ad4eaf4a2ed2239c5758d3e4aa516d6c422c01e1bf2ee6",
+          "meta": {
+            "og:type": "website",
+            "og:site_name": "Bergedorf gemeinsam",
+            "og:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "og:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "og:url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+            "og:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "og:image:width": "1200",
+            "og:image:height": "630",
+            "og:image:alt": "Bergedorf gemeinsam – Unabhängige Bürgerplattform für Hamburg-Bergedorf. Wortmarke auf grünem Hintergrund, ohne amtliches Wappen.",
+            "og:locale": "de_DE",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "twitter:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "twitter:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        },
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+          "status": 200,
+          "headers": {
+            "Content-Type": "image/png",
+            "Content-Length": "87751",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-156c7\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 87751,
+          "sha256": "91138d0b3fe1a7d161748027ed4772fd64d6cfebe27e52ddd5d9dc8b20276778",
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      ]
+    },
+    {
+      "user_agent": "facebookexternalhit/1.1",
+      "synthetic_not_service_crawler": true,
+      "responses": [
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+          "status": 200,
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Content-Length": "2718",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-a9e\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 2718,
+          "sha256": "800ade3b23873743e3ad4eaf4a2ed2239c5758d3e4aa516d6c422c01e1bf2ee6",
+          "meta": {
+            "og:type": "website",
+            "og:site_name": "Bergedorf gemeinsam",
+            "og:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "og:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "og:url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+            "og:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "og:image:width": "1200",
+            "og:image:height": "630",
+            "og:image:alt": "Bergedorf gemeinsam – Unabhängige Bürgerplattform für Hamburg-Bergedorf. Wortmarke auf grünem Hintergrund, ohne amtliches Wappen.",
+            "og:locale": "de_DE",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "twitter:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "twitter:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        },
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+          "status": 200,
+          "headers": {
+            "Content-Type": "image/png",
+            "Content-Length": "87751",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-156c7\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 87751,
+          "sha256": "91138d0b3fe1a7d161748027ed4772fd64d6cfebe27e52ddd5d9dc8b20276778",
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      ]
+    },
+    {
+      "user_agent": "WhatsApp/2.0",
+      "synthetic_not_service_crawler": true,
+      "responses": [
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+          "status": 200,
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Content-Length": "2718",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-a9e\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 2718,
+          "sha256": "800ade3b23873743e3ad4eaf4a2ed2239c5758d3e4aa516d6c422c01e1bf2ee6",
+          "meta": {
+            "og:type": "website",
+            "og:site_name": "Bergedorf gemeinsam",
+            "og:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "og:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "og:url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+            "og:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "og:image:width": "1200",
+            "og:image:height": "630",
+            "og:image:alt": "Bergedorf gemeinsam – Unabhängige Bürgerplattform für Hamburg-Bergedorf. Wortmarke auf grünem Hintergrund, ohne amtliches Wappen.",
+            "og:locale": "de_DE",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "twitter:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "twitter:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        },
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+          "status": 200,
+          "headers": {
+            "Content-Type": "image/png",
+            "Content-Length": "87751",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-156c7\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 87751,
+          "sha256": "91138d0b3fe1a7d161748027ed4772fd64d6cfebe27e52ddd5d9dc8b20276778",
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      ]
+    },
+    {
+      "user_agent": "LinkedInBot/1.0",
+      "synthetic_not_service_crawler": true,
+      "responses": [
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+          "status": 200,
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Content-Length": "2718",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-a9e\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 2718,
+          "sha256": "800ade3b23873743e3ad4eaf4a2ed2239c5758d3e4aa516d6c422c01e1bf2ee6",
+          "meta": {
+            "og:type": "website",
+            "og:site_name": "Bergedorf gemeinsam",
+            "og:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "og:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "og:url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+            "og:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "og:image:width": "1200",
+            "og:image:height": "630",
+            "og:image:alt": "Bergedorf gemeinsam – Unabhängige Bürgerplattform für Hamburg-Bergedorf. Wortmarke auf grünem Hintergrund, ohne amtliches Wappen.",
+            "og:locale": "de_DE",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "twitter:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "twitter:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        },
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+          "status": 200,
+          "headers": {
+            "Content-Type": "image/png",
+            "Content-Length": "87751",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-156c7\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 87751,
+          "sha256": "91138d0b3fe1a7d161748027ed4772fd64d6cfebe27e52ddd5d9dc8b20276778",
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      ]
+    },
+    {
+      "user_agent": "Twitterbot/1.0",
+      "synthetic_not_service_crawler": true,
+      "responses": [
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+          "status": 200,
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Content-Length": "2718",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-a9e\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 2718,
+          "sha256": "800ade3b23873743e3ad4eaf4a2ed2239c5758d3e4aa516d6c422c01e1bf2ee6",
+          "meta": {
+            "og:type": "website",
+            "og:site_name": "Bergedorf gemeinsam",
+            "og:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "og:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "og:url": "https://markbergedorf.github.io/bergedorf-gemeinsam/",
+            "og:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "og:image:width": "1200",
+            "og:image:height": "630",
+            "og:image:alt": "Bergedorf gemeinsam – Unabhängige Bürgerplattform für Hamburg-Bergedorf. Wortmarke auf grünem Hintergrund, ohne amtliches Wappen.",
+            "og:locale": "de_DE",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Bergedorf gemeinsam – Unabhängige Bürgerplattform",
+            "twitter:description": "Bürgeranliegen, Erfahrungen, Geschichte, Politik, Veranstaltungen und Informationen aus dem Bezirk Hamburg-Bergedorf. Eine unabhängige Bürgerplattform.",
+            "twitter:image": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        },
+        {
+          "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+          "status": 200,
+          "headers": {
+            "Content-Type": "image/png",
+            "Content-Length": "87751",
+            "Content-Encoding": null,
+            "Cache-Control": "max-age=600",
+            "ETag": "\"6afe3a7d-156c7\"",
+            "Last-Modified": "Wed, 18 Nov 2026 23:53:33 GMT",
+            "X-Robots-Tag": null,
+            "Accept-Ranges": "bytes"
+          },
+          "bytes": 87751,
+          "sha256": "91138d0b3fe1a7d161748027ed4772fd64d6cfebe27e52ddd5d9dc8b20276778",
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      ]
+    }
+  ],
+  "robots": [
+    {
+      "url": "https://markbergedorf.github.io/robots.txt",
+      "status": 404
+    },
+    {
+      "url": "https://markbergedorf.github.io/bergedorf-gemeinsam/robots.txt",
+      "status": 404
+    }
+  ],
+  "range_probe": {
+    "status": 206,
+    "content_range": "bytes 0-2717/2718",
+    "bytes": 2718
+  }
+}
