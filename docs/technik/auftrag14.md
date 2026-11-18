@@ -83,14 +83,26 @@ Nur ausdrücklich erfundene Fehlermeldungen verwendet; keine E-Mail abgesendet u
 - Vollständigen Text und Empfängeradresse über die Schaltflächen kopiert und anschließend für diesen Test in der Browser-Zwischenablage abgeglichen. Ein langer Test mit 7.352 Zeichen Kopiertext wurde vollständig einschließlich Schlussmarkierung übernommen; kurzer Link ohne body und ausdrücklicher Langtexthinweis korrekt.
 - Escape schließt, Fokus kehrt zurück; Schließen/Wiederöffnen behält Texte; Wechsel zu Politik übernimmt vollständige neue Route.
 - App-Installationshilfe auf Desktop geöffnet/geschlossen, währenddessen Meldeformular als einzelnes Modal geöffnet; Installationshilfe bleibt unverändert dahinter erhalten. Schmale Installationshilfe mit Geräte-/Browserauswahl und Websiteadresse ebenfalls geöffnet/geschlossen.
-- Desktop 1.363 CSS-Pixel; Dialogbreite/Scrollbreite nach abschließender Kontrolle im Liveabschnitt. Tabletähnlicher Reflow 681 CSS-Pixel: Dokumentbreite 674, Dialog-Client-/Scrollbreite jeweils 641. Schmaler Reflow 340 CSS-Pixel: Dokumentbreite 337, Dialog-Client-/Scrollbreite jeweils 315. Kein horizontaler Überlauf des Dialogs; schmale Eingabe und Kopieren funktionieren. Zoom anschließend zurückgesetzt.
+- Desktop 1.363 CSS-Pixel; Dialog-Client-/Scrollbreite jeweils 943 Pixel. Tabletähnlicher Reflow 681 CSS-Pixel: Dokumentbreite 674, Dialog-Client-/Scrollbreite jeweils 641. Schmaler Reflow 340 CSS-Pixel: Dokumentbreite 337, Dialog-Client-/Scrollbreite jeweils 315. Kein horizontaler Überlauf des Dialogs; schmale Eingabe und Kopieren funktionieren. Zoom anschließend zurückgesetzt.
 - Mehrfachauswahl VPN/Werbeblocker ergibt zwei Werte; „Keine“ reduziert auf einen widerspruchsfreien Wert.
 
 **Konkrete Prüfgrenze:** Der Versuch, den `mailto:`-Link zu öffnen, wurde durch die Sicherheitsrichtlinie des Cloud-Prüfbrowsers blockiert: nur HTTP/HTTPS zulässig. Ein tatsächlicher Mailclient-Entwurf konnte hier nicht praktisch geöffnet werden. Diese Sperre wurde nicht umgangen; weitere Tests erfolgten ausschließlich in einer HTTP-Vorschau und am Kopierweg. Empfänger, Betreff, vollständiger Linkinhalt und Standardskodierung sind unabhängig geprüft. Kein erfolgreicher Versand wird behauptet. Ein eingerichtetes Mailprogramm auf einem regulären Endgerät muss die tatsächliche Übergabe zusätzlich bestätigen.
 
 ## Veröffentlichung und Liveprüfung
 
-Noch ausstehend. Tatsächlicher Veröffentlichungscommit, GitHub-Pages-Lauf, Liveprüfungen und Prüfbilder werden nach erfolgreicher Veröffentlichung ergänzt.
+**Nicht veröffentlicht.** Der öffentliche Hauptbranch bleibt auf `3362ee127a4f1d4901bc11d826354a005821da05` (Arbeitsauftrag 13). Es gibt keinen erfolgreichen Pages-Lauf und keine Liveprüfung von Arbeitsauftrag 14.
+
+Der getestete Anwendungsstand wurde als GitHub-Commitobjekt **`a29f2172ea1d873674cc7c2db60eca88aa50ece6`**, Baum **`2c3ef76d8fef3861a566b3698006d51bd41bd259`**, erstellt. Der vollständige entfernte Baum entsprach exakt dem lokal geprüften Baum. Die anschließende Aktualisierung von `main` wurde durch die automatische Freigabeprüfung abgelehnt, weil sie für die Veröffentlichung eine ausdrückliche Freigabe in einer vertrauenswürdigen Chatnachricht verlangt und den Auftrag im Anhang hierfür nicht anerkannt hat. Diese Ablehnung wurde nicht umgangen.
+
+Die Änderung wird ausschließlich im gesonderten Reviewbranch `auftrag14-technische-stoerung` vorbereitet. Eine Aktualisierung des Hauptbranches oder eine GitHub-Pages-Veröffentlichung ist damit nicht verbunden. Der abschließende Sicherungscommit ergänzt ausschließlich diesen Bericht und die drei Vorschau-Prüfbilder. Seine vollständige ID steht im Abschluss und in der Branchhistorie. Nach ausdrücklicher Freigabe sind Hauptbranch und Vorschaucommit erneut abzugleichen, die Änderung regulär zu integrieren und anschließend Pages-Lauf, tatsächliche Erreichbarkeit und Live-Desktop-/Mobilprüfung nachzutragen.
+
+Zusätzliche Vorschaukontrolle: Die Meldeschaltfläche ist auf allen elf Hauptbereichen sowie Impressum und Datenschutz jeweils genau einmal vorhanden. Auf der wissenschaftlichen Unterseite wurde die vollständige tatsächliche Adresse einschließlich `#politik/begegnungsorte/wissenschaft` automatisch vorgeschlagen. Der Inhalt dieser wissenschaftlichen Unterseite blieb unverändert.
+
+Prüfbilder der **lokalen Vorschau**, ausdrücklich keine Live-Nachweise:
+
+- [Dialog auf Desktop](auftrag14-vorschau-desktop.jpg)
+- [Schmaler Umbruch](auftrag14-vorschau-schmal.jpg)
+- [Seitenfuß mit beiden Schaltflächen](auftrag14-vorschau-seitenfuss.jpg)
 
 ## Verbleibende Einschränkungen
 
