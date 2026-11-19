@@ -2,8 +2,8 @@
 export const mapPrivacyInfo={
   "openfreemap": {
     "name": "OpenFreeMap",
-    "purpose": "Geschichtskarte laden",
-    "data": "Beim Laden der Geschichtskarte werden Ihre IP-Adresse, technische Verbindungsdaten und der angeforderte Kartenausschnitt an OpenFreeMap übertragen. Dabei kann der Auslieferungsdienst Cloudflare beteiligt sein.",
+    "purpose": "Straßenkarte mit geografischer Orientierung laden",
+    "data": "Beim Laden dieser Karte werden Ihre IP-Adresse, technische Verbindungsdaten und der angeforderte Kartenausschnitt an OpenFreeMap übertragen. Dabei kann der Auslieferungsdienst Cloudflare beteiligt sein.",
     "cookies": "OpenFreeMap erklärt ausdrücklich, keine Cookies oder Trackingtechnologien einzusetzen.",
     "delivery": "Weitere Informationen:",
     "links": [
