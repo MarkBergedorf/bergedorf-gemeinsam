@@ -88,9 +88,11 @@ Nur ausdrücklich erfundene Fehlermeldungen verwendet; keine E-Mail abgesendet u
 
 **Konkrete Prüfgrenze:** Der Versuch, den `mailto:`-Link zu öffnen, wurde durch die Sicherheitsrichtlinie des Cloud-Prüfbrowsers blockiert: nur HTTP/HTTPS zulässig. Ein tatsächlicher Mailclient-Entwurf konnte hier nicht praktisch geöffnet werden. Diese Sperre wurde nicht umgangen; weitere Tests erfolgten ausschließlich in einer HTTP-Vorschau und am Kopierweg. Empfänger, Betreff, vollständiger Linkinhalt und Standardskodierung sind unabhängig geprüft. Kein erfolgreicher Versand wird behauptet. Ein eingerichtetes Mailprogramm auf einem regulären Endgerät muss die tatsächliche Übergabe zusätzlich bestätigen.
 
-## Veröffentlichung und Liveprüfung
+## Ursprünglicher Vorbereitungsstand vor der ausdrücklichen Freigabe
 
-**Nicht veröffentlicht.** Der öffentliche Hauptbranch bleibt auf `3362ee127a4f1d4901bc11d826354a005821da05` (Arbeitsauftrag 13). Es gibt keinen erfolgreichen Pages-Lauf und keine Liveprüfung von Arbeitsauftrag 14.
+Der folgende Abschnitt dokumentiert den damaligen Stand. Der aktuelle Freigabe- und Veröffentlichungsstand folgt weiter unten.
+
+**Damals nicht veröffentlicht.** Der öffentliche Hauptbranch bleibt auf `3362ee127a4f1d4901bc11d826354a005821da05` (Arbeitsauftrag 13). Es gibt keinen erfolgreichen Pages-Lauf und keine Liveprüfung von Arbeitsauftrag 14.
 
 Der getestete Anwendungsstand wurde als GitHub-Commitobjekt **`a29f2172ea1d873674cc7c2db60eca88aa50ece6`**, Baum **`2c3ef76d8fef3861a566b3698006d51bd41bd259`**, erstellt. Der vollständige entfernte Baum entsprach exakt dem lokal geprüften Baum. Die anschließende Aktualisierung von `main` wurde durch die automatische Freigabeprüfung abgelehnt, weil sie für die Veröffentlichung eine ausdrückliche Freigabe in einer vertrauenswürdigen Chatnachricht verlangt und den Auftrag im Anhang hierfür nicht anerkannt hat. Diese Ablehnung wurde nicht umgangen.
 
@@ -113,3 +115,14 @@ Prüfbilder der **lokalen Vorschau**, ausdrücklich keine Live-Nachweise:
 - Nur technische Fehlermeldungen an den Betreiber. Kein öffentlicher Kommentarbereich, keine Bürgeranliegen-Einreichung, keine automatische Weiterleitung an Behörden. Offene Voraussetzungen früherer Aufträge bleiben unverändert dokumentiert.
 
 Quellen und Grenzen: [Technische Quellenprüfung](auftrag14-quellen.md).
+
+
+## Ausdrückliche Freigabe und erneuter Abgleich am 19. November 2026
+
+Der Auftraggeber hat die Zusammenführung von Pull Request #3 und die Veröffentlichung von Arbeitsauftrag 14 ausdrücklich in der Chatnachricht freigegeben. Erneut geprüfter öffentlicher Hauptbranch: **`c72af20f95fcde001b72ee713d5f7c9df162ffcb`**. Geprüfter PR-Entwicklungsstand: **`ce7827ec0d5270d5ae861fd6132bb2dfd8a03441`**. Gegenüber dem ursprünglichen Ausgangsstand enthält der Hauptbranch inzwischen die veröffentlichte Linkvorschau aus Auftrag 15.
+
+Die Zusammenführung in den Entwicklungsbranch erzeugte ausschließlich Konflikte in generierten `index.html`-/`404.html`- und JavaScriptdateien. Sie werden durch den regulären gemeinsamen Produktionsbuild aufgelöst. Die drei Formularquellen aus Auftrag 14 bleiben exakt bytegleich mit dem zuvor geprüften Entwicklungsstand. `frontend/index.html`, die Buildprüfung und das öffentliche Vorschaubild aus Auftrag 15 bleiben exakt bytegleich mit dessen veröffentlichtem Stand. Der Bestandsschutztest aus Auftrag 15 rechnet nun ebenfalls ausschließlich die exakte freigegebene Footer-/Datenschutzergänzung aus Auftrag 14 zurück; keine bestehenden Inhaltsprüfungen werden ausgeschaltet. Ein zusätzlicher Integrationstest sichert beide geprüften Stände.
+
+Es wird keine automatische Übermittlung, produktive Formularannahme, Registrierung oder neue öffentliche Datenspeicherung aktiviert. Die native Mailclient-Prüfung bleibt aufgrund der bereits dokumentierten Browser-Protokollsperre offen und wird nicht erneut durch einen Umgehungsversuch ausgeführt.
+
+**Erneute Prüfung erfolgreich: 322 Tests bestanden** (298 Tests des früheren öffentlichen Stands, 16 Formularprüfungen, sieben Linkvorschauprüfungen und ein zusätzlicher Integrationstest). Gemeinsamer Produktionsbuild erfolgreich: 266 Dateien, noindex aktiv, 69 redaktionelle Einträge, vier markierte Beispiele und null Live-Datensätze. Vollständige Pages-Ausgabe bytegleich synchronisiert. Die tatsächliche PR-Zusammenführung, Pages-Veröffentlichung und Liveprüfung werden nach ihrem Abschluss nachgetragen. Bis dahin gilt keine neue Live-Erfolgsbehauptung.
