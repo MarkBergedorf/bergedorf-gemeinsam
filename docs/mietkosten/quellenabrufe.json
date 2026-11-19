@@ -1,0 +1,303 @@
+{
+  "checked": "2026-11-19",
+  "results": [
+    {
+      "id": "sgb22",
+      "url": "https://www.gesetze-im-internet.de/sgb_2/__22.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_2/__22.html",
+      "mime": "text/html",
+      "bytesRead": 18535
+    },
+    {
+      "id": "sgb19",
+      "url": "https://www.gesetze-im-internet.de/sgb_2/__19.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_2/__19.html",
+      "mime": "text/html",
+      "bytesRead": 5020
+    },
+    {
+      "id": "sgb35",
+      "url": "https://www.gesetze-im-internet.de/sgb_12/__35.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_12/__35.html",
+      "mime": "text/html",
+      "bytesRead": 10590
+    },
+    {
+      "id": "sgb35a",
+      "url": "https://www.gesetze-im-internet.de/sgb_12/__35a.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_12/__35a.html",
+      "mime": "text/html",
+      "bytesRead": 7238
+    },
+    {
+      "id": "drv35a",
+      "url": "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/05_Normen_und_Vertraege/01_Sozialgesetzbuch/12_SGB_XII/0035a/0035a_2026_07_01.html",
+      "status": 200,
+      "finalUrl": "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/05_Normen_und_Vertraege/01_Sozialgesetzbuch/12_SGB_XII/0035a/0035a_2026_07_01.html",
+      "mime": "text/html;charset=utf-8",
+      "bytesRead": 497869
+    },
+    {
+      "id": "sgb42a",
+      "url": "https://www.gesetze-im-internet.de/sgb_12/__42a.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_12/__42a.html",
+      "mime": "text/html",
+      "bytesRead": 14508
+    },
+    {
+      "id": "sgb36",
+      "url": "https://www.gesetze-im-internet.de/sgb_12/__36.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_12/__36.html",
+      "mime": "text/html",
+      "bytesRead": 5864
+    },
+    {
+      "id": "sgb45",
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__45.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_10/__45.html",
+      "mime": "text/html",
+      "bytesRead": 7578
+    },
+    {
+      "id": "sgb48",
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__48.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_10/__48.html",
+      "mime": "text/html",
+      "bytesRead": 6749
+    },
+    {
+      "id": "sgb39",
+      "url": "https://www.gesetze-im-internet.de/sgb_2/__39.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgb_2/__39.html",
+      "mime": "text/html",
+      "bytesRead": 4420
+    },
+    {
+      "id": "sgg86a",
+      "url": "https://www.gesetze-im-internet.de/sgg/__86a.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgg/__86a.html",
+      "mime": "text/html",
+      "bytesRead": 6588
+    },
+    {
+      "id": "sgg86b",
+      "url": "https://www.gesetze-im-internet.de/sgg/__86b.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgg/__86b.html",
+      "mime": "text/html",
+      "bytesRead": 5663
+    },
+    {
+      "id": "sgg84",
+      "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgg/__84.html",
+      "mime": "text/html",
+      "bytesRead": 4494
+    },
+    {
+      "id": "sgg87",
+      "url": "https://www.gesetze-im-internet.de/sgg/__87.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgg/__87.html",
+      "mime": "text/html",
+      "bytesRead": 3838
+    },
+    {
+      "id": "sgg66",
+      "url": "https://www.gesetze-im-internet.de/sgg/__66.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/sgg/__66.html",
+      "mime": "text/html",
+      "bytesRead": 4166
+    },
+    {
+      "id": "bgb551",
+      "url": "https://www.gesetze-im-internet.de/bgb/__551.html",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-im-internet.de/bgb/__551.html",
+      "mime": "text/html",
+      "bytesRead": 4717
+    },
+    {
+      "id": "hh22",
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-ii-grundsicherung-fuer-arbeitsuchende/fa-sgbii-22-kdu-45744",
+      "status": 200,
+      "finalUrl": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-ii-grundsicherung-fuer-arbeitsuchende/fa-sgbii-22-kdu-45744",
+      "mime": "text/html;charset=UTF-8",
+      "bytesRead": 268618
+    },
+    {
+      "id": "hh22pdf",
+      "url": "https://dokumente.hamburg.de/resource/blob/46622/a81471fb2df41a856600cb3507f32519/fa-sgbii-22-kdu-00-pdf-data.pdf",
+      "status": 200,
+      "finalUrl": "https://dokumente.hamburg.de/resource/blob/46622/a81471fb2df41a856600cb3507f32519/fa-sgbii-22-kdu-00-pdf-data.pdf",
+      "mime": "application/pdf",
+      "bytesRead": 841590
+    },
+    {
+      "id": "hh35",
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-xii-sozialhilfe/fa-sgbxii-35-kdu-20240101-45746",
+      "status": 200,
+      "finalUrl": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-xii-sozialhilfe/fa-sgbxii-35-kdu-20240101-45746",
+      "mime": "text/html;charset=UTF-8",
+      "bytesRead": 270380
+    },
+    {
+      "id": "hh35pdf",
+      "url": "https://dokumente.hamburg.de/resource/blob/46880/15500f48959345d8b9902966c209aeac/fa-sgbxii-35-kdu-00-pdf-data.pdf",
+      "status": 200,
+      "finalUrl": "https://dokumente.hamburg.de/resource/blob/46880/15500f48959345d8b9902966c209aeac/fa-sgbxii-35-kdu-00-pdf-data.pdf",
+      "mime": "application/pdf",
+      "bytesRead": 1179912
+    },
+    {
+      "id": "rates",
+      "url": "https://dokumente.hamburg.de/resource/blob/46624/dd3a3e0888e4d0eb45e3f23f6f480892/fa-sgbii-22-kdu-14-angemessenheitsgrenzen-infoblatt-data.pdf",
+      "status": 200,
+      "finalUrl": "https://dokumente.hamburg.de/resource/blob/46624/dd3a3e0888e4d0eb45e3f23f6f480892/fa-sgbii-22-kdu-14-angemessenheitsgrenzen-infoblatt-data.pdf",
+      "mime": "application/pdf",
+      "bytesRead": 91328
+    },
+    {
+      "id": "hhinfo",
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/soziales/sozialhilfe/kosten-der-unterkunft-41098",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "kassel",
+      "url": "https://sozialgerichtsbarkeit.hessen.de/presse/begrenzung-der-uebernahmefaehigen-unterkunftskosten",
+      "status": 200,
+      "finalUrl": "https://sozialgerichtsbarkeit.hessen.de/presse/begrenzung-der-uebernahmefaehigen-unterkunftskosten",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 310538
+    },
+    {
+      "id": "kasselvoll",
+      "url": "https://www.rv.hessenrecht.hessen.de/perma?d=LARE260001412",
+      "status": 200,
+      "finalUrl": "https://www.rv.hessenrecht.hessen.de/bshe/?query=DOKNR%3ALARE260001412&source=PermaLink",
+      "mime": "text/html",
+      "bytesRead": 5573
+    },
+    {
+      "id": "stadeamt",
+      "url": "https://voris.wolterskluwer-online.de/browse/document/46cbafec-2859-47ac-9ad1-defeffe973e2",
+      "status": 200,
+      "finalUrl": "https://voris.wolterskluwer-online.de/browse/document/46cbafec-2859-47ac-9ad1-defeffe973e2",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 153199
+    },
+    {
+      "id": "stade",
+      "url": "https://urteile.ai/e/d_mb51wfmhsk/sg-stade-s-39-as-217-26-er",
+      "status": 200,
+      "finalUrl": "https://urteile.ai/e/d_mb51wfmhsk/sg-stade-s-39-as-217-26-er",
+      "mime": "text/html",
+      "bytesRead": 71078
+    },
+    {
+      "id": "hamburgamt",
+      "url": "https://www.landesrecht-hamburg.de/perma?d=NJRE001655720",
+      "status": 200,
+      "finalUrl": "https://www.landesrecht-hamburg.de/bsha/?d=NJRE001655720",
+      "mime": "text/html",
+      "bytesRead": 5603
+    },
+    {
+      "id": "hamburg",
+      "url": "https://recht.nulegal.eu/rechtsprechung/sg-hamburg/2026-07-31/s-49-as-3079-26-er",
+      "status": 200,
+      "finalUrl": "https://recht.nulegal.eu/rechtsprechung/sg-hamburg/2026-07-31/s-49-as-3079-26-er",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 38566
+    },
+    {
+      "id": "muenchen",
+      "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-26872",
+      "status": 200,
+      "finalUrl": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-26872",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 29968
+    },
+    {
+      "id": "karlsruheamt",
+      "url": "https://ng.sozialgerichtsbarkeit.de/pdf-gen.php?postID=140154",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "karlsruhe",
+      "url": "https://de.openlegaldata.io/case/sg-karlsruhe-2024-10-01-s-12-as-238722",
+      "status": 200,
+      "finalUrl": "https://de.openlegaldata.io/case/sg-karlsruhe-2024-10-01-s-12-as-238722",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 99302
+    },
+    {
+      "id": "lsghhumzug",
+      "url": "https://de.openlegaldata.io/case/lsghh-2022-12-22-l-4-as-20222-d",
+      "status": 200,
+      "finalUrl": "https://de.openlegaldata.io/case/lsghh-2022-12-22-l-4-as-20222-d",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 36030
+    },
+    {
+      "id": "lsghhmiete",
+      "url": "https://de.openlegaldata.io/case/lsghh-2024-05-30-l-4-as-13921",
+      "status": 200,
+      "finalUrl": "https://de.openlegaldata.io/case/lsghh-2024-05-30-l-4-as-13921",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 172698
+    },
+    {
+      "id": "bsgumzug",
+      "url": "https://de.openlegaldata.io/case/bsg-2010-05-06-b-14-as-709-r",
+      "status": 200,
+      "finalUrl": "https://de.openlegaldata.io/case/bsg-2010-05-06-b-14-as-709-r",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 68388
+    },
+    {
+      "id": "bsgrenovierung",
+      "url": "https://lexetius.com/2008,4009",
+      "status": 200,
+      "finalUrl": "https://lexetius.com/2008,4009",
+      "mime": "text/html;charset=utf-8",
+      "bytesRead": 40870
+    },
+    {
+      "id": "bsgwohngeld",
+      "url": "https://www.anwalt24.de/urteile/bsg/2013-12-12/b-4-as-87_12-r",
+      "status": 200,
+      "finalUrl": "https://www.anwalt24.de/urteile/bsg/2013-12-12/b-4-as-87_12-r",
+      "mime": "text/html; charset=utf-8",
+      "bytesRead": 150264
+    },
+    {
+      "id": "tacheles",
+      "url": "https://tacheles-sozialhilfe.de/newsticker/tacheles-rechtsprechungsticker-kw-43-2026.html",
+      "status": 200,
+      "finalUrl": "https://tacheles-sozialhilfe.de/newsticker/tacheles-rechtsprechungsticker-kw-43-2026.html",
+      "mime": "text/html; charset=UTF-8",
+      "bytesRead": 53812
+    },
+    {
+      "id": "anlass",
+      "url": "https://www.gegen-hartz.de/urteile/grundsicherung-jobcenter-darf-miete-nicht-pauschal-deckeln-gericht-stoppt-die-150-prozent-grenze",
+      "status": 200,
+      "finalUrl": "https://www.gegen-hartz.de/urteile/grundsicherung-jobcenter-darf-miete-nicht-pauschal-deckeln-gericht-stoppt-die-150-prozent-grenze",
+      "mime": "text/html; charset=UTF-8",
+      "bytesRead": 228252
+    }
+  ]
+}

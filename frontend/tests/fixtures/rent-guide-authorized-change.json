@@ -1,0 +1,6 @@
+{
+  "base": "c629dc2bc10c5773385d18c920045a37f89e8491",
+  "path": "frontend/app/platform.tsx",
+  "before": "a392c072c7c1ace141183c725a0bdee3012a0ff0c4ece32181c5ba9814a1fe77",
+  "after": "63ccdf04f4d27d3854d635deb2463f26231426b2ceae41af947df73aea0c35c1"
+}

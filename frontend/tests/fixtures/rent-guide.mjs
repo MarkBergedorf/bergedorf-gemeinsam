@@ -1,0 +1,3 @@
+import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {readFileSync} from 'node:fs';import {execFileSync} from 'node:child_process';
+const c=JSON.parse(readFileSync(new URL('./rent-guide-authorized-change.json',import.meta.url),'utf8'));const hash=b=>createHash('sha256').update(b).digest('hex');
+export function withoutRentGuide(path,bytes){const key=path.startsWith('frontend/')?path:'frontend/'+path;if(key!==c.path)return bytes;assert.equal(hash(bytes),c.after,'Exakt geprüfte Menü-/Routingergänzung für Auftrag 17');const old=execFileSync('git',['show',c.base+':'+key],{maxBuffer:16e6});assert.equal(hash(old),c.before);return old}
