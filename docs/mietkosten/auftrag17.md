@@ -194,3 +194,17 @@ Externe Quellenabrufe: `quellenabrufe.json` protokolliert alle38 neuen/erhaltene
 Die tatsächliche Zusammenführung, der endgültige Veröffentlichungscommit, Pages-Lauf und öffentliche Liveprüfung werden nach Ausführung hier nachgetragen. Ein lokaler Test oder ein erstelltes Commitobjekt ist noch keine Veröffentlichung. Keine pauschale rechtliche Vollabnahme und keine individuelle Leistungszusage.
 
 Weiterhin offen bleiben die bereits dokumentierten Voraussetzungen produktiver Funktionen aus Auftrag13, die native Mailclient-Prüfung aus Auftrag14, tatsächliche Plattformanzeigen der Linkvorschau aus Auftrag15 sowie die gesondert blockierte Karten-Sichtprüfung/Veröffentlichung aus Auftrag16. Arbeitsauftrag17 ersetzt oder erledigt keinen dieser Punkte. Physische Mobilgeräte und weitere Browser sind nicht praktisch getestet. Amtliche Volltext-Abrufgrenzen und nicht verifizierte Rechtskraft/Beschwerdeentscheidungen stehen ausdrücklich im Quellenverzeichnis.
+
+## Tatsächlicher Veröffentlichungsversuch und Freigabesperre
+
+Der vollständig geprüfte Stand wurde auf GitHub im Branch `auftrag17-mietkosten` gesichert und als [Pull Request #4](https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/4) bereitgestellt. Geprüfter Anwendungscommit: **`eb2769f99dd58f0cab2157c7f1e81d16166a3290`**, exakter geprüfter Baum **`e771ddfe0d54f1f2e8056ad6cc159f2d7ab9211a`**. Der entfernte Baum entspricht exakt der lokal getesteten und im Browser geprüften Fassung.
+
+Unmittelbar vor dem Zusammenführungsversuch wurde der Hauptbranch erneut geprüft: unverändert `c629dc2bc10c5773385d18c920045a37f89e8491`. PR-Kopf unverändert, GitHub meldete `mergeable: true` und `mergeable_state: clean`. Reguläre Zusammenführung mit erwartetem Kopfcommit wurde versucht.
+
+**Die automatische Freigabeprüfung hat die Zusammenführung abgelehnt.** Als Begründung nannte sie, dass die Zusammenführung den geschützten Hauptbranch ändere und den Ratgeber öffentlich veröffentliche und im vorliegenden Nutzertext keine ausdrückliche Freigabe zur Zusammenführung oder Veröffentlichung von Arbeitsauftrag17 belegt sei. Der Auftrag in der übergebenen Datei enthält zwar ausdrücklich die Veröffentlichung; die automatische Prüfung hat dies für die Freigabe nicht anerkannt. Die Sperre wurde nicht über einen anderen Veröffentlichungsweg umgangen.
+
+**Tatsächlicher Status: PR #4 offen und nicht zusammengeführt; Arbeitsauftrag17 nicht veröffentlicht.** Der öffentliche Hauptbranch bleibt unverändert. Es gibt daher keinen erfolgreichen Pages-Lauf für Auftrag17 und keine behauptete öffentliche Liveprüfung. Die dokumentierten Browserprüfungen sind Prüfungen der lokalen Produktionsvorschau.
+
+Nach ausdrücklicher Freigabe in einer Chatnachricht sind Hauptbranch und geprüfter PR-Kopf erneut abzugleichen. Anschließend regulär zusammenführen, Pages-Lauf und tatsächliche Erreichbarkeit prüfen, Miettabelle, alle acht Themenzugänge und die direkten Kapiteladressen öffentlich kontrollieren, Desktop-/Mobil-Reflow prüfen und den endgültigen Merge-/Veröffentlichungscommit nachtragen. Unveränderte bereits erfolgreiche lokale Prüfungen bleiben als Vorprüfungsnachweis erhalten; erforderliche neue Integrationsprüfungen richten sich nach zwischenzeitlichen Änderungen.
+
+Der abschließende Sicherungscommit ergänzt ausschließlich diesen Statusbericht. Seine endgültige ID steht in der Branchhistorie und im Chatabschluss; er stellt keine Veröffentlichung dar.
