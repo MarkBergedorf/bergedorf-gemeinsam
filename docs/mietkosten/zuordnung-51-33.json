@@ -1,0 +1,492 @@
+{
+  "sections": [
+    {
+      "number": 1,
+      "title": "Die gesetzlichen Grundlagen der Mietkostenübernahme",
+      "href": "#mietkosten/abschnitt/1"
+    },
+    {
+      "number": 2,
+      "title": "Was bedeutet Bruttokaltmiete?",
+      "href": "#mietkosten/abschnitt/2"
+    },
+    {
+      "number": 3,
+      "title": "Wie werden Mietobergrenzen festgelegt?",
+      "href": "#mietkosten/abschnitt/3"
+    },
+    {
+      "number": 4,
+      "title": "Welche Mietobergrenzen gelten in Hamburg?",
+      "href": "#mietkosten/abschnitt/4"
+    },
+    {
+      "number": 5,
+      "title": "Wie groß darf eine Wohnung sein?",
+      "href": "#mietkosten/abschnitt/5"
+    },
+    {
+      "number": 6,
+      "title": "Die neue 150-Prozent-Grenze seit dem 1. Juli 2026",
+      "href": "#mietkosten/abschnitt/6"
+    },
+    {
+      "number": 7,
+      "title": "Die einjährige Karenzzeit",
+      "href": "#mietkosten/abschnitt/7"
+    },
+    {
+      "number": 8,
+      "title": "Was geschieht nach Ablauf der Karenzzeit?",
+      "href": "#mietkosten/abschnitt/8"
+    },
+    {
+      "number": 9,
+      "title": "Bedeutet eine Kostensenkungsaufforderung, dass man ausziehen muss?",
+      "href": "#mietkosten/abschnitt/9"
+    },
+    {
+      "number": 10,
+      "title": "Gesundheitliche Einschränkungen und das Recht, in der bisherigen Wohnung zu bleiben",
+      "href": "#mietkosten/abschnitt/10"
+    },
+    {
+      "number": 11,
+      "title": "Weitere besondere Schutzregelungen",
+      "href": "#mietkosten/abschnitt/11"
+    },
+    {
+      "number": 12,
+      "title": "Wann ist ein Umzug wirtschaftlich?",
+      "href": "#mietkosten/abschnitt/12"
+    },
+    {
+      "number": 13,
+      "title": "Welche Umzugskosten berücksichtigt Hamburg bei der Wirtschaftlichkeit?",
+      "href": "#mietkosten/abschnitt/13"
+    },
+    {
+      "number": 14,
+      "title": "Was passiert bei besonders hohen tatsächlichen Umzugskosten?",
+      "href": "#mietkosten/abschnitt/14"
+    },
+    {
+      "number": 15,
+      "title": "Kann das Jobcenter einen Umzug in Eigenregie verlangen?",
+      "href": "#mietkosten/abschnitt/15"
+    },
+    {
+      "number": 16,
+      "title": "Muss das Jobcenter einen mehrtägigen Komplettumzug bezahlen?",
+      "href": "#mietkosten/abschnitt/16"
+    },
+    {
+      "number": 17,
+      "title": "Gerichtsentscheidung: Sozialgericht Karlsruhe bestätigt professionelle Umzugskosten",
+      "href": "#mietkosten/abschnitt/17"
+    },
+    {
+      "number": 18,
+      "title": "Weitere Hamburger Rechtsprechung zu Möbel- und Küchenmontage",
+      "href": "#mietkosten/abschnitt/18"
+    },
+    {
+      "number": 19,
+      "title": "Wer bezahlt umfangreiche Bohr- und Montagearbeiten?",
+      "href": "#mietkosten/abschnitt/19"
+    },
+    {
+      "number": 20,
+      "title": "Wer übernimmt notwendige Renovierungen?",
+      "href": "#mietkosten/abschnitt/20"
+    },
+    {
+      "number": 21,
+      "title": "Wer bezahlt die Handwerker, wenn die Person nicht selbst renovieren kann?",
+      "href": "#mietkosten/abschnitt/21"
+    },
+    {
+      "number": 22,
+      "title": "Welche Renovierungspauschalen nennt Hamburg?",
+      "href": "#mietkosten/abschnitt/22"
+    },
+    {
+      "number": 23,
+      "title": "Welche weiteren Kosten können bei einem notwendigen Wohnungswechsel entstehen?",
+      "href": "#mietkosten/abschnitt/23"
+    },
+    {
+      "number": 24,
+      "title": "Wer ist bei einem Umzug in eine andere Stadt zuständig?",
+      "href": "#mietkosten/abschnitt/24"
+    },
+    {
+      "number": 25,
+      "title": "Können auch Menschen ohne laufende Grundsicherungsleistungen Umzugskosten erhalten?",
+      "href": "#mietkosten/abschnitt/25"
+    },
+    {
+      "number": 26,
+      "title": "Sozialgericht Kassel – Beschluss vom 14. Oktober 2026",
+      "href": "#mietkosten/abschnitt/26"
+    },
+    {
+      "number": 27,
+      "title": "Sozialgericht Stade – Beschluss vom 19. Oktober 2026",
+      "href": "#mietkosten/abschnitt/27"
+    },
+    {
+      "number": 28,
+      "title": "Sozialgericht Hamburg – Beschluss vom 31. Juli 2026",
+      "href": "#mietkosten/abschnitt/28"
+    },
+    {
+      "number": 29,
+      "title": "Sozialgericht München – Beschluss vom 5. Oktober 2026",
+      "href": "#mietkosten/abschnitt/29"
+    },
+    {
+      "number": 30,
+      "title": "Weitere wichtige Rechtsprechung",
+      "href": "#mietkosten/abschnitt/30"
+    },
+    {
+      "number": 31,
+      "title": "Das Kostensenkungsverfahren richtig prüfen",
+      "href": "#mietkosten/abschnitt/31"
+    },
+    {
+      "number": 32,
+      "title": "Welche Nachweise können bei gesundheitlichen Einschränkungen erforderlich sein?",
+      "href": "#mietkosten/abschnitt/32"
+    },
+    {
+      "number": 33,
+      "title": "Wie weist man nach, dass keine geeignete günstigere Wohnung verfügbar ist?",
+      "href": "#mietkosten/abschnitt/33"
+    },
+    {
+      "number": 34,
+      "title": "Welche Bedeutung haben Mietrückstände und drohender Wohnungsverlust?",
+      "href": "#mietkosten/abschnitt/34"
+    },
+    {
+      "number": 35,
+      "title": "Welche Rechtsmittel bestehen gegen eine Mietkürzung?",
+      "href": "#mietkosten/abschnitt/35"
+    },
+    {
+      "number": 36,
+      "title": "Muss man zuerst umziehen und anschließend die Kosten einklagen?",
+      "href": "#mietkosten/abschnitt/36"
+    },
+    {
+      "number": 37,
+      "title": "Gilt das alles auch bei Sozialhilfe und Grundsicherung im Alter?",
+      "href": "#mietkosten/abschnitt/37"
+    },
+    {
+      "number": 38,
+      "title": "Darf eine alleinlebende Person eine Drei-Zimmer-Wohnung behalten?",
+      "href": "#mietkosten/abschnitt/38"
+    },
+    {
+      "number": 39,
+      "title": "Darf eine alleinlebende Person auf 65 Quadratmetern wohnen?",
+      "href": "#mietkosten/abschnitt/39"
+    },
+    {
+      "number": 40,
+      "title": "Werden zusätzliche 15 Quadratmeter von der Miete abgezogen?",
+      "href": "#mietkosten/abschnitt/40"
+    },
+    {
+      "number": 41,
+      "title": "Ist eine Wohnung mit 650 Euro Bruttokaltmiete in Hamburg angemessen?",
+      "href": "#mietkosten/abschnitt/41"
+    },
+    {
+      "number": 42,
+      "title": "Darf die Bruttokaltmiete während der Karenzzeit 861 Euro betragen?",
+      "href": "#mietkosten/abschnitt/42"
+    },
+    {
+      "number": 43,
+      "title": "Muss man nach sechs Monaten ausziehen?",
+      "href": "#mietkosten/abschnitt/43"
+    },
+    {
+      "number": 44,
+      "title": "Kann das Jobcenter jemanden wegen einer zu großen Wohnung kündigen?",
+      "href": "#mietkosten/abschnitt/44"
+    },
+    {
+      "number": 45,
+      "title": "Muss man eine günstigere Wohnung nehmen, obwohl ein Umzug teurer wäre?",
+      "href": "#mietkosten/abschnitt/45"
+    },
+    {
+      "number": 46,
+      "title": "Muss ein gesundheitlich eingeschränkter Mensch selbst Möbel transportieren?",
+      "href": "#mietkosten/abschnitt/46"
+    },
+    {
+      "number": 47,
+      "title": "Gibt es eine gesetzliche Höchstsumme für einen professionellen Umzug?",
+      "href": "#mietkosten/abschnitt/47"
+    },
+    {
+      "number": 48,
+      "title": "Werden Möbelmontage, Küchenaufbau und Einpackarbeiten bezahlt?",
+      "href": "#mietkosten/abschnitt/48"
+    },
+    {
+      "number": 49,
+      "title": "Werden fünf oder sechs Tage Montagearbeit übernommen?",
+      "href": "#mietkosten/abschnitt/49"
+    },
+    {
+      "number": 50,
+      "title": "Muss das Jobcenter bei Krankheit einen Maler oder Handwerker bezahlen?",
+      "href": "#mietkosten/abschnitt/50"
+    },
+    {
+      "number": 51,
+      "title": "Kann man einen Mietkürzungsbescheid gerichtlich überprüfen lassen?",
+      "href": "#mietkosten/abschnitt/51"
+    }
+  ],
+  "changes": [
+    {
+      "change": 1,
+      "title": "Klarstellung des Anwendungsbereichs bereits in der Einleitung",
+      "section": 0,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/einleitung"
+    },
+    {
+      "change": 2,
+      "title": "Die Ausnahmeregelung zur 150-Prozent-Grenze genauer erklären",
+      "section": 6,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/6"
+    },
+    {
+      "change": 3,
+      "title": "Rechtsfolgen der Quadratmeterpreisgrenze und der Mietpreisbremse verdeutlichen",
+      "section": 6,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/6"
+    },
+    {
+      "change": 4,
+      "title": "Wichtige Einschränkung bei einem Wohnungswechsel während der Karenzzeit",
+      "section": 7,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/7"
+    },
+    {
+      "change": 5,
+      "title": "Die Karenzzeit wird nicht auf die Kostensenkungsfrist angerechnet",
+      "section": 8,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/8"
+    },
+    {
+      "change": 6,
+      "title": "Schutz nach dem Tod eines Haushaltsmitglieds vollständig erklären",
+      "section": 11,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/11"
+    },
+    {
+      "change": 7,
+      "title": "Die 20-Prozent-Grenze bei der Wirtschaftlichkeitsprüfung eindeutig einordnen",
+      "section": 12,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/12"
+    },
+    {
+      "change": 8,
+      "title": "Die Wirtschaftlichkeitsregel des Bundesgesetzes von der Hamburger Verwaltungspraxis unterscheiden",
+      "section": 12,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/12"
+    },
+    {
+      "change": 9,
+      "title": "Pauschalierte und tatsächliche Umzugskosten noch deutlicher voneinander trennen",
+      "section": 13,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/13"
+    },
+    {
+      "change": 10,
+      "title": "Das Beispiel mit 12.000 Euro professionellen Umzugskosten rechtlich abgrenzen",
+      "section": 14,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/14"
+    },
+    {
+      "change": 11,
+      "title": "Unterschiedliche Anforderungen an Kostenvoranschläge ausdrücklich gegenüberstellen",
+      "section": 15,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/15"
+    },
+    {
+      "change": 12,
+      "title": "Genossenschaftsanteile mit den konkreten Hamburger Beträgen ergänzen",
+      "section": 23,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/23"
+    },
+    {
+      "change": 13,
+      "title": "Vertragsausfertigungsgebühren als weitere mögliche Wohnungsbeschaffungskosten aufnehmen",
+      "section": 23,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/23"
+    },
+    {
+      "change": 14,
+      "title": "Bedarfsberechnung bei einem einmaligen Umzug ohne laufenden Leistungsbezug genauer erklären",
+      "section": 25,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/25"
+    },
+    {
+      "change": 15,
+      "title": "Den mehrtägigen Umzug aus dem Karlsruher Urteil vollständig darstellen",
+      "section": 17,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/17"
+    },
+    {
+      "change": 16,
+      "title": "Das Verhältnis der Hamburger und Karlsruher Rechtsprechung richtig darstellen",
+      "section": 18,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/18"
+    },
+    {
+      "change": 17,
+      "title": "Die rechtliche Begründung des Sozialgerichts Hamburg vom 31. Juli 2026 vervollständigen",
+      "section": 28,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/28"
+    },
+    {
+      "change": 18,
+      "title": "Die direkte Vermieterzahlung im Verfahren des Sozialgerichts Stade präzisieren",
+      "section": 27,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/27"
+    },
+    {
+      "change": 19,
+      "title": "Die begrenzte Reichweite der Münchner Entscheidung ausdrücklich festhalten",
+      "section": 29,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/29"
+    },
+    {
+      "change": 20,
+      "title": "Die Entscheidung des Bundessozialgerichts zur Einzugsrenovierung richtig einordnen",
+      "section": 20,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/20"
+    },
+    {
+      "change": 21,
+      "title": "Die Entscheidung des Bundessozialgerichts zum Zusicherungsvorbehalt ergänzen",
+      "section": 30,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/30"
+    },
+    {
+      "change": 22,
+      "title": "Die Rechtsprechungstabelle in Abschnitt 30 gezielt präzisieren",
+      "section": 30,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/30"
+    },
+    {
+      "change": 23,
+      "title": "Die drei Voraussetzungen bei umfangreichen Montagearbeiten systematisch darstellen",
+      "section": 19,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/19"
+    },
+    {
+      "change": 24,
+      "title": "Das gesetzliche Informationsverfahren des Jobcenters aufnehmen",
+      "section": 31,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/31"
+    },
+    {
+      "change": 25,
+      "title": "Unterschiedliche Zusicherungen bei einem Umzug erklären",
+      "section": 24,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/24"
+    },
+    {
+      "change": 26,
+      "title": "Rechtsschutz bei Mietkürzungen genauer unterscheiden",
+      "section": 35,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/35"
+    },
+    {
+      "change": 27,
+      "title": "Frage 41 zur Hamburger Miete von 650 Euro",
+      "section": 41,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/41"
+    },
+    {
+      "change": 28,
+      "title": "Frage 42 zur Miete von 861 Euro während der Karenzzeit",
+      "section": 42,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/42"
+    },
+    {
+      "change": 29,
+      "title": "Frage 45 zur wirtschaftlichen Zumutbarkeit eines Umzugs",
+      "section": 45,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/45"
+    },
+    {
+      "change": 30,
+      "title": "Frage 48 zur Übernahme von Montage- und Verpackungsleistungen",
+      "section": 48,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/48"
+    },
+    {
+      "change": 31,
+      "title": "Frage 49 zu mehreren Tagen Montagearbeit",
+      "section": 49,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/abschnitt/49"
+    },
+    {
+      "change": 32,
+      "title": "Die unterschiedliche Verbindlichkeit der Rechtsquellen erklären",
+      "section": 52,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/redaktion"
+    },
+    {
+      "change": 33,
+      "title": "Den Rechtsstand und die Grenzen der vorliegenden Prüfung erläutern",
+      "section": 52,
+      "result": "eingearbeitet",
+      "href": "#mietkosten/redaktion"
+    }
+  ]
+}
