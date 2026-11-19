@@ -1,0 +1,37 @@
+{
+  "base": "c629dc2bc10c5773385d18c920045a37f89e8491",
+  "files": {
+    "frontend/app/history-map.tsx": {
+      "before": "0df0aa930bbf8dd61ee29f2873aadd7b6448c6b1db7a978087d8302fe3530d3e",
+      "after": "eee2e85675057a13e47c71da579a838bc89f0a4853679e2022ac4ae3f77057ee"
+    },
+    "frontend/app/map-legend.tsx": {
+      "before": "52e6d6e449693459d3b39567b2e57b658a18964bd81be7b4c7003cbe58fb9246",
+      "after": "1babd11071e1a253a6fdbd606e7cbb7d8e7106263344dfb4791bf913ea093bd8"
+    },
+    "frontend/app/organisation-location.tsx": {
+      "before": "77bb8d5b48484459a6bb772ea07b0fbba68e90ea297455718e7dd48b6d8d79ff",
+      "after": "f13324797d136efd02e72b5b60454e6a916aafafa3da31757a2a054912ccd001"
+    },
+    "frontend/app/organisation-map.tsx": {
+      "before": "4cf121b3346713cbefdb2c5b9f6a0371e3df3f36349d03218f98e5d793479d08",
+      "after": "15a4fa6b1a39c84fc6061381b695a2dedf05c46efb168ba39b321e0dea4f5ff5"
+    },
+    "frontend/lib/history-map-session.mjs": {
+      "before": "32f5eacccde7344e5ad838a33b85e83b2d2845b3cb1f463d5ba0511124aa2fbd",
+      "after": "69d2baa06750ab31c54f706f79cd773538c0dfa17ee8e03148ee0bc2805cdc7f"
+    },
+    "frontend/lib/history-tiles.mjs": {
+      "before": "b7f8766c5d6542ddf5e853c7c8eec32cf093899bb67ad6a1ff09646af0b098b3",
+      "after": "fe8062a1150b770b8fe759820f92a2a7b55fc2306956ea8ade54433af02114b0"
+    },
+    "frontend/lib/map-privacy-info.mjs": {
+      "before": "475bb3c5998ff8c3c155ff5276b0b7f5c06c744751fec39af72ef193f2012e45",
+      "after": "77ae9151b7a69150e2acd5f4cab67848639547151b4c7bb85b5191debaf4cb64"
+    },
+    "frontend/pages/privacy.tsx": {
+      "before": "49fb0d857d73100f0e09234c01a749d573ae63cefe1723af2f2b5f5f0d9980a4",
+      "after": "c678b2b306fab8c0e48a3d28500d23a05841a53053facae1eb0fef44265a8e07"
+    }
+  }
+}

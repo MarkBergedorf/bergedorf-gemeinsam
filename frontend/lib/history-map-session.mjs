@@ -11,4 +11,4 @@ export const historyMapView=createVisitChoice('bg-history-map-view');
 
 export function resolveHistoryMapView(view,remembered=false){return view==='map'||view!=='list'&&remembered}
 
-export const organisationMapConsent=createVisitChoice('bg-map-consent',undefined,'map-privacy-v1');
+export const organisationMapConsent=createVisitChoice('bg-map-consent',undefined,'map-privacy-openfreemap-v2');
