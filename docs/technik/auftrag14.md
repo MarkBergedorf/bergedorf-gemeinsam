@@ -126,3 +126,38 @@ Die Zusammenführung in den Entwicklungsbranch erzeugte ausschließlich Konflikt
 Es wird keine automatische Übermittlung, produktive Formularannahme, Registrierung oder neue öffentliche Datenspeicherung aktiviert. Die native Mailclient-Prüfung bleibt aufgrund der bereits dokumentierten Browser-Protokollsperre offen und wird nicht erneut durch einen Umgehungsversuch ausgeführt.
 
 **Erneute Prüfung erfolgreich: 322 Tests bestanden** (298 Tests des früheren öffentlichen Stands, 16 Formularprüfungen, sieben Linkvorschauprüfungen und ein zusätzlicher Integrationstest). Gemeinsamer Produktionsbuild erfolgreich: 266 Dateien, noindex aktiv, 69 redaktionelle Einträge, vier markierte Beispiele und null Live-Datensätze. Vollständige Pages-Ausgabe bytegleich synchronisiert. Die tatsächliche PR-Zusammenführung, Pages-Veröffentlichung und Liveprüfung werden nach ihrem Abschluss nachgetragen. Bis dahin gilt keine neue Live-Erfolgsbehauptung.
+
+
+## Tatsächliche Zusammenführung, Veröffentlichung und Liveprüfung – 19. November 2026
+
+**Arbeitsauftrag 14 ist veröffentlicht.** Pull Request #3 wurde regulär zusammengeführt. Der zuvor mit dem aktuellen Hauptbranch integrierte PR-Stand war `376c3ebc207704f78eef1046c636d548308d8760`. Der tatsächliche Mergecommit ist **`f85ae6eb1328922b263ef4232b03285d2bc27e08`**, sein vollständig geprüfter Baum **`7e184c1cdb21b463cbef2dcbd36ca4d41b44a0b1`**. Der Baum der tatsächlichen Zusammenführung entspricht exakt dem geprüften integrierten Baum.
+
+[GitHub-Pages-Lauf 44427006612](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/44427006612) für diesen Mergecommit: **completed / success**, nach der Veröffentlichung erneut über die GitHub-API geprüft. Nach der Zusammenführung erneut **322 Tests bestanden**, regulärer Produktionsbuild erfolgreich; erneuter Build und Pages-Synchronisation erzeugten keine Abweichung vom veröffentlichten Baum. Der abschließende Nachweiscommit ergänzt ausschließlich diesen Bericht und zwei Live-Prüfbilder; seine endgültige ID steht in der Git-Historie und im Abschlussbericht des Chats.
+
+### Prüfung der tatsächlich veröffentlichten Funktion
+
+Geprüft wurde die öffentliche Website `https://markbergedorf.github.io/bergedorf-gemeinsam/` im Cloud-Chrome, einschließlich der wissenschaftlichen Unterseite `#politik/begegnungsorte/wissenschaft`, des Verzeichnisses und des Datenschutzbereichs. Die Seite wurde nach der Veröffentlichung auch neu geladen. Die tatsächliche neue Funktion ist dort vorhanden und bedienbar.
+
+- Öffnung per Eingabetaste, neun Formularpunkte und Pflichtfeldprüfung praktisch erfolgreich.
+- Vollständige aktuelle URL einschließlich Hash-Unterseite korrekt vorgeschlagen. Manuelle URL bleibt beim Schließen und Wiederöffnen desselben Seitenkontexts erhalten; beim Wechsel des Bereichs wird dessen aktuelle URL neu vorgeschlagen.
+- Festen Empfänger und Betreff sowie korrekt kodierten vollständigen kurzen Mailto-Text ausgelesen. Der Mailto-Link wurde nicht erneut geöffnet; keine E-Mail versendet.
+- Sämtliche freiwilligen Angaben mit ausschließlich erfundenen Testdaten ausgefüllt und im tatsächlich kopierten Meldungstext nachgewiesen. Separates Kopieren der Empfängeradresse erfolgreich.
+- Ein kopierter langer Meldungstext mit **7.282 Zeichen** blieb einschließlich Endmarkierung vollständig. Die vorbereitete Mailto-Adresse enthielt in diesem Fall nur Empfänger und Betreff; der Hinweis zum eigenständigen Einfügen des vollständigen Textes erschien.
+- Escape schließt den Dialog und setzt den Fokus auf die Meldeschaltfläche zurück. Schließen und Wiederöffnen erhält Eingaben. Neuladen entfernt die ausschließlich im Arbeitsspeicher gehaltenen Testeingaben.
+- Desktopdarstellung visuell geprüft. Bei 1.363 Pixeln Ansichtsbreite betrugen Inhalts- und Scrollbreite des Dialogs jeweils **943 Pixel**.
+- Schmaler Reflow per Browserzoom auf **340 CSS-Pixel**, keine physische Smartphoneprüfung: Dokumentbreite und Scrollbreite jeweils **337 Pixel**, Dialogbreite und Scrollbreite jeweils **315 Pixel**. Kein horizontaler Überlauf. Die lange Überschrift und Schließen-Schaltfläche umbrechen lesbar; das lange Formular ist vertikal scrollbar. Bearbeitung und tatsächliches Kopieren eines erfundenen Mobiltesttexts erfolgreich.
+- App-Installationshilfe auf Desktop und in der schmalen Ansicht geöffnet und geschlossen. Bereits geöffnete Installationshilfe bleibt beim Aufrufen der Fehlermeldung erhalten; genau ein Melde-Dialog ist geöffnet. Keine reale App-Installation behauptet.
+- Alle elf Hauptnavigationsbereiche praktisch aufgerufen; Inhalte und Meldeschaltfläche vorhanden, jeweils genau eine Meldeschaltfläche. Impressum, Datenschutz und Unterstützungsseite zusätzlich aufgerufen. Datenschutzhinweise zur technischen Meldung vorhanden.
+
+Live-Prüfbilder:
+
+- [Veröffentlichter Desktopdialog](auftrag14-live-desktop.jpg)
+- [Veröffentlichter schmaler Dialog bei 340 CSS-Pixeln](auftrag14-live-schmal.jpg)
+
+### Bestandsschutz und weiterhin offene Punkte
+
+Die automatisierten Integrations- und Bestandstests sichern die bisherigen Inhalte einschließlich der Linkvorschau aus Auftrag 15 sowie die unveränderten drei geprüften Formularquellen. App-Installation und bestehende Einschränkungen bleiben erhalten. Keine automatische Datenübermittlung, produktive Formularannahme, Registrierung, Kommentarspeicherung oder Umfrage wurde durch diese Veröffentlichung aktiviert. Die weiterhin notwendigen rechtlichen, technischen und datenschutzrechtlichen Voraussetzungen für eine produktive Annahme und Weiterleitung aus Auftrag 13 bleiben offen. Offene Quellenidentitäten und wissenschaftliche Nachweise bleiben unverändert gekennzeichnet; keine uneingeschränkte wissenschaftliche Vollabnahme.
+
+**Ausdrücklich ungeprüft bleibt die tatsächliche Übergabe an einen nativen Mailclient einschließlich Anhang, Versand und Empfang.** Der Prüfbrowser lässt Mailto-Protokollaufrufe nicht zu. Es wurde kein Versand simuliert oder als erfolgreich dargestellt. Physische Mobilgeräte, andere Browser/OS und eine tatsächlich installierte Web-App sind ebenfalls nicht praktisch abgenommen. Clipboard-Ablehnung ist automatisiert, nicht durch eine reale Berechtigungsverweigerung auf Endgeräten geprüft.
+
+Die öffentliche Erreichbarkeit wurde durch tatsächliches Laden und Bedienen im Browser nachgewiesen. Ein zusätzlicher unabhängiger HTTP-Abruf aus der Ausführungsumgebung lieferte bei dieser abschließenden Wiederaufnahme kein verwertbares Ergebnis; daraus wird kein gesonderter Header- oder MIME-Nachweis abgeleitet. Externe Facebook-/WhatsApp-/LinkedIn-Anzeigen aus Auftrag 15 bleiben entsprechend dessen Bericht ungeprüft; diese Veröffentlichung ändert dessen Metadaten oder Bild nicht.
