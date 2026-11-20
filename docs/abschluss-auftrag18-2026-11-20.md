@@ -4,7 +4,7 @@ Stand: 20. November 2026 (Europe/Berlin)
 
 ## Auftrag und Ausgangsstand
 
-Geprüft wurde das bestehende Repository `MarkBergedorf/bergedorf-gemeinsam`. Ausgangsbranch `main`, Stand `ea53f448b891035e263501c9055a7baac56cb2e2`. Arbeitsbranch: `auftrag18-qa`. PR #4 zu Arbeitsauftrag 17 ist am 19.11.2026 zusammengeführt; GitHub Pages meldete für die Folgecommits `615173fcdd4f71eb32b2c4928eb69079dffad292` und `ea53f448b891035e263501c9055a7baac56cb2e2` erfolgreiche Veröffentlichungen.
+Geprüft wurde das bestehende Repository `MarkBergedorf/bergedorf-gemeinsam`. Ausgangsbranch `main`, Stand `ea53f448b891035e263501c9055a7baac56cb2e2`. A18 wurde als PR #6 aus `auftrag18-qa` (Kopf `b5977ffa0c17b2331c6a3621a15cf3b602bac9f7`) am 20.11.2026 in `main` zusammengeführt; Merge-Commit `a4ec911ef3280a2799551d667e47a2b9fe06dcec`. GitHub Pages Workflow #61 (`44741566499`) für den Merge-Commit ist erfolgreich abgeschlossen. PR #4 zu Arbeitsauftrag 17 war bereits am 19.11.2026 zusammengeführt; Pages-Läufe #59 und #60 waren für die Folgecommits erfolgreich.
 
 A18-17 wurde mit dem tatsächlichen Merge-, Pages- und Live-Prüfstand in `docs/mietkosten/auftrag17.md` sowie in der Statuskorrektur zu Arbeitsauftrag 16/17 abgeglichen. Die frühere offene Veröffentlichungsaussage ist als historisch markiert. Ein älterer lokaler Reflow-Nachweis wird ausdrücklich nicht als Live-Mobilprüfung ausgegeben.
 
@@ -50,7 +50,7 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 | B8 Nachrichten | Erledigt. Alle sieben genannten Medien stehen in der Presseauswahl. Lokale Formularregeln und Medienauswahl sind automatisiert getestet; ein manueller UI-Wechsel zwischen Digital/Print steht aus. |
 | B9 Veranstaltungen | Vorhandene Tests prüfen Berlin-Zeit, Zeitfilter, vergangene und künftige Veranstaltungen, Kosten-/Stadtteilfilter und stabile Links. Quellenabruf des einzelnen Veranstaltungstermins wurde in dieser Runde nicht erneut durchgeführt. |
 | B10 Einsamkeit | Vorhandene Tests prüfen 139 Ansichten, Querverweise, Quellenzuordnungen und 88 historische Bildnummern. Eine vollständige Live-Abnahme der Karten, Suche und jeder einzelnen Unterseite steht aus. |
-| B11 Mietkosten | Inhalt und Datenmodell enthalten weiterhin 51 Abschnitte, 33 Korrekturpositionen, acht Themenzugänge, Tabellen und Suche. Live-Prüfung am 20.11.2026: Desktopseite geladen; bei schmaler CSS-Ansicht (337 px Dokumentbreite) kein horizontaler Seitenüberlauf; Navigation geöffnet; „Genossenschaftsanteile“ ergab 4 Treffer; aufklappbare Kapitelübersicht zeigte alle 51 Kapitel. Drei Tabellen-Wrapper waren 293 px breit und horizontal bedienbar. Kapitel 51 wurde direkt geöffnet; URL-Wechsel beim Klick auf Kapitel 1 war nicht zuverlässig beobachtbar. Kein physisches Mobilgerät getestet. |
+| B11 Mietkosten | Inhalt und Datenmodell enthalten weiterhin 51 Abschnitte, 33 Korrekturpositionen, acht Themenzugänge, Tabellen und Suche. Live-Prüfung am 20.11.2026 nach A18-Deployment: Desktopseite geladen; in schmaler Browseransicht bei ca. 337 CSS-Pixel effektiver Dokumentbreite kein horizontaler Seitenüberlauf; Navigation geöffnet; „Genossenschaftsanteile“ ergab 4 Treffer; die Kapitelübersicht enthielt alle 51 Kapitel; Direktaufruf von Kapitel 51 funktionierte. Ein früherer Live-Durchgang hatte drei Tabellen-Wrapper mit je ca. 293 px Breite als horizontal bedienbar beobachtet; dieser Tabellen-Scroll wurde nach A18 nicht erneut betätigt. URL-Wechsel beim Klick auf Kapitel 1 war nicht zuverlässig beobachtbar. Die schmale Darstellung wurde per Browserzoom erzeugt, nicht mit einem physischen Mobilgerät oder nativer Geräteemulation. |
 
 ## Teil C – Rechtliche und organisatorische Seiten
 
@@ -90,7 +90,7 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 - Automatisierte Tests: **353 bestanden, 0 fehlgeschlagen, 0 übersprungen**; darin sind 7 neue A18-Regressionsprüfungen enthalten.
 - Produktionsbuild: erfolgreich. `verify-dist` bestätigte 266 Dateien, Basispfad `/bergedorf-gemeinsam/`, `noindex`, 4 Beispiele, 69 redaktionelle Einträge, 0 Live-Datensätze. Bestehende Vite-Warnungen: große JavaScript-Bundles (2,72 MB/558 kB unkomprimiert) und zur Laufzeit aufzulösendes `/bergedorf-gemeinsam/assets/leaflet.css`.
 - `git diff --check`: bestanden.
-- Der Auftrag-18-Branch enthält zum Zeitpunkt dieses Zwischenstands noch keinen A18-Commit; PR und A18-Veröffentlichung sind noch ausstehend. Sie werden nach abschließender lokaler Prüfung und PR-CI nachgetragen. Keine Aussage, dass die A18-Korrekturen bereits öffentlich sind.
+- PR #6 wurde zusammengeführt und veröffentlicht (Merge-Commit `a4ec911ef3280a2799551d667e47a2b9fe06dcec`; GitHub Pages Lauf #61 erfolgreich). Die öffentliche Website wurde nach diesem Deployment live geladen; die Live-Abnahme und ihre Grenzen stehen unter B11 und A18-17. PR-Statuschecks wurden von GitHub nicht bereitgestellt (`combined status: no checks`); lokale Tests und Build sind oben getrennt ausgewiesen.
 
 ## A18-17 – Arbeitsauftrag 17 abschließen
 
@@ -98,15 +98,14 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 - Die veröffentlichte Mietkostenseite wurde am 20.11.2026 am Desktop und in einer schmalen Browseransicht geprüft. Kein horizontaler Seitenüberlauf; Suche, acht Themenzugänge, Navigation und Kapitelübersicht sichtbar.
 - Dokumentation in `docs/mietkosten/auftrag17.md` aktualisiert; frühere widersprüchliche Veröffentlichungsaussagen und Handlungsanweisungen als historisch kenntlich gemacht. Die Desktop-/Live-Schmalbreitenbefunde wurden hier ergänzt.
 - Schmale Liveprüfung ist vom früheren lokalen Reflow-Test unterschieden. Kein physisches Smartphone getestet.
-- Status: Mietratgeber-Umsetzung und bisherige Live-Abnahme sind bestätigt. Der formale A17-Abschluss erfolgt erst mit dem Merge und erfolgreichen Deployment dieses Berichts und der A17-Dokumentationskorrektur im A18-PR.
+- Status: A17 ist nach erfolgreicher Live-Abnahme, Korrektur der A17-Dokumentation, Merge von PR #6 und erfolgreichem GitHub-Pages-Lauf #61 vollständig abgeschlossen. Der Live-Mobilnachweis basiert auf schmaler Browseransicht/Browserzoom und ist keine Prüfung auf einem physischen Smartphone.
 
 ## Noch offene Prüfungen
 
-1. PR-CI und A18-Veröffentlichung einschließlich erneuter Liveprüfung nach Deployment.
-2. Profilzahlen 66/67 aus dem Auftrag mit dem aktuellen Bestand von 69 veröffentlichten Profilen, 69 Koordinaten und 60 unterschiedlichen Koordinatenpaaren versöhnen; nichts ist dafür entfernt worden.
-3. Vollständige manuelle Navigation-, Filter-, Formular-, Karten- und Verlinkungsabnahme über alle Bereiche auf Desktop und schmaler Mobilansicht.
-4. Weitere Geräte/Browser und vollständige Tastatur-/Barrierefreiheitsprüfung.
-5. Vollständige erneute externe Quellen- und Rechtsprüfung, insbesondere Mietrecht, DSGVO und einzelne historische/amtliche Quellen.
-6. Insbesondere aktuell keine praktische End-to-End-Abnahme von Karten-Consent in allen Karten, dynamischen Formularfeldern, Clipboard/Mailclient, allen Kapitelklicks und Verzeichnis-Clustern.
+1. Profilzahlen 66/67 aus dem Auftrag mit dem aktuellen Bestand von 69 veröffentlichten Profilen, 69 Koordinaten und 60 unterschiedlichen Koordinatenpaaren versöhnen; nichts ist dafür entfernt worden.
+2. Vollständige manuelle Navigation-, Filter-, Formular-, Karten- und Verlinkungsabnahme über alle Bereiche auf Desktop und schmaler Mobilansicht.
+3. Weitere Geräte/Browser und vollständige Tastatur-/Barrierefreiheitsprüfung.
+4. Vollständige erneute externe Quellen- und Rechtsprüfung, insbesondere Mietrecht, DSGVO und einzelne historische/amtliche Quellen.
+5. Insbesondere aktuell keine praktische End-to-End-Abnahme von Karten-Consent in allen Karten, dynamischen Formularfeldern, Clipboard/Mailclient, allen Kapitelklicks und Verzeichnis-Clustern.
 
 Ein nicht ausgeführter Test wird hier nicht als bestanden bewertet.
