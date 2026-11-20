@@ -19,7 +19,7 @@ export const mapPrivacyInfo={
   },
   "openstreetmap": {
     "name": "OpenStreetMap",
-    "purpose": "Organisationskarte laden",
+    "purpose": "Historischer OpenStreetMap-Kacheldienst der früheren Organisationskarte bis Arbeitsauftrag 15; durch Arbeitsauftrag 16 ersetzt",
     "data": "Beim Laden der Organisationskarte werden Ihre IP-Adresse, technische Verbindungsdaten und der angeforderte Kartenausschnitt an den Kartendienst der OpenStreetMap Foundation beziehungsweise dessen Auslieferungsinfrastruktur übertragen.",
     "cookies": "Bei unserer bisherigen Prüfung wurden für die untersuchten Kartenabrufe keine Cookies nachgewiesen. Die offiziellen Anbieterinformationen erläutern die Datenverarbeitung und den Einsatz von Cookies bei den jeweiligen Diensten.",
     "delivery": "Weitere Informationen:",

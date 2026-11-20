@@ -1,7 +1,7 @@
 // Browser-session-only test rules. No network, persistence or public submission endpoint.
 export const pressDiscussionEnabled=false;
 export const pressTestEnabled=true;
-export const pressMedia=['Bergedorfer Zeitung','Bille Wochenblatt','Hamburger Abendblatt','Hamburger Morgenpost (MOPO)','BILD-Zeitung'];
+export const pressMedia=['Bergedorfer Zeitung','Bille Wochenblatt','Stadtteilzeitung Lohbrügge','Hamburger Abendblatt','Hamburger Morgenpost (MOPO)','BILD-Zeitung','Hinz&Kunzt'];
 export const bergedorfConfirmation='Ich bestätige, dass sich der ausgewählte Pressebericht auf eine Angelegenheit des Bezirks Bergedorf bezieht oder Bergedorf nachweisbar mitbetrifft.';
 export const pressScopeOptions=[['direct','Unmittelbares Bergedorfer Thema'],['shared','Übergeordnetes Thema mit Auswirkungen auf Bergedorf']];
 export const readingOptions=[['online','Digital – auf einer Internetseite oder in einer E-Paper-Ausgabe'],['print','Gedruckt – in einer Zeitung aus Papier']];
