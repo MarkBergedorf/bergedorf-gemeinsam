@@ -266,6 +266,7 @@ Dieser Nachtrag hält ausschließlich die in dieser Fortsetzung zusätzlich ausg
 | B1–B5 | Zuvor dokumentierte Teilprüfungen bleiben anerkannt. Die geschichtliche Suchprobe `Ragit` wurde ergänzt. Vollständige Inhalts-, Orts-, Bild- und Quellenabnahme bleibt offen. |
 | B6 / D2 | 1.633 dokumentierte Verzeichniszustände, Suchproben, Sortierprobe, Nulltreffer und Rücksetzen; ein passender Popup-zu-Listen-Fokus wurde live nachgewiesen. „Jenseits der ersten zwölf“ und vollständige Permutationen aller Eingaben sind offen. |
 | B7 / D3–D4 | Verzeichnis- und Geschichtskarte live geöffnet; Zustimmung und Darstellung der Geschichtskarte geprüft. Vollständige Grenzen-/Gebiets-/Markerabnahme aller Varianten und tatsächliche Netzwerkprüfung vor Zustimmung/Ablehnung bleiben offen. |
+| B8 / D1 | PR #9, Pages #64 sowie der Live-Nachtest der Hauptnavigation und aller sieben Medienoptionen bleiben als abgeschlossen anerkannt. In dieser Fortsetzung wurde daran keine Regression festgestellt; Arbeitsauftrag 17 bleibt davon unberührt. |
 | B9 | Eine sechsfach kombinierte Veranstaltungsauswahl, Preis-Gegenprobe, leere Trefferliste und Zurücksetzen live geprüft; nicht sämtliche Zeit-/Preis-/Ortsszenarien. |
 | B10 | 139 Themenansichten und frühere Prüfungen bleiben anerkannt; kein kompletter Live-Einzeltest sämtlicher Ansichten/Quellen. |
 | B11 | Arbeitsauftrag 17 bleibt abgeschlossen; nicht wieder geöffnet. |
