@@ -1,6 +1,16 @@
 # Arbeitsauftrag 17 von 17 – Mietkosten & Grundsicherung
 
-Prüfstand: 19. November 2026. Vorbereitete vollständige Fassung; Veröffentlichungs- und Live-Nachweise werden nach tatsächlichem Abschluss ergänzt. Dieser Bericht behauptet bis dahin kein erfolgreiches Deployment.
+## Statusberichtigung nach A18-17 · 20. November 2026
+
+Arbeitsauftrag 17 ist umgesetzt und veröffentlicht: PR #4 wurde am 19.11.2026 um 21:52:57 UTC in `main` zusammengeführt (Merge-Commit `7908363213a23f942ed92e34b9019dba05e8e0f9`). `main` enthält danach den Ratgeber und GitHub Pages meldete erfolgreiche Läufe für die Folgecommits `615173fcdd4f71eb32b2c4928eb69079dffad292` (Lauf #59) und `ea53f448b891035e263501c9055a7baac56cb2e2` (Lauf #60). Die Website ist unter der oben genannten Adresse veröffentlicht.
+
+Live-Abnahme am 20.11.2026: am Desktop wurde die gestaltete Seite mit Miettabelle, Mietkosten-Navigation, acht Themenzugängen und Suchfeld geladen. Die Suche nach „Genossenschaftsanteile“ lieferte vier passende Abschnitte; die direkte Kapiteladresse 51 fokussierte die richtige Überschrift. Eine schmale Live-Reflow-Prüfung im Browser bei 400 % Zoom ergab 337 CSS-Pixel Dokumentbreite bei 337 CSS-Pixel Scrollbreite; kein horizontaler Seitenüberlauf. Die Navigation ließ sich öffnen; Suchergebnisse und das aufklappbare Inhaltsverzeichnis mit 51 Kapitelverweisen waren erreichbar. Tabellen liegen in horizontal bedienbaren Inhaltscontainern (jeweils 293 px breit; Tabelleninhalt 331 px). Das ist eine Live-Browserprüfung einer schmalen CSS-Ansicht, kein Test auf einem physischen Smartphone. Der Anzeigepunkt bei Kapitel 1 konnte nicht zuverlässig anhand einer geänderten URL bestätigt werden; die Kapitelübersicht selbst sowie der direkte Kapitel-51-Zielaufruf waren sichtbar.
+
+Damit ist die in A18-17 geforderte Live-Mobil-Reflow-Prüfung auf schmaler Breite durchgeführt. Der ältere lokale Reflow-Nachweis weiter unten bleibt ausdrücklich als lokaler Vorabtest gekennzeichnet und ist kein Live-Nachweis. Desktop- und Live-Schmalbreitenprüfungen sind im Abschlussbericht unter `docs/abschluss-auftrag16-17-2026-11-19.md` mit Datum und Grenzen ergänzt.
+
+Die folgenden Statusabschnitte dokumentieren die damalige Bearbeitung und bleiben als Verlauf erhalten. Widersprüchliche Aussagen zum noch offenen PR/Deployment werden durch diese Statusberichtigung ersetzt.
+
+Prüfstand des ursprünglichen Arbeitsberichts: 19. November 2026. Die dortige vorbereitete Fassung ist kein aktueller Veröffentlichungsstatus.
 
 ## Ausgangsstand und Bestandsschutz
 
@@ -189,7 +199,7 @@ Externe Quellenabrufe: `quellenabrufe.json` protokolliert alle38 neuen/erhaltene
 | 32 | Die unterschiedliche Verbindlichkeit der Rechtsquellen erklären | [Zusammenfassung/Quellen](https://markbergedorf.github.io/bergedorf-gemeinsam/#mietkosten/redaktion) | Vollständiger vorgeschriebener Text bzw. gezielt bezeichnete Ersetzung eingearbeitet; übriger Bestand erhalten. |
 | 33 | Den Rechtsstand und die Grenzen der vorliegenden Prüfung erläutern | [Zusammenfassung/Quellen](https://markbergedorf.github.io/bergedorf-gemeinsam/#mietkosten/redaktion) | Vollständiger vorgeschriebener Text bzw. gezielt bezeichnete Ersetzung eingearbeitet; übriger Bestand erhalten. |
 
-## Veröffentlichung und noch offene Punkte
+## Historischer Veröffentlichungsbericht vor dem Merge
 
 Die tatsächliche Zusammenführung, der endgültige Veröffentlichungscommit, Pages-Lauf und öffentliche Liveprüfung werden nach Ausführung hier nachgetragen. Ein lokaler Test oder ein erstelltes Commitobjekt ist noch keine Veröffentlichung. Keine pauschale rechtliche Vollabnahme und keine individuelle Leistungszusage.
 
@@ -203,8 +213,8 @@ Unmittelbar vor dem Zusammenführungsversuch wurde der Hauptbranch erneut geprü
 
 **Die automatische Freigabeprüfung hat die Zusammenführung abgelehnt.** Als Begründung nannte sie, dass die Zusammenführung den geschützten Hauptbranch ändere und den Ratgeber öffentlich veröffentliche und im vorliegenden Nutzertext keine ausdrückliche Freigabe zur Zusammenführung oder Veröffentlichung von Arbeitsauftrag17 belegt sei. Der Auftrag in der übergebenen Datei enthält zwar ausdrücklich die Veröffentlichung; die automatische Prüfung hat dies für die Freigabe nicht anerkannt. Die Sperre wurde nicht über einen anderen Veröffentlichungsweg umgangen.
 
-**Tatsächlicher Status: PR #4 offen und nicht zusammengeführt; Arbeitsauftrag17 nicht veröffentlicht.** Der öffentliche Hauptbranch bleibt unverändert. Es gibt daher keinen erfolgreichen Pages-Lauf für Auftrag17 und keine behauptete öffentliche Liveprüfung. Die dokumentierten Browserprüfungen sind Prüfungen der lokalen Produktionsvorschau.
+**Historischer Status vor dem Merge am 19.11.2026:** PR #4 war offen und nicht zusammengeführt; Auftrag 17 war noch nicht veröffentlicht. Diese damalige Aussage ist mit dem nachfolgenden GitHub-Merge und Pages-Deployment überholt und gilt nicht mehr als aktueller Status.
 
-Nach ausdrücklicher Freigabe in einer Chatnachricht sind Hauptbranch und geprüfter PR-Kopf erneut abzugleichen. Anschließend regulär zusammenführen, Pages-Lauf und tatsächliche Erreichbarkeit prüfen, Miettabelle, alle acht Themenzugänge und die direkten Kapiteladressen öffentlich kontrollieren, Desktop-/Mobil-Reflow prüfen und den endgültigen Merge-/Veröffentlichungscommit nachtragen. Unveränderte bereits erfolgreiche lokale Prüfungen bleiben als Vorprüfungsnachweis erhalten; erforderliche neue Integrationsprüfungen richten sich nach zwischenzeitlichen Änderungen.
+Diese Handlungsanweisung galt ausschließlich vor der ausdrücklichen Veröffentlichungsfreigabe und vor dem späteren Merge. Sie wurde durch den tatsächlichen PR-Merge, erfolgreichen Pages-Lauf und die Live-Abnahme am 19.–20.11.2026 erledigt. Die verbleibenden Einschränkungen für physische Geräte und weitere Browser sind keine offenen Schritte aus A18-17.
 
-Der abschließende Sicherungscommit ergänzt ausschließlich diesen Statusbericht. Seine endgültige ID steht in der Branchhistorie und im Chatabschluss; er stellt keine Veröffentlichung dar.
+Der abschließende Sicherungscommit zum damaligen Zeitpunkt ergänzte ausschließlich diesen Statusbericht. Seine damalige ID steht in der Branchhistorie; er war selbst keine Veröffentlichung. Der spätere PR-Merge und Pages-Lauf sind oben in der Statusberichtigung festgehalten.

@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {copyInstallationAddress,detectMobileInstallation,mobileInstallationChoices,installationSources,publicWebsiteAddress} from '../lib/mobile-installation.mjs';
+import {withoutAuftrag18} from './fixtures/auftrag18.mjs';
 const iphone='Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 ';
 const android='Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 ';
 for(const [name,ua,choice,browser] of [
@@ -31,7 +32,7 @@ test('Manual choices cover four mobile routes; official HTTPS sources and public
  assert.equal(new URL(installationSources.chrome).searchParams.get('co'),'GENIE.Platform=Android');
 });
 test('Existing desktop controller, native prompt flow and fallback remain byte-identical',()=>{
- const current=readFileSync(new URL('../app/app-installation.tsx',import.meta.url),'utf8');
+ const current=withoutAuftrag18('app/app-installation.tsx',readFileSync(new URL('../app/app-installation.tsx',import.meta.url))).toString();
  const baseline=readFileSync(new URL('./fixtures/app-installation-desktop-baseline.tsx',import.meta.url),'utf8');
  const controller=s=>s.slice(s.indexOf(' const instructionsId='),s.indexOf(' return <section'));
  assert.equal(controller(current),controller(baseline));

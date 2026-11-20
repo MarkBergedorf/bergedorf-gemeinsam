@@ -1,0 +1,112 @@
+# Arbeitsauftrag 18 – Prüf- und Umsetzungsbericht
+
+Stand: 20. November 2026 (Europe/Berlin)
+
+## Auftrag und Ausgangsstand
+
+Geprüft wurde das bestehende Repository `MarkBergedorf/bergedorf-gemeinsam`. Ausgangsbranch `main`, Stand `ea53f448b891035e263501c9055a7baac56cb2e2`. Arbeitsbranch: `auftrag18-qa`. PR #4 zu Arbeitsauftrag 17 ist am 19.11.2026 zusammengeführt; GitHub Pages meldete für die Folgecommits `615173fcdd4f71eb32b2c4928eb69079dffad292` und `ea53f448b891035e263501c9055a7baac56cb2e2` erfolgreiche Veröffentlichungen.
+
+A18-17 wurde mit dem tatsächlichen Merge-, Pages- und Live-Prüfstand in `docs/mietkosten/auftrag17.md` sowie in der Statuskorrektur zu Arbeitsauftrag 16/17 abgeglichen. Die frühere offene Veröffentlichungsaussage ist als historisch markiert. Ein älterer lokaler Reflow-Nachweis wird ausdrücklich nicht als Live-Mobilprüfung ausgegeben.
+
+## Tatsächlich geänderte Dateien
+
+- `frontend/app/platform.tsx` – „Über uns“ nur aus der oberen Hauptnavigation gefiltert; Seitenroute, Footer und direkte Adresse bleiben bestehen.
+- `frontend/app/contributions.tsx` – Singular/Plural der Beispielzahl, getrennte Bürgerbeitragszählung und Beispieletikett berichtigt.
+- `frontend/app/app-installation.tsx` – Hinweis an die öffentliche statische GitHub-Pages-Testfassung angepasst.
+- `frontend/lib/participation.mjs` – öffentliche Themen und redaktionelle Inhalte beschrieben; künftige Beteiligung, Abwesenheitsregel und Uploadgrenzen klargestellt.
+- `frontend/lib/press-discussions.mjs` – Stadtteilzeitung Lohbrügge und Hinz&Kunzt in die bestehende Medienauswahl aufgenommen.
+- `frontend/app/credits-page.tsx`, `frontend/app/map-legend.tsx`, `frontend/app/legal-pages.tsx`, `frontend/lib/map-privacy-info.mjs` – Wappenhinweis ohne behauptete amtliche Erlaubnis; Kartenanbieter und Lizenzen auf den produktiven OpenFreeMap-/OpenMapTiles-/OSM-Stand ausgerichtet; frühere OSMF-Kacheln als historisch bezeichnet; Testbetrieb und Backendgrenzen verdeutlicht.
+- `frontend/app/support.tsx` – die wirkungslose Schaltfläche „Finanzstand aktualisieren“ durch eine zutreffende Anzeige zum statischen Testbestand ersetzt.
+- `frontend/tests/auftrag18-regression.test.mjs`, `frontend/tests/fixtures/auftrag18.mjs` sowie bestehende Preservations-/Regressionstests – sieben gezielte A18-Regressionen ergänzt und überholte Erwartungen der historischen Medienauswahl aktualisiert.
+- `docs/mietkosten/auftrag17.md`, `docs/abschluss-auftrag16-17-2026-11-19.md` – A18-17-Status und Live-Prüfgrenzen berichtigt.
+
+Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 51 Mietkostenabschnitte, acht Themenzugänge, 88 historischen Bildnummern, Karten, Profile und Formulare, wurden nicht entfernt.
+
+## Teil A – Verbindliche Korrekturen
+
+| Punkt | Ergebnis |
+|---|---|
+| A1 | Erledigt. Oberes Menü filtert nur `ueber`; Route `#ueber` und Footer-Link bleiben erhalten. Regressionstest ergänzt. |
+| A2 | Erledigt. Beispielzahl verwendet Singular bei 1 und Plural sonst; Bürgerbeiträge und Beispiele werden getrennt benannt. Vier Beispiele bleiben als erfunden gekennzeichnet. |
+| A3 | Erledigt für die geprüften öffentlichen Hinweise: Installationsseite und Informationsseiten nennen die öffentliche statische Testfassung; legitime Verweise auf die getrennte private Entwicklungsumgebung bleiben als solche abgegrenzt. |
+| A4 | Erledigt im geprüften Quellen-, Kartenlegenden-, Datenschutz- und Zustimmungsbestand: OpenFreeMap Liberty, OpenMapTiles/OSM-Daten, ODbL, LGV/ALKIS und DL-DE-BY-2.0; frühere OSMF-Kacheln sind historisch markiert. Quelle und Lizenztexte wurden mit den offiziellen OSM-, OpenMapTiles- und GovData-Seiten abgeglichen. |
+| A5 | Erledigt. Wikimedia-Commons-Herkunftslink und dauerhafte Seitenversion bleiben; eine amtliche Erlaubnis wird nicht behauptet. § 5 UrhG wurde anhand des amtlichen Gesetzestextes geprüft; daraus wird keine weitergehende wappenrechtliche Freigabe abgeleitet. |
+| A6 | Erledigt. Öffentliche Seite sagt, dass produktive Einreichungen, Meldungen, Einsprüche und automatische Moderation nicht angeschlossen sind; E-Mail-Kontakt sowie Regeln und geplantes Konzept bleiben. |
+| A7 | Erledigt. Sieben-Tage-Regel und Abwesenheitsvorrang werden ausdrücklich dem späteren Einreichungsbetrieb zugeordnet. |
+| A8 | Erledigt. Allgemeine Beiträge haben keinen Upload; lokale Vorbereitungsformulare übertragen, veröffentlichen oder speichern Dateien nicht serverseitig. Eine spätere produktive Übermittlung erfordert separate Freigabe. |
+| A9 | Erledigt. Über-Seite umfasst Nachrichten, Veranstaltungen, Einsamkeit/Begegnung, Mietkosten/Grundsicherung und Organisationsprofile; redaktioneller Bestand und vier Beispiele sind von künftigen Einreichungen getrennt. |
+
+## Teil B – Hauptbereiche und Inhalte
+
+| Bereich | Prüfergebnis und Grenze |
+|---|---|
+| B1 Startseite | Quellcode und Regressionen bestätigen vier fiktive Beispiele, getrennte redaktionelle Bereiche und den Themenzugang. Vollständiger visueller Durchgang aller Startseitenlinks steht noch aus. |
+| B2 Anliegen | Such-/Beitragslogik und Beispieltrennung sind durch vorhandene Tests abgedeckt; eine neue manuelle Formulareinreichung wurde nicht durchgeführt. |
+| B3 Erfahrungsberichte | Sortier-/Filterlogik und Kommentargrenze bleiben durch vorhandene Tests abgedeckt; praktischer End-to-End-Durchgang steht aus. |
+| B4 Geschichte/Erinnerungen | Bestehende Tests bestätigen 88 Bildnummern, Rechteangaben, Prüfsummen und 139 Einsamkeitsansichten. Sechs Ortsbezüge bleiben in der Quelldokumentation. Externe Einzelnachweise wurden in dieser Runde nicht sämtlich erneut abgerufen. |
+| B5 Politik | Bestehende Regressionen erhalten die Inhalte und Navigationsstruktur. Eine vollständige neue Prüfung aller amtlichen Ausschussbezeichnungen, Ausnahmen und sechs externen Gruppenlinks steht aus. |
+| B6 Verzeichnis | Bestandsprüfung ergibt 69 redaktionelle, veröffentlichte Profile mit Koordinaten. |
+| B7 Organisationen/Karten | Bestandsprüfung ergibt dieselben 69 Profile mit Koordinaten, aber 60 unterschiedlichen Koordinatenpaaren. Das weicht von den im Auftrag genannten 66 Profilen/67 Standortpunkten ab. Keine Profile wurden entfernt; die historische Bezugszahl und die Zählweise (Profile, Standortdatensätze, Koordinaten/Marker) müssen abgeglichen werden. Eine vollständige Live-Abnahme aller Karteninteraktionen ist offen. |
+| B8 Nachrichten | Erledigt. Alle sieben genannten Medien stehen in der Presseauswahl. Lokale Formularregeln und Medienauswahl sind automatisiert getestet; ein manueller UI-Wechsel zwischen Digital/Print steht aus. |
+| B9 Veranstaltungen | Vorhandene Tests prüfen Berlin-Zeit, Zeitfilter, vergangene und künftige Veranstaltungen, Kosten-/Stadtteilfilter und stabile Links. Quellenabruf des einzelnen Veranstaltungstermins wurde in dieser Runde nicht erneut durchgeführt. |
+| B10 Einsamkeit | Vorhandene Tests prüfen 139 Ansichten, Querverweise, Quellenzuordnungen und 88 historische Bildnummern. Eine vollständige Live-Abnahme der Karten, Suche und jeder einzelnen Unterseite steht aus. |
+| B11 Mietkosten | Inhalt und Datenmodell enthalten weiterhin 51 Abschnitte, 33 Korrekturpositionen, acht Themenzugänge, Tabellen und Suche. Live-Prüfung am 20.11.2026: Desktopseite geladen; bei schmaler CSS-Ansicht (337 px Dokumentbreite) kein horizontaler Seitenüberlauf; Navigation geöffnet; „Genossenschaftsanteile“ ergab 4 Treffer; aufklappbare Kapitelübersicht zeigte alle 51 Kapitel. Drei Tabellen-Wrapper waren 293 px breit und horizontal bedienbar. Kapitel 51 wurde direkt geöffnet; URL-Wechsel beim Klick auf Kapitel 1 war nicht zuverlässig beobachtbar. Kein physisches Mobilgerät getestet. |
+
+## Teil C – Rechtliche und organisatorische Seiten
+
+| Punkt | Ergebnis |
+|---|---|
+| C1 Impressum | Betreiber-, Anschrift-, E-Mail- und Redaktionsangaben blieben erhalten. Die aktuelle Seitenfassung nennt den öffentlichen Testbetrieb. Vollständige Rechtsprüfung sämtlicher Anwendbarkeitstatbestände und Betreiberpflichten ist nicht durch eine anwaltliche Prüfung ersetzt. |
+| C2 Teilnahmeregeln | Detaillierte Regeln und Aufbewahrungsfristen bleiben bestehen; Status als späterer Betrieb und fehlendes Backend sind kenntlich. Praktische Löschläufe sind nicht aktiviert und daher nicht end-to-end prüfbar. |
+| C3 Bildnachweise/Karten | Wappen-/Schlossquellen, historische Sammlung und Kartenlizenzen bleiben verlinkt; Anbietertext aktualisiert. Nicht alle externen Einzelquellen wurden erneut abgerufen. |
+| C4 Unterstützung | Finanzstruktur bleibt; falsche Aktualisierungsschaltfläche entfernt. Unterstützungsauszahlung und endgültige Restmittelrückzahlung wurden nicht praktisch ausgelöst oder rechtlich abschließend geprüft. Zahlungsfunktionen bleiben deaktiviert. |
+| C5 Datenschutz | Öffentlicher statischer Betrieb, nicht angeschlossene Funktionen, künftige Verarbeitung und getrennte Kartenfreigaben sind abgeglichen. Externe Datenschutzangaben wurden für die Kartenquellen mit den Anbieterhinweisen verglichen. Kein vollständiges Datenschutzgutachten. |
+| C6 Moderation | Aktive Backendfunktionen von geplantem Drei-Meldungen-Konzept getrennt; E-Mail-Kontakt bleibt. Rechtsmeldungen sind textlich abgegrenzt; keine vollständige Einzelfall-Rechtsberatung. |
+| C7 Barrierefreiheit | Öffentliche Testfassung und Grenzen produktiver Funktionen werden beschrieben. Bestehende Teilprüfungen werden nicht als WCAG-Konformitätserklärung ausgegeben. Vollständige manuelle WCAG-2.2-AA-Prüfung bleibt offen. |
+| C8 Quellenverzeichnisse | Bestehende automatisierte Quellen- und Katalogtests liefen mit; eine manuelle Prüfung jedes gerenderten Verweises und jeder Quelldatei wurde nicht abgeschlossen. |
+
+## Teil D – technische Funktionen
+
+| Punkt | Ergebnis |
+|---|---|
+| D1 Navigation | Routen, Menü- und Fußbereichsbestand sind getestet; A1-Regression bestätigt den Sonderfall `#ueber`. Live wurde im Rahmen von A18-17 nur die Mietkosten-Navigation geöffnet. Vollständiger Klicktest aller Seiten und Tastatur-Fokuspfade bleibt offen. |
+| D2 Suche/Filter | Automatisierte Modell- und URL-Tests für Mietratgeber, Veranstaltungen, Nachrichten, Beiträge, Verzeichnis und Einsamkeit bestanden. Live geprüft wurden nur Mietkosten-Suche und Themenzugänge, nicht jeder Filter in jeder Oberfläche. |
+| D3 Geografie | Bestehende Daten-/Kartenregressionen bleiben bestanden; amtliche Stadtteil-, Wohngebiets- und historische Ortsabgrenzungen wurden in dieser Runde nicht vollständig neu mit amtlichen Quellen abgeglichen. |
+| D4 Karten | Karten- und Ladefreigabe-Regressionen bestanden; vollständige praktische Prüfung der 14 Stadtteile, Wohngebiete, Oberbillwerder, fünf Stationen, Marker, Cluster, Ablehnung/Entladen und Speicherung auf Desktop und Mobil bleibt offen. |
+| D5 Formulare | Bestehende Unit-Tests prüfen Presse-, Rechte-/Fotohinweis- und Fehlerformular-Validierung, Zeichenlimits und fehlende Übermittlung. Der geforderte vollständige manuelle UI-Durchgang aller Pflicht-/Bedingungsfelder wurde nicht ausgeführt. |
+| D6 Störungsmeldung | Bestehende Regressionen prüfen Europe/Berlin-Datum, Geräte-/Feldregeln, lange Kopiertexte, Mailto-Vorbereitung, Verlust bei Neuladen und fehlende Übermittlung. Live-Tastatur-/Clipboard-Durchlauf bleibt offen. |
+| D7 Alle Beiträge | Vier Testbeispiele und getrennte redaktionelle Inhalte sind erhalten. Vollständiger praktischer Durchgang aller Filter-/Sortier-/Rücksprungkombinationen wurde nicht abgeschlossen. |
+
+## Teil E – rechtliche, Datenschutz- und redaktionelle Kontrolle
+
+- E1: Der amtliche § 5 UrhG sowie die für die Kartenquellen relevanten OSM-/OpenMapTiles-Lizenzinformationen und DL-DE-BY-2.0 wurden auf den vorliegenden Text bezogen. Eine vollständige Rechtsprüfung sämtlicher Angaben zu Mietrecht, Datenschutz, Persönlichkeitsrecht, Medienrecht, Zahlungs- und Speicherpflichten wurde nicht erneut durchgeführt und bleibt als fachliche Endprüfung offen.
+- E2: Offizielle Quellenhinweise für UrhG, OpenStreetMap/ODbL und GovData wurden abgerufen. Ein vollständiger HTTP-/Sachbezugstest aller Website- und Profilquellen ist offen; bestehende Quellen-Regressionen liefen.
+- E3: Quellcode und Build-Prüfung zeigen keine neu aktivierte Registrierung, Backend-Einreichung, Zahlungsabwicklung oder serverseitige Uploadfunktion. Build-Ausgabe nennt `liveDatabaseRead:false`, `privateDocuments:0` und `liveRecords:0`.
+- E4: Produktionsprüfung umfasst 266 Builddateien; der Verifier meldete 0 Live-Datensätze. Private Zahlungsbelege oder private Dateien wurden nicht in den Build übernommen. Ein unabhängiger vollständiger Geheimnis-/Personendaten-Scan der Quellhistorie ist nicht Teil dieses Ergebnisses.
+- E5: Desktop-/Schmalbreiten-Liveprüfung für den Mietkostenratgeber ist erfolgt. Weitere öffentliche Karten-, Formular-, Dialog-, Bild-/Galerie- und Tastaturprüfungen auf diversen Geräten bleiben offen. Die schmale Ansicht wurde über Browserzoom statt auf einem physischen Smartphone hergestellt.
+
+## Teil F – Build, Tests, PR und Veröffentlichung
+
+- Automatisierte Tests: **353 bestanden, 0 fehlgeschlagen, 0 übersprungen**; darin sind 7 neue A18-Regressionsprüfungen enthalten.
+- Produktionsbuild: erfolgreich. `verify-dist` bestätigte 266 Dateien, Basispfad `/bergedorf-gemeinsam/`, `noindex`, 4 Beispiele, 69 redaktionelle Einträge, 0 Live-Datensätze. Bestehende Vite-Warnungen: große JavaScript-Bundles (2,72 MB/558 kB unkomprimiert) und zur Laufzeit aufzulösendes `/bergedorf-gemeinsam/assets/leaflet.css`.
+- `git diff --check`: bestanden.
+- Der Auftrag-18-Branch enthält zum Zeitpunkt dieses Zwischenstands noch keinen A18-Commit; PR und A18-Veröffentlichung sind noch ausstehend. Sie werden nach abschließender lokaler Prüfung und PR-CI nachgetragen. Keine Aussage, dass die A18-Korrekturen bereits öffentlich sind.
+
+## A18-17 – Arbeitsauftrag 17 abschließen
+
+- PR #4 ist zusammengeführt; GitHub Pages führte erfolgreiche Deployments aus.
+- Die veröffentlichte Mietkostenseite wurde am 20.11.2026 am Desktop und in einer schmalen Browseransicht geprüft. Kein horizontaler Seitenüberlauf; Suche, acht Themenzugänge, Navigation und Kapitelübersicht sichtbar.
+- Dokumentation in `docs/mietkosten/auftrag17.md` aktualisiert; frühere widersprüchliche Veröffentlichungsaussagen und Handlungsanweisungen als historisch kenntlich gemacht. Die Desktop-/Live-Schmalbreitenbefunde wurden hier ergänzt.
+- Schmale Liveprüfung ist vom früheren lokalen Reflow-Test unterschieden. Kein physisches Smartphone getestet.
+- Status: Mietratgeber-Umsetzung und bisherige Live-Abnahme sind bestätigt. Der formale A17-Abschluss erfolgt erst mit dem Merge und erfolgreichen Deployment dieses Berichts und der A17-Dokumentationskorrektur im A18-PR.
+
+## Noch offene Prüfungen
+
+1. PR-CI und A18-Veröffentlichung einschließlich erneuter Liveprüfung nach Deployment.
+2. Profilzahlen 66/67 aus dem Auftrag mit dem aktuellen Bestand von 69 veröffentlichten Profilen, 69 Koordinaten und 60 unterschiedlichen Koordinatenpaaren versöhnen; nichts ist dafür entfernt worden.
+3. Vollständige manuelle Navigation-, Filter-, Formular-, Karten- und Verlinkungsabnahme über alle Bereiche auf Desktop und schmaler Mobilansicht.
+4. Weitere Geräte/Browser und vollständige Tastatur-/Barrierefreiheitsprüfung.
+5. Vollständige erneute externe Quellen- und Rechtsprüfung, insbesondere Mietrecht, DSGVO und einzelne historische/amtliche Quellen.
+6. Insbesondere aktuell keine praktische End-to-End-Abnahme von Karten-Consent in allen Karten, dynamischen Formularfeldern, Clipboard/Mailclient, allen Kapitelklicks und Verzeichnis-Clustern.
+
+Ein nicht ausgeführter Test wird hier nicht als bestanden bewertet.

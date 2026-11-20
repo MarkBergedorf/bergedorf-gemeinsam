@@ -2,6 +2,12 @@
 
 Stand: 19. November 2026 (Europe/Berlin). Dieses Nachtragsprotokoll ergänzt die älteren Vorbereitungsberichte. Es ersetzt deren damaligen Veröffentlichungsstatus; frühere Aussagen über noch offene Freigaben beziehen sich auf den Stand vor dem ausdrücklichen Ergänzungsauftrag.
 
+## Statuskorrektur und Live-Abnahme · 20. November 2026
+
+Die im folgenden älteren Abschnitt beschriebene fehlende Gestaltung ist durch den anschließenden cache-sicheren Asset-Stand behoben. Die zuvor bestätigte Live-Sichtprüfung am Desktop zeigte die gestaltete Website mit Titel, Navigation und Mietkostenratgeber. Am 20.11.2026 wurde der veröffentlichte Mietkostenratgeber zusätzlich in einer schmalen Live-Browseransicht bei 400 % Zoom geprüft: 337 CSS-Pixel Inhalts- und Scrollbreite ohne horizontalen Seitenüberlauf; die Navigation ließ sich öffnen, die Suche nach „Genossenschaftsanteile“ lieferte vier Abschnitte und das Inhaltsverzeichnis zeigte alle 51 Kapitel. Tabellen bleiben in ihren horizontal bedienbaren Inhaltscontainern. Das ist eine schmale Live-Browseransicht und kein Test mit einem physischen Smartphone.
+
+Diese Abnahme betrifft die gestaltete Live-Darstellung und die genannten Mietkostenfunktionen. Sie ersetzt keine vollständige manuelle Abnahme sämtlicher Karten, Formulare, Filter, Verlinkungen und Geräteklassen aus Arbeitsauftrag 16 und 18. Die im älteren Abschnitt notierte Browserblockade und die damals fehlende Gestaltung beschreiben ausschließlich den Stand vor dem cache-sicheren Deployment und sind überholt.
+
 ## GitHub-Integration und veröffentlichter Stand
 
 - Pull Request #4 (Arbeitsauftrag 17) ist mit Merge-Commit `7908363213a23f942ed92e34b9019dba05e8e0f9` in `main` zusammengeführt.

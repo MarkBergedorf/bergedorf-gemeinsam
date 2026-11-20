@@ -4,15 +4,16 @@ import {berlinDate,addCalendarMonths} from './rules.mjs';
 export const operator={name:'Mark Petersen',address:'Fritz-Lindemann-Weg 3 A',city:'21031 Hamburg',email:'bergedorf.gemeinsam@outlook.de'};
 export const aboutText=[
 'Bergedorf gemeinsam ist eine privat betriebene, unabhängige Bürgerplattform für den gesamten Bezirk Hamburg-Bergedorf.',
-'Hier können Menschen Anliegen und Verbesserungsvorschläge einbringen, Erfahrungen teilen sowie Geschichten und Erinnerungen aus Bergedorf bewahren. Informationen zur örtlichen Politik und ein Verzeichnis von Organisationen, Einrichtungen und Angeboten ergänzen die Plattform.',
+'Die öffentliche statische Testfassung enthält redaktionelle Informationen zu örtlicher Politik, aktuellen Bergedorfer Nachrichten, Veranstaltungen, Einsamkeit und Begegnung sowie Mietkosten und Grundsicherung. Ein Verzeichnis mit eigenständigen Organisationsprofilen ergänzt diese Themen. Die vier gekennzeichneten Beiträge sind frei erfundene Beispiele.',
+'Produktive öffentliche Einreichungen, Kommentare, Meldungen und Einspruchsspeicherung sind noch nicht angeschlossen. Die Teilnahmeregeln beschreiben den vorgesehenen späteren Betrieb; Hinweise und Beschwerden können derzeit per E-Mail an den Betreiber gerichtet werden.',
 'Sachlicher Austausch, nachvollziehbare Quellen und ein respektvoller Umgang bilden die Grundlage. Die Plattform gehört weder zum Bezirksamt noch zur Bezirksversammlung und wird von keiner Partei getragen.'
 ];
 export const policyDefaults={earliestReviewDate:'',absence:'normal',singleNotifications:true,dailySummaries:true};
 export const policy=s=>({...policyDefaults,...s?.settings?.participation});
 export function reviewNotice(s,now=new Date().toISOString()){
- const p=policy(s);return p.earliestReviewDate&&p.earliestReviewDate>=berlinDate(now)?`Die Prüfung neuer Beiträge ist derzeit pausiert. Ihr Beitrag kann weiterhin eingereicht werden. Eine Prüfung erfolgt frühestens ab dem ${new Date(p.earliestReviewDate+'T12:00:00Z').toLocaleDateString('de-DE',{timeZone:'Europe/Berlin'})}.`:'Eingereichte Beiträge werden in der Regel innerhalb von sieben Tagen geprüft, nach Möglichkeit früher.';
+ const p=policy(s),future=p.earliestReviewDate&&p.earliestReviewDate>=berlinDate(now)?` Nach einer künftigen Aktivierung gilt bei angekündigter Abwesenheit das angezeigte früheste Prüfdatum ${new Date(p.earliestReviewDate+'T12:00:00Z').toLocaleDateString('de-DE',{timeZone:'Europe/Berlin'})}.`:'';return `Die öffentliche Website ist eine statische Testfassung; produktive Beitragseinreichungen sind derzeit nicht angeschlossen. Die Sieben-Tage-Regel beschreibt den vorgesehenen späteren Einreichungsbetrieb.${future}`;
 }
-export const uploadNotice='Dateiuploads sind zum Start nicht vorgesehen, um den Speicherbedarf gering zu halten. Quellen können als Links angegeben werden.';
+export const uploadNotice='Allgemeine Bürgerbeiträge haben zum Start keine Dateiuploadfunktion; Quellen können als Links angegeben werden. Gesonderte lokale Vorbereitungsformulare für Meldungen und Foto-Rechteerklärungen übermitteln ihre Eingaben nicht an die Website, veröffentlichen keine Dateien und speichern sie nicht dauerhaft serverseitig. Eine spätere produktive Dateiübermittlung wäre gesondert freizugeben.';
 export function organisationStatus(d,now=new Date().toISOString()){
  const rep=d?.representation;if(rep?.status!=='confirmed')return {confirmed:false,lastConfirmedAt:null,overdue:false};
  const date=rep.lastConfirmedAt||rep.checked;const valid=/^\d{4}-\d{2}-\d{2}/.test(date||'');
