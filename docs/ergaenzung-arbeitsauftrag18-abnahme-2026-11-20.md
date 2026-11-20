@@ -408,7 +408,34 @@ Quellen: [Stadtteile Bezirk Bergedorf – hamburg.de](https://www.hamburg.de/leb
 
 #### Wohngebiete, historische Ortsnamen und Oberbillwerder
 
-Die Verzeichnisoberfläche bietet 19 kleinere örtliche Suchzugänge: Neuallermöhe-Ost, Neuallermöhe-West, Lohbrügge-Nord, Lohbrügge-Süd, Bergedorf-West, Bergedorf-Süd, Nettelnburg, Boberg, Zollenspieker, Gauert, Fünfhausen, Borghorst, Bille-Siedlung, Overhaken, Overwerder, Warwisch, Howe, Riepenburg und Krauel. Diese Suchbezeichnungen sind nicht sämtlich amtliche Gebietsgrenzen. In der redaktionellen Gazetteer-Datei werden zudem – jeweils mit Typ und Quellenbezug – die amtlichen Stadtteile Billwerder, Tatenberg und Reitbrook sowie örtliche/landschaftliche oder historische Einträge wie Die Hohe, Die Reit, Kälbersteert, Lange Grove, Achterdeich, Oortkaten, Wraust, West-Krauel und Ost-Krauel geführt. Die Datenmodelltypen unterscheiden `district`, `quarter`, `area` und `historical`. Die Karte selbst weist darauf hin, dass kleinere Ortsnamen aus OpenStreetMap/OpenMapTiles stammen und keine zusätzlichen amtlichen Stadtteile oder Grenzpolygone bezeichnen. Die komplette visuelle Erreichbarkeit und sachliche Grenzlage jeder einzelnen OSM-Beschriftung ist nicht überprüft.
+Die Verzeichnisoberfläche bietet 19 kleinere örtliche Suchzugänge: Neuallermöhe-Ost, Neuallermöhe-West, Lohbrügge-Nord, Lohbrügge-Süd, Bergedorf-West, Bergedorf-Süd, Nettelnburg, Boberg, Zollenspieker, Gauert, Fünfhausen, Borghorst, Bille-Siedlung, Overhaken, Overwerder, Warwisch, Howe, Riepenburg und Krauel. Diese Suchbezeichnungen sind nicht sämtlich amtliche Gebietsgrenzen. Der separate redaktionelle Gazetteerbestand enthält folgende 22 Einträge; die Zuordnungen sind die in den Datensätzen gepflegten heutigen Stadtteilbezüge, keine zusätzlich behaupteten amtlichen Quartiersgrenzen:
+
+| Gazetteername | Datentyp | Zugeordneter Stadtteil / Stadtteile |
+|---|---|---|
+| Gauert | örtliche Bezeichnung mit historischem Bezug (`quarter`) | Ochsenwerder |
+| Die Hohe | landschaftlicher Gebietsteil (`area`) | Reitbrook |
+| Die Reit | Landschafts- und Naturschutzgebiet (`area`) | Reitbrook |
+| Kälbersteert | historische Ortsbezeichnung / Wohnplatz (`historical`) | Neuengamme |
+| Fünfhausen | stadtteilübergreifende Ortslage (`quarter`) | Kirchwerder, Ochsenwerder |
+| Lange Grove | historische Deichbezeichnung (`historical`) | Neuengamme |
+| Achterdeich | historische Deichbezeichnung (`historical`) | Neuengamme |
+| Borghorst | historische Ortslage (`quarter`) | Altengamme |
+| Billwerder | amtlicher Stadtteil (`district`) | Billwerder |
+| Tatenberg | amtlicher Stadtteil (`district`) | Tatenberg |
+| Bille-Siedlung | Wohnsiedlung (`quarter`) | Moorfleet |
+| Reitbrook | amtlicher Stadtteil (`district`) | Reitbrook |
+| Overhaken | historische Elbinsel / Ortslage (`quarter`) | Ochsenwerder |
+| Overwerder | historische Elbinsel / Ortslage (`quarter`) | Ochsenwerder, Kirchwerder |
+| Oortkaten | Orts- und Gebietsbezeichnung (`area`) | Ochsenwerder |
+| Warwisch | ehemalige Bauerschaft / heutige Ortslage (`quarter`) | Kirchwerder |
+| Wraust | historische Ortsbezeichnung / Wohnplatz (`historical`) | Kirchwerder |
+| Howe | ehemalige Bauerschaft / heutige Ortslage (`quarter`) | Kirchwerder |
+| Riepenburg | historischer Burg- und Domänenstandort (`quarter`) | Kirchwerder |
+| Krauel | Flur- und Siedlungsname (`quarter`) | Kirchwerder |
+| West-Krauel | Teilgebiet des Krauels (`area`) | Kirchwerder |
+| Ost-Krauel | Teilgebiet des Krauels (`area`) | Kirchwerder |
+
+Die Datenmodelltypen unterscheiden `district`, `quarter`, `area` und `historical`; historische Namen und Wohngebietsbezeichnungen werden dadurch nicht zu heutigen amtlichen Stadtteilen. Die Karte selbst weist darauf hin, dass kleinere Ortsnamen aus OpenStreetMap/OpenMapTiles stammen und keine zusätzlichen amtlichen Stadtteile oder Grenzpolygone bezeichnen. Die komplette visuelle Erreichbarkeit und sachliche Grenzlage jeder einzelnen OSM-Beschriftung ist nicht überprüft.
 
 Oberbillwerder ist in der Kartenlogik als gesondertes Planungsgebiet und redaktioneller Beschriftungsanker ausgewiesen, nicht als amtliches Stadtteilpolygon und nicht mit einer erfundenen Plangrenze. Der verwendete Anker (10.162, 53.5005) liegt nach dem lokalen Punkt-in-Polygon-Abgleich innerhalb des vorhandenen Billwerder-Polygons. Die amtliche Hamburger Planungsseite beschreibt Oberbillwerder im Bezirk Bergedorf und als Planungsvorhaben; sie bestätigt nicht, dass dieser redaktionelle Anker die Projektgrenze abbildet. Das vorher dokumentierte Einordnen als Planungsgebiet in Billwerder bleibt deshalb fachlich zutreffend, eine vollständige visuelle Abnahme der Oberbillwerder-Plangrenze ist mangels entsprechender Grenzgeometrie nicht möglich.
 
