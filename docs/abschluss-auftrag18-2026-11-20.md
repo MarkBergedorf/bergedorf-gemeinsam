@@ -104,7 +104,7 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 
 ## Noch offene Prüfungen
 
-1. Geprüfte Root-Builddateien in PR #9 ergänzen; nach Merge/Pages den oberen Menüpunkt und alle sieben Pressemedien live nachprüfen.
+1. Die fehlenden geprüften Root-Builddateien zum Draft PR #9 ergänzen; nach Merge/Pages den oberen Menüpunkt und alle sieben Pressemedien live nachprüfen.
 2. Vollständige manuelle Filter-, Such-, Verlinkungs- und Formularabnahme über alle Bereiche.
 3. Vollständige geografische Abnahme aller Kartenvarianten sowie Netzwerkprüfung vor Kartenfreigabe.
 4. Weitere Geräte/Browser, native Mobil- oder Geräteemulation und vollständige Tastatur-/Screenreader-/WCAG-Prüfung.
