@@ -154,3 +154,20 @@ Dieser Abschnitt aktualisiert den vorstehenden damaligen Arbeitsstand. Die folge
 - Die bisher bestätigten Live-Desktopprüfungen sowie die abgeschlossenen A17-Such-, Kapitel-, Fokus-, History- und Tabellenprüfungen bleiben anerkannt. Keine dieser Prüfungen wurde als erneut erforderlich oder unerledigt eingestuft.
 
 **Status dieser Fortsetzung:** Build und automatisierte Tests bestanden. Die aufgelisteten Root-Artefakte sowie Fixture- und Datumsregressionstest sind lokal im aktualisierten PR-#9-Arbeitsstand enthalten. Merge, GitHub-Pages-Deployment und anschließender Live-Nachtest der Hauptnavigation, der sieben Pressemedien und der Fotoerklärung stehen noch aus. Arbeitsauftrag 17 bleibt als umgesetzt und veröffentlicht anerkannt.
+
+
+## Live-Nachtest und Abschlussstatus nach PR #9
+
+Dieser Status ersetzt die früheren Aussagen in diesem Bericht, wonach die Root-Artefakte in PR #9 fehlten und das Folge-Deployment ausstand.
+
+- PR #9 wurde zusammengeführt. Merge-Commit: 0245004487820330eadb8e8fb07880aa0ba40b84.
+- GitHub Pages-Lauf #64 (Run 44815956172) für diesen Commit ist erfolgreich abgeschlossen. Die Build-, Deploy- und Statusmeldungsjobs waren erfolgreich. Wie zuvor dokumentiert, baut dieser Pages-Workflow nicht selbst mit Vite; die geprüften Ausgabedateien waren bereits im Pages-Root des zusammengeführten Commits enthalten.
+- Live-Nachtest auf der veröffentlichten Website: Die obere Hauptnavigation enthält „Mietkosten & Grundsicherung“ und enthält nicht „Über uns“. „Über uns“ bleibt im Footer erreichbar.
+- Das Live-Presseformular enthält jetzt sichtbar alle sieben Medien: Bergedorfer Zeitung, Bille Wochenblatt, Stadtteilzeitung Lohbrügge, Hamburger Abendblatt, Hamburger Morgenpost (MOPO), BILD-Zeitung und Hinz&Kunzt. Es wurden keine Formulardaten eingereicht.
+- Die im Produktionsbuild erzeugten Artefakte im Merge-Commit sind index.html, 404.html, assets/index-CJQSvXNz.js, assets/index-D6G08qeL.css, assets/history-tiles-BmcFOhjW.js und assets/leaflet-src-Bbu93S8l.js; die dazugehörige history-tiles-CSS-Datei war bereits vorhanden. Lokaler Build/Root-Abgleich: 266 von 266 Dateien bytegleich.
+- Nach Pinning des A18-Testfixtures auf den Vor-A18-Commit ea53f448b891035e263501c9055a7baac56cb2e2 und Ergänzung des Datumstests: pnpm test **355 bestanden, 0 fehlgeschlagen, 0 übersprungen**. Der erneute Produktionsbuild war erfolgreich; die bekannten Leaflet-CSS- und Bundlegrößen-Warnungen bleiben bestehen.
+- Foto-Rechteerklärung: Die automatisierte Validierung akzeptiert das gültige ISO-Datum 2026-11-20; ein leerer Wert bleibt ein Pflichtfehler. In der jetzt veröffentlichten Formularansicht waren Rechte- und Datumsfelder ohne ausgewähltes Foto deaktiviert. Die frühere UI-Abweichung mit sichtbarem Datum wurde deshalb in dieser Fortsetzung nicht reproduziert; Ursache, vollständige interaktive Prüfung mit künstlichem Testbild und lokale Druck-/PDF-Vorbereitung bleiben **offen**. Es wurde kein Foto ausgewählt und nichts übermittelt.
+- Der Live-Nachtest war eine Browserprüfung der öffentlichen Website. Die sieben Medien und die obere Navigation wurden auf der sichtbaren Live-Seite geprüft. Eine native Mobilgeräte-/Geräteemulationsprüfung fand in dieser Fortsetzung nicht statt; schmale Mobilbreite, zusätzliche Browser, sämtliche Filterkombinationen, vollständige Karten-/Netzwerkprüfung, volle Formularabnahme, Tastatur-/Screenreader-/WCAG-2.2-AA-Prüfung, Quellen-/Rechtsendprüfung und Mobil-Performance bleiben **offen**.
+- Die bestätigten früheren A17-Liveprüfungen bleiben anerkannt: 51 Kapitel, acht Themenzugänge, Suche, Fokus, Verlauf und der bereits dokumentierte horizontale Tabellen-Scroll. Arbeitsauftrag 17 bleibt umgesetzt und veröffentlicht.
+
+**Gesamtstatus:** Der konkrete Veröffentlichungsfehler für Hauptnavigation und Pressemedien ist durch Merge und Live-Nachtest behoben. Arbeitsauftrag 17 ist abgeschlossen. Arbeitsauftrag 18 ist noch nicht vollständig abgenommen, weil die oben ausdrücklich als offen markierten manuellen Qualitätssicherungsprüfungen nicht abgeschlossen wurden.
