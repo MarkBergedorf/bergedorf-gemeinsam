@@ -9,5 +9,5 @@ export function withoutAuftrag18(path,bytes){
  if(!changed.has(key))return Buffer.from(bytes);
  const actual=readFileSync('../'+key);
  if(!Buffer.from(bytes).equals(actual))return Buffer.from(bytes);
- return Buffer.from(execFileSync('git',['show','origin/main:'+key],{maxBuffer:16e6}));
+ return Buffer.from(execFileSync('git',['show','ea53f448b891035e263501c9055a7baac56cb2e2:'+key],{maxBuffer:16e6}));
 }
