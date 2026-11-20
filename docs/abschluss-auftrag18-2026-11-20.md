@@ -2,6 +2,8 @@
 
 Stand: 20. November 2026 (Europe/Berlin)
 
+**Ergänzung:** Der ergänzende Live-Abnahmebericht [Arbeitsauftrag 18 – ergänzende Abnahme und offene Prüfungen](ergaenzung-arbeitsauftrag18-abnahme-2026-11-20.md) aktualisiert die hier festgehaltenen Zahlen, Live-Befunde und offenen Punkte. Bei abweichendem Status gilt der ergänzende Bericht; dieser Bericht bleibt als historischer A18-Stand erhalten.
+
 ## Auftrag und Ausgangsstand
 
 Geprüft wurde das bestehende Repository `MarkBergedorf/bergedorf-gemeinsam`. Ausgangsbranch `main`, Stand `ea53f448b891035e263501c9055a7baac56cb2e2`. A18 wurde als PR #6 aus `auftrag18-qa` (Kopf `b5977ffa0c17b2331c6a3621a15cf3b602bac9f7`) am 20.11.2026 in `main` zusammengeführt; Merge-Commit `a4ec911ef3280a2799551d667e47a2b9fe06dcec`. GitHub Pages Workflow #61 (`44741566499`) für den Merge-Commit ist erfolgreich abgeschlossen. PR #4 zu Arbeitsauftrag 17 war bereits am 19.11.2026 zusammengeführt; Pages-Läufe #59 und #60 waren für die Folgecommits erfolgreich.
@@ -45,9 +47,9 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 | B3 Erfahrungsberichte | Sortier-/Filterlogik und Kommentargrenze bleiben durch vorhandene Tests abgedeckt; praktischer End-to-End-Durchgang steht aus. |
 | B4 Geschichte/Erinnerungen | Bestehende Tests bestätigen 88 Bildnummern, Rechteangaben, Prüfsummen und 139 Einsamkeitsansichten. Sechs Ortsbezüge bleiben in der Quelldokumentation. Externe Einzelnachweise wurden in dieser Runde nicht sämtlich erneut abgerufen. |
 | B5 Politik | Bestehende Regressionen erhalten die Inhalte und Navigationsstruktur. Eine vollständige neue Prüfung aller amtlichen Ausschussbezeichnungen, Ausnahmen und sechs externen Gruppenlinks steht aus. |
-| B6 Verzeichnis | Bestandsprüfung ergibt 69 redaktionelle, veröffentlichte Profile mit Koordinaten. |
-| B7 Organisationen/Karten | Bestandsprüfung ergibt dieselben 69 Profile mit Koordinaten, aber 60 unterschiedlichen Koordinatenpaaren. Das weicht von den im Auftrag genannten 66 Profilen/67 Standortpunkten ab. Keine Profile wurden entfernt; die historische Bezugszahl und die Zählweise (Profile, Standortdatensätze, Koordinaten/Marker) müssen abgeglichen werden. Eine vollständige Live-Abnahme aller Karteninteraktionen ist offen. |
-| B8 Nachrichten | Erledigt. Alle sieben genannten Medien stehen in der Presseauswahl. Lokale Formularregeln und Medienauswahl sind automatisiert getestet; ein manueller UI-Wechsel zwischen Digital/Print steht aus. |
+| B6 Verzeichnis | Rohbestand: 69 redaktionelle Datensätze. Nach Gruppierung werden 66 Leserprofile angezeigt; alle Rohdatensätze haben Koordinaten. Zählweisen und drei untergeordnete Angebotsdatensätze sind im Ergänzungsbericht aufgeschlüsselt. |
+| B7 Organisationen/Karten | Kartenmodell: 67 Standortpunkte, 60 verschiedene Koordinatenpaare, kein Datensatz ohne Koordinate. Gemeinsame Adressen und mehrere Standorte sind berücksichtigt. Die Live-Karte, Filter, Stationenauswahl, Popup und Entladen wurden teilweise geprüft; keine vollständige geografische oder alle Kartenvarianten umfassende Abnahme. |
+| B8 Nachrichten | Quellstand und Tests führen sieben Medien. Die Live-Presseauswahl zeigte in dieser Abnahme jedoch nur fünf; zwei Medien fehlten im veröffentlichten Bundle. Fehlerstatus und erneute Liveprüfung nach Veröffentlichung siehe Ergänzungsbericht. |
 | B9 Veranstaltungen | Vorhandene Tests prüfen Berlin-Zeit, Zeitfilter, vergangene und künftige Veranstaltungen, Kosten-/Stadtteilfilter und stabile Links. Quellenabruf des einzelnen Veranstaltungstermins wurde in dieser Runde nicht erneut durchgeführt. |
 | B10 Einsamkeit | Vorhandene Tests prüfen 139 Ansichten, Querverweise, Quellenzuordnungen und 88 historische Bildnummern. Eine vollständige Live-Abnahme der Karten, Suche und jeder einzelnen Unterseite steht aus. |
 | B11 Mietkosten | Inhalt und Datenmodell enthalten weiterhin 51 Abschnitte, 33 Korrekturpositionen, acht Themenzugänge, Tabellen und Suche. Live-Prüfung am 20.11.2026 nach A18-Deployment: Desktopseite geladen; in schmaler Browseransicht bei ca. 337 CSS-Pixel effektiver Dokumentbreite kein horizontaler Seitenüberlauf; Navigation geöffnet; „Genossenschaftsanteile“ ergab 4 Treffer; die Kapitelübersicht enthielt alle 51 Kapitel; Direktaufruf von Kapitel 51 funktionierte. Ein früherer Live-Durchgang hatte drei Tabellen-Wrapper mit je ca. 293 px Breite als horizontal bedienbar beobachtet; dieser Tabellen-Scroll wurde nach A18 nicht erneut betätigt. URL-Wechsel beim Klick auf Kapitel 1 war nicht zuverlässig beobachtbar. Die schmale Darstellung wurde per Browserzoom erzeugt, nicht mit einem physischen Mobilgerät oder nativer Geräteemulation. |
@@ -69,12 +71,12 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 
 | Punkt | Ergebnis |
 |---|---|
-| D1 Navigation | Routen, Menü- und Fußbereichsbestand sind getestet; A1-Regression bestätigt den Sonderfall `#ueber`. Live wurde im Rahmen von A18-17 nur die Mietkosten-Navigation geöffnet. Vollständiger Klicktest aller Seiten und Tastatur-Fokuspfade bleibt offen. |
+| D1 Navigation | Alle elf vorgesehenen thematischen Hauptziele, acht Fußbereichsseiten sowie „Alle Beiträge“ wurden auf der Live-Seite angeklickt; Zurück/Vorwärts/Neuladen behielten den Hash. Live-Fehler: „Über uns“ wird entgegen A1 weiterhin oben angezeigt. Sprunglink und einzelne Tastaturpfade sind geprüft; vollständige Tastatur-/Screenreader-Abnahme bleibt offen. |
 | D2 Suche/Filter | Automatisierte Modell- und URL-Tests für Mietratgeber, Veranstaltungen, Nachrichten, Beiträge, Verzeichnis und Einsamkeit bestanden. Live geprüft wurden nur Mietkosten-Suche und Themenzugänge, nicht jeder Filter in jeder Oberfläche. |
 | D3 Geografie | Bestehende Daten-/Kartenregressionen bleiben bestanden; amtliche Stadtteil-, Wohngebiets- und historische Ortsabgrenzungen wurden in dieser Runde nicht vollständig neu mit amtlichen Quellen abgeglichen. |
 | D4 Karten | Karten- und Ladefreigabe-Regressionen bestanden; vollständige praktische Prüfung der 14 Stadtteile, Wohngebiete, Oberbillwerder, fünf Stationen, Marker, Cluster, Ablehnung/Entladen und Speicherung auf Desktop und Mobil bleibt offen. |
-| D5 Formulare | Bestehende Unit-Tests prüfen Presse-, Rechte-/Fotohinweis- und Fehlerformular-Validierung, Zeichenlimits und fehlende Übermittlung. Der geforderte vollständige manuelle UI-Durchgang aller Pflicht-/Bedingungsfelder wurde nicht ausgeführt. |
-| D6 Störungsmeldung | Bestehende Regressionen prüfen Europe/Berlin-Datum, Geräte-/Feldregeln, lange Kopiertexte, Mailto-Vorbereitung, Verlust bei Neuladen und fehlende Übermittlung. Live-Tastatur-/Clipboard-Durchlauf bleibt offen. |
+| D5 Formulare | Presse- und Bezirksamtsformulare teilweise live geprüft; synthetische Daten wurden nicht gesendet und anschließend verworfen. Live-Pressemenü fehlte zwei der sieben Quellmedien. Bezirksamts-Fotoerklärung ließ sich im UI-Test nicht erzeugen, obwohl das Datum sichtbar war; Ursache nicht abschließend geklärt. Vollständiger manueller Durchgang bleibt offen. |
+| D6 Störungsmeldung | Live Pflichtfehler, Geräte-/OS-/Browserauswahl, Ausschluss widersprüchlicher Auswahlwerte, Speichern beim Schließen/Öffnen und Verwerfen geprüft; synthetische Eingaben verworfen. Clipboard-/Mailclient und vollständige Tastaturprüfung nicht durchgeführt, um Clipboard zu erhalten und keine Mailanwendung auszulösen. |
 | D7 Alle Beiträge | Vier Testbeispiele und getrennte redaktionelle Inhalte sind erhalten. Vollständiger praktischer Durchgang aller Filter-/Sortier-/Rücksprungkombinationen wurde nicht abgeschlossen. |
 
 ## Teil E – rechtliche, Datenschutz- und redaktionelle Kontrolle
@@ -83,7 +85,7 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 - E2: Offizielle Quellenhinweise für UrhG, OpenStreetMap/ODbL und GovData wurden abgerufen. Ein vollständiger HTTP-/Sachbezugstest aller Website- und Profilquellen ist offen; bestehende Quellen-Regressionen liefen.
 - E3: Quellcode und Build-Prüfung zeigen keine neu aktivierte Registrierung, Backend-Einreichung, Zahlungsabwicklung oder serverseitige Uploadfunktion. Build-Ausgabe nennt `liveDatabaseRead:false`, `privateDocuments:0` und `liveRecords:0`.
 - E4: Produktionsprüfung umfasst 266 Builddateien; der Verifier meldete 0 Live-Datensätze. Private Zahlungsbelege oder private Dateien wurden nicht in den Build übernommen. Ein unabhängiger vollständiger Geheimnis-/Personendaten-Scan der Quellhistorie ist nicht Teil dieses Ergebnisses.
-- E5: Desktop-/Schmalbreiten-Liveprüfung für den Mietkostenratgeber ist erfolgt. Weitere öffentliche Karten-, Formular-, Dialog-, Bild-/Galerie- und Tastaturprüfungen auf diversen Geräten bleiben offen. Die schmale Ansicht wurde über Browserzoom statt auf einem physischen Smartphone hergestellt.
+- E5: Desktop-/Schmalbreiten-Liveprüfung für den Mietkostenratgeber sowie ausgewählte öffentliche Karten-, Formular- und Dialogpfade sind erfolgt. Weitere Geräte-, Bild-/Galerie-, Screenreader- und Tastaturprüfungen bleiben offen. Die schmale Ansicht wurde über Browserzoom statt auf einem physischen Smartphone hergestellt.
 
 ## Teil F – Build, Tests, PR und Veröffentlichung
 
@@ -98,14 +100,16 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 - Die veröffentlichte Mietkostenseite wurde am 20.11.2026 am Desktop und in einer schmalen Browseransicht geprüft. Kein horizontaler Seitenüberlauf; Suche, acht Themenzugänge, Navigation und Kapitelübersicht sichtbar.
 - Dokumentation in `docs/mietkosten/auftrag17.md` aktualisiert; frühere widersprüchliche Veröffentlichungsaussagen und Handlungsanweisungen als historisch kenntlich gemacht. Die Desktop-/Live-Schmalbreitenbefunde wurden hier ergänzt.
 - Schmale Liveprüfung ist vom früheren lokalen Reflow-Test unterschieden. Kein physisches Smartphone getestet.
-- Status: A17 ist nach erfolgreicher Live-Abnahme, Korrektur der A17-Dokumentation, Merge von PR #6 und erfolgreichem GitHub-Pages-Lauf #61 vollständig abgeschlossen. Der Live-Mobilnachweis basiert auf schmaler Browseransicht/Browserzoom und ist keine Prüfung auf einem physischen Smartphone.
+- Status: Die Website und Mietkosten-Dokumentation sind veröffentlicht. Nachträgliche UI-Prüfungen bestätigten URL-Wechsel und Tastaturfokus bei Klick auf Kapitel 1, Suche/Trefferlink, Kapitel 51 sowie den horizontalen Tabellen-Scroll. Die Kapitelnavigation/Tabellen wurden nicht auf einem physischen Smartphone geprüft. Diese Ergänzung korrigiert die frühere Aussage, der Kapitel-1-Wechsel sei unzuverlässig.
 
 ## Noch offene Prüfungen
 
-1. Profilzahlen 66/67 aus dem Auftrag mit dem aktuellen Bestand von 69 veröffentlichten Profilen, 69 Koordinaten und 60 unterschiedlichen Koordinatenpaaren versöhnen; nichts ist dafür entfernt worden.
-2. Vollständige manuelle Navigation-, Filter-, Formular-, Karten- und Verlinkungsabnahme über alle Bereiche auf Desktop und schmaler Mobilansicht.
-3. Weitere Geräte/Browser und vollständige Tastatur-/Barrierefreiheitsprüfung.
-4. Vollständige erneute externe Quellen- und Rechtsprüfung, insbesondere Mietrecht, DSGVO und einzelne historische/amtliche Quellen.
-5. Insbesondere aktuell keine praktische End-to-End-Abnahme von Karten-Consent in allen Karten, dynamischen Formularfeldern, Clipboard/Mailclient, allen Kapitelklicks und Verzeichnis-Clustern.
+1. Live-Veröffentlichungsdifferenzen bei Hauptnavigation und Pressemedien beheben/ausrollen und anschließend erneut prüfen.
+2. Vollständige manuelle Filter-, Such-, Verlinkungs- und Formularabnahme über alle Bereiche.
+3. Vollständige geografische Abnahme aller Kartenvarianten sowie Netzwerkprüfung vor Kartenfreigabe.
+4. Weitere Geräte/Browser, native Mobil- oder Geräteemulation und vollständige Tastatur-/Screenreader-/WCAG-Prüfung.
+5. Vollständige erneute externe Quellen- und Rechtsprüfung, insbesondere Mietrecht, DSGVO und einzelne historische/amtliche Quellen.
+6. Ursache des sichtbaren Datums-/Validierungswiderspruchs der Live-Fotoerklärung klären; vollständige Druck-, Scan- und Offline-PDF-Prüfung.
+7. Clipboard-/Mailclientprüfung, ohne Nutzerdaten zu überschreiben oder eine Nachricht zu versenden.
 
 Ein nicht ausgeführter Test wird hier nicht als bestanden bewertet.
