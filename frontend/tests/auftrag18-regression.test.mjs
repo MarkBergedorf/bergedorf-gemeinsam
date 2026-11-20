@@ -48,3 +48,13 @@ test('Supportseite behauptet keine Aktualisierung eines statischen Bestands',()=
  assert(source.includes('Angezeigt wird der veröffentlichte statische Testbestand'));
  assert(!source.includes('Finanzstand aktualisieren'));
 });
+
+test('Pages-Build veröffentlicht exakt den geprüften dist-Stand im Repository-Root',()=>{
+ const pkg=JSON.parse(read('package.json'));
+ assert(pkg.scripts.build.endsWith('node scripts/verify-dist.mjs && node scripts/sync-public-root.mjs'));
+ const sync=read('scripts/sync-public-root.mjs');
+ assert(sync.includes("const source=resolve('dist')"));
+ assert(sync.includes("const target=resolve('..')"));
+ assert(sync.includes('await cp('));
+ assert(!sync.includes('rm('));
+});
