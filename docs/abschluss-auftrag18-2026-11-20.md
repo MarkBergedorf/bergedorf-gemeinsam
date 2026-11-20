@@ -49,7 +49,7 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 | B5 Politik | Bestehende Regressionen erhalten die Inhalte und Navigationsstruktur. Eine vollständige neue Prüfung aller amtlichen Ausschussbezeichnungen, Ausnahmen und sechs externen Gruppenlinks steht aus. |
 | B6 Verzeichnis | Rohbestand: 69 redaktionelle Datensätze. Nach Gruppierung werden 66 Leserprofile angezeigt; alle Rohdatensätze haben Koordinaten. Zählweisen und drei untergeordnete Angebotsdatensätze sind im Ergänzungsbericht aufgeschlüsselt. |
 | B7 Organisationen/Karten | Kartenmodell: 67 Standortpunkte, 60 verschiedene Koordinatenpaare, kein Datensatz ohne Koordinate. Gemeinsame Adressen und mehrere Standorte sind berücksichtigt. Die Live-Karte, Filter, Stationenauswahl, Popup und Entladen wurden teilweise geprüft; keine vollständige geografische oder alle Kartenvarianten umfassende Abnahme. |
-| B8 Nachrichten | Quellstand und Tests führen sieben Medien. Die Live-Presseauswahl zeigte in dieser Abnahme jedoch nur fünf; zwei Medien fehlten im veröffentlichten Bundle. Fehlerstatus und erneute Liveprüfung nach Veröffentlichung siehe Ergänzungsbericht. |
+| B8 Nachrichten | Quellstand und Tests führen sieben Medien. Live-Presseauswahl weiterhin nur fünf; PR #8 / Pages-Lauf #63 änderten das Root-Bundle nicht. Siehe Ergänzungsbericht; Veröffentlichung der gebauten Root-Assets noch offen. |
 | B9 Veranstaltungen | Vorhandene Tests prüfen Berlin-Zeit, Zeitfilter, vergangene und künftige Veranstaltungen, Kosten-/Stadtteilfilter und stabile Links. Quellenabruf des einzelnen Veranstaltungstermins wurde in dieser Runde nicht erneut durchgeführt. |
 | B10 Einsamkeit | Vorhandene Tests prüfen 139 Ansichten, Querverweise, Quellenzuordnungen und 88 historische Bildnummern. Eine vollständige Live-Abnahme der Karten, Suche und jeder einzelnen Unterseite steht aus. |
 | B11 Mietkosten | Inhalt und Datenmodell enthalten weiterhin 51 Abschnitte, 33 Korrekturpositionen, acht Themenzugänge, Tabellen und Suche. Live-Prüfung am 20.11.2026 nach A18-Deployment: Desktopseite geladen; in schmaler Browseransicht bei ca. 337 CSS-Pixel effektiver Dokumentbreite kein horizontaler Seitenüberlauf; Navigation geöffnet; „Genossenschaftsanteile“ ergab 4 Treffer; die Kapitelübersicht enthielt alle 51 Kapitel; Direktaufruf von Kapitel 51 funktionierte. Ein früherer Live-Durchgang hatte drei Tabellen-Wrapper mit je ca. 293 px Breite als horizontal bedienbar beobachtet; dieser Tabellen-Scroll wurde nach A18 nicht erneut betätigt. URL-Wechsel beim Klick auf Kapitel 1 war nicht zuverlässig beobachtbar. Die schmale Darstellung wurde per Browserzoom erzeugt, nicht mit einem physischen Mobilgerät oder nativer Geräteemulation. |
@@ -71,7 +71,7 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 
 | Punkt | Ergebnis |
 |---|---|
-| D1 Navigation | Alle elf vorgesehenen thematischen Hauptziele, acht Fußbereichsseiten sowie „Alle Beiträge“ wurden auf der Live-Seite angeklickt; Zurück/Vorwärts/Neuladen behielten den Hash. Live-Fehler: „Über uns“ wird entgegen A1 weiterhin oben angezeigt. Sprunglink und einzelne Tastaturpfade sind geprüft; vollständige Tastatur-/Screenreader-Abnahme bleibt offen. |
+| D1 Navigation | Alle elf vorgesehenen thematischen Hauptziele, acht Fußbereichsseiten sowie „Alle Beiträge“ wurden auf der Live-Seite angeklickt; Zurück/Vorwärts/Neuladen behielten den Hash. Live-Fehler: „Über uns“ wird entgegen A1 weiterhin oben angezeigt. PR #8 / Pages #63 aktualisierten das Root-Bundle nicht. Sprunglink und einzelne Tastaturpfade sind geprüft; vollständige Tastatur-/Screenreader-Abnahme bleibt offen. |
 | D2 Suche/Filter | Automatisierte Modell- und URL-Tests für Mietratgeber, Veranstaltungen, Nachrichten, Beiträge, Verzeichnis und Einsamkeit bestanden. Live geprüft wurden nur Mietkosten-Suche und Themenzugänge, nicht jeder Filter in jeder Oberfläche. |
 | D3 Geografie | Bestehende Daten-/Kartenregressionen bleiben bestanden; amtliche Stadtteil-, Wohngebiets- und historische Ortsabgrenzungen wurden in dieser Runde nicht vollständig neu mit amtlichen Quellen abgeglichen. |
 | D4 Karten | Karten- und Ladefreigabe-Regressionen bestanden; vollständige praktische Prüfung der 14 Stadtteile, Wohngebiete, Oberbillwerder, fünf Stationen, Marker, Cluster, Ablehnung/Entladen und Speicherung auf Desktop und Mobil bleibt offen. |
@@ -104,7 +104,7 @@ Die bereits vorhandenen Inhalte und Funktionen der Website, einschließlich der 
 
 ## Noch offene Prüfungen
 
-1. Live-Veröffentlichungsdifferenzen bei Hauptnavigation und Pressemedien beheben/ausrollen und anschließend erneut prüfen.
+1. Geprüfte Root-Builddateien in PR #9 ergänzen; nach Merge/Pages den oberen Menüpunkt und alle sieben Pressemedien live nachprüfen.
 2. Vollständige manuelle Filter-, Such-, Verlinkungs- und Formularabnahme über alle Bereiche.
 3. Vollständige geografische Abnahme aller Kartenvarianten sowie Netzwerkprüfung vor Kartenfreigabe.
 4. Weitere Geräte/Browser, native Mobil- oder Geräteemulation und vollständige Tastatur-/Screenreader-/WCAG-Prüfung.
