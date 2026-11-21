@@ -1263,4 +1263,1531 @@
       "category": "Feuerwehr",
       "address": "Gammer Weg 49, 21039 Hamburg",
       "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
-      "website": "https://www.feuerwehr-hamburg.de
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/altengamme/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/altengamme/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/altengamme/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2952",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.43194026894164,
+      "lon": 10.274620648858733,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-neuengamme",
+      "title": "Freiwillige Feuerwehr Neuengamme",
+      "place": "Neuengamme",
+      "category": "Feuerwehr",
+      "address": "Neuengammer Hausdeich 217, 21039 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/neuengamme/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/neuengamme/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/neuengamme/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2953",
+        "E-Mail": "info@ff-neuengamme.de",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.445048077479925,
+      "lon": 10.228799113683264,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-krauel",
+      "title": "Freiwillige Feuerwehr Krauel",
+      "place": "Kirchwerder",
+      "category": "Feuerwehr",
+      "address": "Kirchwerder Marschbahndamm, 21037 Hamburg",
+      "description": "Brandschutz und technische Hilfeleistung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/krauel/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/krauel/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/krauel/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2954",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.40200189770299,
+      "lon": 10.220944737231099,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-kirchwerder-sued",
+      "title": "Freiwillige Feuerwehr Kirchwerder-Süd",
+      "place": "Kirchwerder",
+      "category": "Feuerwehr",
+      "address": "In de Wisch 29, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/kirchwerder-sued/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/kirchwerder-sued/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/kirchwerder-sued/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2955",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.40920114681338,
+      "lon": 10.157546751365013,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-kirchwerder-nord",
+      "title": "Freiwillige Feuerwehr Kirchwerder-Nord",
+      "place": "Kirchwerder",
+      "category": "Feuerwehr",
+      "address": "Kirchwerder Hausdeich 127, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/kirchwerder-nord/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/kirchwerder-nord/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/kirchwerder-nord/"
+        },
+        {
+          "label": "Früherer Standort im Feuerwehr-Geodatensatz · nicht der aktuelle Kartenpunkt",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        },
+        {
+          "label": "Feuerwehr: Einweihung des Neubaus 2023",
+          "url": "https://www.feuerwehr-hamburg.de/2023/09/aus-dem-aeltesten-ins-neueste-feuerwehrhaus-hamburgs/",
+          "locator": "25.09.2023, Neubau am Kirchwerder Hausdeich 127"
+        },
+        {
+          "label": "Bauherr: Neubau und aufgegebener Altbau",
+          "url": "https://www.sprinkenhof.de/projekte/freiwillige-feuerwehr-kirchwerder-nord",
+          "locator": "Bildunterschriften und Abschnitt Neubau nach modernen Feuerwehr-Anforderungen"
+        },
+        {
+          "label": "Kartierter Neubau · Gebäudegrundriss",
+          "url": "https://www.openstreetmap.org/way/1300078286",
+          "locator": "Freiwillige Feuerwehr Kirchwerder Nord, Gebäude, OSM-Stand 22.10.2026"
+        },
+        {
+          "label": "Amtliches Luftbild 2026 · LGV Hamburg",
+          "url": "https://geodienste.hamburg.de/wms_dop_zeitreihe_unbelaubt?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=dop_zeitreihe_unbelaubt&STYLES=&SRS=EPSG%3A4326&BBOX=10.1905%2C53.43725%2C10.1926%2C53.43855&WIDTH=1000&HEIGHT=1000&FORMAT=image%2Fjpeg&TIME=2026",
+          "locator": "DOP Zeitreihe unbelaubt, Jahrgang 2026; Gebäudeabgleich am 22.10.2026"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2956",
+        "E-Mail": "info@ff-kirchwerder-nord.de",
+        "Standort": "Neubau am Kirchwerder Hausdeich 127. Der frühere Standort Norderquerweg 1 wird nicht als aktuelle Wache kartiert.",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 2,
+      "lat": 53.4378998,
+      "lon": 10.1916459,
+      "coordinateNote": "Gebäudepunkt des kartierten Neubaus, OSM way/1300078286 (Nominatim-Punkt innerhalb des Gebäudegrundrisses), kein geschätzter Punkt und keine bestätigte Eingangslage. Abgleich 22.10.2026: offizielle Feuerwehranschrift Kirchwerder Hausdeich 127, Neubau-/Altbaunachweis des Bauherrn, bereitgestelltes Gebäudefoto und amtliches LGV-Luftbild 2026. Der bisherige WFS-Punkt am Norderquerweg 1 gehört zum früheren Gebäude und wird nicht verwendet. © OpenStreetMap-Mitwirkende, ODbL; Luftbild: Freie und Hansestadt Hamburg, LGV, dl-de/by-2-0.",
+      "coordinateSource": "https://www.openstreetmap.org/way/1300078286",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "institution-ff-warwisch",
+      "title": "Freiwillige Feuerwehr Warwisch",
+      "place": "Kirchwerder",
+      "category": "Feuerwehr",
+      "address": "Durchdeich 62, 21037 Hamburg",
+      "description": "Technische Hilfeleistung, Bergung, Energieversorgung und Beleuchtung von Einsatz- und Arbeitsstellen.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/warwisch/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/warwisch/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/warwisch/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2957",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.44421108749484,
+      "lon": 10.127218447587122,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-reitbrook",
+      "title": "Freiwillige Feuerwehr Reitbrook",
+      "place": "Reitbrook",
+      "category": "Feuerwehr",
+      "address": "Vorderdeich 128, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/reitbrook/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/reitbrook/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/reitbrook/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2963",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.46861607578706,
+      "lon": 10.150559837396779,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-hohendeich",
+      "title": "Freiwillige Feuerwehr Hohendeich",
+      "place": "Ochsenwerder",
+      "category": "Feuerwehr",
+      "address": "Ochsenwerder Elbdeich 325, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/hohendeich/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/hohendeich/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/hohendeich/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2964",
+        "E-Mail": "kontakt@ff-hohendeich.de",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.44107403369957,
+      "lon": 10.113058650696725,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-neudorf",
+      "title": "Freiwillige Feuerwehr Neudorf",
+      "place": "Ochsenwerder",
+      "category": "Feuerwehr",
+      "address": "Elversweg 46b, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/neudorf/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/neudorf/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/neudorf/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2965",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.47203044223097,
+      "lon": 10.072831044749288,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-spadenland",
+      "title": "Freiwillige Feuerwehr Spadenland",
+      "place": "Spadenland",
+      "category": "Feuerwehr",
+      "address": "Ruschorter Hauptdeich 1, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/spadenland/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/spadenland/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/spadenland/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2966",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.48636112374481,
+      "lon": 10.054415185853152,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-moorfleet",
+      "title": "Freiwillige Feuerwehr Moorfleet",
+      "place": "Moorfleet",
+      "category": "Feuerwehr",
+      "address": "Sandwisch 83, 22113 Hamburg",
+      "description": "Brandschutz und technische Hilfeleistung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/moorfleet/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/moorfleet/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/moorfleet/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2967",
+        "E-Mail": "mail@feuerwehr-moorfleet.de",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.51207919269407,
+      "lon": 10.087160287097642,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Punktstandort der amtlichen WFS-FeatureCollection, EPSG:4326; Adresse mit Originalprofil abgeglichen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-fuenfhausen",
+      "title": "Freiwillige Feuerwehr Fünfhausen",
+      "place": "Kirchwerder",
+      "category": "Feuerwehr",
+      "address": "Durchdeich 62, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und rettungsdienstliche Erstversorgung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/fuenfhausen/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/fuenfhausen/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/fuenfhausen/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2968",
+        "E-Mail": "info@ff-fuenfhausen.de",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.44421108749484,
+      "lon": 10.127218447587122,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Gemeinsamer Standort Durchdeich 62: Beide aktuellen Originalprofile bestätigen diese Adresse. Koordinate des amtlichen Warwisch-Features; WFS-Fünfhausen-Alteintrag Sülzbrackring 52 verworfen. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-ff-allermoehe",
+      "title": "Freiwillige Feuerwehr Allermöhe-Billwerder",
+      "place": "Allermöhe",
+      "category": "Feuerwehr",
+      "address": "Allermöher Deich 33, 21037 Hamburg",
+      "description": "Brandschutz, technische Hilfeleistung und Wasserrettung.",
+      "website": "https://www.feuerwehr-hamburg.de/dienststellen/allermoehe/",
+      "source": "https://www.feuerwehr-hamburg.de/dienststellen/allermoehe/",
+      "sources": [
+        {
+          "label": "Originalprofil Freiwillige Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr-hamburg.de/dienststellen/allermoehe/"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:freiwillige_feuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Freiwillige Feuerwehr",
+      "details": {
+        "Telefon (kein Notruf)": "040 / 42851-2961",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchs- oder Sprechzeiten übernommen. Im Notfall 112; Wehrtelefon ist kein Notruf."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.4832276,
+      "lon": 10.1174159,
+      "coordinateSource": "https://www.openstreetmap.org/way/1056879372",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-f26",
+      "title": "Feuer- und Rettungswache Bergedorf (F26)",
+      "place": "Lohbrügge",
+      "category": "Feuerwehr",
+      "address": "Sander Damm 2, 21031 Hamburg",
+      "description": "Feuer- und Rettungswache der Feuerwehr Hamburg. Zuständig für Bergedorf, Neuallermöhe, Vier- und Marschlande, Lohbrügge sowie angrenzende Gebiete.",
+      "website": "https://www.feuerwehr.hamburg/furw26-815512",
+      "source": "https://www.feuerwehr.hamburg/furw26-815512",
+      "sources": [
+        {
+          "label": "Originalprofil Feuerwehr Hamburg",
+          "url": "https://www.feuerwehr.hamburg/furw26-815512"
+        },
+        {
+          "label": "Amtliche Standortdaten Feuerwehr Hamburg",
+          "url": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:berufsfeuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson"
+        }
+      ],
+      "entityType": "Berufsfeuerwehr und Rettungsdienst",
+      "details": {
+        "Telefon (kein Notruf)": "040 42851-2600",
+        "E-Mail": "furwbergedorf@feuerwehr.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Keine allgemeinen Besuchszeiten übernommen. Im Notfall 112."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.49122308764698,
+      "lon": 10.203628396599381,
+      "coordinateSource": "https://geodienste.hamburg.de/HH_WFS_feuerwehrstandorte?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=de.hh.up:berufsfeuerwehr&SRSNAME=EPSG:4326&OUTPUTFORMAT=application/geo%2Bjson",
+      "coordinateNote": "Amtlicher WFS-Punktstandort, EPSG:4326; Adresse stimmt mit Originalprofil überein. Freie und Hansestadt Hamburg, Feuerwehr Hamburg; Datenlizenz Deutschland Namensnennung 2.0.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-polizei-pk43",
+      "title": "Polizeikommissariat 43",
+      "place": "Lohbrügge",
+      "category": "Polizei",
+      "address": "Ludwig-Rosenberg-Ring 57, 21031 Hamburg",
+      "description": "Polizeidienststelle der Polizei Hamburg für Bergedorf.",
+      "website": "https://www.hamburg.de/service/info/11269446/",
+      "source": "https://www.hamburg.de/service/info/11269446/",
+      "sources": [
+        {
+          "label": "Amtliche Kontakt- und Außenstellenübersicht PK 43",
+          "url": "https://www.hamburg.de/service/info/11269446/"
+        }
+      ],
+      "entityType": "Polizeikommissariat",
+      "details": {
+        "Telefon (kein Notruf)": "040 4286-54310",
+        "E-Mail": "pk43@polizei.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Tag und Nacht erreichbar; E-Mails nur während normaler Bürostunden gelesen. Im Notfall 110."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.4913496,
+      "lon": 10.2039898,
+      "coordinateSource": "https://www.openstreetmap.org/way/154286862",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-polizei-curslack-neuengamme",
+      "title": "Polizeiposten Curslack-Neuengamme",
+      "place": "Curslack",
+      "category": "Polizei",
+      "address": "Curslacker Deich 165a, 21039 Hamburg",
+      "description": "Bürgernaher Polizeiposten beziehungsweise Außenstelle des Polizeikommissariats 43. Erreichbarkeit vor dem Besuch beim Kommissariat erfragen.",
+      "website": "https://www.hamburg.de/service/info/11269446/",
+      "source": "https://www.hamburg.de/service/info/11269446/",
+      "sources": [
+        {
+          "label": "Amtliche Kontakt- und Außenstellenübersicht PK 43",
+          "url": "https://www.hamburg.de/service/info/11269446/"
+        }
+      ],
+      "entityType": "Standort des Polizeikommissariats 43",
+      "details": {
+        "Telefon (kein Notruf)": "040 4286-54310",
+        "E-Mail": "pk43@polizei.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Nicht durchgehend an sieben Tagen rund um die Uhr geöffnet; aktuelle Erreichbarkeit über PK43. Im Notfall110."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.448044,
+      "lon": 10.2244925,
+      "coordinateSource": "https://www.openstreetmap.org/way/236193860",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-polizei-altengamme",
+      "title": "Polizeiposten Altengamme",
+      "place": "Altengamme",
+      "category": "Polizei",
+      "address": "Gammer Weg 30, 21039 Hamburg",
+      "description": "Bürgernaher Polizeiposten beziehungsweise Außenstelle des Polizeikommissariats 43. Erreichbarkeit vor dem Besuch beim Kommissariat erfragen.",
+      "website": "https://www.hamburg.de/service/info/11269446/",
+      "source": "https://www.hamburg.de/service/info/11269446/",
+      "sources": [
+        {
+          "label": "Amtliche Kontakt- und Außenstellenübersicht PK 43",
+          "url": "https://www.hamburg.de/service/info/11269446/"
+        }
+      ],
+      "entityType": "Standort des Polizeikommissariats 43",
+      "details": {
+        "Telefon (kein Notruf)": "040 4286-54310",
+        "E-Mail": "pk43@polizei.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Nicht durchgehend an sieben Tagen rund um die Uhr geöffnet; aktuelle Erreichbarkeit über PK43. Im Notfall110."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.429991,
+      "lon": 10.2745824,
+      "coordinateSource": "https://www.openstreetmap.org/way/261943752",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-polizei-kirchwerder-warwisch",
+      "title": "Polizeiposten Kirchwerder-Warwisch",
+      "place": "Ochsenwerder",
+      "category": "Polizei",
+      "address": "Ochsenwerder Elbdeich 337, 21037 Hamburg",
+      "description": "Bürgernaher Polizeiposten beziehungsweise Außenstelle des Polizeikommissariats 43. Erreichbarkeit vor dem Besuch beim Kommissariat erfragen.",
+      "website": "https://www.hamburg.de/service/info/11269446/",
+      "source": "https://www.hamburg.de/service/info/11269446/",
+      "sources": [
+        {
+          "label": "Amtliche Kontakt- und Außenstellenübersicht PK 43",
+          "url": "https://www.hamburg.de/service/info/11269446/"
+        }
+      ],
+      "entityType": "Standort des Polizeikommissariats 43",
+      "details": {
+        "Telefon (kein Notruf)": "040 4286-54310",
+        "E-Mail": "pk43@polizei.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Nicht durchgehend an sieben Tagen rund um die Uhr geöffnet; aktuelle Erreichbarkeit über PK43. Im Notfall110."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.4408534,
+      "lon": 10.1150178,
+      "coordinateSource": "https://www.openstreetmap.org/way/518341339",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-polizei-ochsenwerder-moorfleet",
+      "title": "Polizeiposten Ochsenwerder-Moorfleet",
+      "place": "Ochsenwerder",
+      "category": "Polizei",
+      "address": "Gauerter Hauptdeich 73, 21037 Hamburg",
+      "description": "Bürgernaher Polizeiposten beziehungsweise Außenstelle des Polizeikommissariats 43. Erreichbarkeit vor dem Besuch beim Kommissariat erfragen.",
+      "website": "https://www.hamburg.de/service/info/11269446/",
+      "source": "https://www.hamburg.de/service/info/11269446/",
+      "sources": [
+        {
+          "label": "Amtliche Kontakt- und Außenstellenübersicht PK 43",
+          "url": "https://www.hamburg.de/service/info/11269446/"
+        }
+      ],
+      "entityType": "Standort des Polizeikommissariats 43",
+      "details": {
+        "Telefon (kein Notruf)": "040 4286-54310",
+        "E-Mail": "pk43@polizei.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Nicht durchgehend an sieben Tagen rund um die Uhr geöffnet; aktuelle Erreichbarkeit über PK43. Im Notfall110."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.4603341,
+      "lon": 10.0708976,
+      "coordinateSource": "https://www.openstreetmap.org/way/256350838",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-polizei-zollenspieker",
+      "title": "Polizeiposten Zollenspieker",
+      "place": "Kirchwerder",
+      "category": "Polizei",
+      "address": "Auf dem Sülzbrack 4, 21037 Hamburg",
+      "description": "Bürgernaher Polizeiposten beziehungsweise Außenstelle des Polizeikommissariats 43. Erreichbarkeit vor dem Besuch beim Kommissariat erfragen.",
+      "website": "https://www.hamburg.de/service/info/11269446/",
+      "source": "https://www.hamburg.de/service/info/11269446/",
+      "sources": [
+        {
+          "label": "Amtliche Kontakt- und Außenstellenübersicht PK 43",
+          "url": "https://www.hamburg.de/service/info/11269446/"
+        }
+      ],
+      "entityType": "Standort des Polizeikommissariats 43",
+      "details": {
+        "Telefon (kein Notruf)": "040 4286-54310",
+        "E-Mail": "pk43@polizei.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Nicht durchgehend an sieben Tagen rund um die Uhr geöffnet; aktuelle Erreichbarkeit über PK43. Im Notfall110."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.4013969,
+      "lon": 10.175229,
+      "coordinateSource": "https://www.openstreetmap.org/way/312377135",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "institution-polizei-allermoehe",
+      "title": "Polizeiaußenstelle Allermöhe",
+      "place": "Neuallermöhe",
+      "category": "Polizei",
+      "address": "Walter-Rudolphi-Weg 32, 21035 Hamburg",
+      "description": "Bürgernaher Polizeiposten beziehungsweise Außenstelle des Polizeikommissariats 43. Erreichbarkeit vor dem Besuch beim Kommissariat erfragen.",
+      "website": "https://www.hamburg.de/service/info/11269446/",
+      "source": "https://www.hamburg.de/service/info/11269446/",
+      "sources": [
+        {
+          "label": "Amtliche Kontakt- und Außenstellenübersicht PK 43",
+          "url": "https://www.hamburg.de/service/info/11269446/"
+        }
+      ],
+      "entityType": "Standort des Polizeikommissariats 43",
+      "details": {
+        "Telefon (kein Notruf)": "040 4286-54310",
+        "E-Mail": "pk43@polizei.hamburg.de",
+        "Besuchs- / Sprechzeiten": "Nicht durchgehend an sieben Tagen rund um die Uhr geöffnet; aktuelle Erreichbarkeit über PK43. Im Notfall110."
+      },
+      "origin": "editorial",
+      "version": 1,
+      "lat": 53.4896785,
+      "lon": 10.1593119,
+      "coordinateSource": "https://www.openstreetmap.org/way/249672016",
+      "coordinateNote": "OpenStreetMap-Objekt über Nominatim; exakter Abgleich Straße, Hausnummer und Postleitzahl mit amtlicher Kontaktanschrift. Keine Interpolation. ODbL; OpenStreetMap-Mitwirkende.",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "st-petri-pauli",
+      "title": "St. Petri und Pauli · evangelisch-lutherische Kirchengemeinde",
+      "place": "Bergedorf",
+      "address": "Bergedorfer Schloßstraße 5, 21029 Hamburg",
+      "category": "Kirchen und christliche Gemeinden",
+      "description": "Kirchengemeinde mit Gottesdiensten, Kirchenmusik sowie Angeboten für Kinder, Jugendliche und Senioren.",
+      "website": "https://stpetriundpauli-bergedorf.de/joomla/",
+      "source": "https://www.nordkirche.de/adressen/institutionen/detailansicht/institution/st-petri-und-pauli",
+      "sources": [
+        {
+          "url": "https://www.nordkirche.de/adressen/institutionen/detailansicht/institution/st-petri-und-pauli",
+          "label": "Nordkirche · Kirche St. Petri und Pauli",
+          "locator": "Kirchenanschrift und Gemeindekontakt"
+        },
+        {
+          "url": "https://stpetriundpauli-bergedorf.de/joomla/kontakt",
+          "label": "Gemeinde · Kirchenbüro",
+          "locator": "Kirchenbüro: Anschrift, Telefon und Öffnungszeiten; Navigation Gemeindeleben und Musik"
+        }
+      ],
+      "details": {
+        "Telefon": "040 7214460",
+        "E-Mail": "info@stpetriundpauli-bergedorf.de",
+        "Kirchenbüro": "Bergedorfer Schloßstraße 2, 21029 Hamburg; vom Kirchenstandort zu unterscheiden.",
+        "Bürozeiten": "Dienstag 10–13 Uhr; Donnerstag 15–18 Uhr. Aktuelle Änderungen auf der Gemeindeseite prüfen."
+      },
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "entityType": "Religiöse Gemeinde / Standort",
+      "version": 1,
+      "lat": 53.488948,
+      "lon": 10.2116538,
+      "coordinateSource": "https://www.openstreetmap.org/node/2485144443",
+      "coordinateNote": "OpenStreetMap/Nominatim, gezielte Suche der zuvor belegten Anschrift, Straße und Hausnummer stimmen überein; keine Schätzung oder Interpolation. Abgleich 19.10.2026. OpenStreetMap-Mitwirkende, ODbL."
+    },
+    {
+      "id": "gnadenkirche",
+      "title": "Christus-Kirchengemeinde Lohbrügge · Gnadenkirche",
+      "place": "Lohbrügge",
+      "address": "Schulenburgring 168, 21031 Hamburg",
+      "category": "Kirchen und christliche Gemeinden",
+      "description": "Kirchenstandort der evangelisch-lutherischen Christus-Kirchengemeinde Hamburg-Lohbrügge.",
+      "website": "https://www.christus-kirchengemeinde-lohbruegge.de/",
+      "source": "https://www.kirche-hamburg.de/gemeinden/ansicht/500-ev-luth-christus-kirchengemeinde-hamburg-lohbruegge",
+      "sources": [
+        {
+          "url": "https://www.kirche-hamburg.de/gemeinden/ansicht/500-ev-luth-christus-kirchengemeinde-hamburg-lohbruegge",
+          "label": "Kirche Hamburg · Christus-Kirchengemeinde Lohbrügge",
+          "locator": "Gemeindekontakt und die beiden zugehörigen Kirchenstandorte"
+        },
+        {
+          "url": "https://www.christus-kirchengemeinde-lohbruegge.de/",
+          "label": "Christus-Kirchengemeinde · Gemeindebüro und Angebote",
+          "locator": "Herzlich willkommen: Zusammenschluss 2019; Gemeindebüro und Bürozeiten; Unsere Kirchen"
+        }
+      ],
+      "details": {
+        "Telefon Gemeindebüro": "040 7386521",
+        "E-Mail Gemeindebüro": "buero@chkgl.de",
+        "Zugehörigkeit": "Die beiden Kirchen sind Standorte derselben Christus-Kirchengemeinde; keine zwei unabhängigen Organisationen.",
+        "Gemeindebüro": "Schulenburgring 168, 21031 Hamburg. Besuchszeiten nicht geprüft.",
+        "Bürozeiten": "Gemeindebüro Schulenburgring 168: Montag und Freitag 10–12 Uhr, Mittwoch 17–18:30 Uhr. Vor Besuch aktuelle Änderungen prüfen.",
+        "Organisation": "Ein Standort der Christus-Kirchengemeinde Hamburg-Lohbrügge; gemeinsames Organisationsprofil mit den beiden Kirchenstandorten."
+      },
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "entityType": "Religiöse Gemeinde / Standort",
+      "version": 1,
+      "lat": 53.5083215,
+      "lon": 10.1873187,
+      "coordinateSource": "https://www.openstreetmap.org/way/83134293",
+      "coordinateNote": "OpenStreetMap/Nominatim, gezielte Suche der zuvor belegten Anschrift, Straße und Hausnummer stimmen überein; keine Schätzung oder Interpolation. Abgleich 19.10.2026. OpenStreetMap-Mitwirkende, ODbL.",
+      "parentId": "christus-kirchengemeinde-lohbruegge",
+      "parentName": "Christus-Kirchengemeinde Hamburg-Lohbrügge"
+    },
+    {
+      "id": "erloeserkirche",
+      "title": "Christus-Kirchengemeinde Lohbrügge · Erlöserkirche",
+      "place": "Lohbrügge",
+      "address": "Lohbrügger Kirchstraße 9, 21033 Hamburg",
+      "category": "Kirchen und christliche Gemeinden",
+      "description": "Kirchenstandort der evangelisch-lutherischen Christus-Kirchengemeinde Hamburg-Lohbrügge.",
+      "website": "https://www.christus-kirchengemeinde-lohbruegge.de/",
+      "source": "https://www.kirche-hamburg.de/gemeinden/ansicht/500-ev-luth-christus-kirchengemeinde-hamburg-lohbruegge",
+      "sources": [
+        {
+          "url": "https://www.kirche-hamburg.de/gemeinden/ansicht/500-ev-luth-christus-kirchengemeinde-hamburg-lohbruegge",
+          "label": "Kirche Hamburg · Christus-Kirchengemeinde Lohbrügge",
+          "locator": "Gemeindekontakt und die beiden zugehörigen Kirchenstandorte"
+        },
+        {
+          "url": "https://www.christus-kirchengemeinde-lohbruegge.de/",
+          "label": "Christus-Kirchengemeinde · Gemeindebüro und Angebote",
+          "locator": "Herzlich willkommen: Zusammenschluss 2019; Gemeindebüro und Bürozeiten; Unsere Kirchen"
+        }
+      ],
+      "details": {
+        "Telefon Gemeindebüro": "040 7386521",
+        "E-Mail Gemeindebüro": "buero@chkgl.de",
+        "Zugehörigkeit": "Die beiden Kirchen sind Standorte derselben Christus-Kirchengemeinde; keine zwei unabhängigen Organisationen.",
+        "Gemeindebüro": "Schulenburgring 168, 21031 Hamburg. Besuchszeiten nicht geprüft.",
+        "Bürozeiten": "Gemeindebüro Schulenburgring 168: Montag und Freitag 10–12 Uhr, Mittwoch 17–18:30 Uhr. Vor Besuch aktuelle Änderungen prüfen.",
+        "Organisation": "Ein Standort der Christus-Kirchengemeinde Hamburg-Lohbrügge; gemeinsames Organisationsprofil mit den beiden Kirchenstandorten."
+      },
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "entityType": "Religiöse Gemeinde / Standort",
+      "version": 1,
+      "lat": 53.4973363,
+      "lon": 10.2013736,
+      "coordinateSource": "https://www.openstreetmap.org/way/233021988",
+      "coordinateNote": "OpenStreetMap/Nominatim, gezielte Suche der zuvor belegten Anschrift, Straße und Hausnummer stimmen überein; keine Schätzung oder Interpolation. Abgleich 19.10.2026. OpenStreetMap-Mitwirkende, ODbL.",
+      "parentId": "christus-kirchengemeinde-lohbruegge",
+      "parentName": "Christus-Kirchengemeinde Hamburg-Lohbrügge"
+    },
+    {
+      "id": "st-marien-bergedorf",
+      "title": "St. Marien · katholische Gemeinde Bergedorf",
+      "place": "Bergedorf",
+      "address": "Sichter 2, 21029 Hamburg",
+      "category": "Kirchen und christliche Gemeinden",
+      "description": "Katholische Gemeinde mit Gottesdiensten, Kirchenmusik und Gruppenangeboten für verschiedene Altersgruppen.",
+      "website": "https://pfarrei-heilige-elisabeth.de/gemeinden/st-marien/",
+      "source": "https://pfarrei-heilige-elisabeth.de/gemeinden/st-marien/",
+      "sources": [
+        {
+          "url": "https://pfarrei-heilige-elisabeth.de/gemeinden/st-marien/",
+          "label": "Pfarrei Heilige Elisabeth · St. Marien",
+          "locator": "Gemeindeanschrift, Pfarrbüro und Gemeindeleben; Abschnitte Kinder, Jugendliche, Familien, Senioren, Kirchenmusik"
+        }
+      ],
+      "details": {
+        "Telefon Pfarrbüro": "040 7216000",
+        "E-Mail": "bergedorf@pfarrei-heilige-elisabeth.de",
+        "Pfarrbüro / Postanschrift": "Reinbeker Weg 8, 21029 Hamburg; nicht die Anschrift der Kirche.",
+        "Gottesdienste": "Die Gemeinde veröffentlicht Gottesdiensttermine im Elisablatt. Prüfen Sie dort die aktuellen Angaben.",
+        "Kartenstandort": "Die belegte Gemeindeanschrift Sichter 2 ist in OpenStreetMap als Gemeindehaus erfasst. Der Punkt bezeichnet das Gemeindegebäude, nicht einen behaupteten Kircheneingang."
+      },
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "entityType": "Religiöse Gemeinde / Standort",
+      "version": 1,
+      "lat": 53.4882807,
+      "lon": 10.2171016,
+      "coordinateSource": "https://www.openstreetmap.org/way/237976190",
+      "coordinateNote": "OpenStreetMap/Nominatim, gezielte Suche der zuvor belegten Anschrift, Straße und Hausnummer stimmen überein; keine Schätzung oder Interpolation. Abgleich 19.10.2026. OpenStreetMap-Mitwirkende, ODbL."
+    },
+    {
+      "id": "st-nicolai-altengamme",
+      "title": "St. Nicolai zu Altengamme",
+      "place": "Altengamme",
+      "address": "Kirchenstegel 11, 21039 Hamburg",
+      "category": "Kirchen und christliche Gemeinden",
+      "description": "Evangelisch-lutherische Kirchengemeinde mit Kirche, Gottesdiensten und Gemeindeveranstaltungen im Pfarrsprengel Kirche in Vierlanden.",
+      "website": "https://www.kirche-altengamme.de/",
+      "source": "https://www.kirche-hamburg.de/gemeinden/ansicht/2845-ev-luth-kirchengemeinde-st-nicolai-zu-altengamme-im-pfarrsprengel-kirche-in-vierlanden",
+      "sources": [
+        {
+          "url": "https://www.kirche-hamburg.de/gemeinden/ansicht/2845-ev-luth-kirchengemeinde-st-nicolai-zu-altengamme-im-pfarrsprengel-kirche-in-vierlanden",
+          "label": "Kirche Hamburg · St. Nicolai zu Altengamme",
+          "locator": "Gemeindeanschrift, Kontakt und zugehörige Kirche"
+        },
+        {
+          "url": "https://serviceportal.kirche-hamburg.de/gemeinden/st-nicolai-zu-altengamme.html",
+          "label": "Kirchliches Serviceportal · St. Nicolai",
+          "locator": "Gemeindeanschrift und Abschnitte Gottesdienste / Veranstaltungen"
+        }
+      ],
+      "details": {
+        "Telefon": "040 7235236",
+        "E-Mail": "kontakt@kirche-altengamme.de",
+        "Kartenstandort": "Markiert wird die veröffentlichte Gemeindeanschrift Kirchenstegel 11, nicht ein geschätzter Kircheneingang."
+      },
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "entityType": "Kirchengemeinde · Gemeindeadresse",
+      "version": 1,
+      "lat": 53.4290894,
+      "lon": 10.2700679,
+      "coordinateSource": "https://www.openstreetmap.org/way/260989173",
+      "coordinateNote": "OpenStreetMap/Nominatim, gezielte Suche der zuvor belegten Anschrift, Straße und Hausnummer stimmen überein; keine Schätzung oder Interpolation. Abgleich 19.10.2026. OpenStreetMap-Mitwirkende, ODbL."
+    },
+    {
+      "id": "kocatepe-bergedorf",
+      "title": "Kocatepe Camii · DITIB-Gemeinde Bergedorf",
+      "place": "Bergedorf",
+      "address": "Stuhlrohrstraße 21, 21029 Hamburg",
+      "category": "Moscheen und muslimische Gemeinden",
+      "description": "Moschee und örtliche DITIB-Gemeinde. Das Hamburger Landesinstitut führt sie als religiösen Lernort. Besuchsmöglichkeiten bitte vorab mit der Gemeinde klären.",
+      "website": "https://www.ditib.de/default.php?13=&abc=H&filter=alphabet&id=13&lang=de",
+      "source": "https://www.ditib.de/default.php?13=&abc=H&filter=alphabet&id=13&lang=de",
+      "sources": [
+        {
+          "url": "https://www.ditib.de/default.php?13=&abc=H&filter=alphabet&id=13&lang=de",
+          "label": "DITIB · Gemeindeverzeichnis",
+          "locator": "Eintrag HAMBURG-Bergedorf: Stuhlrohrstraße 21, Telefon"
+        },
+        {
+          "url": "https://li.hamburg.de/qualitaetsentwicklung-von-unterricht-und-schule/faecher-lernbereiche/gesellschaft/religion/religioese-lernorte-hamburg/kocatepe-camii-650644",
+          "label": "Landesinstitut Hamburg · Kocatepe Camii",
+          "locator": "Kocatepe Camii (DITIB): Standort und Gemeinde-E-Mail; Straße dort verkürzt als Stuhlrohr 21 angegeben"
+        }
+      ],
+      "details": {
+        "Telefon": "040 7240619",
+        "E-Mail": "vorstand.bergedorf@ditib-nord.de",
+        "Besuchshinweis": "Keine bestätigten Besuchs- oder Führungszeiten angegeben. Bitte vorher erfragen."
+      },
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "entityType": "Religiöse Gemeinde / Standort",
+      "version": 1,
+      "lat": 53.4869578,
+      "lon": 10.2069724,
+      "coordinateSource": "https://www.openstreetmap.org/way/536759578",
+      "coordinateNote": "OpenStreetMap/Nominatim, gezielte Suche der zuvor belegten Anschrift, Straße und Hausnummer stimmen überein; keine Schätzung oder Interpolation. Abgleich 19.10.2026. OpenStreetMap-Mitwirkende, ODbL."
+    },
+    {
+      "id": "schifffahrtslinie-serrahn",
+      "title": "Bergedorfer Schifffahrtslinie – Schiffsanleger am Serrahn",
+      "place": "Bergedorf",
+      "category": "Schifffahrt & Fähren",
+      "address": "Bergedorfer Hafen, Serrahnstraße · Wassertreppen 1–3, 21029 Hamburg",
+      "entityType": "Schiffsanleger",
+      "lat": 53.4886693,
+      "lon": 10.2090276,
+      "coordinateSource": "https://www.openstreetmap.org/node/9659748670",
+      "description": "Schifffahrten ab dem Bergedorfer Hafen. Die Anbieterinformation nennt bei Hamburgfahrten Sandtorhöft als Ziel; maßgeblich ist die jeweils gebuchte Fahrt.",
+      "details": {
+        "Anleger": "Der Kartenpunkt zeigt den Schiffsanleger am Serrahn, nicht das Verkaufsbüro in der Alten Holstenstraße 64.",
+        "Fahrten und Charter": "Strecke, Abfahrt und Saison bitte beim Anbieter prüfen. „Unser Revier“ beschreibt Chartermöglichkeiten und ist kein regulärer Fahrplan.",
+        "Telefon": "040 736 756 90",
+        "E-Mail": "info@bergedorfer-schifffahrtslinie.de"
+      },
+      "source": "https://barkassenfahrt.de/",
+      "website": "https://barkassenfahrt.de/",
+      "sources": [
+        {
+          "label": "Anleger und getrennte Büroanschrift",
+          "url": "https://barkassenfahrt.de/kontakt/",
+          "locator": "HEIMATHAFEN → Anleger, Wassertreppen 1–3"
+        },
+        {
+          "label": "Charterfahrtgebiet · kein Linienfahrplan",
+          "url": "https://barkassenfahrt.de/charter/unser-revier/"
+        }
+      ],
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "version": 1,
+      "coordinateNote": "Am 19.10.2026 mit Originalquelle und einzelner OSM-Geometrie abgeglichen. OpenStreetMap-Mitwirkende, ODbL. Expliziter Fähr-/Schiffsanleger in OSM; nicht Büro, Bushaltestelle oder Gegenanleger."
+    },
+    {
+      "id": "elbfaehre-zollenspieker",
+      "title": "Elbfähre Zollenspieker–Hoopte",
+      "place": "Kirchwerder",
+      "category": "Schifffahrt & Fähren",
+      "address": "Zollenspieker Hauptdeich 148, 21037 Hamburg",
+      "entityType": "Fähranleger auf Hamburger Seite",
+      "lat": 53.3979822,
+      "lon": 10.1833599,
+      "coordinateSource": "https://www.openstreetmap.org/node/252599332",
+      "description": "Fährverbindung über die Elbe zwischen Zollenspieker und Hoopte. Der Kartenpunkt zeigt den Hamburger Anleger, nicht den gegenüberliegenden Anleger in Hoopte.",
+      "details": {
+        "Aktueller Fährbetrieb": "Fahrtzeiten, Saisonpausen und kurzfristige Betriebshinweise bitte unmittelbar beim Betreiber prüfen."
+      },
+      "source": "https://erlebnis-reederei.de/faehrbetrieb-2/",
+      "website": "https://erlebnis-reederei.de/faehrbetrieb-2/",
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "version": 1,
+      "coordinateNote": "Am 19.10.2026 mit Originalquelle und einzelner OSM-Geometrie abgeglichen. OpenStreetMap-Mitwirkende, ODbL. Expliziter Fähr-/Schiffsanleger in OSM; nicht Büro, Bushaltestelle oder Gegenanleger.",
+      "sources": []
+    },
+    {
+      "id": "gruenes-zentrum",
+      "title": "Grünes Zentrum Lohbrügge",
+      "place": "Lohbrügge",
+      "category": "Parkanlagen",
+      "address": "Zwischen Korachstraße und Wilhelm-Leuschner-Straße, Hamburg-Lohbrügge",
+      "locationTitle": "Weggabelung in der Parkanlage",
+      "entityType": "Parkanlage",
+      "lat": 53.5069776,
+      "lon": 10.2029667,
+      "coordinateSource": "https://www.openstreetmap.org/node/2288320291",
+      "description": "Grünanlage in Lohbrügge-Nord mit Wiesen, Bäumen und Spazierwegen. Die offizielle Beschreibung nennt den Ziegelteich als Mittelpunkt.",
+      "details": {
+        "Kartenpunkt": "Orientierungspunkt an einer kartierten Weggabelung innerhalb der Parkanlage; kein Gebäude und keine Verwaltungsanschrift.",
+        "Besuch": "Aktuelle Hinweise zu Anlage und Wegen bitte in der offiziellen Beschreibung prüfen."
+      },
+      "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/gruenes-zentrum-lohbruegge-275384",
+      "website": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/gruenes-zentrum-lohbruegge-275384",
+      "quarterId": "lohbruegge-nord",
+      "quarterChecked": "2026-10-19",
+      "quarterSource": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/gruenes-zentrum-lohbruegge-275384",
+      "quarterLocator": "Einleitung: Großwohnsiedlung Lohbrügge-Nord und dazugehörige Grünanlage",
+      "sources": [
+        {
+          "label": "Belegte Quartierszuordnung",
+          "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/gruenes-zentrum-lohbruegge-275384",
+          "locator": "Einleitung: Lohbrügge-Nord"
+        },
+        {
+          "label": "Kartierte Parkanlage",
+          "url": "https://www.openstreetmap.org/relation/2204980"
+        },
+        {
+          "label": "Weggabelung · zwei verbundene Parkwege",
+          "url": "https://www.openstreetmap.org/way/219692449"
+        }
+      ],
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "version": 1,
+      "coordinateNote": "Am 19.10.2026 mit Originalquelle und einzelner OSM-Geometrie abgeglichen. OpenStreetMap-Mitwirkende, ODbL. Bestehender Knoten zweier Fußwege innerhalb der kartierten Parkfläche."
+    },
+    {
+      "id": "schlosspark",
+      "title": "Bergedorfer Schlosspark / Schlossgarten",
+      "place": "Bergedorf",
+      "category": "Parkanlagen",
+      "address": "Bergedorfer Schlossgarten, 21029 Hamburg",
+      "locationTitle": "Parkzugang am nordwestlichen Rand",
+      "entityType": "Parkanlage",
+      "lat": 53.4906383,
+      "lon": 10.2114332,
+      "coordinateSource": "https://www.openstreetmap.org/node/3105548771",
+      "description": "Parkanlage rund um das Bergedorfer Schloss mit Bäumen, Gewässern und Wegen. Park und Museum sind unterschiedliche Angebote; das vorhandene Schlossprofil bleibt verknüpft.",
+      "details": {
+        "Kartenpunkt": "Kartierter Fußweg am nordwestlichen Parkrand. Der Punkt dient als Zugang und Orientierung, nicht als Mittelpunkt des gesamten Parks."
+      },
+      "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/bergedorfer-schlosspark3-274976",
+      "website": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/bergedorfer-schlosspark3-274976",
+      "relatedIds": [
+        "schloss"
+      ],
+      "sources": [
+        {
+          "label": "Schlossgarten · kartierte Parkfläche",
+          "url": "https://www.openstreetmap.org/relation/410134"
+        },
+        {
+          "label": "Fußweg am Parkrand",
+          "url": "https://www.openstreetmap.org/way/258362592"
+        }
+      ],
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "version": 1,
+      "coordinateNote": "Am 19.10.2026 mit Originalquelle und einzelner OSM-Geometrie abgeglichen. OpenStreetMap-Mitwirkende, ODbL. Gemeinsamer Knoten von Fußweg und kartierter Parkgrenze."
+    },
+    {
+      "id": "cafe-chrysander",
+      "title": "Café Chrysander",
+      "place": "Bergedorf",
+      "category": "Gastronomie",
+      "address": "Chrysanderstraße 61, 21029 Hamburg",
+      "entityType": "Café",
+      "lat": 53.4896203,
+      "lon": 10.2152816,
+      "coordinateSource": "https://www.openstreetmap.org/way/457971158",
+      "description": "Café im Bergedorfer Schlosspark neben der Rollschuhbahn. Der Betreiber nennt Chrysanderstraße 61 und weist auf die Lage gegenüber Hausnummer 22 hin.",
+      "details": {
+        "Telefon": "040 380 736 57",
+        "Aktuelle Angebote und Öffnungszeiten": "Bitte auf der Betreiberwebsite prüfen. Für Navigation nennt der Betreiber die gegenüberliegende Hausnummer 22 als Orientierung; der Kartenpunkt zeigt das Café mit Hausnummer 61."
+      },
+      "source": "https://www.cafe-chrysander.de/kontakt/",
+      "website": "https://www.cafe-chrysander.de/",
+      "sources": [
+        {
+          "label": "Aktuelle Öffnungszeiten beim Café",
+          "url": "https://www.cafe-chrysander.de/%C3%B6ffnungszeiten/"
+        }
+      ],
+      "relatedIds": [
+        "schlosspark"
+      ],
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-19",
+      "version": 1,
+      "coordinateNote": "Am 19.10.2026 mit Originalquelle und einzelner OSM-Geometrie abgeglichen. OpenStreetMap-Mitwirkende, ODbL. OSM/Nominatim-Gebäudepunkt; Name, Straße und Hausnummer 61 stimmen mit Betreiberkontakt überein."
+    },
+    {
+      "category": "Rollstuhlgerechte Toiletten",
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-21",
+      "version": 1,
+      "wheelchairToilet": true,
+      "entityType": "WC-Angebot · redaktionell recherchiert",
+      "verification": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+      "nextCheck": "2027-01-21",
+      "id": "wc-fleetplatz",
+      "title": "Rollstuhl-WC am Fleetplatz / S-Bahn Allermöhe",
+      "place": "Neuallermöhe",
+      "address": "Walter-Rudolphi-Weg 10, am Fleetplatz neben der Haspa, Hamburg",
+      "description": "Öffentliche WC-Anlage der Stadtreinigung mit ausdrücklich als behindertengerecht bezeichnetem Unisex-WC.",
+      "lat": 53.489701,
+      "lon": 10.158237,
+      "coordinateSource": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten?tx_srh_places%5Baction%5D=find&tx_srh_places%5Bcontroller%5D=Places&tx_srh_places%5Bdistance%5D=20000&tx_srh_places%5Btypes%5D=toilet&tx_srh_places%5Bposition%5D=53.48%2C10.18&type=10001",
+      "mapPointScope": "approximate-facility",
+      "locationChecked": "2026-10-22",
+      "coordinateNote": "Ungefährer Anlagenstandort – genaue Lage noch nicht bestätigt. Unveränderter Betreiber-Kartenpunkt der Stadtreinigung, Datensatz 1816120 (Sicherung 21.10.2026), Kontrollabruf 22.10.2026 mit gleicher Anschrift und unveränderten Koordinaten, aktuelle ID 1817249; kein unabhängiger Beleg einer metergenauen Anlage oder WC-Tür.",
+      "source": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten/",
+      "sources": [
+        {
+          "label": "Betreiberbestand und Koordinaten",
+          "url": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten?tx_srh_places%5Baction%5D=find&tx_srh_places%5Bcontroller%5D=Places&tx_srh_places%5Bdistance%5D=20000&tx_srh_places%5Btypes%5D=toilet&tx_srh_places%5Bposition%5D=53.48%2C10.18&type=10001",
+          "locator": "Datensatz 1816120 · S-Bahn Allermöhe"
+        }
+      ],
+      "details": {
+        "Prüfart": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+        "Rollstuhlausstattung": "Ein behindertengerechtes Unisex-WC laut SRH; Türbreiten, Bewegungsflächen und Haltegriffe nicht einzeln dokumentiert.",
+        "Lage / Eingang": "Neben der Haspa am Fleetplatz; Eingang, Schwellen und Etage nicht näher belegt.",
+        "Öffnungszeiten laut Betreiber": "24 Stunden; keine Aussage zur augenblicklichen Öffnung oder Störungsfreiheit.",
+        "Kosten laut Betreiber": "0,50 Euro; abweichende Regelung für Euroschlüssel nicht belegt.",
+        "Euroschlüssel": "Unbekannt – keine entsprechende verlässliche Angabe gefunden.",
+        "Nutzerkreis": "Öffentliche Toilette; kein Kundenkauf als Voraussetzung angegeben.",
+        "Vor-Ort-Prüfung": "Nicht durchgeführt."
+      },
+      "toiletAccess": {
+        "status": "public",
+        "label": "Öffentlich nutzbar laut Betreiberbestand",
+        "publicUse": "Als öffentliche Toilette der Stadtreinigung angeboten, ohne Kunden-, Patienten-, Veranstaltungs- oder Mitgliedschaftspflicht. Keine Vor-Ort-Bestätigung.",
+        "route": "Öffentliche WC-Anlage am Fleetplatz; direkter Außeneingang zur Rollstuhl-Kabine nicht einzeln belegt.",
+        "stepFree": "Anlage als behindertengerecht bezeichnet; kompletter Weg, Schwellen und Türmaße nicht dokumentiert.",
+        "hours": "24 Stunden laut SRH; aktuelle Störungen unbekannt.",
+        "cost": "0,50 Euro laut SRH.",
+        "key": "Euroschlüsselregelung ungeklärt."
+      },
+      "website": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten/"
+    },
+    {
+      "category": "Rollstuhlgerechte Toiletten",
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-21",
+      "version": 1,
+      "wheelchairToilet": true,
+      "entityType": "WC-Angebot · redaktionell recherchiert",
+      "verification": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+      "nextCheck": "2027-01-21",
+      "id": "wc-hohendeicher-see",
+      "title": "Rollstuhl-WC am Hohendeicher See",
+      "place": "Kirchwerder",
+      "address": "Hohendeicher See, Automatik-WC an der südlichen Badestelle, Hamburg",
+      "description": "Saisonale öffentliche Automatik-WC-Anlage mit einem behindertengerechten Unisex-WC laut Stadtreinigung.",
+      "lat": 53.43135,
+      "lon": 10.115193,
+      "coordinateSource": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten?tx_srh_places%5Baction%5D=find&tx_srh_places%5Bcontroller%5D=Places&tx_srh_places%5Bdistance%5D=20000&tx_srh_places%5Btypes%5D=toilet&tx_srh_places%5Bposition%5D=53.48%2C10.18&type=10001",
+      "mapPointScope": "approximate-facility",
+      "locationChecked": "2026-10-22",
+      "coordinateNote": "Ungefährer Anlagenstandort – genaue Lage noch nicht bestätigt. Unveränderter Betreiber-Kartenpunkt, SRH 1816211 (Sicherung 21.10.2026), Kontrollabruf 22.10.2026 mit unveränderten Koordinaten und aktueller ID 1817340. Stadtteil gegen amtliches LGV-Polygon geprüft. Abbildung 97 der Nutzungsstudie 2021 belegt fünf damalige Toilettenhäuschen, aber keine eindeutige Zuordnung zur heutigen rollstuhlgerechten Anlage; kein vermessener WC-Eingang.",
+      "source": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten/",
+      "sources": [
+        {
+          "label": "Betreiberbestand und Koordinaten",
+          "url": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten?tx_srh_places%5Baction%5D=find&tx_srh_places%5Bcontroller%5D=Places&tx_srh_places%5Bdistance%5D=20000&tx_srh_places%5Btypes%5D=toilet&tx_srh_places%5Bposition%5D=53.48%2C10.18&type=10001",
+          "locator": "Datensatz 1816211 · Hohendeicher See"
+        },
+        {
+          "label": "Amtliche Badestellenbeschreibung",
+          "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/wasser/badegewaesser/hohendeichersee-sued-174076",
+          "locator": "Serviceeinrichtungen"
+        },
+        {
+          "label": "Historische Lagekarte und Fotos – keine aktuelle Lagebestätigung",
+          "url": "https://www.hamburg.de/resource/blob/1020262/210d9dca32906ee9372bf6d75cce17f4/d-hohendeicher-see-nutzungsstudie-2021-data.pdf",
+          "locator": "Abschnitt 8.2, Druckseiten 179–180; Abbildung 97 auf Druckseite 180 / PDF-Seite 187. Zur Recherche geprüft am 22.10.2026."
+        }
+      ],
+      "details": {
+        "Prüfart": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+        "Rollstuhlausstattung": "Ein behindertengerechtes Unisex-WC in der Automatik-Anlage laut SRH. Einzelmaße und Haltegriffe nicht dokumentiert.",
+        "Lage / Eingang": "Südliche Badestelle; genaue zugängliche Tür, Wegoberfläche und Schwellen nicht belegt.",
+        "Öffnungszeiten laut Betreiber": "Täglich 08–22 Uhr, nur saisonal. Saisonbeginn und -ende unbekannt; nicht als aktuell geöffnet bestätigt.",
+        "Kosten laut Betreiber": "0,00 Euro",
+        "Euroschlüssel": "Unbekannt – keine entsprechende verlässliche Angabe gefunden.",
+        "Nutzerkreis": "Öffentliche Badeseetoilette; keine Kundeneigenschaft als Voraussetzung angegeben.",
+        "Vor-Ort-Prüfung": "Nicht durchgeführt."
+      },
+      "toiletAccess": {
+        "status": "restricted",
+        "label": "Eingeschränkt öffentlich nutzbar · saisonal",
+        "publicUse": "Öffentliche Badeseetoilette laut Betreiberbestand, ohne Kunden-, Patienten-, Veranstaltungs- oder Mitgliedschaftspflicht. Außerhalb der Saison nicht als nutzbar bestätigt.",
+        "route": "Automatik-WC an der südlichen Badestelle; genaue zugängliche Außentür nicht dokumentiert.",
+        "stepFree": "Behindertengerechte Kabine belegt; Wegoberfläche, Schwellen und durchgängige Rollstuhl-Zuwegung ungeklärt.",
+        "hours": "Täglich 08–22 Uhr, saisonal; Saisonbeginn und -ende nicht belegt.",
+        "cost": "0,00 Euro laut SRH.",
+        "key": "Euroschlüsselregelung ungeklärt."
+      },
+      "website": "https://www.stadtreinigung.hamburg/stadtsauberkeit/oeffentliche-toiletten/"
+    },
+    {
+      "category": "Rollstuhlgerechte Toiletten",
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-21",
+      "version": 1,
+      "wheelchairToilet": true,
+      "entityType": "WC-Angebot · redaktionell recherchiert",
+      "verification": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+      "nextCheck": "2027-01-21",
+      "id": "wc-bahnhof-bergedorf",
+      "title": "Bahnhof Bergedorf – rail & fresh Rollstuhl-WC",
+      "place": "Bergedorf",
+      "address": "Weidenbaumsweg 14, Bahnhof Hamburg-Bergedorf, 21029 Hamburg",
+      "description": "Barrierefreies WC im ersten Obergeschoss in Aufzugsnähe laut Bahnhofsanbieter. Mit Euroschlüssel laut DB kostenfrei.",
+      "lat": 53.489832,
+      "lon": 10.206171,
+      "coordinateSource": "https://www.bahnhof.de/hamburg-bergedorf",
+      "coordinateNote": "Belegter DB-Stationspunkt als Orientierung am Bahnhofsgebäude. Kein genauer WC- oder Eingangspunkt; WC laut DB im 1. OG in Aufzugsnähe. Aufzugsbetrieb vor Besuch prüfen.",
+      "mapPointScope": "building",
+      "wcHostId": "hamburg-bergedorf",
+      "wcHostKind": "station",
+      "wcHostName": "Bahnhof Bergedorf",
+      "locationChecked": "2026-10-22",
+      "source": "https://www.bahnhof.de/hamburg-bergedorf/einkaufen-und-essen/rail-fresh-wc",
+      "extraSource": "https://www.hamburg.de/iason/apps/oeffentliche-toiletten/detail/A031050128/",
+      "sources": [
+        {
+          "label": "Bahnhofsanschrift und Aufzugsinformationen",
+          "url": "https://www.bahnhof.de/hamburg-bergedorf"
+        }
+      ],
+      "details": {
+        "Prüfart": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+        "Rollstuhlausstattung": "DB nennt barrierefreie Toiletten mit Euroschlüsselzugang. Konkrete Maße und weitere Hilfsmittel unbekannt.",
+        "Lage / Eingang": "1. OG, in Aufzugsnähe. Konkreter zugänglicher Gebäude-Eingang und Weg zum WC nicht belegt. Aufzug für den stufenlosen Etagenwechsel erforderlich.",
+        "Öffnungszeiten laut DB": "Mo–Fr 05–21 Uhr; Sa, So und Feiertage 07–21 Uhr. Keine Live-Öffnungsmeldung.",
+        "Kosten / Euroschlüssel": "Mit Euroschlüssel kostenfrei laut DB; hamburg.de nennt für den regulären Zugang 1,00 Euro. Andere Ermäßigungen unbekannt.",
+        "Nutzerkreis": "Öffentlich angebotenes Bahnhofs-WC; besondere Beschränkungen oder Kaufpflicht nicht belegt.",
+        "Vor-Ort-Prüfung": "Nicht durchgeführt."
+      },
+      "toiletAccess": {
+        "status": "unknown",
+        "label": "Öffentlich angeboten · Nutzung ohne Fahrkarte nicht ausdrücklich bestätigt",
+        "publicUse": "Öffentlich angebotenes Bahnhofs-WC. Im amtlichen öffentlichen Toilettenführer gelistet. Keine Fahrkarten- oder Kaufpflicht veröffentlicht; eine ausdrückliche Bestätigung der Nutzung ohne diese Voraussetzungen fehlt. Keine individuelle Betreiberbestätigung eingeholt.",
+        "route": "Zugang durch das Bahnhofsgebäude, WC im 1. Obergeschoss nahe dem Aufzug. Kein direkter Außenzugang zum WC.",
+        "stepFree": "Aufzug zum Etagenwechsel erforderlich. Genaue Eingangskette, Wegmaße und aktueller Aufzugsbetrieb nicht bestätigt.",
+        "hours": "Mo–Fr 05–21 Uhr; Sa, So und Feiertage 07–21 Uhr laut DB.",
+        "cost": "Regulär 1,00 Euro laut hamburg.de; mit Euroschlüssel kostenfrei laut DB.",
+        "key": "Barrierefreies WC mit Euroschlüssel; Zugang ohne Schlüssel zur Rollstuhl-Kabine ungeklärt."
+      },
+      "website": "https://www.bahnhof.de/hamburg-bergedorf/einkaufen-und-essen/rail-fresh-wc"
+    },
+    {
+      "category": "Rollstuhlgerechte Toiletten",
+      "origin": "editorial",
+      "readerStatus": "released",
+      "sourceStatus": "checked",
+      "checked": "2026-10-21",
+      "version": 1,
+      "wheelchairToilet": true,
+      "entityType": "WC-Angebot · redaktionell recherchiert",
+      "verification": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+      "nextCheck": "2027-01-21",
+      "id": "wc-koerberhaus",
+      "title": "KörberHaus – Rollstuhl-Toiletten",
+      "place": "Bergedorf",
+      "address": "Holzhude 1, 21029 Hamburg",
+      "description": "Das KörberHaus nennt ausdrücklich Rollstuhl-Toiletten. Der genaue Weg zur jeweiligen Toilette und Nutzungsbedingungen sind noch nicht vollständig belegt.",
+      "lat": 53.4871527,
+      "lon": 10.2086727,
+      "coordinateSource": "https://www.openstreetmap.org/way/1134643315",
+      "coordinateNote": "Belegter Gebäudepunkt des bestehenden KörberHaus-Profils, kein genauer WC- oder Eingangspunkt. Zwei stufenlose Gebäudeeingänge belegt; WC-Etage und Türposition unbekannt.",
+      "mapPointScope": "building",
+      "wcHostId": "editorial-koerber",
+      "wcHostKind": "building",
+      "wcHostName": "KörberHaus",
+      "locationChecked": "2026-10-22",
+      "relatedIds": [
+        "koerber"
+      ],
+      "source": "https://koerberhaus.de/besuchen/barrierefreiheit",
+      "extraSource": "https://koerberhaus.de/leichte-sprache/oeffnungszeiten-und-anreise",
+      "details": {
+        "Prüfart": "Laut Betreiber-/Originalquellen; nicht vor Ort geprüft",
+        "Rollstuhlausstattung": "Rollstuhl-Toiletten laut Betreiber; Anzahl, Maße und Ausstattung im Einzelnen unbekannt.",
+        "Eingang / Etage": "Beide Hauseingänge (Holzhude und Bergedorfer Straße) ebenerdig; Aufzüge an beiden Eingängen, alle Etagen erreichbar. WC-Etage und genaue Lage unbekannt.",
+        "Hausöffnungszeiten laut Betreiber": "Mo–Sa 07–22 Uhr, bei Veranstaltungen gegebenenfalls länger. Kein Nachweis identischer WC-Zeiten; Sonntags-/Feiertagsregelung und Saisonbeschränkungen unbekannt.",
+        "Kosten / Euroschlüssel": "Unbekannt – keine entsprechende verlässliche Angabe gefunden.",
+        "Nutzungsbeschränkungen": "Unbekannt, ob WC-Nutzung ohne Besuch einer Einrichtung/Veranstaltung uneingeschränkt möglich ist.",
+        "Öffentlicher Kontakt": "info@koerberhaus.de · 040 72 57 02-20",
+        "Vor-Ort-Prüfung": "Nicht durchgeführt."
+      },
+      "toiletAccess": {
+        "status": "unknown",
+        "label": "Öffentliche WC-Nutzung noch ungeklärt",
+        "publicUse": "Rollstuhl-Toiletten sind belegt. Ob Personen ausschließlich zur WC-Nutzung ohne Kunden-, Patienten-, Veranstaltungs- oder Mitgliedschaftsstatus eingelassen werden, ist nicht bestätigt.",
+        "route": "Zugang durch das KörberHaus; beide Hauseingänge ebenerdig. WC-Etage, Kabinentür und genauer Innenweg unbekannt.",
+        "stepFree": "Aufzüge nahe beiden Eingängen zu allen Etagen belegt. Die vollständige Strecke bis zur WC-Kabine ist nicht dokumentiert.",
+        "hours": "Haus Mo–Sa 07–22 Uhr, bei Veranstaltungen länger; WC-Zeiten nicht gesondert bestätigt.",
+        "cost": "Kosten unbekannt.",
+        "key": "Euroschlüsselregelung unbekannt."
+      },
+      "website": "https://koerberhaus.de/besuchen/barrierefreiheit"
+    }
+  ],
+  "comments": [],
+  "reactions": [],
+  "files": [],
+  "requests": [],
+  "cases": [],
+  "audit": [],
+  "support": [],
+  "suggestions": [],
+  "notifications": [],
+  "settings": {
+    "homepage": {
+      "limit": 6,
+      "order": "first-approved-desc"
+    },
+    "politicalHomepage": {
+      "limit": 3,
+      "order": "first-approved-desc"
+    },
+    "homepageHighlights": {},
+    "areas": {
+      "anliegen": {
+        "status": "active",
+        "reason": "",
+        "reasonType": "manual",
+        "texts": true,
+        "comments": true,
+        "uploads": true,
+        "contacts": false,
+        "external": false,
+        "budget": 100,
+        "warning": 80,
+        "simulated": false
+      },
+      "erfahrung": {
+        "status": "active",
+        "reason": "",
+        "reasonType": "manual",
+        "texts": true,
+        "comments": true,
+        "uploads": true,
+        "contacts": false,
+        "external": false,
+        "budget": 100,
+        "warning": 80,
+        "simulated": false
+      },
+      "geschichte": {
+        "status": "active",
+        "reason": "",
+        "reasonType": "manual",
+        "texts": true,
+        "comments": true,
+        "uploads": true,
+        "contacts": false,
+        "external": false,
+        "budget": 100,
+        "warning": 80,
+        "simulated": false
+      },
+      "politik": {
+        "status": "active",
+        "reason": "",
+        "reasonType": "manual",
+        "texts": true,
+        "comments": true,
+        "uploads": true,
+        "contacts": false,
+        "external": false,
+        "budget": 100,
+        "warning": 80,
+        "simulated": false
+      },
+      "verzeichnis": {
+        "status": "active",
+        "reason": "",
+        "reasonType": "manual",
+        "texts": true,
+        "comments": true,
+        "uploads": true,
+        "contacts": false,
+        "external": true,
+        "budget": 100,
+        "warning": 80,
+        "simulated": false
+      },
+      "organisation": {
+        "status": "active",
+        "reason": "",
+        "reasonType": "manual",
+        "texts": true,
+        "comments": true,
+        "uploads": true,
+        "contacts": false,
+        "external": false,
+        "budget": 100,
+        "warning": 80,
+        "simulated": false
+      },
+      "gestaltung": {
+        "status": "active",
+        "reason": "",
+        "reasonType": "manual",
+        "texts": true,
+        "comments": true,
+        "uploads": true,
+        "contacts": false,
+        "external": false,
+        "budget": 100,
+        "warning": 80,
+        "simulated": false
+      }
+    },
+    "plan": [],
+    "watermark": true,
+    "crest": {
+      "src": "/assets/bergedorf.svg",
+      "alt": "Bergedorfer Wappen mit drei Eichen auf grünem Dreiberg",
+      "source": "https://commons.wikimedia.org/wiki/File:DEU_Hamburg-Bergedorf_COA.svg",
+      "rights": "Original: gemeinfrei laut Dateiseite; öffentliche Wappenführung ungeklärt",
+      "checked": "2026-10-18"
+    },
+    "previousCrests": [],
+    "publicRelease": false,
+    "operatorTasks": {},
+    "researchEdits": {},
+    "boroughs": {}
+  },
+  "financePublication": {
+    "currentYear": 2026,
+    "years": [
+      2026,
+      2027
+    ],
+    "planReady": false,
+    "accountingReady": false,
+    "planUpdated": null,
+    "lastPlan": null,
+    "rows": [],
+    "totals": null,
+    "paidByYear": [
+      {
+        "year": 2026,
+        "paid": null,
+        "fees": null,
+        "costs": null,
+        "budget": null,
+        "estimated": null
+      },
+      {
+        "year": 2027,
+        "paid": 0,
+        "fees": null,
+        "costs": null,
+        "budget": null,
+        "estimated": null
+      }
+    ],
+    "estimated": null,
+    "paid": null,
+    "planned": null,
+    "funds": null,
+    "need": null,
+    "status": "prepared",
+    "provider": null,
+    "paymentEnabled": false,
+    "asOf": null,
+    "updatedAt": null,
+    "expenseEvidence": {
+      "status": "not-published",
+      "entries": [],
+      "publishedAt": null
+    }
+  },
+  "permissions": {
+    "role": "reader",
+    "mode": "static",
+    "canAdmin": false,
+    "canAuthor": false,
+    "canComment": false,
+    "canReact": false,
+    "canParticipate": false,
+    "canRestoreOwner": false,
+    "canManageFinance": false,
+    "canManageBoroughs": false,
+    "testAccess": false,
+    "emailConfirmed": false
+  },
+  "reviewNotice": "Statische Lesefassung: Einreichungen und Moderation benötigen das noch nicht angeschlossene Backend."
+}
