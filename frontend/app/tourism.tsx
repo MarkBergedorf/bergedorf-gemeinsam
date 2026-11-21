@@ -68,21 +68,24 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
 }
 
 export function TourismPage(){
- const [query,setQuery]=useState(''),[selected,setSelected]=useState<Set<string>>(()=>new Set(tourismCategories.map(c=>c.id))),[freeOnly,setFreeOnly]=useState(false),[focusId,setFocusId]=useState('');
+ const [query,setQuery]=useState(''),[selected,setSelected]=useState<Set<string>>(()=>new Set(tourismCategories.map(c=>c.id))),[freeOnly,setFreeOnly]=useState(false),[focusId,setFocusId]=useState(''),[scrollTarget,setScrollTarget]=useState('');
  const visible=useMemo(()=>filterTourismItems({query,categoryIds:[...selected],freeOnly}),[query,selected,freeOnly]);
  function toggle(id:string){setSelected(current=>{const next=new Set(current);next.has(id)?next.delete(id):next.add(id);return next})}
+ // Internal section navigation must not change the application's hash-based page route.
+ function jumpTo(e:React.MouseEvent<HTMLAnchorElement>,id:string){e.preventDefault();setQuery('');setFreeOnly(false);setSelected(new Set(tourismCategories.map(c=>c.id)));setScrollTarget(id)}
+ useEffect(()=>{if(!scrollTarget)return;const element=scrollTarget==='gedenkstaette'?document.querySelector('[data-tourism-id="gedenkstaette"]'):document.getElementById('tourismus-'+scrollTarget);if(element){element.scrollIntoView({behavior:'smooth',block:'start'});setScrollTarget('')}},[scrollTarget,query,selected,freeOnly]);
  return <div className="tourism-page">
   <section className="section page-content tourism-intro">
    <div className="eyebrow">UNABHÄNGIGE ORIENTIERUNG FÜR GÄSTE</div>
    <h1>Bergedorf entdecken – Gäste &amp; Tourismus</h1>
    <p>Sehenswürdigkeiten, Natur, Kultur, Übernachtung, Essen und Wege durch alle Teile des Bezirks – vom Bergedorfer Zentrum und Lohbrügge bis Neuallermöhe und in die Vier- und Marschlande.</p>
    <p className="tourism-note">„Bergedorf gemeinsam“ ist eine unabhängige, nicht amtliche Bürgerplattform. Diese statische Testfassung vermittelt keine Buchungen, Reservierungen, Tickets oder Zahlungen. Anbieterangaben sind einmalig am <strong>{tourismCheckedOn}</strong> geprüft und können sich ändern; maßgeblich sind die verlinkten Originalquellen.</p>
-   <nav className="tourism-category-nav" aria-label="Themen im Bereich Gäste und Tourismus">{tourismCategories.map(c=><a key={c.id} href={`#tourismus-${c.id}`}>{c.short}</a>)}</nav>
+   <nav className="tourism-category-nav" aria-label="Themen im Bereich Gäste und Tourismus">{tourismCategories.map(c=><a key={c.id} href={`#tourismus-${c.id}`} onClick={e=>jumpTo(e,c.id)}>{c.short}</a>)}</nav>
   </section>
   <section className="section tourism-content">
    <div className="tourism-intro-grid">
-    <article className="panel"><h2>Für den ersten Besuch</h2><p>Für einen kompakten Rundgang nennt Bergedorf-Tourismus eine etwa 3 km lange Strecke mit 12 Stationen ab Serrahn: Altstadt, Kornwassermühle, St. Petri und Pauli, Schloss, Schlossgarten und Windmühle. Innenbesuche und Öffnungszeiten separat planen.</p><a href="#tourismus-rundgaenge">Rundgänge und Routen ansehen →</a></article>
-    <article className="panel"><h2>Gedenk- und Bildungsort</h2><p>Die KZ-Gedenkstätte Neuengamme ist ein eigenständiger historischer Gedenk- und Bildungsort. Sie wird hier ausdrücklich nicht als Freizeitattraktion eingeordnet.</p><a href="#tourismus-sehenswuerdigkeiten">Informationen und offizielle Besuchsseite →</a></article>
+    <article className="panel"><h2>Für den ersten Besuch</h2><p>Für einen kompakten Rundgang nennt Bergedorf-Tourismus eine etwa 3 km lange Strecke mit 12 Stationen ab Serrahn: Altstadt, Kornwassermühle, St. Petri und Pauli, Schloss, Schlossgarten und Windmühle. Innenbesuche und Öffnungszeiten separat planen.</p><a href="#tourismus-rundgaenge" onClick={e=>jumpTo(e,'rundgaenge')}>Rundgänge und Routen ansehen →</a></article>
+    <article className="panel"><h2>Gedenk- und Bildungsort</h2><p>Die KZ-Gedenkstätte Neuengamme ist ein eigenständiger historischer Gedenk- und Bildungsort. Sie wird hier ausdrücklich nicht als Freizeitattraktion eingeordnet.</p><a href="#tourismus-sehenswuerdigkeiten" onClick={e=>jumpTo(e,'gedenkstaette')}>Informationen und offizielle Besuchsseite →</a></article>
     <article className="panel"><h2>Veranstaltungen</h2><p>Es gibt keinen zweiten Kalender: Für aktuelle Termine führt dieser Bereich zum bestehenden Veranstaltungskalender von Bergedorf gemeinsam.</p><a href="#veranstaltungen">Zum Veranstaltungskalender →</a></article>
    </div>
    <TourismControls query={query} setQuery={setQuery} selected={selected} toggle={toggle} freeOnly={freeOnly} setFreeOnly={setFreeOnly} resultCount={visible.length}/>
