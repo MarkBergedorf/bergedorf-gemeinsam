@@ -2620,6 +2620,7 @@
       "limit": 3,
       "order": "first-approved-desc"
     },
+    "homepageHighlights": {},
     "areas": {
       "anliegen": {
         "status": "active",
