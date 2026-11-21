@@ -3,7 +3,7 @@
   "files": {
     "frontend/app/history-map.tsx": {
       "before": "0df0aa930bbf8dd61ee29f2873aadd7b6448c6b1db7a978087d8302fe3530d3e",
-      "after": "eee2e85675057a13e47c71da579a838bc89f0a4853679e2022ac4ae3f77057ee"
+      "after": "00bd529cc005ffa8ec9841bd07ca2d577e84fbd8beb3d063ec6d3411bc98ab5d"
     },
     "frontend/app/map-legend.tsx": {
       "before": "52e6d6e449693459d3b39567b2e57b658a18964bd81be7b4c7003cbe58fb9246",
@@ -23,7 +23,7 @@
     },
     "frontend/lib/history-tiles.mjs": {
       "before": "b7f8766c5d6542ddf5e853c7c8eec32cf093899bb67ad6a1ff09646af0b098b3",
-      "after": "fe8062a1150b770b8fe759820f92a2a7b55fc2306956ea8ade54433af02114b0"
+      "after": "2650d544b41d91041dd5dae13a91eae0d3e8d0d720e5eaae3d9b1230db7775a4"
     },
     "frontend/lib/map-privacy-info.mjs": {
       "before": "475bb3c5998ff8c3c155ff5276b0b7f5c06c744751fec39af72ef193f2012e45",
@@ -32,6 +32,14 @@
     "frontend/pages/privacy.tsx": {
       "before": "49fb0d857d73100f0e09234c01a749d573ae63cefe1723af2f2b5f5f0d9980a4",
       "after": "c678b2b306fab8c0e48a3d28500d23a05841a53053facae1eb0fef44265a8e07"
+    },
+    "frontend/app/history-map-legend.tsx": {
+      "before": "2dee70cceae7630dfbfe4b74722d7f1189f94eaedbb9806a64990f55ddc4ead9",
+      "after": "946d174a1d84feda639e655c3e896fbd8178ada066b64b621e64042a6e470ad6"
+    },
+    "frontend/app/globals.css": {
+      "before": "0a291e916530c9eba692475e32d712755710ef0df18700e8918a6a03b8d897dd",
+      "after": "454197cbef12264e652043940c7cfc5d29edea28d37475288089d7e92bfe4b86"
     }
   }
 }
