@@ -25,7 +25,8 @@ Prüfstand: 21. November 2026. Dieses Dokument bezieht sich ausschließlich auf 
 - **Automatisierte Tests:** `pnpm test` – 374 bestanden, 0 fehlgeschlagen. Neue Prüfungen validieren Kartenstil-Scope, Datensatzanzahl und Kategorien, die zwei OSM-Flächen, Clustererhalt, Verweis auf das historische Verzeichnis und Laden der lokalen Ortsdaten erst nach Kartenfreigabe.
 - **Produktionsbuild:** `pnpm build` – erfolgreich. Dist-Prüfung meldete 267 Dateien, Basispfad `/bergedorf-gemeinsam/`, `noindex` aktiv, kein Live-Datenbankzugriff und keine Live-Datensätze. Der Build meldet weiterhin die vorhandene Warnung zu `assets/leaflet.css` sowie große JavaScript-Chunks (558,61 kB und 2.732,22 kB minifiziert). Es wurde kein neues Backend oder Tracking ergänzt.
 - **Praktischer OSM-Quellenabgleich:** Die OSM-Karte und API-Geometrien der zwei Flächen am Glaeßweg wurden abgefragt. Auf der OSM-Karte waren die Fußball- und Spielplatzfläche getrennt zu erkennen; beide API-Wege haben die getrennten Freizeit-Tags.
-- **Praktische Bedienung der veröffentlichten Karte:** noch offen, bis der PR zusammengeführt und ein Pages-Lauf erfolgreich ist. Insbesondere Schalter, Cluster-Popups, Bildschirmbreiten und tatsächliche öffentliche Auslieferung müssen anschließend live kontrolliert werden; automatisierte Tests ersetzen diese Abnahme nicht.
+- **Praktische Live-Prüfung nach Veröffentlichung (21.11.2026):** Die öffentliche Route `#geschichte?view=map` wurde im Chromium-Desktopfenster bei 1363 × 1023 px geöffnet. Die Kartenkacheln, Bezirksgrenze, Beschriftungen, Infrastrukturmarker und Zahlencluster wurden sichtbar geladen. „Bergedorfer Zentrum anzeigen“ wechselte auf die Detailansicht; „Bezirk Bergedorf anzeigen“ stellte die Bezirksansicht mit verändertem Kartenausschnitt und aktualisierten Clustern wieder her. Der Filter „Spielplätze“ ließ sich ausschalten und wieder einschalten; die Clusterzahlen änderten sich entsprechend. „Karte entladen“ entfernte die Karte und zeigte wieder „Geschichtskarte laden“. Das belegt die Live-Auslieferung und diese konkreten Funktionen.
+- **Live-Prüfgrenzen:** Die schmale Smartphone-Ansicht wurde in diesem Durchgang nicht geprüft. Ein einzelnes Infrastruktur-Popup, ein individueller Cluster-Aufklappdialog sowie die Live-Klickziele genau am Glaeßweg wurden nicht geöffnet. Die zwei Glaeßweg-Flächen sind durch ihre OSM-Quellgeometrien und automatisierte Datenprüfungen belegt; dies ersetzt keine gezielte Live-Popup-Abnahme. Diese Punkte bleiben als praktische Restprüfung offen.
 
 ## Geänderte Dateien
 
@@ -42,4 +43,8 @@ Prüfstand: 21. November 2026. Dieses Dokument bezieht sich ausschließlich auf 
 
 ## Veröffentlichungsstatus
 
-PR, Merge-Commit, GitHub-Pages-Lauf und öffentliche Live-Abnahme werden nach dem Review ergänzt. Bis dahin ist Arbeitsauftrag 20 nicht als veröffentlicht oder vollständig live abgenommen zu bewerten.
+- PR [#19](https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/19) wurde zusammengeführt. PR-Head-Commit: `af23283e67ee1d4cfa63eaa5a190f4a9f6f4d17e`.
+- Merge-Commit auf `main`: `a14faa4e1625d5ef9f1fa65f8d34a1c6505460a3`.
+- GitHub-Pages-Veröffentlichung: erfolgreich; die öffentliche Website liefert den neuen Geschichtskarten-Build aus. Der Pages-Lauf ist im Repository als erfolgreich dokumentiert; eine Laufnummer wurde in diesem Nachtrag nicht unabhängig verifiziert.
+- Die Live-Prüfung bestätigt gerenderte Kacheln und Grenzen sowie Zentrum-/Bezirkswechsel, Kategorieumschaltung und Entladen. Sie bestätigt nicht die oben ausdrücklich offen gelassenen Smartphone-, Popup- und exakten Glaeßweg-Klickprüfungen.
+- **Abnahmestatus:** Umsetzung und Veröffentlichung sind nachgewiesen. Eine uneingeschränkte vollständige praktische Kartenabnahme ist aufgrund der konkret genannten offenen Live-Prüfpunkte nicht belegt.
