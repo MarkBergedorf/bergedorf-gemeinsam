@@ -356,3 +356,10 @@
 .tourism-route-label__text--duenenweg{top:18px;border-left-color:#f58220}
 .tourism-route-label__text--terrassenweg{top:47px;border-left-color:#e83e9b}
 @media(max-width:600px){.tourism-route-label__text{font-size:10px;padding:2px 4px}}
+
+/* Keep the four live Leaflet tooltips apart at the district overview zoom. */
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(1){margin-top:18px!important}
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(2){margin-top:-44px!important}
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(3){margin-top:47px!important}
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(4){margin-top:-7px!important}
+@media(max-width:600px){.leaflet-tooltip-pane>.tourism-route-label{font-size:10px!important}}
