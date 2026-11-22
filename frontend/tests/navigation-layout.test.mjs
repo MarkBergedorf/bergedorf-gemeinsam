@@ -24,16 +24,17 @@ test('Desktop-Hauptnavigation zeigt alle zwölf unveränderten Ziele in einer ge
  assert.ok(html.includes('%BASE_URL%assets/navigation-boot.css'));
  assert.match(boot,/\.site-header\.navigation-compact nav\s*\{\s*display:\s*block\s*!important\s*;\s*\}/);
  assert.ok(css.includes('transform:rotate(-30deg)'));
+ assert.ok(css.includes('padding:0 0 0 20px'));
  assert.ok(css.includes('transform-origin:left bottom'));
  assert.ok(css.includes('@media(max-width:1023px)'));
  assert.ok(css.includes('.site-header nav.open{display:block;}'));
  assert.ok(css.includes('min-height:48px'));
 });
 
-test('Parallelogramm-Tabs passen bei üblichen Desktopbreiten in eine Reihe ohne Überlauf',()=>{
- // Conservative 12px Arial widths for the unchanged labels, plus rendering allowance.
+test('Parallelogramm-Tabs passen mit linkem Drehungsabstand bei üblichen Desktopbreiten in eine Reihe',()=>{
+ // Inner widths after reserving 20px for the rotated first tab's leftward projection.
 const widths=[80,112,100,112,32,65,145,100,117,100,118,105];
- for(const available of [1265,1280,1348,1366,1425,1440]){
+ for(const available of [1245,1260,1313,1346,1405,1420]){
   const layout=navigationTabLayout(widths,available);
   assert.ok(layout,`no fitting row at ${available}px`);
   assert.equal(layout.slotWidths.length,12);

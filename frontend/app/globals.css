@@ -403,7 +403,7 @@
 
 /* Upward-leaning, single-row desktop tabs; narrow layouts keep the existing menu toggle. */
 .site-header nav{display:block;position:relative;overflow:visible;height:auto;padding:0;background:#edf1eb;}
-.site-header nav>.primary-nav-list{position:relative;display:flex;align-items:flex-end;justify-content:center;flex-wrap:nowrap;gap:0;width:100%;max-width:none;margin:0 auto;padding:0;overflow:visible;visibility:hidden;}
+.site-header nav>.primary-nav-list{position:relative;display:flex;align-items:flex-end;justify-content:center;flex-wrap:nowrap;gap:0;width:100%;max-width:none;margin:0 auto;padding:0 0 0 20px;overflow:visible;visibility:hidden;}
 .site-header nav>.primary-nav-list.is-ready{visibility:visible;}
 .site-header nav>.primary-nav-list .nav-tab-slot{position:relative;display:block;flex:0 0 auto;min-width:0;}
 .site-header nav>.primary-nav-list .nav-tab-slot>button{position:absolute;left:0;bottom:0;transform:rotate(-30deg);transform-origin:left bottom;display:flex;align-items:center;justify-content:center;white-space:nowrap;text-align:center;line-height:1.15;padding:2px 7px;border:1px solid rgba(20,55,39,.2);border-bottom-width:3px;border-radius:5px 5px 0 0;color:#173d2c;background:#dce6dd;box-shadow:0 2px 4px rgba(24,48,34,.1);}
