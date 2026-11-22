@@ -146,8 +146,11 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   assert.match(styles,/tourism-route-label__text--wiesenweg\{top:-7px/);
   assert.match(styles,/tourism-route-label__text--duenenweg\{top:18px/);
   assert.match(styles,/tourism-route-label__text--terrassenweg\{top:47px/);
+  for(const [index,offset] of [[1,18],[2,-44],[3,47],[4,-7]])assert.match(styles,new RegExp('\\.leaflet-tooltip-pane>\\.tourism-route-label:nth-child\\('+index+'\\)\\{margin-top:'+offset+'px'));
+  assert.match(styles,/@media\(max-width:600px\)\{\.leaflet-tooltip-pane>\.tourism-route-label\{font-size:10px/);
   assert.match(page,/routeLabels\.clearLayers\(\)/);
-  assert.match(page,/setContent\(`\$\{p\.symbol\} · \$\{p\.name\}`\)/);
+  assert.match(page,/label\.textContent=`\$\{p\.symbol\} · \$\{p\.name\}`/);
+  assert.match(page,/setContent\(label\)/);
   assert.match(page,/routeLayer\.bindPopup\(box\)/);
   assert.match(page,/visibleGopRoutes/);
   assert.match(page,/fitBounds\(route\.getBounds\(\)/);
