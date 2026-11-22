@@ -182,3 +182,52 @@ Die automatisierte Suite bestätigt weiterhin die getrennten vier GÖP-Routen, i
 **Abnahmestatus: offen.** Die Codekorrektur ist gemergt, der lokale Produktionsbuild ist erfolgreich und Pages-Lauf #95 meldet Erfolg. Die Live-Beschriftungen erfüllen den beanstandeten Mindestabstand im geprüften Abruf jedoch noch nicht, und der cache-bustete Root-Build lud in diesem Browser nicht. Eine abschließende Live-Abnahme ist erst möglich, wenn die veröffentlichte Karte die tatsächlich korrigierte Fassung ohne JavaScript-Fehler ausliefert und die vier Labelabstände dort erneut gemessen wurden.
 
 Die Prüfung erfolgte ausschließlich in einer Desktop-Browseransicht; eine mobile Geräteansicht, amtliche Vermessung und Vor-Ort-Prüfung der aktuellen Moorwegführung erfolgten nicht.
+
+
+## Abschließende Nachprüfung nach PR #40 – 22. November 2026
+
+Dieser Abschnitt schließt die im vorstehenden Abschnitt ausdrücklich offengebliebene Prüfung nach PR #38 ab. Die damalige Feststellung war zum damaligen Abruf korrekt; sie bezog sich auf einen tatsächlich beschädigten Produktionsblob. Die Produktionsdatei wurde inzwischen im Hauptzweig vollständig wiederhergestellt und öffentlich erneut geprüft.
+
+### Ausgangsstand und nachgewiesene Ursache
+
+Ausgangspunkt war `main` auf Merge-Commit `309a007504ec9c18e857e01871a9f02f87e4aa67` (PR #39). `index.html` und `404.html` waren bytegleich und verwiesen beide auf `assets/index-C1Cg8pWA.js` sowie `assets/index-BuV9YCKt.css`; ein abweichender HTML-Einstieg war nicht die Ursache.
+
+Der Git-Blob des referenzierten JavaScript-Bundles war auf **1.048.607 Byte** gekürzt. An Byteposition **524.301** stand im ausgelieferten Inhalt wörtlich `... 1797842 bytes omitted ...`. Dieser Text erzeugte den reproduzierten Browserfehler `SyntaxError: Unexpected token '...'` und verhinderte das Rendern der Website. Der reguläre Produktionsbuild erzeugte dieselbe gehashte Datei vollständig mit **2.846.418 Byte**. Der lokal generierte Build bestand `node --check`; der beschädigte öffentliche Blob nicht.
+
+### Korrektur, PR und technische Prüfung
+
+PR [#40 – Stelle vollständiges Produktionsbundle für Pages wieder her](https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/40) ersetzte ausschließlich das beschädigte Produktionsbundle und ergänzte `frontend/tests/pages-production-integrity.test.mjs`. Der Regressionstest prüft, dass `index.html` und `404.html` identisch sind, referenzierte JavaScript- und CSS-Dateien vorhanden sind und das referenzierte Bundle syntaktisch vollständig ist. Tourismusdaten, Liniengeometrien, Kartenfilter, Popups und Stylesheet wurden nicht geändert.
+
+- Vollständiges Bundle: **2.846.418 Byte**, SHA-256 `d4c8f71733ec85cf89820ff739a1ec4f393ec7f6ede48aed0654c13f67ec875d`.
+- Lokales Build-Bundle, Pages-Root und nach dem Deployment öffentlich abgerufenes JavaScript stimmten in Größe und SHA-256 überein; `node --check` war erfolgreich.
+- Öffentliches Stylesheet `index-BuV9YCKt.css`: **399.763 Byte**, SHA-256 `fff4bc296437acec899f207ab4cec0a83508434d3c39ba287bb25e7844a02fb4`; es stimmte bytegenau mit dem Build überein.
+- `index.html` und `404.html` waren im Pages-Root und im öffentlichen Abruf bytegleich. Die referenzierten JavaScript-, Stylesheet- und Leaflet-CSS-Dateien waren öffentlich abrufbar.
+- `pnpm test`: **392 bestanden, 0 fehlgeschlagen**. Darin ist der neue Produktionsintegritätstest enthalten.
+- `pnpm build`: erfolgreich; **269 Dateien** geprüft und im Pages-Root synchronisiert, **4 Beispiele**, **69 redaktionelle Einträge**, **0 Live-Datenbankabrufe**.
+- `git diff --check`: erfolgreich.
+- Vorhandene Buildhinweise blieben bestehen: die Vite-Meldung zum zur Laufzeit aufgelösten Leaflet-CSS-Pfad, eine ungültige CSS-Deklaration und die bestehende Warnung zur Größe des Hauptbundles. Diese Hinweise verursachten den JavaScript-Syntaxfehler nicht und wurden nicht zum Anlass eines umfassenden Umbaus genommen.
+
+PR #40 wurde in Merge-Commit **`b25f15b8bcdf78eef571fa4e5a54d1f828f39f79`** zusammengeführt. GitHub-Pages-Lauf [#97](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/45015290406) für diesen Merge-Commit wurde am 22.11.2026 erfolgreich abgeschlossen.
+
+### Öffentliche Liveabnahme
+
+Die öffentliche Tourismusseite wurde nach Pages-Lauf #97 neu geladen. Sie lud `index-C1Cg8pWA.js` und `index-BuV9YCKt.css`; das Bundle war vollständig und syntaktisch gültig. Nach dem Neuladen trat kein JavaScript-Fehler der Website mehr auf. Die zuvor protokollierte Syntaxmeldung gehörte zum beschädigten Vorgängerstand.
+
+Die Karte wurde mit der bereits erteilten Freigabe für die erforderlichen OpenFreeMap-/OpenStreetMap-Abrufe geladen. Die sichtbare Grundlage, die vier Routenlinien und die vier Labels waren vorhanden. Die Labelboxen waren jeweils 21 px hoch. In der öffentlichen Bezirksansicht wurden folgende Viewport-Y-Bereiche gemessen:
+
+- Moorweg: **594,22–615,22 px**
+- Wiesenweg: **660,22–681,22 px**
+- Dünenweg: **726,22–747,22 px**
+- Terrassenweg: **792,22–813,22 px**
+
+Die drei aufeinanderfolgenden Lücken betrugen jeweils **45 px**. Kein Label überlagerte ein anderes. Die Namen waren den farbigen Linien eindeutig zugeordnet: Vogel · Moorweg, Hase · Wiesenweg, Schmetterling · Dünenweg und Blume · Terrassenweg. Beim Heranzoomen auf einen Weg blieben dessen Beschriftung und die im Bildausschnitt liegenden weiteren Labels lesbar. „Bezirk Bergedorf anzeigen“ stellte anschließend wieder die vollständige Bezirksübersicht mit allen vier Namen her.
+
+Die Filter für **alle vier Wege** wurden einzeln ausgeschaltet und wieder eingeschaltet; die zugehörige Beschriftung verschwand jeweils und erschien beim Wiedereinschalten wieder. Für alle vier Wege öffnete die Kartenauswahl das passende Popup. Jedes geprüfte Popup enthielt den Wegnamen, Flyer- und digitale OSM-Längen sowie Links zur OSM-Relation, zum GÖP-Originalfaltblatt und zum Tourismuseintrag. Der Link „Zum Listeneintrag“ führte zur zugehörigen Wegekarte in der Tourismusseite. Nach der Prüfung waren alle vier Routen und alle **14 Kartenkategorien** wieder eingeschaltet.
+
+### Bestandsschutz und verbleibende fachliche Prüfgrenzen
+
+Die öffentliche Seite zeigte weiterhin **139 Tourismuseinträge**, **12 Themenbereiche** und **14 touristische Kartenkategorien**. Die vier OSM-Wanderwegrelationen blieben als vier getrennte, auswählbare Linien erhalten. Der getrennte amtliche BUKEA-Datensatz blieb bei **3 Wegsegmenten und 10 Informationstafeln**. Die bestehenden Kartenfilter, Quellenlinks, Popups und Rückkehr zur Bezirksansicht funktionierten. Der Korrektur-PR änderte keine Geodaten und keine anderen Websitebereiche; die parallel vorbereiteten Arbeitsaufträge 22 bis 24 wurden nicht in den Korrekturzweig übernommen.
+
+Die bereits dokumentierten fachlichen Grenzen bleiben bestehen: keine amtliche Vermessung und keine Vor-Ort-Begehung; beim Moorweg sind aktuelle Umleitung, Zugangssperrungen und Beschilderung anhand BUKEA-Hinweisen zu beachten; beim Wiesenweg stehen weiterhin **4,314 km** digitaler Linienlänge der GÖP-Flyerangabe **4,6 km** gegenüber. Eine mobile Geräteprüfung wurde nicht durchgeführt und wird nicht als bestanden gewertet.
+
+**Technische Desktop-Liveabnahme von Ergänzungsauftrag 21.3: abgeschlossen.** Die Website lädt fehlerfrei, die vier Routen sind sichtbar und klar zugeordnet, ihre Abstände betragen in der Bezirksansicht jeweils 45 px, und die geprüften Filter, Popups sowie Tourismuseinträge funktionieren. Mobile Sichtprüfung, amtliche Vermessung und die genannte Vor-Ort-Prüfung bleiben ausdrücklich offen.
