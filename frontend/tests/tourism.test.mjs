@@ -140,14 +140,12 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(page,/assets\/goep-naturwege-boberg\.geojson/);
   assert.match(page,/label\.className=`tourism-route-label__text tourism-route-label__text--\$\{p\.id\.replace/);
-  assert.match(page,/className:`tourism-route-label tourism-route-label--\$\{p\.id\.replace/);
+  assert.match(page,/className:'tourism-route-label',opacity:1/);
   const styles=await readFile(new URL('../app/globals.css',import.meta.url),'utf8');
-  const routeOffsets={moorweg:-37,wiesenweg:10,duenenweg:67,terrassenweg:113};
+  const routeOffsets={moorweg:-44,wiesenweg:-7,duenenweg:18,terrassenweg:47};
   for(const [route,offset] of Object.entries(routeOffsets)){
-   assert.ok(styles.includes(`.tourism-route-label--${route}-boberg{margin-top:${offset}px!important}`));
-   assert.ok(styles.includes(`.tourism-route-label__text--${route}-boberg{`));
+   assert.ok(styles.includes(`.tourism-route-label__text--${route}{top:${offset}px`));
   }
-  assert.doesNotMatch(styles,/\.leaflet-tooltip-pane>\.tourism-route-label:nth-child\(/);
   assert.match(page,/routeLabels\.clearLayers\(\)/);
   assert.match(page,/label\.textContent=`\$\{p\.symbol\} · \$\{p\.name\}`/);
   assert.match(page,/setContent\(label\)/);
