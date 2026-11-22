@@ -1,0 +1,6 @@
+/* Keep the desktop tab row measurable until its client-side layout is ready. */
+@media (min-width: 1024px) {
+  .site-header.navigation-compact nav {
+    display: block !important;
+  }
+}
