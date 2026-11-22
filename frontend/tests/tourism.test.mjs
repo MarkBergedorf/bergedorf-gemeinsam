@@ -93,7 +93,7 @@ test('tourism map categories filter marked locations and keep coordinate evidenc
   assert.ok(tourismMapKinds(tourismItems.find(x=>x.id==='weinfass')).includes('special-stays'));
   assert.ok(tourismMapKinds(tourismItems.find(x=>x.id==='gedenkstaette')).includes('highlights'));
   assert.ok(tourismItems.filter(x=>x.geometryType==='area').every(x=>!Number.isFinite(x.lat)&&!Number.isFinite(x.lon)));
-  assert.equal(tourismMarkers.length,11);
+  assert.equal(tourismMarkers.length,21);
   for(const id of ['hiamo','haus-anna-elbe','hof-eggers'])assert.ok(tourismMarkers.some(x=>x.id===id&&x.coordinateSource.startsWith('https://www.openstreetmap.org/')),id);
 });
 
@@ -101,11 +101,68 @@ test('supplementary tourism records are searchable and the 12 original tabs rema
   for(const id of ['weinfass','hamburgboats','adfc-touren','segelflugplatz-boberg','karoline','wochenmaerkte-bergedorf','bergedorfer-stadtfest','bergedorfer-weihnachtsmarkt','wutzrock','allermoeher-wiesen','alter-holzhafen','spadenlaender-spitze','bergedorfer-gehoelz'])assert.ok(tourismItems.some(x=>x.id===id),id);
   assert.equal(tourismCategories.length,12);
   assert.ok(filterTourismItems({query:'Baumzelt'}).some(x=>x.id==='haus-anna-elbe'));
-  assert.deepEqual(filterTourismItems({categoryIds:['unterkunft'],bikeFriendlyOnly:true}).map(x=>x.id),['haus-anna-elbe']);
+  assert.deepEqual(filterTourismItems({categoryIds:['unterkunft'],bikeFriendlyOnly:true}).map(x=>x.id),['haus-anna-elbe','hiamo']);
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(page,/10 Highlights in Bergedorf/);
   assert.match(page,/keine Rangfolge/);
   assert.match(page,/Kartenkategorien/);
   assert.match(page,/tourismMapKinds/);
   assert.match(page,/document\.querySelector\(`\[data-tourism-id=/);
+});
+
+test('official Boberg soil trail data is bundled locally with its verified geometry, stations, and license',async()=>{
+  const geo=JSON.parse(await readFile(new URL('../public/assets/bodenlehrpfad-boberg.geojson',import.meta.url),'utf8'));
+  assert.equal(geo.type,'FeatureCollection');
+  const routes=geo.features.filter(x=>x.properties.objektart==='route');
+  const stations=geo.features.filter(x=>x.properties.objektart==='tafel');
+  assert.equal(routes.length,3);
+  assert.deepEqual(routes.map(x=>x.properties.typ).sort(),['Dünenweg','Moorweg','Terrassenweg']);
+  assert.ok(routes.every(x=>x.geometry.type==='MultiLineString'&&x.properties.lehrpfad==='Boberg'));
+  assert.equal(stations.length,10);
+  assert.deepEqual(stations.map(x=>x.properties.punkt_bez),['1','2','3','4','5','6','7','8','9','10']);
+  assert.ok(stations.every(x=>x.geometry.type==='Point'&&x.properties.titel&&x.properties.kurztext&&x.properties.link_artikel));
+  assert.ok(geo.features.every(x=>x.properties.lizenz==='Datenlizenz Deutschland – Namensnennung 2.0'));
+  assert.match(geo.attribution,/Freie und Hansestadt Hamburg/);
+  const course=tourismItems.find(x=>x.id==='bodenlehrpfad-boberg');
+  assert.ok(course&&course.mapKinds.includes('trails'));
+  assert.ok(course.additionalSources.some(x=>x.url==='https://api.hamburg.de/datasets/v1/bodenlehrpfade/collections'));
+  assert.ok(course.status.includes('14.04.2015'));
+  assert.equal(tourismMapCategories.find(x=>x.id==='trails').label,'Themenwege und Lehrpfade');
+  const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+  assert.match(page,/fetch\(`\$\{import\.meta\.env\.BASE_URL\}assets\/bodenlehrpfad-boberg\.geojson`\)/);
+  assert.match(page,/historyTiles\(L,[^;]*\{baseUrl:import\.meta\.env\.BASE_URL\}\)/);
+  assert.match(page,/L\.geoJSON\(trailGeoJSON/);
+  assert.match(page,/Station \$\{p\.punkt_bez\}: \$\{p\.titel\}/);
+  assert.match(page,/Erläuterung bei Hamburg\.de öffnen/);
+  const background=await readFile(new URL('../lib/history-tiles.mjs',import.meta.url),'utf8');
+  assert.match(background,/baseUrl=''\}\=\{\}/);
+  assert.match(background,/assetRoot=baseUrl\?new URL\(baseUrl,location\.href\)\.href:'\/';/);
+});
+
+test('new tourism additions preserve the 112-entry base, separate verified offers from unknown access, and document both rounds',async()=>{
+  const additions=['maler-lackierer-museum','reitbrooker-muehle','geschichtskontor','kuenstlerhaus-bergedorf','white-cube-bergedorf','hansa-filmstudio','swingolf-hamburg','golf-lounge-moorfleet','minigolf-gruenes-zentrum','drachenlabyrinth','boberger-reitverein','erlebnisbauernhof-burmester-reiten','milchhof-reitbrook','ackerperlen','biohof-sommerfeld','vier-marschlande-querbeet','tatenberger-schleuse','schoepfwerke-vier-marschlande','kiebitzbrack','bodenlehrpfad-boberg','grosse-bergedorfer-runde','vierlaender-volks-schuetzenfest','vierlaender-erdbeerfest'];
+  for(const id of additions)assert.ok(tourismItems.some(x=>x.id===id),`missing 21.2 entry ${id}`);
+  const round=tourismItems.find(x=>x.id==='grosse-bergedorfer-runde');
+  assert.equal(round.routeLengthKm,7);assert.equal(round.routeStations.length,13);assert.ok(!round.routeGeoJSON);
+  assert.ok(round.additionalSources.some(x=>x.url==='https://www.entdeckerrouten.org/download-vum-route-6/'));
+  const milk=tourismItems.find(x=>x.id==='milchhof-reitbrook');
+  assert.match(milk.description,/nicht bestätigt/);
+  assert.ok(tourismItems.find(x=>x.id==='hiamo').bikeFriendly);
+  assert.deepEqual(tourismItems.find(x=>x.id==='hiamo').bikeFeatures,['Listung auf der Bett+Bike-Unterkunftsplattform','Fahrradverleih und E-Bike-Verleih','Kooperation mit einer Fahrradwerkstatt','Lunchpakete','kostenfreies WLAN']);
+  const originals=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
+  for(const item of tourismItems.filter(x=>!originals.some(old=>old.id===x.id)))assert.equal(item.checkedOn,'2026-11-22',item.id);
+});
+
+test('all 112 tourism entries published at the start of Ergänzungsauftrag 21.2 keep their full baseline fields',async()=>{
+  const baseline=JSON.parse(await readFile(new URL('./fixtures/tourism-112-records.json',import.meta.url),'utf8'));
+  assert.equal(baseline.length,112);
+  const current=new Map(tourismItems.map(item=>[item.id,item]));
+  for(const old of baseline){
+    const item=current.get(old.id);
+    assert.ok(item,`original published entry missing: ${old.id}`);
+    assert.equal(item.name,old.name,old.id);
+    assert.equal(item.category,old.category,old.id);
+    assert.equal(item.description,old.description,old.id);
+    assert.equal(item.source.url,old.source,old.id);
+  }
 });

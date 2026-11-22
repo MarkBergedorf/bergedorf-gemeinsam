@@ -23,7 +23,7 @@
     },
     "frontend/lib/history-tiles.mjs": {
       "before": "b7f8766c5d6542ddf5e853c7c8eec32cf093899bb67ad6a1ff09646af0b098b3",
-      "after": "2650d544b41d91041dd5dae13a91eae0d3e8d0d720e5eaae3d9b1230db7775a4"
+      "after": "4a5b8f0ed340131005637ee9bd0a7d4353bda54b8a35d9d98c163449b1d8eb49"
     },
     "frontend/lib/map-privacy-info.mjs": {
       "before": "475bb3c5998ff8c3c155ff5276b0b7f5c06c744751fec39af72ef193f2012e45",

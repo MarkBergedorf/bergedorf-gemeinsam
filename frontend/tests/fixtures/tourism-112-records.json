@@ -1,0 +1,786 @@
+[
+  {
+    "id": "schloss",
+    "name": "Bergedorfer Schloss & Bergedorf Museum",
+    "category": "sehenswuerdigkeiten",
+    "description": "Das Schloss beherbergt das Regionalmuseum zur Geschichte des Bezirks und der Vierlande. Für Ausstellungen, Eintritt, aktuelle Öffnungszeiten und den Zugang bitte die Museumslandschaft prüfen.",
+    "source": "https://www.bergedorfer-museumslandschaft.de/service/preise-zeiten"
+  },
+  {
+    "id": "schlosspark",
+    "name": "Schlosspark Bergedorf",
+    "category": "sehenswuerdigkeiten",
+    "description": "Öffentliche Grünanlage am Schloss. Der Park eignet sich für einen Spaziergang; Öffnungen einzelner Einrichtungen und Veranstaltungen sind separat zu prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/umsonst-draussen"
+  },
+  {
+    "id": "st-petri",
+    "name": "St. Petri und Pauli",
+    "category": "sehenswuerdigkeiten",
+    "description": "Historische Kirche im Zentrum. Besichtigungsmöglichkeiten richten sich nach Gottesdiensten und dem aktuellen Besuchsangebot der Kirchengemeinde.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/historische-sehenswuerdigkeiten"
+  },
+  {
+    "id": "altstadt",
+    "name": "Historischer Stadtkern, Sachsentor & Alte Holstenstraße",
+    "category": "sehenswuerdigkeiten",
+    "description": "Fachwerk- und Bürgerhäuser, Einkaufspassagen und historische Straßenzüge prägen den alten Ortskern. Die Häuser werden überwiegend anderweitig genutzt und sind von außen zu besichtigen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/historische-sehenswuerdigkeiten"
+  },
+  {
+    "id": "serrahn",
+    "name": "Serrahn-Hafen & Kupferhofterrassen",
+    "category": "sehenswuerdigkeiten",
+    "description": "Hafenbereich und Promenade am Zugang zur Bergedorfer Altstadt. Hier starten laut Tourismusquelle verschiedene Fahrten und der Bergedorfer Spaziergang.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/freizeitaktivitaeten"
+  },
+  {
+    "id": "windmuehle",
+    "name": "Bergedorfer Windmühle",
+    "category": "sehenswuerdigkeiten",
+    "description": "Historische Mühle im Umfeld des Rundgangs. Innenbesichtigungen und Termine bitte bei der Mühlenvereinigung beziehungsweise Bergedorf-Tourismus prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/historische-sehenswuerdigkeiten"
+  },
+  {
+    "id": "rathaus",
+    "name": "Rathaus Bergedorf & Villenviertel",
+    "category": "sehenswuerdigkeiten",
+    "description": "Der Bereich mit Rathaus und Villen ist Teil der von Bergedorf-Tourismus empfohlenen historischen Orientierung. Innenzugang und Besichtigungen sind nicht pauschal zugesichert.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/historische-sehenswuerdigkeiten"
+  },
+  {
+    "id": "hassehaus",
+    "name": "Hasse-Haus",
+    "category": "sehenswuerdigkeiten",
+    "description": "Fachwerkhaus aus der Zeit um 1630 und Geburtshaus Johann Adolf Hasses. Im Haus befinden sich das Hasse-Institut und die Tourist-Information; die Tourist-Information ist nicht gleichbedeutend mit frei zugänglicher Hausbesichtigung.",
+    "source": "https://bergedorf.de/kultur/museen/hasse-haus"
+  },
+  {
+    "id": "sternwarte",
+    "name": "Hamburger Sternwarte & Astronomiepark",
+    "category": "sehenswuerdigkeiten",
+    "description": "Denkmalgeschütztes Ensemble der Universität Hamburg. Der Park ist laut Universität täglich geöffnet; historische Teleskopkuppeln sind im Rahmen der angekündigten Führungen zugänglich. Bauarbeiten können den Campus bis Ende 2026 beeinträchtigen.",
+    "source": "https://www.physik.uni-hamburg.de/hs/subsite---open-observatory.html"
+  },
+  {
+    "id": "rieckhaus",
+    "name": "Freilichtmuseum Rieck Haus",
+    "category": "sehenswuerdigkeiten",
+    "description": "Historisches Bauernhaus mit Ausstellung zur Kulturgeschichte der Vier- und Marschlande. Öffnungszeiten sind saisonal; aktuelle Preise, Termine und Zugang vor dem Besuch auf der Museumsseite prüfen.",
+    "source": "https://www.bergedorfer-museumslandschaft.de/service/preise-zeiten"
+  },
+  {
+    "id": "riepenburger-muehle",
+    "name": "Riepenburger Mühle",
+    "category": "sehenswuerdigkeiten",
+    "description": "Historische Mühle in Kirchwerder. Der Betreiber nennt Öffnungstage von Februar bis Dezember und bietet Gruppenführungen nach Terminvereinbarung an; Details vorher prüfen.",
+    "source": "https://www.riepenburger-muehle.de/index.php/besichtigung"
+  },
+  {
+    "id": "kirchen-vierlande",
+    "name": "Historische Dorfkirchen der Vierlande",
+    "category": "sehenswuerdigkeiten",
+    "description": "Die offizielle Vierländer Kirchentour verbindet St. Severini zu Kirchwerder, St. Johannis zu Neuengamme, St. Nicolai zu Altengamme und St. Johannis zu Curslack. Innenbesichtigungen richten sich nach der jeweiligen Gemeinde.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren/entdeckerrouten"
+  },
+  {
+    "id": "zollenspieker",
+    "name": "Zollenspieker Fährhaus & Elbdeich",
+    "category": "sehenswuerdigkeiten",
+    "description": "Historischer Ausflugsort am südlichen Elbufer. Fähre, Gastronomie und Besuchsmöglichkeiten haben eigene Betreiberinformationen; Tide und Fährbetrieb vor dem Besuch prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/historische-sehenswuerdigkeiten"
+  },
+  {
+    "id": "bahnhof-alt",
+    "name": "Historischer Bahnhof Bergedorf, Neuer Weg 54",
+    "category": "sehenswuerdigkeiten",
+    "description": "Das historische Bahnhofsgebäude wird in der Tourismusübersicht als erhaltenes Gebäude von 1842 beschrieben. Es ist nicht mit dem heutigen S-Bahnhof zu verwechseln; Innenzugang nicht zugesichert.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/historische-sehenswuerdigkeiten"
+  },
+  {
+    "id": "gedenkstaette",
+    "name": "KZ-Gedenkstätte Neuengamme",
+    "category": "sehenswuerdigkeiten",
+    "description": "Eigenständiger Gedenk- und Bildungsort auf dem Gelände des ehemaligen Konzentrationslagers. Die Gedenkstätte dokumentiert Verfolgung, Zwangsarbeit und die Geschichte des Ortes. Sie ist kein Freizeitangebot. Ausstellungen sind bei freiem Eintritt geöffnet; Anfahrt und aktuelle Zugänglichkeit bitte der Gedenkstätte entnehmen.",
+    "source": "https://www.kz-gedenkstaette-neuengamme.de/service/anfahrt/"
+  },
+  {
+    "id": "boberger-niederung",
+    "name": "Boberger Niederung & Boberger Dünen",
+    "category": "natur",
+    "description": "Naturschutzgebiet mit Dünen-, Moor-, Wiesen- und Terrassenlandschaft. Bitte auf markierten Wegen bleiben und örtliche Schutzregeln beachten. Der Hamburg-Guide beschreibt vier ausgewiesene Rundwege.",
+    "source": "https://www.hamburg.de/freizeit/boberger-duenen-357608"
+  },
+  {
+    "id": "duenenhaus",
+    "name": "Boberger Dünenhaus",
+    "category": "natur",
+    "description": "Informationshaus der Loki-Schmidt-Stiftung zur Boberger Niederung. Der Außenbesuch und die geöffneten Informationsräume sind zu unterscheiden; Öffnungstage und Führungen auf der Betreiberseite prüfen.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/naturschutz/start-info-boberg-172914"
+  },
+  {
+    "id": "kirchwerder-wiesen",
+    "name": "Naturschutzgebiet Kirchwerder Wiesen",
+    "category": "natur",
+    "description": "Großes Feuchtwiesen-Schutzgebiet in Kirchwerder. Besuch nur auf freigegebenen Wegen; sensible Flächen nicht betreten und Tiere nicht stören.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/naturschutzgebiete-im-bezirk-bergedorf-852648"
+  },
+  {
+    "id": "nszg-zollenspieker",
+    "name": "Naturschutzgebiet Zollenspieker",
+    "category": "natur",
+    "description": "Vordeichflächen der Elbe mit besonders schützenswerten Feuchtbiotopen. Die Darstellung empfiehlt keine Nutzung abseits freigegebener Wege.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/naturschutzgebiete-im-bezirk-bergedorf-852648"
+  },
+  {
+    "id": "die-reit",
+    "name": "Naturschutzgebiet Die Reit",
+    "category": "natur",
+    "description": "Niedermoorgebiet mit Bruchwäldern und Schilfflächen am Zusammenfluss von Gose- und Dove-Elbe. Die Behörde beschreibt Zugänge und Wege; Busbedienung ist eingeschränkt.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/naturschutz/naturschutzgebiete/die-reit-173012"
+  },
+  {
+    "id": "dove-elbe",
+    "name": "Dove-Elbe",
+    "category": "natur",
+    "description": "Wasserlauf und Landschaftsraum in den Vier- und Marschlanden. Uferwege, Schifffahrt und Wassersport werden getrennt beschrieben; Wasserzugang ist nicht überall öffentlich.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/aktiv-im-und-am-wasser"
+  },
+  {
+    "id": "gose-elbe",
+    "name": "Gose-Elbe",
+    "category": "natur",
+    "description": "Nebenarm der Elbe in den Vier- und Marschlanden. Als Natur- und Wasserraum geeignet; Befahrbarkeit und Zugänge richten sich nach Gewässer, Nutzung und örtlichen Regeln.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/aktiv-im-und-am-wasser"
+  },
+  {
+    "id": "wasserpark",
+    "name": "Wasserpark Dove-Elbe & Regattastrecke Allermöhe",
+    "category": "natur",
+    "description": "Regattastrecke für Ruder- und Kanusport am Allermöher Deich. Nicht mit einem frei zugänglichen Badegewässer gleichsetzen; Wettkämpfe und Nutzungsregeln beachten.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/aktiv-im-und-am-wasser"
+  },
+  {
+    "id": "eichbaumsee",
+    "name": "Eichbaumsee",
+    "category": "natur",
+    "description": "Erholungsgebiet in Moorfleet. Die Hamburger Behörde weist auf eine zeitweise Sperrung des Badens und die aktuellen Beschilderungen hin. Vor einem Badebesuch den offiziellen Stand prüfen.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/wasser/badegewaesser/rechtsgrundlage-153918"
+  },
+  {
+    "id": "hohendeicher-see",
+    "name": "Hohendeicher See / Oortkatener See",
+    "category": "natur",
+    "description": "Bade- und Surfsee in den Vier- und Marschlanden. Die Behörden melden saisonale Badezeiten; es gibt keinen Nichtschwimmerbereich und keine Badeaufsicht. Uferkanten können abrupt tief werden.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/wasser/badegewaesser/hohendeichersee-west-174080"
+  },
+  {
+    "id": "allermoeher-see",
+    "name": "Allermöher See",
+    "category": "natur",
+    "description": "Bade- und Freizeitbereich in Neuallermöhe. Die Stadt nennt Strand und zeitweise Badeaufsicht in den Sommerferien und an Wochenenden; aktuelle Saisonangaben prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/aktiv-im-und-am-wasser/badeseen-bille-bad"
+  },
+  {
+    "id": "borghorster",
+    "name": "Borghorster Elblandschaft",
+    "category": "natur",
+    "description": "Schutzgebiet an der tidebeeinflussten Unterelbe. Für Naturbeobachtung nur ausgewiesene Wege und Zugänge benutzen.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/naturschutzgebiete-im-bezirk-bergedorf-852648"
+  },
+  {
+    "id": "spaziergang",
+    "name": "Bergedorfer Spaziergang",
+    "category": "rundgaenge",
+    "description": "Offiziell beschriebener Rundgang mit 12 Stationen und etwa 3 km: vom Serrahn über Kornwassermühle, St. Petri und Pauli, Schloss und Schlossgarten bis zur Windmühle; Rückweg entlang der Bille zum Bahnhof. Die Wegführung der Tourismusquelle ist maßgeblich.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/freizeitaktivitaeten/rundgaenge-wandern"
+  },
+  {
+    "id": "entdecker-routen",
+    "name": "Fünf Bergedorfer EntdeckerRouten",
+    "category": "rad",
+    "description": "Die offizielle Radkarte beschreibt fünf Routen, darunter Rosentour (ca. 25 km), Tour hinter den Deichen (ca. 13 km), Elbkieker-Tour (ca. 30 km), Vierländer Kirchentour (ca. 28 km) und Boberger Dünenroute. Routendetails und Kartenmaterial beim Anbieter prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren/entdeckerrouten"
+  },
+  {
+    "id": "rosentour",
+    "name": "Route 1 – Traumhafte Rosentour",
+    "category": "rad",
+    "description": "Etwa 25 km vom S-Bahnhof Billwerder-Moorfleet über Tatenberger Schleuse, Dove-Elbe, Regattastrecke Allermöhe und Gose-Elbe an Blumenfeldern und Rosengärtnereien vorbei; über den Marschbahndamm zum Bahnhof Bergedorf. Die offizielle Radkarte ist für den exakten Verlauf maßgeblich.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren/entdeckerrouten"
+  },
+  {
+    "id": "boberg-rundwege",
+    "name": "Vier markierte Wege durch die Boberger Niederung",
+    "category": "rundgaenge",
+    "description": "Dünenweg, Moorweg, Wiesenweg und Terrassenweg sind markierte Routen. Bergedorf-Tourismus nennt je nach Rundweg etwa 3–5 km. Bitte Schutzgebietsregeln einhalten.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/naturschutz/start-info-boberg-172914"
+  },
+  {
+    "id": "kirchentour",
+    "name": "Vierländer Kirchentour",
+    "category": "rad",
+    "description": "Etwa 28 km lange Rundtour ab/bis Bahnhof Bergedorf durch vier Dorfkirchen. Die Radwegeführung und Eignung bitte der offiziellen Karte entnehmen; keine Luftlinienroute.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren/entdeckerrouten"
+  },
+  {
+    "id": "tatenberg-route",
+    "name": "Tour hinter den Deichen",
+    "category": "rad",
+    "description": "Etwa 13 km um Tatenberg und Spadenland mit Ortskern Ochsenwerder; Ausgangsroute laut Bergedorf-Tourismus. Wege und Verkehrssituation vor der Fahrt prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren/entdeckerrouten"
+  },
+  {
+    "id": "elbkiekertour",
+    "name": "Spannende Elbkieker-Tour",
+    "category": "rad",
+    "description": "Etwa 30 km entlang des Elbdeichs vom Spadenland nach Zollenspieker oder umgekehrt. Streckenverlauf, Querungen und lokale Sperrungen der offiziellen Tourenkarte entnehmen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren/entdeckerrouten"
+  },
+  {
+    "id": "marschbahndamm",
+    "name": "Marschbahndamm",
+    "category": "rad",
+    "description": "Ehemalige Bahntrasse, die Bergedorf-Tourismus als überwiegend autofreie Radroute hervorhebt. Die genaue Eignung einzelner Abschnitte und aktuelle Umleitungen bitte prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren"
+  },
+  {
+    "id": "boberg-route",
+    "name": "Route 5 – Tour Boberger Dünen",
+    "category": "rad",
+    "description": "Naturhistorische Route durch die Boberger Niederung mit Dünenhaus, Segelflugplatz und weiteren örtlichen Zielen. Der genaue Verlauf ist der offiziellen Radkarte zu entnehmen; eine verlässliche maschinenlesbare Liniengeometrie ist für diese Website nicht belegt.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/radtouren/entdeckerrouten"
+  },
+  {
+    "id": "vier-marschlande-highlight",
+    "name": "Vier- und Marschlande – Kulturlandschaft",
+    "category": "natur",
+    "description": "Die großflächige Kulturlandschaft ist durch Landwirtschaft und Gartenbau, Wasserläufe, Radwege, Fachwerkhäuser, Mühlen und Dorfkirchen geprägt. Dieser Eintrag beschreibt einen Landschaftsraum und erhält bewusst keinen punktgenauen Kartenmarker.",
+    "source": "https://www.bergedorf.de/10-highlights"
+  },
+  {
+    "id": "events-calendar",
+    "name": "Aktuelle Veranstaltungen in Bergedorf",
+    "category": "kultur",
+    "description": "Der vorhandene Veranstaltungskalender von Bergedorf gemeinsam bleibt die gemeinsame Übersicht. Er wird hier verlinkt statt durch eine zweite Terminliste dupliziert.",
+    "source": "https://markbergedorf.github.io/bergedorf-gemeinsam/#veranstaltungen"
+  },
+  {
+    "id": "koerberhaus",
+    "name": "KörberHaus & LichtwarkTheater",
+    "category": "kultur",
+    "description": "Offener Treffpunkt und Veranstaltungsort mit Kultur-, Bildungs- und Begegnungsangeboten. Der Kalender und die Hinweise zu barrierefreiem Zugang sind auf der Betreiberseite aktuell einsehbar.",
+    "source": "https://koerber-stiftung.de/die-stiftung/koerberhaus/"
+  },
+  {
+    "id": "lola",
+    "name": "LOLA Kulturzentrum",
+    "category": "kultur",
+    "description": "Kulturzentrum mit wechselndem Programm, Kursen und Veranstaltungen. Einzeltermine und Einlassbedingungen stehen im aktuellen Veranstaltungsprogramm.",
+    "source": "https://lola-hh.de/"
+  },
+  {
+    "id": "berg-museumslandschaft",
+    "name": "Bergedorfer Museumslandschaft",
+    "category": "kultur",
+    "description": "Aktuelle Ausstellungen, Führungen, Veranstaltungen und saisonale Angebote für Bergedorf Museum und Rieck Haus. Keine Termine werden unabhängig vom offiziellen Kalender fortgeschrieben.",
+    "source": "https://www.bergedorfer-museumslandschaft.de/"
+  },
+  {
+    "id": "sternwarte-fuehrung",
+    "name": "Öffentliche Führungen an der Hamburger Sternwarte",
+    "category": "kultur",
+    "description": "Die Universität Hamburg nennt öffentliche Führungen sonntags um 14 Uhr, etwa 90 Minuten, mit Ticketpreis und Alters-/Barrierehinweisen. Vor dem Besuch aktuelle Termine und Bauarbeiten prüfen.",
+    "source": "https://www.physik.uni-hamburg.de/hs/subsite---open-observatory/fuehrungen-mehr.html"
+  },
+  {
+    "id": "rieck-fuehrungen",
+    "name": "Führungen und Familienangebote im Rieck Haus",
+    "category": "kultur",
+    "description": "Das Museum kündigt regelmäßige Rundgänge und monatliche Kinderprogramme an. Termine und Anmeldung wechseln; vor dem Besuch die Museumsseite aufrufen.",
+    "source": "https://www.bergedorfer-museumslandschaft.de/service/fuehrungen"
+  },
+  {
+    "id": "muehlen-fuehrungen",
+    "name": "Führungen in der Riepenburger Mühle",
+    "category": "kultur",
+    "description": "Führungen durch die Mühle können laut Betreiber nach Terminvereinbarung gebucht werden. Öffnung, Kosten und Gruppenkonditionen vorab direkt erfragen.",
+    "source": "https://www.riepenburger-muehle.de/index.php/besichtigung"
+  },
+  {
+    "id": "h4-hotel",
+    "name": "H4 Hotel Hamburg Bergedorf",
+    "category": "unterkunft",
+    "description": "Hotelangebot mit Buchungs- und Kontaktinformationen auf der offiziellen Betreiberseite. Preise, Verfügbarkeit, Ausstattung und Stornobedingungen vor einer Reise dort prüfen.",
+    "source": "https://www.h-hotels.com/de/h4/hotels/h4-hotel-hamburg-bergedorf"
+  },
+  {
+    "id": "hotel-sachsentor",
+    "name": "Hotel Sachsentor",
+    "category": "unterkunft",
+    "description": "Familiengeführtes Hotel im historischen Zentrum laut Betreiberseite. Preise, Verfügbarkeit, Ausstattungsmerkmale und Barrierefreiheit bitte direkt beim Hotel prüfen.",
+    "source": "https://hotelsachsentor.de/"
+  },
+  {
+    "id": "hotel-hanseat",
+    "name": "Hotel Hanseat",
+    "category": "unterkunft",
+    "description": "Das Hamburger Branchenbuch führt das Hotel an dieser Adresse. Angaben zu aktuellem Betrieb, Ausstattung, Preisen und Buchungsmöglichkeiten bitte beim Anbieter über den Kontakt auf der offiziellen Verzeichnisseite prüfen.",
+    "source": "https://www.hamburg.de/branchenbuch/hamburg/eintrag/1020527/"
+  },
+  {
+    "id": "haus-anna-elbe",
+    "name": "Haus Anna Elbe – Ferienwohnungen und Waldhütten",
+    "category": "unterkunft",
+    "description": "Der Betreiber bietet Ferienwohnungen sowie Waldhütten und einen Zeltplatz an. Es handelt sich laut Anbieter um einen besonderen Selbstversorger-Aufenthalt, nicht um ein klassisches Hotel. Angebote, Bedingungen und Verfügbarkeit direkt prüfen.",
+    "source": "https://www.haus-anna-elbe.de/"
+  },
+  {
+    "id": "elbperle94",
+    "name": "Elbperle94 – Ferienwohnungen",
+    "category": "unterkunft",
+    "description": "Der Betreiber nennt drei Ferienwohnungen, möbliertes Wohnen, Parkplatz und Gartenmitbenutzung. Bedingungen und Verfügbarkeit direkt beim Anbieter prüfen.",
+    "source": "https://elbperle94.de/"
+  },
+  {
+    "id": "ferienwohnung-curslack",
+    "name": "Ferienwohnungen Curslack",
+    "category": "unterkunft",
+    "description": "Die Betreiberseite führt Ferienwohnungen und Gästezimmer in Curslack. Ausstattung, aktuelle Verfügbarkeit und Preise dort prüfen; diese Angaben werden hier nicht fortgeschrieben.",
+    "source": "https://ferienwohnung-curslack.de/"
+  },
+  {
+    "id": "bettenburg",
+    "name": "Bettenburg Hotel Hamburg",
+    "category": "unterkunft",
+    "description": "Hotel mit Einzel- und Doppelzimmern sowie Apartments laut Betreiberseite. Frühstück, Ausstattung, Check-in und Parken bitte direkt bei der Unterkunft aktuell prüfen; Preise und Verfügbarkeit werden hier nicht fortgeschrieben.",
+    "source": "https://www.bettenburg-hotel.de/hotel-info"
+  },
+  {
+    "id": "hiamo",
+    "name": "HIAMO Hotel Hamburg-Bergedorf",
+    "category": "unterkunft",
+    "description": "Hotelbetrieb mit Zimmer- und Standortinformationen auf der eigenen Website. Freie Zimmer, Preise und Bedingungen können nur der Betreiber aktuell bestätigen.",
+    "source": "https://www.hiamo.com/"
+  },
+  {
+    "id": "alt-lohbruegger-hof",
+    "name": "Alt Lohbrügger Hof",
+    "category": "unterkunft",
+    "description": "Hotel in Lohbrügge. Die offizielle Betreiberseite bietet Kontakt und Informationen zum Haus; Zimmerpreise und Verfügbarkeit bitte direkt dort prüfen.",
+    "source": "https://altlohbrueggerhof.de/"
+  },
+  {
+    "id": "hotel-mediterran",
+    "name": "Hotel & Restaurant Mediterran",
+    "category": "unterkunft",
+    "description": "Kombinierter Hotel- und Restaurantbetrieb. Die Betreiberseite führt Kontakt und Zimmerbuchungsanfragen; freie Kapazitäten nicht auf dieser Plattform dargestellt.",
+    "source": "https://hotel-mediterran.de/"
+  },
+  {
+    "id": "pension-moinmoin",
+    "name": "Pension Moin Moin",
+    "category": "unterkunft",
+    "description": "Familiengeführte Pension in den Vier- und Marschlanden. Die eigene Seite nennt Zimmerarten und Kontakt; Preise und Verfügbarkeit vorab mit dem Anbieter klären.",
+    "source": "https://www.pension-moinmoin.de/"
+  },
+  {
+    "id": "vierlaenderei-unterkunft",
+    "name": "Vierländerei – Café, Restaurant und Pension",
+    "category": "unterkunft",
+    "description": "Gästezimmer und Ferienwohnungen in Kirchwerder laut Betreiberseite. Kapazität, Preise und aktuelle Verfügbarkeit direkt anfragen.",
+    "source": "https://www.pensionkirchwerder.de/"
+  },
+  {
+    "id": "cafe-chrysander",
+    "name": "Café Chrysander",
+    "category": "gastronomie",
+    "description": "Café im Bergedorfer Schlosspark mit Frühstücksangebot und wechselnder Karte laut eigener Website. Aktuelle Öffnungszeiten und Programm dort prüfen.",
+    "source": "https://www.cafe-chrysander.de/"
+  },
+  {
+    "id": "la-petite-rue",
+    "name": "Café La Petite Rue",
+    "category": "gastronomie",
+    "description": "Café in der Sachsentor-Passage mit Frühstück, Kaffee und Kuchen laut Betreiberseite. Saisonale Öffnungszeiten ändern sich; aktuelle Zeiten und Feiertage prüfen.",
+    "source": "https://www.cafelapetiterue.de/"
+  },
+  {
+    "id": "cafe-nourish",
+    "name": "Café Nourish",
+    "category": "gastronomie",
+    "description": "Café mit selbstgemachten Angeboten und ausgewiesenen veganen sowie glutenfreien Optionen laut eigener Seite. Öffnungszeiten und Küchenzeiten direkt prüfen.",
+    "source": "https://www.cafe-nourish.de/"
+  },
+  {
+    "id": "brunch-factory",
+    "name": "Brunch Factory Bergedorf",
+    "category": "gastronomie",
+    "description": "Frühstücks- und Brunchangebot am Schilfpark. Betreiberseite nennt Adresse, Kontakt und wechselnde Karten. Preise und Öffnungszeiten sind veränderlich; Originalseite prüfen.",
+    "source": "https://brunchfactory.de/"
+  },
+  {
+    "id": "casareccio",
+    "name": "Café Bistro Casareccio",
+    "category": "gastronomie",
+    "description": "Italienischer Familienbetrieb am Lohbrügger Markt. Eigene Seite führt Speisen, Öffnungszeiten und Kontaktdaten; Angaben können sich ändern.",
+    "source": "https://casareccio.eatbu.com/?lang=de"
+  },
+  {
+    "id": "filia",
+    "name": "Filia Café & Feinkost",
+    "category": "gastronomie",
+    "description": "Café und Feinkost an der Alten Holstenstraße mit Blickrichtung Hafen laut Anbieterprofil. Die Seite des Anbieters führt Kontakt und aktuelle Zeiten.",
+    "source": "https://www.lieblingsadressen.de/profil/filia-cafe-und-feinkost-hamburg-bergedorf"
+  },
+  {
+    "id": "cafe-molina",
+    "name": "Café Molina",
+    "category": "gastronomie",
+    "description": "Café am Kirchwerder Mühlendamm. Betreiberseite nennt Frühstücks- und Öffnungstage; saisonale und Feiertagsabweichungen vorher prüfen.",
+    "source": "https://www.cafemolina.de/"
+  },
+  {
+    "id": "landhaus-voigt",
+    "name": "Landhaus Voigt",
+    "category": "gastronomie",
+    "description": "Restaurant in Ochsenwerder mit regional ausgerichteter Küche und Außenbereich laut Betreiberseite. Reservierung und Öffnungszeiten direkt prüfen.",
+    "source": "https://www.landhaus-voigt.de/"
+  },
+  {
+    "id": "vierlaenderei-essen",
+    "name": "Vierländerei – Café und Restaurant",
+    "category": "gastronomie",
+    "description": "Café und Restaurant in einem historischen Bäckereigebäude; die Betreiberseite nennt saisonale Zeiten, Kuchen und Veranstaltungen.",
+    "source": "https://www.pensionkirchwerder.de/"
+  },
+  {
+    "id": "alte-deichkate",
+    "name": "Alte Deichkate",
+    "category": "gastronomie",
+    "description": "Kaffeestube und kleines Restaurant in Billwerder. Das Hamburger Branchenbuch und der Betreiber führen Kontakt und Öffnungszeiten; vor der Anfahrt aktuelle Zeiten prüfen.",
+    "source": "https://altedeichkate.de/"
+  },
+  {
+    "id": "krauler-kroog",
+    "name": "De Krauler Kroog",
+    "category": "gastronomie",
+    "description": "Ausflugslokal in Kirchwerder. Der aktuelle Eintrag im Hamburger Branchenbuch führt Adresse und Kontakt; Öffnungszeiten beim Betrieb bestätigen.",
+    "source": "https://www.hamburg.de/branchenbuch/hamburg/eintrag/1024961/"
+  },
+  {
+    "id": "radstation",
+    "name": "Radstation Bergedorf",
+    "category": "rad",
+    "description": "Am Bahnhof: Fahrradparkhaus, Werkstatt, Shop und Fahrradverleih einschließlich E-Bikes laut Betreiberseite. Verfügbarkeit, Öffnungszeiten und Preise dort prüfen.",
+    "source": "https://www.radstationen-nord.de/bergedorf/verleih/"
+  },
+  {
+    "id": "stadtrad",
+    "name": "StadtRAD-Stationen in Bergedorf",
+    "category": "rad",
+    "description": "Die StadtRAD-FAQ führt Stationen am Bahnhof Bergedorf, Korachstraße / Helmuth-Hübener-Weg und Henriette-Herz-Ring / Grachtenplatz. Verfügbarkeit und Betriebsstatus in der StadtRAD-App prüfen.",
+    "source": "https://stadtrad.hamburg.de/de/fragen-und-antworten"
+  },
+  {
+    "id": "elberadweg",
+    "name": "Elberadweg im Bezirk Bergedorf",
+    "category": "rad",
+    "description": "Der Elberadweg ist ein Fernradweg; für den Bergedorfer Abschnitt und aktuelle Bau- oder Umleitungsinformationen bitte offizielle Streckeninformationen verwenden.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/aktiv-im-und-am-wasser"
+  },
+  {
+    "id": "hvv-rad",
+    "name": "Mit Fahrrad und HVV anreisen",
+    "category": "rad",
+    "description": "Fahrpläne, Fahrradmitnahmebedingungen und mögliche Einschränkungen sind veränderlich. Die Fahrplanauskunft und Hinweise des HVV sind für den Reisetag maßgeblich.",
+    "source": "https://www.hvv.de/"
+  },
+  {
+    "id": "werft-allermoehe",
+    "name": "Werft Allermöhe",
+    "category": "camping",
+    "description": "Der Betreiber bietet einen Wohnmobilstellplatz für Fahrzeuge bis 9 m, nach eigener Angabe saisonal vom 1. Mai bis 3. Oktober. Genannt werden Sanitäranlagen, Frischwasser und Strom bis 16 A; Tages-/Nachtpreis laut Betreiberseite ab 25 Euro inklusive Dusche und Strom. Telefonische Anmeldung erforderlich; vor der Anfahrt Saison, Preis und Bedingungen erneut prüfen.",
+    "source": "https://werftallermoehe.de/wohnmobile.html"
+  },
+  {
+    "id": "camping-hohendeich",
+    "name": "Camping am Hohendeicher See",
+    "category": "camping",
+    "description": "Am östlichen Ufer befindet sich laut hamburg.de ein Campingplatz. Zulässige Fahrzeuge, Ausstattung, Saison, Kosten und Verfügbarkeit sind vor einer Fahrt beim Betreiber zu bestätigen.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/wasser/badegewaesser/hohendeichersee-west-174080"
+  },
+  {
+    "id": "schifffahrtslinie",
+    "name": "Bergedorfer Schifffahrtslinie",
+    "category": "wasser",
+    "description": "Die Betreiberseite führt saisonale Fahrten ab Bergedorfer Hafen/Serrahn, darunter Vierlanden- und Hafenfahrten. Fahrplan, Saison, freie Plätze und Tickets ausschließlich dort aktuell prüfen.",
+    "source": "https://barkassenfahrt.de/schifffahrt-fahrplan-2026/"
+  },
+  {
+    "id": "atg",
+    "name": "Vierlanden-Fahrt der Alster-Touristik (ATG)",
+    "category": "wasser",
+    "description": "ATG veröffentlicht Fahrten zwischen Jungfernstieg und Bergedorf-Hafen/Serrahn. Saison, Termine, Abfahrt und Verfügbarkeit beim Anbieter prüfen.",
+    "source": "https://www.alstertouristik.de/"
+  },
+  {
+    "id": "vierlaender-ewer",
+    "name": "Vierländer Ewer „Uns Ewer“",
+    "category": "wasser",
+    "description": "Historischer Ewer-Nachbau und Fahrten ab Bergedorfer Hafen laut Trägerseite. Termine, Gruppenangebote und Bedingungen aktuell beim Anbieter erfragen.",
+    "source": "https://www.vierlanden-ewer.de/"
+  },
+  {
+    "id": "erlebnis-reederei",
+    "name": "Fähre Zollenspieker–Hoopte & Fahrgastschiffe",
+    "category": "wasser",
+    "description": "Fährverbindung zwischen Zollenspieker und Hoopte sowie saisonale Fahrgastangebote laut Betreiber. Fahrplan und Betrieb können von Saison, Wasserstand und Wetter abhängen; vorab prüfen. Hoopte liegt außerhalb Bergedorfs in Niedersachsen.",
+    "source": "https://erlebnis-reederei.de/"
+  },
+  {
+    "id": "bootswerft-neuengamme",
+    "name": "Bootswerft Neuengamme",
+    "category": "wasser",
+    "description": "Der Bergedorfer Tourismusführer nennt die Bootswerft als Anbieter von Gastliegeplätzen und Elektrobootverleih. Liegeplätze, Bootsmaße, Gebühren, Schleusen und Verfügbarkeit vor Anfahrt direkt bestätigen.",
+    "source": "https://bootswerft-neuengamme.de/"
+  },
+  {
+    "id": "sportboothafen-moeller",
+    "name": "Sportboothafen Möller",
+    "category": "wasser",
+    "description": "Der Tourismusführer führt den Hafen am Tatenberger Deich mit Gastliegeplätzen und Slipmöglichkeit. Maße und freie Liegeplätze sind sicherheits- und zeitkritisch; direkt beim Hafenbetreiber verifizieren.",
+    "source": "https://www.sportboothafen-hamburg.de/"
+  },
+  {
+    "id": "yachtclub",
+    "name": "Hamburger Yacht-Club im ADAC",
+    "category": "wasser",
+    "description": "Der Tourismusführer nennt den Standort am Tatenberger Deich und Gastliegeplätze. Verfügbarkeit, Bootsdimensionen, Anmeldung und Gebühren direkt beim Verein bestätigen.",
+    "source": "https://www.hamburger-yacht-club.eu/"
+  },
+  {
+    "id": "bootshaus",
+    "name": "Bootshaus Bergedorf",
+    "category": "wasser",
+    "description": "Der Tourismusführer nennt Kanu-, Kajak-, SUP- und Tretbootangebote am Schillerufer. Saison, Schwimmwesten, Preise und Ausleihe direkt beim Betreiber prüfen.",
+    "source": "https://bootshaus-bergedorf.com/"
+  },
+  {
+    "id": "kanu-hafen",
+    "name": "Kanu-Hafen Hamburg",
+    "category": "wasser",
+    "description": "Der Tourismusführer führt Kanu- und Kajakverleih am Curslacker Deich. Saison, Verfügbarkeit, Mindestalter und Einweisung beim Anbieter prüfen.",
+    "source": "https://kanu-hafen.de/"
+  },
+  {
+    "id": "paddel-meier",
+    "name": "Paddel-Meier Bootsvermietung",
+    "category": "wasser",
+    "description": "Der Anbieter wird im Tourismusführer mit Kanu-, Kajak- und SUP-Angeboten genannt. Vermietung und Bedingungen aktuell beim Betreiber prüfen.",
+    "source": "https://www.paddel-meier.de/"
+  },
+  {
+    "id": "windsurfing-hamburg",
+    "name": "Windsurfing Hamburg am Oortkatensee",
+    "category": "wasser",
+    "description": "Der Tourismusführer führt Windsurfing am Oortkatensee. Saison, Kurse, Ausrüstung und Zulässigkeit am See vorab beim Betreiber beziehungsweise bei der Behörde prüfen.",
+    "source": "https://www.windsurfing-hamburg.de/"
+  },
+  {
+    "id": "hof-eggers",
+    "name": "Hof Eggers in der Ohe",
+    "category": "familie",
+    "description": "Historischer Hof in Kirchwerder. Der Tourismusführer nennt Hofladen, Hofcafé, Ferienwohnungen sowie Führungen nach Anmeldung; aktuelle öffentliche Angebote beim Hof prüfen.",
+    "source": "https://www.hof-eggers.de/"
+  },
+  {
+    "id": "eselei",
+    "name": "Die Eselei",
+    "category": "familie",
+    "description": "Familienangebote mit Eselwanderungen werden in der Tourismusübersicht geführt. Termine, Mindestalter, Dauer und Kosten nur anhand der jeweiligen Anbieterinformationen buchen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/mit-kindern-unterwegs"
+  },
+  {
+    "id": "spielscheune",
+    "name": "Spielscheune der Geschichten",
+    "category": "familie",
+    "description": "Wetterunabhängiges Kinderangebot, das die Tourismusübersicht für Regentage nennt. Öffnungszeiten, Eintritt und Altersbedingungen direkt beim Betreiber prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/mit-kindern-unterwegs"
+  },
+  {
+    "id": "billebad",
+    "name": "Bille-Bad",
+    "category": "familie",
+    "description": "Schwimmbad an der Bille mit Schwimmen und weiteren Angeboten laut Betreiber. Badezeiten, Einlass, Preise und Zugänglichkeit auf der Bäderland-Seite prüfen.",
+    "source": "https://www.baederland.de/baeder/alle-baeder/billebad/"
+  },
+  {
+    "id": "sommerbad-altengamme",
+    "name": "Sommerbad Altengamme",
+    "category": "familie",
+    "description": "Freibad mit saisonalem Betrieb in Altengamme. Badesaison, Öffnung, Eintritt und Badeaufsicht sind saisonabhängig und müssen der Betreiberseite entnommen werden.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/aktiv-im-und-am-wasser/badeseen-bille-bad"
+  },
+  {
+    "id": "marschbahn-familien",
+    "name": "Marschbahndamm mit Kindern",
+    "category": "familie",
+    "description": "Die Tourismusquelle empfiehlt den überwiegend autofreien Marschbahndamm als Radroute und beschreibt einen Spielplatz am Gleisdreieck. Der konkrete Routenverlauf muss der Radkarte entnommen werden.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/mit-kindern-unterwegs"
+  },
+  {
+    "id": "hvv-arrival",
+    "name": "Bahn und Bus nach Bergedorf",
+    "category": "mobilitaet",
+    "description": "Bergedorf ist per S-Bahn und Regionalverkehr erreichbar; Fahrpläne und baubedingte Änderungen sind tagesaktuell beim HVV zu prüfen. Seit dem Fahrplanwechsel 2025/26 ändern sich Linienbezeichnungen und Linienläufe.",
+    "source": "https://www.hvv.de/"
+  },
+  {
+    "id": "cambio-bergedorf",
+    "name": "Carsharing am Bahnhof Bergedorf",
+    "category": "mobilitaet",
+    "description": "cambio führt eine Station „Bergedorf hvv switch / Johann-Meyer-Straße“ an der Bahnhofsrückseite. Registrierung, Bedienungsgebiet, Verfügbarkeit und Buchungsbedingungen beim Betreiber prüfen.",
+    "source": "https://www.cambio-carsharing.de/stationen/station/bergedorf-hvv-switch-31-1800"
+  },
+  {
+    "id": "sixt-bergedorf",
+    "name": "SIXT Autovermietung Hamburg-Bergedorf",
+    "category": "mobilitaet",
+    "description": "Die Betreiberseite führt eine Mietwagenstation an der Bergedorfer Straße 100a. Fahrzeugbestand, Öffnungszeiten und Rückgaberegeln am Buchungstag prüfen; diese Plattform vermittelt keine Fahrzeuge.",
+    "source": "https://www.sixt.de/mietwagen/deutschland/hamburg/hamburg-bergedorf/"
+  },
+  {
+    "id": "tourist-info",
+    "name": "Tourist-Information im Hasse-Haus",
+    "category": "praktisch",
+    "description": "Externe touristische Anlaufstelle im Hasse-Haus. Die offizielle Kontaktseite nennt Adresse, Telefon, E-Mail und derzeitige Öffnungszeiten; vor dem Besuch prüfen. Bergedorf gemeinsam ist keine amtliche Tourismusstelle.",
+    "source": "https://www.bergedorf.de/tourismus/kontakt"
+  },
+  {
+    "id": "wc-directory",
+    "name": "Öffentliche Toiletten und Einrichtungen im Verzeichnis",
+    "category": "praktisch",
+    "description": "Für aktuelle Standorte bestehende Einträge im Bergedorfer Verzeichnis nutzen. Zugänglichkeit, Öffnungszeiten und tatsächliche Nutzbarkeit sind je Ort zu prüfen.",
+    "source": "https://markbergedorf.github.io/bergedorf-gemeinsam/#verzeichnis"
+  },
+  {
+    "id": "tourism-info",
+    "name": "Offizielle Bergedorf-Tourismusseite",
+    "category": "praktisch",
+    "description": "Die externe Tourist-Information ist ein Service von Bergedorf-Tourismus im Wirtschafts- und Stadtmarketing für die Region Bergedorf e.V. Diese unabhängige Plattform ist nicht deren offizieller Auftritt.",
+    "source": "https://www.bergedorf.de/tourismus/kontakt"
+  },
+  {
+    "id": "weinfass",
+    "name": "Übernachten im Weinfass – Wein- & Friesenstube",
+    "category": "unterkunft",
+    "description": "Der Betreiber bietet beheizbare Schlummerfässer als besondere Übernachtungsmöglichkeit an. Die Betreiberseite beschreibt Schlafkomfort und die Möglichkeit einer Kombination mit einem Candle-Light-Dinner und Frühstück; aktuelle Buchbarkeit, Bedingungen und Preise bitte direkt prüfen. Das Angebot ist in der Betreiberinformation mit dem Standort Ochsenwerder verbunden.",
+    "source": "https://friesenstube.hamburg/uebernachten-im-weinfass/"
+  },
+  {
+    "id": "hamburgboats",
+    "name": "Hausbootübernachtungen – HamburgBoats",
+    "category": "unterkunft",
+    "description": "HamburgBoats beschreibt die Hausboote Sutje, Lütje und Bötje als schwimmende Ferienunterkünfte am fest verankerten Liegeplatz in Moorfleet. Es handelt sich um stationäre Übernachtungen; eine Fahrt mit dem Hausboot wird hier nicht angeboten. Verfügbarkeit, Saison und Buchungsbedingungen bitte beim Betreiber prüfen.",
+    "source": "https://hamburgboats.de/hausboote"
+  },
+  {
+    "id": "adfc-touren",
+    "name": "Geführte ADFC-Radtouren in und um Bergedorf",
+    "category": "rad",
+    "description": "Der ADFC veröffentlicht aktuelle Radtouren und Veranstaltungen in seinem offiziellen Tourenportal. Termine, Startorte, Teilnahmebedingungen und Anmeldestatus ändern sich; diese Seite verlinkt die laufende Übersicht statt einen Einzeltermin dauerhaft als aktuell zu kennzeichnen. Es wurde keine verlässliche, offiziell unterstützte statische Schnittstelle für die regelmäßige Übernahme von Terminen festgestellt.",
+    "source": "https://touren-termine.adfc.de/"
+  },
+  {
+    "id": "segelflugplatz-boberg",
+    "name": "Segelflugplatz Boberg",
+    "category": "familie",
+    "description": "Am Segelfluggelände Boberg sind der Hamburger Aero-Club Boberg und das Segelflugzentrum Hamburg Boberg aktiv. Der HAC nennt Gastflüge und Besucher während der Flugsaison März bis Oktober; beim HVL werden Kennenlernflüge beschrieben. Besuchszeiten, Wetterlage, Buchung und Sicherheitsregeln ausschließlich bei den Vereinen aktuell prüfen.",
+    "source": "https://www.hac-boberg.de/"
+  },
+  {
+    "id": "gokart-hof",
+    "name": "Gokartverleih am Gokarthof",
+    "category": "familie",
+    "description": "Bergedorf-Tourismus führt den Gokartverleih am Neuengammer Hausdeich. Aktueller Betrieb, Alters- und Nutzungsbedingungen, Termine und Kosten sind direkt beim Anbieter zu prüfen.",
+    "source": "https://www.gokarthof.de/"
+  },
+  {
+    "id": "kutschfahrten-burmester",
+    "name": "Kutsch- und Planwagenfahrten Burmester",
+    "category": "familie",
+    "description": "Der Erlebnisbauernhof Burmester führt Kutsch- und Planwagenfahrten als Angebot. Termine, Gruppengröße, Zugänglichkeit, Abfahrt und Kosten bitte beim Anbieter bestätigen.",
+    "source": "https://www.erlebnisbauernhof-burmester.de/"
+  },
+  {
+    "id": "megaballs",
+    "name": "Megaballs / Wasserbälle",
+    "category": "familie",
+    "description": "Bergedorf-Tourismus nennt Wasserbälle als gelegentliches saisonales Freizeitangebot. Ein dauerhaft geöffneter Betrieb oder regelmäßige Termine konnten in den zugänglichen aktuellen Betreiberquellen nicht bestätigt werden. Vor einem Besuch ausschließlich aktuelle Ankündigungen prüfen.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/freizeitaktivitaeten/weitere-tipps"
+  },
+  {
+    "id": "allermoeher-wiesen",
+    "name": "Allermöher Wiesen",
+    "category": "natur",
+    "description": "Naturschutzgebiet der Vier- und Marschlande, das in der Übersicht der Hamburger Schutzgebiete im Bezirk Bergedorf aufgeführt ist. Für Besuche gelten die örtlichen Schutz- und Wegegebote; keine frei geschätzte Mittelpunktkoordinate wird angezeigt.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/naturschutzgebiete-im-bezirk-bergedorf-852648"
+  },
+  {
+    "id": "alter-holzhafen",
+    "name": "Alter Holzhafen",
+    "category": "natur",
+    "description": "Der Alte Holzhafen gehört zu den in Bergedorf benannten Natur- und Schutzgebieten. Zugang und Schutzvorgaben vor Ort beachten; mangels verifizierter Polygongeometrie wird keine Fläche eingezeichnet.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/naturschutzgebiete-im-bezirk-bergedorf-852648"
+  },
+  {
+    "id": "spadenlaender-spitze",
+    "name": "Spadenländer Spitze",
+    "category": "natur",
+    "description": "Landschafts- und Naturraum an der Norderelbe, den Bergedorf-Tourismus als Schutzgebiet aufführt. Die genaue Abgrenzung ist der amtlichen Geodatenquelle zu entnehmen; hier wird kein geschätztes Gebietspolygon dargestellt.",
+    "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/naturschutzgebiete-im-bezirk-bergedorf-852648"
+  },
+  {
+    "id": "bergedorfer-gehoelz",
+    "name": "Bergedorfer Gehölz und Schloss-zu-Schloss-Spaziergang",
+    "category": "natur",
+    "description": "Öffentliche Wald- und Erholungsfläche. Bergedorf-Tourismus beschreibt einen Spaziergang vom Bergedorfer Schloss in Richtung Reinbek; dieser führt teilweise über die Bezirksgrenze hinaus. Eine Route wird mangels überprüfter Weggeometrie nicht als Linie eingezeichnet.",
+    "source": "https://www.bergedorf.de/tourismus/ausflugtipps/natur-entdecken/bergedorfer-gehoelz/"
+  },
+  {
+    "id": "karoline",
+    "name": "Historische Eisenbahn „Karoline“ nach Geesthacht",
+    "category": "familie",
+    "description": "Die Arbeitsgemeinschaft Geesthachter Eisenbahn bietet an mehreren Wochenenden im Jahr Museumsfahrten an. Die historische Fahrt beginnt in Bergedorf-Süd und führt über Börnsen und Escheburg nach Geesthacht, teilweise weiter nach Krümmel. Das ist ein gelegentliches Museumsangebot, kein regulärer öffentlicher Verkehr. Termine und Betrieb beim Veranstalter prüfen; Geesthacht liegt außerhalb des Bezirks.",
+    "source": "https://www.hamburg.de/verkehr/bus-bahn/bahn/karoline-eisenbahn-geesthacht-372128"
+  },
+  {
+    "id": "wochenmaerkte-bergedorf",
+    "name": "Wochenmärkte im Bezirk Bergedorf",
+    "category": "praktisch",
+    "description": "Die Freie und Hansestadt Hamburg veröffentlicht eine aktuelle Übersicht der Wochenmärkte im Bezirk. Standorte, Markttage, Uhrzeiten, Verlegungen und Ausfälle können sich ändern und sind vor dem Besuch auf der offiziellen Marktseite zu prüfen. Es werden hier keine geschätzten Marktmittelpunkte kartiert.",
+    "source": "https://www.hamburg.de/freizeit/maerkte-und-messen/wochenmaerkte/bergedorf-339490"
+  },
+  {
+    "id": "bergedorfer-stadtfest",
+    "name": "Bergedorfer Stadtfest – Veranstaltungsinformation",
+    "category": "kultur",
+    "description": "Offizielle Veranstalterseite für das Bergedorfer Stadtfest. Es wird kein zukünftiger Termin aus früheren Ausgaben abgeleitet. Datum, Programm, Veranstalter und Veranstaltungsflächen gelten erst nach aktueller Veröffentlichung auf der offiziellen Seite als bestätigt.",
+    "source": "https://www.bergedorfer-stadtfest.com/"
+  },
+  {
+    "id": "bergedorfer-weihnachtsmarkt",
+    "name": "Bergedorfer Weihnachtsmarkt – Veranstaltungsinformation",
+    "category": "kultur",
+    "description": "Offizielle Informationsseite des Weihnachtsmarkts. Diese Seite speichert keinen jährlich wiederkehrenden Termin als bestätigt; aktuelle Öffnungszeiten, Programm und Veranstaltungsfläche bitte beim Veranstalter prüfen.",
+    "source": "https://bergedorfer-weihnachtsmarkt.de/"
+  },
+  {
+    "id": "wutzrock",
+    "name": "Wutzrock – Festivalinformation",
+    "category": "kultur",
+    "description": "Offizielle Festivalwebsite mit Informationen zu Programm und Veranstaltungsort. Konkrete Termine und Flächen werden nur als aktuell behandelt, wenn sie dort für die betreffende Ausgabe angekündigt sind.",
+    "source": "https://wutzrock.de/"
+  }
+]
