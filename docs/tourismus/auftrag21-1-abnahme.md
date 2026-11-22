@@ -105,6 +105,18 @@ Durchgeführt:
 - Build-Synchronisierung: vollständig ausgeführtes `dist` wurde in den Pages-Root übernommen.
 - Bestehende Buildwarnungen bleiben: Leaflet-CSS-Pfad wird zur Laufzeit aufgelöst; der Haupt-JavaScript-Chunk hat ca. 2,81 MB unkomprimiert (ca. 692 kB gzip), der Kartenchunk ca. 559 kB (ca. 159 kB gzip). Der Build ist erfolgreich; eine praktische Ladezeit-/Netzwerkprofilierung wurde nicht durchgeführt, eine Code-Aufteilung nicht als Teil dieser Inhalts-/Kartenänderung vorgenommen.
 
-## Veröffentlichung
+## Veröffentlichung und öffentliche Liveprüfung
 
-Pull Request, Merge-Commit, Pages-Lauf und tatsächliche öffentliche Liveprüfung werden nach Abschluss dieser Arbeitszweigprüfung hier eingetragen. Bis dahin sind sie offen und werden nicht als erfolgreich behauptet.
+- Pull Request: [#23](https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/23), am 22.11.2026 zusammengeführt.
+- Commit des geprüften PR-Inhalts: `af6c13648ffff1faad73f72256b985ed62d6566e`.
+- Merge-Commit auf `main`: `8a8316a7b674552537fe24ee29d5cbfa2425a117`.
+- GitHub Pages-Lauf **#80** (`44969162874`): Build und Deploy erfolgreich; Deploy-Schritt am 22.11.2026 abgeschlossen.
+- Öffentliche Seite nach dem erfolgreichen Deploy neu geladen: [Bergedorf entdecken – Gäste & Tourismus](https://markbergedorf.github.io/bergedorf-gemeinsam/#tourismus).
+- Live sichtbar: 112 Treffer, zehn Highlights, zwölf Themenzugänge und die 13 Kartenkategorien. Die 93 bisherigen Einträge blieben nachweislich erhalten.
+- Alle zwölf Themenzugänge einzeln angeklickt. Jeder Klick hielt den Nutzer im Tourismusbereich und der jeweilige Themenabschnitt war erreichbar; in keinem Fall erschien „Ansicht nicht gefunden“.
+- „Rundgänge und Routen ansehen“ angeklickt und den vorhandenen Routenabschnitt einschließlich „Route 1 – Traumhafte Rosentour“ erreicht.
+- „Informationen und offizielle Besuchsseite“ angeklickt und die Karte der KZ-Gedenkstätte Neuengamme erreicht.
+
+## Abnahmeurteil
+
+Die Erweiterungen, Bestandsschutzprüfungen, Regressionstests, Produktionsbuild, Pages-Veröffentlichung und die genannten Live-Navigationsprüfungen sind abgeschlossen. **Die räumliche/geometrische Abnahme ist nicht vollständig:** Für die fünf EntdeckerRouten und mehrere großflächige Ziele fehlen verifizierte maschinenlesbare Linien- oder Flächengeometrien. Diese Grenze ist in der Oberfläche kenntlich; keine geschätzten Routen oder Gebietsflächen wurden als Geodaten veröffentlicht. Daher ist Ergänzungsauftrag 21.1 umgesetzt und veröffentlicht, aber die vollständige Karten-/Geografieabnahme bleibt für diese konkreten Geometrien offen.
