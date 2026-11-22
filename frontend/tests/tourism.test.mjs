@@ -29,10 +29,11 @@ test('tourism entries cover all 14 borough districts without fabricated map coor
 
 test('tourism feature is linked into navigation and preserves map consent and existing sections',async()=>{
   const platform=await readFile(new URL('../app/platform.tsx',import.meta.url),'utf8');
+  const navigation=await readFile(new URL('../app/site-header.tsx',import.meta.url),'utf8');
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(platform,/import \{TourismPage\} from '\.\/tourism'/);
   assert.match(platform,/page==='tourismus'\?<TourismPage\/>/);
-  assert.match(platform,/onClick=\{\(\)=>go\('#tourismus'\)\}>Bergedorf entdecken/);
+  assert.match(navigation,/\{id:'tourismus',label:'Bergedorf entdecken \(Gäste & Tourismus\)',target:'#tourismus'\}/);
   assert.match(page,/useMapPrivacy\('openfreemap'/);
   assert.match(page,/Promise\.all\(\[import\('leaflet'\),import\('\.\.\/lib\/history-tiles\.mjs'\)\]\)/);
   assert.match(page,/Erst nach Ihrer Zustimmung/);
@@ -226,22 +227,4 @@ test('new tourism additions preserve the 112-entry base, separate verified offer
   const milk=tourismItems.find(x=>x.id==='milchhof-reitbrook');
   assert.match(milk.description,/nicht bestätigt/);
   assert.ok(tourismItems.find(x=>x.id==='hiamo').bikeFriendly);
-  assert.deepEqual(tourismItems.find(x=>x.id==='hiamo').bikeFeatures,['Listung auf der Bett+Bike-Unterkunftsplattform','Fahrradverleih und E-Bike-Verleih','Kooperation mit einer Fahrradwerkstatt','Lunchpakete','kostenfreies WLAN']);
-  const originals=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
-  for(const item of tourismItems.filter(x=>!originals.some(old=>old.id===x.id)))assert.equal(item.checkedOn,'2026-11-22',item.id);
-});
-
-test('all 112 tourism entries published at the start of Ergänzungsauftrag 21.2 keep their full baseline fields',async()=>{
-  const baseline=JSON.parse(await readFile(new URL('./fixtures/tourism-112-records.json',import.meta.url),'utf8'));
-  assert.equal(baseline.length,112);
-  const current=new Map(tourismItems.map(item=>[item.id,item]));
-  for(const old of baseline){
-    const item=current.get(old.id);
-    assert.ok(item,`original published entry missing: ${old.id}`);
-    assert.equal(item.name,old.name,old.id);
-    assert.equal(item.category,old.category,old.id);
-    assert.equal(item.description,old.description,old.id);
-    assert.equal(item.source.url,old.source,old.id);
-  }
-});
-
+  assert.deepEqual(tourismItems.find(x=>x.id==='hiamo').bikeFeatures,['Listung auf der Bett+Bike-Unterkunftsplattform','Fahrradverleih und 

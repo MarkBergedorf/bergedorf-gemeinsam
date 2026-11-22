@@ -5,8 +5,8 @@ import {pressMedia} from '../lib/press-discussions.mjs';
 
 const read=path=>readFileSync(path,'utf8');
 test('A1: Über uns fehlt nur oben; Footer und #ueber bleiben erreichbar',()=>{
- const platform=read('app/platform.tsx');
- assert(platform.includes("sections.filter(s=>s.id!=='ueber'&&s.short!=='Über uns'):[]).map(s=>"));
+ const platform=read('app/platform.tsx'),navigation=read('app/site-header.tsx');
+ assert(navigation.includes("sections.filter(s=>s.id!=='ueber'&&s.short!=='Über uns')"));
  assert(platform.includes("['ueber','Über uns']"));
  assert(platform.includes("page==='ueber'?<AboutPage/>"));
 });
