@@ -146,3 +146,39 @@ Die bereits dokumentierten Mess- und Quellenhinweise bleiben maßgeblich: OSM-Ro
 Die nach PR #35 veröffentlichte Beschriftungskorrektur besteht die Desktop-Liveprüfung: Die vier Routennamen sind in der Bezirksübersicht lesbar und voneinander getrennt. Linien, Einzelauswahl, Routen-Popups und Rückkehr zur Bezirksübersicht wurden geprüft. Der Bestand mit 139 Tourismuseinträgen, zwölf Themen, 14 Kartenkategorien sowie den drei BUKEA-Linien und zehn Tafelpunkten ist am aktuellen Stand erhalten.
 
 **Ergänzungsauftrag 21.3 ist hinsichtlich der umgesetzten, automatisiert geprüften und im Desktop-Livebetrieb sichtbaren Funktionen abgenommen.** Eine mobile Geräteprüfung, amtliche Vermessung und Vor-Ort-Prüfung der aktuellen Moorwegführung sind nicht erfolgt und werden nicht als bestanden gewertet. Die bekannte Wiesenweg-Längendifferenz bleibt dokumentiert.
+
+
+## Nachprüfung nach PR #38 – 22. November 2026
+
+Dieser Abschnitt ergänzt und korrigiert die vorstehende Abschlussbewertung. Die dortige Abnahme der Live-Beschriftungen bezog sich auf PR #35 und gilt nicht als Nachweis für den nachfolgenden Korrekturstand.
+
+### Merge, Tests und Build
+
+PR [#38 – Korrigiere Abstände der vier GÖP-Wegbeschriftungen](https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/38) wurde am 22.11.2026 in `main` gemergt. Merge-Commit: `1b31fea95975bde81b2642080d4a5b7427948d7c`.
+
+Nach dem Merge wurden die Tests im Korrektur-Worktree erneut ausgeführt: **391 bestanden, 0 fehlgeschlagen**. `pnpm build` war erfolgreich; die Prüfung meldete **269 Dateien** im Pages-Root, **4 Beispiele**, **69 redaktionelle Einträge** und **0 Live-Datenbankabrufe**. Die bestehenden Hinweise zur nicht aufgelösten Leaflet-CSS-Adresse, zu einer ungültigen CSS-Deklaration und zu großen Bundles blieben bestehen.
+
+Der GitHub-Pages-Lauf [#95](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/44991407275) wurde für denselben Merge-Commit als erfolgreich angezeigt.
+
+### Tatsächliche Live-Sichtprüfung
+
+Am 22.11.2026 wurde die veröffentlichte Karte in einer Desktop-Browseransicht mit sichtbarer OpenFreeMap-/OpenStreetMap-Kartengrundlage geprüft. Die freigegebene Kachelabruf-Zustimmung wurde verwendet. Die Karte zeigte weiterhin **139 Tourismuseinträge**, **12 Themen**, **14 Kartenkategorien**, alle vier GÖP-Routen, drei getrennte amtliche BUKEA-Linien und den Hinweis auf zehn Tafelpunkte.
+
+Die vier Routennamen waren sichtbar und vollständig: **Vogel · Moorweg**, **Hase · Wiesenweg**, **Schmetterling · Dünenweg** und **Blume · Terrassenweg**. Die Live-Seite verwendete jedoch weiterhin die alten Routenabstände. Gemessene Label-Boxen (Viewport-Y-Koordinaten, jeweils 21 px hoch):
+
+- Moorweg: 435,22–456,22 px
+- Wiesenweg: 491,22–512,22 px
+- Dünenweg: 525,22–546,22 px
+- Terrassenweg: 574,22–595,22 px
+
+Die Abstände zwischen den Boxen betrugen damit etwa **35 px, 14 px und 28 px**. Die kleinste Lücke blieb rund **14 px**. Die Beschriftungskorrektur aus PR #38 ist folglich im geprüften Live-Aufruf **noch nicht bestätigt**.
+
+Die Prüfung der öffentlichen Seite zeigte die Skript-/Stylesheet-Kombination `index-MSAoqFxP.js` / `index-Ck7ewV9G.css`; deren CSS enthielt weiterhin die alten, auf Reihenfolge gestützten Abstände. Der Cache-bustete Abruf des im Root-Build referenzierten `index-C1Cg8pWA.js` / `index-BuV9YCKt.css` führte zu einer leeren Seite. Die Browserkonsole meldete beim JavaScript-Bundle `SyntaxError: Unexpected token '...'`. Damit ist die abweichende Live-Auslieferung nicht durch einen erfolgreichen Sichttest der korrigierten Fassung ersetzt.
+
+### Bestandsschutz und Abnahmestatus
+
+Die automatisierte Suite bestätigt weiterhin die getrennten vier GÖP-Routen, ihre Linien und Labeldefinitionen, die unabhängige Sichtbarkeit, Popups sowie den lokalen BUKEA-Datensatz mit **3 Linien-Features und 10 Tafelpunkten**. Die Live-Seite zeigte weiterhin alle 139 Tourismuseinträge und die bestehenden Kartenkategorien. In diesem Korrektur-PR wurden keine Tourismusdatensätze oder sonstigen Kartenfunktionen entfernt.
+
+**Abnahmestatus: offen.** Die Codekorrektur ist gemergt, der lokale Produktionsbuild ist erfolgreich und Pages-Lauf #95 meldet Erfolg. Die Live-Beschriftungen erfüllen den beanstandeten Mindestabstand im geprüften Abruf jedoch noch nicht, und der cache-bustete Root-Build lud in diesem Browser nicht. Eine abschließende Live-Abnahme ist erst möglich, wenn die veröffentlichte Karte die tatsächlich korrigierte Fassung ohne JavaScript-Fehler ausliefert und die vier Labelabstände dort erneut gemessen wurden.
+
+Die Prüfung erfolgte ausschließlich in einer Desktop-Browseransicht; eine mobile Geräteansicht, amtliche Vermessung und Vor-Ort-Prüfung der aktuellen Moorwegführung erfolgten nicht.
