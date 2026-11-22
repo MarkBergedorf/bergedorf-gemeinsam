@@ -139,7 +139,7 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   assert.equal(moor.properties.osmUpdated,'2025-07-14T11:25:08Z');
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(page,/assets\/goep-naturwege-boberg\.geojson/);
-  assert.match(page,/L\.tooltip\(\{permanent:true,direction:'center',className:'tourism-route-label',opacity:1\}\)/);
+  assert.match(page,/L\.tooltip\(\{permanent:true,direction:'center',offset:\[0,-12\],className:'tourism-route-label',opacity:1\}\)/);
   assert.match(page,/routeLabels\.clearLayers\(\)/);
   assert.match(page,/setContent\(`\$\{p\.symbol\} · \$\{p\.name\}`\)/);
   assert.match(page,/routeLayer\.bindPopup\(box\)/);
