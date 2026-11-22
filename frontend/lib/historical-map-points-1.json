@@ -1,0 +1,23 @@
+[
+  {"id":"sander-krug","lat":53.4914482,"lon":10.2073892,"basis":"OSM-Gebäudeweg 157262824; heutige Hausnummer 42 an der überlieferten Anschrift bestätigt","osm":"https://www.openstreetmap.org/way/157262824"},
+  {"id":"spectrum","lat":53.4954592,"lon":10.2064702,"basis":"OSM-Einrichtung an Lohbrügger Markt 5; Adresse stimmt mit dem historischen Datensatz überein","osm":"https://www.openstreetmap.org/way/218331505"},
+  {"id":"die-13","lat":53.4928968,"lon":10.2046859,"basis":"OSM-Gebäudeweg 217566429; heutige Hausnummer 13 am Köhnckeweg bestätigt","osm":"https://www.openstreetmap.org/way/217566429"},
+  {"id":"anker","lat":53.4888325,"lon":10.2080647,"basis":"OSM-Gebäudeweg 217788365; heutige Hausnummer 9 in der Serrahnstraße bestätigt","osm":"https://www.openstreetmap.org/way/217788365"},
+  {"id":"engel-alt","lat":53.4902547,"lon":10.2083904,"basis":"OSM-Gebäudeweg 157262954; heutige Hausnummer 54 an der überlieferten Anschrift bestätigt","osm":"https://www.openstreetmap.org/way/157262954"},
+  {"id":"nyx","lat":53.4824787,"lon":10.2122291,"basis":"OSM-Gebäudeweg 628162789; heutige Hausnummer 43a am Neuen Weg bestätigt","osm":"https://www.openstreetmap.org/way/628162789"},
+  {"id":"garbers","lat":53.4204642,"lon":10.1482695,"basis":"OSM-Gebäudeweg 273677667; heutige Hausnummer 552 am Kirchwerder Landweg bestätigt","osm":"https://www.openstreetmap.org/way/273677667"},
+  {"id":"loma","lat":53.4951379,"lon":10.2062617,"basis":"OSM-Gebäudeweg 218331524; heutige Hausnummer 1 am Lohbrügger Markt bestätigt","osm":"https://www.openstreetmap.org/way/218331524"},
+  {"id":"holstenhof","lat":53.4984496,"lon":10.2032414,"basis":"OSM-Gebäudeweg 221638721; heutige Hausnummer 38 an der Lohbrügger Landstraße bestätigt","osm":"https://www.openstreetmap.org/way/221638721"},
+  {"id":"korfu","lat":53.5012909,"lon":10.197602,"basis":"OSM-Hauspunkt 7504591740; heutige Hausnummer 90 an der Lohbrügger Landstraße bestätigt","osm":"https://www.openstreetmap.org/node/7504591740"},
+  {"id":"lenz","lat":53.4810915,"lon":10.2266239,"basis":"OSM-Hauspunkt 2950249115; heutige Hausnummer 122 an der Holtenklinker Straße bestätigt","osm":"https://www.openstreetmap.org/node/2950249115"},
+  {"id":"boberger-hoehe","lat":53.5064886,"lon":10.18441,"basis":"OSM-Gebäudeweg 475544285; heutige Hausnummer 168 an der Lohbrügger Landstraße bestätigt","osm":"https://www.openstreetmap.org/way/475544285"},
+  {"id":"schuetzenhof","lat":53.5027575,"lon":10.1930958,"basis":"OSM-Gebäudeweg 243630819; heutige Hausnummer 119 an der Lohbrügger Landstraße bestätigt","osm":"https://www.openstreetmap.org/way/243630819"},
+  {"id":"time","lat":53.5087693,"lon":10.1863013,"basis":"OSM-Gebäudeweg 546628113; heutige Hausnummer 26 an der Mendelstraße bestätigt; historischer Zusatz noch offen","osm":"https://www.openstreetmap.org/way/546628113"},
+  {"id":"waldschloss","lat":53.4888202,"lon":10.2370212,"basis":"OSM-Gebäudeweg 243333898; heutige Hausnummer 155 an der Wentorfer Straße bestätigt","osm":"https://www.openstreetmap.org/way/243333898"},
+  {"id":"toepferkrug","lat":53.4858582,"lon":10.2145544,"basis":"OSM-Gaststättenpunkt 9894942025 mit passender Hausnummer 150; heutige Adresse abgeglichen","osm":"https://www.openstreetmap.org/node/9894942025"},
+  {"id":"blockhaus","lat":53.4884553,"lon":10.2113543,"basis":"OSM-Einrichtung 245098309 mit passender Hausnummer 2 am Sachsentor; heutige Adresse abgeglichen","osm":"https://www.openstreetmap.org/way/245098309"},
+  {"id":"jever","lat":53.4856645,"lon":10.2164139,"basis":"OSM-Hauspunkt 2534267166; heutige Hausnummer 1 an der Hassestraße bestätigt","osm":"https://www.openstreetmap.org/node/2534267166"},
+  {"id":"moeller","lat":53.4890472,"lon":10.2099066,"basis":"OSM-Gebäudeweg 175147654; heutige Hausnummer 76 an der Alten Holstenstraße bestätigt","osm":"https://www.openstreetmap.org/way/175147654"},
+  {"id":"bergedorfer-schloss-landmark","name":"Bergedorfer Schloss","lat":53.4896553,"lon":10.2126303,"basis":"Offizielle Anschrift Bergedorfer Schloßstraße 4; OSM-Relation 2201357","osm":"https://www.openstreetmap.org/relation/2201357","source":"https://www.hamburg.de/kultur/kultur-a-z/museen/bergedorfer-schloss-371494","landmark":true},
+  {"id":"alter-bahnhof-landmark","name":"Alter Bahnhof Bergedorf (1842)","lat":53.4846646,"lon":10.2119206,"basis":"Historisches Bahnhofsgebäude am Neuen Weg 54, OSM-Gebäudeweg 246359255","osm":"https://www.openstreetmap.org/way/246359255","source":"https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/bergedorf-371382","landmark":true}
+]
