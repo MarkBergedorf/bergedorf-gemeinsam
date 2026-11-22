@@ -84,15 +84,18 @@ Der live angezeigte Routenlayer weist auf Flyerumleitung und BUKEA-Zugangshinwei
 - `git diff --check`: **erfolgreich**.
 - Buildwarnungen bestehen weiter: Laufzeitpfad für `leaflet.css` sowie große JavaScript-Chunks (`history-tiles` ca. 558,63 kB, Hauptbundle ca. 2.846,01 kB). In diesem Auftrag wurde keine Performanceoptimierung vorgenommen.
 - Geometrie-Overlay auf den vier Originalflyer-Karten wurde lokal geprüft. Das ist ein visueller Quellenabgleich, keine geodätische Feldabnahme.
-- Der Browser-Livecheck der interaktiven vier Linien und Popups ist nach Pages-Veröffentlichung noch auszuführen und wird im Abschluss unten ergänzt.
+- Pages-Lauf #64 (`44982697942`) für PR #28 war erfolgreich. Der erste öffentliche Livecheck zeigte die neue Seite mit 139 Einträgen, allen vier Linien, vier Labels und Karten-Popups. Dabei wurden die Labels im Bezirksüberblick als überlappend erkannt. Diese konkrete Live-Abweichung wurde nicht als bestanden gewertet: Labelanker auf Linienknoten ergänzt, Test ergänzt und Produktionsbuild erneut erstellt; die veröffentlichte Regression dieses Fixes steht noch aus.
 
 ## Abnahmebewertung
 
-Die GÖP-Linien sind nun als einzelne, aus Operator-Wanderwegrelationen bezogene und mit den Flyern visuell abgeglichene Kartenlayer implementiert. Die Daten-/UI-Regressionen bestehen. Bis zum erfolgreichen Livecheck der veröffentlichten Routen ist die funktionale Abnahme noch offen. Auch danach bleiben die ausdrücklich bezeichneten Grenzen offen: keine amtliche Vermessung oder Begehung, die aktuelle Moorwegführung vor Ort nicht geprüft, sowie die ausgewiesene Längendifferenz des Wiesenwegs.
+Die GÖP-Linien sind nun als einzelne, aus Operator-Wanderwegrelationen bezogene und mit den Flyern visuell abgeglichene Kartenlayer implementiert. Die Daten-/UI-Regressionen bestehen. Die Basisfunktionen und Linien waren öffentlich sichtbar; der erste Livecheck fand jedoch die überlappenden Labels und löste daher eine Korrektur aus. Die vollständige Abnahme bleibt bis zum erneuten öffentlichen Check dieser Korrektur offen. Auch danach bleiben die ausdrücklich bezeichneten Grenzen offen: keine amtliche Vermessung oder Begehung, die aktuelle Moorwegführung vor Ort nicht geprüft, sowie die ausgewiesene Längendifferenz des Wiesenwegs.
 
 ## Veröffentlichungsnachweis
 
-Wird nach PR-Prüfung und Merge mit Pull Request, Merge-Commit, GitHub-Pages-Lauf und anschließendem Livecheck ausgefüllt.
+- PR #28: https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/28; zusammengeführt mit `ccac44814411e2cc83e0b07efd7a365f2ee696fd`.
+- GitHub Pages #64, Lauf `44982697942`: erfolgreich.
+- Öffentlicher Stand #28: 139 Treffer; vier Routeinträge, vier Linienlabels und GeoJSON verfügbar. Der Livecheck beanstandete sichtbare Labelüberlappung im Bezirksüberblick.
+- Der Labelanker-Fix und sein Regressionstest sind gebaut. PR und Liveprüfung für diese Nachbesserung werden nachgetragen.
 
 ## Verwendete Quellen
 
