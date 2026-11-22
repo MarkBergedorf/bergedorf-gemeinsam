@@ -28,8 +28,8 @@ test('Desktop-Hauptnavigation zeigt alle zwölf unveränderten Ziele in einer ge
 
 test('Parallelogramm-Tabs passen bei üblichen Desktopbreiten in eine Reihe ohne Überlauf',()=>{
  // Conservative 12px Arial widths for the unchanged labels, plus rendering allowance.
- const widths=[24,147,111,172,39,70,173,131,208,121,139,220];
- for(const available of [1280,1366,1440]){
+ const widths=[28,163,113,175,37,68,183,157,223,141,175,246];
+ for(const available of [1265,1280,1348,1366,1425,1440]){
   const layout=navigationTabLayout(widths,available);
   assert.ok(layout,`no fitting row at ${available}px`);
   assert.equal(layout.slotWidths.length,12);
