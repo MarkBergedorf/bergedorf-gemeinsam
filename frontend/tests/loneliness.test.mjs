@@ -12,7 +12,7 @@ test('Alle 18 beauftragten Hauptthemen unverändert und genau einer visuellen Gr
 test('Jede veröffentlichte Adresse lässt sich direkt auflösen, falsche Pfade werden nicht umgedeutet',()=>{
  for(const node of lonelinessIndex){const route=parseRoute(node.href);assert.equal(route.page,'einsamkeit');assert.equal(resolveLonelinessPath(route.parts.slice(1)).id,node.id);assert.equal(lonelinessParentHref(node),'#einsamkeit'+(node.path.length>1?'/'+node.path.slice(0,-1).join('/'):''));}
  for(const path of [[],['nicht-vorhanden'],['hilfe','nicht-vorhanden'],['gesundheit','hilfe']])assert.equal(resolveLonelinessPath(path),null);
- const p=readFileSync('app/platform.tsx','utf8'),nav=readFileSync('app/site-header.tsx','utf8');assert(p.includes("page==='einsamkeit'?<LonelinessPage/>"));assert(nav.includes("{id:'einsamkeit',label:'Einsamkeit in Bergedorf',target:'#einsamkeit'}"));assert(nav.includes("aria-current={page===item.id?'page':undefined}"));
+ const p=readFileSync('app/platform.tsx','utf8'),nav=readFileSync('app/site-header.tsx','utf8');assert(p.includes("page==='einsamkeit'?<LonelinessPage/>"));assert(nav.includes("{id:'einsamkeit',label:'Einsamkeit in Bergedorf',lines:['Einsamkeit in','Bergedorf'],target:'#einsamkeit'}"));assert(nav.includes("aria-current={page===item.id?'page':undefined}"));
 });
 test('Rekursive Unterebenen, vollständige Pfade und Eltern-Zurücklinks sind auch für tiefe Bäume vorbereitet',()=>{
  const index=buildTopicIndex([{id:'a',title:'A',children:[{id:'b',title:'B',children:[{id:'c',title:'C',children:[{id:'d',title:'D'}]}]}]}]);

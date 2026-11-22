@@ -14,13 +14,13 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
  const [mobile,setMobile]=useState(false),[layout,setLayout]=useState<any>(null),navigationId=useId(),menuButton=useRef<HTMLButtonElement>(null),navList=useRef<HTMLDivElement>(null);
  const districtNavigation=districtId==='bergedorf';
  const items:any[]=[
-  ...(districtNavigation?sections.filter(s=>s.id!=='ueber'&&s.short!=='Über uns').map(s=>({id:s.id,label:s.short,target:s.id})):[]),
+  ...(districtNavigation?sections.filter(s=>s.id!=='ueber'&&s.short!=='Über uns').map(s=>({id:s.id,label:s.id==='start'?'Startseite':s.short,lines:s.id==='anliegen'?['Anliegen &','Verbesserungen']:s.id==='geschichte'?['Geschichte und','Erinnerungen']:s.id==='organisation'?['Organisationen','stellen sich vor']:undefined,target:s.id})):[]),
   ...(districtNavigation?[
-   {id:'nachrichten',label:'Nachrichten aus Bergedorf',target:newsRoute},
-   {id:'veranstaltungen',label:'Aktuelle Veranstaltungen in Bergedorf',target:'#veranstaltungen'},
-   {id:'einsamkeit',label:'Einsamkeit in Bergedorf',target:'#einsamkeit'},
-   {id:'mietkosten',label:'Mietkosten & Grundsicherung',target:'#mietkosten'},
-   {id:'tourismus',label:'Bergedorf entdecken (Gäste & Tourismus)',target:'#tourismus'}
+   {id:'nachrichten',label:'Nachrichten aus Bergedorf',lines:['Nachrichten aus','Bergedorf'],target:newsRoute},
+   {id:'veranstaltungen',label:'Aktuelle Veranstaltungen',lines:['Aktuelle','Veranstaltungen'],target:'#veranstaltungen'},
+   {id:'einsamkeit',label:'Einsamkeit in Bergedorf',lines:['Einsamkeit in','Bergedorf'],target:'#einsamkeit'},
+   {id:'mietkosten',label:'Mietkosten bei Grundsicherung',lines:['Mietkosten bei','Grundsicherung'],target:'#mietkosten'},
+   {id:'tourismus',label:'Gäste und Tourismus',lines:['Gäste und','Tourismus'],target:'#tourismus'}
   ]:[])
  ];
  const itemKey=items.map(item=>item.id).join('|');
@@ -31,8 +31,8 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
   if(!context)return;
   const measure=()=>{
    const css=getComputedStyle(root),width=root.clientWidth-parseFloat(css.paddingLeft||'0')-parseFloat(css.paddingRight||'0');
-   context.font='600 12px Arial, Helvetica, sans-serif';
-   const widths=items.map(item=>context.measureText(item.label).width+item.label.length*.12);
+   context.font='600 14px Arial, Helvetica, sans-serif';
+   const widths=items.map(item=>Math.max(...(item.lines||[item.label]).map((line:string)=>context.measureText(line).width))+14);
    setLayout(navigationTabLayout(widths,width));
   };
   measure();
@@ -57,7 +57,7 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
    <div ref={navList} className={'primary-nav-list'+(layout?' is-ready':'')} style={layout?{height:layout.height+'px'}:undefined}>
     {items.map((item,index)=>{
      const slot=layout?.slotWidths[index]??150,base=layout?.baseWidths[index]??175;
-     return <span className="nav-tab-slot" key={item.id} style={{width:slot+'px',flexBasis:slot+'px',height:(layout?.height??150)+'px'}}><button style={layout?{width:base+'px',height:layout.tabHeight+'px',fontSize:layout.fontSize+'px'}:undefined} aria-current={page===item.id?'page':undefined} onClick={()=>go(item.target)}>{item.label}</button></span>;
+     return <span className="nav-tab-slot" key={item.id} style={{width:slot+'px',flexBasis:slot+'px',height:(layout?.height??150)+'px'}}><button aria-label={item.label} style={layout?{width:base+'px',height:layout.tabHeight+'px',fontSize:layout.fontSize+'px'}:undefined} aria-current={page===item.id?'page':undefined} onClick={()=>go(item.target)}><span className="nav-tab-label" aria-hidden="true">{(item.lines||[item.label]).map((line:string,lineIndex:number)=><span key={lineIndex}>{line}</span>)}</span></button></span>;
     })}
    </div>
   </nav>
