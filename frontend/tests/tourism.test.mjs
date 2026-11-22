@@ -140,14 +140,14 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(page,/assets\/goep-naturwege-boberg\.geojson/);
   assert.match(page,/label\.className=`tourism-route-label__text tourism-route-label__text--\$\{p\.id\.replace/);
+  assert.match(page,/className:`tourism-route-label tourism-route-label--\$\{p\.id\.replace/);
   const styles=await readFile(new URL('../app/globals.css',import.meta.url),'utf8');
-  for(const route of ['moorweg','wiesenweg','duenenweg','terrassenweg'])assert.ok(styles.includes(`.tourism-route-label__text--${route}`));
-  assert.match(styles,/tourism-route-label__text--moorweg\{top:-44px/);
-  assert.match(styles,/tourism-route-label__text--wiesenweg\{top:-7px/);
-  assert.match(styles,/tourism-route-label__text--duenenweg\{top:18px/);
-  assert.match(styles,/tourism-route-label__text--terrassenweg\{top:47px/);
-  for(const [index,offset] of [[1,18],[2,-44],[3,47],[4,-7]])assert.match(styles,new RegExp('\\.leaflet-tooltip-pane>\\.tourism-route-label:nth-child\\('+index+'\\)\\{margin-top:'+offset+'px'));
-  assert.match(styles,/@media\(max-width:600px\)\{\.leaflet-tooltip-pane>\.tourism-route-label\{font-size:10px/);
+  const routeOffsets={moorweg:-37,wiesenweg:10,duenenweg:67,terrassenweg:113};
+  for(const [route,offset] of Object.entries(routeOffsets)){
+   assert.ok(styles.includes(`.tourism-route-label--${route}-boberg{margin-top:${offset}px!important}`));
+   assert.ok(styles.includes(`.tourism-route-label__text--${route}-boberg{`));
+  }
+  assert.doesNotMatch(styles,/\.leaflet-tooltip-pane>\.tourism-route-label:nth-child\(/);
   assert.match(page,/routeLabels\.clearLayers\(\)/);
   assert.match(page,/label\.textContent=`\$\{p\.symbol\} · \$\{p\.name\}`/);
   assert.match(page,/setContent\(label\)/);

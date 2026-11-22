@@ -343,23 +343,18 @@
 @media(max-width:600px){.tourism-intro{padding-left:20px;padding-right:20px}.tourism-intro>p{font-size:16px}.tourism-content{padding-left:16px;padding-right:16px}.tourism-filters,.tourism-map,.tourism-highlights{padding:17px}.tourism-highlights ul{columns:1}.tourism-filter-row{align-items:flex-start}.tourism-filter-row>span{width:100%;margin-left:0}.tourism-map-canvas{height:380px;min-height:300px}.tourism-card{padding:17px}.tourism-card h3{font-size:18px}.tourism-results-heading{align-items:flex-start;flex-direction:column;gap:0}}
 
 /* Separate route labels across the district overview and tie each label to its official route color. */
-.tourism-route-label--moorweg{margin-top:-44px;border-color:#e3d500!important;border-left:4px solid #e3d500!important}
-.tourism-route-label--wiesenweg{margin-top:-7px;border-color:#2478d4!important;border-left:4px solid #2478d4!important}
-.tourism-route-label--duenenweg{margin-top:18px;border-color:#f58220!important;border-left:4px solid #f58220!important}
-.tourism-route-label--terrassenweg{margin-top:47px;border-color:#e83e9b!important;border-left:4px solid #e83e9b!important}
+.tourism-route-label--moorweg-boberg{margin-top:-37px!important}
+.tourism-route-label--wiesenweg-boberg{margin-top:10px!important}
+.tourism-route-label--duenenweg-boberg{margin-top:67px!important}
+.tourism-route-label--terrassenweg-boberg{margin-top:113px!important}
 @media(max-width:600px){.tourism-route-label{font-size:10px!important;padding:2px 4px!important}}/* Give each GÖP route label its own inner text layer. This remains reliable when Leaflet controls the outer tooltip transform. */
 .tourism-route-label{padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;color:transparent!important;box-shadow:none!important}
 .tourism-route-label:before{display:none!important}
 .tourism-route-label__text{position:relative;display:inline-block;padding:2px 6px;border:1px solid rgba(25,45,34,.45);border-left-width:4px;border-radius:4px;background:rgba(255,255,255,.96);color:#17261d;font-size:12px;font-weight:750;line-height:1.25;box-shadow:0 1px 4px #0004;white-space:nowrap}
-.tourism-route-label__text--moorweg{top:-44px;border-left-color:#e3d500}
-.tourism-route-label__text--wiesenweg{top:-7px;border-left-color:#2478d4}
-.tourism-route-label__text--duenenweg{top:18px;border-left-color:#f58220}
-.tourism-route-label__text--terrassenweg{top:47px;border-left-color:#e83e9b}
+.tourism-route-label__text--moorweg-boberg{border-left-color:#e3d500}
+.tourism-route-label__text--wiesenweg-boberg{border-left-color:#2478d4}
+.tourism-route-label__text--duenenweg-boberg{border-left-color:#f58220}
+.tourism-route-label__text--terrassenweg-boberg{border-left-color:#e83e9b}
 @media(max-width:600px){.tourism-route-label__text{font-size:10px;padding:2px 4px}}
 
-/* Keep the four live Leaflet tooltips apart at the district overview zoom. */
-.leaflet-tooltip-pane>.tourism-route-label:nth-child(1){margin-top:18px!important}
-.leaflet-tooltip-pane>.tourism-route-label:nth-child(2){margin-top:-44px!important}
-.leaflet-tooltip-pane>.tourism-route-label:nth-child(3){margin-top:47px!important}
-.leaflet-tooltip-pane>.tourism-route-label:nth-child(4){margin-top:-7px!important}
-@media(max-width:600px){.leaflet-tooltip-pane>.tourism-route-label{font-size:10px!important}}
+/* Give each GÖP label a stable route-specific offset; keep at least 45 px between labels in the district overview. */
