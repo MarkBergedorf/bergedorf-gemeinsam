@@ -107,7 +107,7 @@
 
 /* V40: calibrated to visible crest/glyph contours in IMG_8249, not line boxes. */
 @media(max-width:700px){
-.site-header .brand img{height:65px;width:auto;transform:translateY(7px);object-fit:contain}
+.site-header .brand img{height:65px;width:auto;margin-top:7px);object-fit:contain}
 .site-header .header-actions>.menu-toggle{grid-column:1/-1;justify-self:center;margin-left:0}
 }
 
@@ -341,3 +341,10 @@
 .tourism-source-note{max-width:100ch;color:#526257;font-size:13px;line-height:1.65}
 @media(max-width:850px){.tourism-intro-grid{grid-template-columns:1fr}.tourism-card-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.tourism-intro{padding-left:20px;padding-right:20px}.tourism-intro>p{font-size:16px}.tourism-content{padding-left:16px;padding-right:16px}.tourism-filters,.tourism-map,.tourism-highlights{padding:17px}.tourism-highlights ul{columns:1}.tourism-filter-row{align-items:flex-start}.tourism-filter-row>span{width:100%;margin-left:0}.tourism-map-canvas{height:380px;min-height:300px}.tourism-card{padding:17px}.tourism-card h3{font-size:18px}.tourism-results-heading{align-items:flex-start;flex-direction:column;gap:0}}
+
+/* Separate route labels across the district overview and tie each label to its official route color. */
+.tourism-route-label--moorweg{margin-top:-44px;border-color:#e3d500!important;border-left:4px solid #e3d500!important}
+.tourism-route-label--wiesenweg{margin-top:-7px;border-color:#2478d4!important;border-left:4px solid #2478d4!important}
+.tourism-route-label--duenenweg{margin-top:18px;border-color:#f58220!important;border-left:4px solid #f58220!important}
+.tourism-route-label--terrassenweg{margin-top:47px;border-color:#e83e9b!important;border-left:4px solid #e83e9b!important}
+@media(max-width:600px){.tourism-route-label{font-size:10px!important;padding:2px 4px!important}}

@@ -139,7 +139,13 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   assert.equal(moor.properties.osmUpdated,'2025-07-14T11:25:08Z');
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(page,/assets\/goep-naturwege-boberg\.geojson/);
-  assert.match(page,/L\.tooltip\(\{permanent:true,direction:'center',offset:\[0,-12\],className:'tourism-route-label',opacity:1\}\)/);
+  assert.match(page,/className:`tourism-route-label tourism-route-label--\$\{p\.id\.replace\(\/\[\^a-z0-9-\]\/gi,''\)\}`/);
+  const styles=await readFile(new URL('../app/globals.css',import.meta.url),'utf8');
+  assert.match(page,/tourism-route-label--\$\{p\.id\.replace/);
+  assert.match(styles,/\.tourism-route-label--moorweg\{margin-top:-44px/);
+  assert.match(styles,/\.tourism-route-label--wiesenweg\{margin-top:-7px/);
+  assert.match(styles,/\.tourism-route-label--duenenweg\{margin-top:18px/);
+  assert.match(styles,/\.tourism-route-label--terrassenweg\{margin-top:47px/);
   assert.match(page,/routeLabels\.clearLayers\(\)/);
   assert.match(page,/setContent\(`\$\{p\.symbol\} · \$\{p\.name\}`\)/);
   assert.match(page,/routeLayer\.bindPopup\(box\)/);
@@ -237,3 +243,4 @@ test('all 112 tourism entries published at the start of Ergänzungsauftrag 21.2 
     assert.equal(item.source.url,old.source,old.id);
   }
 });
+
