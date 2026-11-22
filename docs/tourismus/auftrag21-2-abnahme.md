@@ -5,7 +5,7 @@
 **Basis:** `main` vor der Umsetzung: `ad8732c` (PR #24; Veröffentlichung 21.1)  
 **Öffentliche Tourismusseite:** <https://markbergedorf.github.io/bergedorf-gemeinsam/#tourismus>
 
-> Dieser Bericht enthält den geprüften lokalen Umsetzungsstand. Pull Request, Zusammenführung, Pages-Lauf und öffentliche Live-Abnahme werden erst nach diesen Schritten mit den tatsächlich ermittelten Kennungen ergänzt. Bis dahin gelten sie ausdrücklich als offen.
+> Der Umsetzungsstand wurde lokal geprüft, in PR #25 zusammengeführt und auf GitHub Pages veröffentlicht. Der folgende Bericht trennt Quellcode-/Datenprüfungen, automatisierte Tests und tatsächlich beobachtete Live-Prüfungen.
 
 ## 1. Bestandsschutz und Zahlen
 
@@ -105,5 +105,17 @@ Ausgeführt am 22.11.2026:
 
 ## 8. Veröffentlichung und öffentliche Abnahme
 
-**Noch offen, bis tatsächlich geprüft:** Pull Request, Merge-Commit, Pages-Workflow, Live-Ladeprüfung der neuen Kartendatei und praktische Bedienprüfung der Tourismusseite. Diese Punkte werden nach dem Merge ergänzt; ein grüner Build allein gilt nicht als Live-Abnahme.
+- **Pull Request:** [#25 – Tourismusangebote erweitern und amtlichen Bodenlehrpfad ergänzen](https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/25), zusammengeführt.
+- **Arbeitscommit:** `ab314c05bc03b572db2055089758dad76c744e7a` (GitHub-Branch); lokal geprüft wurde derselbe Inhaltsstand in Commit `c0f99a9b624dd838ebfca2d78df782211db32ea6`.
+- **Merge-Commit:** `75cdbd8168d439837f4221c23b8ab3d50e104e71`.
+- **GitHub Pages:** Workflow-Lauf [#44975595363](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/44975595363) erfolgreich auf dem Merge-Commit; Deployment-Ziel ist <https://markbergedorf.github.io/bergedorf-gemeinsam/>.
+- **Öffentliche Tourismusseite:** Am 22.11.2026 im Browser live geöffnet. Sichtbar waren der Tourismustitel, alle 12 Themenzugänge, beide Einstiegslinks, die Veranstaltungskalender-Verknüpfung, 135 Treffer/135 passende Einträge und die 14 Kartenkategorien einschließlich „Themenwege und Lehrpfade“. Auf der Seite trat keine Meldung „Ansicht nicht gefunden“ auf.
+- **Kartenfreigabe:** Die Kartenfreigabe wurde im Browser erteilt. Danach zeigte die Live-Seite eine geladene Karte mit Leaflet-Steuerung, Kartenattribution (OpenFreeMap, OpenMapTiles, OpenStreetMap), Stadtteilgrenzen und Kartenpunkten. Ein Marker öffnete das Popup „Reitbrooker Mühle“ mit Koordinatenquelle und „Zum Listeneintrag“. Die Kartenstatuszeile meldete 20 Punktstandorte für die aktuelle Suche/Auswahl und 135 redaktionelle Datensätze.
+- **Lokaler Boberg-Datensatz im Pages-Root:** Der veröffentlichte Asset-Endpunkt antwortete mit HTTP 200 und 28.037 Byte. Die geladene GeoJSON-Datei ließ sich parsen und enthält 13 Features: drei Wegsegmente und zehn Tafelpunkte. Diese HTTP-/Datenprüfung belegt die Erreichbarkeit des Assets und sein Format, aber keine unabhängige vermessungstechnische Abnahme der Geometrie.
+- **Live-Bedienung Boberg-Layer:** Die Karte war mit der Kategorie „Themenwege und Lehrpfade“ sichtbar; die Status-/Accessibility-Angabe nannte drei amtliche Wegsegmente und zehn Tafelpunkte. Ein vollständiger visueller Einzelabgleich aller zehn Tafeln mit der amtlichen Karte sowie eine ausreichend detaillierte Nahansicht jedes Wegverlaufs wurden in dieser Abnahme nicht vorgenommen.
+- **Live-Bedienung einer Einrichtung:** Das Reitbrooker-Mühle-Popup und dessen Link „Zum Listeneintrag“ waren vorhanden. Der Erfolg des tatsächlichen Navigationssprungs über diesen Link wurde in dieser Abnahme nicht verifiziert.
+- **Kartenansicht zurücksetzen:** Der Button „Bezirk Bergedorf anzeigen“ war erreichbar und erhielt den Fokus bei der Interaktion. Die Browsersteuerung lieferte keinen belastbaren Nachweis, dass sich der geografische Ausschnitt nach dem Klick tatsächlich zurückgesetzt hatte; dieses konkrete Verhalten bleibt daher offen.
+- **Mobile Ansicht:** In diesem Durchgang wurde keine echte Smartphone-Ansicht und keine definierte schmale Viewport-Emulation abgenommen. Die Website wurde in einem Desktopbrowser geprüft; mobile Kartenbedienung bleibt separat offen.
+
+**Abnahmebewertung:** Der Ergänzungsauftrag ist umgesetzt, automatisiert geprüft, zusammengeführt und veröffentlicht. Die Live-Seite sowie der neue lokale GeoJSON-Assetpfad sind erreichbar. Die geografische Detailabnahme des einzelnen Routenverlaufs/aller Tafeln, der tatsächliche Sprung vom Popup zur Liste, die Wirksamkeit des Bezirks-Reset-Klicks und die schmale Mobilansicht sind mit den verfügbaren Live-Beobachtungen nicht vollständig nachgewiesen. Diese Punkte werden nicht als bestanden ausgewiesen. Es wurden keine nachgewiesenen Fehler festgestellt, die eine Codekorrektur in diesem Durchgang erfordern.
 
