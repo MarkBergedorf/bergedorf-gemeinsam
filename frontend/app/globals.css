@@ -343,18 +343,46 @@
 @media(max-width:600px){.tourism-intro{padding-left:20px;padding-right:20px}.tourism-intro>p{font-size:16px}.tourism-content{padding-left:16px;padding-right:16px}.tourism-filters,.tourism-map,.tourism-highlights{padding:17px}.tourism-highlights ul{columns:1}.tourism-filter-row{align-items:flex-start}.tourism-filter-row>span{width:100%;margin-left:0}.tourism-map-canvas{height:380px;min-height:300px}.tourism-card{padding:17px}.tourism-card h3{font-size:18px}.tourism-results-heading{align-items:flex-start;flex-direction:column;gap:0}}
 
 /* Separate route labels across the district overview and tie each label to its official route color. */
-.tourism-route-label--moorweg-boberg{margin-top:-37px!important}
-.tourism-route-label--wiesenweg-boberg{margin-top:10px!important}
-.tourism-route-label--duenenweg-boberg{margin-top:67px!important}
-.tourism-route-label--terrassenweg-boberg{margin-top:113px!important}
+.tourism-route-label--moorweg{margin-top:-44px;border-color:#e3d500!important;border-left:4px solid #e3d500!important}
+.tourism-route-label--wiesenweg{margin-top:-7px;border-color:#2478d4!important;border-left:4px solid #2478d4!important}
+.tourism-route-label--duenenweg{margin-top:18px;border-color:#f58220!important;border-left:4px solid #f58220!important}
+.tourism-route-label--terrassenweg{margin-top:47px;border-color:#e83e9b!important;border-left:4px solid #e83e9b!important}
 @media(max-width:600px){.tourism-route-label{font-size:10px!important;padding:2px 4px!important}}/* Give each GÖP route label its own inner text layer. This remains reliable when Leaflet controls the outer tooltip transform. */
 .tourism-route-label{padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;color:transparent!important;box-shadow:none!important}
 .tourism-route-label:before{display:none!important}
 .tourism-route-label__text{position:relative;display:inline-block;padding:2px 6px;border:1px solid rgba(25,45,34,.45);border-left-width:4px;border-radius:4px;background:rgba(255,255,255,.96);color:#17261d;font-size:12px;font-weight:750;line-height:1.25;box-shadow:0 1px 4px #0004;white-space:nowrap}
-.tourism-route-label__text--moorweg-boberg{border-left-color:#e3d500}
-.tourism-route-label__text--wiesenweg-boberg{border-left-color:#2478d4}
-.tourism-route-label__text--duenenweg-boberg{border-left-color:#f58220}
-.tourism-route-label__text--terrassenweg-boberg{border-left-color:#e83e9b}
+.tourism-route-label__text--moorweg{top:-44px;border-left-color:#e3d500}
+.tourism-route-label__text--wiesenweg{top:-7px;border-left-color:#2478d4}
+.tourism-route-label__text--duenenweg{top:18px;border-left-color:#f58220}
+.tourism-route-label__text--terrassenweg{top:47px;border-left-color:#e83e9b}
 @media(max-width:600px){.tourism-route-label__text{font-size:10px;padding:2px 4px}}
 
-/* Give each GÖP label a stable route-specific offset; keep at least 45 px between labels in the district overview. */
+/* Keep the four live Leaflet tooltips apart at the district overview zoom. */
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(1){margin-top:18px!important}
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(2){margin-top:-44px!important}
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(3){margin-top:47px!important}
+.leaflet-tooltip-pane>.tourism-route-label:nth-child(4){margin-top:-7px!important}
+@media(max-width:600px){.leaflet-tooltip-pane>.tourism-route-label{font-size:10px!important}}
+
+/* One desktop navigation lane with explicit, keyboard-accessible overflow controls. */
+.site-header nav{display:flex;align-items:stretch;gap:0;padding:0;}
+.site-header nav>.primary-nav-list{flex:1;min-width:0;max-width:1400px;margin:0 auto;padding:0 8px;display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:6px;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:thin;scrollbar-color:#8ea394 #edf1eb;scroll-behavior:smooth;}
+.site-header nav>.primary-nav-list button{flex:0 0 auto;white-space:nowrap;text-align:center;font-size:12px;line-height:1.25;padding:12px 11px 10px;background:#f5f7f3;border:1px solid #e1e7df;border-bottom:3px solid transparent;border-radius:6px 6px 0 0;color:#294737;}
+.site-header nav>.primary-nav-list button:nth-child(4n+2){background:#e9efe8}
+.site-header nav>.primary-nav-list button:nth-child(4n+3){background:#eef1ed}
+.site-header nav>.primary-nav-list button:nth-child(4n+4){background:#f8f8f4}
+.site-header nav>.primary-nav-list button:hover{background:#e2ebe2;color:#203e31}
+.site-header nav>.primary-nav-list button[aria-current=page]{background:#285a48;color:#fff;border-color:#285a48;border-bottom-color:#203e31;}
+.site-header nav>.primary-nav-list button:focus-visible,.site-header .nav-scroll-control:focus-visible{outline:3px solid #d49438;outline-offset:2px;z-index:2}
+.site-header .nav-scroll-control{display:flex;align-items:center;justify-content:center;flex:0 0 34px;padding:0;background:#edf2ec;color:#294737;border:0;border-radius:0;}
+.site-header .nav-scroll-control:disabled{display:none;}
+@media(max-width:700px){.site-header nav{display:none}.site-header nav.open{display:block}.site-header nav>.primary-nav-list{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;overflow:visible;padding:0 20px;margin:auto;max-width:1240px}.site-header nav>.primary-nav-list button{font-size:18px;line-height:1.45;min-height:48px;padding:12px 20px;text-align:left;background:transparent;border:0;border-bottom:2px solid transparent;border-radius:0;color:var(--muted)}.site-header nav>.primary-nav-list button[aria-current=page]{background:#eef2ec;color:var(--green);border-bottom-color:var(--green)}.site-header .nav-scroll-control{display:none}}
+.tourism-topic-filters{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}.tourism-topic-filters>summary{cursor:pointer;color:var(--green);font-weight:650;text-underline-offset:4px}.tourism-topic-filters[open] fieldset{margin-top:12px}
+
+/* Keep result lists near the top while retaining all secondary search criteria. */
+.directory-primary-search,.gazetteer-primary-search{display:block;max-width:640px;margin:20px 0 10px}
+.directory-advanced-filters,.reader-advanced-filters,.gazetteer-advanced-filters{margin:8px 0 16px;border-top:1px solid var(--line);padding-top:9px}
+.directory-advanced-filters>summary,.reader-advanced-filters>summary,.gazetteer-advanced-filters>summary{cursor:pointer;color:var(--green);font-weight:650;text-underline-offset:4px}
+.directory-advanced-filters[open] .directory-filters,.reader-advanced-filters[open] .reader-filters,.gazetteer-advanced-filters[open] .gazetteer-filters{margin-top:12px}
+.directory-primary-search input,.gazetteer-primary-search input{width:100%}
+.tourism-map-category-filter>summary{cursor:pointer;color:var(--green);font-weight:650;text-underline-offset:4px;min-height:44px;padding:.5rem 0}

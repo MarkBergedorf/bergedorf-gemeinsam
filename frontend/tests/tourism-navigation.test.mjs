@@ -35,3 +35,10 @@ test('tourism navigation label is explicit and all 93 sourced entries remain ava
   for(const item of original)assert.ok(tourismItems.some(x=>x.id===item.id),`missing original record ${item.id}`);
   for(const item of tourismItems)assert.ok(item.description.length>0&&item.source.url.startsWith('https://'),item.id);
 });
+
+
+test('the topic filter group stays available in a compact disclosure with its selected-count label',async()=>{
+  const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+  assert.ok(page.includes('<details className="tourism-topic-filters"><summary>Themen auswählen ({selected.size} von {tourismCategories.length})</summary><fieldset>'));
+  assert.ok(page.includes("if(route.page==='tourismus'&&tourismItems.some(item=>item.id===route.tab))setScrollTarget(route.tab)"));
+});
