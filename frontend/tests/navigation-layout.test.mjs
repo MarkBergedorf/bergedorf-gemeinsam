@@ -22,24 +22,38 @@ test('Desktop-Hauptnavigation zeigt alle zwölf unveränderten Ziele in einer ge
  assert.ok(component.includes("lines:['Gäste und','Tourismus']"));
  assert.ok(component.includes("context.font='600 14px Arial, Helvetica, sans-serif'"));
  assert.ok(html.includes('%BASE_URL%assets/navigation-boot.css'));
- assert.match(boot,/\.site-header\.navigation-compact nav\s*\{\s*display:\s*block\s*!important\s*;\s*\}/);
+ assert.match(boot,/\.site-header\.navigation-measuring nav\s*\{[\s\S]*display:\s*block\s*!important\s*;/);
  assert.ok(css.includes('transform:rotate(-30deg)'));
  assert.ok(css.includes('padding:0 0 0 20px'));
  assert.ok(css.includes('transform-origin:left bottom'));
- assert.ok(css.includes('@media(max-width:1023px)'));
- assert.ok(css.includes('.site-header nav.open{display:block;}'));
+ assert.ok(component.includes('header.clientWidth-parseFloat(css.paddingLeft||\'0\')-parseFloat(css.paddingRight||\'0\')'));
+ assert.ok(component.includes('observer.observe(header)'));
+ assert.ok(component.includes("window.addEventListener('resize',measure)"));
+ assert.ok(component.includes("onKeyDown={e=>{if(e.key==='Escape'&&mobile)"));
+ assert.ok(css.includes('.site-header.navigation-measuring nav{display:block;position:absolute;inset:100% 0 auto;visibility:hidden;}'));
+ assert.ok(css.includes('.site-header.navigation-compact nav{display:none;}'));
+ assert.ok(css.includes('.site-header.navigation-compact nav.open{display:block;}'));
+ assert.ok(css.includes('.site-header.navigation-compact nav>.primary-nav-list'));
+ assert.ok(!css.includes('.site-header nav{display:none;height:auto!important;}'));
  assert.ok(css.includes('min-height:48px'));
 });
 
-test('Parallelogramm-Tabs passen mit linkem Drehungsabstand bei üblichen Desktopbreiten in eine Reihe',()=>{
- // Inner widths after reserving 20px for the rotated first tab's leftward projection.
-const widths=[80,112,100,112,32,65,145,100,117,100,118,105];
- for(const available of [1245,1260,1313,1346,1405,1420]){
-  const layout=navigationTabLayout(widths,available);
-  assert.ok(layout,`no fitting row at ${available}px`);
+test('Die Umschaltung nutzt den verfügbaren Platz statt eines festen Desktopbreakpoints',()=>{
+ const widths=[80,112,100,112,32,65,145,100,117,100,118,105];
+ for(const viewport of [1920,1600,1366,1280]){
+  const layout=navigationTabLayout(widths,viewport-20);
+  assert.ok(layout,'no fitting row at viewport '+viewport+'px');
   assert.equal(layout.slotWidths.length,12);
-  assert.ok(layout.totalWidth<=available);
+  assert.ok(layout.totalWidth<=viewport-20);
   assert.ok(layout.fontSize>=12);
   assert.ok(layout.tabHeight>=40);
  }
+ assert.equal(navigationTabLayout(widths,1024-20),null);
+ assert.equal(navigationTabLayout(widths,900-20),null);
+ assert.equal(navigationTabLayout(widths,768-20),null);
+ assert.equal(navigationTabLayout(widths,390-20),null);
+ // Shrinking from desktop switches to compact mode; growing again restores the tab row.
+ assert.ok(navigationTabLayout(widths,1366-20));
+ assert.equal(navigationTabLayout(widths,1024-20),null);
+ assert.ok(navigationTabLayout(widths,1366-20));
 });

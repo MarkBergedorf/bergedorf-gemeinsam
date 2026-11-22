@@ -11,7 +11,7 @@ import {navigate} from './navigation';
 import Crest from '../components/crest';
 
 export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:string,tab?:string,permissions?:any,districtId?:string}){
- const [mobile,setMobile]=useState(false),[layout,setLayout]=useState<any>(null),navigationId=useId(),menuButton=useRef<HTMLButtonElement>(null),navList=useRef<HTMLDivElement>(null);
+ const [mobile,setMobile]=useState(false),[layout,setLayout]=useState<any>(undefined),navigationId=useId(),menuButton=useRef<HTMLButtonElement>(null),headerRoot=useRef<HTMLElement>(null),navList=useRef<HTMLDivElement>(null);
  const districtNavigation=districtId==='bergedorf';
  const items:any[]=[
   ...(districtNavigation?sections.filter(s=>s.id!=='ueber'&&s.short!=='Über uns').map(s=>({id:s.id,label:s.id==='start'?'Startseite':s.short,lines:s.id==='anliegen'?['Anliegen &','Verbesserungen']:s.id==='geschichte'?['Geschichte und','Erinnerungen']:s.id==='organisation'?['Organisationen','stellen sich vor']:undefined,target:s.id})):[]),
@@ -25,22 +25,25 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
  ];
  const itemKey=items.map(item=>item.id).join('|');
  useEffect(()=>{
-  const root=navList.current;
-  if(!root||!items.length)return;
+  const root=navList.current,header=headerRoot.current;
+  if(!root||!header)return;
+  if(!items.length){setLayout(null);return;}
   const canvas=document.createElement('canvas'),context=canvas.getContext('2d');
-  if(!context)return;
+  if(!context){setLayout(null);return;}
   const measure=()=>{
-   const css=getComputedStyle(root),width=root.clientWidth-parseFloat(css.paddingLeft||'0')-parseFloat(css.paddingRight||'0');
+   const css=getComputedStyle(root),width=header.clientWidth-parseFloat(css.paddingLeft||'0')-parseFloat(css.paddingRight||'0');
    context.font='600 14px Arial, Helvetica, sans-serif';
    const widths=items.map(item=>Math.max(...(item.lines||[item.label]).map((line:string)=>context.measureText(line).width))+14);
-   setLayout(navigationTabLayout(widths,width));
+   const next=navigationTabLayout(widths,width);
+   setLayout(previous=>previous&&next&&previous.fontSize===next.fontSize&&previous.totalWidth===next.totalWidth&&previous.height===next.height?previous:previous===null&&next===null?previous:next);
   };
   measure();
-  const observer=new ResizeObserver(measure);observer.observe(root);
-  return()=>observer.disconnect();
+  const observer=new ResizeObserver(measure);observer.observe(header);window.addEventListener('resize',measure);
+  return()=>{observer.disconnect();window.removeEventListener('resize',measure)};
  },[itemKey]);
+ useEffect(()=>{if(layout!==undefined&&layout!==null&&mobile)setMobile(false)},[layout,mobile]);
  function go(target:string){navigate(target);setMobile(false)}
- return <header className={'site-header'+(!layout?' navigation-compact':'')}>
+ return <header ref={headerRoot} className={'site-header'+(layout===undefined?' navigation-measuring':layout===null?' navigation-compact':'')}>
   <div className="header-inner">
    <a className="brand" href={districtId==='bergedorf'?'#start':'#bezirk/'+districtId} aria-label={(boroughById(districtId)?.name||'Bergedorf')+' gemeinsam – Unabhängige Bürgerplattform'}>{districtId==='bergedorf'&&<Crest/>}<span>{boroughById(districtId)?.name||'Bergedorf'} <strong>gemeinsam</strong><small>Unabhängige Bürgerplattform</small></span></a>
    <span className="private-preview">Statische Testfassung</span>
@@ -49,11 +52,11 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
     <a className="desktop-signin-link" href="#anmelden">Anmeldung (noch nicht verfügbar)</a>
     {permissions.canAuthor&&<><a href="#meine">Meine Beiträge &amp; Entwürfe</a><a className="primary small" href={page==='geschichte'?historyCreateHref(typeof window==='undefined'?'#geschichte':location.hash):'#meine/neu/anliegen'+(districtId==='bergedorf'?'':'?district='+districtId)}>Beitrag erstellen</a></>}
     {permissions.canAdmin&&<a className="admin-link" href="#verwaltung">Administration</a>}
-    <button ref={menuButton} className="menu-toggle" aria-label={mobile?'Menü schließen':'Menü öffnen'} aria-controls={navigationId} aria-expanded={mobile} onClick={()=>setMobile(!mobile)}>{mobile?<X aria-hidden="true"/>:<Menu aria-hidden="true"/>}<span>Menü</span></button>
+    <button ref={menuButton} className="menu-toggle" aria-label={mobile?'Menü schließen':'Menü öffnen'} aria-controls={navigationId} aria-expanded={mobile} onClick={()=>setMobile(!mobile)} onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);menuButton.current?.focus()}}}>{mobile?<X aria-hidden="true"/>:<Menu aria-hidden="true"/>}<span>Menü</span></button>
     <MobileAccessStatus permissions={permissions}/>
    </div>
   </div>
-  <nav id={navigationId} aria-label="Hauptnavigation" className={(mobile?'open ':'')+(!layout?'compact':'')}  onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);menuButton.current?.focus()}}}>
+  <nav id={navigationId} aria-label="Hauptnavigation" className={mobile?'open':''}  onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);menuButton.current?.focus()}}}>
    <div ref={navList} className={'primary-nav-list'+(layout?' is-ready':'')} style={layout?{height:layout.height+'px'}:undefined}>
     {items.map((item,index)=>{
      const slot=layout?.slotWidths[index]??150,base=layout?.baseWidths[index]??175;
