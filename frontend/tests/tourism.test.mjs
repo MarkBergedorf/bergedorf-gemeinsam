@@ -130,6 +130,7 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
     assert.match(p.osmRelationUrl,/openstreetmap\.org\/relation\//,p.id);
     assert.equal(p.geometrySource,'OpenStreetMap route relation; checked against GÖP original route map page 2',p.id);
     assert.ok(feature.geometry.coordinates.flat(2).every(Number.isFinite),p.id);
+    assert.ok(feature.geometry.coordinates.some(line=>line.some(([lon,lat])=>lon===p.labelPosition[0]&&lat===p.labelPosition[1])),`${p.id}: label anchored to a route vertex`);
   }
   const wiesen=geo.features.find(x=>x.properties.id==='wiesenweg-boberg');
   assert.equal(wiesen.properties.publishedLengthKm,4.6);
@@ -138,7 +139,8 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   assert.equal(moor.properties.osmUpdated,'2025-07-14T11:25:08Z');
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(page,/assets\/goep-naturwege-boberg\.geojson/);
-  assert.match(page,/routeLayer\.bindTooltip\(`\$\{p\.symbol\} · \$\{p\.name\}`/);
+  assert.match(page,/L\.circleMarker\(\[p\.labelPosition\[1\],p\.labelPosition\[0\]\]/);
+  assert.match(page,/bindTooltip\(`\$\{p\.symbol\} · \$\{p\.name\}`/);
   assert.match(page,/routeLayer\.bindPopup\(box\)/);
   assert.match(page,/visibleGopRoutes/);
   assert.match(page,/fitBounds\(route\.getBounds\(\)/);
