@@ -11,30 +11,33 @@ const relatedIds=(item:any)=>[item.category,...(item.categoryLinks||[])];
 const markerColor=(category:string)=>({sehenswuerdigkeiten:'#754c9b',natur:'#317554',rundgaenge:'#b17a24',kultur:'#315f96',unterkunft:'#9a5364',gastronomie:'#b05d27',rad:'#2d7a87',camping:'#6a7533',wasser:'#24759b',familie:'#b15378',mobilitaet:'#545d6d',praktisch:'#6b7040'}[category]||'#315f52');
 
 function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<string>,focusId:string,onFocus:(id:string)=>void}){
- const root=useRef<HTMLDivElement>(null),map=useRef<any>(null),layer=useRef<any>(null),draw=useRef<()=>void>(()=>{}),itemsRef=useRef<any[]>(items);
- itemsRef.current=items;
+ const root=useRef<HTMLDivElement>(null),map=useRef<any>(null),layer=useRef<any>(null),draw=useRef<()=>void>(()=>{}),itemsRef=useRef<any[]>(items),selectedRef=useRef<Set<string>>(selected),mapKindsRef=useRef<Set<string>>(new Set());
+ itemsRef.current=items;selectedRef.current=selected;
  const [consent,setConsent]=useState(false),[error,setError]=useState(''),[mapKinds,setMapKinds]=useState<Set<string>>(()=>new Set(tourismMapCategories.map(x=>x.id)));
  const privacy=useMapPrivacy('openfreemap',()=>setConsent(true));
  const points=items.filter(item=>Number.isFinite(item.lat)&&Number.isFinite(item.lon)&&item.coordinateSource&&relatedIds(item).some((id:string)=>selected.has(id))&&tourismMapKinds(item).some((id:string)=>mapKinds.has(id)));
- useEffect(()=>{let live=true;let instance:any,observer:any; if(!consent||!root.current)return;
+ useEffect(()=>{let live=true;let instance:any,observer:any,trailGeoJSON:any=null; if(!consent||!root.current)return;
   setError('');
   Promise.all([import('leaflet'),import('../lib/history-tiles.mjs')]).then(async ([L,tileModule])=>{
    if(!live||!root.current)return;
    instance=L.map(root.current,{scrollWheelZoom:true,zoomSnap:.25,zoomDelta:1,maxZoom:19});map.current=instance;
    const view=districtOverview(districtBounds,root.current.clientWidth,root.current.clientHeight,28);
    instance.setView([view.lat,view.lon],view.zoom,{animate:false});
-   tileModule.historyTiles(L,(message:string)=>live&&setError(message)).addTo(instance);
-   const boundaries=await fetch('/assets/bergedorf-stadtteile.geojson').then(r=>r.ok?r.json():null).catch(()=>null);
+   tileModule.historyTiles(L,(message:string)=>live&&setError(message),{baseUrl:import.meta.env.BASE_URL}).addTo(instance);
+   const boundaries=await fetch(`${import.meta.env.BASE_URL}assets/bergedorf-stadtteile.geojson`).then(r=>r.ok?r.json():null).catch(()=>null);
    if(!live)return;
    if(boundaries)L.geoJSON(boundaries,{style:{color:'#285a48',weight:1.15,fillColor:'#6a8b6a',fillOpacity:.025,opacity:.82},interactive:false}).addTo(instance);
    else setError('Die lokalen Stadtteilgrenzen konnten nicht geladen werden. Kartenpunkte und Liste bleiben nutzbar.');
+   trailGeoJSON=await fetch(`${import.meta.env.BASE_URL}assets/bodenlehrpfad-boberg.geojson`).then(r=>r.ok?r.json():null).catch(()=>null);
+   if(!live)return;
+   if(!trailGeoJSON)setError('Die lokale Geometrie des Bodenlehrpfads konnte nicht geladen werden. Die Eintragsliste bleibt nutzbar.');
    const markers=L.layerGroup().addTo(instance);layer.current=markers;
    const repaint=()=>{
     if(!live)return;
     markers.clearLayers();
     const groups=new Map<string,any[]>();
     for(const item of itemsRef.current){
-     if(!Number.isFinite(item.lat)||!Number.isFinite(item.lon)||!item.coordinateSource||!relatedIds(item).some((id:string)=>selected.has(id))||!tourismMapKinds(item).some((id:string)=>mapKinds.has(id)))continue;
+     if(!Number.isFinite(item.lat)||!Number.isFinite(item.lon)||!item.coordinateSource||!relatedIds(item).some((id:string)=>selectedRef.current.has(id))||!tourismMapKinds(item).some((id:string)=>mapKindsRef.current.has(id)))continue;
      const key=`${item.lat.toFixed(5)}:${item.lon.toFixed(5)}`;if(!groups.has(key))groups.set(key,[]);groups.get(key)!.push(item);
     }
     for(const group of groups.values()){
@@ -52,6 +55,18 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
      marker.bindTooltip(group.length>1?`${group.length} Orte`:(first.shortName||first.name),{direction:'top'}).bindPopup(node,{maxWidth:330});
      
     }
+    const showBobergTrail=itemsRef.current.some((item:any)=>item.id==='bodenlehrpfad-boberg'&&relatedIds(item).some((id:string)=>selectedRef.current.has(id)))&&mapKindsRef.current.has('trails');
+    if(showBobergTrail&&trailGeoJSON){
+     const routeColors:Record<string,string>={'Moorweg':'#9a541f','Terrassenweg':'#70469a','Dünenweg':'#16746a'};
+     L.geoJSON(trailGeoJSON,{filter:(feature:any)=>feature?.properties?.lehrpfad==='Boberg',style:(feature:any)=>({color:routeColors[feature?.properties?.typ]||'#245b50',weight:5,opacity:.9}),pointToLayer:(feature:any,latlng:any)=>L.circleMarker(latlng,{radius:7,color:'#fff',weight:2,fillColor:'#1c4260',fillOpacity:1}),onEachFeature:(feature:any,routeLayer:any)=>{
+      const p=feature.properties||{};
+      if(p.objektart==='route')routeLayer.bindTooltip(`Bodenlehrpfad Boberg · ${p.typ}`,{sticky:true}).bindPopup(`<strong>Bodenlehrpfad Boberg – ${p.typ}</strong><br>Amtliche Weggeometrie der Freien und Hansestadt Hamburg, BUKEA.`);
+      else if(p.objektart==='tafel'){
+       const box=document.createElement('div'),heading=document.createElement('strong'),text=document.createElement('p'),link=document.createElement('a');
+       heading.textContent=`Station ${p.punkt_bez}: ${p.titel}`;text.textContent=p.kurztext||'';link.href=String(p.link_artikel||'').replace(/^http:/,'https:');link.target='_blank';link.rel='noopener noreferrer';link.textContent='Erläuterung bei Hamburg.de öffnen';box.append(heading,text,link);routeLayer.bindPopup(box);
+      }
+     }}).addTo(markers);
+    }
    };
    draw.current=repaint;repaint();
    observer=new ResizeObserver(()=>instance.invalidateSize({pan:false}));observer.observe(root.current);
@@ -59,14 +74,15 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
   return()=>{live=false;observer?.disconnect();if(map.current){map.current.remove();map.current=null;layer.current=null}draw.current=()=>{};focus.current=()=>{}};
  },[consent]);
  useEffect(()=>{draw.current()},[selected,items,mapKinds]);
- useEffect(()=>{if(!focusId)return;const item=items.find(x=>x.id===focusId);if(item?.coordinateSource&&Number.isFinite(item.lat)&&Number.isFinite(item.lon)){const foundMap=map.current;if(foundMap){foundMap.setView([item.lat,item.lon],Math.max(16,foundMap.getZoom()));layer.current?.eachLayer((marker:any)=>{const p=marker.getLatLng();if(Math.abs(p.lat-item.lat)<.00001&&Math.abs(p.lng-item.lon)<.00001)marker.openPopup()})}}},[focusId,items]);
+ useEffect(()=>{if(!focusId)return;const item=items.find(x=>x.id===focusId);if(item?.coordinateSource&&Number.isFinite(item.lat)&&Number.isFinite(item.lon)){const foundMap=map.current;if(foundMap){foundMap.setView([item.lat,item.lon],Math.max(16,foundMap.getZoom()));layer.current?.eachLayer((marker:any)=>{if(typeof marker.getLatLng!=='function')return;const p=marker.getLatLng();if(Math.abs(p.lat-item.lat)<.00001&&Math.abs(p.lng-item.lon)<.00001)marker.openPopup()})}}},[focusId,items]);
+ mapKindsRef.current=mapKinds;
  const markerCount=new Set(points.map(item=>`${item.lat.toFixed(5)}:${item.lon.toFixed(5)}`)).size;
  return <section className="tourism-map panel" aria-labelledby="tourism-map-title">
   <div className="map-heading"><div><div className="eyebrow">GEOGRAFISCHE ORIENTIERUNG</div><h2 id="tourism-map-title">Touristische Orte im Bezirk</h2></div></div>
   <p className="tourism-map-legend"><span><i className="tourism-map-swatch" aria-hidden="true"/> Farbiger Punkt: primäre Themenkategorie</span><span><i className="tourism-map-swatch highlight" aria-hidden="true"/> Goldener Ring: eines der 10 Highlights</span></p>
   <p>Die Karte zeigt nur redaktionell ausgewählte Orte mit nachvollziehbarer Koordinatenquelle. Einträge ohne geprüfte Koordinaten bleiben in der Suche auffindbar, erhalten aber keinen geschätzten Kartenpunkt. Markierungen mit gleicher Position werden gemeinsam geöffnet.</p>
-  <fieldset className="tourism-map-filters"><legend>Kartenkategorien</legend><div className="tourism-filter-chips">{tourismMapCategories.map(category=><label className="tourism-chip" key={category.id}><input type="checkbox" checked={mapKinds.has(category.id)} onChange={()=>setMapKinds(current=>{const next=new Set(current);next.has(category.id)?next.delete(category.id):next.add(category.id);return next})}/>{category.label}</label>)}</div></fieldset>
-  {!consent?<><p>Erst nach Ihrer Zustimmung werden Kartenkacheln von OpenFreeMap geladen. Dabei werden IP-Adresse, technische Verbindungsdaten, Seitenherkunft und Kartenausschnitt an den Kartendienst übertragen. Die Liste kann ohne Karte genutzt werden.</p><button className="outline small" type="button" onClick={privacy.ask}>Touristenkarte laden</button></>:<><div className="map-toolbar"><button className="outline small" type="button" onClick={()=>{const v=districtOverview(districtBounds,root.current?.clientWidth||800,root.current?.clientHeight||420);map.current?.setView([v.lat,v.lon],v.zoom)}}>Bezirk Bergedorf anzeigen</button><button className="text-button" type="button" onClick={()=>{setConsent(false);setError('')}}>Karte entladen</button></div><div ref={root} className="private-map tourism-map-canvas" role="application" tabIndex={0} aria-label="Touristische Karte für Bergedorf mit Stadtteilgrenzen und ausgewählten Orten"/><p>{markerCount} belegte Punktstandorte in der aktuellen Suche und Kartenauswahl; insgesamt {tourismItems.length} redaktionelle Datensätze. Kartenlinien und Flächen erscheinen nur mit belegter Geometrie; für die EntdeckerRouten und mehrere großflächige Ziele liegt hier keine überprüfte Geometrie vor. Stadtteilgrenzen sind eine Orientierung und keine parzellengenaue Lageaussage.</p>{error&&<p role="status">{error}</p>}</>}
+  <fieldset className="tourism-map-filters"><legend>Kartenkategorien</legend><div className="tourism-filter-chips">{tourismMapCategories.map(category=><label className="tourism-chip" key={category.id}><input type="checkbox" checked={mapKinds.has(category.id)} onChange={()=>setMapKinds(current=>{const next=new Set(current);next.has(category.id)?next.delete(category.id):next.add(category.id);mapKindsRef.current=next;return next})}/>{category.label}</label>)}</div></fieldset>
+  {!consent?<><p>Erst nach Ihrer Zustimmung werden Kartenkacheln von OpenFreeMap geladen. Dabei werden IP-Adresse, technische Verbindungsdaten, Seitenherkunft und Kartenausschnitt an den Kartendienst übertragen. Die Liste kann ohne Karte genutzt werden.</p><button className="outline small" type="button" onClick={privacy.ask}>Touristenkarte laden</button></>:<><div className="map-toolbar"><button className="outline small" type="button" onClick={()=>{const v=districtOverview(districtBounds,root.current?.clientWidth||800,root.current?.clientHeight||420);map.current?.setView([v.lat,v.lon],v.zoom)}}>Bezirk Bergedorf anzeigen</button><button className="text-button" type="button" onClick={()=>{setConsent(false);setError('')}}>Karte entladen</button></div><div ref={root} className="private-map tourism-map-canvas" role="application" tabIndex={0} aria-label="Touristische Karte für Bergedorf mit Stadtteilgrenzen, ausgewählten Orten und amtlichem Bodenlehrpfad Boberg"/><p>{markerCount} belegte Punktstandorte in der aktuellen Suche und Kartenauswahl; insgesamt {tourismItems.length} redaktionelle Datensätze. Der Bodenlehrpfad Boberg wird aus drei amtlichen Wegsegmenten und zehn beschrifteten Tafelpunkten dargestellt, sofern die Kartenkategorie „Themenwege und Lehrpfade“ ausgewählt ist. Für die Große Bergedorfer Runde liegt hier keine geprüfte Liniengeometrie vor. Stadtteilgrenzen sind eine Orientierung und keine parzellengenaue Lageaussage.</p>{error&&<p role="status">{error}</p>}</>}
   {privacy.dialog}<p className="muted">Kartengrundlage und Datenschutz: OpenFreeMap / OpenMapTiles / OpenStreetMap. Geodaten werden nur nach Zustimmung geladen. Koordinatenherkunft steht am jeweiligen Kartenpunkt.</p>
  </section>;
 }
@@ -115,6 +131,7 @@ function TourismCard({item,categoryId,onFocus}:{item:any,categoryId:string,onFoc
   <h3>{item.name}</h3><p className="tourism-place"><MapPin size={15}/>{item.place}{item.address?' · '+item.address:''}</p>
   <p>{item.description}</p>
   {item.supplementalDescription&&<p className="tourism-supplemental">{item.supplementalDescription}</p>}
+  {item.routeStations?.length>0&&<details className="tourism-stations"><summary>{item.routeStations.length} Stationen der Route</summary><ol>{item.routeStations.map((station:string)=><li key={station}>{station}</li>)}</ol></details>}
   {item.bikeFriendly&&<p className="tourism-free"><strong>Fahrradangebot laut Betreiber:</strong> {item.bikeFeatures.join(', ')}.</p>}
   {item.free&&<p className="tourism-free"><strong>Einordnung:</strong> {item.free}</p>}
   {item.outside&&<p className="tourism-caution"><strong>Geografische Einordnung:</strong> {item.outside}</p>}
