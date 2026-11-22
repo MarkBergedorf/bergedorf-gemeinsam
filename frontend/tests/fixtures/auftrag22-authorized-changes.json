@@ -26,4 +26,107 @@
   },
   {
     "path": "app/tourism.tsx",
-    "before": "import {districtOverview} from '../li
+    "before": "import {districtOverview} from '../lib/map-constraints.mjs';",
+    "after": "import {districtOverview} from '../lib/map-constraints.mjs';\nimport {useRoute} from './navigation';"
+  },
+  {
+    "path": "app/tourism.tsx",
+    "before": "\n const [query",
+    "after": "\n const route=useRoute();\n const [query"
+  },
+  {
+    "path": "app/tourism.tsx",
+    "before": " // Internal section navigation must not change the application's hash-based page route.\n function jumpTo(e:React.MouseEvent<HTMLAnchorElement>,id:string){e.preventDefault();setQuery('');setFreeOnly(false);setBikeFriendlyOnly(false);setSelected(new Set(tourismCategories.map(c=>c.id)));setScrollTarget(id)}\n useEffect(()=>{if(!scrollTarget)",
+    "after": " // Internal section navigation must not change the application's hash-based page route.\n function jumpTo(e:React.MouseEvent<HTMLAnchorElement>,id:string){e.preventDefault();setQuery('');setFreeOnly(false);setBikeFriendlyOnly(false);setSelected(new Set(tourismCategories.map(c=>c.id)));setScrollTarget(id)}\n useEffect(()=>{if(route.page==='tourismus'&&tourismItems.some(item=>item.id===route.tab))setScrollTarget(route.tab)},[route.page,route.tab]);\n useEffect(()=>{if(!scrollTarget)"
+  },
+  {
+    "path": "app/tourism.tsx",
+    "before": "function TourismControls({query,setQuery,selected,toggle,freeOnly,setFreeOnly,bikeFriendlyOnly,setBikeFriendlyOnly,resultCount}:{query:string,setQuery:(s:string)=>void,selected:Set<string>,toggle:(id:string)=>void,freeOnly:boolean,setFreeOnly:(v:boolean)=>void,bikeFriendlyOnly:boolean,setBikeFriendlyOnly:(v:boolean)=>void,resultCount:number}){\n return <section className=\"tourism-filters panel\" aria-label=\"Tourismusangebote filtern\"><div className=\"tourism-filter-search\"><label htmlFor=\"tourism-search\">Suche nach Ort, Angebot oder Stadtteil</label><div className=\"tourism-searchbox\"><Search size={19}/><input id=\"tourism-search\" type=\"search\" value={query} onChange={e=>setQuery(e.target.value)} placeholder=\"Zum Beispiel Vierlande, Schloss, Rad…\"/></div></div><div className=\"tourism-filter-row\"><label className=\"check\"><input type=\"checkbox\" checked={freeOnly} onChange={e=>setFreeOnly(e.target.checked)}/>Nur als kostenlos gekennzeichnete Angebote</label><label className=\"check\"><input type=\"checkbox\" checked={bikeFriendlyOnly} onChange={e=>setBikeFriendlyOnly(e.target.checked)}/>Fahrradfreundliche Unterkünfte (belegte Anbietermerkmale)</label><button className=\"text-button\" type=\"button\" onClick={()=>setQuery('')}>Suche leeren</button><button className=\"text-button\" type=\"button\" onClick={()=>{setQuery('');setFreeOnly(false);setBikeFriendlyOnly(false);tourismCategories.forEach(c=>{if(!selected.has(c.id))toggle(c.id)})}}>Alle Filter zurücksetzen</button><span>{resultCount} Treffer</span></div><fieldset><legend>Themen auswählen</legend><div className=\"tourism-filter-chips\">{tourismCategories.map(c=><label className=\"tourism-chip\" key={c.id}><input type=\"checkbox\" checked={selected.has(c.id)} onChange={()=>toggle(c.id)}/>{c.short}</label>)}</div></fieldset></section>\n}\n",
+    "after": "function TourismControls({query,setQuery,selected,toggle,freeOnly,setFreeOnly,bikeFriendlyOnly,setBikeFriendlyOnly,resultCount}:{query:string,setQuery:(s:string)=>void,selected:Set<string>,toggle:(id:string)=>void,freeOnly:boolean,setFreeOnly:(v:boolean)=>void,bikeFriendlyOnly:boolean,setBikeFriendlyOnly:(v:boolean)=>void,resultCount:number}){\n return <section className=\"tourism-filters panel\" aria-label=\"Tourismusangebote filtern\"><div className=\"tourism-filter-search\"><label htmlFor=\"tourism-search\">Suche nach Ort, Angebot oder Stadtteil</label><div className=\"tourism-searchbox\"><Search size={19}/><input id=\"tourism-search\" type=\"search\" value={query} onChange={e=>setQuery(e.target.value)} placeholder=\"Zum Beispiel Vierlande, Schloss, Rad…\"/></div></div><div className=\"tourism-filter-row\"><label className=\"check\"><input type=\"checkbox\" checked={freeOnly} onChange={e=>setFreeOnly(e.target.checked)}/>Nur als kostenlos gekennzeichnete Angebote</label><label className=\"check\"><input type=\"checkbox\" checked={bikeFriendlyOnly} onChange={e=>setBikeFriendlyOnly(e.target.checked)}/>Fahrradfreundliche Unterkünfte (belegte Anbietermerkmale)</label><button className=\"text-button\" type=\"button\" onClick={()=>setQuery('')}>Suche leeren</button><button className=\"text-button\" type=\"button\" onClick={()=>{setQuery('');setFreeOnly(false);setBikeFriendlyOnly(false);tourismCategories.forEach(c=>{if(!selected.has(c.id))toggle(c.id)})}}>Alle Filter zurücksetzen</button><span>{resultCount} Treffer</span></div><details className=\"tourism-topic-filters\"><summary>Themen auswählen ({selected.size} von {tourismCategories.length})</summary><fieldset><legend>Tourismusthemen</legend><div className=\"tourism-filter-chips\">{tourismCategories.map(c=><label className=\"tourism-chip\" key={c.id}><input type=\"checkbox\" checked={selected.has(c.id)} onChange={()=>toggle(c.id)}/>{c.short}</label>)}</div></fieldset></details></section>\n}\n"
+  },
+  {
+    "path": "app/homepage-current.tsx",
+    "before": "import {excerpt} from '../lib/excerpt.mjs';",
+    "after": "import {excerpt} from '../lib/excerpt.mjs';\nimport {homepageDiscoveryPreviews} from '../lib/homepage-previews.mjs';\nimport {EncounterPolicyCard} from './encounter-policy';"
+  },
+  {
+    "path": "app/homepage-current.tsx",
+    "before": "export function HomepageCurrent(){\n const {state}=useWorkspace(),items=homepageCurrentItems(state,new Date());\n return <section className=\"section homepage-current\" aria-labelledby=\"homepage-current-heading\"><div className=\"section-heading\"><div><div className=\"eyebrow\">GEPRÜFTE UND ZEITLICH EINGEORDNETE INHALTE</div><h2 id=\"homepage-current-heading\">Aktuelles aus Bergedorf</h2></div></div>\n  {items.length?<div className=\"homepage-current-grid\">{items.map(item=><article className=\"homepage-current-card\" key={item.id}><div className=\"homepage-current-meta\"><span className=\"homepage-current-kind\">{item.type==='event'?'Veranstaltung':labels[item.kind]||'Aktuelles Thema'}</span>{item.highlighted&&<span className=\"homepage-current-highlight\">Redaktionell hervorgehoben durch {item.status.highlightAttributedTo} · bis {formatBerlinDate(item.status.expiresOn+'T12:00:00+01:00')} · {item.status.highlightReason}</span>}</div><h3><a href={item.href}>{item.title}</a></h3><p>{excerpt(item.body,210)}</p><p className=\"homepage-current-place\">{item.place}</p>{item.type==='event'?<p className=\"homepage-current-date\"><strong>{eventDisplayDate(item.startsAt)} · {eventDisplayTime(item.startsAt,item.endsAt)}</strong><br/>Redaktionell geprüft am {formatBerlinDate(item.checkedOn+'T12:00:00+01:00')}. <a href={item.sourceUrl} target=\"_blank\" rel=\"noopener noreferrer\" referrerPolicy=\"no-referrer\">Veranstaltungsquelle</a></p>:<p className=\"homepage-current-date\">Veröffentlicht am {formatBerlinDate(item.publishedAt)}{item.updatedAt&&item.updatedAt!==item.publishedAt?<> · wesentlich aktualisiert am {formatBerlinDate(item.updatedAt)}</>:null}</p>}<a className=\"homepage-current-link\" href={item.href}>Vollständigen Beitrag ansehen →</a></article>)}</div>:<p className=\"homepage-current-empty\">Zurzeit sind keine redaktionell bestätigten aktuellen Beiträge vorhanden.</p>}\n </section>;",
+    "after": "export function HomepageCurrent(){\n const {state}=useWorkspace(),items=homepageCurrentItems(state,new Date());\n const currentSection=<section className=\"section homepage-current\" aria-labelledby=\"homepage-current-heading\"><div className=\"section-heading\"><div><div className=\"eyebrow\">GEPRÜFTE UND ZEITLICH EINGEORDNETE INHALTE</div><h2 id=\"homepage-current-heading\">Aktuelles aus Bergedorf</h2></div></div>\n  {items.length?<div className=\"homepage-current-grid\">{items.map(item=><article className=\"homepage-current-card\" key={item.id}><div className=\"homepage-current-meta\"><span className=\"homepage-current-kind\">{item.type==='event'?'Veranstaltung':labels[item.kind]||'Aktuelles Thema'}</span>{item.highlighted&&<span className=\"homepage-current-highlight\">Redaktionell hervorgehoben durch {item.status.highlightAttributedTo} · bis {formatBerlinDate(item.status.expiresOn+'T12:00:00+01:00')} · {item.status.highlightReason}</span>}</div><h3><a href={item.href}>{item.title}</a></h3><p>{excerpt(item.body,210)}</p><p className=\"homepage-current-place\">{item.place}</p>{item.type==='event'?<p className=\"homepage-current-date\"><strong>{eventDisplayDate(item.startsAt)} · {eventDisplayTime(item.startsAt,item.endsAt)}</strong><br/>Redaktionell geprüft am {formatBerlinDate(item.checkedOn+'T12:00:00+01:00')}. <a href={item.sourceUrl} target=\"_blank\" rel=\"noopener noreferrer\" referrerPolicy=\"no-referrer\">Veranstaltungsquelle</a></p>:<p className=\"homepage-current-date\">Veröffentlicht am {formatBerlinDate(item.publishedAt)}{item.updatedAt&&item.updatedAt!==item.publishedAt?<> · wesentlich aktualisiert am {formatBerlinDate(item.updatedAt)}</>:null}</p>}<a className=\"homepage-current-link\" href={item.href}>Vollständigen Beitrag ansehen →</a></article>)}</div>:<p className=\"homepage-current-empty\">Zurzeit sind keine redaktionell bestätigten aktuellen Beiträge vorhanden.</p>}\n </section>;\n return <>{currentSection}<section className=\"section homepage-discover\" aria-labelledby=\"homepage-discover-heading\"><div className=\"section-heading\"><div><div className=\"eyebrow\">GESCHICHTE · POLITIK · TOURISMUS</div><h2 id=\"homepage-discover-heading\">Weitere Themen entdecken</h2></div></div><div className=\"homepage-current-grid homepage-discovery-grid\">{homepageDiscoveryPreviews.map(item=><article className=\"homepage-current-card\" key={item.id}><div className=\"homepage-current-meta\"><span className=\"homepage-current-kind\">{item.kind}</span></div><h3><a href={item.href}>{item.title}</a></h3><p>{excerpt(item.body,210)}</p><p className=\"homepage-current-place\">{item.place}</p>{item.checkedOn&&<p className=\"homepage-current-date\">Quelle redaktionell geprüft am {item.checkedOn.split('-').reverse().join('.')}</p>}<a className=\"homepage-current-link\" href={item.href}>Vollständigen Eintrag ansehen →</a></article>)}<EncounterPolicyCard/></div></section></>;"
+  },
+  {
+    "path": "app/globals.css",
+    "before": "\n",
+    "after": "\n\n/* Keep result lists near the top while retaining all secondary search criteria. */\n.directory-primary-search,.gazetteer-primary-search{display:block;max-width:640px;margin:20px 0 10px}\n.directory-advanced-filters,.reader-advanced-filters,.gazetteer-advanced-filters{margin:8px 0 16px;border-top:1px solid var(--line);padding-top:9px}\n.directory-advanced-filters>summary,.reader-advanced-filters>summary,.gazetteer-advanced-filters>summary{cursor:pointer;color:var(--green);font-weight:650;text-underline-offset:4px}\n.directory-advanced-filters[open] .directory-filters,.reader-advanced-filters[open] .reader-filters,.gazetteer-advanced-filters[open] .gazetteer-filters{margin-top:12px}\n.directory-primary-search input,.gazetteer-primary-search input{width:100%}\n"
+  },
+  {
+    "path": "app/directory.tsx",
+    "before": "sort:values.sort});const model=directoryMapModel(entries,hash)",
+    "after": "sort:values.sort}),activeAdvancedFilters=[values.place,values.quarter,values.category,values.sort!=='new'].filter(Boolean).length;const model=directoryMapModel(entries,hash)"
+  },
+  {
+    "path": "app/directory.tsx",
+    "before": "<div className=\"directory-filters\"><label>Organisationen und Einrichtungen durchsuchen<input type=\"search\" value={values.q} onBlur={endTyping} onKeyDown={e=>{if(e.key==='Enter')endTyping()}} onChange={e=>update({q:e.target.value,shown:12},true)} placeholder=\"Name, Angebot oder Adresse\"/></label><label>Stadtteil",
+    "after": "<label className=\"directory-primary-search\">Organisationen und Einrichtungen durchsuchen<input type=\"search\" value={values.q} onBlur={endTyping} onKeyDown={e=>{if(e.key==='Enter')endTyping()}} onChange={e=>update({q:e.target.value,shown:12},true)} placeholder=\"Name, Angebot oder Adresse\"/></label><details className=\"directory-advanced-filters\"><summary>Weitere Suchfilter{activeAdvancedFilters?` (${activeAdvancedFilters} ausgewählt)`:''}</summary><div className=\"directory-filters\"><label>Stadtteil"
+  },
+  {
+    "path": "app/directory.tsx",
+    "before": "</select></label></div>{values.quarter&&",
+    "after": "</select></label></div></details>{values.quarter&&"
+  },
+  {
+    "path": "app/contributions.tsx",
+    "before": "const exampleCount=filterContributions(exampleDocuments(state,area==='alle'?kind:area),values,state).length;function reset()",
+    "after": "const exampleCount=filterContributions(exampleDocuments(state,area==='alle'?kind:area),values,state).length,activeAdvancedFilters=[area==='alle'&&kind!=='alle',place,values.localPlace,values.historicPlace,values.quarter,topic,order!=='new'].filter(Boolean).length;function reset()"
+  },
+  {
+    "path": "app/contributions.tsx",
+    "before": "<div className={area==='geschichte'?'reader-filters history-reader-filters':'reader-filters'}>{area==='alle'&&<label>Themenbereich",
+    "after": "<details className=\"reader-advanced-filters\"><summary>Weitere Filter{activeAdvancedFilters?` (${activeAdvancedFilters} ausgewählt)`:''}</summary><div className={area==='geschichte'?'reader-filters history-reader-filters':'reader-filters'}>{area==='alle'&&<label>Themenbereich"
+  },
+  {
+    "path": "app/contributions.tsx",
+    "before": "<ContributionFilters area={area==='alle'?kind:area} values={values} update={update}/></div>{(query||",
+    "after": "<ContributionFilters area={area==='alle'?kind:area} values={values} update={update}/></div></details>{(query||"
+  },
+  {
+    "path": "app/history-places.tsx",
+    "before": "const matches=searchGazetteer(q,district,type);return <section className=\"section gazetteer-index\"",
+    "after": "const matches=searchGazetteer(q,district,type),activeFilters=[district,type].filter(Boolean).length;return <section className=\"section gazetteer-index\""
+  },
+  {
+    "path": "app/history-places.tsx",
+    "before": "<div className=\"gazetteer-filters\"><label>Ortsnamen durchsuchen<input type=\"search\" value={q} onChange={e=>setQ(e.target.value)} placeholder=\"Name, frühere Schreibweise oder Zugehörigkeit\"/></label><label>Heutiger Stadtteil",
+    "after": "<label className=\"gazetteer-primary-search\">Ortsnamen durchsuchen<input type=\"search\" value={q} onChange={e=>setQ(e.target.value)} placeholder=\"Name, frühere Schreibweise oder Zugehörigkeit\"/></label><details className=\"gazetteer-advanced-filters\"><summary>Weitere Filter{activeFilters?` (${activeFilters} ausgewählt)`:''}</summary><div className=\"gazetteer-filters\"><label>Heutiger Stadtteil"
+  },
+  {
+    "path": "app/history-places.tsx",
+    "before": "</select></label></div><p role=\"status\">{matches.length} passende Einträge",
+    "after": "</select></label></div></details><p role=\"status\">{matches.length} passende Einträge"
+  },
+  {
+    "path": "app/tourism.tsx",
+    "before": "<fieldset className=\"tourism-map-filters\"><legend>Kartenkategorien</legend>",
+    "after": "<details className=\"tourism-map-category-filter\"><summary>Kartenkategorien ({mapKinds.size} von {tourismMapCategories.length})</summary><fieldset className=\"tourism-map-filters\"><legend>Kartenkategorien</legend>"
+  },
+  {
+    "path": "app/tourism.tsx",
+    "before": "</div></fieldset>\n  {!consent?",
+    "after": "</div></fieldset></details>\n  {!consent?"
+  },
+  {
+    "path": "app/globals.css",
+    "before": "\n",
+    "after": "\n.tourism-map-category-filter>summary{cursor:pointer;color:var(--green);font-weight:650;text-underline-offset:4px;min-height:44px;padding:.5rem 0}\n"
+  },
+  {
+    "path": "app/globals.css",
+    "before": "",
+    "after": "\n\n/* Upward-leaning, single-row desktop tabs; narrow layouts keep the existing menu toggle. */\n.site-header nav{display:block;position:relative;overflow:visible;height:auto;padding:0;background:#edf1eb;}\n.site-header nav>.primary-nav-list{position:relative;display:flex;align-items:flex-end;justify-content:center;flex-wrap:nowrap;gap:0;width:100%;max-width:none;margin:0 auto;padding:0;overflow:visible;visibility:hidden;}\n.site-header nav>.primary-nav-list.is-ready{visibility:visible;}\n.site-header nav>.primary-nav-list .nav-tab-slot{position:relative;display:block;flex:0 0 auto;min-width:0;}\n.site-header nav>.primary-nav-list .nav-tab-slot>button{position:absolute;left:0;bottom:0;transform:rotate(-30deg);transform-origin:left bottom;display:flex;align-items:center;justify-content:flex-start;white-space:nowrap;text-align:left;line-height:1.1;padding:0 5px;border:1px solid rgba(20,55,39,.2);border-bottom-width:3px;border-radius:5px 5px 0 0;color:#173d2c;background:#dce6dd;box-shadow:0 2px 4px rgba(24,48,34,.1);}\n.site-header nav>.primary-nav-list .nav-tab-slot:nth-child(4n+2)>button{background:#b9cbbd;color:#173d2c;}\n.site-header nav>.primary-nav-list .nav-tab-slot:nth-child(4n+3)>button{background:#8fa99a;color:#102f21;}\n.site-header nav>.primary-nav-list .nav-tab-slot:nth-child(4n+4)>button{background:#f7f8f4;color:#173d2c;}\n.site-header nav>.primary-nav-list .nav-tab-slot>button:hover{filter:brightness(.95);}\n.site-header nav>.primary-nav-list .nav-tab-slot>button[aria-current=page]{background:#285a48;color:#fff;border-color:#173d2c;box-shadow:0 3px 8px rgba(24,48,34,.28);z-index:1;}\n.site-header nav>.primary-nav-list .nav-tab-slot>button:focus-visible{outline:3px solid #d49438;outline-offset:3px;z-index:2;}\n.site-header.navigation-compact nav{display:none;}\n.site-header.navigation-compact nav.open{display:block;}\n.site-header.navigation-compact .menu-toggle{display:inline-flex;}\n.site-header.navigation-compact nav.open>.primary-nav-list,.site-header.navigation-compact nav.open>.primary-nav-list.is-ready{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px;height:auto!important;width:auto;max-width:1240px;margin:0 auto;padding:0 20px;overflow:visible;visibility:visible;}\n.site-header.navigation-compact nav.open .nav-tab-slot{width:auto!important;flex:auto!important;height:auto!important;min-width:0;}\n.site-header.navigation-compact nav.open .nav-tab-slot>button{position:static;transform:none;width:100%!important;height:auto!important;min-height:48px;padding:12px 16px;font-size:16px!important;line-height:1.4;text-align:left;white-space:normal;border:0;border-bottom:2px solid transparent;border-radius:0;background:transparent;color:var(--muted);box-shadow:none;}\n.site-header.navigation-compact nav.open .nav-tab-slot>button[aria-current=page]{background:#eef2ec;color:var(--green);border-bottom-color:var(--green);}\n@media(max-width:1023px){.site-header .header-inner{flex-wrap:wrap;gap:12px;padding:16px 24px}.site-header .private-preview{display:none}.site-header .header-actions{gap:12px;flex-wrap:wrap}.site-header .desktop-signin-link{display:none}}\n@media(max-width:1023px){\n .site-header nav{display:none;height:auto!important;}\n .site-header nav.open{display:block;}\n .site-header nav>.primary-nav-list,.site-header nav>.primary-nav-list.is-ready{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px;height:auto!important;max-width:1240px;width:auto;margin:0 auto;padding:0 20px;overflow:visible;visibility:visible;}\n .site-header nav>.primary-nav-list .nav-tab-slot{width:auto!important;flex:auto!important;height:auto!important;min-width:0;}\n .site-header nav>.primary-nav-list .nav-tab-slot>button{position:static;transform:none;width:100%!important;height:auto!important;min-height:48px;padding:12px 16px;font-size:16px!important;line-height:1.4;text-align:left;white-space:normal;border:0;border-bottom:2px solid transparent;border-radius:0;background:transparent;color:var(--muted);box-shadow:none;}\n .site-header nav>.primary-nav-list .nav-tab-slot>button[aria-current=page]{background:#eef2ec;color:var(--green);border-bottom-color:var(--green);}\n .site-header .menu-toggle{display:inline-flex;}\n .site-header nav.compact{display:none;}\n .site-header nav.compact.open{display:block;}\n}\n@media(max-width:700px){\n .site-header nav>.primary-nav-list,.site-header nav>.primary-nav-list.is-ready{grid-template-columns:1fr 1fr;}\n .site-header nav>.primary-nav-list .nav-tab-slot>button{font-size:15px!important;padding:10px 8px;}\n}\n"
+  },
+  {
+    "path": "app/platform.tsx",
+    "before": "",
+    "after": "import {SiteHeader as NavigationTabs} from './site-header';\n"
+  }
+]
