@@ -1,0 +1,25 @@
+.loneliness-page .historic-map-shell{margin:1.25rem 0;padding:clamp(.75rem,2vw,1.5rem);background:#fbf7eb;border:1px solid #c7b995;border-radius:.8rem;color:#302d25}
+.loneliness-page .historic-map-shell h2,.loneliness-page .historic-unlocated h2{font-family:Georgia,serif;color:#473f2f}
+.loneliness-page .historic-map-base-note{padding:.9rem 1rem;background:#efe8d6;border-left:4px solid #796747}
+.loneliness-page .historic-map-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:.8rem;align-items:end;margin:1rem 0}
+.loneliness-page .historic-map-filters label{display:grid;gap:.35rem;font-weight:650}
+.loneliness-page .historic-map-filters input,.loneliness-page .historic-map-filters select{min-height:44px;width:100%;padding:.5rem;border:1px solid #867b65;border-radius:.35rem;background:#fff}
+.loneliness-page .historic-map-controls,.loneliness-page .historic-view-tabs{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;margin:.8rem 0}
+.loneliness-page .historic-view-tabs a{display:inline-flex;align-items:center;min-height:44px;padding:.55rem .9rem;border:1px solid #82775f;border-radius:2rem;background:#fffaf0;color:#302d25;font-weight:700}
+.loneliness-page .historic-view-tabs a[aria-current=page]{background:#3c5441;color:#fff}
+.loneliness-page .historical-encounters-map{height:min(68vh,650px);min-height:360px;border:2px solid #8b7d5e;border-radius:.55rem;background:#e9e1cd;filter:sepia(.18) saturate(.76)}
+.loneliness-page .historical-encounters-pin{display:grid;place-items:center;border:2px solid #fff3d7;border-radius:50%;background:#735434;color:#fff9e9;box-shadow:0 1px 5px #0009;font-size:19px;font-weight:800}
+.loneliness-page .historical-encounters-pin.landmark{background:#3c5961}
+.loneliness-page .historic-map-popup{max-height:55vh;overflow:auto;line-height:1.45}
+.loneliness-page .historic-map-popup section{padding:.55rem 0;border-bottom:1px solid #d8d0c0}
+.loneliness-page .historic-map-popup img{display:block;width:100%;max-height:190px;object-fit:cover;margin:.5rem 0}
+.loneliness-page .historic-map-popup figure{margin:.5rem 0;padding:.4rem;background:#f5f0e4}
+.loneliness-page .historic-map-popup figcaption{font-size:.85rem;line-height:1.4}
+.loneliness-page .historic-map-tooltip{display:grid;gap:.3rem;max-width:180px;white-space:normal;font-size:.85rem;line-height:1.3}
+.loneliness-page .historic-map-tooltip img{width:100%;max-height:75px;object-fit:cover}
+.loneliness-page .historic-map-popup small{display:block;margin:.4rem 0;color:#4c473c}
+.loneliness-page .historic-map-popup a{display:inline-block;margin:.35rem 0;min-height:36px}
+.loneliness-page .historic-unlocated{margin-top:1.5rem;padding:1rem;background:#f4f7f4;border:1px solid #cbd7cb;border-radius:.55rem}
+.loneliness-page .historic-unlocated ul{columns:2;column-gap:2rem}
+.loneliness-page .historic-unlocated li{break-inside:avoid;margin:.45rem 0;line-height:1.5}
+@media(max-width:640px){.loneliness-page .historical-encounters-map{min-height:320px;height:56vh}.loneliness-page .historic-unlocated ul{columns:1}}
