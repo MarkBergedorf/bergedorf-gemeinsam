@@ -2,3 +2,14 @@
 @media(max-width:600px){.events-page h1{font-size:34px}.event-filter-grid{grid-template-columns:minmax(0,1fr)}.events-page .event-card{grid-template-columns:minmax(0,1fr);gap:.75rem}.event-card-date{display:flex;align-items:baseline;gap:.65rem;text-align:left}.event-card-date span:first-child{font-size:30px}.event-facts>div{grid-template-columns:minmax(0,1fr);gap:.25rem}.event-actions{align-items:stretch}.event-actions>a,.event-actions>button{width:100%;text-align:center;justify-content:center}.events-page .panel{min-width:0;padding:1.1rem}.events-page h2{font-size:27px}}
 /* Keep card titles readable despite the shared panel link-size rule. */
 .events-page .event-card h3 a{font:inherit}
+
+/* Compact, keyboard-operable event search; every existing criterion remains mounted. */
+.events-filter .event-filter-main{display:grid;grid-template-columns:minmax(240px,1.4fr) minmax(230px,1fr);gap:18px;align-items:end}
+.events-filter .event-filter-main label{margin-bottom:0}
+.events-filter .event-filter-main-actions{display:flex;gap:10px;flex-wrap:wrap}
+.events-filter .event-filter-main-actions button{min-height:44px}
+.events-filter .event-filter-advanced{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+.events-filter .event-filter-advanced>summary{cursor:pointer;color:var(--green);font-weight:650;text-underline-offset:4px}
+.events-filter .event-filter-advanced[open] .event-filter-grid{margin-top:12px}
+@media(max-width:700px){.events-filter .event-filter-main{grid-template-columns:1fr}.events-filter .event-filter-main-actions{display:grid;grid-template-columns:1fr 1fr}}
+.events-filter .event-filter-advanced>summary:focus-visible{outline:3px solid #d49438;outline-offset:3px;border-radius:3px}
