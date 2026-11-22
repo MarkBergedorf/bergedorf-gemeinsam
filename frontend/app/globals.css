@@ -289,6 +289,11 @@
 .tourism-map-filters .tourism-chip{font-size:13px}
 .tourism-map-legend{display:flex;flex-wrap:wrap;gap:12px 22px;font-size:13px}
 .tourism-map-legend span{display:inline-flex;align-items:center;gap:7px}
+.tourism-route-option{display:inline-flex;align-items:center;gap:8px;min-height:34px;vertical-align:middle;cursor:pointer}
+.tourism-route-option input{width:18px;height:18px;accent-color:#315f46;flex:0 0 auto}
+.tourism-route-key{display:inline-block;width:26px;height:5px;border:1px solid rgba(0,0,0,.22);border-radius:4px;flex:0 0 auto}
+.tourism-route-label{padding:2px 6px!important;border:1px solid rgba(25,45,34,.45)!important;border-radius:4px!important;background:rgba(255,255,255,.94)!important;color:#17261d!important;font-size:12px!important;font-weight:750!important;line-height:1.25!important;box-shadow:0 1px 4px #0004!important;white-space:nowrap}
+.tourism-route-label:before{display:none!important}
 .tourism-map-swatch{width:13px;height:13px;border:2px solid #fff;border-radius:50%;background:#315f52;box-shadow:0 0 0 1px #53685c}
 .tourism-map-swatch.highlight{width:16px;height:16px;border:3px solid #f5c84b;background:#754c9b;box-shadow:0 0 0 1px #705e26}
 .tourism-highlight-badge{display:inline-block;padding:4px 9px;border:1px solid #d6b640;border-radius:999px;background:#fff7cf;color:#483900;font-size:12px;font-weight:700}

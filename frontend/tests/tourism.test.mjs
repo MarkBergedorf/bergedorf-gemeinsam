@@ -79,7 +79,7 @@ test('the ten source-selected highlights are traceable and linked to existing re
   assert.ok(tourismMapCategories.some(x=>x.id==='highlights'&&x.label==='10 Highlights'));
 });
 
-test('four GÖP nature trail records preserve official facts without reusing unverified route lines',async()=>{
+test('four GÖP nature trail records preserve flyer facts and use separately sourced OSM route lines',async()=>{
   const expected=[
     ['duenenweg-boberg',3.6,'ca. 1,5 Stunden','Schmetterling','#f58220','goep_Flyer_D_nenweg_Final.pdf'],
     ['moorweg-boberg',2.7,'ca. 1 Stunde','Vogel','#e3d500','goep_Flyer_Moorweg_tempor_r_Final.pdf'],
@@ -100,14 +100,51 @@ test('four GÖP nature trail records preserve official facts without reusing unv
     assert.ok(item.mapKinds.includes('trails'));
     assert.equal(item.lat,undefined,`${id}: do not invent a point`);
     assert.equal(item.lon,undefined,`${id}: do not invent a point`);
-    assert.match(item.routeGeometryStatus,/nicht|noch/i,id);
+    assert.match(item.routeGeometryStatus,/OSM-Wanderwegrelation/i,id);
+    assert.ok(item.additionalSources.some(x=>x.url.startsWith('https://www.openstreetmap.org/relation/')),id);
     assert.equal(item.checkedOn,'2026-11-22',id);
   }
   const moor=tourismItems.find(x=>x.id==='moorweg-boberg');
   assert.ok(moor.additionalSources.some(x=>x.url.includes('boberger-niederung-165636')));
   assert.match(moor.description,/Unterberg/);
-  assert.match(page,/Eine abgestimmte, koordinatengenaue GÖP-Geometrie ist noch nicht nachgewiesen/);
-  assert.match(page,/nicht als Ersatzroute ausgegeben/);
+  assert.match(page,/OpenStreetMap-Wanderwegrelationen wurden mit den GÖP-Karten auf Seite 2 abgeglichen/);
+  assert.match(page,/GÖP-Originalkarte visuell abgeglichen/);
+});
+
+test('separately sourced GÖP hiking relations have full multi-line geometry, route labels, popups, and independent visibility',async()=>{
+  const geo=JSON.parse(await readFile(new URL('../public/assets/goep-naturwege-boberg.geojson',import.meta.url),'utf8'));
+  assert.equal(geo.type,'FeatureCollection');
+  assert.match(geo.attribution,/OpenStreetMap-Mitwirkende, ODbL 1\.0/);
+  const expected=new Map([['duenenweg-boberg',3502],['moorweg-boberg',2684],['terrassenweg-boberg',3269],['wiesenweg-boberg',4314]]);
+  assert.equal(geo.features.length,4);
+  for(const feature of geo.features){
+    const p=feature.properties;
+    assert.ok(expected.has(p.id),p.id);
+    assert.equal(feature.geometry.type,'MultiLineString',p.id);
+    assert.ok(feature.geometry.coordinates.length>=14,p.id);
+    assert.ok(feature.geometry.coordinates.every(line=>line.length>=2),p.id);
+    assert.equal(p.lineLengthMeters,expected.get(p.id),p.id);
+    assert.equal(p.osmOperator,'Naturschutzverband GÖP',p.id);
+    assert.equal(p.route,'hiking',p.id);
+    assert.equal(p.network,'lwn',p.id);
+    assert.match(p.osmRelationUrl,/openstreetmap\.org\/relation\//,p.id);
+    assert.equal(p.geometrySource,'OpenStreetMap route relation; checked against GÖP original route map page 2',p.id);
+    assert.ok(feature.geometry.coordinates.flat(2).every(Number.isFinite),p.id);
+  }
+  const wiesen=geo.features.find(x=>x.properties.id==='wiesenweg-boberg');
+  assert.equal(wiesen.properties.publishedLengthKm,4.6);
+  assert.equal(wiesen.properties.lineLengthMeters,4314);
+  const moor=geo.features.find(x=>x.properties.id==='moorweg-boberg');
+  assert.equal(moor.properties.osmUpdated,'2025-07-14T11:25:08Z');
+  const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+  assert.match(page,/assets\/goep-naturwege-boberg\.geojson/);
+  assert.match(page,/routeLayer\.bindTooltip\(`\$\{p\.symbol\} · \$\{p\.name\}`/);
+  assert.match(page,/routeLayer\.bindPopup\(box\)/);
+  assert.match(page,/visibleGopRoutes/);
+  assert.match(page,/fitBounds\(route\.getBounds\(\)/);
+  assert.match(page,/Weg auf der Karte zeigen/);
+  assert.match(page,/Linienlänge der OpenStreetMap-Relation/);
+  assert.match(page,/aktuelle Zugangssperrung/);
 });
 
 test('all five EntdeckerRouten are separate records without invented route lines',()=>{
