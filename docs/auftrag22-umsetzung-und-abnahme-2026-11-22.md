@@ -43,7 +43,7 @@ Die Suche wurde nicht fachlich vereinfacht. Die Eingabefelder bleiben im Dokumen
 
 Beim Veranstaltungsfilter zeigte die Liveansicht im geschlossenen Zustand nur die kompakte Suche mit der Schaltfläche „Weitere Suchfilter“. Nach dem Öffnen waren Zeitraumoptionen (einschließlich Archiv, bevorstehend, heute und vergangen), Datumsgrenzen, Veranstaltungsart, Stadtteil/Ort und Gebührenstatus vorhanden. Die Live-Suche nach „Bergedorf“ ergab eine Veranstaltung; beim anschließenden Schließen blieb der Suchtext erhalten. Die Tourismusansicht zeigte 139 Treffer sowie zunächst geschlossene Bereiche „Themen auswählen (12 von 12)“ und „Kartenkategorien (14 von 14)“.
 
-Damit ist der zuvor dauerhaft ausgeklappte Kriterienblock bei der ersten Ansicht geschlossen und benötigt weniger Höhe; die Inhalte folgen nach der kompakten Suche. Eine numerische Messung der eingesparten Pixel oder ein kontrollierter Vorher-nachher-Höhenvergleich wurde nicht vorgenommen. Filterkombinationen und sämtliche Resetvarianten wurden nicht zusätzlich manuell im öffentlichen Browser durchgespielt; ihre Regressionen sind durch die Tests abgedeckt, siehe Abschnitt 7.
+Damit ist der zuvor dauerhaft ausgeklappte Kriterienblock bei der ersten Ansicht geschlossen und benötigt weniger Höhe; die Inhalte folgen nach der kompakten Suche. Eine numerische Messung der eingesparten Pixel oder ein kontrollierter Vorher-nachher-Höhenvergleich wurde nicht vorgenommen. Filterkombinationen und sämtliche Resetvarianten wurden nicht zusätzlich manuell im öffentlichen Browser durchgespielt; die automatisierten Regressionstests dazu sind in Abschnitt 6 aufgeführt.
 
 ## 4. Startseite und Vorschauen
 
@@ -115,7 +115,7 @@ Nicht live geprüft wurden Smartphone-/Tabletansichten, Browserzoom und vergrö�
 | 12 | Platzersparnis | Kriterienblock standardmäßig zu; kein Pixelmesswert erhoben |
 | 13 | Startseitenvorschauen | Die Reit sowie Schloss & Museum |
 | 14 | Herkunft der Vorschauen | Vorhandener Gazetteer und Tourismusdatensatz |
-| 15 | Links und Daten-/Datumslogik | Zwei interne Ziele live geprüft; keine künstlichen Termine; nicht jeder externe Link einzeln geprüft |
+| 15 | Links und Daten-/Datumslogik | Zwei interne Zieladressen live kontrolliert; Zielseiten nicht beide manuell geöffnet; keine künstlichen Termine; nicht jeder externe Link einzeln geprüft |
 | 16 | Bestandsschutz | Keine Tourismusdatensätze gelöscht/geändert; bisherige Bereiche bleiben erhalten |
 | 17 | Tests | 396 bestanden, 0 fehlgeschlagen |
 | 18 | Produktionsbuild | Erfolgreich; Warnungen in Abschnitt 6 benannt |
