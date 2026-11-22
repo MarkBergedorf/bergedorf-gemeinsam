@@ -1,7 +1,7 @@
-# Ergänzungsauftrag 21.3 – Zwischenabnahme Geodaten und Dateneinträge
+# Ergänzungsauftrag 21.3 – Abnahmebericht Geodaten, Dateneinträge und öffentliche Karte
 
 **Prüfdatum:** 22. November 2026  
-**Ergebnis:** Vier GÖP-Routen sind als einzeln auswählbare Kartenlinien umgesetzt; Live-Abnahme folgt nach Veröffentlichung. Keine amtliche Vermessung oder Vor-Ort-Prüfung behauptet.
+**Ergebnis:** Die vier GÖP-Routen sind einzeln auswählbar und öffentlich als getrennte Kartenlinien mit lesbaren, voneinander abgesetzten Beschriftungen sichtbar. Automatisierte Prüfung, Produktionsbuild und GitHub-Pages-Veröffentlichung von PR #35 sind erfolgreich dokumentiert. Keine amtliche Vermessung oder Vor-Ort-Prüfung behauptet.
 
 ## Ausgangsstand
 
@@ -84,21 +84,65 @@ Der live angezeigte Routenlayer weist auf Flyerumleitung und BUKEA-Zugangshinwei
 - `git diff --check`: **erfolgreich**.
 - Buildwarnungen bestehen weiter: Laufzeitpfad für `leaflet.css` sowie große JavaScript-Chunks (`history-tiles` ca. 558,63 kB, Hauptbundle ca. 2.846,01 kB). In diesem Auftrag wurde keine Performanceoptimierung vorgenommen.
 - Geometrie-Overlay auf den vier Originalflyer-Karten wurde lokal geprüft. Das ist ein visueller Quellenabgleich, keine geodätische Feldabnahme.
-- Pages-Lauf #64 (`44982697942`) für PR #28 war erfolgreich. Der erste öffentliche Livecheck zeigte die neue Seite mit 139 Einträgen, allen vier Linien, vier Labels und Karten-Popups. Dabei wurden die Labels im Bezirksüberblick als überlappend erkannt. Diese konkrete Live-Abweichung wurde nicht als bestanden gewertet: Labelanker auf Linienknoten ergänzt, Test ergänzt und Produktionsbuild erneut erstellt; die veröffentlichte Regression dieses Fixes steht noch aus.
+- Historischer Zwischenstand nach PR #28: Pages-Lauf #64 (`44982697942`) war erfolgreich. Der erste öffentliche Livecheck zeigte 139 Einträge, vier Linien, vier Labels und Popups, erkannte jedoch überlappende Labels. Die Korrekturen aus PR #29 bis #35 und die abschließende Sichtprüfung sind unten nachgetragen.
 
 ## Abnahmebewertung
 
-Die GÖP-Linien sind nun als einzelne, aus Operator-Wanderwegrelationen bezogene und mit den Flyern visuell abgeglichene Kartenlayer implementiert. Die Daten-/UI-Regressionen bestehen. Die Basisfunktionen und Linien waren öffentlich sichtbar; der erste Livecheck fand jedoch die überlappenden Labels und löste daher eine Korrektur aus. Die vollständige Abnahme bleibt bis zum erneuten öffentlichen Check dieser Korrektur offen. Auch danach bleiben die ausdrücklich bezeichneten Grenzen offen: keine amtliche Vermessung oder Begehung, die aktuelle Moorwegführung vor Ort nicht geprüft, sowie die ausgewiesene Längendifferenz des Wiesenwegs.
+Die GÖP-Linien sind als getrennte, aus OSM-Wanderwegrelationen stammende und visuell mit den GÖP-Faltblättern abgeglichene Kartenlayer implementiert. Der erste Livecheck fand überlappende Labels; dieser historische Befund wurde mit PR #29 bis #35 bearbeitet. Die endgültige Prüfung nach PR #35 und die fachlichen Grenzen stehen im nachgetragenen Abschlussabschnitt.
 
 ## Veröffentlichungsnachweis
 
 - PR #28: https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/28; zusammengeführt mit `ccac44814411e2cc83e0b07efd7a365f2ee696fd`.
 - GitHub Pages #64, Lauf `44982697942`: erfolgreich.
-- Öffentlicher Stand #28: 139 Treffer; vier Routeinträge, vier Linienlabels und GeoJSON verfügbar. Der Livecheck beanstandete sichtbare Labelüberlappung im Bezirksüberblick.
-- Der Labelanker-Fix und sein Regressionstest sind gebaut. PR und Liveprüfung für diese Nachbesserung werden nachgetragen.
+- Öffentlicher Stand nach PR #28: 139 Treffer; vier Routeinträge, vier Linienlabels und GeoJSON verfügbar. Der Livecheck beanstandete Labelüberlappung im Bezirksüberblick. Dieser Befund wurde nach PR #35 erneut geprüft; siehe Abschlussabschnitt.
 
 ## Verwendete Quellen
 
 - GÖP/Loki-Schmidt-Stiftung: die vier verlinkten Originalfaltblätter sowie [GÖP-Wegekonzept Boberger Niederung](https://goep.hamburg/naturschutz/boberger_niederung.php).
 - BUKEA Hamburg: [Sperrung, Zugang und Sanierung Boberg](https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/boden-und-geologie/altlasten/untersuchungen-boberg/boberger-niederung-165636) und [Sanierungsstand 10.06.2026](https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/aktuelles/pressemeldungen/dioxinbelastung-in-der-boberger-niederung-sanierung-schreitet-im-zeitplan-voran-1184160).
 - OpenStreetMap-Daten: Hamburger Extract mit Geofabrik-Zeitstand 21.11.2026, abgerufen für den lokalen Vergleich; Quelle attribuiert Geofabrik/© OpenStreetMap contributors, Lizenz ODbL. Keine daraus abgeleitete Route wurde veröffentlicht.
+
+
+## Abschlussprüfung nach PR #35 – 22. November 2026
+
+### Tatsächlicher GitHub- und Veröffentlichungsstand
+
+Der aktuelle Hauptzweig `main` steht auf **`b7f51952cede950db5ecdd6cc492dc2db6688d41`**, dem Merge-Commit von PR #35. Die Pull Requests **#27 bis #35 sind zusammengeführt**. Die frühere Aussage, PR und abschließende Liveprüfung stünden noch aus, ist damit überholt.
+
+| PR | Schwerpunkt | Merge-Commit |
+|---:|---|---|
+| #27 | Quellen, GÖP-Wegeeinträge und Geodatenstatus | `e84296e13e6e8d89fb8859990c6e5587009727d0` |
+| #28 | Vier OSM-Routenlinien, Auswahl, Beschriftung und Popups | `ccac44814411e2cc83e0b07efd7a365f2ee696fd` |
+| #29 | Erste Entzerrung und stabile Routenanker | `3e3e6086e7a7bd8aabb97bf70cec3250b83d58f4` |
+| #30 | Zuverlässiges Rendern der Leaflet-Beschriftungen | `ce699c3af686c80315231007e9ed8b30649545dd` |
+| #31 | Reparatur eines unvollständig übertragenen JavaScript-Bundles | `a559821093569489878486fc65e6167227a03497` |
+| #32 | Neue gehashte Produktionsdateien gegen den fehlerhaften Cache-Stand | `07ec37be5606b866892085cd9c353d1d02368a70` |
+| #33 | Routenspezifische Klassen und Abstände | `0d80a349eeff85e395bf47f211d97f8b06192289` |
+| #34 | Separate innere Textelemente für die Routennamen | `b0363770caff05eee5c198aec0e11eef1b54db76` |
+| #35 | Explizite Abstände der vier permanenten Leaflet-Tooltips; aktualisierter Regressionstest und synchronisierte Produktionsdateien | `b7f51952cede950db5ecdd6cc492dc2db6688d41` |
+
+GitHub-Pages-Lauf **#92** (Run-ID `44986462648`) wurde für den aktuellen Merge-Commit am **22.11.2026 erfolgreich** abgeschlossen. Laut PR #35 bestanden `pnpm test` mit **391 Tests, 0 Fehlern** und `pnpm build`; die Produktionsdateien wurden mit **269 geprüften Dateien** im Pages-Root synchronisiert. Der PR nennt weiterhin die vorhandenen Leaflet-CSS-/CSS-Parse- und große-Bundle-Warnungen. Diese wurden durch PR #35 nicht behoben.
+
+### Öffentliche Liveprüfung
+
+Die veröffentlichte Tourismusseite wurde am 22.11.2026 in einer Desktop-Browseransicht geprüft. Die Karte wurde geladen und die Bezirksübersicht hergestellt.
+
+- **Alle vier Routennamen waren gleichzeitig sichtbar und klar voneinander getrennt:** Schmetterling · Dünenweg, Vogel · Moorweg, Blume · Terrassenweg und Hase · Wiesenweg. Die farbigen Routenlinien waren sichtbar.
+- **Einzelauswahl:** Der Wiesenweg wurde über seine Routen-Checkbox ausgeblendet. Seine Linie und Beschriftung verschwanden, während die Beschriftungen von Dünenweg, Moorweg und Terrassenweg sichtbar blieben. Anschließend wurde der Wiesenweg wieder eingeschaltet.
+- **Routenbuttons und Popups:** Die Listenschaltflächen für Dünenweg, Moorweg, Terrassenweg und Wiesenweg öffneten jeweils ein Popup zum entsprechenden Weg. Die geprüften Popups zeigten Symbol und Namen, Flyer-Länge und digitale OSM-Länge sowie Links zur OSM-Relation, zum GÖP-Faltblatt und zum Listeneintrag.
+- **Rückkehr:** Die Schaltfläche „Bezirk Bergedorf anzeigen“ stellte die Bezirksübersicht her.
+- Die vier Datensätze und die Beschriftungen waren in der öffentlichen Seite vorhanden. Eine mobile Geräteansicht wurde bei dieser Prüfung nicht abgenommen.
+
+### Bestand und Geodaten
+
+Die öffentliche Tourismusseite zeigte weiterhin **139 Treffer**, **12 Themen** und **14 Kartenkategorien**. Die vier eigenständigen GÖP-Wege blieben als Dünenweg, Moorweg, Terrassenweg und Wiesenweg auswählbar.
+
+Am aktuellen GitHub-Stand enthält `frontend/public/assets/bodenlehrpfad-boberg.geojson` weiterhin **13 BUKEA-Features**: **3 Linien-Features** und **10 Punkt-Features** für die Tafeln. Die Datei im Pages-Root `assets/bodenlehrpfad-boberg.geojson` stimmt inhaltlich exakt mit der Frontend-Datei überein. Die separate GÖP-Datei enthält weiterhin genau die vier benannten Routen. Die amtlichen Bodenlehrpfad-Linien und Informationstafeln bleiben somit getrennt von den GÖP-Linien.
+
+Die bereits dokumentierten Mess- und Quellenhinweise bleiben maßgeblich: OSM-Routen sind keine amtliche Vermessung und wurden nicht vor Ort abgegangen. Beim Moorweg ist die aktuelle Umleitung samt Zugangssperrungen anhand BUKEA-Hinweisen und örtlicher Beschilderung zu beachten; eine Vor-Ort-Prüfung erfolgte hier nicht. Beim Wiesenweg stehen 4,314 km digitaler Linienlänge der Flyerangabe 4,6 km gegenüber; beide Werte bleiben getrennt ausgewiesen.
+
+### Abschlussbewertung
+
+Die nach PR #35 veröffentlichte Beschriftungskorrektur besteht die Desktop-Liveprüfung: Die vier Routennamen sind in der Bezirksübersicht lesbar und voneinander getrennt. Linien, Einzelauswahl, Routen-Popups und Rückkehr zur Bezirksübersicht wurden geprüft. Der Bestand mit 139 Tourismuseinträgen, zwölf Themen, 14 Kartenkategorien sowie den drei BUKEA-Linien und zehn Tafelpunkten ist am aktuellen Stand erhalten.
+
+**Ergänzungsauftrag 21.3 ist hinsichtlich der umgesetzten, automatisiert geprüften und im Desktop-Livebetrieb sichtbaren Funktionen abgenommen.** Eine mobile Geräteprüfung, amtliche Vermessung und Vor-Ort-Prüfung der aktuellen Moorwegführung sind nicht erfolgt und werden nicht als bestanden gewertet. Die bekannte Wiesenweg-Längendifferenz bleibt dokumentiert.
