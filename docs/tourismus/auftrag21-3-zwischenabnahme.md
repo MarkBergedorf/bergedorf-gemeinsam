@@ -107,7 +107,7 @@ Die GÖP-Linien sind als getrennte, aus OSM-Wanderwegrelationen stammende und vi
 
 ### Tatsächlicher GitHub- und Veröffentlichungsstand
 
-Der aktuelle Hauptzweig `main` steht auf **`b7f51952cede950db5ecdd6cc492dc2db6688d41`**, dem Merge-Commit von PR #35. Die Pull Requests **#27 bis #35 sind zusammengeführt**. Die frühere Aussage, PR und abschließende Liveprüfung stünden noch aus, ist damit überholt.
+Der letzte Code- und Pages-Stand von Ergänzungsauftrag 21.3 steht auf **`b7f51952cede950db5ecdd6cc492dc2db6688d41`**, dem Merge-Commit von PR #35; dieser Code-Stand ist weiterhin in `main` enthalten. PR #36 hat anschließend ausschließlich diesen Abnahmebericht aktualisiert und wurde mit **`1dd3ce3552af1480a7a14d345b3e1c01c81c1677`** gemergt. Die Pull Requests **#27 bis #35 sind zusammengeführt**. Die frühere Aussage, PR und abschließende Liveprüfung stünden noch aus, ist überholt.
 
 | PR | Schwerpunkt | Merge-Commit |
 |---:|---|---|
