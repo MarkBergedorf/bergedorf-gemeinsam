@@ -2,11 +2,14 @@ import places from './historical-places-4.json' with {type:'json'};
 import media from './historical-media-4.json' with {type:'json'};
 import sourceRows from './historical-sources-4.json' with {type:'json'};
 import districts from './loneliness-districts-4.json' with {type:'json'};
+import mapPoints from './historical-map-points-1.json' with {type:'json'};
 const sources=Array.isArray(sourceRows)?Object.fromEntries(sourceRows.map(s=>[s.id,s])):sourceRows;
-export {places as historicalPlaces,media as historicalMedia,sources as historicalSources,districts as lonelinessDistricts};
+export {places as historicalPlaces,media as historicalMedia,sources as historicalSources,districts as lonelinessDistricts,mapPoints as historicalMapPoints};
 export const historicalBase='#einsamkeit/stadtteile/t10-6';
 export const districtBase='#einsamkeit/stadtteile/t10-2';
 export const historicalPlaceHref=id=>historicalBase+'?'+new URLSearchParams({ort:id});
+export const historicalMapHref=id=>historicalBase+'?'+new URLSearchParams({ansicht:'karte',...(id?{ort:id}:{})});
+export const hasHistoricalMapPoint=id=>mapPoints.some(p=>p.id===id);
 export const districtHref=id=>districtBase+'?'+new URLSearchParams({stadtteil:id});
 export const historicalPlaceById=id=>places.find(p=>p.id===id)||null;
 export const districtById=id=>districts.find(p=>p.id===id)||null;
@@ -18,4 +21,4 @@ export function historicalSearchText(id){return ['t10-6','t2-5','t2-5-1','t2-5-2
 export function districtSearchText(id){return id==='t10-2'?districts.map(d=>[d.title,d.intro,...d.sections.flatMap(s=>[s.title,...s.paragraphs.map(p=>p.text)])].join(' ')).join(' '):'';}
 export const meetingCommentLimit=500;
 export function validateMeetingComment(v){if(typeof v!=='string'||!v.trim())return 'Bitte geben Sie einen Kommentartext ein.';return v.length>meetingCommentLimit?'Bitte kürzen Sie den Text auf höchstens 500 Zeichen.':'';}
-export function resolveLocalView(nodeId,params={}){const place=nodeId==='t10-6'?historicalPlaceById(params.ort):null,district=nodeId==='t10-2'?districtById(params.stadtteil):null,invalid=Boolean((nodeId==='t10-6'&&params.ort&&!place)||(nodeId==='t10-2'&&params.stadtteil&&!district));return {place,district,invalid,title:place?.name||district?.title,href:place?historicalPlaceHref(place.id):district?districtHref(district.id):'',parent:nodeId==='t10-6'?historicalBase:districtBase};}
+export function resolveLocalView(nodeId,params={}){const place=nodeId==='t10-6'&&params.ansicht!=='karte'?historicalPlaceById(params.ort):null,district=nodeId==='t10-2'?districtById(params.stadtteil):null,invalid=Boolean((nodeId==='t10-6'&&params.ort&&!historicalPlaceById(params.ort))||(nodeId==='t10-2'&&params.stadtteil&&!district));return {place,district,invalid,title:place?.name||district?.title,href:place?historicalPlaceHref(place.id):district?districtHref(district.id):'',parent:nodeId==='t10-6'?historicalBase:districtBase};}
