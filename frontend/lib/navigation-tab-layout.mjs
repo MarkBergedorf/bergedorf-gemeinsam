@@ -1,7 +1,7 @@
 const angle=Math.PI/6;
 const sin=Math.sin(angle),cos=Math.cos(angle);
 
-export function navigationTabLayout(textWidths,availableWidth,{minFont=9,maxFont=12,tabHeight=16,gap=0,paddingFactor=.3}={}){
+export function navigationTabLayout(textWidths,availableWidth,{minFont=12,maxFont=14,tabHeight=40,gap=0,paddingFactor=.3}={}){
  if(!Array.isArray(textWidths)||!textWidths.length||!Number.isFinite(availableWidth)||availableWidth<=0)return null;
  for(let fontSize=maxFont;fontSize>=minFont;fontSize=Math.round((fontSize-.25)*100)/100){
   const scale=fontSize/maxFont;

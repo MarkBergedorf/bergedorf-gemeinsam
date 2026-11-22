@@ -128,5 +128,10 @@
     "path": "app/platform.tsx",
     "before": "",
     "after": "import {SiteHeader as NavigationTabs} from './site-header';\n"
+  },
+  {
+    "path": "app/platform.tsx",
+    "before": "<footer>",
+    "after": "<footer className=\"site-footer\">"
   }
 ]

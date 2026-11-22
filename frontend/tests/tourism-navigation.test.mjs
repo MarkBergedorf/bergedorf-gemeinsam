@@ -28,7 +28,7 @@ test('both tourism entry links prevent route changes and retain their destinatio
 
 test('tourism navigation label is explicit and all 93 sourced entries remain available alongside additions',async()=>{
   const navigation=await readFile(new URL('../app/site-header.tsx',import.meta.url),'utf8');
-  assert.match(navigation,/Bergedorf entdecken \(Gäste & Tourismus\)/);
+  assert.match(navigation,/label:'Gäste und Tourismus',lines:\['Gäste und','Tourismus'\]/);
   assert.ok(tourismItems.length>93);
   const original=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
   assert.equal(original.length,93);

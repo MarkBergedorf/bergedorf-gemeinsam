@@ -33,7 +33,7 @@ test('tourism feature is linked into navigation and preserves map consent and ex
   const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
   assert.match(platform,/import \{TourismPage\} from '\.\/tourism'/);
   assert.match(platform,/page==='tourismus'\?<TourismPage\/>/);
-  assert.match(navigation,/\{id:'tourismus',label:'Bergedorf entdecken \(Gäste & Tourismus\)',target:'#tourismus'\}/);
+  assert.match(navigation,/\{id:'tourismus',label:'Gäste und Tourismus',lines:\['Gäste und','Tourismus'\],target:'#tourismus'\}/);
   assert.match(page,/useMapPrivacy\('openfreemap'/);
   assert.match(page,/Promise\.all\(\[import\('leaflet'\),import\('\.\.\/lib\/history-tiles\.mjs'\)\]\)/);
   assert.match(page,/Erst nach Ihrer Zustimmung/);
