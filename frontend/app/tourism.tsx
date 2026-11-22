@@ -35,10 +35,10 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
    gopGeoJSON=await fetch(`${import.meta.env.BASE_URL}assets/goep-naturwege-boberg.geojson`).then(r=>r.ok?r.json():null).catch(()=>null);
    if(!live)return;
    if(!gopGeoJSON)setError('Die lokalen GÖP-Weglinien konnten nicht geladen werden. Die Einträge und Originalfaltblätter bleiben verfügbar.');
-   const markers=L.layerGroup().addTo(instance);layer.current=markers;
+   const markers=L.layerGroup().addTo(instance),routeLabels=L.layerGroup().addTo(instance);layer.current=markers;
    const repaint=()=>{
     if(!live)return;
-    markers.clearLayers();
+    markers.clearLayers();routeLabels.clearLayers();
     const groups=new Map<string,any[]>();
     for(const item of itemsRef.current){
      if(!Number.isFinite(item.lat)||!Number.isFinite(item.lon)||!item.coordinateSource||!relatedIds(item).some((id:string)=>selectedRef.current.has(id))||!tourismMapKinds(item).some((id:string)=>mapKindsRef.current.has(id)))continue;
@@ -77,7 +77,7 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
      L.geoJSON(gopGeoJSON,{filter:(feature:any)=>activeGopIds.has(feature?.properties?.id)&&visibleGopRoutesRef.current.has(feature?.properties?.id),style:(feature:any)=>({color:feature?.properties?.color||'#315f52',weight:5,opacity:.96,lineCap:'round',lineJoin:'round'}),onEachFeature:(feature:any,routeLayer:any)=>{
       const p=feature.properties||{},item=itemsRef.current.find((entry:any)=>entry.id===p.id);
       if(item)gopRouteLayers.current.set(p.id,routeLayer);
-      if(Array.isArray(p.labelPosition)&&p.labelPosition.length===2){L.circleMarker([p.labelPosition[1],p.labelPosition[0]],{radius:0,opacity:0,fillOpacity:0,interactive:false,keyboard:false}).bindTooltip(`${p.symbol} · ${p.name}`,{permanent:true,direction:'center',className:'tourism-route-label',opacity:1}).addTo(markers)}
+      if(Array.isArray(p.labelPosition)&&p.labelPosition.length===2){routeLabels.addLayer(L.tooltip({permanent:true,direction:'center',className:'tourism-route-label',opacity:1}).setLatLng([p.labelPosition[1],p.labelPosition[0]]).setContent(`${p.symbol} · ${p.name}`))}
       const box=document.createElement('div'),heading=document.createElement('strong'),facts=document.createElement('p'),status=document.createElement('p'),osm=document.createElement('a'),flyer=document.createElement('a'),list=document.createElement('a');
       heading.textContent=`${p.symbol} · ${p.name}`;facts.textContent=`GÖP-Faltblatt: ${Number(p.publishedLengthKm).toLocaleString('de-DE')} km · ${p.duration}. Digitale Linienlänge der OpenStreetMap-Relation: ${(Number(p.lineLengthMeters)/1000).toLocaleString('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2})} km.`;
       status.textContent=p.name==='Moorweg'?'Im nördlichen Abschnitt zeigt das GÖP-Faltblatt eine Umleitung. Die aktuelle Zugangssperrung und die örtliche Beschilderung der BUKEA beachten.':'Linienverlauf anhand der GÖP-Originalkarte visuell abgeglichen; OSM-Wanderwegrelation, keine amtliche Vermessung.';
