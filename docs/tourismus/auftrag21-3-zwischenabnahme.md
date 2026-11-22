@@ -1,12 +1,12 @@
 # Ergänzungsauftrag 21.3 – Zwischenabnahme Geodaten und Dateneinträge
 
 **Prüfdatum:** 22. November 2026  
-**Ergebnis:** Teilweise umgesetzt; keine vollständige Kartenabnahme.
+**Ergebnis:** Vier GÖP-Routen sind als einzeln auswählbare Kartenlinien umgesetzt; Live-Abnahme folgt nach Veröffentlichung. Keine amtliche Vermessung oder Vor-Ort-Prüfung behauptet.
 
 ## Ausgangsstand
 
 - Repository: `MarkBergedorf/bergedorf-gemeinsam`
-- geprüfter `main`-Stand vor Änderungen: `fc3956bb89933e58a76e40a0da5c70b10c0d51cc`
+- vorheriger Abnahme-Stand: `fc3956bb89933e58a76e40a0da5c70b10c0d51cc`; der vorausgehende Karten-/Metadaten-Support wurde mit PR #27 in `main` übernommen (Merge-Commit `e84296e13e6e8d89fb8859990c6e5587009727d0`).
 - Arbeitszweig: `feature/auftrag21-3-boberg-nature-trails`
 - touristische Datensätze vor Ergänzung: 135; nach Ergänzung: 139 (vier neue, einzeln durchsuchbare GÖP-Wege)
 - 12 Tourismusthemen und 14 Haupt-Kartenkategorien bleiben bestehen.
@@ -43,38 +43,56 @@ Die behördlichen Zugangsangaben und die gelbe Umleitung im Faltblatt sind damit
 
 Diese Werte liegen nahe an den GÖP-Flyerangaben. Das ist allein kein Nachweis, dass die Bodenlehrpfad- und GÖP-Linien dieselben Abzweigungen, Einstiege oder den aktuellen Umleitungsverlauf haben. Der fachliche Identitätsabgleich wurde nicht ausreichend belegt. Darum werden die BUKEA-Linien weiter nur als Bodenlehrpfad angezeigt und nicht in GÖP-Wege umbenannt.
 
-## Geografische Linien – offen
+## Geografische Linien – umgesetzt mit klar begrenztem Nachweis
 
-Für den Routenabgleich wurde ein aktueller Hamburger OSM-Extract von Geofabrik heruntergeladen und die darin enthaltenen Fußwege und Pfade im Gebiet Boberg untersucht. Eine begrenzte Overpass-Abfrage lief in Zeitüberschreitungen beziehungsweise lieferte HTTP 502/503. Der Extract liefert das örtliche Wegenetz, aber keinen geprüften Nachweis, welche zusammenhängenden OSM-Wegeabschnitte genau die vier eingezeichneten GÖP-Routen bilden. Die in einem kommerziellen Routenportal sichtbare Wiesenweg-Aufzeichnung ist keine für diesen Zweck belegte offene Geodatenquelle und wurde nicht übernommen.
+Die vier Linien stammen aus den vollständigen OpenStreetMap-Wanderweg-Relationen für die GÖP-Routen. Die Relationen nennen den Naturschutzverband GÖP als Betreiber und wurden am 22.11.2026 direkt über die OSM-API abgerufen. Ihre Wegegeometrien wurden mit den farbigen Routen auf Seite 2 der jeweiligen GÖP-Originalfaltblätter visuell verglichen. Drei Verläufe liegen im Bildabgleich sehr eng an der Flyerlinie; beim Moorweg ist im nördlichen Korridor eine kleine Abweichung sichtbar. Das ist ein visueller Kartenvergleich, keine amtliche Koordinatenvermessung, kein Nachweis jedes Wegbelags und keine Begehung.
 
-Die Flyer enthalten keine maschinenlesbare Route und keine Koordinatenkontrollpunkte. In dieser Prüfung wurde keine belastbare Georeferenzierung mit Kontrollpunkten und anschließendem Abgleich jeder Abzweigung hergestellt. Daher wurden keine aus Kartenpixeln abgeleiteten oder geschätzten GÖP-Linien veröffentlicht. Für **alle vier** Wege bleiben offen:
+| Route | OSM-Relation / Version / letzter Änderungsstand | digitale Linienlänge | GÖP-Flyer | Ergebnis / Vorbehalt |
+|---|---|---:|---:|---|
+| Dünenweg | 120910 / 5 / 03.07.2010 | 3.502 m | 3,6 km | Verlauf visuell passend; keine amtliche Vermessung |
+| Moorweg | 120253 / 19 / 14.07.2025 | 2.684 m | 2,7 km | Verlauf visuell verglichen; kleine Abweichung im nördlichen Korridor; aktuelle Umleitung/Zugänge vor Ort nicht verifiziert |
+| Terrassenweg | 140415 / 11 / 27.06.2025 | 3.269 m | 3,3 km | Verlauf visuell passend; OSM-Name enthält Schreibfehler „Terassenweg“, öffentliche Bezeichnung folgt dem GÖP-Flyer |
+| Wiesenweg | 120861 / 8 / 31.10.2023 | 4.314 m | 4,6 km | Verlauf visuell passend; 286 m Differenz zu Flyerangabe, beide Werte bleiben getrennt ausgewiesen |
 
-- koordinatengenaue Geometrie, Wegabschnitte und Brückenabgleich;
-- digital berechnete GÖP-Streckenlänge;
-- vollständige Streckenführung und Einstiegspunkte;
-- direkte Beschriftung entlang der Linie, Strecken-Popups, „gesamte Route anzeigen“ und unabhängige Auswahl auf der Livekarte;
-- mobile Kartenansicht mit den neuen Routen.
+Die Kilometerangaben aus dem GÖP-Flyer und die aus der digitalen Relation berechneten Linienlängen sind unterschiedliche Messstände und werden nicht gleichgesetzt. Das Projekt verwendet OSM-Geometrie unter ODbL 1.0 und weist OpenStreetMap-Mitwirkende als Quelle aus. Die bestehenden drei BUKEA-Linien und zehn Tafelpunkte bleiben getrennt und unverändert in `bodenlehrpfad-boberg.geojson` erhalten.
 
-Die touristische Karte weist ausdrücklich darauf hin, dass die vier GÖP-Routen noch nicht als Linien dargestellt werden. Die vier Einträge sind in der Ortsliste suchbar und verlinken die Originalfaltblätter. Es wird keine präzise Begehbarkeit suggeriert.
+## Kartenfunktionen und Bedienablauf
+
+Die vier Wege sind als eigene GeoJSON-MultiLineString-Features in `frontend/public/assets/goep-naturwege-boberg.geojson` eingebunden. Auf der Karte haben sie die Flyerfarbe, eine dauerhafte Symbol-/Namensbeschriftung und ein Popup mit Flyerwert, digitaler Linienlänge, Quelle, Originalfaltblatt und Rücksprung zum Listeneintrag. Jeder Weg kann unabhängig ein- und ausgeblendet werden; zusätzlich wird die bestehende Themenkategorie „Themenwege und Lehrpfade“ berücksichtigt. Die Routeneinträge bieten „Weg auf der Karte zeigen“ und führen den Kartenausschnitt an die Linie.
+
+Die bestehenden 135 touristischen Datensätze sowie die bisherigen Quellen, Beschreibungen, Kategorien, BUKEA-Geometrien, Kategorien und Tafelpunkte werden nicht ersetzt. Die Regressionstests prüfen weiterhin die ursprünglichen Baselines und zusätzlich vier neue Routenfeatures. Die vorherige Aussage, die Routen würden noch nicht als Linien angezeigt, ist damit überholt.
+
+## Moorweg: aktuelle Einschränkung
+
+Das GÖP-Faltblatt zeigt ausdrücklich eine nördliche Umleitung im Bereich Unterberg. Die aktuell abrufbare BUKEA-Seite bestätigt, dass die Sanierung weiterläuft, der Zugang am Parkplatz Unterberg gesperrt ist, der Zugang über den Parkplatz Walter-Hammer-Weg möglich ist und der Fußweg an den Bahngleisen benutzt werden soll. Die Pressemitteilung der BUKEA vom 10. Juni 2026 nennt ein voraussichtliches Ende der Sanierung Ende 2027.
+
+Der live angezeigte Routenlayer weist auf Flyerumleitung und BUKEA-Zugangshinweis hin. Die aktuelle reale Beschilderung und der genaue Übereinstimmungsgrad jedes Moorwegabschnitts mit der gegenwärtig freigegebenen Führung wurden nicht vor Ort kontrolliert. Daher darf die 2,7-km-Flyerangabe nicht als vor Ort bestätigte Länge der aktuellen Umleitung verstanden werden.
 
 ## Umgesetzte Dateien
 
-- `frontend/lib/tourism-data.mjs`: vier zusätzliche GÖP-Datensätze mit Quelle, Suchbegriffen, Länge, Dauer, Symbol, Farbe, Status und Schutzgebietshinweisen. Der bestehende Eintrag „Vier markierte Wege durch die Boberger Niederung“ behält Namen, Beschreibung und Hauptquelle bytegenau bei; die GÖP-Angaben werden ergänzend eingeblendet.
-- `frontend/app/tourism.tsx`: Kartenhinweis und Links zu allen vier Originalfaltblättern; ausdrückliche Trennung von den nicht gleichgesetzten BUKEA-Bodenlehrpfad-Linien; Statushinweis an den vier Karteneinträgen.
-- `frontend/tests/tourism.test.mjs`: Regressionstest für vier Datensätze, Fakten/Quellen, die offene Geometrie, Moorwegwarnung und das Verbot erfundener Punktkoordinaten.
-
-Es wurden keine bestehenden Einträge, Bilder, Bodenlehrpfadlinien, Tafelpunkte oder Kartenkategorien entfernt. Der temporär geladene OSM-Extract wurde nicht in das Repository übernommen.
+- `frontend/public/assets/goep-naturwege-boberg.geojson`: vier vollständige OSM-Routenrelationen mit Geometrie, Routenfarben/-symbolen, OSM-Metadaten, Lizenzattribution, Flyerwerten und getrennten digitalen Linienlängen.
+- `frontend/app/tourism.tsx`: Laden und Zeichnen der Routen, unabhängige Auswahl, Labels, sichere DOM-Popups, Fit-to-route und Listenverknüpfung; BUKEA-Layer separat belassen.
+- `frontend/app/globals.css`: Darstellung der Routenauswahl und Labels.
+- `frontend/lib/tourism-data.mjs`: vier Datensätze um Relation, Quellen, Längenabweichung und Prüfgrenzen ergänzt.
+- `frontend/tests/tourism.test.mjs`: Regressionen für Geometrie, Lizenz/Attribution, Relationen, Labels, Popups, Ein-/Auswahl, Kartenausschnitt und Bestandsschutz.
+- `index.html`, `404.html`, `assets/` und Pages-Root-GeoJSON: mit dem Produktionsbuild synchronisierte GitHub-Pages-Dateien; HTML verweist auf die aktuellen gehashten Bundles.
 
 ## Prüfungen
 
-- Vollständige Testsuite `pnpm test`: **390 bestanden, 0 fehlgeschlagen**.
-- Produktionsbuild `pnpm build`: **erfolgreich**; Dist-Verifikation erfolgreich und vollständige Synchronisierung in den Pages-Root durch das Repo-Skript.
-- Bestehende Buildwarnungen bleiben: `/bergedorf-gemeinsam/assets/leaflet.css` wurde zur Laufzeitauflösung belassen; zwei JavaScript-Chunks liegen über 500 kB (Leaflet/History-Tiles 558,63 kB und Hauptbundle 2.841,65 kB). In diesem Auftrag wurde keine Laufzeit- oder mobile Leistungsanalyse durchgeführt und keine Buildwarnung verändert.
-- Der Produktionsbuild beweist nicht die visuelle Kartenabnahme.
+- `pnpm test`: **391 bestanden, 0 fehlgeschlagen**.
+- `pnpm build`: **erfolgreich** (2.339 Module); Dist-Verifikation und Pages-Root-Synchronisierung erfolgreich. 269 Builddateien im Pages-Root; HTML verweist auf aktuelle Bundles; Noindex bleibt gesetzt.
+- `git diff --check`: **erfolgreich**.
+- Buildwarnungen bestehen weiter: Laufzeitpfad für `leaflet.css` sowie große JavaScript-Chunks (`history-tiles` ca. 558,63 kB, Hauptbundle ca. 2.846,01 kB). In diesem Auftrag wurde keine Performanceoptimierung vorgenommen.
+- Geometrie-Overlay auf den vier Originalflyer-Karten wurde lokal geprüft. Das ist ein visueller Quellenabgleich, keine geodätische Feldabnahme.
+- Der Browser-Livecheck der interaktiven vier Linien und Popups ist nach Pages-Veröffentlichung noch auszuführen und wird im Abschluss unten ergänzt.
 
 ## Abnahmebewertung
 
-Die Quellengrundlage wurde gelesen, die veröffentlichten GÖP-Metadaten sind erfasst, vier eigenständige Tourismuseinträge sind ergänzt, die Bestandsschutztests bestehen und die BUKEA-Bodenlehrpfad-Daten bleiben getrennt erhalten. **Ergänzungsauftrag 21.3 ist nicht vollständig abgenommen.** Seine zentralen geografischen Linien- und Livekartenanforderungen bleiben offen, einschließlich der koordinatengenauen Moorweg-Umleitung. Die offene Arbeit ist keine bestandene Kartenprüfung.
+Die GÖP-Linien sind nun als einzelne, aus Operator-Wanderwegrelationen bezogene und mit den Flyern visuell abgeglichene Kartenlayer implementiert. Die Daten-/UI-Regressionen bestehen. Bis zum erfolgreichen Livecheck der veröffentlichten Routen ist die funktionale Abnahme noch offen. Auch danach bleiben die ausdrücklich bezeichneten Grenzen offen: keine amtliche Vermessung oder Begehung, die aktuelle Moorwegführung vor Ort nicht geprüft, sowie die ausgewiesene Längendifferenz des Wiesenwegs.
+
+## Veröffentlichungsnachweis
+
+Wird nach PR-Prüfung und Merge mit Pull Request, Merge-Commit, GitHub-Pages-Lauf und anschließendem Livecheck ausgefüllt.
 
 ## Verwendete Quellen
 
