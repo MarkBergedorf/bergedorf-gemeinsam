@@ -79,6 +79,37 @@ test('the ten source-selected highlights are traceable and linked to existing re
   assert.ok(tourismMapCategories.some(x=>x.id==='highlights'&&x.label==='10 Highlights'));
 });
 
+test('four GÖP nature trail records preserve official facts without reusing unverified route lines',async()=>{
+  const expected=[
+    ['duenenweg-boberg',3.6,'ca. 1,5 Stunden','Schmetterling','#f58220','goep_Flyer_D_nenweg_Final.pdf'],
+    ['moorweg-boberg',2.7,'ca. 1 Stunde','Vogel','#e3d500','goep_Flyer_Moorweg_tempor_r_Final.pdf'],
+    ['terrassenweg-boberg',3.3,'ca. 1,5 Stunden','Blume','#e83e9b','goep_Flyer_Terassenweg_Final.pdf'],
+    ['wiesenweg-boberg',4.6,'ca. 2 Stunden','Hase','#2478d4','goep_Flyer_Wiesenweg_Final.pdf'],
+  ];
+  const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+  assert.equal(tourismItems.filter(x=>x.natureTrail).length,4);
+  for(const [id,length,duration,symbol,color,pdf] of expected){
+    const item=tourismItems.find(x=>x.id===id);
+    assert.ok(item,`missing ${id}`);
+    assert.equal(item.routeLengthKm,length,id);
+    assert.equal(item.routeDuration,duration,id);
+    assert.equal(item.routeSymbol,symbol,id);
+    assert.equal(item.routeColor,color,id);
+    assert.match(item.source.url,new RegExp(pdf.replaceAll('.','\\.')));
+    assert.ok(item.categoryLinks.includes('natur')&&item.categoryLinks.includes('familie'));
+    assert.ok(item.mapKinds.includes('trails'));
+    assert.equal(item.lat,undefined,`${id}: do not invent a point`);
+    assert.equal(item.lon,undefined,`${id}: do not invent a point`);
+    assert.match(item.routeGeometryStatus,/nicht|noch/i,id);
+    assert.equal(item.checkedOn,'2026-11-22',id);
+  }
+  const moor=tourismItems.find(x=>x.id==='moorweg-boberg');
+  assert.ok(moor.additionalSources.some(x=>x.url.includes('boberger-niederung-165636')));
+  assert.match(moor.description,/Unterberg/);
+  assert.match(page,/Eine abgestimmte, koordinatengenaue GÖP-Geometrie ist noch nicht nachgewiesen/);
+  assert.match(page,/nicht als Ersatzroute ausgegeben/);
+});
+
 test('all five EntdeckerRouten are separate records without invented route lines',()=>{
   assert.deepEqual(tourismItems.filter(x=>x.routeNumber).map(x=>x.routeNumber).sort(),[1,2,3,4,5]);
   for(const id of ['rosentour','tatenberg-route','elbkiekertour','kirchentour','boberg-route'])assert.ok(tourismItems.some(x=>x.id===id),id);
