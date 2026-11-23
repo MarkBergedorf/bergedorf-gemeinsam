@@ -2,6 +2,7 @@
 import {useEffect,useMemo,useRef,useState} from 'react';
 import {MapPin,Search,ExternalLink,ArrowUpRight} from 'lucide-react';
 import {tourismCategories,tourismItems,tourismHighlights,tourismMapCategories,tourismMapKinds,filterTourismItems} from '../lib/tourism-data.mjs';
+import {tourismRailRoutes} from '../lib/tourism-rail-routes.mjs';
 import {useMapPrivacy} from './map-privacy-dialog';
 import {districtBounds} from '../lib/directory-map.mjs';
 import {districtOverview} from '../lib/map-constraints.mjs';
@@ -12,13 +13,14 @@ const relatedIds=(item:any)=>[item.category,...(item.categoryLinks||[])];
 const markerColor=(category:string)=>({sehenswuerdigkeiten:'#754c9b',natur:'#317554',rundgaenge:'#b17a24',kultur:'#315f96',unterkunft:'#9a5364',gastronomie:'#b05d27',rad:'#2d7a87',camping:'#6a7533',wasser:'#24759b',familie:'#b15378',mobilitaet:'#545d6d',praktisch:'#6b7040'}[category]||'#315f52');
 
 function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<string>,focusId:string,onFocus:(id:string)=>void}){
- const root=useRef<HTMLDivElement>(null),map=useRef<any>(null),layer=useRef<any>(null),draw=useRef<()=>void>(()=>{}),itemsRef=useRef<any[]>(items),selectedRef=useRef<Set<string>>(selected),mapKindsRef=useRef<Set<string>>(new Set()),gopRouteLayers=useRef<Map<string,any>>(new Map()),visibleGopRoutesRef=useRef<Set<string>>(new Set());
+ const root=useRef<HTMLDivElement>(null),map=useRef<any>(null),layer=useRef<any>(null),draw=useRef<()=>void>(()=>{}),itemsRef=useRef<any[]>(items),selectedRef=useRef<Set<string>>(selected),mapKindsRef=useRef<Set<string>>(new Set()),gopRouteLayers=useRef<Map<string,any>>(new Map()),railRouteLayers=useRef<Map<string,any>>(new Map()),visibleGopRoutesRef=useRef<Set<string>>(new Set()),visibleRailRoutesRef=useRef<Set<string>>(new Set());
  itemsRef.current=items;selectedRef.current=selected;
- const [consent,setConsent]=useState(false),[error,setError]=useState(''),[mapKinds,setMapKinds]=useState<Set<string>>(()=>new Set(tourismMapCategories.map(x=>x.id))),[visibleGopRoutes,setVisibleGopRoutes]=useState<Set<string>>(()=>new Set(tourismItems.filter(x=>x.natureTrail).map(x=>x.id)));
+ const [consent,setConsent]=useState(false),[error,setError]=useState(''),[mapKinds,setMapKinds]=useState<Set<string>>(()=>new Set(tourismMapCategories.map(x=>x.id))),[visibleGopRoutes,setVisibleGopRoutes]=useState<Set<string>>(()=>new Set(tourismItems.filter(x=>x.natureTrail).map(x=>x.id))),[visibleRailRoutes,setVisibleRailRoutes]=useState<Set<string>>(()=>new Set(tourismRailRoutes.map(x=>x.id)));
  visibleGopRoutesRef.current=visibleGopRoutes;
+ visibleRailRoutesRef.current=visibleRailRoutes;
  const privacy=useMapPrivacy('openfreemap',()=>setConsent(true));
  const points=items.filter(item=>Number.isFinite(item.lat)&&Number.isFinite(item.lon)&&item.coordinateSource&&relatedIds(item).some((id:string)=>selected.has(id))&&tourismMapKinds(item).some((id:string)=>mapKinds.has(id)));
- useEffect(()=>{let live=true;let instance:any,observer:any,trailGeoJSON:any=null,gopGeoJSON:any=null; if(!consent||!root.current)return;
+ useEffect(()=>{let live=true;let instance:any,observer:any,trailGeoJSON:any=null,gopGeoJSON:any=null,railRoutesGeoJSON:any=null; if(!consent||!root.current)return;
   setError('');
   Promise.all([import('leaflet'),import('../lib/history-tiles.mjs')]).then(async ([L,tileModule])=>{
    if(!live||!root.current)return;
@@ -36,10 +38,14 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
    gopGeoJSON=await fetch(`${import.meta.env.BASE_URL}assets/goep-naturwege-boberg.geojson`).then(r=>r.ok?r.json():null).catch(()=>null);
    if(!live)return;
    if(!gopGeoJSON)setError('Die lokalen GÖP-Weglinien konnten nicht geladen werden. Die Einträge und Originalfaltblätter bleiben verfügbar.');
-   const markers=L.layerGroup().addTo(instance),routeLabels=L.layerGroup().addTo(instance);layer.current=markers;
+   const railFiles=await Promise.all(['marschbahndamm-route.geojson','vierlaender-bahndamm-route.geojson'].map(name=>fetch(`${import.meta.env.BASE_URL}assets/${name}`).then(r=>r.ok?r.json():null).catch(()=>null)));
+   if(!live)return;
+   railRoutesGeoJSON={type:'FeatureCollection',features:railFiles.flatMap(data=>data?.features||[])};
+   if(railFiles.some(data=>!data))setError('Mindestens eine geprüfte Bahntrassengeometrie konnte nicht geladen werden. Die Ortsliste und übrigen Kartenebenen bleiben nutzbar.');
+   const markers=L.layerGroup().addTo(instance),routeLabels=L.layerGroup().addTo(instance),railLines=L.layerGroup().addTo(instance);layer.current=markers;
    const repaint=()=>{
     if(!live)return;
-    markers.clearLayers();routeLabels.clearLayers();
+    markers.clearLayers();routeLabels.clearLayers();railLines.clearLayers();railRouteLayers.current=new Map();
     const groups=new Map<string,any[]>();
     for(const item of itemsRef.current){
      if(!Number.isFinite(item.lat)||!Number.isFinite(item.lon)||!item.coordinateSource||!relatedIds(item).some((id:string)=>selectedRef.current.has(id))||!tourismMapKinds(item).some((id:string)=>mapKindsRef.current.has(id)))continue;
@@ -88,14 +94,31 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
       box.append(heading,facts,status,osm,flyer,list);routeLayer.bindPopup(box);
      }}).addTo(markers);
     }
+    const activeRailIds=new Set(tourismRailRoutes.filter((route:any)=>visibleRailRoutesRef.current.has(route.id)&&mapKindsRef.current.has('routes')&&(!route.directoryItemId||itemsRef.current.some((item:any)=>item.id===route.directoryItemId&&relatedIds(item).some((id:string)=>selectedRef.current.has(id))&&tourismMapKinds(item).some((id:string)=>mapKindsRef.current.has('routes'))))).map((route:any)=>route.id));
+    if(mapKindsRef.current.has('routes')&&railRoutesGeoJSON){
+     for(const routeId of activeRailIds){
+      const routeInfo=tourismRailRoutes.find((entry:any)=>entry.id===routeId),item=itemsRef.current.find((entry:any)=>entry.id===routeInfo?.directoryItemId);if(!routeInfo)continue;
+      const routeStyle={color:routeInfo.color,weight:6,opacity:.96,dashArray:routeInfo.dashArray,lineCap:'round',lineJoin:'round'};
+      const route=L.geoJSON(railRoutesGeoJSON,{filter:(feature:any)=>feature?.properties?.routeId===routeId,style:routeStyle,onEachFeature:(feature:any,routeLayer:any)=>{
+       routeLayer.bindTooltip(routeInfo.name,{sticky:true});
+       const box=document.createElement('div'),heading=document.createElement('strong'),description=document.createElement('p'),facts=document.createElement('p'),status=document.createElement('p'),official=document.createElement('a'),osm=document.createElement('a'),list=document.createElement('a');
+       heading.textContent=routeInfo.name;description.textContent=routeInfo.description;facts.textContent=`Digitale Linienlänge dieses dargestellten Abschnitts: ${(routeInfo.lineLengthMeters/1000).toLocaleString('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2})} km.`;status.textContent=routeInfo.status;
+       official.href=routeInfo.officialUrl;official.target='_blank';official.rel='noopener noreferrer';official.textContent=routeInfo.officialLabel;
+       osm.href=routeInfo.osmUrl;osm.target='_blank';osm.rel='noopener noreferrer';osm.textContent=routeInfo.osmLabel;
+       box.append(heading,description,facts,status,official,document.createTextNode(' · '),osm);
+       if(item){list.href='#tourismus-results';list.textContent='Zum Listeneintrag';list.addEventListener('click',event=>{event.preventDefault();onFocus(item.id);document.querySelector(`[data-tourism-id="${item.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'})});box.append(document.createElement('br'),list)}
+       routeLayer.bindPopup(box,{maxWidth:360});
+      }}).addTo(railLines);railRouteLayers.current.set(routeId,route);
+     }
+    }
    };
    draw.current=repaint;repaint();
    observer=new ResizeObserver(()=>instance.invalidateSize({pan:false}));observer.observe(root.current);
   }).catch(()=>live&&setError('Die touristische Karte konnte nicht gestartet werden. Die verlinkte Ortsliste bleibt verfügbar.'));
   return()=>{live=false;observer?.disconnect();if(map.current){map.current.remove();map.current=null;layer.current=null}draw.current=()=>{};focus.current=()=>{}};
  },[consent]);
- useEffect(()=>{draw.current()},[selected,items,mapKinds,visibleGopRoutes]);
- useEffect(()=>{if(!focusId)return;const item=items.find(x=>x.id===focusId),foundMap=map.current;if(item?.natureTrail&&foundMap){const route=gopRouteLayers.current.get(focusId);if(route){setVisibleGopRoutes(current=>current.has(focusId)?current:new Set([...current,focusId]));foundMap.fitBounds(route.getBounds(),{padding:[28,28]});route.openPopup()}}else if(item?.coordinateSource&&Number.isFinite(item.lat)&&Number.isFinite(item.lon)&&foundMap){foundMap.setView([item.lat,item.lon],Math.max(16,foundMap.getZoom()));layer.current?.eachLayer((marker:any)=>{if(typeof marker.getLatLng!=='function')return;const p=marker.getLatLng();if(Math.abs(p.lat-item.lat)<.00001&&Math.abs(p.lng-item.lon)<.00001)marker.openPopup()})}},[focusId,items,visibleGopRoutes]);
+ useEffect(()=>{draw.current()},[selected,items,mapKinds,visibleGopRoutes,visibleRailRoutes]);
+ useEffect(()=>{if(!focusId)return;const item=items.find(x=>x.id===focusId),foundMap=map.current;if(item?.natureTrail&&foundMap){const route=gopRouteLayers.current.get(focusId);if(route){setVisibleGopRoutes(current=>current.has(focusId)?current:new Set([...current,focusId]));foundMap.fitBounds(route.getBounds(),{padding:[28,28]});route.openPopup()}}else if(item?.railRouteId&&foundMap){setVisibleRailRoutes(current=>current.has(item.railRouteId)?current:new Set([...current,item.railRouteId]));setMapKinds(current=>current.has('routes')?current:new Set([...current,'routes']));mapKindsRef.current=new Set([...mapKindsRef.current,'routes']);const route=railRouteLayers.current.get(item.railRouteId);if(route){foundMap.fitBounds(route.getBounds(),{padding:[32,32]});let opened=false;route.eachLayer((feature:any)=>{if(!opened&&feature.openPopup){feature.openPopup();opened=true}})}}else if(item?.coordinateSource&&Number.isFinite(item.lat)&&Number.isFinite(item.lon)&&foundMap){foundMap.setView([item.lat,item.lon],Math.max(16,foundMap.getZoom()));layer.current?.eachLayer((marker:any)=>{if(typeof marker.getLatLng!=='function')return;const p=marker.getLatLng();if(Math.abs(p.lat-item.lat)<.00001&&Math.abs(p.lng-item.lon)<.00001)marker.openPopup()})}},[focusId,items,visibleGopRoutes,visibleRailRoutes,mapKinds]);
  mapKindsRef.current=mapKinds;
  const markerCount=new Set(points.map(item=>`${item.lat.toFixed(5)}:${item.lon.toFixed(5)}`)).size;
  return <section className="tourism-map panel" aria-labelledby="tourism-map-title">
@@ -107,8 +130,10 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
    <ul>{tourismItems.filter((item:any)=>item.natureTrail).map((item:any)=><li key={item.id}><label className="tourism-route-option"><input type="checkbox" checked={visibleGopRoutes.has(item.id)} onChange={()=>setVisibleGopRoutes(current=>{const next=new Set(current);next.has(item.id)?next.delete(item.id):next.add(item.id);return next})}/><span className="tourism-route-key" aria-hidden="true" style={{backgroundColor:item.routeColor}}/><span>{item.name.replace(' – Natur-Infoweg Boberger Niederung','')} · {item.routeLengthKm.toLocaleString('de-DE')} km · {item.routeDuration} · {item.routeSymbol}</span></label> — <a href={item.source.url} target="_blank" rel="noopener noreferrer">Originalfaltblatt</a></li>)}</ul>
    <p>Die farbigen OpenStreetMap-Wanderwegrelationen wurden mit den GÖP-Karten auf Seite 2 abgeglichen und werden als getrennte Linien dargestellt. Faltblatt- und digitale Linienlängen werden separat ausgewiesen. Die Moorweg-Umleitung ist am Flyer und anhand der aktuellen BUKEA-Hinweise zu Zugang und Sperrung zu beachten. Drei amtliche BUKEA-Bodenlehrpfad-Linien und zehn Tafelpunkte bleiben als eigener, unveränderter Datensatz erhalten.</p>
   </div>
+  <fieldset className="tourism-rail-route-controls"><legend>Getrennte ehemalige Bahntrassen · Radwege</legend>{tourismRailRoutes.map((route:any)=><label className="tourism-route-option" key={route.id}><input type="checkbox" checked={visibleRailRoutes.has(route.id)} onChange={()=>setVisibleRailRoutes(current=>{const next=new Set(current);next.has(route.id)?next.delete(route.id):next.add(route.id);return next})}/><span className={'tourism-route-key tourism-route-key--'+route.id} aria-hidden="true"/><span>{route.name} · {(route.lineLengthMeters/1000).toLocaleString('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2})} km</span></label>)}</fieldset>
+  <p className="tourism-caution">Die Linien zeigen zwei getrennte und unterschiedlich belegte Abschnitte: die als Marschbahndamm benannten OSM-Wege sowie den OSM-Weg „Vierländer Eisenbahndamm“ von Pollhof in Richtung Curslack. Die 22,85 km beziehungsweise 2,35 km sind Längen der gezeichneten digitalen Geometrien. Sie sind keine gemeinsame Route. Für den Marschbahndamm stehen daneben die Quellenangaben von etwa 25 km touristischem Abschnitt und etwa 33 km historischer Gesamtdarstellung; diese Abgrenzungen sind nicht identisch. Der Vierländer Abschnitt wird nicht bis Zollenspieker fortgeschrieben.</p>
   <details className="tourism-map-category-filter"><summary>Kartenkategorien ({mapKinds.size} von {tourismMapCategories.length})</summary><fieldset className="tourism-map-filters"><legend>Kartenkategorien</legend><div className="tourism-filter-chips">{tourismMapCategories.map(category=><label className="tourism-chip" key={category.id}><input type="checkbox" checked={mapKinds.has(category.id)} onChange={()=>setMapKinds(current=>{const next=new Set(current);next.has(category.id)?next.delete(category.id):next.add(category.id);mapKindsRef.current=next;return next})}/>{category.label}</label>)}</div></fieldset></details>
-  {!consent?<><button className="outline small" type="button" onClick={privacy.ask}>Touristenkarte laden</button></>:<><div className="map-toolbar"><button className="outline small" type="button" onClick={()=>{const v=districtOverview(districtBounds,root.current?.clientWidth||800,root.current?.clientHeight||420);map.current?.setView([v.lat,v.lon],v.zoom)}}>Bezirk Bergedorf anzeigen</button><button className="text-button" type="button" onClick={()=>{setConsent(false);setError('')}}>Karte entladen</button></div><div ref={root} className="private-map tourism-map-canvas" role="application" tabIndex={0} aria-label="Touristische Karte für Bergedorf mit Stadtteilgrenzen, ausgewählten Orten, Bodenlehrpfad und vier GÖP-Natur-Infowegen"/><p>{markerCount} belegte Punktstandorte in der aktuellen Suche und Kartenauswahl; insgesamt {tourismItems.length} redaktionelle Datensätze. Der Bodenlehrpfad Boberg wird aus drei amtlichen Wegsegmenten und zehn beschrifteten Tafelpunkten dargestellt; vier getrennt beschriftete OSM-Wanderwegrelationen zeigen die GÖP-Natur-Infowege. Für die Große Bergedorfer Runde liegt weiterhin keine geprüfte Liniengeometrie vor. Stadtteilgrenzen sind eine Orientierung und keine parzellengenaue Lageaussage.</p>{error&&<p role="status">{error}</p>}</>}
+  {!consent?<><button className="outline small" type="button" onClick={privacy.ask}>Touristenkarte laden</button></>:<><div className="map-toolbar"><button className="outline small" type="button" onClick={()=>{const v=districtOverview(districtBounds,root.current?.clientWidth||800,root.current?.clientHeight||420);map.current?.setView([v.lat,v.lon],v.zoom)}}>Bezirk Bergedorf anzeigen</button><button className="text-button" type="button" onClick={()=>{setConsent(false);setError('')}}>Karte entladen</button></div><div ref={root} className="private-map tourism-map-canvas" role="application" tabIndex={0} aria-label="Touristische Karte für Bergedorf mit Stadtteilgrenzen, ausgewählten Orten, zwei getrennten Bahntrassenabschnitten, Bodenlehrpfad und vier GÖP-Natur-Infowegen"/><p>{markerCount} belegte Punktstandorte in der aktuellen Suche und Kartenauswahl; zusätzlich bis zu zwei getrennt schaltbare historische Bahntrassenabschnitte mit geprüfter Liniengeometrie; insgesamt {tourismItems.length} redaktionelle Datensätze. Der Bodenlehrpfad Boberg wird aus drei amtlichen Wegsegmenten und zehn beschrifteten Tafelpunkten dargestellt; vier getrennt beschriftete OSM-Wanderwegrelationen zeigen die GÖP-Natur-Infowege. Für die Große Bergedorfer Runde liegt weiterhin keine geprüfte Liniengeometrie vor. Stadtteilgrenzen sind eine Orientierung und keine parzellengenaue Lageaussage.</p>{error&&<p role="status">{error}</p>}</>}
   {privacy.dialog}<p className="muted">Kartengrundlage und Datenschutz: OpenFreeMap / OpenMapTiles / OpenStreetMap. Geodaten werden nur nach Zustimmung geladen. Koordinatenherkunft steht am jeweiligen Kartenpunkt.</p>
  </section>;
 }
@@ -168,7 +193,7 @@ function TourismCard({item,categoryId,onFocus}:{item:any,categoryId:string,onFoc
   {item.status&&item.status!=='Quelle am 21.11.2026 geprüft'&&<p className="tourism-caution"><strong>Aktualität:</strong> {item.status}</p>}
   <p className="tourism-source"><small>Quelle: {item.source.label} · geprüft {item.checkedOn}</small></p>
   {item.additionalSources?.map((entry:any)=><p className="tourism-source" key={entry.url}><small>Weitere Quelle: <a href={entry.url} target="_blank" rel="noopener noreferrer">{entry.label}</a></small></p>)}
-  <div className="tourism-card-actions">{item.natureTrail?<button className="outline small" type="button" onClick={onFocus}>Weg auf der Karte zeigen</button>:Number.isFinite(item.lat)&&item.coordinateSource?<button className="outline small" type="button" onClick={onFocus}>Auf der Karte zeigen</button>:<span className="tourism-no-coordinate">{item.geometryType==='area'?'Flächengeometrie nicht verifiziert':'Kein belegter Kartenpunkt'}</span>}{item.href?<a href={item.href}>Zum bestehenden Bereich <ArrowUpRight size={15}/></a>:null}<a href={item.source.url} target="_blank" rel="noopener noreferrer">Originalquelle <ExternalLink size={14}/></a></div>
+  <div className="tourism-card-actions">{item.natureTrail?<button className="outline small" type="button" onClick={onFocus}>Weg auf der Karte zeigen</button>:item.railRouteId?<button className="outline small" type="button" onClick={onFocus}>Weg auf der Karte zeigen</button>:Number.isFinite(item.lat)&&item.coordinateSource?<button className="outline small" type="button" onClick={onFocus}>Auf der Karte zeigen</button>:<span className="tourism-no-coordinate">{item.geometryType==='area'?'Flächengeometrie nicht verifiziert':'Kein belegter Kartenpunkt'}</span>}{item.href?<a href={item.href}>Zum bestehenden Bereich <ArrowUpRight size={15}/></a>:null}<a href={item.source.url} target="_blank" rel="noopener noreferrer">Originalquelle <ExternalLink size={14}/></a></div>
   {categoryLinks.length>0&&<p className="tourism-related">Auch passend: {categoryLinks.map((id:string,index:number)=><span key={id}>{index?', ':''}{categoryLabel(id)}</span>)}</p>}
  </article>
 }

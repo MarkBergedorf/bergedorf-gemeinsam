@@ -21,8 +21,8 @@ test('Hamburger Grünplan-Abzug deckt 364 räumlich bestätigte FHH/BWVI-Objekte
 
 test('Die öffentliche Grünflächenanzeige schließt technische Kategorien aus und erhält belegte Erholungsorte',()=>{
  const visible=publicInfrastructureFeatures(data.features),ids=new Set(visible.map(f=>f.id));
- assert.equal(data.features.length,366);assert.equal(visible.length,190);assert.equal(data.features.length-visible.length,176);
- assert.deepEqual(countPublicInfrastructure(visible),{playgrounds:73,sports:18,parks:71,green:4,paths:24});
+ assert.equal(data.features.length,366);assert.equal(visible.length,188);assert.equal(data.features.length-visible.length,178);
+ assert.deepEqual(countPublicInfrastructure(visible),{playgrounds:73,sports:18,parks:71,green:4,paths:22});
  const excludedGreen=data.features.filter(f=>f.properties.category==='green'&&!ids.has(f.id));
  const excludedByLabel=Object.fromEntries(['Grün an Kleingärten','Allgemeines Grün','Schutzgrün','Anderweitige Flächen'].map(label=>[label,excludedGreen.filter(f=>f.properties.categoryLabel===label).length]));
  assert.deepEqual(excludedByLabel,{'Grün an Kleingärten':52,'Allgemeines Grün':102,'Schutzgrün':7,'Anderweitige Flächen':15});
@@ -30,7 +30,21 @@ test('Die öffentliche Grünflächenanzeige schließt technische Kategorien aus 
  for(const id of ['hamburg-gruenplan-002893','hamburg-gruenplan-002895','hamburg-gruenplan-002936','hamburg-gruenplan-003008'])assert(ids.has(id),id);
  assert.equal(publicInfrastructureCategoryLabel(visible.find(f=>f.id==='hamburg-gruenplan-002893')),'Bade- und Erholungsort');
  assert.equal(publicInfrastructureCategoryLabel(visible.find(f=>f.id==='hamburg-gruenplan-003008')),'Öffentlicher Platz');
- assert.equal(data.features.filter(f=>f.properties.category!=='green'&&!ids.has(f.id)).length,0);
+ const hiddenNonGreen=data.features.filter(f=>f.properties.category!=='green'&&!ids.has(f.id));
+ assert.equal(hiddenNonGreen.length,2);
+ assert(hiddenNonGreen.every(f=>f.properties.category==='paths'&&f.properties.title==='Marschenbahnradwanderweg'));
+});
+
+test('Die zwei falsch zugeordneten Marschenbahnmarker sind nur aus der öffentlichen Anzeige entfernt',()=>{
+ const byId=new Map(data.features.map(f=>[f.properties.id,f]));
+ const visibleIds=new Set(publicInfrastructureFeatures(data.features).map(f=>f.properties.id));
+ for(const id of ['005646','002461']){
+  const feature=byId.get(id);assert.ok(feature,id);assert.equal(feature.properties.category,'paths');
+  assert.equal(feature.properties.title,'Marschenbahnradwanderweg');assert.equal(visibleIds.has(id),false,id);
+ }
+ const named=data.features.filter(f=>f.properties.category==='paths'&&f.properties.title==='Marschenbahnradwanderweg');
+ assert.equal(named.length,15);assert.equal(named.filter(f=>visibleIds.has(f.properties.id)).length,13);
+ assert.equal(data.features.length,366,'The source data remains unchanged');
 });
 test('Geschichtskartenfilter zeigt dynamische Zähler statt der alten Sammelzahl 180',()=>{
  const s=readFileSync(new URL('../app/history-map.tsx',import.meta.url),'utf8');
