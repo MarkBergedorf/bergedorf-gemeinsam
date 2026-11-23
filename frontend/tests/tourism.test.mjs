@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {tourismCategories,tourismItems,tourismMarkers,tourismHighlights,tourismMapCategories,tourismMapKinds,filterTourismItems} from '../lib/tourism-data.mjs';
+import {tourismRailRoutes} from '../lib/tourism-rail-routes.mjs';
 import {parseRoute} from '../lib/navigation.mjs';
 
 test('tourism directory has all 12 requested categories and stable unique records',()=>{
@@ -157,6 +158,32 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   assert.match(page,/Weg auf der Karte zeigen/);
   assert.match(page,/Linienlänge der OpenStreetMap-Relation/);
   assert.match(page,/aktuelle Zugangssperrung/);
+});
+
+test('Marschbahndamm and Vierländer Eisenbahndamm are separate, sourced map lines with independent visibility',async()=>{
+  const marsch=JSON.parse(await readFile(new URL('../public/assets/marschbahndamm-route.geojson',import.meta.url),'utf8'));
+  const vier=JSON.parse(await readFile(new URL('../public/assets/vierlaender-bahndamm-route.geojson',import.meta.url),'utf8'));
+  assert.match(marsch.attribution,/OpenStreetMap-Mitwirkende, Open Database License \(ODbL\)/);
+  assert.equal(marsch.metadata.relationVersion,'42');assert.equal(marsch.features.length,1);
+  assert.equal(marsch.features[0].geometry.type,'MultiLineString');
+  assert.equal(marsch.metadata.wayCount,53);assert.equal(marsch.metadata.lineLengthMeters,22850);
+  assert.equal(marsch.features[0].properties.segmentNames.length,5);
+  assert.ok(marsch.features[0].properties.segmentNames.every(name=>name.includes('Marschbahndamm')));
+  assert.equal(vier.features.length,1);assert.equal(vier.features[0].geometry.type,'LineString');
+  assert.equal(vier.features[0].properties.wayId,'23323038');assert.equal(vier.features[0].properties.name,'Vierländer Eisenbahndamm');
+  assert.equal(vier.metadata.lineLengthMeters,2352);assert.match(vier.metadata.geometrySelection,/does not claim to represent the complete/);
+  assert.deepEqual(tourismRailRoutes.map(route=>route.id),['marschbahndamm','vierlaender-bahndamm']);
+  assert.equal(tourismItems.find(item=>item.id==='marschbahndamm').railRouteLengthMeters,22850);
+  assert.equal(tourismItems.find(item=>item.id==='marschbahndamm').routeGeometryStatus.includes('keine ergänzten Verbindungslinien'),true);
+  assert.match(tourismRailRoutes.find(route=>route.id==='vierlaender-bahndamm').status,/Der übrige historische Streckenverlauf bis Zollenspieker wird hier nicht eingezeichnet/i);
+  const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+  assert.match(page,/marschbahndamm-route\.geojson/);assert.match(page,/vierlaender-bahndamm-route\.geojson/);
+  assert.match(page,/tourism-rail-route-controls/);assert.match(page,/railRouteLayers/);assert.match(page,/feature\?\.properties\?\.routeId===routeId/);
+  assert.match(page,/route\.directoryItemId/);assert.match(page,/Weg auf der Karte zeigen/);
+  assert.match(page,/Die Linien zeigen zwei getrennte/);
+  const original=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
+  for(const item of original)assert.ok(tourismItems.some(current=>current.id===item.id),`missing pre-existing tourism item ${item.id}`);
+  assert.equal(tourismItems.length,139,'The route overlays do not add or replace tourism directory entries');
 });
 
 test('all five EntdeckerRouten are separate records without invented route lines',()=>{

@@ -11,8 +11,15 @@ const publicGreenPlaces=new Map([
  ['hamburg-gruenplan-003008','Öffentlicher Platz'],
 ]);
 
+// These two public Green Plan records are mislabeled as the Marschbahn route.
+// The actual mapped alignments are published separately in the tourism map.
+const excludedMisattributedPaths=new Set([
+ 'hamburg-gruenplan-005646', // Pollhof / Brookdeich
+ 'hamburg-gruenplan-002461', // Achterschlag / Curslack
+]);
+
 export function isPubliclyRelevantInfrastructure(feature){
- return feature?.properties?.category!=='green'||publicGreenPlaces.has(feature.id);
+ return !excludedMisattributedPaths.has(feature?.id)&&(feature?.properties?.category!=='green'||publicGreenPlaces.has(feature.id));
 }
 
 export function publicInfrastructureFeatures(features=[]){

@@ -319,6 +319,10 @@
 .tourism-route-option{display:inline-flex;align-items:center;gap:8px;min-height:34px;vertical-align:middle;cursor:pointer}
 .tourism-route-option input{width:18px;height:18px;accent-color:#315f46;flex:0 0 auto}
 .tourism-route-key{display:inline-block;width:26px;height:5px;border:1px solid rgba(0,0,0,.22);border-radius:4px;flex:0 0 auto}
+.tourism-rail-route-controls{display:flex;flex-wrap:wrap;gap:8px 22px;margin:14px 0;padding:10px 14px;border:1px solid var(--line);border-radius:10px}
+.tourism-rail-route-controls legend{padding:0 6px;color:var(--green);font-weight:650}
+.tourism-route-key--marschbahndamm{background:#8a3f08;border-color:#713304}
+.tourism-route-key--vierlaender-bahndamm{background:repeating-linear-gradient(90deg,#08727c 0 6px,transparent 6px 10px);border-color:#075d65}
 .tourism-route-label{padding:2px 6px!important;border:1px solid rgba(25,45,34,.45)!important;border-radius:4px!important;background:rgba(255,255,255,.94)!important;color:#17261d!important;font-size:12px!important;font-weight:750!important;line-height:1.25!important;box-shadow:0 1px 4px #0004!important;white-space:nowrap}
 .tourism-route-label:before{display:none!important}
 .tourism-map-swatch{width:13px;height:13px;border:2px solid #fff;border-radius:50%;background:#315f52;box-shadow:0 0 0 1px #53685c}
