@@ -110,8 +110,12 @@ test('four GÖP nature trail records preserve flyer facts and use separately sou
   const moor=tourismItems.find(x=>x.id==='moorweg-boberg');
   assert.ok(moor.additionalSources.some(x=>x.url.includes('boberger-niederung-165636')));
   assert.match(moor.description,/Unterberg/);
-  assert.match(page,/OpenStreetMap-Wanderwegrelationen wurden mit den GÖP-Karten auf Seite 2 abgeglichen/);
-  assert.match(page,/GÖP-Originalkarte visuell abgeglichen/);
+  assert.doesNotMatch(page,/OpenStreetMap-Wanderwegrelationen wurden mit den GÖP-Karten auf Seite 2 abgeglichen/);
+  assert.doesNotMatch(page,/GÖP-Originalkarte visuell abgeglichen/);
+  assert.match(page,/GÖP-Faltblatt: \$\{Number\(p\.publishedLengthKm\)/);
+  assert.match(page,/OpenStreetMap-Wanderwegrelation/);
+  assert.match(page,/Originalfaltblatt öffnen/);
+  assert.match(page,/Die aktuelle Zugangssperrung und die örtliche Beschilderung der BUKEA beachten/);
 });
 
 test('separately sourced GÖP hiking relations have full multi-line geometry, route labels, popups, and independent visibility',async()=>{
@@ -156,8 +160,11 @@ test('separately sourced GÖP hiking relations have full multi-line geometry, ro
   assert.match(page,/visibleGopRoutes/);
   assert.match(page,/fitBounds\(route\.getBounds\(\)/);
   assert.match(page,/Weg auf der Karte zeigen/);
-  assert.match(page,/Linienlänge der OpenStreetMap-Relation/);
+  assert.doesNotMatch(page,/Linienlänge der OpenStreetMap-Relation/);
   assert.match(page,/aktuelle Zugangssperrung/);
+  assert.match(page,/const visitorDescription=/);
+  assert.match(page,/<p>\{visitorDescription\(item\)\}<\/p>/);
+  assert.match(page,/item\.routeGeometryStatus&&!item\.natureTrail/);
 });
 
 test('Marschbahndamm and Vierländer Eisenbahndamm are separate, sourced map lines with independent visibility',async()=>{
@@ -180,10 +187,33 @@ test('Marschbahndamm and Vierländer Eisenbahndamm are separate, sourced map lin
   assert.match(page,/marschbahndamm-route\.geojson/);assert.match(page,/vierlaender-bahndamm-route\.geojson/);
   assert.match(page,/tourism-rail-route-controls/);assert.match(page,/railRouteLayers/);assert.match(page,/feature\?\.properties\?\.routeId===routeId/);
   assert.match(page,/route\.directoryItemId/);assert.match(page,/Weg auf der Karte zeigen/);
-  assert.match(page,/Die Linien zeigen zwei getrennte/);
+  assert.doesNotMatch(page,/Die Linien zeigen zwei getrennte/);
   const original=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
   for(const item of original)assert.ok(tourismItems.some(current=>current.id===item.id),`missing pre-existing tourism item ${item.id}`);
   assert.equal(tourismItems.length,139,'The route overlays do not add or replace tourism directory entries');
+});
+
+test('Auftrag 27 removes the five internal tourism map explanations from the public page while preserving visitor functions and source notices',async()=>{
+  const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+  for(const internalText of [
+    'Die Karte zeigt nur redaktionell ausgewählte Orte mit nachvollziehbarer Koordinatenquelle',
+    'Die farbigen OpenStreetMap-Wanderwegrelationen wurden mit den GÖP-Karten auf Seite 2 abgeglichen',
+    'Die Linien zeigen zwei getrennte und unterschiedlich belegte Abschnitte',
+    'belegte Punktstandorte in der aktuellen Suche und Kartenauswahl; zusätzlich bis zu zwei getrennt schaltbare historische Bahntrassenabschnitte',
+    'Diese statische Testfassung vermittelt keine Buchungen, Reservierungen, Tickets oder Zahlungen',
+    'Für die Große Bergedorfer Runde liegt weiterhin keine geprüfte Liniengeometrie vor',
+    'GÖP-Originalkarte visuell abgeglichen; OSM-Wanderwegrelation, keine amtliche Vermessung',
+  ])assert.ok(!page.includes(internalText),`public page still contains internal explanation: ${internalText}`);
+  assert.equal(tourismItems.length,139);
+  assert.equal(tourismCategories.length,12);
+  assert.equal(tourismItems.filter(item=>item.natureTrail).length,4);
+  assert.deepEqual(tourismRailRoutes.map(route=>route.id),['marschbahndamm','vierlaender-bahndamm']);
+  assert.match(page,/tourism-rail-route-controls/);
+  assert.match(page,/visibleGopRoutes/);
+  assert.match(page,/visibleRailRoutes/);
+  assert.match(page,/privacy\.dialog/);
+  assert.match(page,/Kartengrundlage und Datenschutz: OpenFreeMap \/ OpenMapTiles \/ OpenStreetMap/);
+  assert.match(page,/Koordinatenherkunft steht am jeweiligen Kartenpunkt/);
 });
 
 test('all five EntdeckerRouten are separate records without invented route lines',()=>{
