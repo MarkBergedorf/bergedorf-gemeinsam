@@ -1,4 +1,5 @@
 import {withoutTechnicalFault} from './technical-fault.mjs';
+import {withoutPr68CopyCleanup} from './pr68-copy-cleanup.mjs';
 import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
 const changes=JSON.parse(readFileSync(new URL('./authority-report-authorized-changes.json',import.meta.url),'utf8'));
-export function withoutAuthorityReport(path,bytes){let s=withoutTechnicalFault(path,bytes).toString();for(const {before,after} of (changes[path.startsWith('frontend/')?path:'frontend/'+path]||[]).toReversed()){assert.equal(s.split(after).length-1,1,'Genau eine beauftragte Meldungs-Ergänzung');s=s.replace(after,before)}return Buffer.from(s)}
+export function withoutAuthorityReport(path,bytes){let s=withoutTechnicalFault(path,bytes).toString();for(const {before,after} of (changes[path.startsWith('frontend/')?path:'frontend/'+path]||[]).toReversed()){assert.equal(s.split(after).length-1,1,'Genau eine beauftragte Meldungs-Ergänzung');s=s.replace(after,before)}return withoutPr68CopyCleanup(path,Buffer.from(s))}

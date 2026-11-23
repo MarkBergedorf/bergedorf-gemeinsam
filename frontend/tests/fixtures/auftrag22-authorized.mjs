@@ -1,4 +1,5 @@
 import {readFileSync} from 'node:fs';
+import {withoutPr68CopyCleanup} from './pr68-copy-cleanup.mjs';
 const changes=JSON.parse(readFileSync(new URL('./auftrag22-authorized-changes.json',import.meta.url),'utf8'));
 export function withoutAuftrag22(path,value){
  const relative=path.replace(/^frontend\//,'');
@@ -7,5 +8,5 @@ export function withoutAuftrag22(path,value){
   if(at<0||(change.before&&value.indexOf(change.after,at+1)>=0))throw new Error(`Auftrag-22-Rücknahme nicht eindeutig: ${relative}`);
   value=value.slice(0,at)+change.before+value.slice(at+change.after.length);
  }
- return value;
+ return withoutPr68CopyCleanup(relative,value);
 }

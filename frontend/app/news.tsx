@@ -16,7 +16,7 @@ export function PressDiscussionPreparation(){return <section className="panel pr
 export function NewsPage(){return <div className="section page-content news-page"><div className="news-intro"><div className="eyebrow">INFORMIEREN & AUSTAUSCHEN</div><h1>Aktuelle Bergedorfer Nachrichten</h1><p>Nachrichten aus dem Bezirk lesen, Originalquellen finden und die spätere Diskussion über Bergedorfer Pressethemen kennenlernen.</p></div>
  <LocalNews dedicated/>
  <section aria-labelledby="hamburg-news-heading"><h2 id="hamburg-news-heading">Weitere Hamburger Nachrichtenmedien</h2><p>Digitale Zeitungsausgaben und Ausgabenübersichten direkt bei den Verlagen.</p><div className="news-media-grid">{regionalNewsMedia.map(m=><article className="panel" key={m.name}><h3>{m.name}</h3><p>{m.note}</p><a className="outline" href={m.url} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer">{m.label} ↗</a>{m.bergUrl&&<a href={m.bergUrl} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer">{m.bergLabel}</a>}</article>)}</div></section>
- 
+
  <PressDiscussionPreparation/>
  </div>}
 // Future display contract only: no public records, storage or submission are connected.
