@@ -415,8 +415,8 @@
 .site-header nav>.primary-nav-list .nav-tab-slot>button:hover{filter:brightness(.95);}
 .site-header nav>.primary-nav-list .nav-tab-slot>button[aria-current=page]{background:#285a48;color:#fff;border-color:#173d2c;box-shadow:0 3px 8px rgba(24,48,34,.28);z-index:1;}
 .site-header nav>.primary-nav-list .nav-tab-slot>button:focus-visible{outline:3px solid #d49438;outline-offset:3px;z-index:2;}
-.site-header.navigation-compact nav{display:none;}
-.site-header.navigation-compact nav.open{display:block;}
+.site-header.navigation-compact nav{display:none!important;}
+.site-header.navigation-compact nav.open{display:block!important;}
 .site-header.navigation-compact .menu-toggle{display:inline-flex;}
 .site-header.navigation-compact nav.open>.primary-nav-list,.site-header.navigation-compact nav.open>.primary-nav-list.is-ready{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px;height:auto!important;width:auto;max-width:1240px;margin:0 auto;padding:0 20px;overflow:visible;visibility:visible;}
 .site-header.navigation-compact nav.open .nav-tab-slot{width:auto!important;flex:auto!important;height:auto!important;min-width:0;}

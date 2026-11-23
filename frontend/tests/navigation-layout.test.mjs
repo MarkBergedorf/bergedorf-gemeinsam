@@ -31,8 +31,8 @@ test('Desktop-Hauptnavigation zeigt alle zwölf unveränderten Ziele in einer ge
  assert.ok(component.includes("window.addEventListener('resize',measure)"));
  assert.ok(component.includes("onKeyDown={e=>{if(e.key==='Escape'&&mobile)"));
  assert.ok(css.includes('.site-header.navigation-measuring nav{display:block;position:absolute;inset:100% 0 auto;visibility:hidden;}'));
- assert.ok(css.includes('.site-header.navigation-compact nav{display:none;}'));
- assert.ok(css.includes('.site-header.navigation-compact nav.open{display:block;}'));
+ assert.ok(css.includes('.site-header.navigation-compact nav{display:none!important;}'));
+ assert.ok(css.includes('.site-header.navigation-compact nav.open{display:block!important;}'));
  assert.ok(css.includes('.site-header.navigation-compact nav>.primary-nav-list'));
  assert.ok(!css.includes('.site-header nav{display:none;height:auto!important;}'));
  assert.ok(css.includes('min-height:48px'));
