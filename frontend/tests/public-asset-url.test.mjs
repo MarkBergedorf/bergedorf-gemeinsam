@@ -10,6 +10,10 @@ test('Kartenassets bleiben im GitHub-Pages-Projektpfad',()=>{
  assert.equal(publicAssetUrl('assets/history-liberty.json','/',base),'https://markbergedorf.github.io/assets/history-liberty.json');
 });
 
+test('Basispfade ohne abschließenden Schrägstrich bleiben Verzeichnisse',()=>{
+ assert.equal(publicAssetUrl('assets/bergedorf-boundary.geojson','/bergedorf-gemeinsam','https://markbergedorf.github.io/bergedorf-gemeinsam/'),'https://markbergedorf.github.io/bergedorf-gemeinsam/assets/bergedorf-boundary.geojson');
+});
+
 test('alle OpenFreeMap-Renderer verwenden den konfigurierten Vite-Basispfad',async()=>{
  const files=['history-map.tsx','organisation-map.tsx','organisation-location.tsx','historical-encounters-map.tsx','tourism.tsx'];
  for(const file of files){
