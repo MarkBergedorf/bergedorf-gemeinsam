@@ -3,7 +3,7 @@
   "files": {
     "frontend/app/history-map.tsx": {
       "before": "0df0aa930bbf8dd61ee29f2873aadd7b6448c6b1db7a978087d8302fe3530d3e",
-      "after": "c612af1ad68de3de1704b550709d0630155184a4b572ea0bba7eb07af95ba097"
+      "after": "83f44911495fcaaa254d2fd9d28aff3f91b29b442028faccb818662ede1fb408"
     },
     "frontend/app/map-legend.tsx": {
       "before": "52e6d6e449693459d3b39567b2e57b658a18964bd81be7b4c7003cbe58fb9246",
