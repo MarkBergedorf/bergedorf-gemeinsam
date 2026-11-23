@@ -46,3 +46,15 @@ test('historical map consent can be rejected or granted and the loaded map can b
  assert(component.includes('onClick={()=>historyMapConsent.set(false)}>Karte entladen'));
  assert(component.includes('disabled={!consent}'));
 });
+
+
+test('cluster marker summaries and historic map tooltips remain readable and open within the viewport',()=>{
+ const component=readFileSync('app/historical-encounters-map.tsx','utf8'),css=readFileSync('app/historical-encounters-map.css','utf8');
+ assert.match(component,/cluster\.entries\.length\+' historische Einträge|\$\{cluster\.entries\.length\} historische Einträge/);
+ assert.match(component,/tip\.append\(summary,count\)/);
+ assert.match(component,/maxHeight:Math\.round\(window\.innerHeight\*\.65\),autoPan:true/);
+ assert.match(css,/\.historic-map-tooltip\{[^}]*width:min\(260px,calc\(100vw - 48px\)\)[^}]*min-width:min\(190px,calc\(100vw - 48px\)\)/);
+ const fullMapPage=readFileSync('app/history-map.tsx','utf8');
+ assert.doesNotMatch(fullMapPage,/Straßenkarte: OpenFreeMap Liberty mit entlang der Straßen gesetzten Namen/);
+ assert.match(fullMapPage,/<details><summary>Kartenquellen und Datenschutz/);
+});

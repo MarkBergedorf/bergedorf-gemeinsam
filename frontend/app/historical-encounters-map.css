@@ -19,7 +19,7 @@
 .loneliness-page .historic-map-popup img{display:block;width:100%;max-height:190px;object-fit:cover;margin:.5rem 0}
 .loneliness-page .historic-map-popup figure{margin:.5rem 0;padding:.4rem;background:#f5f0e4}
 .loneliness-page .historic-map-popup figcaption{font-size:.85rem;line-height:1.4}
-.loneliness-page .historic-map-tooltip{display:grid;gap:.3rem;max-width:180px;white-space:normal;font-size:.85rem;line-height:1.3}
+.loneliness-page .historic-map-tooltip{box-sizing:border-box;display:grid;gap:.3rem;width:min(260px,calc(100vw - 48px));min-width:min(190px,calc(100vw - 48px));max-width:min(260px,calc(100vw - 48px));white-space:normal;overflow-wrap:break-word;word-break:normal;font-size:.85rem;line-height:1.4}
 .loneliness-page .historic-map-tooltip img{width:100%;max-height:75px;object-fit:cover}
 .loneliness-page .historic-map-popup small{display:block;margin:.4rem 0;color:#4c473c}
 .loneliness-page .historic-map-popup a{display:inline-block;margin:.35rem 0;min-height:36px}
