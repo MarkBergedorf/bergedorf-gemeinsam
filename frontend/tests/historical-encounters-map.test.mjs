@@ -52,7 +52,7 @@ test('cluster marker summaries and historic map tooltips remain readable and ope
  const component=readFileSync('app/historical-encounters-map.tsx','utf8'),css=readFileSync('app/historical-encounters-map.css','utf8');
  assert.match(component,/cluster\.entries\.length\+' historische Einträge|\$\{cluster\.entries\.length\} historische Einträge/);
  assert.match(component,/tip\.append\(summary,count\)/);
- assert.match(component,/maxHeight:Math\.round\(window\.innerHeight\*\.65\),autoPan:true/);
+ assert.match(component,/maxHeight:Math\.max\(220,Math\.min\(Math\.round\(window\.innerHeight\*\.5\),map\.getSize\(\)\.y-64\)\),autoPan:true/);
  assert.match(css,/\.historic-map-tooltip\{[^}]*width:min\(260px,calc\(100vw - 48px\)\)[^}]*min-width:min\(190px,calc\(100vw - 48px\)\)/);
  const fullMapPage=readFileSync('app/history-map.tsx','utf8');
  assert.doesNotMatch(fullMapPage,/Straßenkarte: OpenFreeMap Liberty mit entlang der Straßen gesetzten Namen/);
