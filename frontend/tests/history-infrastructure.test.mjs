@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
 import {orientationStyle} from '../lib/map-orientation.mjs';
-import {clusterPoints} from '../lib/map-clusters.mjs';import historicalPlaces from '../lib/historical-places-4.json' with {type:'json'};
+import {clusterPoints} from '../lib/map-clusters.mjs';import {countPublicInfrastructure,publicInfrastructureCategoryLabel,publicInfrastructureFeatures} from '../lib/history-infrastructure-visibility.mjs';import historicalPlaces from '../lib/historical-places-4.json' with {type:'json'};
 const read=f=>JSON.parse(readFileSync(new URL(f,import.meta.url),'utf8'));
 const base=read('../public/assets/history-liberty.json'),data=read('../public/assets/history-infrastructure.geojson');
 const districts=read('../public/assets/bergedorf-stadtteile.geojson');
@@ -18,6 +18,29 @@ test('Hamburger Grünplan-Abzug deckt 364 räumlich bestätigte FHH/BWVI-Objekte
  assert(data.features.filter(f=>f.id.startsWith('hamburg-gruenplan-')).every(f=>['FHH','BWVI - HNG'].includes(f.properties.ownership)));
  assert.equal(data.metadata.districtPropertyGeometryDifferences.length,7);
 });
+
+test('Die öffentliche Grünflächenanzeige schließt technische Kategorien aus und erhält belegte Erholungsorte',()=>{
+ const visible=publicInfrastructureFeatures(data.features),ids=new Set(visible.map(f=>f.id));
+ assert.equal(data.features.length,366);assert.equal(visible.length,190);assert.equal(data.features.length-visible.length,176);
+ assert.deepEqual(countPublicInfrastructure(visible),{playgrounds:73,sports:18,parks:71,green:4,paths:24});
+ const excludedGreen=data.features.filter(f=>f.properties.category==='green'&&!ids.has(f.id));
+ const excludedByLabel=Object.fromEntries(['Grün an Kleingärten','Allgemeines Grün','Schutzgrün','Anderweitige Flächen'].map(label=>[label,excludedGreen.filter(f=>f.properties.categoryLabel===label).length]));
+ assert.deepEqual(excludedByLabel,{'Grün an Kleingärten':52,'Allgemeines Grün':102,'Schutzgrün':7,'Anderweitige Flächen':15});
+ for(const id of ['002963','002965','002869','006305','006480','005481'])assert(!ids.has('hamburg-gruenplan-'+id),id);
+ for(const id of ['hamburg-gruenplan-002893','hamburg-gruenplan-002895','hamburg-gruenplan-002936','hamburg-gruenplan-003008'])assert(ids.has(id),id);
+ assert.equal(publicInfrastructureCategoryLabel(visible.find(f=>f.id==='hamburg-gruenplan-002893')),'Bade- und Erholungsort');
+ assert.equal(publicInfrastructureCategoryLabel(visible.find(f=>f.id==='hamburg-gruenplan-003008')),'Öffentlicher Platz');
+ assert.equal(data.features.filter(f=>f.properties.category!=='green'&&!ids.has(f.id)).length,0);
+});
+test('Geschichtskartenfilter zeigt dynamische Zähler statt der alten Sammelzahl 180',()=>{
+ const s=readFileSync(new URL('../app/history-map.tsx',import.meta.url),'utf8');
+ assert(s.includes('countPublicInfrastructure(visibleInfrastructureFeatures)'));
+ assert(s.includes('Weitere Grün- und Erholungsorte'));
+ assert(!s.includes('Weitere Grünflächen (180)'));
+ const legend=readFileSync(new URL('../app/history-map-legend.tsx',import.meta.url),'utf8');
+ for(const text of ['176 Einträge','Hohendeicher See','Grachtenplatz','Der vollständige Grünplan-Abzug bleibt'])assert(legend.includes(text),text);
+});
+
 test('Jeder Hamburger Grünplan-Punkt liegt im Geodatensatz des zugeordneten Stadtteils',()=>{
  const insideRing=(pt,ring)=>{let c=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if(((a[1]>pt[1])!==(b[1]>pt[1]))&&pt[0]<(b[0]-a[0])*(pt[1]-a[1])/(b[1]-a[1])+a[0])c=!c;}return c};
  const inFeature=(pt,g)=>{const polys=g.type==='Polygon'?[g.coordinates]:g.coordinates;return polys.some(poly=>insideRing(pt,poly[0])&&!poly.slice(1).some(r=>insideRing(pt,r)))};
