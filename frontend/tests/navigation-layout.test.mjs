@@ -25,10 +25,16 @@ test('Desktop-Hauptnavigation zeigt alle zwölf unveränderten Ziele in einer ge
  assert.match(boot,/\.site-header\.navigation-measuring nav\s*\{[\s\S]*display:\s*block\s*!important\s*;/);
  assert.ok(css.includes('transform:rotate(-30deg)'));
  assert.ok(css.includes('padding:0 0 0 20px'));
+ assert.ok(css.includes('justify-content:space-between'));
  assert.ok(css.includes('transform-origin:left bottom'));
  assert.ok(component.includes('header.clientWidth-parseFloat(css.paddingLeft||\'0\')-parseFloat(css.paddingRight||\'0\')'));
  assert.ok(component.includes('observer.observe(header)'));
- assert.ok(component.includes("window.addEventListener('resize',measure)"));
+ assert.ok(component.includes("window.addEventListener('resize',schedule)"));
+ assert.ok(component.includes("window.addEventListener('orientationchange',schedule)"));
+ assert.ok(component.includes("window.visualViewport?.addEventListener('resize',schedule)"));
+ assert.ok(component.includes('observer.observe(document.documentElement)'));
+ assert.ok(component.includes('requestAnimationFrame(()=>{frame=requestAnimationFrame'));
+ assert.ok(component.includes('window.setTimeout(()=>{if(!disposed)measure()},160)'));
  assert.ok(component.includes("onKeyDown={e=>{if(e.key==='Escape'&&mobile)"));
  assert.ok(css.includes('.site-header.navigation-measuring nav{display:block;position:absolute;inset:100% 0 auto;visibility:hidden;}'));
  assert.ok(css.includes('.site-header.navigation-compact nav{display:none!important;}'));

@@ -37,9 +37,17 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
    const next=navigationTabLayout(widths,width);
    setLayout(previous=>previous&&next&&previous.fontSize===next.fontSize&&previous.totalWidth===next.totalWidth&&previous.height===next.height?previous:previous===null&&next===null?previous:next);
   };
+  let frame=0,retry=0,disposed=false;
+  const schedule=()=>{
+   if(frame)cancelAnimationFrame(frame);
+   frame=requestAnimationFrame(()=>{frame=requestAnimationFrame(()=>{frame=0;if(!disposed)measure()})});
+   window.clearTimeout(retry);retry=window.setTimeout(()=>{if(!disposed)measure()},160);
+  };
   measure();
-  const observer=new ResizeObserver(measure);observer.observe(header);window.addEventListener('resize',measure);
-  return()=>{observer.disconnect();window.removeEventListener('resize',measure)};
+  const observer=new ResizeObserver(schedule);observer.observe(header);observer.observe(document.documentElement);
+  window.addEventListener('resize',schedule);window.addEventListener('orientationchange',schedule);window.visualViewport?.addEventListener('resize',schedule);
+  const fontsReady=()=>{if(!disposed)schedule()};document.fonts?.ready.then(fontsReady);
+  return()=>{disposed=true;observer.disconnect();window.clearTimeout(retry);if(frame)cancelAnimationFrame(frame);window.removeEventListener('resize',schedule);window.removeEventListener('orientationchange',schedule);window.visualViewport?.removeEventListener('resize',schedule)};
  },[itemKey]);
  useEffect(()=>{if(layout!==undefined&&layout!==null&&mobile)setMobile(false)},[layout,mobile]);
  function go(target:string){navigate(target);setMobile(false)}
