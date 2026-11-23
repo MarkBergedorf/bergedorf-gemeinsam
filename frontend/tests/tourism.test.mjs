@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {tourismCategories,tourismItems,tourismMarkers,tourismHighlights,tourismMapCategories,tourismMapKinds,filterTourismItems} from '../lib/tourism-data.mjs';
 import {tourismRailRoutes} from '../lib/tourism-rail-routes.mjs';
+import {tourismMapRoutes} from '../lib/tourism-map-routes.mjs';
 import {parseRoute} from '../lib/navigation.mjs';
 
 test('tourism directory has all 12 requested categories and stable unique records',()=>{
@@ -55,20 +56,23 @@ test('tourism search, category and free filters combine and return empty states 
   assert.equal(parseRoute('#tourismus').page,'tourismus');
 });
 
-test('all 93 original tourism records retain their names, categories, descriptions and main sources',async()=>{
+test('all 93 original tourism records remain; Auftrag 28 revisions are limited to the specified location records',async()=>{
   const baseline=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
   const current=new Map(tourismItems.map(item=>[item.id,item]));
+  const revised=new Set(['st-petri','altstadt','serrahn','rathaus','sternwarte','kirchen-vierlande','bahnhof-alt','spaziergang','kirchentour']);
   assert.equal(baseline.length,93);
   for(const original of baseline){
     const item=current.get(original.id);
     assert.ok(item,`original record missing: ${original.id}`);
-    assert.equal(item.name,original.name,original.id);
+    if(!revised.has(original.id))assert.equal(item.name,original.name,original.id);
     assert.equal(item.category,original.category,original.id);
-    assert.equal(item.description,original.description,original.id);
+    if(!revised.has(original.id))assert.equal(item.description,original.description,original.id);
     assert.equal(item.source.url,original.source,original.id);
   }
+  assert.deepEqual([...revised].filter(id=>!current.has(id)),[]);
   assert.ok(tourismItems.length>baseline.length,'new records must extend the directory');
-  for(const item of tourismItems.filter(x=>!baseline.some(old=>old.id===x.id)))assert.equal(item.checkedOn,'2026-11-22',item.id);
+  const latestAdditions=new Set(['kupferhofterrassen','villenviertel','st-johannis-neuengamme','st-johannis-curslack','st-nicolai-altengamme','st-severini-kirchwerder']);
+  for(const item of tourismItems.filter(x=>!baseline.some(old=>old.id===x.id)))assert.equal(item.checkedOn,latestAdditions.has(item.id)?'2026-11-23':'2026-11-22',item.id);
 });
 
 test('the ten source-selected highlights are traceable and linked to existing records',()=>{
@@ -190,7 +194,7 @@ test('Marschbahndamm and Vierländer Eisenbahndamm are separate, sourced map lin
   assert.doesNotMatch(page,/Die Linien zeigen zwei getrennte/);
   const original=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
   for(const item of original)assert.ok(tourismItems.some(current=>current.id===item.id),`missing pre-existing tourism item ${item.id}`);
-  assert.equal(tourismItems.length,139,'The route overlays do not add or replace tourism directory entries');
+  assert.equal(tourismItems.length,145,'The route overlays do not add or replace tourism directory entries');
 });
 
 test('Auftrag 27 removes the five internal tourism map explanations from the public page while preserving visitor functions and source notices',async()=>{
@@ -204,7 +208,7 @@ test('Auftrag 27 removes the five internal tourism map explanations from the pub
     'Für die Große Bergedorfer Runde liegt weiterhin keine geprüfte Liniengeometrie vor',
     'GÖP-Originalkarte visuell abgeglichen; OSM-Wanderwegrelation, keine amtliche Vermessung',
   ])assert.ok(!page.includes(internalText),`public page still contains internal explanation: ${internalText}`);
-  assert.equal(tourismItems.length,139);
+  assert.equal(tourismItems.length,145);
   assert.equal(tourismCategories.length,12);
   assert.equal(tourismItems.filter(item=>item.natureTrail).length,4);
   assert.deepEqual(tourismRailRoutes.map(route=>route.id),['marschbahndamm','vierlaender-bahndamm']);
@@ -230,7 +234,7 @@ test('tourism map categories filter marked locations and keep coordinate evidenc
   assert.ok(tourismMapKinds(tourismItems.find(x=>x.id==='weinfass')).includes('special-stays'));
   assert.ok(tourismMapKinds(tourismItems.find(x=>x.id==='gedenkstaette')).includes('highlights'));
   assert.ok(tourismItems.filter(x=>x.geometryType==='area').every(x=>!Number.isFinite(x.lat)&&!Number.isFinite(x.lon)));
-  assert.equal(tourismMarkers.length,21);
+  assert.equal(tourismMarkers.length,71);
   for(const id of ['hiamo','haus-anna-elbe','hof-eggers'])assert.ok(tourismMarkers.some(x=>x.id===id&&x.coordinateSource.startsWith('https://www.openstreetmap.org/')),id);
 });
 
@@ -287,7 +291,8 @@ test('new tourism additions preserve the 112-entry base, separate verified offer
   assert.ok(tourismItems.find(x=>x.id==='hiamo').bikeFriendly);
   assert.deepEqual(tourismItems.find(x=>x.id==='hiamo').bikeFeatures,['Listung auf der Bett+Bike-Unterkunftsplattform','Fahrradverleih und E-Bike-Verleih','Kooperation mit einer Fahrradwerkstatt','Lunchpakete','kostenfreies WLAN']);
   const originals=JSON.parse(await readFile(new URL('./fixtures/tourism-original-records.json',import.meta.url),'utf8'));
-  for(const item of tourismItems.filter(x=>!originals.some(old=>old.id===x.id)))assert.equal(item.checkedOn,'2026-11-22',item.id);
+  const latestAdditions=new Set(['kupferhofterrassen','villenviertel','st-johannis-neuengamme','st-johannis-curslack','st-nicolai-altengamme','st-severini-kirchwerder']);
+  for(const item of tourismItems.filter(x=>!originals.some(old=>old.id===x.id)))assert.equal(item.checkedOn,latestAdditions.has(item.id)?'2026-11-23':'2026-11-22',item.id);
 });
 
 test('all 112 tourism entries published at the start of Ergänzungsauftrag 21.2 keep their full baseline fields',async()=>{
@@ -297,10 +302,46 @@ test('all 112 tourism entries published at the start of Ergänzungsauftrag 21.2 
   for(const old of baseline){
     const item=current.get(old.id);
     assert.ok(item,`original published entry missing: ${old.id}`);
-    assert.equal(item.name,old.name,old.id);
+    if(!['st-petri','altstadt','serrahn','rathaus','sternwarte','kirchen-vierlande','bahnhof-alt'].includes(old.id))assert.equal(item.name,old.name,old.id);
     assert.equal(item.category,old.category,old.id);
-    assert.equal(item.description,old.description,old.id);
+    if(!['st-petri','altstadt','serrahn','rathaus','sternwarte','kirchen-vierlande','bahnhof-alt','spaziergang','kirchentour'].includes(old.id))assert.equal(item.description,old.description,old.id);
     assert.equal(item.source.url,old.source,old.id);
   }
+});
+
+test('Arbeitsauftrag 28 separates the named sights, maps sourced locations, and only links the walk GPX',async()=>{
+  const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+  const byId=new Map(tourismItems.map(item=>[item.id,item]));
+  assert.equal(tourismCategories.length,12);
+  assert.equal(tourismItems.length,145);
+  assert.equal(tourismMarkers.length,71);
+  for(const id of ['st-petri','altstadt','serrahn','kupferhofterrassen','rathaus','villenviertel','sternwarte','riepenburger-muehle','st-johannis-neuengamme','st-johannis-curslack','st-nicolai-altengamme','st-severini-kirchwerder','bahnhof-alt'])assert.ok(byId.has(id),`missing independent directory item ${id}`);
+  for(const id of ['st-petri','altstadt','serrahn','kupferhofterrassen','rathaus','sternwarte','riepenburger-muehle','st-johannis-neuengamme','st-johannis-curslack','st-nicolai-altengamme','st-severini-kirchwerder','bahnhof-alt']){
+    const item=byId.get(id);
+    assert.ok(Number.isFinite(item.lat)&&Number.isFinite(item.lon),`${id}: sourced map coordinate required`);
+    assert.match(item.coordinateSource,/openstreetmap\.org\/(?:node|way|relation)\//,id);
+  }
+  assert.equal(byId.get('villenviertel').geometryType,'area');
+  assert.equal(byId.get('villenviertel').lat,undefined);
+  assert.equal(byId.get('serrahn').id,'serrahn');
+  assert.notEqual(byId.get('serrahn').lat,byId.get('kupferhofterrassen').lat);
+  assert.equal(byId.get('spaziergang').routeStations.length,12);
+  assert.match(byId.get('spaziergang').description,/etwa 3 km/);
+  assert.equal(byId.get('spaziergang').linkOnlyRouteUrl,'https://www.entdeckerrouten.org/download-vum-route-6/');
+  assert.equal(byId.get('spaziergang').mapRouteId,undefined,'Walk route geometry is not republished');
+  assert.equal(byId.get('kirchentour').routeLengthKm,28);
+  assert.equal(byId.get('kirchentour').mapRouteId,'vierlaender-kirchentour');
+  assert.deepEqual(byId.get('kirchentour').routePlaceIds,['st-johannis-curslack','st-johannis-neuengamme','st-severini-kirchwerder','st-nicolai-altengamme']);
+  assert.deepEqual(tourismMapRoutes.map(route=>route.id),['vierlaender-kirchentour']);
+  const geo=JSON.parse(await readFile(new URL('../public/assets/vierlaender-kirchentour.geojson',import.meta.url),'utf8'));
+  assert.match(geo.attribution,/OpenStreetMap-Mitwirkende, Open Database License \(ODbL\) 1\.0/);
+  assert.equal(geo.features.length,1);
+  assert.equal(geo.features[0].geometry.type,'MultiLineString');
+  assert.equal(geo.metadata.lineLengthMeters,30263);
+  assert.equal(byId.get('kirchentour').additionalSources.some(source=>source.url==='https://www.openstreetmap.org/relation/7398284'),true);
+  assert.match(page,/tourismus-geschichte/);
+  assert.match(page,/tourismus-orte/);
+  assert.match(page,/pendingFocus\.current=focusId/);
+  assert.match(page,/mapRouteLayers\.current\.get\(item\.mapRouteId\)/);
 });
 

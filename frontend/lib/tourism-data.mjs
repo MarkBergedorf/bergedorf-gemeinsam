@@ -1,7 +1,7 @@
 export const tourismCheckedOn='2026-11-21';
 
 export const tourismCategories=[
- {id:'sehenswuerdigkeiten',label:'Sehenswürdigkeiten & Geschichte',short:'Geschichte'},
+ {id:'sehenswuerdigkeiten',label:'Geschichte & Sehenswürdigkeiten',short:'Geschichte'},
  {id:'natur',label:'Natur, Parks & Ausflugsziele',short:'Natur'},
  {id:'rundgaenge',label:'Stadtrundgänge & Besuchsvorschläge',short:'Rundgänge'},
  {id:'kultur',label:'Veranstaltungen, Kultur & Führungen',short:'Kultur'},
@@ -212,6 +212,93 @@ export const tourismItems=[
  verified('vierlaender-volks-schuetzenfest','Vierländer Volks- und Schützenfest – Veranstalterinformation','kultur','Die Vierländer Schützengesellschaft veröffentlicht auf ihrer Website Informationen zum Volks- und Schützenfest und frühere beziehungsweise aktuelle Ausgaben. Ein künftiger Termin wird hier erst nach einer konkreten Ankündigung übernommen. Veranstaltungsort, Programm und Zugang der jeweiligen Ausgabe beim Veranstalter prüfen.','Vier- und Marschlande','Veranstaltungsort je Ausgabe beim Veranstalter','https://www.vsg-schuetzen.de/','Vierländer Schützengesellschaft von 1592 e. V.',{eventVenue:true,categoryLinks:['familie'],status:'Keine zukünftige Ausgabe aus vergangenen Veranstaltungsterminen abgeleitet'}),
  verified('vierlaender-erdbeerfest','Vierländer Erdbeerfest am Rieck Haus – Veranstaltungsinformation','kultur','Das Hamburger Veranstaltungsportal beschreibt das Erdbeerfest am Freilichtmuseum Rieck Haus mit regionalen Produkten und kulturellem Programm. Die Quelle listet die Ausgabe am 20./21. Juni 2026; diese Termine sind vergangen und werden nicht als nächster Termin dargestellt. Künftige Daten nur nach neuer Veranstalterankündigung.','Curslack','Freilichtmuseum Rieck Haus, Curslacker Deich 284, 21039 Hamburg','https://www.hamburg.de/freizeit/strassenfeste/vierlaender-erdbeerfest-313850','Freie und Hansestadt Hamburg',{eventVenue:true,categoryLinks:['familie','praktisch'],status:'Ausgabe 2026 ist vergangen; künftiger Termin nicht bestätigt',additionalSources:[{url:'https://www.bergedorfer-museumslandschaft.de/programm/konzerte',label:'Bergedorfer Museumslandschaft – Schlosskonzerte und Programm'}]})
 ];
+
+const tourismRevision=(id,patch)=>{const item=tourismItems.find(entry=>entry.id===id);if(!item)throw new Error(`Unknown tourism record: ${id}`);if(patch.tourismGroup==='geschichte')patch={...patch,categoryLinks:[...new Set([...(patch.categoryLinks||item.categoryLinks||[]),'sehenswuerdigkeiten'])]};Object.assign(item,patch);return item};
+
+// Split individually locatable sites that had previously been combined in one tourism card.
+tourismRevision('st-petri',{name:'St. Petri und Pauli',address:'Bergedorfer Schloßstraße 5, 21029 Hamburg',description:'Historische Kirche im Zentrum Bergedorfs. Besichtigungsmöglichkeiten richten sich nach Gottesdiensten und dem aktuellen Besuchsangebot der Kirchengemeinde.',tourismGroup:'sehenswuerdigkeiten',additionalSources:[{url:'https://www.nordkirche.de/adressen/institutionen/detailansicht/institution/st-petri-und-pauli',label:'Nordkirche – St. Petri und Pauli, Kirchenanschrift'},{url:'https://serviceportal.kirche-hamburg.de/gemeinden/ev-luth-kirchengemeinde-st-petri-und-pauli-zu-bergedorf/kontakte.html',label:'Kirche Hamburg – St. Petri und Pauli zu Bergedorf'}]});
+tourismRevision('altstadt',{name:'Historischer Stadtkern Bergedorf',description:'Der historische Stadtkern umfasst die Straßenzüge rund um Sachsentor und Alte Holstenstraße mit Fachwerk- und Bürgerhäusern, Einkaufspassagen und historischen Ortslagen. Der Kartenpunkt im öffentlichen Fußgängerbereich dient nur der Orientierung und grenzt das historische Stadtgebiet nicht geometrisch ab.',tourismGroup:'sehenswuerdigkeiten'});
+tourismRevision('serrahn',{name:'Bergedorfer Hafen – Serrahn',description:'Der Serrahn ist der alte Bergedorfer Hafen. Das Hafenbecken, seine Uferfassungen und der erhaltene Drehkran sind Zeugnisse der Stadt- und Industriegeschichte. Heute ist das öffentlich zugängliche Ufer ein Aufenthaltsort; hier beginnen Fahrten und der Bergedorfer Spaziergang.',address:'Serrahnstraße, 21029 Hamburg',tourismGroup:'sehenswuerdigkeiten',additionalSources:[{url:'https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/planen-bauen-wohnen/stadtplanung/bergedorfer-hafen-serrahn-946708',label:'Bezirksamt Bergedorf – Bergedorfer Hafen/Serrahn und Erhaltungsverordnung'},{url:'https://www.hamburg.de/resource/blob/56140/1740fa7efdb8c05ab1abe14b3644a870/serrahn-2030-data.pdf',label:'Denkmalschutzamt Hamburg – Serrahn 2030: Denkmalpflegerische Einordnung'},{url:'https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/planen-bauen-wohnen/stadtplanung/umgestaltung-serrahnstrasse-ueberblick-1049316',label:'Bezirksamt Bergedorf – Umgestaltung der Serrahnstraße'},{url:'https://www.openstreetmap.org/node/4825846717',label:'OpenStreetMap – historischer Hafenkran am Serrahn'}]});
+tourismRevision('rathaus',{name:'Rathaus Bergedorf',description:'Das denkmalgeschützte Rathaus an der Wentorfer Straße ist ein eigenständiges historisches Gebäude. Innenbesichtigungen und Öffnungszeiten richten sich nach den aktuellen Informationen des Bezirksamts.',tourismGroup:'sehenswuerdigkeiten',additionalSources:[{url:'https://www.openstreetmap.org/way/237975218',label:'OpenStreetMap – Bergedorfer Rathaus'}]});
+tourismRevision('sternwarte',{name:'Hamburger Sternwarte',description:'Denkmalgeschütztes Ensemble der Universität Hamburg am Gojenbergsweg. Der Astronomiepark ist Bestandteil des Sternwartengeländes und wird nicht als eigenständiger zusätzlicher Ort gezählt. Der Park ist laut Universität täglich geöffnet; historische Teleskopkuppeln sind im Rahmen angekündigter Führungen zugänglich. Bauarbeiten können den Campus bis Ende 2026 beeinträchtigen. Die Teleskopkuppeln sind laut Universität nicht barrierefrei.',tourismGroup:'sehenswuerdigkeiten',additionalSources:[{url:'https://www.openstreetmap.org/relation/4805395',label:'OpenStreetMap – Besucherzentrum Hamburger Sternwarte'}]});
+tourismRevision('riepenburger-muehle',{tourismGroup:'sehenswuerdigkeiten',additionalSources:[{url:'https://www.openstreetmap.org/node/1809223776',label:'OpenStreetMap – Riepenburger Mühle'}]});
+tourismRevision('kirchen-vierlande',{name:'Historische Dorfkirchen der Vierlande – Überblick',tourismGroup:'sehenswuerdigkeiten',description:'Überblick über vier eigenständige historische Dorfkirchen: St. Severini in Kirchwerder, St. Johannis in Neuengamme, St. Nicolai in Altengamme und St. Johannis in Curslack. Jede Kirche erhält einen eigenen Eintrag und Kartenpunkt. Innenbesichtigungen richten sich nach den jeweiligen Gemeinden.',additionalSources:[{url:'https://www.kirche-in-vierlanden.de/',label:'Kirche in Vierlanden – Gemeinden und Kirchen'}]});
+tourismRevision('bahnhof-alt',{name:'Historischer Bahnhof Bergedorf',description:'Erhaltenes historisches Bahnhofsgebäude am Neuen Weg 54. Dieser Ort ist nicht der heutige Bahnhof Bergedorf; der Marker zeigt ausschließlich das historische Gebäude.',tourismGroup:'sehenswuerdigkeiten',additionalSources:[{url:'https://www.openstreetmap.org/way/246359255',label:'OpenStreetMap – Alter Bahnhof Bergedorf'}]});
+tourismRevision('spaziergang',{description:'Offiziell beschriebener Rundgang durch die Bergedorfer Altstadt mit zwölf Stationen und einer veröffentlichten Länge von etwa 3 km. Beschreibung, Karte und GPX-Datei stellt der Herausgeber auf seiner Routenseite bereit.',tourismGroup:'geschichte',routeStations:['Der Serrahn','Das Hasse-Haus','Alte Wassermühlen','Kirche St. Petri und Pauli','Bergedorfer Schloss','Am Schlossgraben','Kaiser-Wilhelm-Platz','Bergedorfer Markt','Im Schlossgarten','Obere Bille','Bergedorfer Windmühle','Reetwerder'],linkOnlyRouteUrl:'https://www.entdeckerrouten.org/download-vum-route-6/',additionalSources:[{url:'https://www.entdeckerrouten.org/vier-und-marschlande-route-6/',label:'EntdeckerRouten – Bergedorfer Spaziergang mit zwölf Stationen'},{url:'https://www.entdeckerrouten.org/download-vum-route-6/',label:'EntdeckerRouten – Originalkarte und GPX-Download'}]});
+tourismRevision('kirchentour',{description:'Offiziell beschriebene Radrundtour ab und bis Bahnhof Bergedorf über Curslack, Neuengamme, Kirchwerder und Altengamme. Bergedorf-Tourismus nennt rund 28 km. Die Route führt zu den vier Dorfkirchen in Curslack, Neuengamme, Kirchwerder und Altengamme.',tourismGroup:'geschichte',routeNumber:4,routeLengthKm:28,mapRouteId:'vierlaender-kirchentour',routePlaceIds:['st-johannis-curslack','st-johannis-neuengamme','st-severini-kirchwerder','st-nicolai-altengamme'],linkOnlyRouteUrl:'https://www.entdeckerrouten.org/downloads-vum-route-4/',additionalSources:[{url:'https://www.entdeckerrouten.org/vier-und-marschlande-route-4/',label:'EntdeckerRouten – Beschreibung und Stationen der Vierländer Kirchentour'},{url:'https://www.entdeckerrouten.org/downloads-vum-route-4/',label:'EntdeckerRouten – Originalkarte und GPX-Download'},{url:'https://www.openstreetmap.org/relation/7398284',label:'OpenStreetMap – Vierländer Kirchentour, Radroute R4 (ODbL)'}]});
+tourismRevision('sternwarte-fuehrung',{tourismGroup:'geschichte'});
+tourismRevision('rieck-fuehrungen',{tourismGroup:'geschichte'});
+tourismRevision('muehlen-fuehrungen',{tourismGroup:'geschichte'});
+tourismRevision('berg-museumslandschaft',{tourismGroup:'geschichte'});
+tourismRevision('schifffahrtslinie',{tourismGroup:'geschichte'});
+tourismRevision('atg',{tourismGroup:'geschichte'});
+tourismRevision('vierlaender-ewer',{tourismGroup:'geschichte'});
+tourismRevision('tourist-info',{tourismGroup:'geschichte'});
+tourismRevision('tourism-info',{tourismGroup:'geschichte'});
+tourismRevision('karoline',{tourismGroup:'geschichte'});
+tourismRevision('geschichtskontor',{tourismGroup:'geschichte'});
+
+tourismItems.push(
+ verified('kupferhofterrassen','Kupferhofterrassen','sehenswuerdigkeiten','Öffentliche Treppen- und Aufenthaltsanlage am Kupferhof. Das Bezirksamt Bergedorf beschreibt die 2020 fertiggestellte Anlage als Realisierungsvorhaben aus der Stadtwerkstatt zum Bergedorfer Hafen und dem Zukunftsbild „Serrahn 2030“.','Bergedorf','Kupferhof, 21029 Hamburg','https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/planen-bauen-wohnen/stadtplanung/kupferhofterrassen-ueberblick-1049278','Bezirksamt Bergedorf',{...osmPoint('way','1050151008',53.4886191,10.2103519),tourismGroup:'sehenswuerdigkeiten',free:'Öffentlich zugängliche Anlage.',additionalSources:[{url:'https://www.openstreetmap.org/way/1050151008',label:'OpenStreetMap – Kupferhof-Terrassen (ODbL)'},{url:'https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/planen-bauen-wohnen/stadtplanung/bergedorfer-hafen-kupferhofterrassen-1031074',label:'Bezirksamt Bergedorf – Stadtwerkstatt Bergedorfer Hafen'}]}),
+ verified('villenviertel','Historisches Villenviertel Bergedorf','sehenswuerdigkeiten','Historisches Wohngebiet mit Villen aus der Gründerzeit. Es wird als Stadtbereich beschrieben; eine belegte amtliche Gebietsgrenze oder ein einzelner allgemein zugänglicher Orientierungspunkt wurde nicht festgestellt. Der Eintrag grenzt das Gebiet nicht geometrisch ab.','Bergedorf','Wentorfer Straße und angrenzende Straßen, 21029 Hamburg','https://www.bergedorf.de/tourismus/ausflugtipps/historische-sehenswuerdigkeiten','Bergedorf-Tourismus',{tourismGroup:'sehenswuerdigkeiten',geometryType:'area',status:'Gebietsbezeichnung ohne verifizierte Kartenabgrenzung oder eindeutigen Einzelmarker'}),
+ verified('st-johannis-neuengamme','St. Johannis – Neuengamme','sehenswuerdigkeiten','Historische Dorfkirche in Neuengamme. Die Kirchengemeinde veröffentlicht aktuelle Informationen zu Gottesdiensten, Besichtigungen und Veranstaltungen.','Neuengamme','Feldstegel 18, 21039 Hamburg','https://www.nordkirche.de/adressen/institutionen/detailansicht/institution/neuengamme-johannis','Nordkirche',{...osmPoint('way','24434360',53.4451336,10.2219379),tourismGroup:'sehenswuerdigkeiten',categoryLinks:['rad'],additionalSources:[{url:'https://www.openstreetmap.org/way/24434360',label:'OpenStreetMap – St. Johannis Neuengamme (ODbL)'},{url:'https://www.kirche-in-vierlanden.de/gemeinden/st-johannis-zu-neuengamme',label:'Kirche in Vierlanden – St. Johannis Neuengamme'}]}),
+ verified('st-johannis-curslack','St. Johannis – Curslack','sehenswuerdigkeiten','Historische Dorfkirche in Curslack. Innenbesichtigungen und aktuelle Besuchsmöglichkeiten richten sich nach den Informationen der Kirchengemeinde.','Curslack','Curslacker Deich 142, 21039 Hamburg','https://www.nordkirche.de/adressen/institutionen/detailansicht/institution/kirche-st-johannis-zu-curslack','Nordkirche',{...osmPoint('way','83289976',53.4489402,10.227797),tourismGroup:'sehenswuerdigkeiten',categoryLinks:['rad'],additionalSources:[{url:'https://www.openstreetmap.org/way/83289976',label:'OpenStreetMap – St. Johannis Curslack (ODbL)'}]}),
+ verified('st-nicolai-altengamme','St. Nicolai – Altengamme','sehenswuerdigkeiten','Historische Dorfkirche in Altengamme. Die Kirchengemeinde veröffentlicht aktuelle Informationen zu Gottesdiensten und Besichtigungen.','Altengamme','Kirchenstegel 11, 21039 Hamburg','https://serviceportal.kirche-hamburg.de/gemeinden/st-nicolai-zu-altengamme.html','Kirche Hamburg',{...osmPoint('way','101558362',53.4295671,10.2700151),tourismGroup:'sehenswuerdigkeiten',categoryLinks:['rad'],additionalSources:[{url:'https://www.openstreetmap.org/way/101558362',label:'OpenStreetMap – St.-Nicolai-Kirche Altengamme (ODbL)'}]}),
+ verified('st-severini-kirchwerder','St. Severini – Kirchwerder','sehenswuerdigkeiten','Historische Dorfkirche in Kirchwerder. Die Kirchengemeinde veröffentlicht aktuelle Informationen zu Gottesdiensten und Besichtigungen.','Kirchwerder','Kirchenheerweg 12, 21037 Hamburg','https://serviceportal.kirche-hamburg.de/gemeinden/ev-luth-kirchengemeinde-kirchwerder/kontakte.html','Kirche Hamburg',{...osmPoint('way','102047392',53.4185719,10.1983625),tourismGroup:'sehenswuerdigkeiten',categoryLinks:['rad'],additionalSources:[{url:'https://www.openstreetmap.org/way/102047392',label:'OpenStreetMap – St.-Severini-Kirche Kirchwerder (ODbL)'}]})
+);
+
+const verifiedTourismCoordinates={
+ 'st-petri':['way','102019930',53.4890227,10.21109],
+ 'altstadt':['way','202771806',53.4881663,10.2133268],
+ 'serrahn':['node','4825846717',53.4890845,10.2087105],
+ 'rathaus':['way','237975218',53.4871757,10.2203659],
+ 'sternwarte':['node','388261096',53.4823488,10.2389398],
+ 'riepenburger-muehle':['node','1809223776',53.4081026,10.2082977],
+ 'bahnhof-alt':['way','246359255',53.4846646,10.2119206],
+ 'cafe-chrysander':['way','457971158',53.4896203,10.2152816],
+ 'cafe-nourish':['node','11935003080',53.4904426,10.2090901],
+ 'brunch-factory':['node','12770890799',53.4774924,10.2055198],
+ 'casareccio':['way','218331524',53.4951379,10.2062617],
+ 'filia':['way','217977553',53.4894011,10.2095966],
+ 'landhaus-voigt':['way','137318620',53.4752158,10.1021949],
+ 'alte-deichkate':['way','302871643',53.503167,10.1382594],
+ 'radstation':['way','311067522',53.489905,10.2073509],
+ 'h4-hotel':['way','245233055',53.4864484,10.209585],
+ 'hotel-sachsentor':['node','2503289169',53.488193,10.214228],
+ 'hotel-hanseat':['way','235994906',53.49341,10.1979391],
+ 'elbperle94':['way','245235985',53.4824667,10.1270004],
+ 'ferienwohnung-curslack':['way','55302342',53.4674175,10.2376309],
+ 'bettenburg':['relation','2294560',53.4879629,10.1872952],
+ 'alt-lohbruegger-hof':['way','111345531',53.502347,10.2061722],
+ 'hotel-mediterran':['way','173993329',53.4776499,10.2404751],
+ 'pension-moinmoin':['way','245238362',53.4824087,10.1303751],
+ 'vierlaenderei-unterkunft':['way','228472289',53.4015626,10.168031],
+ 'cafe-molina':['node','1809223776',53.4081026,10.2082977],
+ 'krauler-kroog':['way','260361221',53.3997244,10.2141718],
+ 'bootshaus':['way','258362589',53.4929761,10.2141281],
+ 'paddel-meier':['way','231036568',53.4580062,10.1399113],
+ 'windsurfing-hamburg':['way','233756621',53.4442044,10.1010504],
+ 'spielscheune':['way','172146676',53.481679,10.1548578],
+ 'tourist-info':['way','217977546',53.4891077,10.210666],
+ 'tourism-info':['way','217977546',53.4891077,10.210666],
+ 'weinfass':['way','725452967',53.4757584,10.0829587],
+ 'hamburgboats':['way','252265221',53.4952,10.0912795],
+ 'kutschfahrten-burmester':['way','178448219',53.4932366,10.0925906],
+ 'erlebnisbauernhof-burmester-reiten':['way','178448219',53.4932366,10.0925906],
+ 'biohof-sommerfeld':['way','287955327',53.4637533,10.1225635],
+ 'gokart-hof':['way','227901463',53.4312992,10.2413674],
+ 'lola':['way','218331550',53.4954751,10.2059311],
+ 'rieck-fuehrungen':['way','55612046',53.4593484,10.2144852],
+ 'muehlen-fuehrungen':['node','1809223776',53.4081026,10.2082977],
+ 'sportboothafen-moeller':['way','290475186',53.4972779,10.0809719],
+ 'yachtclub':['way','290475183',53.4938121,10.0859483],
+ 'sixt-bergedorf':['node','11952203115',53.4880241,10.2055776]
+};
+for(const [id,[type,osmId,lat,lon]] of Object.entries(verifiedTourismCoordinates)){const item=tourismItems.find(entry=>entry.id===id);if(item){item.lat=lat;item.lon=lon;item.coordinateSource=osm(type,osmId)}}
+
+for(const id of Object.keys(verifiedTourismCoordinates).concat(['kupferhofterrassen','villenviertel','st-johannis-neuengamme','st-johannis-curslack','st-nicolai-altengamme','st-severini-kirchwerder','st-petri','altstadt','serrahn','rathaus','sternwarte','kirchen-vierlande','bahnhof-alt','spaziergang','kirchentour','sternwarte-fuehrung','rieck-fuehrungen','muehlen-fuehrungen','berg-museumslandschaft','schifffahrtslinie','atg','vierlaender-ewer','tourist-info','tourism-info','karoline','geschichtskontor'])){
+ const item=tourismItems.find(entry=>entry.id===id);if(item){item.checkedOn='2026-11-23';if(item.status==='Quelle am 21.11.2026 geprüft')item.status='Quelle am 23.11.2026 geprüft'}
+}
 
 const reviewedInThisSupplement=new Set(['rosentour','boberg-route','vier-marschlande-highlight','weinfass','hamburgboats','adfc-touren','segelflugplatz-boberg','gokart-hof','kutschfahrten-burmester','megaballs','allermoeher-wiesen','alter-holzhafen','spadenlaender-spitze','bergedorfer-gehoelz','karoline','wochenmaerkte-bergedorf','bergedorfer-stadtfest','bergedorfer-weihnachtsmarkt','wutzrock','hiamo','haus-anna-elbe','elberadweg','maler-lackierer-museum','reitbrooker-muehle','geschichtskontor','berg-museumslandschaft','kuenstlerhaus-bergedorf','white-cube-bergedorf','hansa-filmstudio','swingolf-hamburg','golf-lounge-moorfleet','minigolf-gruenes-zentrum','drachenlabyrinth','boberger-reitverein','erlebnisbauernhof-burmester-reiten','milchhof-reitbrook','ackerperlen','biohof-sommerfeld','vier-marschlande-querbeet','tatenberger-schleuse','schoepfwerke-vier-marschlande','kiebitzbrack','bodenlehrpfad-boberg','grosse-bergedorfer-runde','vierlaender-volks-schuetzenfest','vierlaender-erdbeerfest','duenenweg-boberg','moorweg-boberg','terrassenweg-boberg','wiesenweg-boberg']);
 for(const item of tourismItems){
