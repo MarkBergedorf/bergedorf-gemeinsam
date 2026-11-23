@@ -1,10 +1,11 @@
-// Anbieterangaben und Kurztexte des veröffentlichten Stands vom 7. November 2026.
+// Anbieterangaben der geprüften OpenFreeMap-Datenschutzerklärung vom 8. Oktober 2026.
 export const mapPrivacyInfo={
   "openfreemap": {
     "name": "OpenFreeMap",
     "purpose": "Straßenkarte mit geografischer Orientierung laden",
     "data": "Beim Laden dieser Karte werden Ihre IP-Adresse, technische Verbindungsdaten und der angeforderte Kartenausschnitt an OpenFreeMap übertragen. Dabei kann der Auslieferungsdienst Cloudflare beteiligt sein.",
-    "cookies": "OpenFreeMap erklärt ausdrücklich, keine Cookies oder Trackingtechnologien einzusetzen.",
+    "cookies": "OpenFreeMap erklärt, keine Cookies oder Trackingtechnologien einzusetzen. Ein gegebenenfalls eingesetzter CDN-Anbieter wie Cloudflare kann eigene Daten nach seiner Datenschutzrichtlinie verarbeiten.",
+    "retention": "OpenFreeMap gibt an, IP-Adressen standardmäßig nicht in Zugriffsprotokollen zu speichern. Fehlerprotokolle können IP-Adresse und angeforderte URL enthalten und werden nach sieben Tagen gelöscht. Bei Sicherheitsvorfällen kann die IP-Protokollierung vorübergehend eingeschaltet werden; diese Protokolle werden nach Abschluss der Untersuchung oder spätestens nach 30 Tagen gelöscht.",
     "delivery": "Weitere Informationen:",
     "links": [
       [

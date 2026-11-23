@@ -40,8 +40,8 @@ test('Historische Sammlung wird direkt verlinkt; ungeoreferenzierte Einträge er
 });
 test('Infrastrukturdatei wird erst nach Geschichtskartenfreigabe geladen und Kategorien sind nur dort schaltbar',()=>{
  const s=readFileSync(new URL('../app/history-map.tsx',import.meta.url),'utf8');
- assert(s.includes("if(!consent||!allowed||!activated||!root.current)return"));assert(s.includes("fetch('/assets/history-infrastructure.geojson'"));
- assert(s.includes('historyTiles(L,')&&s.includes('{extendedPlaces:true}'));
+ assert(s.includes("if(!consent||!allowed||!activated||!root.current)return"));assert(s.includes("publicAssetUrl('assets/history-infrastructure.geojson',import.meta.env.BASE_URL,location.href)"));
+ assert(s.includes('historyTiles(L,')&&s.includes('{extendedPlaces:true,baseUrl:import.meta.env.BASE_URL}'));
  assert(s.includes('history-infrastructure-controls'));assert(s.includes('setCategories(current=>({...current,[key]:e.target.checked}))'));
  assert(s.includes('history-infrastructure-cluster'));assert(s.includes('Grünplan-Stadtteil'));
  const org=readFileSync(new URL('../app/organisation-map.tsx',import.meta.url),'utf8');assert(org.includes('historyTiles(L,')&&!org.includes('extendedPlaces:true'));

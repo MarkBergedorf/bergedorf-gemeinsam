@@ -14,6 +14,15 @@ test('Historische Themenkarten erhalten; Startseitenkarte auf ausdrücklichen Au
  assert(!readFileSync('app/platform.tsx','utf8').includes('<HistoricalDirectoryEntry/>'));
  const css=readFileSync('app/globals.css','utf8');assert(css.includes('.historical-directory-entry:focus-visible'));assert(css.includes('padding:clamp(20px,4vw,32px)'));
 });
+test('Historische Begegnungsortkarte ist am Anfang des Verzeichnisses direkt erreichbar',()=>{
+ const page=readFileSync('app/loneliness.tsx','utf8');
+ const quick=page.indexOf('historic-map-quick-access'),search=page.indexOf('className="loneliness-search"');
+ assert(quick>=0&&search>quick);
+ assert(page.includes('Historische Karte anzeigen'));
+ assert(page.includes('Vollständiges Verzeichnis anzeigen'));
+ assert(page.includes("{mapView&&node?.id==='t10-6'&&<HistoricalCollectionMapView"));
+ assert(page.includes('!mapView&&node?.id===\'t10-6\'')||page.includes('node?.id===\'t10-6\'&&!mapView'));
+});
 test('Nur beanstandete Quellenbezeichnung geändert; alle 88 Bilder, Quellenlinks und 104 Orte erhalten',()=>{
  const file='frontend/lib/historical-media-4.json';
  const old=JSON.parse(execFileSync('git',['show',baseline+':'+file]));
