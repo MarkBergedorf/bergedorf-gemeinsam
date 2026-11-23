@@ -1,6 +1,10 @@
 .loneliness-page .historic-map-shell{margin:1.25rem 0;padding:clamp(.75rem,2vw,1.5rem);background:#fbf7eb;border:1px solid #c7b995;border-radius:.8rem;color:#302d25}
 .loneliness-page .historic-map-shell h2,.loneliness-page .historic-unlocated h2{font-family:Georgia,serif;color:#473f2f}
 .loneliness-page .historic-map-base-note{padding:.9rem 1rem;background:#efe8d6;border-left:4px solid #796747}
+.loneliness-page .historic-map-quick-access{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:.75rem 1.25rem;margin:1rem 0 1.5rem;padding:clamp(1rem,2vw,1.5rem);border:2px solid #796747;border-radius:.65rem;background:#efe8d6}
+.loneliness-page .historic-map-quick-access h2{margin:0 0 .4rem;font-size:clamp(1.25rem,2vw,1.6rem)}
+.loneliness-page .historic-map-quick-access p{margin:.35rem 0;line-height:1.55}
+.loneliness-page .historic-map-quick-access>a:last-child{grid-column:1/-1}
 .loneliness-page .historic-map-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:.8rem;align-items:end;margin:1rem 0}
 .loneliness-page .historic-map-filters label{display:grid;gap:.35rem;font-weight:650}
 .loneliness-page .historic-map-filters input,.loneliness-page .historic-map-filters select{min-height:44px;width:100%;padding:.5rem;border:1px solid #867b65;border-radius:.35rem;background:#fff}
@@ -22,4 +26,4 @@
 .loneliness-page .historic-unlocated{margin-top:1.5rem;padding:1rem;background:#f4f7f4;border:1px solid #cbd7cb;border-radius:.55rem}
 .loneliness-page .historic-unlocated ul{columns:2;column-gap:2rem}
 .loneliness-page .historic-unlocated li{break-inside:avoid;margin:.45rem 0;line-height:1.5}
-@media(max-width:640px){.loneliness-page .historical-encounters-map{min-height:320px;height:56vh}.loneliness-page .historic-unlocated ul{columns:1}}
+@media(max-width:640px){.loneliness-page .historic-map-quick-access{grid-template-columns:1fr;align-items:start}.loneliness-page .historic-map-quick-access>a:last-child{grid-column:auto}.loneliness-page .historical-encounters-map{min-height:320px;height:56vh}.loneliness-page .historic-unlocated ul{columns:1}}

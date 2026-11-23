@@ -3,7 +3,7 @@
   "files": {
     "frontend/app/history-map.tsx": {
       "before": "0df0aa930bbf8dd61ee29f2873aadd7b6448c6b1db7a978087d8302fe3530d3e",
-      "after": "bc664a6ecde50b741a60709081a1ac1338cf1a9222c08d85bbd4c73fb16e462a"
+      "after": "c612af1ad68de3de1704b550709d0630155184a4b572ea0bba7eb07af95ba097"
     },
     "frontend/app/map-legend.tsx": {
       "before": "52e6d6e449693459d3b39567b2e57b658a18964bd81be7b4c7003cbe58fb9246",
@@ -11,11 +11,11 @@
     },
     "frontend/app/organisation-location.tsx": {
       "before": "77bb8d5b48484459a6bb772ea07b0fbba68e90ea297455718e7dd48b6d8d79ff",
-      "after": "f13324797d136efd02e72b5b60454e6a916aafafa3da31757a2a054912ccd001"
+      "after": "508ff6de1eb318b473374b3bb24510d75a077305798db97e9e47fb33f40039bc"
     },
     "frontend/app/organisation-map.tsx": {
       "before": "4cf121b3346713cbefdb2c5b9f6a0371e3df3f36349d03218f98e5d793479d08",
-      "after": "15a4fa6b1a39c84fc6061381b695a2dedf05c46efb168ba39b321e0dea4f5ff5"
+      "after": "dbad4b714254e2e294b5ed4b87cdacee86ec5e6d6eab990517759108c7c510a8"
     },
     "frontend/lib/history-map-session.mjs": {
       "before": "32f5eacccde7344e5ad838a33b85e83b2d2845b3cb1f463d5ba0511124aa2fbd",
@@ -23,7 +23,7 @@
     },
     "frontend/lib/history-tiles.mjs": {
       "before": "b7f8766c5d6542ddf5e853c7c8eec32cf093899bb67ad6a1ff09646af0b098b3",
-      "after": "4a5b8f0ed340131005637ee9bd0a7d4353bda54b8a35d9d98c163449b1d8eb49"
+      "after": "a1038344519610893b3d852055ceedf1d04aaecc4b8e47d992e634c0f9002cd8"
     },
     "frontend/lib/map-privacy-info.mjs": {
       "before": "475bb3c5998ff8c3c155ff5276b0b7f5c06c744751fec39af72ef193f2012e45",
@@ -39,7 +39,11 @@
     },
     "frontend/app/globals.css": {
       "before": "0a291e916530c9eba692475e32d712755710ef0df18700e8918a6a03b8d897dd",
-      "after": "3787ad19b3ca51762bd7fd95125b88cde23bda2658693ece289f56bb206f326c"
+      "after": "a0f1475329f462e38eff4fd9e0bd465ed27aaa596cc97c2c266afe76dae0a85a"
+    },
+    "frontend/app/map-privacy-dialog.tsx": {
+      "before": "8740be1aa1945b48777fd2671f9afb4bb0853dfa4373986a1402bbdbfac6218e",
+      "after": "8f0de993a95e6a85eb11fa918c92e241737dfb2814804fc22a0329c91271f9d2"
     }
   }
 }

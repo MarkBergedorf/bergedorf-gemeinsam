@@ -39,3 +39,10 @@ test('map integration keeps the original archive view and exposes direct and rev
  assert.ok(archive.includes('historicalPlaces.length'));
  assert.ok(archive.includes('Historische Bildsammlung – alle 88 Abbildungen'));
 });
+
+test('historical map consent can be rejected or granted and the loaded map can be unloaded',()=>{
+ const component=readFileSync('app/historical-encounters-map.tsx','utf8');
+ assert(component.includes('onClick={e=>privacy.ask(e)}>Historische Karte laden'));
+ assert(component.includes('onClick={()=>historyMapConsent.set(false)}>Karte entladen'));
+ assert(component.includes('disabled={!consent}'));
+});

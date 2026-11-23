@@ -36,7 +36,8 @@ test('tourism feature is linked into navigation and preserves map consent and ex
   assert.match(navigation,/\{id:'tourismus',label:'Gäste und Tourismus',lines:\['Gäste und','Tourismus'\],target:'#tourismus'\}/);
   assert.match(page,/useMapPrivacy\('openfreemap'/);
   assert.match(page,/Promise\.all\(\[import\('leaflet'\),import\('\.\.\/lib\/history-tiles\.mjs'\)\]\)/);
-  assert.match(page,/Erst nach Ihrer Zustimmung/);
+  assert.doesNotMatch(page,/Erst nach Ihrer Zustimmung/);
+  assert.match(page,/privacy\.ask/);
   assert.match(page,/Koordinatenquelle/);
   assert.match(platform,/page==='politik'&&route\.tab==='begegnungsorte'/);
   assert.match(platform,/page==='geschichte'&&route\.tab==='orte'/);
@@ -214,8 +215,8 @@ test('official Boberg soil trail data is bundled locally with its verified geome
   assert.match(page,/Station \$\{p\.punkt_bez\}: \$\{p\.titel\}/);
   assert.match(page,/Erläuterung bei Hamburg\.de öffnen/);
   const background=await readFile(new URL('../lib/history-tiles.mjs',import.meta.url),'utf8');
-  assert.match(background,/baseUrl=''\}\=\{\}/);
-  assert.match(background,/assetRoot=baseUrl\?new URL\(baseUrl,location\.href\)\.href:'\/';/);
+  assert.match(background,/baseUrl=import\.meta\.env\?\.BASE_URL\|\|'\/\'/);
+  assert.match(background,/asset=url=>publicAssetUrl\(url,baseUrl,location\.href\)/);
 });
 
 test('new tourism additions preserve the 112-entry base, separate verified offers from unknown access, and document both rounds',async()=>{

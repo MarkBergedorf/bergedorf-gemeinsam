@@ -1,5 +1,6 @@
 import {orientationStyle} from './map-orientation.mjs';
 import {createHistoryRequestScope} from './history-request-scope.mjs';
+import {publicAssetUrl} from './public-asset-url.mjs';
 import Map from 'ol/Map.js';
 import View from 'ol/View.js';
 import LayerGroup from 'ol/layer/Group.js';
@@ -9,9 +10,8 @@ import 'ol/ol.css';
 // The complete upstream Liberty cartography is rendered by OpenLayers, including
 // line-following road names and collision handling. This only synchronizes its
 // viewport with the existing Leaflet markers and editing controls.
-export function historyTiles(L,onError,{extendedPlaces=false,baseUrl=''}={}){
- const assetRoot=baseUrl?new URL(baseUrl,location.href).href:'/';
- const asset=url=>`${assetRoot}${url}`;
+export function historyTiles(L,onError,{extendedPlaces=false,baseUrl=import.meta.env?.BASE_URL||'/'}={}){
+ const asset=url=>publicAssetUrl(url,baseUrl,location.href);
  const Layer=L.Layer.extend({
   onAdd(map){
    this._requests=createHistoryRequestScope();
