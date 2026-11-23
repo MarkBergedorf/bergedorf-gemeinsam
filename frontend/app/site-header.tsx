@@ -24,6 +24,7 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
   ]:[])
  ];
  const itemKey=items.map(item=>item.id).join('|');
+ const menuToggleLabel=mobile?'Themenübersicht schließen':`Alle ${items.length} Themen öffnen`;
  useEffect(()=>{
   const root=navList.current,header=headerRoot.current;
   if(!root||!header)return;
@@ -61,7 +62,7 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
     <a className="desktop-signin-link" href="#anmelden">Anmeldung (noch nicht verfügbar)</a>
     {permissions.canAuthor&&<><a href="#meine">Meine Beiträge &amp; Entwürfe</a><a className="primary small" href={page==='geschichte'?historyCreateHref(typeof window==='undefined'?'#geschichte':location.hash):'#meine/neu/anliegen'+(districtId==='bergedorf'?'':'?district='+districtId)}>Beitrag erstellen</a></>}
     {permissions.canAdmin&&<a className="admin-link" href="#verwaltung">Administration</a>}
-    <button ref={menuButton} className="menu-toggle" aria-label={mobile?'Menü schließen':'Menü öffnen'} aria-controls={navigationId} aria-expanded={mobile} onClick={()=>setMobile(!mobile)} onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);menuButton.current?.focus()}}}>{mobile?<X aria-hidden="true"/>:<Menu aria-hidden="true"/>}<span>Menü</span></button>
+    <button ref={menuButton} className="menu-toggle" aria-label={menuToggleLabel} aria-controls={navigationId} aria-expanded={mobile} onClick={()=>setMobile(!mobile)} onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);menuButton.current?.focus()}}}>{mobile?<X aria-hidden="true"/>:<Menu aria-hidden="true"/>}<span>{menuToggleLabel}</span></button>
     <MobileAccessStatus permissions={permissions}/>
    </div>
   </div>

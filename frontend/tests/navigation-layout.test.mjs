@@ -45,6 +45,17 @@ test('Desktop-Hauptnavigation zeigt alle zwölf unveränderten Ziele in einer ge
  assert.ok(css.includes('min-height:48px'));
 });
 
+test('Kompaktmenü nennt die dynamische Themenzahl und zeigt eindeutige Öffnen-/Schließen-Beschriftungen',async()=>{
+ const component=await readFile(new URL('../app/site-header.tsx',import.meta.url),'utf8');
+ const css=await readFile(new URL('../app/globals.css',import.meta.url),'utf8');
+ assert.ok(component.includes("const menuToggleLabel=mobile?'Themenübersicht schließen':`Alle ${items.length} Themen öffnen`;"));
+ assert.ok(component.includes('aria-label={menuToggleLabel}'));
+ assert.ok(component.includes('<span>{menuToggleLabel}</span>'));
+ assert.ok(component.includes('aria-expanded={mobile}'));
+ assert.ok(component.includes('mobile?<X aria-hidden="true"/>:<Menu aria-hidden="true"/>'));
+ assert.ok(css.includes('.site-header.navigation-compact .menu-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 10px;max-width:100%;line-height:1.35;text-align:center;white-space:normal;}'));
+});
+
 test('Die Umschaltung nutzt den verfügbaren Platz statt eines festen Desktopbreakpoints',()=>{
  const widths=[80,112,100,112,32,65,145,100,117,100,118,105];
  for(const viewport of [1920,1600,1366,1280]){
