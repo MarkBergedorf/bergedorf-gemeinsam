@@ -34,7 +34,8 @@ test('Desktop-Hauptnavigation zeigt alle zwölf unveränderten Ziele in einer ge
  assert.ok(component.includes("window.visualViewport?.addEventListener('resize',schedule)"));
  assert.ok(component.includes('observer.observe(document.documentElement)'));
  assert.ok(component.includes('requestAnimationFrame(()=>{frame=requestAnimationFrame'));
- assert.ok(component.includes('window.setTimeout(()=>{if(!disposed)measure()},160)'));
+ assert.ok(component.includes('for(const delay of [140,320,650])retries.push(window.setTimeout(()=>{if(!disposed)measure()},delay))'));
+ assert.ok(component.includes('observer.observe(root)'));
  assert.ok(component.includes("onKeyDown={e=>{if(e.key==='Escape'&&mobile)"));
  assert.ok(css.includes('.site-header.navigation-measuring nav{display:block;position:absolute;inset:100% 0 auto;visibility:hidden;}'));
  assert.ok(css.includes('.site-header.navigation-compact nav{display:none!important;}'));
