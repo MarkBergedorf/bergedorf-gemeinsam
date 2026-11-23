@@ -165,7 +165,8 @@ export function TourismPage(){
  // Internal section navigation must not change the application's hash-based page route.
  function jumpTo(e:React.MouseEvent<HTMLAnchorElement>,id:string){e.preventDefault();setQuery('');setFreeOnly(false);setBikeFriendlyOnly(false);setSelected(new Set(tourismCategories.map(c=>c.id)));setScrollTarget(id)}
  useEffect(()=>{if(route.page==='tourismus'&&tourismItems.some(item=>item.id===route.tab))setScrollTarget(route.tab)},[route.page,route.tab]);
- useEffect(()=>{if(!scrollTarget)return;const element=scrollTarget==='gedenkstaette'?document.querySelector('[data-tourism-id="gedenkstaette"]'):document.querySelector(`[data-tourism-id="${scrollTarget}"]`)||document.getElementById('tourismus-'+scrollTarget);if(element){element.scrollIntoView({behavior:'smooth',block:'start'});setScrollTarget('')}},[scrollTarget,query,selected,freeOnly]);
+ useEffect(()=>{if(route.page==='tourismus'&&route.tab==='karte')setScrollTarget('karte')},[route.page,route.tab]);
+ useEffect(()=>{if(!scrollTarget)return;const element=scrollTarget==='karte'?document.getElementById('tourism-map-title'):scrollTarget==='gedenkstaette'?document.querySelector('[data-tourism-id="gedenkstaette"]'):document.querySelector(`[data-tourism-id="${scrollTarget}"]`)||document.getElementById('tourismus-'+scrollTarget);if(element){element.scrollIntoView({behavior:'smooth',block:'start'});setScrollTarget('')}},[scrollTarget,query,selected,freeOnly]);
  return <div className="tourism-page">
   <section className="section page-content tourism-intro">
    <div className="eyebrow">UNABHÄNGIGE ORIENTIERUNG FÜR GÄSTE</div>

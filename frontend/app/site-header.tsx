@@ -56,7 +56,6 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
  return <header ref={headerRoot} className={'site-header'+(layout===undefined?' navigation-measuring':layout===null?' navigation-compact':'')}>
   <div className="header-inner">
    <a className="brand" href={districtId==='bergedorf'?'#start':'#bezirk/'+districtId} aria-label={(boroughById(districtId)?.name||'Bergedorf')+' gemeinsam – Unabhängige Bürgerplattform'}>{districtId==='bergedorf'&&<Crest/>}<span>{boroughById(districtId)?.name||'Bergedorf'} <strong>gemeinsam</strong><small>Unabhängige Bürgerplattform</small></span></a>
-   <span className="private-preview">Statische Testfassung</span>
    <div className="header-actions">
     <a href={districtId==='bergedorf'?'#beitraege':'#bezirk/'+districtId+'/anliegen'}>{districtId==='bergedorf'?'Alle Beiträge':'Beiträge im Bezirk'}</a>
     <a className="desktop-signin-link" href="#anmelden">Anmeldung (noch nicht verfügbar)</a>
