@@ -5,7 +5,8 @@ const changes=JSON.parse(readFileSync(new URL('./map-orientation-authorized-chan
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const laterTaskChanges={
  'frontend/app/history-map-legend.tsx':'148dddc40f10b8ca3e592bed92ab352aadad5c9c7540f128fd5bcc0d0a991962',
- 'frontend/app/globals.css':'d5b3bbe2f6af0e01ea0676131139686358f4a3557c8f43f999b5c44660e2991a',
+ 'frontend/app/globals.css':'6c9da366c4b443bbd47d2638a4e80ace65ac748a52e6182fbd67a3842e09ffd9',
+ 'frontend/pages/privacy.tsx':'8620639d82a09aea67987e3232c91f97a70dac7fa3e13704d7eb79ab46c3e38a',
 };
 // Exact whole-file hashes for the reviewed map-only edits. Any later difference
 // fails; no path is skipped by preservation tests.

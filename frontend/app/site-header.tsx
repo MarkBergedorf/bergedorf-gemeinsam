@@ -6,11 +6,12 @@ import {boroughById} from '../lib/boroughs.mjs';
 import {historyCreateHref} from '../lib/history-navigation.mjs';
 import {newsRoute} from '../lib/home-news.mjs';
 import {navigationTabLayout} from '../lib/navigation-tab-layout.mjs';
-import {MobileAccessStatus} from './mobile-access-status';
 import {navigate} from './navigation';
+import {useFirebaseAuth} from './firebase-auth';
 import Crest from '../components/crest';
 
 export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:string,tab?:string,permissions?:any,districtId?:string}){
+ const account=useFirebaseAuth();
  const [mobile,setMobile]=useState(false),[layout,setLayout]=useState<any>(undefined),navigationId=useId(),menuButton=useRef<HTMLButtonElement>(null),headerRoot=useRef<HTMLElement>(null),navList=useRef<HTMLDivElement>(null);
  const districtNavigation=districtId==='bergedorf';
  const items:any[]=[
@@ -58,11 +59,10 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
    <a className="brand" href={districtId==='bergedorf'?'#start':'#bezirk/'+districtId} aria-label={(boroughById(districtId)?.name||'Bergedorf')+' gemeinsam – Unabhängige Bürgerplattform'}>{districtId==='bergedorf'&&<Crest/>}<span>{boroughById(districtId)?.name||'Bergedorf'} <strong>gemeinsam</strong><small>Unabhängige Bürgerplattform</small></span></a>
    <div className="header-actions">
     <a href={districtId==='bergedorf'?'#beitraege':'#bezirk/'+districtId+'/anliegen'}>{districtId==='bergedorf'?'Alle Beiträge':'Beiträge im Bezirk'}</a>
-    <a className="desktop-signin-link" href="#anmelden">Anmeldung (noch nicht verfügbar)</a>
+    {account.user?<><a className="desktop-signin-link" href="#konto">Mein Konto</a><button className="header-signout" onClick={()=>account.signOut()}>Abmelden</button></>:<><a className="desktop-signin-link" href="#anmelden">Anmelden</a><a className="desktop-signin-link" href="#registrieren">Registrieren</a></>}
     {permissions.canAuthor&&<><a href="#meine">Meine Beiträge &amp; Entwürfe</a><a className="primary small" href={page==='geschichte'?historyCreateHref(typeof window==='undefined'?'#geschichte':location.hash):'#meine/neu/anliegen'+(districtId==='bergedorf'?'':'?district='+districtId)}>Beitrag erstellen</a></>}
     {permissions.canAdmin&&<a className="admin-link" href="#verwaltung">Administration</a>}
     <button ref={menuButton} className="menu-toggle" aria-label={menuToggleLabel} aria-controls={navigationId} aria-expanded={mobile} onClick={()=>setMobile(!mobile)} onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);menuButton.current?.focus()}}}>{mobile?<X aria-hidden="true"/>:<Menu aria-hidden="true"/>}<span>{menuToggleLabel}</span></button>
-    <MobileAccessStatus permissions={permissions}/>
    </div>
   </div>
   <nav id={navigationId} aria-label="Hauptnavigation" className={mobile?'open':''}  onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);menuButton.current?.focus()}}}>
@@ -71,6 +71,7 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
      const slot=layout?.slotWidths[index]??150,base=layout?.baseWidths[index]??175;
      return <span className="nav-tab-slot" key={item.id} style={{width:slot+'px',flexBasis:slot+'px',height:(layout?.height??150)+'px'}}><button aria-label={item.label} style={layout?{width:base+'px',height:layout.tabHeight+'px',fontSize:layout.fontSize+'px'}:undefined} aria-current={page===item.id?'page':undefined} onClick={()=>go(item.target)}><span className="nav-tab-label" aria-hidden="true">{(item.lines||[item.label]).map((line:string,lineIndex:number)=><span key={lineIndex}>{line}</span>)}</span></button></span>;
     })}
+    <div className="mobile-auth-links">{account.user?<><a href="#konto">Mein Konto</a><button onClick={()=>account.signOut()}>Abmelden</button></>:<><a href="#anmelden">Anmelden</a><a href="#registrieren">Registrieren</a></>}</div>
    </div>
   </nav>
  </header>;

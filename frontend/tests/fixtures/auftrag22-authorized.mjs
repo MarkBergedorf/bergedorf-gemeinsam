@@ -4,6 +4,7 @@ import {withoutPr68CopyCleanup} from './pr68-copy-cleanup.mjs';
 const changes=JSON.parse(readFileSync(new URL('./auftrag22-authorized-changes.json',import.meta.url),'utf8'));
 export function withoutAuftrag22(path,value){
  const relative=path.replace(/^frontend\//,'');
+ if(relative==='app/platform.tsx')value=value.replace("import {ParticipantAccess} from './firebase-account';","import {ParticipantAccess} from './participant-access';").replace("['anmelden','registrieren','konto'].includes(page)?<ParticipantAccess/>","page==='anmelden'?<ParticipantAccess/>");
  if(relative==='app/platform.tsx'){
   const before=execFileSync('git',['show','037c1d6ecd25b2a7cc72e65bfde798dca81dfc62:frontend/app/platform.tsx'],{encoding:'utf8',maxBuffer:20e6});
   const currentHome=value.slice(value.indexOf('export function HomeContent('),value.indexOf('export function SiteFooter('));
