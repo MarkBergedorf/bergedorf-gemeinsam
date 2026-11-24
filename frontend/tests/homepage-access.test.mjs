@@ -32,7 +32,7 @@ test('Karteninventar umfasst fünf eigenständige Besucherangebote mit direkten 
  ]);
  const platform=read('../app/platform.tsx'),tourism=read('../app/tourism.tsx'),directory=read('../app/directory.tsx'),history=read('../app/history-map.tsx'),encounters=read('../app/historical-encounters-map.tsx');
  assert.ok(platform.includes('homepageMaps.map(map=>'));
- assert.ok(platform.includes('Bergedorf auf Karten entdecken'));
+ assert.ok(platform.includes('Bergedorf auf Landkarten entdecken'));
  assert.ok(history.includes('HistoryListMap'));
  assert.ok(encounters.includes('HistoricalEncountersMap'));
  assert.ok(tourism.includes("route.tab==='karte'"));

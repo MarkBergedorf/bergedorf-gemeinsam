@@ -23,6 +23,7 @@ export function LonelinessPage(){
  const pathKey=path.join('/')+(route.params.ort||route.params.stadtteil||'');
  useEffect(()=>{setDraft(q)},[q]);
  useEffect(()=>{heading.current?.focus({preventScroll:true})},[pathKey]);
+ useEffect(()=>{if(!mapView)return;const frame=requestAnimationFrame(()=>document.getElementById('historical-encounters-map-direct-target')?.scrollIntoView({block:'start',behavior:'instant'}));return()=>cancelAnimationFrame(frame)},[mapView,pathKey]);
  const crumbs=[...lonelinessBreadcrumbs(node),...(detail?[{title:detailTitle,href:detailHref}]:[])],results=searchLoneliness(q);
  return <div className="section page-content loneliness-page">
  <nav className="loneliness-breadcrumbs" aria-label="Themenpfad"><ol>{crumbs.map((c,i)=><li key={c.href}>{i>0&&<span aria-hidden="true">›</span>}{i===crumbs.length-1&&(isRoot||node)?<span aria-current="page">{c.title}</span>:<a href={c.href}>{c.title}</a>}</li>)}</ol></nav>
