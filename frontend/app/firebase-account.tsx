@@ -1,5 +1,5 @@
 'use client';
-import React,{useState} from 'react';
+import React,{useEffect,useState} from 'react';
 import {useRoute} from './navigation';
 import {useFirebaseAuth} from './firebase-auth';
 
@@ -8,6 +8,7 @@ export {messageFor as authMessageFor};
 
 export function ParticipantAccess(){
  const route=useRoute(),auth=useFirebaseAuth(),[mode,setMode]=useState<'login'|'register'|'reset'>(route.page==='registrieren'?'register':'login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[currentPassword,setCurrentPassword]=useState(''),[newEmail,setNewEmail]=useState(''),[newPassword,setNewPassword]=useState(''),[notice,setNotice]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false),[confirmed,setConfirmed]=useState(false),[confirmDelete,setConfirmDelete]=useState(false);
+ useEffect(()=>{setMode(route.page==='registrieren'?'register':'login')},[route.page]);
  const authenticated=route.page==='konto';
  async function submit(event:React.FormEvent){event.preventDefault();setBusy(true);setError('');setNotice('');try{
   if(!auth.configured)throw Error('Die Anmeldung ist noch nicht eingerichtet.');

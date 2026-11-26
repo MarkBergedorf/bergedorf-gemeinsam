@@ -6,7 +6,9 @@ import {hasFirebaseAuthConfig} from '../lib/firebase-auth-config.mjs';
 
 type AuthValue={configured:boolean;ready:boolean;user:User|null;error:string;begin:()=>Promise<void>;signIn:(email:string,password:string)=>Promise<void>;register:(email:string,password:string)=>Promise<User>;resetPassword:(email:string)=>Promise<void>;changePassword:(user:User,password:string)=>Promise<void>;changeEmail:(user:User,email:string,password:string)=>Promise<void>;deleteAccount:(user:User,password:string)=>Promise<void>;signOut:()=>Promise<void>;sendVerification:(user:User)=>Promise<void>;refreshUser:(user:User)=>Promise<void>};
 const AuthContext=createContext<AuthValue|null>(null);
-const authConfig={apiKey:import.meta.env.VITE_FIREBASE_API_KEY,authDomain:import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,projectId:import.meta.env.VITE_FIREBASE_PROJECT_ID,appId:import.meta.env.VITE_FIREBASE_APP_ID};
+type FirebaseImportMeta=ImportMeta&{env:{VITE_FIREBASE_API_KEY?:string;VITE_FIREBASE_AUTH_DOMAIN?:string;VITE_FIREBASE_PROJECT_ID?:string;VITE_FIREBASE_APP_ID?:string}};
+const firebaseEnv=(import.meta as FirebaseImportMeta).env;
+const authConfig={apiKey:firebaseEnv.VITE_FIREBASE_API_KEY,authDomain:firebaseEnv.VITE_FIREBASE_AUTH_DOMAIN,projectId:firebaseEnv.VITE_FIREBASE_PROJECT_ID,appId:firebaseEnv.VITE_FIREBASE_APP_ID};
 export const firebaseAuthConfigured=hasFirebaseAuthConfig({VITE_FIREBASE_API_KEY:authConfig.apiKey,VITE_FIREBASE_AUTH_DOMAIN:authConfig.authDomain,VITE_FIREBASE_PROJECT_ID:authConfig.projectId,VITE_FIREBASE_APP_ID:authConfig.appId});
 const configured=firebaseAuthConfigured;
 const sessionKey='bg-firebase-auth-session';

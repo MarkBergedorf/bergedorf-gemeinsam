@@ -37,3 +37,17 @@ test('Kompakte mobile Navigation bietet Anmelden, Registrieren, Konto und Abmeld
  for(const label of ['Anmelden','Registrieren','Mein Konto','Abmelden'])assert(header.includes(label),label);
  assert.match(css,/@media\(max-width:1023px\)[^}]*mobile-auth-links/);
 });
+
+test('Wechsel der direkten Kontoroute schaltet Anmeldung und Registrierung passend um',()=>{
+ const account=readFileSync(new URL('../app/firebase-account.tsx',import.meta.url),'utf8');
+ assert.match(account,/useEffect\(\(\)=>\{setMode\(route\.page==='registrieren'\?'register':'login'\)\},\[route\.page\]\)/);
+});
+
+test('Datenschutzhinweis ordnet Firebase Authentication den Cloud-Bedingungen korrekt zu',()=>{
+ const privacy=readFileSync(new URL('../pages/privacy.tsx',import.meta.url),'utf8');
+ const setup=readFileSync(new URL('../FIREBASE_AUTH_SETUP.md',import.meta.url),'utf8');
+ assert(privacy.includes('unter den Google-Cloud-Plattformbedingungen'));
+ assert(privacy.includes('https://cloud.google.com/terms/data-processing-addendum'));
+ assert(setup.includes('not only in notify mode'));
+ assert(setup.includes('trade, business, craft, or profession'));
+});
