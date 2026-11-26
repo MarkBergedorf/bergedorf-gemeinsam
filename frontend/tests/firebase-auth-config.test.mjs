@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {hasFirebaseAuthConfig,firebaseAuthRequiredConfigKeys} from '../lib/firebase-auth-config.mjs';
+import {dailyEmailLinkQuotaMessage,isDailyEmailLinkQuotaError} from '../lib/firebase-auth-flow.mjs';
 import {readFileSync} from 'node:fs';
 
 test('Firebase Authentication bleibt bei fehlender Projektkonfiguration aus',()=>{
@@ -22,13 +23,38 @@ test('Firebase-Konfiguration erfordert keine privilegierten Dienstkontodaten',()
 test('Kontoabläufe nutzen Firebase Auth und vergeben keine Beitrags- oder Administrationsrechte',()=>{
  const auth=readFileSync(new URL('../app/firebase-auth.tsx',import.meta.url),'utf8');
  const account=readFileSync(new URL('../app/firebase-account.tsx',import.meta.url),'utf8');
- for(const action of ['createUserWithEmailAndPassword','sendEmailVerification','signInWithEmailAndPassword','sendPasswordResetEmail','signOut','verifyBeforeUpdateEmail','updatePassword','deleteUser'])assert(auth.includes(action),action);
+ for(const action of ['createUserWithEmailAndPassword','sendEmailVerification','signInWithEmailAndPassword','sendSignInLinkToEmail','isSignInWithEmailLink','signInWithEmailLink','sendPasswordResetEmail','signOut','verifyBeforeUpdateEmail','updatePassword','deleteUser'])assert(auth.includes(action),action);
  assert(account.includes('emailVerified'));
  assert.match(account,/minLength=\{mode==='register'\?12:undefined\}/);
  assert.match(account,/minLength=\{12\} required value=\{newPassword\}/);
  assert(account.includes('E-Mail-Adresse bestätigen'));
+ assert(account.includes("accessType==='private'"));
+ assert(account.includes("accessType==='organization'"));
+ assert(account.includes('Passwortloser E-Mail-Link'));
+ assert(account.includes('Konto mit Passwort erstellen'));
+ assert(account.includes('Passwort einrichten oder ändern'));
+ assert(!account.includes('providerData'));
+ assert(account.includes('auth/quota-exceeded'));
+ assert(account.includes('dailyEmailLinkQuotaMessage'));
+ assert(account.includes('Auf diesem Gerät angemeldet bleiben'));
  assert(!/canAuthor|canAdmin|canModerate|setCustomUserClaims|customClaims/.test(auth+account));
- assert(!/localStorage|document\.cookie/.test(auth));
+ assert(auth.includes('browserLocalPersistence')&&auth.includes('browserSessionPersistence'));
+ assert(auth.includes('bg-firebase-email-link-address'));
+});
+
+test('Tageslimit für E-Mail-Anmeldelinks führt ausschließlich beim eindeutigen Quota-Fehler zum Passwort-Fallback',()=>{
+ assert.equal(isDailyEmailLinkQuotaError({code:'auth/quota-exceeded'}),true);
+ assert.equal(isDailyEmailLinkQuotaError({code:'QUOTA_EXCEEDED'}),true);
+ assert.equal(isDailyEmailLinkQuotaError({code:'auth/too-many-requests'}),false);
+ assert.match(dailyEmailLinkQuotaMessage,/E-Mail-Adresse und Passwort/);
+ assert.match(dailyEmailLinkQuotaMessage,/sobald Firebase das Tageskontingent erneuert hat/);
+ assert.doesNotMatch(dailyEmailLinkQuotaMessage,/\b(?:um|gegen)\s+\d{1,2}[:.]\d{2}\b/i);
+});
+
+test('Benachrichtigungswarteliste wird nicht in die Authentifizierung integriert',()=>{
+ const auth=readFileSync(new URL('../app/firebase-auth.tsx',import.meta.url),'utf8');
+ const account=readFileSync(new URL('../app/firebase-account.tsx',import.meta.url),'utf8');
+ assert(!/notifyWhenAvailable|quotaWaitlist|Kontingentbenachrichtigung|warteliste/i.test(auth+account));
 });
 
 test('Kompakte mobile Navigation bietet Anmelden, Registrieren, Konto und Abmelden',()=>{
