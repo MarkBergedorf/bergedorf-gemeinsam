@@ -52,8 +52,11 @@ test('Direktlinks bewahren die vorhandene Karteneinwilligung; nur die Kopf-Besch
  assert.ok(!header.includes('Statische Testfassung'));
  assert.ok(header.includes('Alle ${items.length} Themen öffnen'));
  assert.ok(header.includes("mobile?'Themenübersicht schließen'"));
- const banner=read('../pages/main.tsx');
- assert.ok(banner.includes('Statische Testfassung · Anmeldung, Beiträge und Interaktionen benötigen ein Backend. Keine öffentliche Freigabe erfolgt.'));
+ const main=read('../pages/main.tsx');
+ assert.ok(main.includes('!firebaseAuthConfigured&&<aside className="pages-test-banner">'));
+ assert.ok(main.includes("if(firebaseAuthConfigured)document.title='Bergedorf gemeinsam – Unabhängige Bürgerplattform'"));
+ assert.ok(main.includes("firebaseAuthConfigured?'Datenschutz':'Datenschutz der statischen Testfassung'"));
+ assert.ok(main.includes('Statische Testfassung · Anmeldung, Beiträge und Interaktionen benötigen ein Backend. Keine öffentliche Freigabe erfolgt.'));
 });
 
 test('Projekt-Unterpfad, noindex, Navigation und bestehende Startseitenbereiche bleiben erhalten',()=>{
