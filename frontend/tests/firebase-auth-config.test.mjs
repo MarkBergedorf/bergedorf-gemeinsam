@@ -40,6 +40,13 @@ test('Kontoabläufe nutzen Firebase Auth und vergeben keine Beitrags- oder Admin
  assert(!/canAuthor|canAdmin|canModerate|setCustomUserClaims|customClaims/.test(auth+account));
  assert(auth.includes('browserLocalPersistence')&&auth.includes('browserSessionPersistence'));
  assert(auth.includes('bg-firebase-email-link-address'));
+ assert(auth.includes('EmailAuthProvider.credentialWithLink'));
+ assert(auth.includes('reauthenticateWithCredential(account,credential)'));
+ assert(auth.includes('requestReauthenticationLink'));
+ assert(auth.includes('deleteAccountWithCurrentSession'));
+ assert(account.includes('Bereits registriert: anmelden oder Passwort zurücksetzen'));
+ assert(account.includes('Erneut per E-Mail-Link bestätigen'));
+ assert.match(account,/disabled=\{busy\|\|!confirmDelete\}/);
 });
 
 test('Tageslimit für E-Mail-Anmeldelinks führt ausschließlich beim eindeutigen Quota-Fehler zum Passwort-Fallback',()=>{

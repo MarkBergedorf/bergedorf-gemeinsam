@@ -12,10 +12,15 @@ type AuthValue={
  sendEmailLink:(email:string)=>Promise<void>;
  isEmailSignInLink:()=>Promise<boolean>;
  completeEmailLink:(email:string)=>Promise<User>;
+ requestReauthenticationLink:(user:User,purpose:'changePassword'|'changeEmail'|'deleteAccount')=>Promise<void>;
+ pendingReauthenticationPurpose:(user?:User|null)=>'changePassword'|'changeEmail'|'deleteAccount'|null;
+ reauthenticateWithEmailLink:(user:User,email:string,emailLink:string)=>Promise<'changePassword'|'changeEmail'|'deleteAccount'>;
  resetPassword:(email:string)=>Promise<void>;
  changePassword:(user:User,password:string)=>Promise<void>;
  changeEmail:(user:User,email:string,password:string)=>Promise<void>;
+ changeEmailWithCurrentSession:(user:User,email:string)=>Promise<void>;
  deleteAccount:(user:User,password:string)=>Promise<void>;
+ deleteAccountWithCurrentSession:(user:User)=>Promise<void>;
  signOut:()=>Promise<void>;
  sendVerification:(user:User)=>Promise<void>;
  refreshUser:(user:User)=>Promise<void>;
@@ -30,6 +35,7 @@ const sessionKey='bg-firebase-auth-session';
 const localSessionKey='bg-firebase-auth-remembered';
 const rememberChoiceKey='bg-firebase-auth-remember-choice';
 const emailLinkKey='bg-firebase-email-link-address';
+const reauthenticationKey='bg-firebase-auth-reauthentication';
 let clientAuthPromise:Promise<Auth>|null=null;
 
 async function clientAuth(rememberOnDevice?:boolean){
@@ -62,12 +68,17 @@ export function AuthProvider({children}:{children:React.ReactNode}){
   register:async(email,password)=>{const a=await clientAuth(),sdk=await import('firebase/auth');const credential=await sdk.createUserWithEmailAndPassword(a,email,password);await sdk.sendEmailVerification(credential.user,{url:actionUrl('#anmelden'),handleCodeInApp:false});return credential.user},
   sendEmailLink:async email=>{const a=await clientAuth(),sdk=await import('firebase/auth');await sdk.sendSignInLinkToEmail(a,email,{url:actionUrl('#anmelden'),handleCodeInApp:true});try{sessionStorage.setItem(emailLinkKey,email)}catch{}},
   isEmailSignInLink:async()=>{const a=await clientAuth(),sdk=await import('firebase/auth');return sdk.isSignInWithEmailLink(a,location.href)},
-  completeEmailLink:async email=>{const a=await clientAuth(),sdk=await import('firebase/auth');if(!sdk.isSignInWithEmailLink(a,location.href))throw Error('Der Anmeldelink ist ungültig oder abgelaufen. Fordern Sie bitte einen neuen Link an.');const credential=await sdk.signInWithEmailLink(a,email,location.href);try{sessionStorage.removeItem(emailLinkKey)}catch{}return credential.user},
+  completeEmailLink:async email=>{const a=await clientAuth(),sdk=await import('firebase/auth');if(!sdk.isSignInWithEmailLink(a,location.href))throw Error('Der Anmeldelink ist ungültig oder abgelaufen. Fordern Sie bitte einen neuen Link an.');const credential=await sdk.signInWithEmailLink(a,email,location.href);try{sessionStorage.removeItem(emailLinkKey);sessionStorage.removeItem(reauthenticationKey)}catch{}return credential.user},
+  requestReauthenticationLink:async(account,purpose)=>{if(!account.email)throw Error('Für dieses Konto ist keine bestätigte E-Mail-Adresse verfügbar.');const a=await clientAuth(),sdk=await import('firebase/auth');await sdk.sendSignInLinkToEmail(a,account.email,{url:actionUrl('#konto'),handleCodeInApp:true});try{sessionStorage.setItem(emailLinkKey,account.email);sessionStorage.setItem(reauthenticationKey,JSON.stringify({uid:account.uid,purpose}))}catch{}},
+  pendingReauthenticationPurpose:account=>{try{const value=JSON.parse(sessionStorage.getItem(reauthenticationKey)||'null');if(!value||!['changePassword','changeEmail','deleteAccount'].includes(value.purpose))return null;if(account&&value.uid!==account.uid)return null;return value.purpose}catch{return null}},
+  reauthenticateWithEmailLink:async(account,email,emailLink)=>{const value=JSON.parse(sessionStorage.getItem(reauthenticationKey)||'null');if(!value||value.uid!==account.uid||!['changePassword','changeEmail','deleteAccount'].includes(value.purpose))throw Error('Die erneute Anmeldung wurde nicht in diesem Browserfenster angefordert.');if(!account.email||email.trim().toLowerCase()!==account.email.trim().toLowerCase())throw Error('Die E-Mail-Adresse muss mit der Adresse dieses Benutzerkontos übereinstimmen.');const a=await clientAuth(),sdk=await import('firebase/auth');if(!sdk.isSignInWithEmailLink(a,emailLink))throw Error('Der Bestätigungslink ist ungültig oder abgelaufen. Fordern Sie bitte einen neuen Link an.');const credential=sdk.EmailAuthProvider.credentialWithLink(email.trim(),emailLink);await sdk.reauthenticateWithCredential(account,credential);try{sessionStorage.removeItem(emailLinkKey);sessionStorage.removeItem(reauthenticationKey)}catch{}return value.purpose},
   resetPassword:async email=>{const a=await clientAuth(),sdk=await import('firebase/auth');await sdk.sendPasswordResetEmail(a,email,{url:actionUrl('#anmelden'),handleCodeInApp:false})},
   changePassword:async(account,password)=>{const sdk=await import('firebase/auth');await sdk.updatePassword(account,password)},
   changeEmail:async(account,email,password)=>{const sdk=await import('firebase/auth');const credential=sdk.EmailAuthProvider.credential(account.email||'',password);await sdk.reauthenticateWithCredential(account,credential);await sdk.verifyBeforeUpdateEmail(account,email,{url:actionUrl('#konto'),handleCodeInApp:false})},
+  changeEmailWithCurrentSession:async(account,email)=>{const sdk=await import('firebase/auth');await sdk.verifyBeforeUpdateEmail(account,email,{url:actionUrl('#konto'),handleCodeInApp:false})},
   deleteAccount:async(account,password)=>{const sdk=await import('firebase/auth');const credential=sdk.EmailAuthProvider.credential(account.email||'',password);await sdk.reauthenticateWithCredential(account,credential);await sdk.deleteUser(account)},
-  signOut:async()=>{await signOutFn?.();try{sessionStorage.removeItem(sessionKey);sessionStorage.removeItem(rememberChoiceKey);sessionStorage.removeItem(emailLinkKey);localStorage.removeItem(localSessionKey)}catch{}setUser(null);setRequested(false);setReady(false)},
+  deleteAccountWithCurrentSession:async account=>{const sdk=await import('firebase/auth');await sdk.deleteUser(account)},
+  signOut:async()=>{await signOutFn?.();try{sessionStorage.removeItem(sessionKey);sessionStorage.removeItem(rememberChoiceKey);sessionStorage.removeItem(emailLinkKey);sessionStorage.removeItem(reauthenticationKey);localStorage.removeItem(localSessionKey)}catch{}setUser(null);setRequested(false);setReady(false)},
   sendVerification:async account=>{const sdk=await import('firebase/auth');await sdk.sendEmailVerification(account,{url:actionUrl('#anmelden'),handleCodeInApp:false})},
   refreshUser:async account=>{const sdk=await import('firebase/auth');await sdk.reload(account);setUser(account)}
  }),[ready,user,error,loadError,signOutFn]);
