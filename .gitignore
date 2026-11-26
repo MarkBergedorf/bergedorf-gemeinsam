@@ -4,6 +4,7 @@ frontend/dist/
 .env
 .env.*
 !.env.example
+!frontend/.env.production
 .openai/
 *.sqlite
 *.sqlite3
