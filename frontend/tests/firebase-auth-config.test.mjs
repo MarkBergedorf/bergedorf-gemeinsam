@@ -45,6 +45,8 @@ test('Kontoabläufe nutzen Firebase Auth und vergeben keine Beitrags- oder Admin
  assert(auth.includes('requestReauthenticationLink'));
  assert(auth.includes('deleteAccountWithCurrentSession'));
  assert(account.includes('Bereits registriert: anmelden oder Passwort zurücksetzen'));
+ assert(account.includes('registrieren Sie nicht erneut'));
+ assert(account.includes('warten Sie bitte, bis Firebase das Tageskontingent erneuert hat'));
  assert(account.includes('Erneut per E-Mail-Link bestätigen'));
  assert.match(account,/disabled=\{busy\|\|!confirmDelete\}/);
 });
