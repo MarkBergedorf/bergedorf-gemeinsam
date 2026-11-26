@@ -24,6 +24,8 @@ test('Kontoabläufe nutzen Firebase Auth und vergeben keine Beitrags- oder Admin
  const account=readFileSync(new URL('../app/firebase-account.tsx',import.meta.url),'utf8');
  for(const action of ['createUserWithEmailAndPassword','sendEmailVerification','signInWithEmailAndPassword','sendPasswordResetEmail','signOut','verifyBeforeUpdateEmail','updatePassword','deleteUser'])assert(auth.includes(action),action);
  assert(account.includes('emailVerified'));
+ assert.match(account,/minLength=\{mode==='register'\?12:undefined\}/);
+ assert.match(account,/minLength=\{12\} required value=\{newPassword\}/);
  assert(account.includes('E-Mail-Adresse bestätigen'));
  assert(!/canAuthor|canAdmin|canModerate|setCustomUserClaims|customClaims/.test(auth+account));
  assert(!/localStorage|document\.cookie/.test(auth));
