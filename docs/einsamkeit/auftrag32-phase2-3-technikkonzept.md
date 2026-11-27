@@ -42,13 +42,14 @@ Die Projektbeschreibungen und Projekttitel bleiben zunächst ausschließlich in 
 | `users/{uid}/interests/{projectId}` | Freiwillige Interessenbekundung; Projekt-ID, gewünschte Beteiligungsform aus fester Auswahlliste, Status, Schema-/Hinweisversion, Serverzeit | Nur betroffene UID; keine Liste anderer Interessierter |
 | `consentEvents/{eventId}` | Separates, versioniertes Ereignis je Zweck: `granted` oder `withdrawn`, UID, Zweck, Hinweisversion/-Hash, Serverzeit | Nur eigene Erfassung; danach unveränderbar; Aufbewahrung und Löschgrundlage vor Produktivstart rechtlich offen |
 | `groups/{groupId}` | Projekt-ID, Gruppentitel, kurzer Zweck, Status, Ersteller-UID, aktuelle Koordinations-UID, Schema-Version und Zeitstempel | Nur aktive Mitglieder und eng begrenzte Plattformverwaltung; keine öffentliche Mitgliederliste |
-| `groups/{groupId}/members/{uid}` | Mitgliedschaft, Gruppenrolle `coordinator` oder `member`, Beitritts-/Austrittsstatus, Zeitstempel | Betroffene Person und aktive Gruppenkoordination |
+| `groups/{groupId}/members/{uid}` | Mitgliedschaft, Gruppenrolle `coordinator`, `deputy` oder `member`, Beitritts-/Austrittsstatus, Zeitstempel | Betroffene Person und aktive Gruppenmitglieder |
 | `groups/{groupId}/joinRequests/{uid}` | Beitrittsanfrage ohne Freitext; gewünschte Rolle nur aus fester Liste, Status und Zeitstempel | Antragstellende Person sowie Koordination genau dieser Gruppe |
 | `groups/{groupId}/workItems/{itemId}` | Konzeptabschnitt, Aufgabe oder Meilenstein; Titel, Klartextinhalt, Status, Fälligkeitsdatum nur falls erforderlich, Zeitstempel | Aktive Mitglieder der Gruppe; Bearbeitung nach festem Rollenmodell |
 | `abuseReports/{reportId}` | Strukturierte Meldung mit Meldegrund, Gruppen-/Datensatzreferenz und Zeitstempel; keine unnötigen Freitexte | Meldende Person und ausdrücklich berechtigte Plattformverwaltung; kein Zugriff für andere Gruppen |
 | `platformStaff/{uid}` | Kleine, manuell gepflegte Liste ausdrücklich berechtigter Betreiberkonten | Schreibzugriff niemals aus dem Webclient; Zuordnung nur durch vertrauenswürdige Projektverwaltung |
+| `groupDirectory/{groupId}` | Opt-in-Gruppenbeschreibung; Projekt-ID, Titel, Kurzbeschreibung, Gruppenstatus und Mitwirkungssuche | Öffentlich lesbar, aber nur mit einer Feld-Allowlist ohne Personen-, Konto-, Kontakt- oder Mitgliederdaten |
 
-**Nicht im ersten Schritt vorgesehen:** öffentliche Teilnehmerlisten, öffentlicher Gruppenfinder, direkte Nachrichten, Dateiuploads, Gesundheits-/Diagnosedaten, ausführliche Profile, automatisch veröffentlichte Gruppenfortschritte, Anwesenheits- oder Nutzungsanalysen sowie unmoderierte öffentliche Kommentare.
+**Nicht im ersten Schritt vorgesehen:** öffentliche Teilnehmerlisten, personenbezogener Gruppenfinder, direkte Nachrichten, Datei-Uploads, Gesundheits-/Diagnosedaten, ausführliche Profile, automatisch veröffentlichte Gruppenfortschritte, Anwesenheits- oder Nutzungsanalysen sowie unmoderierte öffentliche Kommentare. Das opt-in Gruppenverzeichnis veröffentlicht nur die Beschreibung und den Status der jeweiligen Gruppe. Interessen, Identitäten, E-Mail-Adressen und Mitgliederlisten bleiben privat.
 
 Die erste Version sollte keine Kontaktadresse in Firestore duplizieren. Firebase Auth bleibt Identitätsquelle; E-Mail-Adressen werden nicht in Gruppen- oder Interessenlisten kopiert. Die Gruppen verwenden allenfalls einen frei gewählten Anzeigenamen, nicht zwingend den Klarnamen. Ein Anzeigename gilt nicht als Identitäts- oder Organisationsnachweis.
 
@@ -62,7 +63,9 @@ Eine Person wählt eine Projektidee und eine begrenzte Beteiligungsform aus, etw
 
 Eine Gruppe wird nur angelegt, wenn eine verifizierte Person freiwillig die Koordination übernimmt und die Gruppenbedingungen bestätigt. Das Anlegen des Gruppendokuments und der ersten Mitgliedschaft als `coordinator` muss in einer atomaren Transaktion geschehen. Ein partieller Zustand „Gruppe ohne verantwortliche Koordination“ darf nicht entstehen.
 
-Weitere Personen stellen einen Beitrittsantrag. Die Koordination nimmt ihn an oder lehnt ihn ab. Die Mitgliedschaft wird erst nach Annahme aktiv. Der Antragsteller kann die eigene Anfrage zurückziehen. Koordinatoren können keine Betreiberrechte vergeben.
+Eine koordinierende Person kann anschließend eine kurze, personenbezogen bereinigte Gruppenbeschreibung freiwillig ins öffentliche Gruppenverzeichnis stellen. Der Verzeichniseintrag enthält keine UIDs, E-Mail-Adressen, Teilnehmerzahlen oder Mitgliederliste. Er wird auf Projekt-ID und `listed == true` gefiltert und auf 25 Treffer pro Abruf begrenzt. Die Rules weisen in Titeln/Beschreibungen erkannte E-Mail-Adressen und Telefonnummern zurück; das ersetzt keine Inhaltsmoderation und kann Angaben im Freitext nicht zuverlässig klassifizieren.
+
+Weitere Personen stellen einen privaten Beitrittsantrag. Die Koordination nimmt ihn an oder lehnt ihn ab. Die Mitgliedschaft wird erst nach atomarer Annahme von Antrag und Mitgliedschaftsdokument aktiv. Der Antragsteller kann die eigene Anfrage zurückziehen. Koordinatoren können keine Betreiberrechte vergeben.
 
 Eine Gruppe soll mindestens eine Koordination und eine selbst gewählte Vertretung/Übergabeoption besitzen. Vor dem Ausscheiden der letzten Koordination muss eine aktive Mitgliedsperson die Rolle übernehmen; andernfalls wird die Gruppe geschlossen und der Beitritt gesperrt. Diese Voraussetzung ist eine technische Verfügbarkeitsbedingung und keine Zusage, dass der Betreiber einspringt.
 
@@ -71,6 +74,7 @@ Eine Gruppe soll mindestens eine Koordination und eine selbst gewählte Vertretu
 | Rolle | Rechte | Ausdrücklich nicht enthalten |
 | --- | --- | --- |
 | `member` | Geschlossenen Arbeitsbereich lesen, freigegebene Konzept-/Aufgabeninhalte bearbeiten, eigene Mitgliedschaft beenden | Andere aufnehmen, Rollen vergeben, fremde Gruppen sehen, Inhalte veröffentlichen |
+| `deputy` | Aktive Gruppenarbeit unterstützen und Anfragen im Auftrag der Gruppe bearbeiten | Primären Gruppenstatus, Veröffentlichung oder Plattformrollen eigenständig ändern |
 | `coordinator` | Beitrittsanfragen der eigenen Gruppe entscheiden, Gruppenarbeitsstand verwalten, Mitglieder bei Regelverstößen aus der eigenen Gruppe entfernen, Übergabe organisieren | Betreiber-/Plattformrechte, Zugriff auf andere Gruppen, Firebase-Konten verwalten |
 | Organisationsvertretung | Teilnahme als einzelne authentifizierte Person; optionale, geprüfte Zugehörigkeit zu einem verifizierten Organisationseintrag | Kein Sonderzugriff allein wegen der Organisation oder der UI-Auswahl „Organisation“ |
 | Plattformverwaltung | Technische Sperrung, notwendige Missbrauchs-/Datenschutzbearbeitung und begrenzte Administration | Keine laufende Projektleitung und keine automatische Einsicht in sämtliche privaten Gruppeninhalte |
@@ -117,7 +121,7 @@ Firestore löscht beim Entfernen eines Dokuments nicht automatisch dessen Unterk
 Für den ersten möglichen Produktivumfang gelten als Designgrenzen:
 
 - nur bestätigte Konten; keine anonymen Schreibzugriffe;
-- geschlossene Gruppen, kein öffentlicher Gruppenfinder und keine wiederverwendbaren Einladungsschlüssel;
+- private Arbeitsbereiche plus freiwilliges, sparsam gehaltenes Gruppenverzeichnis; kein personenbezogener Gruppenfinder und keine wiederverwendbaren Einladungsschlüssel;
 - keine direkten Nachrichten und keine Datei-Uploads;
 - Beitrittsanfragen nur als strukturierte Auswahl ohne freie Kontakt-/Bedarfsbeschreibung;
 - kurze Titel-/Textfelder, feste Statuswerte und paginierte Abfragen;
@@ -181,7 +185,7 @@ Vor einer produktiven Verbindung müssen nacheinander vorliegen:
 7. getestete Ausfallbehandlung und ein begrenztes Abfrage-/Speicherbudget;
 8. gesonderte Freigabe für die Aktivierung der produktiven Datenbank und Beteiligungsfunktionen.
 
-Bis dahin bleiben Datenbank, Rules, Firebase-Konfiguration und Phase-2/3-Oberflächen unverändert. Der Spark-Tarif bleibt bestehen; es werden keine personenbezogenen Arbeitsgruppenangaben erhoben.
+Die öffentliche Website, produktive Firebase-Konfiguration und produktive Arbeitsgruppenfunktionen bleiben unverändert. Die isolierte lokale Vorschau und Emulator-Rules sind ausschließlich Entwicklungsartefakte. Der Spark-Tarif bleibt bestehen; es werden keine produktiven Arbeitsgruppenangaben erhoben.
 
 ## 11. Quellen und offene Punkte
 

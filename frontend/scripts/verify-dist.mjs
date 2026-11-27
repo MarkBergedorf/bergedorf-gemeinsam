@@ -46,6 +46,7 @@ const files = await walk(dist);
 
 for (const file of files) {
   const rel = relative(dist, file).split(sep).join('/');
+  if (rel.startsWith('local/phase32/')) throw Error(`Lokale Phase-32-Vorschau darf nicht in GitHub Pages gelangen: ${rel}`);
   if (/(?:^|\/)(?:api|db|drizzle|downloads|docs|backend)(?:\/|$)/.test(rel) || /\.map$|\.sqlite$|\.zip$/i.test(rel)) {
     throw Error(`Nicht öffentliche Datei im Pages-Artefakt: ${rel}`);
   }

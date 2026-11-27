@@ -1,4 +1,8 @@
 **/node_modules/
+frontend/.sites-runtime/
+frontend/firebase-debug.log
+frontend/firestore-debug.log
+frontend/ui-debug.log
 frontend/dist/
 *.tsbuildinfo
 .env

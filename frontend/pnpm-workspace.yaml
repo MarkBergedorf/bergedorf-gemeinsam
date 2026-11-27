@@ -8,6 +8,7 @@ allowBuilds:
   esbuild: true
   fsevents: true
   protobufjs: false
+  re2: false
   sharp: true
   unrs-resolver: true
   workerd: true
