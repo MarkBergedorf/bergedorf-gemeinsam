@@ -134,7 +134,7 @@
 
 /* V40: calibrated to visible crest/glyph contours in IMG_8249, not line boxes. */
 @media(max-width:700px){
-.site-header .brand img{height:65px;width:auto;margin-top:7px);object-fit:contain}
+.site-header .brand img{height:65px;width:auto;margin-top:7px;object-fit:contain}
 .site-header .header-actions>.menu-toggle{grid-column:1/-1;justify-self:center;margin-left:0}
 }
 
