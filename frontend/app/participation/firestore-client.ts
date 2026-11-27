@@ -8,6 +8,7 @@ const firestoreEmulatorHost = participationEnv.VITE_FIRESTORE_EMULATOR_HOST;
 let firestoreEmulatorConnected = false;
 const PAGE_SIZE = 25;
 const INTEREST_PAGE_SIZE = 18;
+const FIRESTORE_DATABASE_ID = '(default)';
 const NOTICE_VERSION = 'participation-v1';
 const PROJECT_IDS = new Set([
   'projekt-einsamkeitslotsen', 'projekt-begleitung-erster-besuch', 'projekt-begegnungsstaetten-zukunft',
@@ -26,7 +27,7 @@ function assertParticipant(user: User) {
 }
 async function publicFirestore() {
   const [{ getApp }, { getFirestore }] = await Promise.all([import('firebase/app'), import('firebase/firestore')]);
-  const db = getFirestore(getApp('bergedorf-public-auth'));
+  const db = getFirestore(getApp('bergedorf-public-auth'), FIRESTORE_DATABASE_ID);
   if (firestoreEmulatorHost && !firestoreEmulatorConnected) {
     const url = new URL(firestoreEmulatorHost);
     if (typeof location === 'undefined' || !['localhost', '127.0.0.1'].includes(location.hostname) || !['localhost', '127.0.0.1'].includes(url.hostname)) throw new Error('Firestore-Emulator ist ausschließlich in der lokalen Vorschau zulässig.');

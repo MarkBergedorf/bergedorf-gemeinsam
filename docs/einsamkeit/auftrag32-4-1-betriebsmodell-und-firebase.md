@@ -141,40 +141,53 @@ Die verbleibenden 83 Diagnosen liegen außerhalb des geänderten Beteiligungsabl
 
 ## Firebase-Konfiguration: Stand und spätere Anleitung
 
-### Im Repository vorhanden
+### Vom Betreiber bestätigter Produktionsstand
 
-- Projektkennung der bestehenden Web-App: bergedorf-gemeinsam.
-- Vorhandene Firebase Authentication für die Website.
-- Vorbereitete Dateien firestore.rules und firestore.indexes.json.
-- Emulatoren für Auth und Firestore in frontend/firebase.json.
-- Beteiligungsflag standardmäßig ausgeschaltet.
-- Betreiber-CLI mit ADC; Emulator- und demo-Projekte werden abgewiesen.
+| Einstellung | Bestätigter Wert |
+| --- | --- |
+| Firebase-Projekt-ID | `bergedorf-gemeinsam` |
+| Firestore-Datenbank-ID | `(default)` |
+| Edition | Standard |
+| Speicherort | `europe-west3` (Frankfurt) |
+| Tarif | Spark, kostenlos |
+| Betriebsmodus bei Einrichtung | Produktionsmodus; Website-Clientzugriffe gesperrt |
+| Datenbestand | Datenbank bei Einrichtung leer, keine Sammlungen |
+| Geplante kostenpflichtige Sicherungen | keine |
 
-### Nicht im Repository nachgewiesen
+Diese Angaben wurden vom Betreiber am 28. November 2026 bestätigt. Die Firebase-CLI in der Entwicklungsumgebung ist derzeit nicht angemeldet; eine unabhängige Abfrage des Produktionsprojekts ist deshalb noch nicht möglich. Es wurden dort keine Regeln oder Indizes bereitgestellt.
 
-- Ob im Projekt bereits eine Firestore-Datenbank besteht.
-- Datenbank-ID und -Region.
-- Produktionsbereitstellung von Rules und Indizes.
-- Derzeitige IAM-Rollen und Dienstkonten.
-- Aktuelle Kontingentnutzung oder Warnwerte.
-- Ob der Standort der Default-Datenbank noch gewählt werden kann.
+### Anbindung im Repository
 
-Firebase dokumentiert, dass sich der Firestore-Standort nach Bereitstellung nicht ändern lässt. Vor dem Erstellen ist die Region zu prüfen und zu entscheiden. Firebase Console → Databases & Storage → Firestore → Data zeigt vorhandene Datenbanken und deren Regionen. Keine Datenbank anlegen, bevor diese Entscheidung und die gesonderte Aktivierungsfreigabe vorliegen.
+- `frontend/.env.production` verweist mit der bestehenden Web-App auf das Firebase-Projekt `bergedorf-gemeinsam`; Firebase Authentication derselben Web-App verwendet dieselbe Projekt-ID.
+- `frontend/app/participation/firestore-client.ts` adressiert nun ausdrücklich die `(default)`-Datenbank. Authentication und Firestore greifen auf dieselbe Firebase-App zu.
+- `frontend/firebase.json` bindet `firestore.rules` und `firestore.indexes.json` ausdrücklich an Datenbank `(default)`.
+- `frontend/.firebaserc` behält das Demo-Projekt als sicheres Standardziel und ergänzt `bergedorf-gemeinsam` als ausdrücklichen Alias `production`. Die produktiven Prüf-/Deploy-Befehle nennen die Produktionsprojekt-ID ausdrücklich; die Emulatorbefehle bleiben auf das Demo-Projekt gesetzt.
+- `frontend/package.json` enthält explizit auf `bergedorf-gemeinsam` zielende Befehle `firebase:inspect:firestore` und `firebase:deploy:firestore`.
+- Die Client-Sperre bleibt doppelt: Das öffentliche Build-Flag ist aus; außerdem erlaubt `featureEnabled()` Zugriff nur, wenn `platformConfig/participation.enabled == true` gesetzt wird. Nach dem vom Betreiber bestätigten leeren Datenbankstand fehlt dieses Dokument. Die Rules bleiben daher geschlossen, bis beide Aktivierungsbedingungen gesondert geändert werden.
+- `firestore.rules` enthält keine pauschale Nutzerfreigabe. Beteiligungsdaten bleiben an das Feature-Flag, bestätigte Konten und jeweilige UID-/Rollenbedingungen gebunden.
 
-### Schritte für eine spätere, gesondert freigegebene Bereitstellung
+### Bereitstellung – vorbereitet, wartet auf Firebase-Anmeldung
 
-1. Firebase Console-Projekt bergedorf-gemeinsam öffnen und Projekt-ID mit der vorhandenen Website-Konfiguration abgleichen.
-2. Firestore → Data öffnen. Nur ablesen, ob eine Datenbank existiert, ihre ID und Region notieren. Keine Datenbank erstellen oder Region ändern.
-3. Authentication → Users öffnen und nur prüfen, dass Anmeldung und Beteiligung zum selben Projekt gehören. Keine Nutzer ändern oder exportieren.
-4. Project settings → General öffnen und Projekt-ID sowie bestehende Web-App bestätigen. Keine neuen Admin-Schlüssel erzeugen.
-5. IAM & Admin → IAM prüfen. Für einen späteren Operatorzugang getrennt und nur bei tatsächlichem Bedarf Cloud Datastore User (roles/datastore.user) für Firestore und Firebase Authentication Admin (roles/firebaseauth.admin) für Kontoverwaltung erwägen. Keine Owner- oder Editor-Rolle für gewöhnliche Verwaltung vergeben. Rollen mit Sicherheitsperson prüfen, weil das Admin SDK Firestore-Regeln umgeht.
-6. Vor jeder Bereitstellung Pull Request, Rules und Indizes prüfen. Erst nach separater Freigabe die Dateien aus frontend/ im bestehenden Projekt bereitstellen. Zielprojekt muss bergedorf-gemeinsam sein.
-7. Firestore → Rules prüfen, dass keine Testregeln aktiv sind. Unter Indexes warten, bis erforderliche Indizes bereit sind. Zunächst nur synthetische Tests nutzen.
-8. Firestore → Usage regelmäßig öffnen und Lese-, Schreib-, Lösch- und Speicherverbrauch prüfen. Keine kostenpflichtige Monitoring-Integration einrichten. Bei Auffälligkeit Beteiligung deaktivieren.
-9. Not-Aus bleibt bis zur Freigabe unangetastet. Später kann das Operator-Menü die Einstellung enabled=false setzen. Danach Status prüfen und die Aktion dokumentieren.
-10. Vor einer späteren Aktivierung beide Sperren kontrollieren. Diese Anleitung aktiviert weder Firestore noch Beteiligungsfunktionen.
+Die aktuelle Ausführungsumgebung meldet bei `firebase projects:list`: „Failed to authenticate, have you run firebase login?“ Google Application Default Credentials sind ebenfalls nicht vorhanden. Die Bereitstellung wurde deshalb noch nicht begonnen. Nach Anmeldung der Betreiberidentität lauten die vorbereiteten Befehle im Verzeichnis `frontend/`:
 
-Firebase zeigt Firestore-Nutzungsdaten in der Console. Kostenlose Nutzung und genaue Limits hängen vom Produkt und Plan ab und können sich ändern; die Werte der Console zum Entscheidungszeitpunkt sind maßgeblich. Projekt bleibt auf Spark; Billing wird nicht verknüpft und kein kostenpflichtiger Dienst eingeschaltet.
+1. `pnpm run firebase:inspect:firestore` – Datenbank `(default)` im expliziten Projekt `bergedorf-gemeinsam` abfragen. Projekt-ID, Edition und Region bestätigen; keine Datenbank erstellen oder ändern.
+2. `pnpm run firebase:inspect:indexes` – vorhandene Indexe abrufen und mit `firestore.indexes.json` vergleichen. Wenn nicht deklarierte produktive Indexe vorhanden sind, vor dem Deploy erst die Konfiguration zusammenführen; der Deploy darf bestehende Indexdefinitionen nicht unbeabsichtigt entfernen.
+3. Erst nach erfolgreicher Prüfung `pnpm run firebase:deploy:firestore` ausführen. Der Befehl stellt ausschließlich die in `firebase.json` eingebundenen Firestore-Regeln und Indexe bereit. Kein Auth-, Hosting-, Functions-, Datenbank- oder Billing-Deploy.
+4. Firebase Console → Firestore → Rules öffnen und prüfen, dass die geprüfte Regelfassung veröffentlicht ist. Sie ersetzt die pauschale Produktionsmodus-Regel `allow read, write: if false;` durch geprüfte, bedingte Regeln. Ohne `platformConfig/participation.enabled == true` und aktiviertes Build-Flag bleiben Beteiligungszugriffe gesperrt.
+5. Firebase Console → Firestore → Indexes öffnen und prüfen, dass die sieben benötigten zusammengesetzten Indexe bereit oder im Aufbau sind. Die Bereitstellung legt keine Nutzerdokumente an.
+6. Firebase Console → Authentication prüfen, dass dieselbe Projekt-ID `bergedorf-gemeinsam` verwendet wird. Keine Nutzer anlegen, exportieren oder verändern.
+
+Für Rules benötigt die ausführende Identität Rules-Berechtigungen (z. B. `roles/firebaserules.admin`); für Indexe `roles/datastore.indexAdmin`. Die CLI kann mit einer bereits ausreichend berechtigten Betreiberidentität angemeldet werden. Es soll keine Owner-/Editor-Rolle nur für diesen Deploy eingerichtet werden. Falls eine zeitlich begrenzte Berechtigung notwendig ist, muss ein berechtigter Projektadministrator sie vergeben und nach dem Deploy wieder entziehen.
+
+Der Deploy ist in dieser Ausführungsumgebung blockiert, bis die Firebase-CLI autorisiert ist. Dafür wird eine angemeldete Firebase-CLI-Sitzung auf dieser Ausführungsumgebung benötigt. Projektdateien und Befehle sind vorbereitet; die bestätigte Produktionsdatenbank wurde nicht verändert.
+
+### Betreiberverwaltung und IAM
+
+Die Betreiber-CLI läuft lokal mit Application Default Credentials und adressiert ausdrücklich `(default)`. Im öffentlichen Website-Code gibt es keine Admin-Zugangsdaten. Für spätere Kontoverwaltung sind `roles/datastore.user` und `roles/firebaseauth.admin` als mögliche Mindestrollen vorgeschlagen. Die tatsächliche IAM-Belegung ist nicht geprüft. Das Admin SDK umgeht Firestore Security Rules; deshalb ausschließlich vertrauenswürdige Betreibergeräte und minimale Rollen verwenden. Operatorzugang und einmaliger Rules-/Index-Deploy sind getrennt zu berechtigen.
+
+### Kosten- und Freischaltungsgrenze
+
+Das Projekt bleibt auf Spark. Kein Billing-Upgrade, keine kostenpflichtigen Sicherungen und kein kostenpflichtiger Überwachungsdienst. Der Deploy von Regeln und Indizes schaltet die Bürgerbeteiligung nicht frei. Es erfolgt weiterhin keine Verarbeitung echter Beteiligungsdaten. Die vom Betreiber bestätigte Datenbankregion `europe-west3` ist nach dem Erstellen nicht änderbar.
 
 ## Direkt beantwortbare Betreiberentscheidungen
 
@@ -184,7 +197,7 @@ Firebase zeigt Firestore-Nutzungsdaten in der Console. Kostenlose Nutzung und ge
 4. **Einwilligungs- und Auditnachweise:** sechs Monate nach Beteiligungsende? Vorschlag: minimale Nachweise, dann löschen; Datenschutzberatung bestätigt/ändert.
 5. **Meldungsaufbewahrung:** sechs Monate nach Abschluss? Vorschlag: Ja, nur nötige Angaben.
 6. **Meldungsreaktion:** Zuständigkeit und Vertretung? Vorschlag: feste Betreiberzuständigkeit plus Vertretung; Dringendes unverzüglich, sonst Sichtung innerhalb eines Werktags.
-7. **Firebase-Standort:** welche konkrete EU-Region ist akzeptabel? Erst nach Prüfung auswählen; nach Anlegen nicht änderbar.
+7. **Firebase-Standort:** vom Betreiber entschieden und Datenbank bereits eingerichtet: `europe-west3` (Frankfurt).
 8. **Rechtsprüfung:** wer bestätigt Rechtsgrundlage, Texte, Google-Verträge, Drittlandtransfer und die Entscheidung zur vollständigen Folgenabschätzung?
 9. **Kontingente:** welche internen Warn-/Abschaltwerte gelten? Vorschlag: konservative Werte deutlich unter Planlimits und zunächst wöchentliche manuelle Prüfung.
 
