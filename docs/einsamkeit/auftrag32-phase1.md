@@ -1,6 +1,6 @@
 # Arbeitsauftrag 32 – Phase 1: Projektideen, Hilfswegweiser und Arbeitsmaterialien
 
-**Prüfgrundlage:** `main` bei `9580a2165e3413dd3c3d013884b2f9b0c95e645e` (PR #76). Der Entwicklungszweig `feature/auftrag32-einsamkeit-projekte` wurde darauf angelegt.
+**Prüfgrundlage:** PR #77 wurde auf `main` gemergt; Live- und Deployment-Nachweise siehe Abschlussprüfung unten. Die ursprüngliche Umsetzung basierte auf `9580a2165e3413dd3c3d013884b2f9b0c95e645e` (PR #76).
 
 **Redaktioneller Quellenstand:** 27. November 2026. Externe Anbieterangaben sind Selbstauskünfte und begründen weder eine Kooperation noch eine Förderzusage. Lokale Angebotskapazitäten und persönliche Bedarfe werden von dieser Website nicht erhoben.
 
@@ -62,4 +62,20 @@ Diese Programme begründen keine Bewilligung für eines der 18 Vorhaben. Förder
 * `pnpm build`: erfolgreich. `verify-dist.mjs` bestätigte 278 Dist-Dateien, den Projekt-Basispfad `/bergedorf-gemeinsam/`, noindex-Kennzeichnung und die vorhandene Sperre für Live-Daten und Schreibrechte. Arbeitsmaterialien und QR-Code sind im geprüften Dist enthalten.
 * Alle erzeugten `dist/assets/*.js`-Dateien bestanden `node --check`; `git diff --check` ist sauber.
 * Der Build meldet wie zuvor zwei CSS-Pfade, die zur Laufzeit aufgelöst werden (`/bergedorf-gemeinsam/assets/leaflet.css`, `navigation-boot.css`), sowie einen JavaScript-Hauptchunk von rund 3,0 MB (748 KB gzip) und einen Kartendatenchunk von rund 559 KB. Es wurde kein neuer Laufzeitfehler festgestellt; daraus wird keine grundlegende Architekturänderung abgeleitet.
-* Noch auszuführen: Desktop-, Tablet- und Smartphone-Sichtprüfung, Direktlink-/Downloadkontrolle, GitHub-PR/Pages-Workflow und öffentliche Liveprüfung. Diese Prüfungen werden nach der Veröffentlichung separat dokumentiert und nicht aus dem erfolgreichen Build abgeleitet.
+* Desktop-Liveprüfung, Direktlink- und Materialkontrolle sowie Pages-Workflow sind nach der Veröffentlichung separat geprüft (siehe Abschlussprüfung). Tablet- und Smartphone-Sichtprüfung wurden in dieser Browserumgebung nicht durchgeführt; sie bleiben offen und werden nicht aus dem Desktop- oder Build-Ergebnis abgeleitet.
+
+
+## Abschlussprüfung nach Veröffentlichung
+
+- PR [#77](https://github.com/MarkBergedorf/bergedorf-gemeinsam/pull/77) ist zusammengeführt. Merge-Commit: `0972ecfe45bf628b8998a805546dd3cadda31245`; Baum: `15888943170bdbc27e0ca593dd60e4737b11d471`.
+- GitHub Pages, Lauf [#135](https://github.com/MarkBergedorf/bergedorf-gemeinsam/actions/runs/45999704989), endete mit `success` für exakt diesen Merge-Commit.
+- Öffentliche [Projektübersicht](https://markbergedorf.github.io/bergedorf-gemeinsam/#einsamkeit/mitwirkung) im Browser geöffnet: 18 Projektlinks vorhanden, alle Statusangaben „Projektidee“, kein horizontaler Überlauf im sichtbaren Desktopfenster (1363 × 936 CSS-Pixel). Die [Detailseite „Einsamkeitslotsen für Bergedorf“](https://markbergedorf.github.io/bergedorf-gemeinsam/#einsamkeit/mitwirkung/projekte/einsamkeitslotsen) lud direkt und zeigte Status und ausklappbare Inhalte.
+- Das druckfähige Material wurde über seine veröffentlichte URL geöffnet: [Projektwerkstatt](https://markbergedorf.github.io/bergedorf-gemeinsam/materialien/einsamkeit-projektwerkstatt.html). Seitentitel und Inhalt waren vorhanden; im Desktopfenster kein horizontaler Überlauf. Der QR-Code ist eine statische SVG-Datei und zeigt auf den vorhandenen Hilfswegweiser. Ein tatsächlicher Druckvorgang wurde nicht durchgeführt.
+- PR #76 Sicherheitskorrektur: ein Browseraufruf mit synthetischen ungültigen Aktionsparametern (`mode`, `oobCode`, `apiKey`) wurde geprüft. Nach dem Laden standen diese Parameter nicht mehr in der Browseradresse; die Anmeldeseite blieb sichtbar. Der synthetische ungültige Link wurde nicht abgesendet und erzeugte kein Testkonto. Der erfolgreiche echte E-Mail-Link-Anmeldetest aus der vorigen Prüfung bleibt der Funktionsnachweis für einen gültigen Link.
+- Die Browserprüfung erfolgte am Desktop. Ein Tablet- oder Smartphone-Emulator stand für diesen Durchgang nicht bereit; deshalb wird keine mobile Sichtprüfung behauptet. Responsive Styles und Tests sind kein Ersatz für diese noch offene visuelle Prüfung.
+
+## Phase 2/3 – Produktionsvoraussetzungen
+
+Phase 2 (persistente Interessenbekundungen und selbstverwaltete Rollen) und Phase 3 (Gruppenräume, Aufgaben, Dokumente, interne Kommunikation und Veröffentlichungsfreigaben) wurden nicht aktiviert. Die öffentlich ausgelieferte GitHub-Pages-App stellt für Arbeitsbereiche einen statischen öffentlichen Zustand bereit und meldet, dass das Backend nicht angeschlossen ist; sie bietet daher keinen vertrauenswürdigen Serverzugriff für geschützte Schreibvorgänge. Firebase Authentication bestätigt ein Konto, stellt aber weder diese Speicherung noch Projektrollen oder Moderation bereit.
+
+Vor einer Umsetzung müssen Betreiber und Plattform eine sichere Datenhaltung/API samt Regeln, Rollenvergabe, Widerruf und Löschung, Spam-/Missbrauchsschutz, Moderationsablauf, Kostenkontrolle und passender Datenschutzerklärung freigeben und einrichten. Das ist ein tatsächlicher Backend-/Berechtigungsabhängiger Teil des Auftrags, keine fehlende Implementierung der statischen Phase 1. Bis dahin bleiben Interessensformulare, Arbeitsgruppen, Gruppenkommunikation und Verwaltungsrechte ausgeschaltet; die Plattform vermittelt niemanden persönlich.
