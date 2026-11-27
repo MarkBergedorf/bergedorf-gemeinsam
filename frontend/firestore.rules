@@ -22,7 +22,11 @@ service cloud.firestore {
       ];
     }
     function activeMember(groupId) {
-      return signedIn()
+      return verified()
+        && exists(/databases/$(database)/documents/groups/$(groupId))
+        && get(/databases/$(database)/documents/groups/$(groupId)).data.status != 'closed'
+        && (!('locked' in get(/databases/$(database)/documents/groups/$(groupId)).data)
+          || get(/databases/$(database)/documents/groups/$(groupId)).data.locked != true)
         && exists(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid))
         && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.status == 'active';
     }
@@ -33,6 +37,20 @@ service cloud.firestore {
     function primaryCoordinator(groupId) {
       return activeMember(groupId)
         && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid == request.auth.uid;
+    }
+    function directoryMatchesAfter(groupId) {
+      return getAfter(/databases/$(database)/documents/groups/$(groupId)).data.listed == true
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status != 'closed'
+        && existsAfter(/databases/$(database)/documents/groupDirectory/$(groupId))
+        && getAfter(/databases/$(database)/documents/groupDirectory/$(groupId)).data.projectId == getAfter(/databases/$(database)/documents/groups/$(groupId)).data.projectId
+        && getAfter(/databases/$(database)/documents/groupDirectory/$(groupId)).data.title == getAfter(/databases/$(database)/documents/groups/$(groupId)).data.title
+        && getAfter(/databases/$(database)/documents/groupDirectory/$(groupId)).data.description == getAfter(/databases/$(database)/documents/groups/$(groupId)).data.publicDescription
+        && getAfter(/databases/$(database)/documents/groupDirectory/$(groupId)).data.status == getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status
+        && getAfter(/databases/$(database)/documents/groupDirectory/$(groupId)).data.seeking == getAfter(/databases/$(database)/documents/groups/$(groupId)).data.seeking;
+    }
+    function directoryRemovedAfter(groupId) {
+      return getAfter(/databases/$(database)/documents/groups/$(groupId)).data.listed == false
+        && !existsAfter(/databases/$(database)/documents/groupDirectory/$(groupId));
     }
     function boundedText(value, max) { return value is string && value.size() > 0 && value.size() <= max; }
     function safePublicText(value, max) {
@@ -49,47 +67,110 @@ service cloud.firestore {
 
     match /users/{uid}/interests/{projectId} {
       allow read: if featureEnabled() && verified() && request.auth.uid == uid;
+      allow list: if featureEnabled() && verified() && request.auth.uid == uid && request.query.limit <= 18;
       allow create: if featureEnabled() && verified() && request.auth.uid == uid
         && projectIdOk(projectId)
-        && request.resource.data.keys().hasOnly(['projectId', 'types', 'status', 'noticeVersion', 'createdAt', 'updatedAt'])
+        && request.resource.data.keys().hasOnly(['projectId', 'types', 'status', 'noticeVersion', 'consentEventId', 'createdAt', 'updatedAt'])
         && request.resource.data.projectId == projectId
         && request.resource.data.types is list && request.resource.data.types.size() > 0 && request.resource.data.types.size() <= 7
         && request.resource.data.types.toSet().hasOnly(['interested', 'participate', 'foundGroup', 'coordinate', 'expertise', 'organization', 'follow'])
         && request.resource.data.status == 'active'
         && request.resource.data.noticeVersion == 'local-preview-v1'
+        && request.resource.data.consentEventId is string
+        && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.uid == request.auth.uid
+        && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.purpose == 'participation'
+        && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.subjectId == projectId
+        && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.decision == 'granted'
         && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
       allow update: if featureEnabled() && verified() && request.auth.uid == uid
         && projectIdOk(projectId)
-        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['types', 'status', 'updatedAt'])
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['types', 'status', 'consentEventId', 'updatedAt'])
         && request.resource.data.types is list && request.resource.data.types.size() <= 7
         && request.resource.data.types.toSet().hasOnly(['interested', 'participate', 'foundGroup', 'coordinate', 'expertise', 'organization', 'follow'])
         && request.resource.data.status in ['active', 'withdrawn']
-        && request.resource.data.updatedAt == request.time;
+        && request.resource.data.updatedAt == request.time
+        && ((request.resource.data.status == 'active'
+              && (resource.data.status == 'active' || request.resource.data.consentEventId != resource.data.consentEventId)
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.uid == request.auth.uid
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.purpose == 'participation'
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.subjectId == projectId
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.decision == 'granted')
+          || (request.resource.data.status == 'withdrawn'
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.uid == request.auth.uid
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.purpose == 'participation'
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.subjectId == projectId
+              && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.decision == 'withdrawn'));
       allow delete: if featureEnabled() && verified() && request.auth.uid == uid;
+    }
+
+    match /users/{uid}/groupMemberships/{groupId} {
+      allow get: if featureEnabled() && verified() && request.auth.uid == uid;
+      allow list: if featureEnabled() && verified() && request.auth.uid == uid && request.query.limit <= 25;
+      allow create: if featureEnabled() && verified() && (request.auth.uid == uid || primaryCoordinator(groupId))
+        && request.resource.data.keys().hasOnly(['groupId', 'role', 'status', 'joinedAt'])
+        && request.resource.data.groupId == groupId
+        && request.resource.data.status == 'active'
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status == 'active'
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.role == request.resource.data.role;
+      allow update: if featureEnabled() && verified() && (request.auth.uid == uid || primaryCoordinator(groupId))
+        && request.resource.data.keys().hasOnly(['groupId', 'role', 'status', 'joinedAt'])
+        && request.resource.data.groupId == groupId
+        && request.resource.data.status in ['active', 'left', 'removed']
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status == request.resource.data.status
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.role == request.resource.data.role;
+      allow delete: if featureEnabled() && verified() && (request.auth.uid == uid || primaryCoordinator(groupId))
+        && (!existsAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid))
+          || getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status != 'active');
+    }
+
+    match /users/{uid}/joinRequests/{groupId} {
+      allow get: if featureEnabled() && verified() && request.auth.uid == uid;
+      allow list: if featureEnabled() && verified() && request.auth.uid == uid && request.query.limit <= 25;
+      allow create: if featureEnabled() && verified() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['groupId', 'status', 'createdAt'])
+        && request.resource.data.groupId == groupId && request.resource.data.status == 'pending'
+        && request.resource.data.createdAt == request.time
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.uid == uid
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == 'pending';
+      allow update: if featureEnabled() && verified() && primaryCoordinator(groupId)
+        && request.resource.data.groupId == groupId
+        && request.resource.data.status in ['accepted', 'declined']
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'decidedAt'])
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == request.resource.data.status;
+      allow delete: if featureEnabled() && verified() && request.auth.uid == uid
+        && resource.data.status == 'pending'
+        && !existsAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid));
     }
 
     match /consentEvents/{eventId} {
       allow get: if featureEnabled() && verified() && resource.data.uid == request.auth.uid;
       allow list: if featureEnabled() && verified() && resource.data.uid == request.auth.uid && request.query.limit <= 100;
       allow create: if featureEnabled() && verified()
-        && request.resource.data.keys().hasOnly(['uid', 'purpose', 'noticeVersion', 'decision', 'occurredAt'])
+        && request.resource.data.keys().hasOnly(['uid', 'purpose', 'subjectId', 'noticeVersion', 'decision', 'occurredAt'])
         && request.resource.data.uid == request.auth.uid
         && request.resource.data.purpose in ['participation', 'public-group-listing']
+        && request.resource.data.subjectId is string
         && request.resource.data.noticeVersion == 'local-preview-v1'
         && request.resource.data.decision in ['granted', 'withdrawn']
-        && request.resource.data.occurredAt == request.time;
+        && request.resource.data.occurredAt == request.time
+        && ((request.resource.data.purpose == 'participation'
+              && getAfter(/databases/$(database)/documents/users/$(request.auth.uid)/interests/$(request.resource.data.subjectId)).data.consentEventId == eventId)
+          || (request.resource.data.purpose == 'public-group-listing'
+              && getAfter(/databases/$(database)/documents/groups/$(request.resource.data.subjectId)).data.coordinatorUid == request.auth.uid
+              && getAfter(/databases/$(database)/documents/groups/$(request.resource.data.subjectId)).data.listed == (request.resource.data.decision == 'granted')));
       allow update, delete: if false;
     }
 
     match /groups/{groupId} {
-      allow get: if featureEnabled() && (activeMember(groupId) || staff());
-      allow list: if featureEnabled() && request.query.limit <= 25 && (activeMember(groupId) || staff());
+      allow get: if featureEnabled() && activeMember(groupId);
+      allow list: if featureEnabled() && request.query.limit <= 25 && activeMember(groupId);
       allow create: if featureEnabled() && verified()
-        && request.resource.data.keys().hasOnly(['projectId', 'title', 'description', 'status', 'createdBy', 'coordinatorUid', 'listed', 'seeking', 'createdAt', 'updatedAt', 'schemaVersion'])
+        && request.resource.data.keys().hasOnly(['projectId', 'title', 'description', 'publicDescription', 'status', 'createdBy', 'coordinatorUid', 'listed', 'seeking', 'createdAt', 'updatedAt', 'schemaVersion'])
         && projectIdOk(request.resource.data.projectId)
         && boundedText(request.resource.data.title, 80)
         && request.resource.data.description is string && request.resource.data.description.size() <= 500
-        && (request.resource.data.description == '' || safePublicText(request.resource.data.description, 500))
+        && request.resource.data.publicDescription is string && request.resource.data.publicDescription.size() <= 280
+        && (request.resource.data.publicDescription == '' || safePublicText(request.resource.data.publicDescription, 280))
         && request.resource.data.status == 'forming'
         && request.resource.data.createdBy == request.auth.uid
         && request.resource.data.coordinatorUid == request.auth.uid
@@ -100,21 +181,23 @@ service cloud.firestore {
         && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.role == 'coordinator'
         && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.status == 'active';
       allow update: if featureEnabled() && primaryCoordinator(groupId)
-        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title', 'description', 'status', 'coordinatorUid', 'listed', 'seeking', 'updatedAt'])
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title', 'description', 'publicDescription', 'status', 'coordinatorUid', 'listed', 'seeking', 'updatedAt'])
         && boundedText(request.resource.data.title, 80)
         && request.resource.data.description is string && request.resource.data.description.size() <= 500
-        && (request.resource.data.description == '' || safePublicText(request.resource.data.description, 500))
-        && request.resource.data.status in ['seeking-members', 'seeking-coordinator', 'forming', 'established', 'concept', 'partners', 'funding', 'planned', 'started', 'completed', 'paused']
+        && request.resource.data.publicDescription is string && request.resource.data.publicDescription.size() <= 280
+        && (request.resource.data.publicDescription == '' || safePublicText(request.resource.data.publicDescription, 280))
+        && request.resource.data.status in ['seeking-members', 'seeking-coordinator', 'forming', 'established', 'concept', 'partners', 'funding', 'planned', 'started', 'completed', 'paused', 'closed']
         && request.resource.data.seeking in ['members', 'coordinator', 'none']
         && request.resource.data.updatedAt == request.time
-        && (request.resource.data.coordinatorUid == resource.data.coordinatorUid
+        && ((request.resource.data.status != 'closed' && request.resource.data.coordinatorUid == resource.data.coordinatorUid)
           || (request.resource.data.coordinatorUid is string
             && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.coordinatorUid)).data.role in ['coordinator', 'deputy']
-            && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.coordinatorUid)).data.status == 'active'));
+            && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.coordinatorUid)).data.status == 'active'))
+        && (request.resource.data.listed ? directoryMatchesAfter(groupId) : directoryRemovedAfter(groupId));
       allow delete: if false;
 
       match /members/{uid} {
-        allow get: if featureEnabled() && (request.auth.uid == uid || activeMember(groupId));
+        allow get: if featureEnabled() && verified() && (request.auth.uid == uid || activeMember(groupId));
         allow list: if featureEnabled() && request.query.limit <= 25 && activeMember(groupId);
         allow create: if featureEnabled() && verified()
           && request.resource.data.keys().hasOnly(['role', 'status', 'joinedAt'])
@@ -123,22 +206,35 @@ service cloud.firestore {
           && ((request.auth.uid == uid && request.resource.data.role == 'coordinator'
               && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.createdBy == request.auth.uid)
             || (coordinator(groupId) && request.resource.data.role == 'member'
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == 'accepted'));
-        allow update: if featureEnabled() && verified() && primaryCoordinator(groupId)
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == 'accepted'))
+          && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.role == request.resource.data.role
+          && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.status == 'active';
+        allow update: if featureEnabled() && verified()
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['role', 'status'])
           && request.resource.data.role in ['coordinator', 'deputy', 'member']
           && request.resource.data.status in ['active', 'left', 'removed']
-          && (uid != get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid
-            || request.resource.data.role in ['coordinator', 'deputy']
-            || (getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid is string
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.role in ['coordinator', 'deputy']
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.status == 'active'));
+          && ((primaryCoordinator(groupId)
+            && (uid != get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid
+              || request.resource.data.role in ['coordinator', 'deputy']
+              || getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status == 'closed'
+              || (getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid
+                && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid is string
+                && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.role in ['coordinator', 'deputy']
+                && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.status == 'active'))
+            && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.role == request.resource.data.role
+            && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.status == request.resource.data.status)
+            || (request.auth.uid == uid
+              && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid
+              && request.resource.data.status == 'left'
+              && request.resource.data.role == resource.data.role
+              && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.role == request.resource.data.role
+              && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.status == 'left'));
         allow delete: if featureEnabled() && verified()
           && ((request.auth.uid == uid
               && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid)
             || (primaryCoordinator(groupId)
-              && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid));
+              && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid))
+          && !existsAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId));
       }
 
       match /joinRequests/{uid} {
@@ -148,33 +244,49 @@ service cloud.firestore {
           && request.resource.data.keys().hasOnly(['uid', 'status', 'createdAt'])
           && request.resource.data.uid == uid && request.resource.data.status == 'pending'
           && request.resource.data.createdAt == request.time
-          && !exists(/databases/$(database)/documents/groups/$(groupId)/members/$(uid));
+          && !exists(/databases/$(database)/documents/groups/$(groupId)/members/$(uid))
+          && exists(/databases/$(database)/documents/groups/$(groupId))
+          && get(/databases/$(database)/documents/groups/$(groupId)).data.status != 'closed'
+          && get(/databases/$(database)/documents/groups/$(groupId)).data.listed == true
+          && get(/databases/$(database)/documents/groups/$(groupId)).data.seeking != 'none'
+          && getAfter(/databases/$(database)/documents/users/$(uid)/joinRequests/$(groupId)).data.status == 'pending';
         allow update: if featureEnabled() && coordinator(groupId) && resource.data.status == 'pending'
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'decidedAt'])
           && request.resource.data.status in ['accepted', 'declined']
           && request.resource.data.decidedAt == request.time
+          && getAfter(/databases/$(database)/documents/users/$(uid)/joinRequests/$(groupId)).data.status == request.resource.data.status
           && (request.resource.data.status != 'accepted'
             || (getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.role == 'member'
               && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status == 'active'));
-        allow delete: if featureEnabled() && verified() && request.auth.uid == uid && resource.data.status == 'pending';
+        allow delete: if featureEnabled() && verified() && request.auth.uid == uid && resource.data.status == 'pending'
+          && !existsAfter(/databases/$(database)/documents/users/$(uid)/joinRequests/$(groupId));
       }
 
       match /workItems/{itemId} {
         allow get: if featureEnabled() && activeMember(groupId);
         allow list: if featureEnabled() && request.query.limit <= 25 && activeMember(groupId);
         allow create: if featureEnabled() && activeMember(groupId)
-          && request.resource.data.keys().hasOnly(['kind', 'title', 'body', 'status', 'createdBy', 'createdAt', 'updatedAt'])
+          && request.resource.data.keys().hasOnly(['kind', 'title', 'body', 'status', 'createdBy', 'assigneeUid', 'dueAt', 'createdAt', 'updatedAt'])
           && request.resource.data.kind in ['concept', 'task', 'milestone', 'decision', 'resource', 'partner', 'funding']
           && boundedText(request.resource.data.title, 120)
           && request.resource.data.body is string && request.resource.data.body.size() <= 3000
           && request.resource.data.status in ['open', 'in-progress', 'done']
+          && (request.resource.data.assigneeUid == null
+            || (request.resource.data.assigneeUid is string
+              && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.assigneeUid)).data.status == 'active'))
+          && (request.resource.data.dueAt == null || request.resource.data.dueAt is timestamp)
           && request.resource.data.createdBy == request.auth.uid
           && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
         allow update: if featureEnabled() && activeMember(groupId)
-          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title', 'body', 'status', 'updatedAt'])
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['kind', 'title', 'body', 'status', 'assigneeUid', 'dueAt', 'updatedAt'])
+          && request.resource.data.kind in ['concept', 'task', 'milestone', 'decision', 'resource', 'partner', 'funding']
           && boundedText(request.resource.data.title, 120)
           && request.resource.data.body is string && request.resource.data.body.size() <= 3000
           && request.resource.data.status in ['open', 'in-progress', 'done']
+          && (request.resource.data.assigneeUid == null
+            || (request.resource.data.assigneeUid is string
+              && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.assigneeUid)).data.status == 'active'))
+          && (request.resource.data.dueAt == null || request.resource.data.dueAt is timestamp)
           && request.resource.data.updatedAt == request.time;
         allow delete: if featureEnabled() && coordinator(groupId);
       }
@@ -195,7 +307,10 @@ service cloud.firestore {
         && primaryCoordinator(groupId)
         && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.listed == true
         && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.projectId == request.resource.data.projectId
-        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.title == request.resource.data.title;
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.title == request.resource.data.title
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.publicDescription == request.resource.data.description
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status == request.resource.data.status
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.seeking == request.resource.data.seeking;
       allow update: if featureEnabled() && primaryCoordinator(groupId)
         && request.resource.data.keys().hasOnly(['projectId', 'title', 'description', 'status', 'seeking', 'listed', 'updatedAt'])
         && request.resource.data.projectId == resource.data.projectId
@@ -204,8 +319,15 @@ service cloud.firestore {
         && (request.resource.data.description == '' || safePublicText(request.resource.data.description, 280))
         && request.resource.data.status in ['seeking-members', 'seeking-coordinator', 'forming', 'established', 'concept', 'partners', 'funding', 'planned', 'started', 'completed', 'paused']
         && request.resource.data.seeking in ['members', 'coordinator', 'none']
-        && request.resource.data.listed == true && request.resource.data.updatedAt == request.time;
-      allow delete: if featureEnabled() && primaryCoordinator(groupId);
+        && request.resource.data.listed == true && request.resource.data.updatedAt == request.time
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.listed == true
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.projectId == request.resource.data.projectId
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.title == request.resource.data.title
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.publicDescription == request.resource.data.description
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status == request.resource.data.status
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.seeking == request.resource.data.seeking;
+      allow delete: if featureEnabled() && primaryCoordinator(groupId)
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.listed == false;
     }
 
     match /abuseReports/{reportId} {
@@ -214,7 +336,9 @@ service cloud.firestore {
         && request.resource.data.reporterUid == request.auth.uid
         && request.resource.data.reason in ['spam', 'harassment', 'privacy', 'other']
         && request.resource.data.createdAt == request.time;
-      allow read: if featureEnabled() && staff();
+      allow get: if featureEnabled() && (staff() || (verified() && resource.data.reporterUid == request.auth.uid));
+      allow list: if featureEnabled() && request.query.limit <= 100
+        && (staff() || (verified() && resource.data.reporterUid == request.auth.uid));
       allow update, delete: if false;
     }
   }
