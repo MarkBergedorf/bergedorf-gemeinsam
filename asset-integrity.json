@@ -1,0 +1,1420 @@
+{
+  "algorithm": "sha256",
+  "assets": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 2769,
+      "sha256": "a8ff802849ed0190a9e46132d38864ef0a8523f1db6293e325f340a53f445186"
+    },
+    {
+      "path": "app-icons/icon-180.png",
+      "bytes": 11329,
+      "sha256": "2d6781be016ce5228c6cb03e73b1913519507a6042069c08f2494343ecd048f2"
+    },
+    {
+      "path": "app-icons/icon-192.png",
+      "bytes": 12183,
+      "sha256": "1ed9513d7106c36204589e1d25c1b8365b48842cdfad81602b47506ca773e224"
+    },
+    {
+      "path": "app-icons/icon-512.png",
+      "bytes": 45386,
+      "sha256": "0eddd7b8ce7fb46c4c2fea0b61d0fca3f44f669bdb29d65f3f2be01548ddd4ed"
+    },
+    {
+      "path": "assets/bergedorf-boundary.geojson",
+      "bytes": 11417,
+      "sha256": "7926776eb05ed396b2ca94c47e0ab4132478fe2718b6b0f7940376048c177561"
+    },
+    {
+      "path": "assets/bergedorf-stadtteile.geojson",
+      "bytes": 398020,
+      "sha256": "1a07b35a00161ed1862e4566a81e2b0c4dc2c0d96b8b0bfd704b216a2edd6152"
+    },
+    {
+      "path": "assets/bergedorf.svg",
+      "bytes": 114224,
+      "sha256": "da3d6be418a60694c7d947e35b3eaf8de995656f1b436132f009dd45c9a15166"
+    },
+    {
+      "path": "assets/bodenlehrpfad-boberg.geojson",
+      "bytes": 28037,
+      "sha256": "dd120fd8ff6d9d42d29ad583c2b35f93ad77fd538c5987e8c45f36353b6d54e4"
+    },
+    {
+      "path": "assets/goep-naturwege-boberg.geojson",
+      "bytes": 19567,
+      "sha256": "d6ba89f4f26b94fe266ec59a341ebd7d91404587af437e2e2bdc12fb4020ee39"
+    },
+    {
+      "path": "assets/historical/b001-kolorierte-eckhausansicht-mit-aufschrift-max-johannsen-vorschau.jpg",
+      "bytes": 48895,
+      "sha256": "a9d7d731ea357048bd68051a52fda2518acaf4368bd32436fca711fae4a5962c"
+    },
+    {
+      "path": "assets/historical/b001-kolorierte-eckhausansicht-mit-aufschrift-max-johannsen.jpg",
+      "bytes": 71388,
+      "sha256": "f7bc2d2c0a04dae6ed519285a17afbd618298388467869516958bb692ff9ea5c"
+    },
+    {
+      "path": "assets/historical/b002-smartphonefoto-zweier-gedruckter-seiten-eines-gaststatten-und-freizeitverzeichnisses-vorschau.jpg",
+      "bytes": 26606,
+      "sha256": "ef5c5029c3b5bfc1ec64dce2c152a60192165a0caf3978f2d7f926735f494a5d"
+    },
+    {
+      "path": "assets/historical/b002-smartphonefoto-zweier-gedruckter-seiten-eines-gaststatten-und-freizeitverzeichnisses.jpg",
+      "bytes": 259792,
+      "sha256": "3dcf96a614e1917d6849857984842f2489c7937bc3f23315d8965f59087d9193"
+    },
+    {
+      "path": "assets/historical/b003-historische-im-bild-als-gasthof-zur-sonne-bezeichnete-eckhausansicht-vorschau.jpg",
+      "bytes": 52615,
+      "sha256": "d1f3a2ddaf972d04f24981aec37fe537dd0941c630288ef75fafe575a7ffebc5"
+    },
+    {
+      "path": "assets/historical/b003-historische-im-bild-als-gasthof-zur-sonne-bezeichnete-eckhausansicht.jpg",
+      "bytes": 441490,
+      "sha256": "0fdae75cafdeedbb240c0dc3c6fc599ba2bb6852b31ba60e0da2f4c6312f10d0"
+    },
+    {
+      "path": "assets/historical/b004-straenblick-auf-niedrige-geschaftsgebaude-und-geparkte-autos-vorschau.jpg",
+      "bytes": 37362,
+      "sha256": "d6428ebb133e234e7426a040ca78e16dcb2ea5b3bade0ed414f93f8179b6e270"
+    },
+    {
+      "path": "assets/historical/b004-straenblick-auf-niedrige-geschaftsgebaude-und-geparkte-autos.jpg",
+      "bytes": 307583,
+      "sha256": "29ee3d16da5cc0df344723053d0b5ad7d504be722662ede3e32689cba6b34302"
+    },
+    {
+      "path": "assets/historical/b005-ladengebaude-beziehungsweise-passage-mit-farbigem-vorbau-vorschau.jpg",
+      "bytes": 51209,
+      "sha256": "9cec65dd5f41391dadac0dc9293e6105913f81bdbe811292d9214d5c101177e5"
+    },
+    {
+      "path": "assets/historical/b005-ladengebaude-beziehungsweise-passage-mit-farbigem-vorbau.jpg",
+      "bytes": 210524,
+      "sha256": "783d6ceda4861b1f21c1793fe2a035e7dade368ab20eaa329fd3e2c1d293526b"
+    },
+    {
+      "path": "assets/historical/b006-baustellenbild-mit-bauschutt-vorschau.jpg",
+      "bytes": 47159,
+      "sha256": "a6a98f3b1d1738c7741ee2b5faabca5b564eb48d9d428df643f22a04fcfc76b7"
+    },
+    {
+      "path": "assets/historical/b006-baustellenbild-mit-bauschutt.jpg",
+      "bytes": 481466,
+      "sha256": "7dae86fb18fd8c7c4cbe771be8493f6e2bd3d032d8a8d419c6a6dce02592753a"
+    },
+    {
+      "path": "assets/historical/b007-gebaude-und-baustellenzustand-mit-pamukkale-schild-vorschau.jpg",
+      "bytes": 44297,
+      "sha256": "2b09beb943f160ba2b557d6d0bd78fa964022ba3845fde3f7a714d377832add2"
+    },
+    {
+      "path": "assets/historical/b007-gebaude-und-baustellenzustand-mit-pamukkale-schild.jpg",
+      "bytes": 432986,
+      "sha256": "930cd68152b8818aa1175f811b5e0dd7388bf6899d54053004785756fb5a7cfb"
+    },
+    {
+      "path": "assets/historical/b008-historischer-straenzug-mit-geschaften-und-passanten-vorschau.jpg",
+      "bytes": 30112,
+      "sha256": "b4242ee78e5a650166b29feb839799c6046233cd807faaf469c3a5d0734b6227"
+    },
+    {
+      "path": "assets/historical/b008-historischer-straenzug-mit-geschaften-und-passanten.jpg",
+      "bytes": 247216,
+      "sha256": "159acd1031afa6d5d89b37b7e38b0bbedb0b8c7d3b15c7fba4649ebc1c89d473"
+    },
+    {
+      "path": "assets/historical/b009-alterer-straenblick-mit-eckgebaude-vorschau.jpg",
+      "bytes": 28650,
+      "sha256": "bdd8aa77f85d8ae65423824848fe2763291fb2d1a99cdca770f70d73a121c077"
+    },
+    {
+      "path": "assets/historical/b009-alterer-straenblick-mit-eckgebaude.jpg",
+      "bytes": 255673,
+      "sha256": "5befc7ae7ea5681184c0ffa24aed074741bfe20be98a075face9192ea6e8a75f"
+    },
+    {
+      "path": "assets/historical/b010-stadtansicht-bei-einem-straen-platzbereich-vorschau.jpg",
+      "bytes": 21868,
+      "sha256": "e3617bf2734a05deffad8677f3ff2165ea1bc093441a444cc9798752736d07c8"
+    },
+    {
+      "path": "assets/historical/b010-stadtansicht-bei-einem-straen-platzbereich.jpg",
+      "bytes": 62487,
+      "sha256": "af0d85ee36891b51a3fca2f13234afbea2d5c9a2860120d55969f9d511b7c247"
+    },
+    {
+      "path": "assets/historical/b011-historische-geschaftseingange-mit-teilweise-lesbarer-juwelierbeschriftung-vorschau.jpg",
+      "bytes": 32520,
+      "sha256": "8518e008369896e6531422330c07bd7eafb6e4f72a6ae21a7b603d83ab482dd9"
+    },
+    {
+      "path": "assets/historical/b011-historische-geschaftseingange-mit-teilweise-lesbarer-juwelierbeschriftung.jpg",
+      "bytes": 120840,
+      "sha256": "149113178a4c10b720b7162e649b3c1c25b33ffec91d441b5eb9399dcd00e0ed"
+    },
+    {
+      "path": "assets/historical/b012-historische-geschaftsstrae-mit-mehreren-ladeneingangen-vorschau.jpg",
+      "bytes": 64699,
+      "sha256": "c087a11c07c12452fdedd71482fb0519130473a91d84b61e261f37fe74be14cd"
+    },
+    {
+      "path": "assets/historical/b012-historische-geschaftsstrae-mit-mehreren-ladeneingangen.jpg",
+      "bytes": 836237,
+      "sha256": "9999c6d82f688142ce2ed01651d807c6994a8b4f70ed5ee7f7c2feef7e31c811"
+    },
+    {
+      "path": "assets/historical/b013-historische-fachwerk-und-geschaftsgebaude-im-bergedorfer-zentrum-vorschau.jpg",
+      "bytes": 58944,
+      "sha256": "08a8e806b7465e779213fc6099883a93cb2c9dc6ee825348c9982cde8b96231e"
+    },
+    {
+      "path": "assets/historical/b013-historische-fachwerk-und-geschaftsgebaude-im-bergedorfer-zentrum.jpg",
+      "bytes": 254064,
+      "sha256": "7dc9bf59e838102fed9f0cf740e5c1dcab37bce9d0714fe9d39e8e9709ac9757"
+    },
+    {
+      "path": "assets/historical/b014-spatere-vergleichsaufnahme-mit-modernen-ladenfronten-vorschau.jpg",
+      "bytes": 32590,
+      "sha256": "ee056b8a6ccb20a23b477e01c66b5c994df1ac9bf49c9f1c293cb413a9e20cb6"
+    },
+    {
+      "path": "assets/historical/b014-spatere-vergleichsaufnahme-mit-modernen-ladenfronten.jpg",
+      "bytes": 329763,
+      "sha256": "7716a28eb94aeb4bf677170a9dc14decb1a845b751c354bee202a1cf0b17699e"
+    },
+    {
+      "path": "assets/historical/b015-historische-kolorierte-postkarte-mit-bergedorfer-kirche-vorschau.jpg",
+      "bytes": 37169,
+      "sha256": "05a837b2cd1aa65bab3f36e3e7b9af6ff7f211b8ac6dbeb8d40835d56f8e80fd"
+    },
+    {
+      "path": "assets/historical/b015-historische-kolorierte-postkarte-mit-bergedorfer-kirche.jpg",
+      "bytes": 567601,
+      "sha256": "9a14c14a5346d81816fd7f3f9ae2f01ca372f0dbe6ba9fd39015a596c81cfae7"
+    },
+    {
+      "path": "assets/historical/b016-historische-postkarte-mit-bergedorfer-kirche-handschriftlichen-grue-vorschau.jpg",
+      "bytes": 40233,
+      "sha256": "7281329194dbd0925b4e890b4a55c68449658e4fcc72200acb1441f28f5eca55"
+    },
+    {
+      "path": "assets/historical/b016-historische-postkarte-mit-bergedorfer-kirche-handschriftlichen-grue.jpg",
+      "bytes": 721116,
+      "sha256": "97ecfc6fd320aebc505e539f04a4cb6c1efeb9731f3a8f1d58ace970c90574c3"
+    },
+    {
+      "path": "assets/historical/b017-historische-straen-kirchenansicht-vorschau.jpg",
+      "bytes": 45600,
+      "sha256": "35a892cd4b88fef53f045e866006086c9d6ebe1864adc55dcbf6637aa1a5a7c2"
+    },
+    {
+      "path": "assets/historical/b017-historische-straen-kirchenansicht.jpg",
+      "bytes": 641369,
+      "sha256": "0f405bdd34ba7af3ea65875984a9da7de2a97ddc7324682b316e051aa6fb4830"
+    },
+    {
+      "path": "assets/historical/b018-historischer-blick-uber-hauser-und-wasser-vorschau.jpg",
+      "bytes": 34575,
+      "sha256": "7590ae260e82d55403f4c4b44522008232a9380ba95ab20ea271bbaebaa36659"
+    },
+    {
+      "path": "assets/historical/b018-historischer-blick-uber-hauser-und-wasser.jpg",
+      "bytes": 412516,
+      "sha256": "e8daa4371ba4e19b264ca8ef52aa1139e37e20fe5aa70c95891f8944c34f563a"
+    },
+    {
+      "path": "assets/historical/b019-historisch-kolorierte-postkarte-des-ortsbereichs-vorschau.jpg",
+      "bytes": 42460,
+      "sha256": "a6d854cbb54626af2d69e5a6f34014092bcc48bfdd57fabd1f94b1602c27675b"
+    },
+    {
+      "path": "assets/historical/b019-historisch-kolorierte-postkarte-des-ortsbereichs.jpg",
+      "bytes": 217275,
+      "sha256": "ca253b738407886547a92fc7775308170d3345126b56def63cb8c1d17711a855"
+    },
+    {
+      "path": "assets/historical/b020-neue-fotoansicht-des-wasserturms-vorschau.jpg",
+      "bytes": 37077,
+      "sha256": "ab042266eca82b05d8623ff6d127dd8317e30b026b6e88117f4f96c2e107c4b2"
+    },
+    {
+      "path": "assets/historical/b020-neue-fotoansicht-des-wasserturms.jpg",
+      "bytes": 126986,
+      "sha256": "05a117018658584f209da2956fc3f14d257b9e2bcac0f7b08b51c69a496e52fa"
+    },
+    {
+      "path": "assets/historical/b021-zweite-wasserturmaufnahme-vorschau.jpg",
+      "bytes": 21707,
+      "sha256": "f5a8bd07ec0ada42c960ed3ab2fe059077fe4b3f1b7230fda91687ed6d4bebb7"
+    },
+    {
+      "path": "assets/historical/b021-zweite-wasserturmaufnahme.jpg",
+      "bytes": 64101,
+      "sha256": "ba1aa23dbbcf660421b4844ee9a5cd0bdd69dc6aae3cfeecfbef390e0f864dd5"
+    },
+    {
+      "path": "assets/historical/b022-wasserturm-als-eigenes-bauwerksmotiv-vorschau.jpg",
+      "bytes": 34649,
+      "sha256": "e283004843bbbb03493418b935946d6838b9b52ad9fccf994ce64bdae98e7ed1"
+    },
+    {
+      "path": "assets/historical/b022-wasserturm-als-eigenes-bauwerksmotiv.jpg",
+      "bytes": 118767,
+      "sha256": "c7e47fc12140420b3c1be0c157bb2dc774ad1cf04f125fa0fa79466f20b172a8"
+    },
+    {
+      "path": "assets/historical/b023-werbeanzeige-sonnenberg-fur-tv-video-hifi-und-schallplatten-vorschau.jpg",
+      "bytes": 57527,
+      "sha256": "cf40689389cfa86523aed4aa27ee28cd4ce462a736c5ae0d42836110c169e43e"
+    },
+    {
+      "path": "assets/historical/b023-werbeanzeige-sonnenberg-fur-tv-video-hifi-und-schallplatten.jpg",
+      "bytes": 186288,
+      "sha256": "33e5a54246687b1fb3c2bed833f51e09858df0acf6c961682ff705415255f603"
+    },
+    {
+      "path": "assets/historical/b024-geschaftsfronten-mit-lesbarer-sonnenberg-beschriftung-vorschau.jpg",
+      "bytes": 47518,
+      "sha256": "6b95a7bc022c341f09a0dc179acbf20717e2637eeba82b080501e8f1eb6d5f76"
+    },
+    {
+      "path": "assets/historical/b024-geschaftsfronten-mit-lesbarer-sonnenberg-beschriftung.jpg",
+      "bytes": 481627,
+      "sha256": "79725bd321c7e00dbc025aa5954b24e7e593dc05b636c900aa24de41acdfac67"
+    },
+    {
+      "path": "assets/historical/b025-historische-ladenfronten-fachwerkhauser-vorschau.jpg",
+      "bytes": 51543,
+      "sha256": "44f7bd99b88398359d5f0b550cbf4ed988226ff54a171b4d9da780d9a039b7c6"
+    },
+    {
+      "path": "assets/historical/b025-historische-ladenfronten-fachwerkhauser.jpg",
+      "bytes": 459483,
+      "sha256": "afb898ff1ced0f8e9697734c5d35a69917ed1caa36d1bee756ed8330a854e25b"
+    },
+    {
+      "path": "assets/historical/b026-historische-geschaftsstrae-mit-mehreren-ladeneingangen-vorschau.jpg",
+      "bytes": 64889,
+      "sha256": "adca4f8ddd2b74afa0fb930f39457b4f06138746709d9bc7aa76e755d90fe109"
+    },
+    {
+      "path": "assets/historical/b026-historische-geschaftsstrae-mit-mehreren-ladeneingangen.jpg",
+      "bytes": 1013102,
+      "sha256": "1aee879014610a2801e9dd69453246c4ef2a7c5fe62f2479c39cb47c765fe854"
+    },
+    {
+      "path": "assets/historical/b027-historischer-geschaftsplan-mit-namen-darunter-buchhandlung-nordmann-fahrrad-mai-und-kegler-vorschau.jpg",
+      "bytes": 46796,
+      "sha256": "f1f5bb2927645fce2004b4f30e304aa026c774aa40b157662999848c8bb14602"
+    },
+    {
+      "path": "assets/historical/b027-historischer-geschaftsplan-mit-namen-darunter-buchhandlung-nordmann-fahrrad-mai-und-kegler.jpg",
+      "bytes": 214115,
+      "sha256": "fdc2cda44cbe9a4148826143462b33bc887eef7a200b3e96a166a95911103914"
+    },
+    {
+      "path": "assets/historical/b028-street-view-wiedergabe-einer-geschaftsstrae-vorschau.jpg",
+      "bytes": 24612,
+      "sha256": "237a6b280a9b2a7fbdf2b4292e716e34f0a580bf73366237f50289f69feb863b"
+    },
+    {
+      "path": "assets/historical/b028-street-view-wiedergabe-einer-geschaftsstrae.jpg",
+      "bytes": 399928,
+      "sha256": "cda8b902d7b21a6360bc227f56242fc14d74fd48ee654f4942db64fb21b45013"
+    },
+    {
+      "path": "assets/historical/b029-historische-strae-mit-mehreren-einzelhandelsgeschaften-vorschau.jpg",
+      "bytes": 12290,
+      "sha256": "454de7ffa436602408141eecf0f50aa5ecaa80a0ab4040eb8285400463d65911"
+    },
+    {
+      "path": "assets/historical/b029-historische-strae-mit-mehreren-einzelhandelsgeschaften.jpg",
+      "bytes": 12738,
+      "sha256": "e647b558c9efc91c87b08cf1d1651fb42e382d3e147414e7e50ad672dcc252fd"
+    },
+    {
+      "path": "assets/historical/b030-historische-aufnahme-eines-kleinen-beschrifteten-gefaes-vorschau.jpg",
+      "bytes": 27485,
+      "sha256": "ac4fd7883b46b2899344d724e499d312ea4339f196f4bcc505096b68eb2387ab"
+    },
+    {
+      "path": "assets/historical/b030-historische-aufnahme-eines-kleinen-beschrifteten-gefaes.jpg",
+      "bytes": 129705,
+      "sha256": "b79bb8abd1ee62332d5cc36bf2258611f8ecda192adf8dc01a586b2a4bd5674b"
+    },
+    {
+      "path": "assets/historical/b031-altere-geschafts-gebaudereihe-bei-bahnstrecke-vorschau.jpg",
+      "bytes": 38209,
+      "sha256": "71c0ef532dfb03a20b9d335ff23138223c323ad3309566a1858ac45bdcc9a818"
+    },
+    {
+      "path": "assets/historical/b031-altere-geschafts-gebaudereihe-bei-bahnstrecke.jpg",
+      "bytes": 489697,
+      "sha256": "8b2c7f22178e2fbe0c3440c8416080c767dabfcf003ea9d7da3a446fdc7848f5"
+    },
+    {
+      "path": "assets/historical/b032-baustelle-neben-schienen-und-strae-vorschau.jpg",
+      "bytes": 38314,
+      "sha256": "c3ddeeca49108e016a13f12396534c4dd37ae3e80678d9008289f26cdca8a709"
+    },
+    {
+      "path": "assets/historical/b032-baustelle-neben-schienen-und-strae.jpg",
+      "bytes": 449914,
+      "sha256": "cdf0348332e8bf5ac2cb26734147fbe83a6d99d3b78c61efaed17d9d1315efb0"
+    },
+    {
+      "path": "assets/historical/b033-spatere-schienen-bahnhofsumgebung-vorschau.jpg",
+      "bytes": 38401,
+      "sha256": "b3f1bb6b8bdd7e937b81278300e701cc5b0d4d458eae5cdf706920e6de0c9a04"
+    },
+    {
+      "path": "assets/historical/b033-spatere-schienen-bahnhofsumgebung.jpg",
+      "bytes": 570343,
+      "sha256": "d5ef839b0fa5a5f6a847acf66184e87da3945d06fb7b9a0bce6d491b4b0b8fb9"
+    },
+    {
+      "path": "assets/historical/b034-bille-anzeigen-rundschau-historischer-gasthof-zur-sonne-weicht-der-neuen-zeit-vorschau.jpg",
+      "bytes": 50791,
+      "sha256": "4eaf3050df99b77329608dd4faf400f72e5e35139615dc99a7a74f4081e6a1ee"
+    },
+    {
+      "path": "assets/historical/b034-bille-anzeigen-rundschau-historischer-gasthof-zur-sonne-weicht-der-neuen-zeit.jpg",
+      "bytes": 934685,
+      "sha256": "56b0da4faaf4d8e041f2181e0f0443ec6bc91ed8a2cd5c80d31ba10e9759e30f"
+    },
+    {
+      "path": "assets/historical/b035-zweiteiliger-gebaudevergleich-alteres-haus-und-spatere-neubebauung-vorschau.jpg",
+      "bytes": 63339,
+      "sha256": "6bbaead3ad39a22cedbf79e9d03ba599584fdcb1246587c81913153424d31210"
+    },
+    {
+      "path": "assets/historical/b035-zweiteiliger-gebaudevergleich-alteres-haus-und-spatere-neubebauung.jpg",
+      "bytes": 460990,
+      "sha256": "32e1770baa93f716778a21a86ef0e74036882069a6085bc12df1b209cad1d0f9"
+    },
+    {
+      "path": "assets/historical/b036-historischer-gastraum-mit-gedeckten-tischen-und-wanddekoration-vorschau.jpg",
+      "bytes": 47885,
+      "sha256": "01b24b22d3cf34e433b90dfcfcbcdb041fa42d428afc53376e81050f5dc1d4f6"
+    },
+    {
+      "path": "assets/historical/b036-historischer-gastraum-mit-gedeckten-tischen-und-wanddekoration.jpg",
+      "bytes": 404319,
+      "sha256": "b8743cf235e5c94d64e65ac5062d05fb4038c1e351d4bd7f6655ac9f8d5cc4c1"
+    },
+    {
+      "path": "assets/historical/b037-historische-schanktheke-mit-getrankeflaschen-und-ausstattung-vorschau.jpg",
+      "bytes": 36007,
+      "sha256": "fc212311ed8bfb1d8f333de347c62e30a6a2bd7aa6041b75a59907d1e5260a39"
+    },
+    {
+      "path": "assets/historical/b037-historische-schanktheke-mit-getrankeflaschen-und-ausstattung.jpg",
+      "bytes": 280727,
+      "sha256": "16b21b1978a52e06fe1fef8d64e7b800057108898a39e01b566ca55c0fb87c3e"
+    },
+    {
+      "path": "assets/historical/b038-historischer-gastraum-mit-mehreren-tischen-und-bestuhlung-vorschau.jpg",
+      "bytes": 31534,
+      "sha256": "dacdbb2a6179f7f91b7f40b683bea1c23c58b2402025f7dec5eba02550bb4dd7"
+    },
+    {
+      "path": "assets/historical/b038-historischer-gastraum-mit-mehreren-tischen-und-bestuhlung.jpg",
+      "bytes": 616297,
+      "sha256": "f30c050bb349d58ceab08f3d08804bbac3ed9126f80d2ee7ddd1eb6de8b8cf98"
+    },
+    {
+      "path": "assets/historical/b039-historische-ansichtskarte-mit-gasthofbezug-und-straenansicht-vorschau.jpg",
+      "bytes": 49749,
+      "sha256": "4804334b1f6c9a489f1461bc1731699d3affaf5fff62a658df607068fe15553b"
+    },
+    {
+      "path": "assets/historical/b039-historische-ansichtskarte-mit-gasthofbezug-und-straenansicht.jpg",
+      "bytes": 581075,
+      "sha256": "01c611b252120c5780ec945b444b2e87d5c86f10bb01b2410e3645977a492f07"
+    },
+    {
+      "path": "assets/historical/b040-straenaufnahme-mit-moderner-bebauung-und-alterem-eckgebaude-vorschau.jpg",
+      "bytes": 43183,
+      "sha256": "ae1575bb2a8b7a3663ace6d6e27eb447243dfc11cf097045c05fc916c55ee373"
+    },
+    {
+      "path": "assets/historical/b040-straenaufnahme-mit-moderner-bebauung-und-alterem-eckgebaude.jpg",
+      "bytes": 276599,
+      "sha256": "e4defdb8cfce8b12044d163e6cf4f2c818758b2922ba49223a7f24074b836578"
+    },
+    {
+      "path": "assets/historical/b041-historischer-groer-gast-beziehungsweise-veranstaltungssaal-vorschau.jpg",
+      "bytes": 35814,
+      "sha256": "338c030f9fe3ff228987e68c4addc66c9acc747aa262dcd924b9c56585538580"
+    },
+    {
+      "path": "assets/historical/b041-historischer-groer-gast-beziehungsweise-veranstaltungssaal.jpg",
+      "bytes": 348972,
+      "sha256": "49be6896c21f9f64689e87e1523b402a140542930003d908383879e839a392cd"
+    },
+    {
+      "path": "assets/historical/b042-historisches-foto-eines-getranke-oder-vorratsregals-vorschau.jpg",
+      "bytes": 48774,
+      "sha256": "8fc8f698a375bd6c85c099e22029c182d80ed5b0ab931c143804b4739d58fed2"
+    },
+    {
+      "path": "assets/historical/b042-historisches-foto-eines-getranke-oder-vorratsregals.jpg",
+      "bytes": 319895,
+      "sha256": "f7143ddc7a53dbe1ceaf7fd83e88b6cf78f68e635fc24e947bea7f60b25eb448"
+    },
+    {
+      "path": "assets/historical/b043-historische-schankanlage-mit-leitungen-und-behaltern-vorschau.jpg",
+      "bytes": 45926,
+      "sha256": "52dd683231e4294c5d5e5e1b33614acb6b907ca70b8071db581adbbb3ad7e97c"
+    },
+    {
+      "path": "assets/historical/b043-historische-schankanlage-mit-leitungen-und-behaltern.jpg",
+      "bytes": 394340,
+      "sha256": "c20f8371d615c9e63eb0c2eaa0a7a0d22de0a80f86a6535b85a31c5aa4b27f6b"
+    },
+    {
+      "path": "assets/historical/b044-historische-verkehrsszene-mit-polizeibeamtem-und-passanten-vorschau.jpg",
+      "bytes": 35081,
+      "sha256": "d0001c25f0977542c3f13a846650edd347b747abdf7ee11ae812354e39cc6972"
+    },
+    {
+      "path": "assets/historical/b044-historische-verkehrsszene-mit-polizeibeamtem-und-passanten.jpg",
+      "bytes": 1025091,
+      "sha256": "f359906eee89f194cb07d3d46d320fe54e436d7f999050e3202f36bc98ae49c1"
+    },
+    {
+      "path": "assets/historical/b045-historische-fassadenaufnahme-mit-lesbarer-aufschrift-gasthof-zur-sonne-vorschau.jpg",
+      "bytes": 49894,
+      "sha256": "047870b7a9e7dc9210fd0ac1144373e51796c7188147d8d110dbdafac0cc5c1a"
+    },
+    {
+      "path": "assets/historical/b045-historische-fassadenaufnahme-mit-lesbarer-aufschrift-gasthof-zur-sonne.jpg",
+      "bytes": 220529,
+      "sha256": "40e270252035078db4072b4ce62b7ebd1efb95764fda497ba0116585b8f21509"
+    },
+    {
+      "path": "assets/historical/b046-historische-gedruckte-anzeige-mit-den-namen-holsteinischer-hof-und-fledermaus-vorschau.jpg",
+      "bytes": 27812,
+      "sha256": "758633c4a8939da2580b927e1573240b56ee0f7db201c5d7636686d62a7bba29"
+    },
+    {
+      "path": "assets/historical/b046-historische-gedruckte-anzeige-mit-den-namen-holsteinischer-hof-und-fledermaus.jpg",
+      "bytes": 341637,
+      "sha256": "1570630261c94500947d9822bfde279d090ae767106aa65c543cc9bc04b018a3"
+    },
+    {
+      "path": "assets/historical/b047-historische-straenansicht-mit-eisenbahnbrucke-und-geschaftsgebauden-vorschau.jpg",
+      "bytes": 30146,
+      "sha256": "5f1a43c1e96b31fefd66f8422a18b09248fd1d1621060e77300e952b0360a99d"
+    },
+    {
+      "path": "assets/historical/b047-historische-straenansicht-mit-eisenbahnbrucke-und-geschaftsgebauden.jpg",
+      "bytes": 143133,
+      "sha256": "fbe41be18d0bd343f42b3c2b2d4af7988638ec5deab8e95d2a6d282100f71f57"
+    },
+    {
+      "path": "assets/historical/b048-historische-straen-bruckenansicht-mit-platz-und-bebauung-vorschau.jpg",
+      "bytes": 45752,
+      "sha256": "04eacf4f55936d4ada9adc7687acc4e89a7c6bd1825d4116f8914161332688fa"
+    },
+    {
+      "path": "assets/historical/b048-historische-straen-bruckenansicht-mit-platz-und-bebauung.jpg",
+      "bytes": 132615,
+      "sha256": "fb373adb3c766790fcc90c797c393eef0508e6213c21a80c3439af2c30b4bd0e"
+    },
+    {
+      "path": "assets/historical/b049-historische-ladenfront-an-einer-kreuzung-mit-ladenschildern-vorschau.jpg",
+      "bytes": 34438,
+      "sha256": "5f4b1725d77c0217155acf30bd837e37a3e624c0cbe04215f70ef5e6e2c9c3f1"
+    },
+    {
+      "path": "assets/historical/b049-historische-ladenfront-an-einer-kreuzung-mit-ladenschildern.jpg",
+      "bytes": 423889,
+      "sha256": "047fa991fef372152145c4eff32eba0a68d9514f3e73e231ab21ba72c9c272a6"
+    },
+    {
+      "path": "assets/historical/b050-historische-strae-mit-mehreren-einzelhandelsgeschaften-vorschau.jpg",
+      "bytes": 41615,
+      "sha256": "2d27c9b3d0032df3d826ec8d1b03971e1e6a8b7e810f4b46eecd32ebcfc6e73a"
+    },
+    {
+      "path": "assets/historical/b050-historische-strae-mit-mehreren-einzelhandelsgeschaften.jpg",
+      "bytes": 223464,
+      "sha256": "c4455efb855ca289df090523f18026d22b5fcae4dba37e618dd0d3aacf1b918f"
+    },
+    {
+      "path": "assets/historical/b051-fassade-mit-lesbarer-beschriftung-zum-treppchen-vorschau.jpg",
+      "bytes": 30080,
+      "sha256": "c5ea6b74c0392952867e62189fe409d093b8ea99ac8ee05a769f866973a2fb9b"
+    },
+    {
+      "path": "assets/historical/b051-fassade-mit-lesbarer-beschriftung-zum-treppchen.jpg",
+      "bytes": 188293,
+      "sha256": "9c85ae9999510d35958865d8a6e156ad6501057c74c97c68fa3e3c5b98597104"
+    },
+    {
+      "path": "assets/historical/b052-spatere-geschaftszeile-mit-beschriftungen-auf-ladenfronten-vorschau.jpg",
+      "bytes": 34116,
+      "sha256": "9befe6ceba519854da3336d80ec6be301504f17630bdcd7974f077e52a49fece"
+    },
+    {
+      "path": "assets/historical/b052-spatere-geschaftszeile-mit-beschriftungen-auf-ladenfronten.jpg",
+      "bytes": 484855,
+      "sha256": "3aeba30ce088a9458187ba68f69c1d372c930f1e7f29cf5897e9ee7b9051ad23"
+    },
+    {
+      "path": "assets/historical/b053-altere-gebaudegruppe-mit-werbung-und-ladenbeschilderung-vorschau.jpg",
+      "bytes": 47120,
+      "sha256": "39fa8b75d688dccaae1da968ec61e96259daf106be2b952ecf01be4d27f443cb"
+    },
+    {
+      "path": "assets/historical/b053-altere-gebaudegruppe-mit-werbung-und-ladenbeschilderung.jpg",
+      "bytes": 291067,
+      "sha256": "02a485c538f5d5de706388e0baaa7bd4277a81024355c487779f7416096adfeb"
+    },
+    {
+      "path": "assets/historical/b054-spatere-aufnahme-der-ladenreihe-mit-einzelhandelsgeschaften-vorschau.jpg",
+      "bytes": 37362,
+      "sha256": "b03ab220e5a34126b35af01d4cfce24f540e9c12c1734f0b740c5c6a420b75ef"
+    },
+    {
+      "path": "assets/historical/b054-spatere-aufnahme-der-ladenreihe-mit-einzelhandelsgeschaften.jpg",
+      "bytes": 107430,
+      "sha256": "a39d1b3658b25194ce5c825fc447dc30b92e114668976b283c109573668f1e47"
+    },
+    {
+      "path": "assets/historical/b055-straenubersicht-mit-mehreren-hausern-und-geschaften-vorschau.jpg",
+      "bytes": 42163,
+      "sha256": "6786f215337e0d0efb3bb179a72299f80efb034037eeff5593825f317bc0b105"
+    },
+    {
+      "path": "assets/historical/b055-straenubersicht-mit-mehreren-hausern-und-geschaften.jpg",
+      "bytes": 94737,
+      "sha256": "19a946e0046bb5135948f0fe016c2e5e760e21ca64cea4deba2e3fdc71c024bf"
+    },
+    {
+      "path": "assets/historical/b056-foto-des-geschafts-farben-schmidt-mit-schaufenster-vorschau.jpg",
+      "bytes": 38689,
+      "sha256": "45827d5cc6966a38c29ce0a108b720995f30c741f5fe38cf9bc37f2eb482677e"
+    },
+    {
+      "path": "assets/historical/b056-foto-des-geschafts-farben-schmidt-mit-schaufenster.jpg",
+      "bytes": 48181,
+      "sha256": "8d765bd3bdc15e0a70a13e0f66de3be6edb3ed06e6a68567cdd37d1286e370e2"
+    },
+    {
+      "path": "assets/historical/b057-rastro-fassade-mit-lesbarer-lokalbeschriftung-vorschau.jpg",
+      "bytes": 43320,
+      "sha256": "5fbb6f903403f891e40918196ed40a1abd807838c4cd989e4dd2ba9e51214023"
+    },
+    {
+      "path": "assets/historical/b057-rastro-fassade-mit-lesbarer-lokalbeschriftung.jpg",
+      "bytes": 224730,
+      "sha256": "606a1aea73ba96e8f5a31d90b586d3715273e1d08d19fd1769d19abb2d2a98dc"
+    },
+    {
+      "path": "assets/historical/b058-historische-straen-und-gebaudeaufnahme-im-bild-mit-weisser-rabe-lohbrugge-beschriftet-vorschau.jpg",
+      "bytes": 54035,
+      "sha256": "68476e2a9259a25f81e28ffd1ce1a70d90a0d0af33c2fb00adfb2c60e08c89d9"
+    },
+    {
+      "path": "assets/historical/b058-historische-straen-und-gebaudeaufnahme-im-bild-mit-weisser-rabe-lohbrugge-beschriftet.jpg",
+      "bytes": 852197,
+      "sha256": "fae47605452a898e055ac31216bdad7cfb47fa681244dde1293eb8509f6d9821"
+    },
+    {
+      "path": "assets/historical/b059-historische-bildcollage-mit-auen-und-innenansichten-sichtbarer-bzw-begleitender-bezug-zum--vorschau.jpg",
+      "bytes": 46372,
+      "sha256": "c211db27485f468c10d1360c1410c694ec7ab6bed8226b1298551de8d22b4994"
+    },
+    {
+      "path": "assets/historical/b059-historische-bildcollage-mit-auen-und-innenansichten-sichtbarer-bzw-begleitender-bezug-zum-.jpg",
+      "bytes": 381565,
+      "sha256": "17d6b1e618da241ca061cf0541b90d9e2c51887a7f49679f24e4c5316259a699"
+    },
+    {
+      "path": "assets/historical/b060-neuere-straenansicht-eines-der-im-gesprach-genannten-historischen-bereiche-vorschau.jpg",
+      "bytes": 38365,
+      "sha256": "f542162d7b13d8d9ba5cbb31d9e2772ce1f90db8c5f0b9fe2c089c699bd019f7"
+    },
+    {
+      "path": "assets/historical/b060-neuere-straenansicht-eines-der-im-gesprach-genannten-historischen-bereiche.jpg",
+      "bytes": 230977,
+      "sha256": "af54e7d6016b3278ba18e361ff51af6ee7a28a32b3f807e07ea80f5d2bb2729e"
+    },
+    {
+      "path": "assets/historical/b061-historische-strae-mit-alten-ladengeschaften-vorschau.jpg",
+      "bytes": 39508,
+      "sha256": "f2e5cc2ae2d5fb333f7cbf4fe48baefd36d1e150e96ef0a725a27613518e601d"
+    },
+    {
+      "path": "assets/historical/b061-historische-strae-mit-alten-ladengeschaften.jpg",
+      "bytes": 394498,
+      "sha256": "049ab317b3e820c961e676bd1f331b7f620d39b6aa911d1964031f6ebafb7d94"
+    },
+    {
+      "path": "assets/historical/b062-spatere-geschaftsstrae-mit-fachwerk-und-altbauten-vorschau.jpg",
+      "bytes": 54139,
+      "sha256": "8dc8ffb35c1dbc25b7a0ad10b7c883c243a2e0a9067fe473fc3c8c44d58bcb30"
+    },
+    {
+      "path": "assets/historical/b062-spatere-geschaftsstrae-mit-fachwerk-und-altbauten.jpg",
+      "bytes": 139521,
+      "sha256": "eb4376d33c5df0d751066b05f5821066b0a08b8e7b072002bd30b24399a16aee"
+    },
+    {
+      "path": "assets/historical/b063-historischer-eingerichteter-cafe-gastraum-mit-kronleuchter-und-gedeckten-tischen-vorschau.jpg",
+      "bytes": 28099,
+      "sha256": "b8a583493a3be975594537bf19c74f3016c133e439ca16215275a957754b326c"
+    },
+    {
+      "path": "assets/historical/b063-historischer-eingerichteter-cafe-gastraum-mit-kronleuchter-und-gedeckten-tischen.jpg",
+      "bytes": 260955,
+      "sha256": "f5d669009b8919776a5bb64161bfcd12cdac54bdf441f7ed68dacc043b55ff12"
+    },
+    {
+      "path": "assets/historical/b064-historische-auenaufnahme-aus-dem-bildblock-zur-alten-holstenstrae-und-zu-cafe-moller-vorschau.jpg",
+      "bytes": 39691,
+      "sha256": "a9bfb00a146f1560685ef11a3f5d2e8c8258342e238f70ba9911aee5e70d546d"
+    },
+    {
+      "path": "assets/historical/b064-historische-auenaufnahme-aus-dem-bildblock-zur-alten-holstenstrae-und-zu-cafe-moller.jpg",
+      "bytes": 324222,
+      "sha256": "0e192658296b807a36ea82d80f84d1e44a61328c9f8dd70225fe8e63c570e459"
+    },
+    {
+      "path": "assets/historical/b065-aufnahme-eines-alten-caferaums-beziehungsweise-tresens-mit-spiegel-und-einrichtung-vorschau.jpg",
+      "bytes": 29388,
+      "sha256": "9e6796191190a7d4d16ffd16ddd211977ad5918bfee70fdf30d8b08bccebccdf"
+    },
+    {
+      "path": "assets/historical/b065-aufnahme-eines-alten-caferaums-beziehungsweise-tresens-mit-spiegel-und-einrichtung.jpg",
+      "bytes": 346697,
+      "sha256": "c5ed40f16d2e254929c859cbb7ea9f540d2469b327389b2b30a6fbce385f5895"
+    },
+    {
+      "path": "assets/historical/b066-zeitungsausschnitt-zum-cafe-moller-mit-handschriftlichem-datum-18-12-88-vorschau.jpg",
+      "bytes": 80619,
+      "sha256": "657daac0ae836ee61012d44fbd139da75042935d270e073caf4267f64291dcab"
+    },
+    {
+      "path": "assets/historical/b066-zeitungsausschnitt-zum-cafe-moller-mit-handschriftlichem-datum-18-12-88.jpg",
+      "bytes": 1641252,
+      "sha256": "9c594d3e5c118a59c1e7a11e12e82f000e358cc77b3284a015db08269ca417b4"
+    },
+    {
+      "path": "assets/historical/b067-altes-gebaude-mit-ladenfront-an-der-straenkante-vorschau.jpg",
+      "bytes": 39581,
+      "sha256": "d0ad7ca0a3df86d728b2e3d17808c8432cf974ddd709c560853e9e189fe55933"
+    },
+    {
+      "path": "assets/historical/b067-altes-gebaude-mit-ladenfront-an-der-straenkante.jpg",
+      "bytes": 170934,
+      "sha256": "e058f509911fe2a74c518fa760fe0f03e52fa23873866fa45d94f026451b34b1"
+    },
+    {
+      "path": "assets/historical/b068-straenaufnahme-mit-historischem-geschaftsbesatz-vorschau.jpg",
+      "bytes": 40180,
+      "sha256": "53f14d186154c5650e245b52ba298dcd47128045dd3b65a787b5e1f38393c795"
+    },
+    {
+      "path": "assets/historical/b068-straenaufnahme-mit-historischem-geschaftsbesatz.jpg",
+      "bytes": 128483,
+      "sha256": "069c37fe95ddc84f7781d42484fb105c9ebe239aecbe56a8b7719ccfbba6eb4e"
+    },
+    {
+      "path": "assets/historical/b069-weitere-straenaufnahme-mit-einzelhandelsgeschaften-vorschau.jpg",
+      "bytes": 65716,
+      "sha256": "785c428a627dab5ec857f0fae65700495c9c199960393e16793c40d97697a83d"
+    },
+    {
+      "path": "assets/historical/b069-weitere-straenaufnahme-mit-einzelhandelsgeschaften.jpg",
+      "bytes": 221669,
+      "sha256": "e92529fd43837358770aeff3442c87eddbf72549f3d2cb1594d2cfa6a26d8762"
+    },
+    {
+      "path": "assets/historical/b070-strae-mit-mehreren-laden-und-straenverkehr-vorschau.jpg",
+      "bytes": 70722,
+      "sha256": "c37221a8c37e67394b3ab88d3600599a9b6686d706fdd4eb04228023c59c13e4"
+    },
+    {
+      "path": "assets/historical/b070-strae-mit-mehreren-laden-und-straenverkehr.jpg",
+      "bytes": 288933,
+      "sha256": "7fa056a7906adc7dddb5d987c18a80c825b6cbbe90e9fd776d4af9fd12ae5a02"
+    },
+    {
+      "path": "assets/historical/b071-innenstadt-ansicht-der-geschaftsfronten-im-historischen-bergedorf-vorschau.jpg",
+      "bytes": 56882,
+      "sha256": "270e17ea0b93c42ac14e7ec85d9e70bbf503db0379a668d7dc45f664809623bc"
+    },
+    {
+      "path": "assets/historical/b071-innenstadt-ansicht-der-geschaftsfronten-im-historischen-bergedorf.jpg",
+      "bytes": 290556,
+      "sha256": "05fed791da18365d67511b30651a31566131dc32c67d4a47b557a59606bad5b4"
+    },
+    {
+      "path": "assets/historical/b072-spatere-aufnahme-des-eckgebaudes-mit-gaststattenbeschilderung-an-der-ecke-hoperfeld-vorschau.jpg",
+      "bytes": 29379,
+      "sha256": "8f2903f824eb7f12eca9faa01a5abc24d0e659db738984c97810f3f2dbd77113"
+    },
+    {
+      "path": "assets/historical/b072-spatere-aufnahme-des-eckgebaudes-mit-gaststattenbeschilderung-an-der-ecke-hoperfeld.jpg",
+      "bytes": 132873,
+      "sha256": "71afb7f67ba12bb68c44c477aa3659f950e778759cff2ae55dc193bdf34df41d"
+    },
+    {
+      "path": "assets/historical/b073-historische-beschriftete-ansicht-sande-waldstrasse-mit-dem-eckhaus-und-aufschrift-1891-vorschau.jpg",
+      "bytes": 47195,
+      "sha256": "65fac0bc24ffdf6e5cf8f9b28d8ecd0efefe9caddd1773961e84e1372a045d60"
+    },
+    {
+      "path": "assets/historical/b073-historische-beschriftete-ansicht-sande-waldstrasse-mit-dem-eckhaus-und-aufschrift-1891.jpg",
+      "bytes": 538411,
+      "sha256": "b70144ec23b0f90222709999d6281acde0efdbe4b28eba55fa816eea374a52e6"
+    },
+    {
+      "path": "assets/historical/b074-strae-mit-mehreren-laden-und-straenverkehr-vorschau.jpg",
+      "bytes": 73747,
+      "sha256": "06708cc3e9038c85bcc64b6560b8ebbcf53d960722a4fa6e7fed5dd5082734ea"
+    },
+    {
+      "path": "assets/historical/b074-strae-mit-mehreren-laden-und-straenverkehr.jpg",
+      "bytes": 246728,
+      "sha256": "95e594649844208d51830cea4c04a1f3cb9b4929199639d77e0a93828a5d9624"
+    },
+    {
+      "path": "assets/historical/b075-weitere-historische-straenansicht-mit-autos-und-ladengeschaften-vorschau.jpg",
+      "bytes": 53214,
+      "sha256": "981df5e7d7ffa74507cd0c633e522c617cb6e4ac991a10b9234e1ee4121e7173"
+    },
+    {
+      "path": "assets/historical/b075-weitere-historische-straenansicht-mit-autos-und-ladengeschaften.jpg",
+      "bytes": 162860,
+      "sha256": "4235ff398f6f755064388a0e39d894c8b480a319391321273f5ff3af6458711e"
+    },
+    {
+      "path": "assets/historical/b076-historische-straen-und-geschaftszeile-an-der-grandkoppel-mit-hochhaus-im-hintergrund-vorschau.jpg",
+      "bytes": 28662,
+      "sha256": "9050498a89ced8bbd715adc2653e1091866624f259249a7ce5b140f3f39cd3ce"
+    },
+    {
+      "path": "assets/historical/b076-historische-straen-und-geschaftszeile-an-der-grandkoppel-mit-hochhaus-im-hintergrund.jpg",
+      "bytes": 72062,
+      "sha256": "f0dc0670dc81a7ab2d42a81d0c323d2ff46e33fcd80962dfa70f71f27c5cb447"
+    },
+    {
+      "path": "assets/historical/b077-zweite-ansicht-derselben-ladenzeile-mit-geschaftsschaufenstern-und-hochhaus-vorschau.jpg",
+      "bytes": 34822,
+      "sha256": "615339160dc775bfd1b6036eb2cf74bbd74474ca000fa2dde06a69f60fda3a7f"
+    },
+    {
+      "path": "assets/historical/b077-zweite-ansicht-derselben-ladenzeile-mit-geschaftsschaufenstern-und-hochhaus.jpg",
+      "bytes": 75569,
+      "sha256": "c8909191ed22574e4775de0ba6d3dfc56983e25944032273f5a54cdb5e962817"
+    },
+    {
+      "path": "assets/historical/b078-historische-ansicht-der-schmalen-strae-hinterm-graben-mit-der-beischrift-danziger-stuben-vorschau.jpg",
+      "bytes": 42773,
+      "sha256": "e24b986f79cce0c240452164dc991ece810ed4516c0afe509a123c5d2aa272bf"
+    },
+    {
+      "path": "assets/historical/b078-historische-ansicht-der-schmalen-strae-hinterm-graben-mit-der-beischrift-danziger-stuben.jpg",
+      "bytes": 435418,
+      "sha256": "e4ce877eef21a422bf9d5056c0ac6388fda7bc2d6fba8dd05b71a51b64a052d6"
+    },
+    {
+      "path": "assets/historical/b079-historische-fachwerk-und-backsteinbebauung-in-einer-engen-gasse-vorschau.jpg",
+      "bytes": 55590,
+      "sha256": "d7b3ef8b7119397919f641c6942d64cfae6d33b6d936fc17c7bb18b85b015bc3"
+    },
+    {
+      "path": "assets/historical/b079-historische-fachwerk-und-backsteinbebauung-in-einer-engen-gasse.jpg",
+      "bytes": 936785,
+      "sha256": "52f508f905ce68efd9b84d0cc573d791ba92dd2498530ee400417745930188bd"
+    },
+    {
+      "path": "assets/historical/b080-weitere-historische-gebaudeansicht-im-straenbereich-hinterm-graben-vorschau.jpg",
+      "bytes": 33293,
+      "sha256": "0adba3ffb858f0bbd02f2fb967be819dc648af6b20635baf5a78e6eda4cd039f"
+    },
+    {
+      "path": "assets/historical/b080-weitere-historische-gebaudeansicht-im-straenbereich-hinterm-graben.jpg",
+      "bytes": 281083,
+      "sha256": "7a4918b2a6005c6181cc73e2cefd20b5d46696e295ed39789e90ef3d0e4aac0d"
+    },
+    {
+      "path": "assets/historical/b081-historische-postkarte-einer-strae-in-sande-lohbrugge-mit-gebauden-beiderseits-der-strae-vorschau.jpg",
+      "bytes": 30546,
+      "sha256": "36594551faff9ecd18c2d45c1976af7be2df106918a9c021696b469e9dfe2435"
+    },
+    {
+      "path": "assets/historical/b081-historische-postkarte-einer-strae-in-sande-lohbrugge-mit-gebauden-beiderseits-der-strae.jpg",
+      "bytes": 113717,
+      "sha256": "d718b41224364d07e4f5ca2fceb82a102afdb6ff472ff143a0fc2b2eefdeaec8"
+    },
+    {
+      "path": "assets/historical/b082-historische-anzeige-konzerthaus-zum-anker-mit-besitzer-r-stormer-und-adresse-serrahnstrae--vorschau.jpg",
+      "bytes": 32892,
+      "sha256": "ac3aa80889dac524c9ca5c8694def8da99d997b0ff308302e83fe1f4e2350826"
+    },
+    {
+      "path": "assets/historical/b082-historische-anzeige-konzerthaus-zum-anker-mit-besitzer-r-stormer-und-adresse-serrahnstrae-.jpg",
+      "bytes": 34021,
+      "sha256": "3f30f87b9bac3af8ce7c65a0d97a260c8b69aa3209255e8d4fc969d971452fbb"
+    },
+    {
+      "path": "assets/historical/b083-straenfoto-eines-spateren-gastronomiebetriebs-am-serrahn-mit-ccb-im-hintergrund-vorschau.jpg",
+      "bytes": 42224,
+      "sha256": "e5be777e4f4011160cf00d9344df2f76987bdee86c78ee91833e3863e8d9cbbf"
+    },
+    {
+      "path": "assets/historical/b083-straenfoto-eines-spateren-gastronomiebetriebs-am-serrahn-mit-ccb-im-hintergrund.jpg",
+      "bytes": 151610,
+      "sha256": "a534b0ab7494cfa180ff698ac212c8792121485dc3bdef5b55da1d43851f6436"
+    },
+    {
+      "path": "assets/historical/b084-historische-aufnahme-eines-groformatigen-hauses-im-serrahn-umfeld-vorschau.jpg",
+      "bytes": 62021,
+      "sha256": "658889550e5726fb4db8b33336ab315652a5913a3974330777bdb086c0bb612a"
+    },
+    {
+      "path": "assets/historical/b084-historische-aufnahme-eines-groformatigen-hauses-im-serrahn-umfeld.jpg",
+      "bytes": 579105,
+      "sha256": "4f90a299dc043d52642fe96e99018e4566e37038a64791f036592a93882fbc87"
+    },
+    {
+      "path": "assets/historical/b085-ubersichtsaufnahme-der-baustelle-und-wasserflache-am-serrahn-vorschau.jpg",
+      "bytes": 38680,
+      "sha256": "cc556057f0e1ee2ce5fd6c703fb360fc85cc38b6b0887a365c683d9f488e52a5"
+    },
+    {
+      "path": "assets/historical/b085-ubersichtsaufnahme-der-baustelle-und-wasserflache-am-serrahn.jpg",
+      "bytes": 147425,
+      "sha256": "4d611c0f3864c084e662b60bfa03667981d785ae73dd5e9cf91e9a28f827d354"
+    },
+    {
+      "path": "assets/historical/b086-aufnahme-des-gaststattengebaudes-mit-gut-lesbaren-fassadenaufschriften-bahnhofs-gaststatte-vorschau.jpg",
+      "bytes": 61529,
+      "sha256": "db942bb82371ac8fd9c765b2c1a50e759e038e5da8df7b84dcf771186d60d2cd"
+    },
+    {
+      "path": "assets/historical/b086-aufnahme-des-gaststattengebaudes-mit-gut-lesbaren-fassadenaufschriften-bahnhofs-gaststatte.jpg",
+      "bytes": 1093984,
+      "sha256": "fc662eb2afa1247fcf90d21a12de91f0db16e136bfcd944b7aeb506b4bb1b7fc"
+    },
+    {
+      "path": "assets/historical/b087-street-view-wiedergabe-mit-engel-beschriftung-vorschau.jpg",
+      "bytes": 30856,
+      "sha256": "ec25645916fdb7618f349cefa3bbd4179e4dbe091c8a41fde28aa9a7bec5bc6d"
+    },
+    {
+      "path": "assets/historical/b087-street-view-wiedergabe-mit-engel-beschriftung.jpg",
+      "bytes": 349622,
+      "sha256": "5278757332e6338aac495382d0ebdc74eade25914b37a99df59511f6e043683f"
+    },
+    {
+      "path": "assets/historical/b088-weitere-street-view-wiedergabe-am-fruheren-engel-standort-vorschau.jpg",
+      "bytes": 30507,
+      "sha256": "4ea6028cc1a0a36d747c3c5b3a3a2c88f5f23636322b7a05577670b9d96dbbcd"
+    },
+    {
+      "path": "assets/historical/b088-weitere-street-view-wiedergabe-am-fruheren-engel-standort.jpg",
+      "bytes": 325504,
+      "sha256": "7274a51766dc223af1d81ca0aaa693bfe5ac02354ec800e76bca019d314d6935"
+    },
+    {
+      "path": "assets/history-infrastructure.geojson",
+      "bytes": 210216,
+      "sha256": "9ff14e629ada89b14dbb456dfb95f6cc8088b66d7f03682b74c9bd04cb825dab"
+    },
+    {
+      "path": "assets/history-liberty.json",
+      "bytes": 109374,
+      "sha256": "017260d8ca85446e31f64fa840272d12fe67b8b538a4f7a1a4a3b03f6a21d306"
+    },
+    {
+      "path": "assets/history-map-licenses.txt",
+      "bytes": 12242,
+      "sha256": "1927ee1b6546eb6a7190af09565623e7ffd21157b5ae61583936fcf0e9bf37eb"
+    },
+    {
+      "path": "assets/history-tiles-CZ3Gc2dr.js",
+      "bytes": 558642,
+      "sha256": "eddf278251886bb907a74b69987c7b69ae109bb6a5452694a34c6cb6e61b6e1b"
+    },
+    {
+      "path": "assets/history-tiles-c_1sG1-7.css",
+      "bytes": 5263,
+      "sha256": "3a2b8467811c3aa89ce93c07ec06cb0598e8c8c6e9570c10da44590ddfd08c77"
+    },
+    {
+      "path": "assets/images/layers-2x.png",
+      "bytes": 1259,
+      "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf"
+    },
+    {
+      "path": "assets/images/layers.png",
+      "bytes": 696,
+      "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6"
+    },
+    {
+      "path": "assets/images/marker-icon-2x.png",
+      "bytes": 2464,
+      "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528"
+    },
+    {
+      "path": "assets/images/marker-icon.png",
+      "bytes": 1466,
+      "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437"
+    },
+    {
+      "path": "assets/images/marker-shadow.png",
+      "bytes": 618,
+      "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da"
+    },
+    {
+      "path": "assets/index-CUDiMgaA.js",
+      "bytes": 2990509,
+      "sha256": "71cc2e3df479796bfd96fbc6f5e4732a91ca3c987d31d6f8a568d30320f2ba57"
+    },
+    {
+      "path": "assets/index-Cl-pi8Q1.css",
+      "bytes": 247095,
+      "sha256": "4863f433f05aa8b6c9e367f0ba52a22f67d0e3dd971f09b6f10ba071cbc24d12"
+    },
+    {
+      "path": "assets/index.esm-C-ClcIFq.js",
+      "bytes": 31740,
+      "sha256": "a39825e8277c083a2ff796af93d1e6e6d34bb23efadf40f4fe8d563303359251"
+    },
+    {
+      "path": "assets/index.esm-C9x1Uh9K.js",
+      "bytes": 128284,
+      "sha256": "9b5403009d20655294499d07c4ef962abb57283c66750573ba2ddf7b543d241b"
+    },
+    {
+      "path": "assets/index.esm-CiMj7EFZ.js",
+      "bytes": 728,
+      "sha256": "9376e749a14f57ddffa801cf68f722b54eb83dcc2a66b66b3c3505a0988617a0"
+    },
+    {
+      "path": "assets/leaflet-src-C8f9nV37.js",
+      "bytes": 148818,
+      "sha256": "ecdb140d1bfdfe6f4af637149c4d2ae7e2ab39a728cdc6339f134fd4e21b1101"
+    },
+    {
+      "path": "assets/leaflet.css",
+      "bytes": 14145,
+      "sha256": "337bfca5cabd03b39815b2700febe2b3b7edf55921c59cd49f88ecb328212303"
+    },
+    {
+      "path": "assets/map-fonts/OFL.txt",
+      "bytes": 4518,
+      "sha256": "54ec7b5a35310ad66f9f3091426f7028484cbf9ae1ab5da30122ee412a3009e1"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-400-italic.css",
+      "bytes": 780,
+      "sha256": "ed0263c118def9271317c239756b6f5fec3d25b93c6e43a6c985afd17e979eb9"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-400.css",
+      "bytes": 780,
+      "sha256": "ec9731ca9187b07823585b14247dacf9f22db2b2f1393c14255e749a3d2eeba0"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-700.css",
+      "bytes": 780,
+      "sha256": "bc3994ac23cf496da5fb305dc8c7ecd3e3314128b84e415a1670e5d2dd668277"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-latin-400-italic.woff2",
+      "bytes": 13888,
+      "sha256": "c302cbfdd98d628d60b6ef8de3c8459c70449df3a5ff2baacfa7481d95e79f4c"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-latin-400-normal.woff2",
+      "bytes": 13120,
+      "sha256": "09aee8065d25508f23a4c3d92cd777ac869c52d93fd868a88f025d888a7937d6"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-latin-700-normal.woff2",
+      "bytes": 13464,
+      "sha256": "e77bfe1db912f687b0319b60de158cfada67f89c8ee4f8e2bd6020f970accbfb"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-latin-ext-400-italic.woff2",
+      "bytes": 57224,
+      "sha256": "8931874d4c940ef6eed0e231e74e3048fdd36eb5333246235aeb2b0113a8b361"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-latin-ext-400-normal.woff2",
+      "bytes": 55640,
+      "sha256": "c8e6bf928ae88c948ebc49dbe1df01ea5505d12408904ea3302309b26487fbca"
+    },
+    {
+      "path": "assets/map-fonts/noto-sans-latin-ext-700-normal.woff2",
+      "bytes": 59144,
+      "sha256": "c0cd431266a7ed82d6f0dfe281e38a883c28a03eec1fdac308cc2f7c0ea39c3b"
+    },
+    {
+      "path": "assets/map-key/bakery.svg",
+      "bytes": 394,
+      "sha256": "64d16f0aba42d9033f571757ccf73ae264c84f79dd4287631c23879bac95fb72"
+    },
+    {
+      "path": "assets/map-key/bar.svg",
+      "bytes": 179,
+      "sha256": "c9ae6987b9598ba7254adfc3e6810e6941de4b8fc7bb08ee8be5c31a059627ef"
+    },
+    {
+      "path": "assets/map-key/beauty.svg",
+      "bytes": 877,
+      "sha256": "0140b50f2ed5357d21910beaae3b17a2938937490c9be69f867ab70bf6313fb5"
+    },
+    {
+      "path": "assets/map-key/bicycle_parking.svg",
+      "bytes": 1510,
+      "sha256": "fada4e17f78de900a71da8ac1c50a0d1915e878948c516aa993f6d6c6031d927"
+    },
+    {
+      "path": "assets/map-key/bus_stop.svg",
+      "bytes": 348,
+      "sha256": "70211b7097845fad7e68c92f53305850195ea2089776a4aeb642fb02948af50c"
+    },
+    {
+      "path": "assets/map-key/cafe.svg",
+      "bytes": 348,
+      "sha256": "8b48c7a4e7468c5b216a686c1a3d3b72af167021af32a09aec009fb8f8f16abd"
+    },
+    {
+      "path": "assets/map-key/charging_station.svg",
+      "bytes": 724,
+      "sha256": "2be9508681a0aaf4ec59acffb190c34ebc86042021a390b32d01f4e4790fae93"
+    },
+    {
+      "path": "assets/map-key/clothes.svg",
+      "bytes": 192,
+      "sha256": "d424d6d98d07011d9bb9138bfc2fed5832e74abaf2c81779ee9fb87f53c45baf"
+    },
+    {
+      "path": "assets/map-key/dentist.svg",
+      "bytes": 396,
+      "sha256": "d9470269bb98fe175d5e4eb486c1444a8b8b7a33ae6c16cf324351d3bc97d510"
+    },
+    {
+      "path": "assets/map-key/doctors.svg",
+      "bytes": 516,
+      "sha256": "c0c06629a38b207f3bbb189e94dbd9fc22aa3609fa573aa928ebf05172959703"
+    },
+    {
+      "path": "assets/map-key/electronics.svg",
+      "bytes": 902,
+      "sha256": "dae684018470766efcd88fb834e9da09fe5d87d512d23403760a086fb4485934"
+    },
+    {
+      "path": "assets/map-key/hairdresser.svg",
+      "bytes": 781,
+      "sha256": "8f16e377d1763708b4f7fc1a032871bb9f80f5005dc2c92920c17919ea39df50"
+    },
+    {
+      "path": "assets/map-key/hospital.svg",
+      "bytes": 184,
+      "sha256": "decc79834f094d3acbf4555472a9c79d816b1c08f368a6b70fab45e0f7629344"
+    },
+    {
+      "path": "assets/map-key/ice_cream.svg",
+      "bytes": 502,
+      "sha256": "3d9fecff8baa06b0e689c31da57d51e5f7f5fe32fe9b5cd8e01761b574037e8d"
+    },
+    {
+      "path": "assets/map-key/jewelry.svg",
+      "bytes": 688,
+      "sha256": "89b83229985b60a8ed573c39d3cee1ff223b7ccdcd4643f60dbaf74e2f3f9cee"
+    },
+    {
+      "path": "assets/map-key/library.svg",
+      "bytes": 562,
+      "sha256": "635481e6e2e134afbb171b03c1e4d1a379ef2b0782ec90c6b5d9a873a35aa793"
+    },
+    {
+      "path": "assets/map-key/optician.svg",
+      "bytes": 439,
+      "sha256": "22238ff3b01d1318569e885ede84d0fa65ee1145272a44166816f1a3424a4823"
+    },
+    {
+      "path": "assets/map-key/perfumery.svg",
+      "bytes": 659,
+      "sha256": "5ac11e798b90696b503aa2a0f3032aa9e1769f2ccdfe6844e3f2cdb5087c52e7"
+    },
+    {
+      "path": "assets/map-key/pharmacy.svg",
+      "bytes": 217,
+      "sha256": "86456fd8bb35e4515dece2950bea3be4f412cdba717b89d8cda6323980b4c67a"
+    },
+    {
+      "path": "assets/map-key/playground.svg",
+      "bytes": 789,
+      "sha256": "0cad4e8bc932727e9c30a4bfac44ce225ef6e2a5180689a25cee42e20bec9455"
+    },
+    {
+      "path": "assets/map-key/print-bakery.svg",
+      "bytes": 409,
+      "sha256": "7a277ea8c37f744e9064d11937bbe2411c532e5ef7f0af039e467e67fadb9672"
+    },
+    {
+      "path": "assets/map-key/print-bar.svg",
+      "bytes": 194,
+      "sha256": "110c72726053f5a311b72d618c96438256e0213d4e7db2b904a570013920571c"
+    },
+    {
+      "path": "assets/map-key/print-beauty.svg",
+      "bytes": 892,
+      "sha256": "695a081f2859ed515fd72c26b2961db8d2141b07e458aaa625a5b76abfe98104"
+    },
+    {
+      "path": "assets/map-key/print-bicycle_parking.svg",
+      "bytes": 1525,
+      "sha256": "4c3d5b9631dea4b8d80792b183053008ec06eb622e9dc00da97666c323ce2748"
+    },
+    {
+      "path": "assets/map-key/print-books.svg",
+      "bytes": 577,
+      "sha256": "2db72098c40b605c1f093fb256356eba89816f8ac0262e40b6ea93a623736526"
+    },
+    {
+      "path": "assets/map-key/print-bus_stop.svg",
+      "bytes": 363,
+      "sha256": "2a8e224ff4a6e618577ad5c2ab7328cf5b89c8f18dd8572ecb8a500e19789789"
+    },
+    {
+      "path": "assets/map-key/print-cafe.svg",
+      "bytes": 363,
+      "sha256": "14004c11be2571098149afcf0e73b315262666d207b9bc34769baf7ef53b6bc5"
+    },
+    {
+      "path": "assets/map-key/print-charging_station.svg",
+      "bytes": 739,
+      "sha256": "e6fff734a1179f3804541841cd1a473fd93571676886435db0101c0edcf2b92f"
+    },
+    {
+      "path": "assets/map-key/print-clothes.svg",
+      "bytes": 207,
+      "sha256": "d778cbc9b3db07e54e5f158862b12904ccad94aebe705c2bfd5dda4e68646346"
+    },
+    {
+      "path": "assets/map-key/print-cosmetics.svg",
+      "bytes": 674,
+      "sha256": "8672453200ba58ce5f8bfc97dc7e0c9c0fa5b5dbf40156f0fafe032155392cc2"
+    },
+    {
+      "path": "assets/map-key/print-dentist.svg",
+      "bytes": 411,
+      "sha256": "f6b60d10e501ab5d6d45aa632fd29e821927b3247d5749163f600f3301f3a607"
+    },
+    {
+      "path": "assets/map-key/print-doctors.svg",
+      "bytes": 531,
+      "sha256": "927da7149cedce5228c834686a0d7708048a2c69b7a850f10d87f5b0dfb85371"
+    },
+    {
+      "path": "assets/map-key/print-electronics.svg",
+      "bytes": 917,
+      "sha256": "6651456b3198e6da168d0da9ac1acf7695f8e3a0a299447f1e851338d86c6c57"
+    },
+    {
+      "path": "assets/map-key/print-hairdresser.svg",
+      "bytes": 796,
+      "sha256": "d532386eae209a53940610f835591397075adf826e5bf2534a75b47c2906aaca"
+    },
+    {
+      "path": "assets/map-key/print-halt.svg",
+      "bytes": 132,
+      "sha256": "de69bc30bd88983f353edf0a8dda42ebf80f1101277afa36e46527eba454351f"
+    },
+    {
+      "path": "assets/map-key/print-hospital.svg",
+      "bytes": 199,
+      "sha256": "7d3456e0cd52b71ec3e555fbf7a92e830f1a7bff852ecf83a6d68f4d3f1d2fdb"
+    },
+    {
+      "path": "assets/map-key/print-ice_cream.svg",
+      "bytes": 517,
+      "sha256": "bc42a1500d278fbacb6cdfe34284aaf6c91d902c5e1e27a56b35e409a7e67885"
+    },
+    {
+      "path": "assets/map-key/print-jewelry.svg",
+      "bytes": 703,
+      "sha256": "ec65ba0364658bbe60f8632e93439422b89d3ec2fe4a10bdef1787f167df134b"
+    },
+    {
+      "path": "assets/map-key/print-optician.svg",
+      "bytes": 454,
+      "sha256": "fb5fd4995f817aef70a31bd918da8d54d18545061f2ae6ecbfe7c6d6edf5b50a"
+    },
+    {
+      "path": "assets/map-key/print-pharmacy.svg",
+      "bytes": 232,
+      "sha256": "c7a7984f74b0818149dbef6112e0ad4d4a104d743887e53a42ec95f7e4ff9196"
+    },
+    {
+      "path": "assets/map-key/print-playground.svg",
+      "bytes": 804,
+      "sha256": "6d600d70852469b7f2f7ed2478a5036e75784ec980fbd52e47d8963c1733752c"
+    },
+    {
+      "path": "assets/map-key/print-pub.svg",
+      "bytes": 175,
+      "sha256": "22621cb6776a0341efb955fe03ffa5059b59a5d0c5c80e60a6f739373478b20e"
+    },
+    {
+      "path": "assets/map-key/print-rental_bicycle.svg",
+      "bytes": 1541,
+      "sha256": "df90aa6f890eb8d4b68694d563af8298e5ca6255c9412cc2c2c443ccb884e4ae"
+    },
+    {
+      "path": "assets/map-key/print-restaurant.svg",
+      "bytes": 507,
+      "sha256": "c7cc89ac02f1a256fc0d3e5540db96e7c1f6a1f4b4322e315575822dc958fc71"
+    },
+    {
+      "path": "assets/map-key/print-shoes.svg",
+      "bytes": 600,
+      "sha256": "55c8ebc05e0ac562d62dcc8f7b3ea8ad6f4fd51cc9a2b77747696e023fb0a548"
+    },
+    {
+      "path": "assets/map-key/print-station.svg",
+      "bytes": 132,
+      "sha256": "de69bc30bd88983f353edf0a8dda42ebf80f1101277afa36e46527eba454351f"
+    },
+    {
+      "path": "assets/map-key/print-stationery.svg",
+      "bytes": 683,
+      "sha256": "e0ee725b3a59f8f41fbf169d302c130ca68ef6138cc3699724d1e662e1b72e79"
+    },
+    {
+      "path": "assets/map-key/print-toilets.svg",
+      "bytes": 796,
+      "sha256": "c6cb3b2d2278cbe5b35985ba17c956ea3a3dd303dab8414a3b4f10fe1276fc4a"
+    },
+    {
+      "path": "assets/map-key/print-veterinary.svg",
+      "bytes": 1332,
+      "sha256": "95e4ca516b1e2a124a26290807d98235e25fe7377611def3d05d45bb3008a0d5"
+    },
+    {
+      "path": "assets/map-key/pub.svg",
+      "bytes": 160,
+      "sha256": "0ae01e883ab80576eb39eeb93f455a2206ff4b7e17176b5b98396d02de481e56"
+    },
+    {
+      "path": "assets/map-key/rental_bicycle.svg",
+      "bytes": 1526,
+      "sha256": "e877c0bbe2006a014ebe4f8d45be2429c7d9d57a9ff30646a258e1c921e4565b"
+    },
+    {
+      "path": "assets/map-key/restaurant.svg",
+      "bytes": 492,
+      "sha256": "679db57a6968c01d3cdbf5222b0c04a6559e64a46ebf2d43ab090b00e994f4ca"
+    },
+    {
+      "path": "assets/map-key/shoes.svg",
+      "bytes": 585,
+      "sha256": "39a10a1a3898a995c6a7e50fa9588484ee9cf0f789e0df364d326109f1760689"
+    },
+    {
+      "path": "assets/map-key/square.svg",
+      "bytes": 117,
+      "sha256": "6de1c4ce271d7e0663dd0f1f4489d4d015f0a5243c6bdab5da223aac123611f2"
+    },
+    {
+      "path": "assets/map-key/square4_in6.svg",
+      "bytes": 173,
+      "sha256": "ee660482f22c67442a2aa5fa1ab9587fbb2ea99bf24aa18123f068a8e8d0344f"
+    },
+    {
+      "path": "assets/map-key/stationery.svg",
+      "bytes": 668,
+      "sha256": "db261565c0a0b42a6111c1e1f7d40582268855fe96cd00f25e90dbbdae7ecdb0"
+    },
+    {
+      "path": "assets/map-key/toilets.svg",
+      "bytes": 781,
+      "sha256": "bf3dac7c8fa59a807d64adf8e2f942712ac32d96fd4abe34ce8a314ffaf3b452"
+    },
+    {
+      "path": "assets/map-key/veterinary.svg",
+      "bytes": 1317,
+      "sha256": "7a24427b7d0a189068258ce4267cd0f9e117c0a286cba81c402439fa94c98e98"
+    },
+    {
+      "path": "assets/marschbahndamm-route.geojson",
+      "bytes": 13009,
+      "sha256": "ec5a9dd4fc9e8e8a8d64efb64699008711152adcffc5a4ff605b440ec00916e7"
+    },
+    {
+      "path": "assets/navigation-boot.css",
+      "bytes": 225,
+      "sha256": "355746970dfbcd7b16134bdf428ef6a2185e6c5389d2dfe61ef63a8113e922be"
+    },
+    {
+      "path": "assets/schloss.jpg",
+      "bytes": 628973,
+      "sha256": "314c39059dd3d20cbd8606365dd127a0923e6be5e8fd64e651151ee8d744666a"
+    },
+    {
+      "path": "assets/social/bergedorf-gemeinsam-vorschau-v1.png",
+      "bytes": 87751,
+      "sha256": "91138d0b3fe1a7d161748027ed4772fd64d6cfebe27e52ddd5d9dc8b20276778"
+    },
+    {
+      "path": "assets/vierlaender-bahndamm-route.geojson",
+      "bytes": 1712,
+      "sha256": "a2f938e7caf071ef8f42efd29c683c61eda8043e25ba41ed727fcc8eabcb2ccf"
+    },
+    {
+      "path": "assets/vierlaender-kirchentour.geojson",
+      "bytes": 31713,
+      "sha256": "31f8b686245415fc8748531cd542c3e5acb9b3049de74b044d244762dba1eb00"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2769,
+      "sha256": "a8ff802849ed0190a9e46132d38864ef0a8523f1db6293e325f340a53f445186"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 685,
+      "sha256": "ff55ceb3ff49fea98df89537a583f9a32c7cddfba5a0a1bd0ad5d71d5b1003fe"
+    },
+    {
+      "path": "materialien/einsamkeit-projektwerkstatt.html",
+      "bytes": 37055,
+      "sha256": "5a4042811aa327aba13c1ea7ca5900b92205127478972943516d893914782838"
+    },
+    {
+      "path": "materialien/hilfswegweiser-bergedorf.svg",
+      "bytes": 29164,
+      "sha256": "61ef508936a0aad1fb4edd1095a978c434305209e299baf6187919c73462063f"
+    },
+    {
+      "path": "reference/bezirksamt-urheberrecht-ausfuellhilfe.pdf",
+      "bytes": 60969,
+      "sha256": "96866cee9a77dae8dffce80478b861e0ee50147d8fad5507ac5f2b07ccd895b5"
+    },
+    {
+      "path": "reference/bezirksamt-urheberrecht-original.pdf",
+      "bytes": 37829,
+      "sha256": "5e48fec604b89f45204da39ade8c3493948689c627b163fdbb91ec88fd042e14"
+    }
+  ]
+}
