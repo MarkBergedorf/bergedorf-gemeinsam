@@ -25,6 +25,8 @@ service cloud.firestore {
       return verified()
         && exists(/databases/$(database)/documents/groups/$(groupId))
         && get(/databases/$(database)/documents/groups/$(groupId)).data.status != 'closed'
+        && (!('locked' in get(/databases/$(database)/documents/groups/$(groupId)).data)
+          || get(/databases/$(database)/documents/groups/$(groupId)).data.locked != true)
         && exists(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid))
         && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.status == 'active';
     }
@@ -104,15 +106,40 @@ service cloud.firestore {
     match /users/{uid}/groupMemberships/{groupId} {
       allow get: if featureEnabled() && verified() && request.auth.uid == uid;
       allow list: if featureEnabled() && verified() && request.auth.uid == uid && request.query.limit <= 25;
-      allow create, update: if featureEnabled() && verified() && (request.auth.uid == uid || primaryCoordinator(groupId))
+      allow create: if featureEnabled() && verified() && (request.auth.uid == uid || primaryCoordinator(groupId))
         && request.resource.data.keys().hasOnly(['groupId', 'role', 'status', 'joinedAt'])
         && request.resource.data.groupId == groupId
         && request.resource.data.status == 'active'
         && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status == 'active'
         && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.role == request.resource.data.role;
+      allow update: if featureEnabled() && verified() && (request.auth.uid == uid || primaryCoordinator(groupId))
+        && request.resource.data.keys().hasOnly(['groupId', 'role', 'status', 'joinedAt'])
+        && request.resource.data.groupId == groupId
+        && request.resource.data.status in ['active', 'left', 'removed']
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status == request.resource.data.status
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.role == request.resource.data.role;
       allow delete: if featureEnabled() && verified() && (request.auth.uid == uid || primaryCoordinator(groupId))
         && (!existsAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid))
           || getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status != 'active');
+    }
+
+    match /users/{uid}/joinRequests/{groupId} {
+      allow get: if featureEnabled() && verified() && request.auth.uid == uid;
+      allow list: if featureEnabled() && verified() && request.auth.uid == uid && request.query.limit <= 25;
+      allow create: if featureEnabled() && verified() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['groupId', 'status', 'createdAt'])
+        && request.resource.data.groupId == groupId && request.resource.data.status == 'pending'
+        && request.resource.data.createdAt == request.time
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.uid == uid
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == 'pending';
+      allow update: if featureEnabled() && verified() && primaryCoordinator(groupId)
+        && request.resource.data.groupId == groupId
+        && request.resource.data.status in ['accepted', 'declined']
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'decidedAt'])
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == request.resource.data.status;
+      allow delete: if featureEnabled() && verified() && request.auth.uid == uid
+        && resource.data.status == 'pending'
+        && !existsAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid));
     }
 
     match /consentEvents/{eventId} {
@@ -182,21 +209,26 @@ service cloud.firestore {
               && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == 'accepted'))
           && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.role == request.resource.data.role
           && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.status == 'active';
-        allow update: if featureEnabled() && verified() && primaryCoordinator(groupId)
+        allow update: if featureEnabled() && verified()
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['role', 'status'])
           && request.resource.data.role in ['coordinator', 'deputy', 'member']
           && request.resource.data.status in ['active', 'left', 'removed']
-          && (uid != get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid
-            || request.resource.data.role in ['coordinator', 'deputy']
-            || getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status == 'closed'
-            || (getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid is string
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.role in ['coordinator', 'deputy']
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.status == 'active'))
-          && (request.resource.data.status == 'active'
-            ? getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.role == request.resource.data.role
-              && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.status == 'active'
-            : !existsAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)));
+          && ((primaryCoordinator(groupId)
+            && (uid != get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid
+              || request.resource.data.role in ['coordinator', 'deputy']
+              || getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status == 'closed'
+              || (getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid
+                && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid is string
+                && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.role in ['coordinator', 'deputy']
+                && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.status == 'active'))
+            && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.role == request.resource.data.role
+            && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.status == request.resource.data.status)
+            || (request.auth.uid == uid
+              && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid
+              && request.resource.data.status == 'left'
+              && request.resource.data.role == resource.data.role
+              && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.role == request.resource.data.role
+              && getAfter(/databases/$(database)/documents/users/$(uid)/groupMemberships/$(groupId)).data.status == 'left'));
         allow delete: if featureEnabled() && verified()
           && ((request.auth.uid == uid
               && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid)
@@ -207,8 +239,7 @@ service cloud.firestore {
 
       match /joinRequests/{uid} {
         allow get: if featureEnabled() && verified() && (request.auth.uid == uid || coordinator(groupId));
-        allow list: if featureEnabled() && verified() && request.query.limit <= 25
-          && (coordinator(groupId) || resource.data.uid == request.auth.uid);
+        allow list: if featureEnabled() && verified() && request.query.limit <= 25 && coordinator(groupId);
         allow create: if featureEnabled() && verified() && request.auth.uid == uid
           && request.resource.data.keys().hasOnly(['uid', 'status', 'createdAt'])
           && request.resource.data.uid == uid && request.resource.data.status == 'pending'
@@ -217,15 +248,18 @@ service cloud.firestore {
           && exists(/databases/$(database)/documents/groups/$(groupId))
           && get(/databases/$(database)/documents/groups/$(groupId)).data.status != 'closed'
           && get(/databases/$(database)/documents/groups/$(groupId)).data.listed == true
-          && get(/databases/$(database)/documents/groups/$(groupId)).data.seeking != 'none';
+          && get(/databases/$(database)/documents/groups/$(groupId)).data.seeking != 'none'
+          && getAfter(/databases/$(database)/documents/users/$(uid)/joinRequests/$(groupId)).data.status == 'pending';
         allow update: if featureEnabled() && coordinator(groupId) && resource.data.status == 'pending'
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'decidedAt'])
           && request.resource.data.status in ['accepted', 'declined']
           && request.resource.data.decidedAt == request.time
+          && getAfter(/databases/$(database)/documents/users/$(uid)/joinRequests/$(groupId)).data.status == request.resource.data.status
           && (request.resource.data.status != 'accepted'
             || (getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.role == 'member'
               && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status == 'active'));
-        allow delete: if featureEnabled() && verified() && request.auth.uid == uid && resource.data.status == 'pending';
+        allow delete: if featureEnabled() && verified() && request.auth.uid == uid && resource.data.status == 'pending'
+          && !existsAfter(/databases/$(database)/documents/users/$(uid)/joinRequests/$(groupId));
       }
 
       match /workItems/{itemId} {

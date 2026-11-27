@@ -67,6 +67,7 @@ test('gruppengründung verlangt atomare erste Koordination und verweigert unzul�
 test('Arbeitsbereiche und Mitgliederdaten bleiben für Außenstehende geschlossen', async () => {
   await seedGroup();
   await assertSucceeds(getDoc(doc(db('coord'), 'groups/group-a')));
+  await assertSucceeds(getDocs(query(collection(db('coord'), 'groups/group-a/members'), limit(25))));
   await assertFails(getDoc(doc(db('visitor'), 'groups/group-a')));
   await assertFails(getDocs(collection(db('visitor'), 'groups/group-a/workItems')));
   await assertFails(getDoc(doc(db('visitor'), 'groups/group-a/members/coord')));
@@ -79,10 +80,15 @@ test('Beitrittsanfragen sind privat; Aufnahme braucht Koordination und atomare M
     await setDoc(doc(store, 'groups/group-a'), { listed: true }, { merge: true });
     await setDoc(doc(store, 'groupDirectory/group-a'), { projectId: 'projekt-einsamkeitslotsen', title: 'Lokale Demogruppe', description: 'Synthetische Kurzbeschreibung', status: 'forming', seeking: 'members', listed: true, updatedAt: new Date() });
   });
-  await assertSucceeds(setDoc(doc(db('joiner'), 'groups/group-a/joinRequests/joiner'), { uid: 'joiner', status: 'pending', createdAt: stamp() }));
+  const joinerStore = db('joiner'); const requestBatch = writeBatch(joinerStore);
+  requestBatch.set(doc(joinerStore, 'groups/group-a/joinRequests/joiner'), { uid: 'joiner', status: 'pending', createdAt: stamp() });
+  requestBatch.set(doc(joinerStore, 'users/joiner/joinRequests/group-a'), { groupId: 'group-a', status: 'pending', createdAt: stamp() });
+  await assertSucceeds(requestBatch.commit());
   await assertFails(getDoc(doc(db('other'), 'groups/group-a/joinRequests/joiner')));
+  await assertSucceeds(getDocs(query(collection(db('coord'), 'groups/group-a/joinRequests'), where('status', '==', 'pending'), limit(25))));
   const coord = db('coord'); const batch = writeBatch(coord);
   batch.update(doc(coord, 'groups/group-a/joinRequests/joiner'), { status: 'accepted', decidedAt: stamp() });
+  batch.update(doc(coord, 'users/joiner/joinRequests/group-a'), { status: 'accepted', decidedAt: stamp() });
   batch.set(doc(coord, 'groups/group-a/members/joiner'), { role: 'member', status: 'active', joinedAt: stamp() });
   batch.set(doc(coord, 'users/joiner/groupMemberships/group-a'), { groupId: 'group-a', role: 'member', status: 'active', joinedAt: stamp() });
   await assertSucceeds(batch.commit());
@@ -130,7 +136,7 @@ test('Primärkoordination kann nur atomar mit Nachfolge ausscheiden oder die Gru
   const close = writeBatch(store);
   close.update(doc(store, 'groups/last-coordinator'), { status: 'closed', listed: false, seeking: 'none', updatedAt: stamp() });
   close.update(doc(store, 'groups/last-coordinator/members/coord'), { role: 'member', status: 'left' });
-  close.delete(doc(store, 'users/coord/groupMemberships/last-coordinator'));
+  close.update(doc(store, 'users/coord/groupMemberships/last-coordinator'), { role: 'member', status: 'left' });
   await assertSucceeds(close.commit());
   await assertFails(getDoc(doc(db('coord'), 'groups/last-coordinator')));
 });
