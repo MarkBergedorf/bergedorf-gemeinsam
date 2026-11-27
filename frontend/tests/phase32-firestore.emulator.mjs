@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { before, beforeEach, after, test } from 'node:test';
 import assert from 'node:assert/strict';
 import { initializeTestEnvironment, assertSucceeds, assertFails } from '@firebase/rules-unit-testing';
-import { doc, setDoc, deleteDoc, getDoc, getDocs, collection, query, where, limit, serverTimestamp, writeBatch } from 'firebase/firestore';
+import { doc, setDoc, deleteDoc, getDoc, getDocs, collection, query, where, limit, serverTimestamp, writeBatch, updateDoc } from 'firebase/firestore';
 import { initializeApp, deleteApp } from 'firebase/app';
 import { connectAuthEmulator, createUserWithEmailAndPassword, deleteUser, getAuth, reload } from 'firebase/auth';
 import { connectFirestoreEmulator, getFirestore } from 'firebase/firestore';
@@ -148,12 +148,16 @@ test('Stellvertretung kann den primären Gruppenstatus oder die öffentliche Ver
   await assertFails(setDoc(doc(db('deputy'), 'groupDirectory/group-a'), { projectId: 'projekt-einsamkeitslotsen', title: 'Gruppe', description: '', status: 'forming', seeking: 'members', listed: true, updatedAt: stamp() }));
 });
 
-test('Arbeitsinhalte sind nur für Mitglieder und mit begrenzten Feldern nutzbar', async () => {
+test('Arbeitsinhalte sind nur für Mitglieder nutzbar und Versionsstände müssen bei jeder Änderung exakt steigen', async () => {
   await seedGroup();
-  const valid = { kind: 'task', title: 'Nächster Schritt', body: 'Synthetischer Inhalt', status: 'open', createdBy: 'coord', assigneeUid: null, dueAt: null, createdAt: stamp(), updatedAt: stamp() };
-  await assertSucceeds(setDoc(doc(db('coord'), 'groups/group-a/workItems/task-a'), valid));
+  const valid = { kind: 'task', title: 'Nächster Schritt', body: 'Synthetischer Inhalt', status: 'open', createdBy: 'coord', assigneeUid: null, dueAt: null, version: 1, createdAt: stamp(), updatedAt: stamp() };
+  const workItem = doc(db('coord'), 'groups/group-a/workItems/task-a');
+  await assertSucceeds(setDoc(workItem, valid));
   await assertFails(setDoc(doc(db('visitor'), 'groups/group-a/workItems/task-b'), { ...valid, createdBy: 'visitor' }));
   await assertFails(setDoc(doc(db('coord'), 'groups/group-a/workItems/task-c'), { ...valid, kind: 'private-message' }));
+  await assertSucceeds(updateDoc(workItem, { version: 2, title: 'Aktualisiert', updatedAt: stamp() }));
+  await assertFails(updateDoc(workItem, { version: 2, body: 'Stale client overwrite', updatedAt: stamp() }));
+  await assertSucceeds(updateDoc(workItem, { version: 3, body: 'Next current version', updatedAt: stamp() }));
 });
 
 test('öffentliche Gruppenliste gibt nur getrennte, sparsame Felder frei', async () => {
