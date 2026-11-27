@@ -75,7 +75,10 @@ test('Kompakte mobile Navigation bietet Anmelden, Registrieren, Konto und Abmeld
 
 test('Wechsel der direkten Kontoroute schaltet Anmeldung und Registrierung passend um',()=>{
  const account=readFileSync(new URL('../app/firebase-account.tsx',import.meta.url),'utf8');
- assert.match(account,/useEffect\(\(\)=>\{setMode\(emailLinkCandidate\(\)\?'completeEmailLink':route\.page==='registrieren'\?'register':'login'\);setConfirmed\(false\);setServiceConfirmed\(false\)\},\[route\.page\]\)/);
+ assert.match(account,/const emailActionLink=useRef\(typeof window!=='undefined'&&emailLinkCandidate\(\)\?window\.location\.href:''\)/);
+ assert.match(account,/window\.history\.replaceState\(window\.history\.state,'',window\.location\.pathname\+window\.location\.hash\)/);
+ assert.match(account,/setMode\(emailActionLink\.current\?'completeEmailLink':route\.page==='registrieren'\?'register':'login'\)/);
+ assert.match(account,/auth\.completeEmailLink\(email\.trim\(\),emailActionLink\.current\)/);
 });
 
 test('Datenschutzhinweis ordnet Firebase Authentication den Cloud-Bedingungen korrekt zu',()=>{
@@ -100,7 +103,7 @@ test('Firebase wird erst nach bewusster Aktivierung initialisiert und erhält ke
  assert.match(account,/checked=\{!!serviceConfirmed\}/);
  assert.match(account,/disabled=\{busy\|\|!serviceConfirmed\|\|\(requiresAccountConsent&&!confirmed\)\}/);
  assert(account.includes('requiresAccountConsent=mode===\'register\'||mode===\'emailLink\''));
- assert.match(account,/if\(!auth\.configured\|\|!auth\.ready\|\|!emailLinkCandidate\(\)\|\|handledEmailLink\.current\)return/);
+ assert.match(account,/if\(!auth\.configured\|\|!auth\.ready\|\|!emailActionLink\.current\|\|handledEmailLink\.current\)return/);
  assert(!/await auth\.begin\(\)/.test(account));
 });
 
