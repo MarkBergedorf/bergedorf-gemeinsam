@@ -26,6 +26,46 @@ Live browser review on 26 November 2026 opened the public `#anmelden` page, init
 
 User accounts provide identity only. They grant no author, moderator, or administrator permissions and do not activate submissions or comments. No application database is configured. Deleting a Firebase Auth user deletes the account record through Firebase; provider logging and backup retention remain governed by Google's published terms and retention behavior. There is no custom server-side endpoint in this GitHub Pages app to revoke all active sessions administratively. Keep any later participation backend separately authorized and protected; never trust a browser-supplied role.
 
+## Console security evidence received 27 November 2026
+
+The project owner supplied Firebase and Google Cloud Console screenshots on 27 November 2026. The visible Firebase Authentication settings show **Create enabled**, **Delete enabled**, and **Email Enumeration Protection enabled**. The Authentication settings page shows the **Spark** plan as free. The registration quota screen reports a current limit of **100 new accounts per hour per source IP**; the displayed configured value is 100. These limits suit the present low-volume project in normal use, but 100 registrations from one IP in an hour is not a small-user cap and does not prevent distributed abuse. Keep this limit unchanged unless actual usage or abuse data justifies a change; do not raise it for this project. Email verification, the 12-character enforced password policy, enumeration protection, and Firebase's own abuse controls remain complementary safeguards.
+
+The Google Cloud credentials page shows the Firebase-created **Browser key** active with restrictions to **25 APIs**. The owner reports that its website restrictions have been entered as the following four entries and checked in a screenshot:
+
+- `https://markbergedorf.github.io`
+- `https://markbergedorf.github.io/*`
+- `https://bergedorf-gemeinsam.firebaseapp.com`
+- `https://bergedorf-gemeinsam.firebaseapp.com/*`
+
+The screenshots available in this review show the key listed as active and restricted to 25 APIs, but do **not** show the website-referrer editor's saved state or an accepted Identity Toolkit request from the public origin. The owner reports that the four entries were checked in a screenshot. Google documents that a naked domain should have both an exact host entry and a host-with-path-wildcard entry; the two entries supplied for each of the GitHub Pages and Firebase hosts follow that pattern. Google also documents that restricted keys reject calls that do not satisfy the selected website and API restrictions ([Google Cloud API key documentation](https://cloud.google.com/docs/authentication/api-keys#adding-website-restrictions)). The public sign-in page loaded and rendered its Firebase-backed form on 27 November; opening the form is client-side initialization and does not prove a successful Auth API request after the restriction change. Therefore persistent saving and technical effectiveness of the four referrer rules remain unverified by this review. Do not mark them technically confirmed until a successful authorized-origin Auth request is observed. No API key value is included in this documentation.
+
+The Identity Toolkit API quota view reports **12 quotas/system limits** in total and **0 current items above 90% use** and **0 items with a >90% peak in the previous seven days** at the time shown. The visible quota table reports these values:
+
+| Identity Toolkit quota | Limit shown |
+| --- | ---: |
+| Batch Delete Accounts per minute | 3,000 |
+| Custom Token Sign In per minute | 20,000 |
+| Download Account per minute | 21,000 |
+| Provision Requests per minute | 10 |
+| QueryUserInfo per minute | 900 |
+| Send Verification Code per day | 4,000,000 |
+| UpdateConfig per minute | 300 |
+| Upload Account per minute | 3,600 |
+| Queries per minute | 180,000 |
+| Provision Requests per minute per user | 10 |
+| Queries per minute per user | 30,000 |
+| UpdateConfig per minute per user | 300 |
+
+The console snapshots show 0% utilization for the displayed quota rows. These are service/API limits, not a tailored registrations-per-day allowance. They are far above the expected volume of a small citizen platform, and do not constitute a low request cap for a single user. Google's [Firebase security checklist](https://firebase.google.com/support/guides/security-checklist) recommends tightening the default Identity Toolkit endpoint quotas to mitigate brute-force abuse. The project owner should therefore consider reducing the user-facing sign-in/query quotas to conservative thresholds after checking normal request patterns; preserve enough headroom for sign-in, email-link completion, account recovery, and security-sensitive account operations. I did not change project quota settings. The current screenshots show no >90% current or seven-day peak use, but 0% usage alone does not establish that the current limits are effective abuse controls. Keep the 100-account/hour/IP registration limit, EEP, email verification, the enforced 12-character password policy, and the API-key restrictions in place. These safeguards complement one another and none alone prevents distributed abuse.
+
+## Post-restriction live check and remaining release evidence
+
+On 27 November 2026, the public `#anmelden` page was loaded in the cloud desktop browser at a 1348 × 936 CSS-pixel viewport. Its twelve existing main-navigation links, account notice, private-person and organization choices, passwordless-link and email/password choices, remember-device checkbox, and account actions rendered. The page's horizontal `scrollWidth` equaled its `clientWidth` (1348 px), so this viewport had no horizontal document overflow. Clicking **Anmeldedienst öffnen** revealed the account form fields without a visible initialization error. The only captured console error came from a browser extension's attempt to send browser metadata, not from the website. No credentials were submitted. Thus this is a UI and initialization check, **not** an end-to-end authentication/API test after the key restriction change.
+
+The earlier successful API and mailbox tests remain evidence for the flows executed before the newly reported API-key website restrictions. They do not by themselves prove post-change operation. The remaining technical check is one successful, authorized-origin Firebase Auth request using an already approved test path, followed by confirmation that an unapproved origin is rejected if safely testable. Do not create another account, send another email, or attempt account deletion merely to repeat the previously completed API/mailbox suite. Do not weaken or remove Email Enumeration Protection to make verification easier.
+
+The Firebase terms acceptance by the project owner's Google Account was already documented and is not an open verification item. The interpretation of the relevant Firebase/Google Cloud contractual terms for this specific private, noncommercial platform remains a separate legal question; operational account acceptance and the Spark plan do not themselves resolve that interpretation. No legal clearance is claimed here.
+
 ## Later website-domain change
 
 Keep the same Firebase project and do not delete/recreate it. Add the new website host to authorized domains, update the production Firebase web configuration as necessary, change email action continue URLs and templates, and verify any custom sender domain through DNS if a custom sender is desired. Firebase UIDs remain tied to the same project, so external records keyed by UID can remain linked; a domain change by itself does not require users to register again. Test all action links on the new host before switching traffic.
