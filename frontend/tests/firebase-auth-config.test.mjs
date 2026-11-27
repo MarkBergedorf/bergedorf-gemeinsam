@@ -84,13 +84,13 @@ test('Wechsel der direkten Kontoroute schaltet Anmeldung und Registrierung passe
 test('Datenschutzhinweis ordnet Firebase Authentication den Cloud-Bedingungen korrekt zu',()=>{
  const privacy=readFileSync(new URL('../pages/privacy.tsx',import.meta.url),'utf8');
  const setup=readFileSync(new URL('../FIREBASE_AUTH_SETUP.md',import.meta.url),'utf8');
- assert(privacy.includes('unter den Google-Cloud-Plattformbedingungen'));
+ assert(privacy.includes('Firebase ordnet Authentication den Google-Cloud-Plattformbedingungen zu'));
  assert(privacy.includes('https://cloud.google.com/terms/data-processing-addendum'));
  assert(setup.includes('twelve-character enforced password minimum'));
  assert(setup.includes('Google Cloud Platform Terms of Service'));
  assert(setup.includes('entity or person agreeing to the terms'));
  assert(setup.includes('do not show a general commercial-entity or profit requirement'));
- assert(privacy.includes('Widerspruchsrecht nach Art. 21 DSGVO'));
+ assert(privacy.includes('Gegen eine Verarbeitung auf Grundlage berechtigter Interessen können Sie aus Gründen Ihrer besonderen Situation widersprechen'));
 });
 
 test('Firebase wird erst nach bewusster Aktivierung initialisiert und erhält keine automatische Sitzungsfreigabe',()=>{
@@ -109,7 +109,7 @@ test('Firebase wird erst nach bewusster Aktivierung initialisiert und erhält ke
 
 test('Öffentliche Datenschutzhinweise beschreiben Firebase, Sitzungsablage und aktuelle Kartenanbieter',()=>{
  const privacy=readFileSync(new URL('../pages/privacy.tsx',import.meta.url),'utf8');
- for(const text of ['ausschließlich in den USA','Google LLC','EU-US Data Privacy Framework','sessionStorage','localStorage','nicht initialisiert','180 Tagen nach Kontolöschung','einige Wochen gespeichert','Historischer Rasterkartendienst (nicht mehr eingesetzt)'])assert(privacy.includes(text),text);
+ for(const text of ['ausschließlich in US-Rechenzentren','Google LLC','EU-US Data Privacy Framework','Sitzungsspeicher','lokale Browserspeicherung','Firebase wird erst nach dem ausdrücklichen Öffnen des Dienstes initialisiert','bis zu 180 Tagen','IP-Protokolle einige Wochen','OpenFreeMap','Cloudflare'])assert(privacy.includes(text),text);
  assert(!privacy.includes('Frühere Organisationskarte bis Arbeitsauftrag 15: OpenStreetMap Foundation'));
- assert(privacy.includes('Die HTTP-Prüfung vom 7. November 2026 untersuchte die damalige Website vor der öffentlichen Aktivierung von Firebase Authentication'));
+ assert(privacy.includes('Die Website speichert die Auswahl für die laufende Sitzung lokal'));
 });

@@ -48,7 +48,7 @@ test('Gerendertes Formular sicher deaktiviert: getrennte leere Einwilligungen, k
 });
 test('Datenschutz und Freischaltkonzept decken politischen Bezug, Bestätigung, Widerruf, Löschung und einmaligen Versand ab',()=>{
  const privacy=readFileSync('pages/privacy.tsx','utf8'),plan=readFileSync('../docs/BEGEGNUNGSORTE-REGISTRIERUNG-2026-11.md','utf8');
- for(const t of ['Art. 9 Absatz 2 Buchstabe a','noch nicht aktiv','zwei getrennte','konkreten Löschfristen'])assert(privacy.includes(t));
+ for(const t of ['Petitionen, Unterstützungslisten, öffentliche Beitragseinreichungen','nicht aktiviert','keine Interessenbekundungen entgegen','serverseitigen Einwilligungsprotokoll mit Textversion und Zeitstempel','dauerhafter, vom Betreiber geführter Nachweis'])assert(privacy.includes(t));
  for(const t of ['Scanner-GET','Raten','Widerruf','Löschjobs','MFA','Einmaliger','70 %','45 %'])assert((plan+source).includes(t),t);
  assert(readFileSync('pages/backend-client.mjs','utf8').includes('writesEnabled:false'));
 });
