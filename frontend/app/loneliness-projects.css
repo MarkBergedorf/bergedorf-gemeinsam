@@ -1,0 +1,43 @@
+.loneliness-project-directory,.loneliness-project-detail{margin-block:2rem;padding:clamp(1rem,3vw,2rem);border:1px solid #cbd7ce;border-radius:1rem;background:#fff;color:#24352c}
+.loneliness-project-directory h2,.loneliness-project-detail h2{color:#164d36}
+.loneliness-project-pathways{margin:1.25rem 0;padding:1rem 1.25rem;border:1px solid #d8e3d9;border-radius:.75rem;background:#f6f8f6}
+.loneliness-project-pathways h3{margin:.2rem 0 .75rem;color:#164d36}
+.loneliness-project-pathways ol{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:.45rem 1.5rem;margin:0;padding-left:1.5rem}
+.loneliness-project-pathways a{color:#164d36;text-underline-offset:3px}
+.loneliness-project-pathways span{font-size:.9rem}
+.loneliness-project-funding{margin:1rem 0;padding:1rem;border:1px solid #d8e3d9;border-radius:.75rem}
+.loneliness-project-funding summary{cursor:pointer;font-weight:700;color:#164d36}
+.loneliness-project-funding li{margin-block:.8rem;line-height:1.55}
+.loneliness-project-directory p,.loneliness-project-detail p{line-height:1.65}
+.loneliness-project-status-note,.loneliness-project-caveat{padding:1rem;border-left:4px solid #6c8b6f;background:#f0f5f1}
+.loneliness-project-actions{display:flex;flex-wrap:wrap;gap:.75rem 1rem;align-items:center;margin-block:1.25rem}
+.loneliness-project-actions a,.loneliness-project-print a,.loneliness-project-section-body a{display:inline-flex;align-items:center;gap:.45rem;color:#164d36;font-weight:700;text-underline-offset:.18em}
+.loneliness-project-cards{list-style:none;padding:0;margin:1.25rem 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr));gap:.8rem}
+.loneliness-project-cards article{height:100%;padding:1rem;border:1px solid #d3ded5;border-radius:.75rem;background:#f8faf8;display:flex;flex-direction:column;gap:.45rem}
+.loneliness-project-cards h3{margin:0;font-size:1.1rem;line-height:1.35}
+.loneliness-project-cards h3 a{display:flex;justify-content:space-between;gap:.5rem;color:#164d36;text-decoration:none}
+.loneliness-project-cards h3 a:hover,.loneliness-project-actions a:hover{text-decoration:underline}
+.loneliness-project-cards article>p{margin:.25rem 0}
+.loneliness-project-number{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:#4e6857;font-weight:700}
+.loneliness-project-badge{width:fit-content;padding:.25rem .55rem;border-radius:999px;background:#e5eee7;color:#174d37;font-size:.9rem;font-weight:700}
+.loneliness-project-status-system,.loneliness-project-section{margin-block:.7rem;border:1px solid #d3ded5;border-radius:.65rem;overflow:hidden}
+.loneliness-project-status-system summary,.loneliness-project-section summary{cursor:pointer;display:flex;align-items:center;gap:.8rem;padding:.9rem 1rem;background:#f4f7f4;color:#173f2e;font-weight:700;line-height:1.45}
+.loneliness-project-status-system summary:focus-visible,.loneliness-project-section summary:focus-visible,.loneliness-project-outline a:focus-visible{outline:3px solid #4d8c60;outline-offset:2px}
+.loneliness-project-section summary span{font-variant-numeric:tabular-nums;color:#67816e}
+.loneliness-project-section-body{padding:.2rem 1.1rem 1.1rem;line-height:1.65}
+.loneliness-project-section-body ul,.loneliness-project-status-system ol{padding-left:1.3rem}
+.loneliness-project-section-body li,.loneliness-project-status-system li{margin-block:.45rem}
+.loneliness-project-outline{padding:1rem;background:#f5f8f5;border-radius:.7rem}
+.loneliness-project-outline ul{columns:2;column-gap:2rem;padding-left:1.3rem}
+.loneliness-project-outline li{break-inside:avoid;margin-block:.35rem}
+.loneliness-project-outline a{color:#164d36;text-underline-offset:.15em}
+.loneliness-project-practice{margin-block:2rem;padding:1rem;border-top:2px solid #b9c9bc}
+.loneliness-project-practice li{margin-block:1rem}
+.loneliness-project-practice a{font-weight:700;color:#164d36}
+.loneliness-project-practice li p{margin:.25rem 0}
+.loneliness-project-participation-note{font-size:.96rem;color:#46574b}
+.loneliness-project-print{margin-top:1.5rem;padding-top:1rem;border-top:1px solid #d3ded5}
+@media(max-width:700px){.loneliness-project-directory,.loneliness-project-detail{padding:1rem;border-radius:.75rem}.loneliness-project-outline ul{columns:1}.loneliness-project-actions{align-items:flex-start;flex-direction:column}.loneliness-project-cards{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.loneliness-project-directory *,.loneliness-project-detail *{scroll-behavior:auto}}
+.loneliness-help-situation-note{padding:.75rem 1rem;border-left:3px solid #6c8b6f;background:#f1f5f1;line-height:1.55}
+.loneliness-help-situation-note a{color:#164d36;font-weight:700}
