@@ -1,0 +1,9 @@
+.page-content .privacy-toc{border:1px solid #dce3dc;background:#fff;padding:1.25rem 1.5rem;margin:1.5rem 0 2.5rem;border-radius:6px}
+.page-content .privacy-toc h2{font-family:Arial,Helvetica,sans-serif;font-size:1rem;font-weight:700;letter-spacing:0;margin-bottom:.75rem}
+.page-content .privacy-toc ol{columns:2;column-gap:2rem;margin:0;padding-left:1.4rem}
+.page-content .privacy-toc li{break-inside:avoid;margin:.25rem 0;font-size:.9rem}
+.page-content>section[id^="datenschutz-"]{scroll-margin-top:1.5rem;margin:0 0 2.5rem}
+.page-content>section[id^="datenschutz-"] h2{font-size:1.55rem;margin:0 0 1rem}
+.page-content>section[id^="datenschutz-"] p,.page-content>section[id^="datenschutz-"] ul{margin:0 0 1rem}
+.page-content>section[id^="datenschutz-"] ul{padding-left:1.4rem;color:#63706a}
+@media(max-width:700px){.page-content .privacy-toc ol{columns:1}.page-content>section[id^="datenschutz-"] h2{font-size:1.35rem}}

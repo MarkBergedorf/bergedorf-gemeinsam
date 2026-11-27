@@ -6,7 +6,7 @@ const hash=b=>createHash('sha256').update(b).digest('hex');
 const laterTaskChanges={
  'frontend/app/history-map-legend.tsx':'148dddc40f10b8ca3e592bed92ab352aadad5c9c7540f128fd5bcc0d0a991962',
  'frontend/app/globals.css':'a1d4de6bbed62700f85f8881cca72feee7480c4c4a1374cb92d0ab4a2829f473',
- 'frontend/pages/privacy.tsx':'b8830d28859ed2559de82a26bb4116cdd1cfabd2fc4de96bea4d5f5c3ededc7c',
+ 'frontend/pages/privacy.tsx':'8ec8b16e1965a1d6c3b356f2cae621144b99d23b6937f491dbf63005f61ba237',
 };
 // Exact whole-file hashes for the reviewed map-only edits. Any later difference
 // fails; no path is skipped by preservation tests.
