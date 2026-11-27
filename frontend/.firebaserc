@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "demo-bergedorf-gemeinsam"
+    "default": "demo-bergedorf-gemeinsam",
+    "demo": "demo-bergedorf-gemeinsam",
+    "production": "bergedorf-gemeinsam"
   }
 }

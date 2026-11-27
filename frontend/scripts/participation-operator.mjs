@@ -12,11 +12,12 @@ import { stdin, stdout } from 'node:process';
 import { processAccountDeletion } from './participation-deletion.mjs';
 
 const [command, ...args] = process.argv.slice(2);
+const FIRESTORE_DATABASE_ID = '(default)';
 const projectId = args.find(x => x.startsWith('--project='))?.slice('--project='.length) || process.env.GCLOUD_PROJECT;
 if (!projectId || projectId.startsWith('demo-')) throw new Error('Aufruf benötigt --project=<Firebase-Projekt-ID>; Demo-Projekte werden abgewiesen.');
 if (process.env.FIRESTORE_EMULATOR_HOST || process.env.FIREBASE_AUTH_EMULATOR_HOST) throw new Error('Diese Betreiber-CLI darf nicht mit Emulator-Endpunkten ausgeführt werden.');
 const app = initializeApp({ credential: applicationDefault(), projectId }, `participation-operator-${process.pid}`);
-const db = getFirestore(app);
+const db = getFirestore(app, FIRESTORE_DATABASE_ID);
 const auth = getAuth(app);
 
 function arg(name) { return args.find(x => x.startsWith(`--${name}=`))?.slice(name.length + 3); }
