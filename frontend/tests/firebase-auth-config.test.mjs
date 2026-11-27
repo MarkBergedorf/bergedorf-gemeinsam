@@ -75,7 +75,7 @@ test('Kompakte mobile Navigation bietet Anmelden, Registrieren, Konto und Abmeld
 
 test('Wechsel der direkten Kontoroute schaltet Anmeldung und Registrierung passend um',()=>{
  const account=readFileSync(new URL('../app/firebase-account.tsx',import.meta.url),'utf8');
- assert.match(account,/useEffect\(\(\)=>\{setMode\(route\.page==='registrieren'\?'register':'login'\)\},\[route\.page\]\)/);
+ assert.match(account,/useEffect\(\(\)=>\{setMode\(emailLinkCandidate\(\)\?'completeEmailLink':route\.page==='registrieren'\?'register':'login'\);setConfirmed\(false\);setServiceConfirmed\(false\)\},\[route\.page\]\)/);
 });
 
 test('Datenschutzhinweis ordnet Firebase Authentication den Cloud-Bedingungen korrekt zu',()=>{
@@ -83,6 +83,30 @@ test('Datenschutzhinweis ordnet Firebase Authentication den Cloud-Bedingungen ko
  const setup=readFileSync(new URL('../FIREBASE_AUTH_SETUP.md',import.meta.url),'utf8');
  assert(privacy.includes('unter den Google-Cloud-Plattformbedingungen'));
  assert(privacy.includes('https://cloud.google.com/terms/data-processing-addendum'));
- assert(setup.includes('not only in notify mode'));
- assert(setup.includes('trade, business, craft, or profession'));
+ assert(setup.includes('twelve-character enforced password minimum'));
+ assert(setup.includes('Google Cloud Platform Terms of Service'));
+ assert(setup.includes('entity or person agreeing to the terms'));
+ assert(setup.includes('do not show a general commercial-entity or profit requirement'));
+ assert(privacy.includes('Widerspruchsrecht nach Art. 21 DSGVO'));
+});
+
+test('Firebase wird erst nach bewusster Aktivierung initialisiert und erhält keine automatische Sitzungsfreigabe',()=>{
+ const auth=readFileSync(new URL('../app/firebase-auth.tsx',import.meta.url),'utf8');
+ const account=readFileSync(new URL('../app/firebase-account.tsx',import.meta.url),'utf8');
+ assert.match(auth,/const \[requested,setRequested\]=useState\(false\)/);
+ assert(auth.includes('initializeAuth(app,{persistence:'));
+ assert(!auth.includes('getAuth(app)'));
+ assert(!auth.includes("const sessionKey='bg-firebase-auth-session'"));
+ assert.match(account,/checked=\{!!serviceConfirmed\}/);
+ assert.match(account,/disabled=\{busy\|\|!serviceConfirmed\|\|\(requiresAccountConsent&&!confirmed\)\}/);
+ assert(account.includes('requiresAccountConsent=mode===\'register\'||mode===\'emailLink\''));
+ assert.match(account,/if\(!auth\.configured\|\|!auth\.ready\|\|!emailLinkCandidate\(\)\|\|handledEmailLink\.current\)return/);
+ assert(!/await auth\.begin\(\)/.test(account));
+});
+
+test('Öffentliche Datenschutzhinweise beschreiben Firebase, Sitzungsablage und aktuelle Kartenanbieter',()=>{
+ const privacy=readFileSync(new URL('../pages/privacy.tsx',import.meta.url),'utf8');
+ for(const text of ['ausschließlich in den USA','Google LLC','EU-US Data Privacy Framework','sessionStorage','localStorage','nicht initialisiert','180 Tagen nach Kontolöschung','einige Wochen gespeichert','Historischer Rasterkartendienst (nicht mehr eingesetzt)'])assert(privacy.includes(text),text);
+ assert(!privacy.includes('Frühere Organisationskarte bis Arbeitsauftrag 15: OpenStreetMap Foundation'));
+ assert(privacy.includes('Die HTTP-Prüfung vom 7. November 2026 untersuchte die damalige Website vor der öffentlichen Aktivierung von Firebase Authentication'));
 });

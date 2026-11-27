@@ -31,12 +31,12 @@ const firebaseEnv=(import.meta as FirebaseImportMeta).env;
 const authConfig={apiKey:firebaseEnv.VITE_FIREBASE_API_KEY,authDomain:firebaseEnv.VITE_FIREBASE_AUTH_DOMAIN,projectId:firebaseEnv.VITE_FIREBASE_PROJECT_ID,appId:firebaseEnv.VITE_FIREBASE_APP_ID};
 export const firebaseAuthConfigured=hasFirebaseAuthConfig({VITE_FIREBASE_API_KEY:authConfig.apiKey,VITE_FIREBASE_AUTH_DOMAIN:authConfig.authDomain,VITE_FIREBASE_PROJECT_ID:authConfig.projectId,VITE_FIREBASE_APP_ID:authConfig.appId});
 const configured=firebaseAuthConfigured;
-const sessionKey='bg-firebase-auth-session';
 const localSessionKey='bg-firebase-auth-remembered';
 const rememberChoiceKey='bg-firebase-auth-remember-choice';
 const emailLinkKey='bg-firebase-email-link-address';
 const reauthenticationKey='bg-firebase-auth-reauthentication';
 let clientAuthPromise:Promise<Auth>|null=null;
+let clientAuthRemember:boolean|null=null;
 
 async function clientAuth(rememberOnDevice?:boolean){
  if(!configured)throw Error('Firebase configuration missing');
@@ -44,14 +44,15 @@ async function clientAuth(rememberOnDevice?:boolean){
  if(!clientAuthPromise){
   clientAuthPromise=(async()=>{
    const app=appSdk.getApps().find(item=>item.name==='bergedorf-public-auth')||appSdk.initializeApp(authConfig,'bergedorf-public-auth');
-   const auth=authSdk.getAuth(app);
    let remember=rememberOnDevice??false;try{if(rememberOnDevice===undefined)remember=localStorage.getItem(localSessionKey)==='1'}catch{}
-   await authSdk.setPersistence(auth,remember?authSdk.browserLocalPersistence:authSdk.browserSessionPersistence);
-   return auth;
+   // Supplying persistence during initialization prevents Firebase's default
+   // persistence fallback from inspecting additional storage mechanisms.
+   clientAuthRemember=remember;
+   return authSdk.initializeAuth(app,{persistence:remember?authSdk.browserLocalPersistence:authSdk.browserSessionPersistence});
   })();
  }
  const auth=await clientAuthPromise;
- if(rememberOnDevice!==undefined)await authSdk.setPersistence(auth,rememberOnDevice?authSdk.browserLocalPersistence:authSdk.browserSessionPersistence);
+ if(rememberOnDevice!==undefined&&clientAuthRemember!==rememberOnDevice){await authSdk.setPersistence(auth,rememberOnDevice?authSdk.browserLocalPersistence:authSdk.browserSessionPersistence);clientAuthRemember=rememberOnDevice}
  return auth;
 }
 
@@ -59,11 +60,13 @@ function actionUrl(hash:string){return location.origin+location.pathname+hash}
 export function useFirebaseAuth(){const value=useContext(AuthContext);if(!value)throw new Error('AuthProvider missing');return value}
 export function AuthProvider({children}:{children:React.ReactNode}){
  const [ready,setReady]=useState(false),[user,setUser]=useState<User|null>(null),[error,setError]=useState('');
- const [requested,setRequested]=useState(()=>{try{return typeof window!=='undefined'&&(sessionStorage.getItem(sessionKey)==='1'||localStorage.getItem(localSessionKey)==='1')}catch{return false}});
+ // Loading this provider must not initialize Firebase or restore a stored session.
+ // The account service starts only after the visitor explicitly opens it.
+ const [requested,setRequested]=useState(false);
  const [signOutFn,setSignOutFn]=useState<(()=>Promise<void>)|null>(null),[loadError,setLoadError]=useState('');
- useEffect(()=>{if(!configured||!requested)return;let active=true,unsubscribe=()=>{};(async()=>{try{const authSdk=await import('firebase/auth'),auth=await clientAuth();if(!active)return;setSignOutFn(()=>()=>authSdk.signOut(auth));unsubscribe=authSdk.onAuthStateChanged(auth,next=>{if(!active)return;if(next){try{const choice=sessionStorage.getItem(rememberChoiceKey);if(choice==='1'){localStorage.setItem(localSessionKey,'1');sessionStorage.removeItem(sessionKey)}else if(choice==='0')localStorage.removeItem(localSessionKey);if(choice!==null)sessionStorage.removeItem(rememberChoiceKey)}catch{}}setUser(next);setReady(true);setError('')},()=>{if(active){setUser(null);setReady(true);setError('Der Anmeldestatus konnte nicht geladen werden. Bitte laden Sie die Seite erneut.')}})}catch{if(active){setReady(true);setLoadError('Der Anmeldedienst ist derzeit nicht erreichbar. Bitte versuchen Sie es später erneut.')}}})();return()=>{active=false;unsubscribe()}},[requested]);
+ useEffect(()=>{if(!configured||!requested)return;let active=true,unsubscribe=()=>{};(async()=>{try{const authSdk=await import('firebase/auth'),auth=await clientAuth();if(!active)return;setSignOutFn(()=>()=>authSdk.signOut(auth));unsubscribe=authSdk.onAuthStateChanged(auth,next=>{if(!active)return;if(next){try{const choice=sessionStorage.getItem(rememberChoiceKey);if(choice==='1')localStorage.setItem(localSessionKey,'1');else if(choice==='0')localStorage.removeItem(localSessionKey);if(choice!==null)sessionStorage.removeItem(rememberChoiceKey)}catch{}}setUser(next);setReady(true);setError('')},()=>{if(active){setUser(null);setReady(true);setError('Der Anmeldestatus konnte nicht geladen werden. Bitte laden Sie die Seite erneut.')}})}catch{if(active){setReady(true);setLoadError('Der Anmeldedienst ist derzeit nicht erreichbar. Bitte versuchen Sie es später erneut.')}}})();return()=>{active=false;unsubscribe()}},[requested]);
  const value=useMemo<AuthValue>(()=>({configured,ready,user,error:error||loadError,
-  begin:async(rememberOnDevice)=>{if(!configured){setError('Die Anmeldung ist noch nicht eingerichtet.');return}try{let keep=rememberOnDevice??false;try{if(rememberOnDevice===undefined)keep=sessionStorage.getItem(rememberChoiceKey)==='1'||(sessionStorage.getItem(rememberChoiceKey)===null&&localStorage.getItem(localSessionKey)==='1');sessionStorage.setItem(rememberChoiceKey,keep?'1':'0');sessionStorage.setItem(sessionKey,'1')}catch{}await clientAuth(keep);setLoadError('');setRequested(true)}catch{setLoadError('Der Anmeldedienst konnte nicht geöffnet werden. Bitte prüfen Sie Ihre Browsereinstellungen und versuchen Sie es erneut.')}},
+  begin:async(rememberOnDevice)=>{if(!configured){setError('Die Anmeldung ist noch nicht eingerichtet.');return}try{let keep=rememberOnDevice??false;try{if(rememberOnDevice===undefined)keep=sessionStorage.getItem(rememberChoiceKey)==='1'||(sessionStorage.getItem(rememberChoiceKey)===null&&localStorage.getItem(localSessionKey)==='1');sessionStorage.setItem(rememberChoiceKey,keep?'1':'0')}catch{}await clientAuth(keep);setLoadError('');setRequested(true)}catch{setLoadError('Der Anmeldedienst konnte nicht geöffnet werden. Bitte prüfen Sie Ihre Browsereinstellungen und versuchen Sie es erneut.')}},
   signIn:async(email,password)=>{const a=await clientAuth(),sdk=await import('firebase/auth');await sdk.signInWithEmailAndPassword(a,email,password)},
   register:async(email,password)=>{const a=await clientAuth(),sdk=await import('firebase/auth');const credential=await sdk.createUserWithEmailAndPassword(a,email,password);await sdk.sendEmailVerification(credential.user,{url:actionUrl('#anmelden'),handleCodeInApp:false});return credential.user},
   sendEmailLink:async email=>{const a=await clientAuth(),sdk=await import('firebase/auth');await sdk.sendSignInLinkToEmail(a,email,{url:actionUrl('#anmelden'),handleCodeInApp:true});try{sessionStorage.setItem(emailLinkKey,email)}catch{}},
@@ -78,7 +81,7 @@ export function AuthProvider({children}:{children:React.ReactNode}){
   changeEmailWithCurrentSession:async(account,email)=>{const sdk=await import('firebase/auth');await sdk.verifyBeforeUpdateEmail(account,email,{url:actionUrl('#konto'),handleCodeInApp:false})},
   deleteAccount:async(account,password)=>{const sdk=await import('firebase/auth');const credential=sdk.EmailAuthProvider.credential(account.email||'',password);await sdk.reauthenticateWithCredential(account,credential);await sdk.deleteUser(account)},
   deleteAccountWithCurrentSession:async account=>{const sdk=await import('firebase/auth');await sdk.deleteUser(account)},
-  signOut:async()=>{await signOutFn?.();try{sessionStorage.removeItem(sessionKey);sessionStorage.removeItem(rememberChoiceKey);sessionStorage.removeItem(emailLinkKey);sessionStorage.removeItem(reauthenticationKey);localStorage.removeItem(localSessionKey)}catch{}setUser(null);setRequested(false);setReady(false)},
+  signOut:async()=>{await signOutFn?.();try{sessionStorage.removeItem(rememberChoiceKey);sessionStorage.removeItem(emailLinkKey);sessionStorage.removeItem(reauthenticationKey);localStorage.removeItem(localSessionKey)}catch{}setUser(null);setRequested(false);setReady(false)},
   sendVerification:async account=>{const sdk=await import('firebase/auth');await sdk.sendEmailVerification(account,{url:actionUrl('#anmelden'),handleCodeInApp:false})},
   refreshUser:async account=>{const sdk=await import('firebase/auth');await sdk.reload(account);setUser(account)}
  }),[ready,user,error,loadError,signOutFn]);
