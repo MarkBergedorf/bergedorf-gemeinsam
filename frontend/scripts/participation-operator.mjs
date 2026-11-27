@@ -9,6 +9,7 @@ import { getAuth } from 'firebase-admin/auth';
 import { FieldValue, getFirestore } from 'firebase-admin/firestore';
 import { createInterface } from 'node:readline/promises';
 import { stdin, stdout } from 'node:process';
+import { processAccountDeletion } from './participation-deletion.mjs';
 
 const [command, ...args] = process.argv.slice(2);
 const projectId = args.find(x => x.startsWith('--project='))?.slice('--project='.length) || process.env.GCLOUD_PROJECT;
@@ -40,6 +41,10 @@ async function listPages(collectionRef, pageSize = 200) {
     cursor = page.docs.at(-1);
   }
 }
+async function ask(prompt) {
+  const rl = createInterface({ input: stdin, output: stdout });
+  try { return await rl.question(prompt); } finally { rl.close(); }
+}
 async function exportUser(uid) {
   uidOk(uid);
   const paths = ['interests', 'groupMemberships', 'joinRequests', 'workItemRefs'];
@@ -67,7 +72,61 @@ async function exportUser(uid) {
 }
 
 try {
-  if (command === 'status') {
+  if (command === 'menu') {
+    for (;;) {
+      console.log(`\nBergedorf gemeinsam · Betreiberverwaltung · ${projectId}\n1 Meldungen anzeigen\n2 Löschaufträge anzeigen\n3 Löschauftrag bearbeiten\n4 Konto sperren\n5 Gruppe sperren\n6 Persönliche Auskunft exportieren\n7 Beteiligung ausschalten (Not-Aus)\n8 Kontingente in Firebase prüfen\n9 Meldungsstatus bearbeiten\n0 Beenden`);
+      const choice = await ask('Auswahl: ');
+      if (choice === '0') break;
+      if (choice === '1') {
+        const reports = await listPages(db.collection('abuseReports').orderBy('__name__'));
+        for (const report of reports) {
+          const status = await db.doc(`platformReportStatuses/${report.id}`).get();
+          console.log(`${report.id} · ${status.exists ? status.get('status') : 'received'} · Gruppe ${report.get('groupId') || '—'}`);
+        }
+        if (!reports.length) console.log('Keine Meldungen vorhanden.');
+      } else if (choice === '2') {
+        const requests = await listPages(db.collection('accountDeletionRequests').where('status', 'in', ['requested', 'processing']));
+        for (const row of requests) console.log(`${row.id} · ${row.get('status')} · UID ${row.get('uid')}`);
+        if (!requests.length) console.log('Keine offenen Löschaufträge vorhanden.');
+      } else if (choice === '3') {
+        const requestId = await ask('Löschauftragskennung: ');
+        const consent = await ask('Einwilligungsnachweise löschen oder anonymisieren (delete/anonymize): ');
+        const reports = await ask('Meldungen löschen oder anonymisieren (delete/anonymize): ');
+        const sharedContent = await ask('Gemeinsame Arbeitsinhalte löschen oder anonymisieren (delete/anonymize): ');
+        if (![consent, reports, sharedContent].every(x => ['delete', 'anonymize'].includes(x))) { console.log('Abgebrochen: Bitte je Kategorie delete oder anonymize angeben.'); continue; }
+        await confirm();
+        if (await ask(`Löschauftrag ${requestId} endgültig bearbeiten? ID erneut eingeben: `) !== requestId) { console.log('Abgebrochen.'); continue; }
+        const result = await processAccountDeletion({ db, auth, requestId, choices: { consent, reports, sharedContent } });
+        await audit('account-deletion-complete', { requestId, operationCount: result.operationCount, decisions: { consent, reports, sharedContent } });
+        console.log(`Abgeschlossen: ${result.operationCount} dokumentierte Bereinigungsschritte.`);
+      } else if (choice === '4') {
+        const uid = uidOk(await ask('UID des Kontos: ')); await confirm(); await auth.updateUser(uid, { disabled: true }); await audit('account-disabled', { uid }); console.log('Konto gesperrt.');
+      } else if (choice === '5') {
+        const groupId = idOk(await ask('Gruppenkennung: ')); const groupRef = db.doc(`groups/${groupId}`);
+        if (!(await groupRef.get()).exists) { console.log('Gruppe nicht gefunden.'); continue; }
+        await confirm(); const batch = db.batch(); batch.set(groupRef, { locked: true, listed: false, seeking: 'none', updatedAt: FieldValue.serverTimestamp() }, { merge: true }); batch.delete(db.doc(`groupDirectory/${groupId}`)); await batch.commit(); await audit('group-locked', { groupId, listingRemoved: true }); console.log('Gruppe gesperrt und aus dem Verzeichnis entfernt.');
+      } else if (choice === '6') {
+        const uid = uidOk(await ask('UID des Kontos: ')); const data = await exportUser(uid); process.stdout.write(`${JSON.stringify(data, null, 2)}\n`); await audit('personal-data-export', { uid, groups: data.groups.length, workItems: data.workItems.length });
+      } else if (choice === '7') {
+        await confirm(); await db.doc('platformConfig/participation').set({ enabled: false, updatedAt: FieldValue.serverTimestamp() }, { merge: true }); await audit('participation-disabled'); console.log('Not-Aus gesetzt.');
+      } else if (choice === '8') {
+        console.log('Kontingente werden im Firebase-Projekt-Dashboard geprüft:');
+        console.log(`https://console.firebase.google.com/project/${projectId}/firestore/usage`);
+        console.log('Es wird kein zusätzlicher kostenpflichtiger Überwachungsdienst verwendet.');
+      } else if (choice === '9') {
+        const reportId = idOk(await ask('Meldungskennung: '));
+        const status = await ask('Neuer Status (received/reviewing/actioned/dismissed): ');
+        if (!['received', 'reviewing', 'actioned', 'dismissed'].includes(status)) { console.log('Abgebrochen: ungültiger Status.'); continue; }
+        const report = await db.doc(`abuseReports/${reportId}`).get();
+        if (!report.exists) { console.log('Meldung nicht gefunden.'); continue; }
+        const note = (await ask('Kurze interne Notiz (optional): ')).slice(0, 240);
+        await confirm();
+        await db.doc(`platformReportStatuses/${reportId}`).set({ reportId, status, note, updatedAt: FieldValue.serverTimestamp() });
+        await audit('report-status-changed', { reportId, status });
+        console.log('Meldungsstatus gespeichert.');
+      } else console.log('Bitte eine der angezeigten Nummern eingeben.');
+    }
+  } else if (command === 'status') {
     const config = await db.doc('platformConfig/participation').get();
     console.log(JSON.stringify({ projectId, participationEnabled: config.exists && config.get('enabled') === true, configPresent: config.exists }, null, 2));
   } else if (command === 'export-user') {
@@ -93,8 +152,17 @@ try {
     await audit('report-status-changed', { reportId, status });
   } else if (command === 'disable-user') {
     const uid = uidOk(required('uid')); await confirm(); await auth.updateUser(uid, { disabled: true }); await audit('account-disabled', { uid });
+  } else if (command === 'process-deletion') {
+    const requestId = idOk(required('request'));
+    const choices = { consent: required('consent'), reports: required('reports'), sharedContent: required('shared-content') };
+    if (![choices.consent, choices.reports, choices.sharedContent].every(x => ['delete', 'anonymize'].includes(x))) throw new Error('Für consent, reports und shared-content ist jeweils delete oder anonymize erforderlich.');
+    await confirm();
+    if (await ask(`Löschauftrag ${requestId} endgültig bearbeiten? ID erneut eingeben: `) !== requestId) throw new Error('Abgebrochen: Löschauftragskennung stimmt nicht überein.');
+    const result = await processAccountDeletion({ db, auth, requestId, choices });
+    await audit('account-deletion-complete', { requestId, operationCount: result.operationCount, decisions: choices });
+    console.log(JSON.stringify(result, null, 2));
   } else {
-    console.error('Befehle: status | export-user --uid=UID | disable-participation | lock-group --group=ID | set-report-status --report=ID --status=received|reviewing|actioned|dismissed [--note=TEXT] | disable-user --uid=UID');
+    console.error('Befehle: menu (empfohlen) | status | export-user --uid=UID | disable-participation | lock-group --group=ID | set-report-status --report=ID --status=received|reviewing|actioned|dismissed [--note=TEXT] | disable-user --uid=UID | process-deletion --request=ID --consent=delete|anonymize --reports=delete|anonymize --shared-content=delete|anonymize');
     process.exitCode = 2;
   }
 } finally { await deleteApp(app); }

@@ -26,11 +26,12 @@ type AuthValue={
  refreshUser:(user:User)=>Promise<void>;
 };
 const AuthContext=createContext<AuthValue|null>(null);
-type FirebaseImportMeta=ImportMeta&{env:{VITE_FIREBASE_API_KEY?:string;VITE_FIREBASE_AUTH_DOMAIN?:string;VITE_FIREBASE_PROJECT_ID?:string;VITE_FIREBASE_APP_ID?:string}};
+type FirebaseImportMeta=ImportMeta&{env:{VITE_FIREBASE_API_KEY?:string;VITE_FIREBASE_AUTH_DOMAIN?:string;VITE_FIREBASE_PROJECT_ID?:string;VITE_FIREBASE_APP_ID?:string;VITE_FIREBASE_AUTH_EMULATOR_HOST?:string}};
 const firebaseEnv=(import.meta as FirebaseImportMeta).env;
 const authConfig={apiKey:firebaseEnv.VITE_FIREBASE_API_KEY,authDomain:firebaseEnv.VITE_FIREBASE_AUTH_DOMAIN,projectId:firebaseEnv.VITE_FIREBASE_PROJECT_ID,appId:firebaseEnv.VITE_FIREBASE_APP_ID};
 export const firebaseAuthConfigured=hasFirebaseAuthConfig({VITE_FIREBASE_API_KEY:authConfig.apiKey,VITE_FIREBASE_AUTH_DOMAIN:authConfig.authDomain,VITE_FIREBASE_PROJECT_ID:authConfig.projectId,VITE_FIREBASE_APP_ID:authConfig.appId});
 const configured=firebaseAuthConfigured;
+const authEmulatorHost=firebaseEnv.VITE_FIREBASE_AUTH_EMULATOR_HOST;
 const localSessionKey='bg-firebase-auth-remembered';
 const rememberChoiceKey='bg-firebase-auth-remember-choice';
 const emailLinkKey='bg-firebase-email-link-address';
@@ -48,7 +49,13 @@ async function clientAuth(rememberOnDevice?:boolean){
    // Supplying persistence during initialization prevents Firebase's default
    // persistence fallback from inspecting additional storage mechanisms.
    clientAuthRemember=remember;
-   return authSdk.initializeAuth(app,{persistence:remember?authSdk.browserLocalPersistence:authSdk.browserSessionPersistence});
+   const auth=authSdk.initializeAuth(app,{persistence:remember?authSdk.browserLocalPersistence:authSdk.browserSessionPersistence});
+   if(authEmulatorHost){
+    const url=new URL(authEmulatorHost);
+    if(typeof location==='undefined'||!['localhost','127.0.0.1'].includes(location.hostname)||!['localhost','127.0.0.1'].includes(url.hostname))throw Error('Firebase-Auth-Emulator ist ausschließlich in der lokalen Vorschau zulässig.');
+    authSdk.connectAuthEmulator(auth,authEmulatorHost,{disableWarnings:true});
+   }
+   return auth;
   })();
  }
  const auth=await clientAuthPromise;

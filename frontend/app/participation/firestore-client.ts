@@ -2,8 +2,12 @@
 
 import type { User } from 'firebase/auth';
 
-const enabled = (import.meta as ImportMeta & { env: { VITE_PARTICIPATION_ENABLED?: string } }).env.VITE_PARTICIPATION_ENABLED === 'true';
+const participationEnv = (import.meta as ImportMeta & { env: { VITE_PARTICIPATION_ENABLED?: string; VITE_FIRESTORE_EMULATOR_HOST?: string } }).env;
+const enabled = participationEnv.VITE_PARTICIPATION_ENABLED === 'true';
+const firestoreEmulatorHost = participationEnv.VITE_FIRESTORE_EMULATOR_HOST;
+let firestoreEmulatorConnected = false;
 const PAGE_SIZE = 25;
+const INTEREST_PAGE_SIZE = 18;
 const NOTICE_VERSION = 'participation-v1';
 const PROJECT_IDS = new Set([
   'projekt-einsamkeitslotsen', 'projekt-begleitung-erster-besuch', 'projekt-begegnungsstaetten-zukunft',
@@ -20,10 +24,21 @@ function assertParticipant(user: User) {
   if (!enabled) throw new Error('Die Beteiligungsfunktionen sind derzeit nicht freigeschaltet.');
   if (!user.emailVerified) throw new Error('Bitte bestätigen Sie zuerst Ihre E-Mail-Adresse.');
 }
+async function publicFirestore() {
+  const [{ getApp }, { getFirestore }] = await Promise.all([import('firebase/app'), import('firebase/firestore')]);
+  const db = getFirestore(getApp('bergedorf-public-auth'));
+  if (firestoreEmulatorHost && !firestoreEmulatorConnected) {
+    const url = new URL(firestoreEmulatorHost);
+    if (typeof location === 'undefined' || !['localhost', '127.0.0.1'].includes(location.hostname) || !['localhost', '127.0.0.1'].includes(url.hostname)) throw new Error('Firestore-Emulator ist ausschließlich in der lokalen Vorschau zulässig.');
+    const sdk = await import('firebase/firestore');
+    sdk.connectFirestoreEmulator(db, url.hostname, Number(url.port || 8080));
+    firestoreEmulatorConnected = true;
+  }
+  return { db, sdk: await import('firebase/firestore') };
+}
 async function dbFor(user: User) {
   assertParticipant(user);
-  const [{ getApp }, { getFirestore }] = await Promise.all([import('firebase/app'), import('firebase/firestore')]);
-  return getFirestore(getApp('bergedorf-public-auth'));
+  return (await publicFirestore()).db;
 }
 function refId(groupId: string, itemId: string) { return `${groupId}_${itemId}`; }
 
@@ -32,7 +47,7 @@ export async function loadMyParticipation(user: User) {
   const [db, sdk] = await Promise.all([dbFor(user), import('firebase/firestore')]);
   const uid = user.uid;
   const [interests, memberships, requests, refs, consents, reports] = await Promise.all([
-    sdk.getDocs(sdk.query(sdk.collection(db, `users/${uid}/interests`), sdk.limit(PAGE_SIZE))),
+    sdk.getDocs(sdk.query(sdk.collection(db, `users/${uid}/interests`), sdk.limit(INTEREST_PAGE_SIZE))),
     sdk.getDocs(sdk.query(sdk.collection(db, `users/${uid}/groupMemberships`), sdk.limit(PAGE_SIZE))),
     sdk.getDocs(sdk.query(sdk.collection(db, `users/${uid}/joinRequests`), sdk.orderBy('createdAt', 'desc'), sdk.limit(PAGE_SIZE))),
     sdk.getDocs(sdk.query(sdk.collection(db, `users/${uid}/workItemRefs`), sdk.orderBy('updatedAt', 'desc'), sdk.limit(PAGE_SIZE))),
@@ -44,15 +59,23 @@ export async function loadMyParticipation(user: User) {
     const snapshot = await sdk.getDoc(sdk.doc(db, `groups/${reference.groupId}/workItems/${reference.itemId}`));
     return { ref: { id: row.id, ...reference }, item: snapshot.exists() ? { id: snapshot.id, ...snapshot.data() } : null };
   }));
+  const membershipRows = await Promise.all(memberships.docs.map(async row => {
+    const data = row.data();
+    if (data.status !== 'active') return { id: row.id, ...data, group: null };
+    try {
+      const group = await sdk.getDoc(sdk.doc(db, `groups/${row.id}`));
+      return { id: row.id, ...data, group: group.exists() ? { id: group.id, title: group.get('title'), status: group.get('status'), listed: group.get('listed') === true } : null };
+    } catch { return { id: row.id, ...data, group: null }; }
+  }));
   return {
     interests: interests.docs.map(row => ({ id: row.id, ...row.data() })),
-    memberships: memberships.docs.map(row => ({ id: row.id, ...row.data() })),
+    memberships: membershipRows,
     joinRequests: requests.docs.map(row => ({ id: row.id, ...row.data() })),
     workItems,
     consentEvents: consents.docs.map(row => ({ id: row.id, ...row.data() })),
     abuseReports: reports.docs.map(row => ({ id: row.id, ...row.data() })),
     more: {
-      interests: interests.size === PAGE_SIZE, memberships: memberships.size === PAGE_SIZE,
+      interests: false, memberships: memberships.size === PAGE_SIZE,
       joinRequests: requests.size === PAGE_SIZE, workItems: refs.size === PAGE_SIZE,
       consentEvents: consents.size === PAGE_SIZE, abuseReports: reports.size === PAGE_SIZE
     }
@@ -73,7 +96,7 @@ export async function loadAllMyParticipationForExport(user: User) {
   }
   const uid = user.uid;
   const [interests, memberships, joinRequests, workRefs, consentEvents, abuseReports] = await Promise.all([
-    allPages(sdk.collection(db, `users/${uid}/interests`)),
+    allPages(sdk.collection(db, `users/${uid}/interests`), INTEREST_PAGE_SIZE),
     allPages(sdk.collection(db, `users/${uid}/groupMemberships`)),
     allPages(sdk.query(sdk.collection(db, `users/${uid}/joinRequests`), sdk.orderBy('createdAt', 'desc'))),
     allPages(sdk.query(sdk.collection(db, `users/${uid}/workItemRefs`), sdk.orderBy('updatedAt', 'desc'))),
@@ -115,6 +138,21 @@ export async function withdrawParticipationInterest(user: User, projectId: strin
   await batch.commit();
 }
 
+export async function withdrawPublicGroupListing(user: User, groupId: string) {
+  assertParticipant(user);
+  if (!/^[A-Za-z0-9_-]{1,128}$/.test(groupId)) throw new Error('Ungültige Gruppenkennung.');
+  const [db, sdk] = await Promise.all([dbFor(user), import('firebase/firestore')]);
+  const group = sdk.doc(db, `groups/${groupId}`);
+  const snapshot = await sdk.getDoc(group);
+  if (!snapshot.exists() || snapshot.data().coordinatorUid !== user.uid || snapshot.data().listed !== true) throw new Error('Nur die aktive Koordination kann eine veröffentlichte Gruppenbeschreibung zurückziehen.');
+  const event = sdk.doc(sdk.collection(db, 'consentEvents'));
+  const batch = sdk.writeBatch(db);
+  batch.update(group, { listed: false, seeking: 'none', updatedAt: sdk.serverTimestamp() });
+  batch.delete(sdk.doc(db, `groupDirectory/${groupId}`));
+  batch.set(event, { uid: user.uid, purpose: 'public-group-listing', subjectId: groupId, noticeVersion: NOTICE_VERSION, decision: 'withdrawn', occurredAt: sdk.serverTimestamp() });
+  await batch.commit();
+}
+
 export async function createParticipationGroup(user: User, projectId: string, values: { title: string; description: string; publicDescription: string; listed: boolean }) {
   assertParticipant(user);
   if (!PROJECT_IDS.has(projectId)) throw new Error('Unbekanntes Projekt.');
@@ -137,8 +175,7 @@ export async function createParticipationGroup(user: User, projectId: string, va
 
 export async function listPublicParticipationGroups(projectId: string) {
   if (!enabled || !PROJECT_IDS.has(projectId)) return [];
-  const [{ getApp }, sdk] = await Promise.all([import('firebase/app'), import('firebase/firestore')]);
-  const db = sdk.getFirestore(getApp('bergedorf-public-auth'));
+  const { db, sdk } = await publicFirestore();
   const page = await sdk.getDocs(sdk.query(sdk.collection(db, 'groupDirectory'), sdk.where('listed', '==', true), sdk.where('projectId', '==', projectId), sdk.orderBy('updatedAt', 'desc'), sdk.limit(PAGE_SIZE)));
   return page.docs.map(row => ({ id: row.id, ...row.data() }));
 }

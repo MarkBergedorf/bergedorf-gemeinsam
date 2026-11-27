@@ -2,7 +2,8 @@
 import React,{useEffect,useRef,useState} from 'react';
 import {useRoute} from './navigation';
 import {useFirebaseAuth} from './firebase-auth';
-import {participationClientEnabled, loadAllMyParticipationForExport, requestParticipationAccountDeletion} from './participation/firestore-client';
+import {participationClientEnabled, loadMyParticipation, loadAllMyParticipationForExport, requestParticipationAccountDeletion, withdrawParticipationInterest, withdrawPublicGroupListing} from './participation/firestore-client';
+import {lonelinessProjects} from '../lib/loneliness-projects.mjs';
 // @ts-ignore shared helper module
 import {dailyEmailLinkQuotaMessage,isDailyEmailLinkQuotaError} from '../lib/firebase-auth-flow.mjs';
 
@@ -88,7 +89,22 @@ function AccountPanel({user,auth,busy,action,requestReauthentication,newEmail,se
 
 function ParticipationAccountControls({user,setError,setNotice}:any){
  const [busy,setBusy]=useState(false);
+ const [data,setData]=useState<any>(null);
+ const [loaded,setLoaded]=useState(false);
+ const projectTitle=(id:string)=>lonelinessProjects.find((project:any)=>project.id===id)?.title||id;
+ async function refresh(){setBusy(true);setError('');try{setData(await loadMyParticipation(user));setLoaded(true)}catch(e:any){setError(e?.message||'Die Beteiligungsübersicht konnte nicht geladen werden.')}finally{setBusy(false)}}
+ async function withdrawInterest(projectId:string){setBusy(true);setError('');try{await withdrawParticipationInterest(user,projectId);setData(await loadMyParticipation(user));setNotice('Ihre Interessenbekundung wurde für die Zukunft widerrufen.')}catch(e:any){setError(e?.message||'Der Widerruf konnte nicht gespeichert werden.')}finally{setBusy(false)}}
+ async function withdrawListing(groupId:string){setBusy(true);setError('');try{await withdrawPublicGroupListing(user,groupId);setData(await loadMyParticipation(user));setNotice('Die öffentliche Gruppenbeschreibung wurde zurückgezogen.')}catch(e:any){setError(e?.message||'Der Widerruf der öffentlichen Gruppenbeschreibung ist fehlgeschlagen.')}finally{setBusy(false)}}
  async function exportData(){setBusy(true);setError('');try{const payload=await loadAllMyParticipationForExport(user);const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const href=URL.createObjectURL(blob);const a=document.createElement('a');a.href=href;a.download=`bergedorf-gemeinsam-datenauskunft-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(href);setNotice('Der Export Ihrer abrufbaren Beteiligungsdaten wurde erstellt.')}catch(e:any){setError(e?.message||'Der Datenexport ist fehlgeschlagen.')}finally{setBusy(false)}}
  async function requestDeletion(){setBusy(true);setError('');try{await requestParticipationAccountDeletion(user);setNotice('Ihre Löschanfrage wurde gespeichert. Die Datenbereinigung und Prüfung müssen abgeschlossen sein, bevor das Authentifizierungskonto gelöscht wird.')}catch(e:any){setError(e?.message||'Die Löschanfrage konnte nicht gespeichert werden.')}finally{setBusy(false)}}
- return <section className="auth-disclosure" aria-labelledby="participation-account-tools"><h2 id="participation-account-tools">Beteiligungsdaten</h2><p>Der Export umfasst persönliche Einträge einschließlich eigener Arbeitsinhalte aus früheren Gruppen. Vertrauliche Gruppeninhalte anderer Personen werden nicht exportiert.</p><button className="outline small" disabled={busy} onClick={exportData}>Meine Beteiligungsdaten exportieren</button><p>Eine Kontolöschung startet zunächst einen prüfbaren Löschauftrag. Das Konto bleibt bis zum bestätigten Abschluss der Datenbereinigung bestehen.</p><button className="danger small" disabled={busy} onClick={requestDeletion}>Löschung meiner Beteiligungsdaten anfordern</button></section>
+ return <section className="auth-disclosure" aria-labelledby="participation-account-tools"><h2 id="participation-account-tools">Meine Beteiligungsdaten</h2><p>Hier sehen Sie Ihre Interessen, Gruppen, Beitrittsanfragen, eigenen Arbeitsaufgaben und gespeicherten Einwilligungen. Vertrauliche Inhalte anderer Personen werden nicht angezeigt.</p><button className="outline small" disabled={busy} onClick={refresh}>{loaded?'Übersicht aktualisieren':'Meine Übersicht laden'}</button>
+ {loaded&&data&&<div className="participation-account-overview">
+  <h3>Meine Interessen</h3>{data.interests.length?<ul>{data.interests.map((x:any)=><li key={x.id}>{projectTitle(x.projectId)}: {Array.isArray(x.types)?x.types.join(', '):'Interesse'} · {x.status}{x.status==='active'&&<button className="text-button" disabled={busy} onClick={()=>withdrawInterest(x.projectId)}>Interesse widerrufen</button>}</li>)}</ul>:<p>Keine Interessen gespeichert.</p>}
+  <h3>Meine Arbeitsgruppen</h3>{data.memberships.length?<ul>{data.memberships.map((x:any)=><li key={x.id}>{x.group?.title||x.groupId} · {x.role||'Mitglied'} · {x.status||'Status unbekannt'}{x.status==='active'&&x.role==='coordinator'&&x.group?.listed&&<button className="text-button" disabled={busy} onClick={()=>withdrawListing(x.groupId)}>Öffentliche Gruppenbeschreibung zurückziehen</button>}</li>)}</ul>:<p>Keine Gruppenmitgliedschaften gespeichert.</p>}
+  <h3>Meine Beitrittsanfragen</h3>{data.joinRequests.length?<ul>{data.joinRequests.map((x:any)=><li key={x.id}>{x.groupId} · {x.status}</li>)}</ul>:<p>Keine Beitrittsanfragen gespeichert.</p>}
+  <h3>Meine Aufgaben und Arbeitsinhalte</h3>{data.workItems.length?<ul>{data.workItems.map((x:any)=><li key={x.ref.id}>{x.item?.title||'Arbeitsinhalt nicht mehr verfügbar'} · {x.item?.status||'Status unbekannt'}</li>)}</ul>:<p>Keine eigenen oder zugewiesenen Arbeitsinhalte gespeichert.</p>}
+  <h3>Meine Einwilligungen</h3>{data.consentEvents.length?<ul>{data.consentEvents.map((x:any)=><li key={x.id}>{x.purpose} · {x.decision}</li>)}</ul>:<p>Keine Einwilligungsereignisse gefunden.</p>}
+  {Object.values(data.more).some(Boolean)&&<p>Es werden jeweils die ersten 25 Einträge angezeigt. Über den vollständigen Datenexport erhalten Sie alle verfügbaren Seiten.</p>}
+ </div>}
+ <p>Der Export umfasst persönliche Einträge einschließlich eigener Arbeitsinhalte aus früheren Gruppen. Vertrauliche Gruppeninhalte anderer Personen werden nicht exportiert.</p><button className="outline small" disabled={busy} onClick={exportData}>Datenexport herunterladen</button><p>Eine Kontolöschung startet zunächst einen prüfbaren Löschauftrag. Das Konto bleibt bis zum bestätigten Abschluss der Datenbereinigung bestehen.</p><button className="danger small" disabled={busy} onClick={requestDeletion}>Löschung meiner Beteiligungsdaten anfordern</button></section>
 }
