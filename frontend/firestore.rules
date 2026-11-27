@@ -266,7 +266,7 @@ service cloud.firestore {
         allow get: if featureEnabled() && activeMember(groupId);
         allow list: if featureEnabled() && request.query.limit <= 25 && activeMember(groupId);
         allow create: if featureEnabled() && activeMember(groupId)
-          && request.resource.data.keys().hasOnly(['kind', 'title', 'body', 'status', 'createdBy', 'assigneeUid', 'dueAt', 'createdAt', 'updatedAt'])
+          && request.resource.data.keys().hasOnly(['kind', 'title', 'body', 'status', 'createdBy', 'assigneeUid', 'dueAt', 'version', 'createdAt', 'updatedAt'])
           && request.resource.data.kind in ['concept', 'task', 'milestone', 'decision', 'resource', 'partner', 'funding']
           && boundedText(request.resource.data.title, 120)
           && request.resource.data.body is string && request.resource.data.body.size() <= 3000
@@ -275,10 +275,11 @@ service cloud.firestore {
             || (request.resource.data.assigneeUid is string
               && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.assigneeUid)).data.status == 'active'))
           && (request.resource.data.dueAt == null || request.resource.data.dueAt is timestamp)
+          && request.resource.data.version is int && request.resource.data.version == 1
           && request.resource.data.createdBy == request.auth.uid
           && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
         allow update: if featureEnabled() && activeMember(groupId)
-          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['kind', 'title', 'body', 'status', 'assigneeUid', 'dueAt', 'updatedAt'])
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['kind', 'title', 'body', 'status', 'assigneeUid', 'dueAt', 'version', 'updatedAt'])
           && request.resource.data.kind in ['concept', 'task', 'milestone', 'decision', 'resource', 'partner', 'funding']
           && boundedText(request.resource.data.title, 120)
           && request.resource.data.body is string && request.resource.data.body.size() <= 3000
@@ -287,6 +288,8 @@ service cloud.firestore {
             || (request.resource.data.assigneeUid is string
               && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.assigneeUid)).data.status == 'active'))
           && (request.resource.data.dueAt == null || request.resource.data.dueAt is timestamp)
+          && request.resource.data.version is int
+          && request.resource.data.version == (('version' in resource.data) ? resource.data.version + 1 : 1)
           && request.resource.data.updatedAt == request.time;
         allow delete: if featureEnabled() && coordinator(groupId);
       }
