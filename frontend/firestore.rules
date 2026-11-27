@@ -1,0 +1,221 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function verified() { return signedIn() && request.auth.token.email_verified == true; }
+    function featureEnabled() {
+      return exists(/databases/$(database)/documents/platformConfig/participation)
+        && get(/databases/$(database)/documents/platformConfig/participation).data.enabled == true;
+    }
+    function staff() {
+      return signedIn() && exists(/databases/$(database)/documents/platformStaff/$(request.auth.uid));
+    }
+    function projectIdOk(id) {
+      return id in [
+        'projekt-einsamkeitslotsen', 'projekt-begleitung-erster-besuch',
+        'projekt-begegnungsstaetten-zukunft', 'projekt-soziale-isolation-erreichen',
+        'projekt-sowieso-da-orte', 'projekt-hilfswegweiser', 'projekt-mittleres-lebensalter',
+        'projekt-arbeitsplatz', 'projekt-plauderbaenke', 'projekt-supermaerkte',
+        'projekt-nahverkehr', 'projekt-ehrenamt-teilhabe', 'projekt-soziale-hilfen-rezept',
+        'projekt-kommunale-strategie', 'projekt-oeffentlichkeitsarbeit',
+        'projekt-finanzierung', 'projekt-stadtteile', 'projekt-wirksamkeit'
+      ];
+    }
+    function activeMember(groupId) {
+      return signedIn()
+        && exists(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid))
+        && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.status == 'active';
+    }
+    function coordinator(groupId) {
+      return activeMember(groupId)
+        && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.role in ['coordinator', 'deputy'];
+    }
+    function primaryCoordinator(groupId) {
+      return activeMember(groupId)
+        && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid == request.auth.uid;
+    }
+    function boundedText(value, max) { return value is string && value.size() > 0 && value.size() <= max; }
+    function safePublicText(value, max) {
+      return boundedText(value, max)
+        && !value.matches('(?s).*[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}.*')
+        && !value.matches('(?s).*\\+?[0-9][0-9 ()/-]{6,}[0-9].*');
+    }
+
+    match /platformConfig/{doc} {
+      allow read: if doc == 'participation' && signedIn();
+      allow write: if false;
+    }
+    match /platformStaff/{uid} { allow read, write: if false; }
+
+    match /users/{uid}/interests/{projectId} {
+      allow read: if featureEnabled() && verified() && request.auth.uid == uid;
+      allow create: if featureEnabled() && verified() && request.auth.uid == uid
+        && projectIdOk(projectId)
+        && request.resource.data.keys().hasOnly(['projectId', 'types', 'status', 'noticeVersion', 'createdAt', 'updatedAt'])
+        && request.resource.data.projectId == projectId
+        && request.resource.data.types is list && request.resource.data.types.size() > 0 && request.resource.data.types.size() <= 7
+        && request.resource.data.types.toSet().hasOnly(['interested', 'participate', 'foundGroup', 'coordinate', 'expertise', 'organization', 'follow'])
+        && request.resource.data.status == 'active'
+        && request.resource.data.noticeVersion == 'local-preview-v1'
+        && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
+      allow update: if featureEnabled() && verified() && request.auth.uid == uid
+        && projectIdOk(projectId)
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['types', 'status', 'updatedAt'])
+        && request.resource.data.types is list && request.resource.data.types.size() <= 7
+        && request.resource.data.types.toSet().hasOnly(['interested', 'participate', 'foundGroup', 'coordinate', 'expertise', 'organization', 'follow'])
+        && request.resource.data.status in ['active', 'withdrawn']
+        && request.resource.data.updatedAt == request.time;
+      allow delete: if featureEnabled() && verified() && request.auth.uid == uid;
+    }
+
+    match /consentEvents/{eventId} {
+      allow get: if featureEnabled() && verified() && resource.data.uid == request.auth.uid;
+      allow list: if featureEnabled() && verified() && resource.data.uid == request.auth.uid && request.query.limit <= 100;
+      allow create: if featureEnabled() && verified()
+        && request.resource.data.keys().hasOnly(['uid', 'purpose', 'noticeVersion', 'decision', 'occurredAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.purpose in ['participation', 'public-group-listing']
+        && request.resource.data.noticeVersion == 'local-preview-v1'
+        && request.resource.data.decision in ['granted', 'withdrawn']
+        && request.resource.data.occurredAt == request.time;
+      allow update, delete: if false;
+    }
+
+    match /groups/{groupId} {
+      allow get: if featureEnabled() && (activeMember(groupId) || staff());
+      allow list: if featureEnabled() && request.query.limit <= 25 && (activeMember(groupId) || staff());
+      allow create: if featureEnabled() && verified()
+        && request.resource.data.keys().hasOnly(['projectId', 'title', 'description', 'status', 'createdBy', 'coordinatorUid', 'listed', 'seeking', 'createdAt', 'updatedAt', 'schemaVersion'])
+        && projectIdOk(request.resource.data.projectId)
+        && boundedText(request.resource.data.title, 80)
+        && request.resource.data.description is string && request.resource.data.description.size() <= 500
+        && (request.resource.data.description == '' || safePublicText(request.resource.data.description, 500))
+        && request.resource.data.status == 'forming'
+        && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.coordinatorUid == request.auth.uid
+        && request.resource.data.listed == false
+        && request.resource.data.seeking in ['members', 'coordinator', 'none']
+        && request.resource.data.schemaVersion == 1
+        && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.role == 'coordinator'
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.status == 'active';
+      allow update: if featureEnabled() && primaryCoordinator(groupId)
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title', 'description', 'status', 'coordinatorUid', 'listed', 'seeking', 'updatedAt'])
+        && boundedText(request.resource.data.title, 80)
+        && request.resource.data.description is string && request.resource.data.description.size() <= 500
+        && (request.resource.data.description == '' || safePublicText(request.resource.data.description, 500))
+        && request.resource.data.status in ['seeking-members', 'seeking-coordinator', 'forming', 'established', 'concept', 'partners', 'funding', 'planned', 'started', 'completed', 'paused']
+        && request.resource.data.seeking in ['members', 'coordinator', 'none']
+        && request.resource.data.updatedAt == request.time
+        && (request.resource.data.coordinatorUid == resource.data.coordinatorUid
+          || (request.resource.data.coordinatorUid is string
+            && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.coordinatorUid)).data.role in ['coordinator', 'deputy']
+            && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.resource.data.coordinatorUid)).data.status == 'active'));
+      allow delete: if false;
+
+      match /members/{uid} {
+        allow get: if featureEnabled() && (request.auth.uid == uid || activeMember(groupId));
+        allow list: if featureEnabled() && request.query.limit <= 25 && activeMember(groupId);
+        allow create: if featureEnabled() && verified()
+          && request.resource.data.keys().hasOnly(['role', 'status', 'joinedAt'])
+          && request.resource.data.role in ['coordinator', 'deputy', 'member'] && request.resource.data.status == 'active'
+          && request.resource.data.joinedAt == request.time
+          && ((request.auth.uid == uid && request.resource.data.role == 'coordinator'
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.createdBy == request.auth.uid)
+            || (coordinator(groupId) && request.resource.data.role == 'member'
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid)).data.status == 'accepted'));
+        allow update: if featureEnabled() && verified() && primaryCoordinator(groupId)
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['role', 'status'])
+          && request.resource.data.role in ['coordinator', 'deputy', 'member']
+          && request.resource.data.status in ['active', 'left', 'removed']
+          && (uid != get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid
+            || request.resource.data.role in ['coordinator', 'deputy']
+            || (getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid is string
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.role in ['coordinator', 'deputy']
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(getAfter(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid)).data.status == 'active'));
+        allow delete: if featureEnabled() && verified()
+          && ((request.auth.uid == uid
+              && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid)
+            || (primaryCoordinator(groupId)
+              && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid != uid));
+      }
+
+      match /joinRequests/{uid} {
+        allow get: if featureEnabled() && verified() && (request.auth.uid == uid || coordinator(groupId));
+        allow list: if featureEnabled() && verified() && request.query.limit <= 25 && coordinator(groupId);
+        allow create: if featureEnabled() && verified() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['uid', 'status', 'createdAt'])
+          && request.resource.data.uid == uid && request.resource.data.status == 'pending'
+          && request.resource.data.createdAt == request.time
+          && !exists(/databases/$(database)/documents/groups/$(groupId)/members/$(uid));
+        allow update: if featureEnabled() && coordinator(groupId) && resource.data.status == 'pending'
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'decidedAt'])
+          && request.resource.data.status in ['accepted', 'declined']
+          && request.resource.data.decidedAt == request.time
+          && (request.resource.data.status != 'accepted'
+            || (getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.role == 'member'
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)/members/$(uid)).data.status == 'active'));
+        allow delete: if featureEnabled() && verified() && request.auth.uid == uid && resource.data.status == 'pending';
+      }
+
+      match /workItems/{itemId} {
+        allow get: if featureEnabled() && activeMember(groupId);
+        allow list: if featureEnabled() && request.query.limit <= 25 && activeMember(groupId);
+        allow create: if featureEnabled() && activeMember(groupId)
+          && request.resource.data.keys().hasOnly(['kind', 'title', 'body', 'status', 'createdBy', 'createdAt', 'updatedAt'])
+          && request.resource.data.kind in ['concept', 'task', 'milestone', 'decision', 'resource', 'partner', 'funding']
+          && boundedText(request.resource.data.title, 120)
+          && request.resource.data.body is string && request.resource.data.body.size() <= 3000
+          && request.resource.data.status in ['open', 'in-progress', 'done']
+          && request.resource.data.createdBy == request.auth.uid
+          && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
+        allow update: if featureEnabled() && activeMember(groupId)
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title', 'body', 'status', 'updatedAt'])
+          && boundedText(request.resource.data.title, 120)
+          && request.resource.data.body is string && request.resource.data.body.size() <= 3000
+          && request.resource.data.status in ['open', 'in-progress', 'done']
+          && request.resource.data.updatedAt == request.time;
+        allow delete: if featureEnabled() && coordinator(groupId);
+      }
+    }
+
+    match /groupDirectory/{groupId} {
+      allow get: if featureEnabled() && resource.data.listed == true;
+      allow list: if featureEnabled() && request.query.limit <= 25 && resource.data.listed == true;
+      allow create: if featureEnabled() && verified()
+        && request.resource.data.keys().hasOnly(['projectId', 'title', 'description', 'status', 'seeking', 'listed', 'updatedAt'])
+        && projectIdOk(request.resource.data.projectId)
+        && safePublicText(request.resource.data.title, 80)
+        && request.resource.data.description is string && request.resource.data.description.size() <= 280
+        && (request.resource.data.description == '' || safePublicText(request.resource.data.description, 280))
+        && request.resource.data.status in ['seeking-members', 'seeking-coordinator', 'forming', 'established', 'concept', 'partners', 'funding', 'planned', 'started', 'completed', 'paused']
+        && request.resource.data.seeking in ['members', 'coordinator', 'none']
+        && request.resource.data.listed == true && request.resource.data.updatedAt == request.time
+        && primaryCoordinator(groupId)
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.listed == true
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.projectId == request.resource.data.projectId
+        && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.title == request.resource.data.title;
+      allow update: if featureEnabled() && primaryCoordinator(groupId)
+        && request.resource.data.keys().hasOnly(['projectId', 'title', 'description', 'status', 'seeking', 'listed', 'updatedAt'])
+        && request.resource.data.projectId == resource.data.projectId
+        && safePublicText(request.resource.data.title, 80)
+        && request.resource.data.description is string && request.resource.data.description.size() <= 280
+        && (request.resource.data.description == '' || safePublicText(request.resource.data.description, 280))
+        && request.resource.data.status in ['seeking-members', 'seeking-coordinator', 'forming', 'established', 'concept', 'partners', 'funding', 'planned', 'started', 'completed', 'paused']
+        && request.resource.data.seeking in ['members', 'coordinator', 'none']
+        && request.resource.data.listed == true && request.resource.data.updatedAt == request.time;
+      allow delete: if featureEnabled() && primaryCoordinator(groupId);
+    }
+
+    match /abuseReports/{reportId} {
+      allow create: if featureEnabled() && verified()
+        && request.resource.data.keys().hasOnly(['reporterUid', 'groupId', 'reason', 'createdAt'])
+        && request.resource.data.reporterUid == request.auth.uid
+        && request.resource.data.reason in ['spam', 'harassment', 'privacy', 'other']
+        && request.resource.data.createdAt == request.time;
+      allow read: if featureEnabled() && staff();
+      allow update, delete: if false;
+    }
+  }
+}
