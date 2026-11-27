@@ -151,13 +151,59 @@ test('Stellvertretung kann den primären Gruppenstatus oder die öffentliche Ver
 test('Arbeitsinhalte sind nur für Mitglieder nutzbar und Versionsstände müssen bei jeder Änderung exakt steigen', async () => {
   await seedGroup();
   const valid = { kind: 'task', title: 'Nächster Schritt', body: 'Synthetischer Inhalt', status: 'open', createdBy: 'coord', assigneeUid: null, dueAt: null, version: 1, createdAt: stamp(), updatedAt: stamp() };
-  const workItem = doc(db('coord'), 'groups/group-a/workItems/task-a');
-  await assertSucceeds(setDoc(workItem, valid));
+  const coordDb = db('coord');
+  const workItem = doc(coordDb, 'groups/group-a/workItems/task-a');
+  const create = writeBatch(coordDb);
+  create.set(workItem, valid);
+  create.set(doc(coordDb, 'users/coord/workItemRefs/group-a_task-a'), { uid: 'coord', groupId: 'group-a', itemId: 'task-a', createdBy: true, assignee: false, updatedAt: stamp() });
+  await assertSucceeds(create.commit());
   await assertFails(setDoc(doc(db('visitor'), 'groups/group-a/workItems/task-b'), { ...valid, createdBy: 'visitor' }));
   await assertFails(setDoc(doc(db('coord'), 'groups/group-a/workItems/task-c'), { ...valid, kind: 'private-message' }));
-  await assertSucceeds(updateDoc(workItem, { version: 2, title: 'Aktualisiert', updatedAt: stamp() }));
-  await assertFails(updateDoc(workItem, { version: 2, body: 'Stale client overwrite', updatedAt: stamp() }));
-  await assertSucceeds(updateDoc(workItem, { version: 3, body: 'Next current version', updatedAt: stamp() }));
+  const update = writeBatch(coordDb);
+  update.update(workItem, { version: 2, title: 'Aktualisiert', updatedAt: stamp() });
+  update.set(doc(coordDb, 'users/coord/workItemRefs/group-a_task-a'), { uid: 'coord', groupId: 'group-a', itemId: 'task-a', createdBy: true, assignee: false, updatedAt: stamp() });
+  await assertSucceeds(update.commit());
+  const stale = writeBatch(coordDb);
+  stale.update(workItem, { version: 2, body: 'Stale client overwrite', updatedAt: stamp() });
+  stale.set(doc(coordDb, 'users/coord/workItemRefs/group-a_task-a'), { uid: 'coord', groupId: 'group-a', itemId: 'task-a', createdBy: true, assignee: false, updatedAt: stamp() });
+  await assertFails(stale.commit());
+  const next = writeBatch(coordDb);
+  next.update(workItem, { version: 3, body: 'Next current version', updatedAt: stamp() });
+  next.set(doc(coordDb, 'users/coord/workItemRefs/group-a_task-a'), { uid: 'coord', groupId: 'group-a', itemId: 'task-a', createdBy: true, assignee: false, updatedAt: stamp() });
+  await assertSucceeds(next.commit());
+  await env.withSecurityRulesDisabled(async c => {
+    const store = c.firestore();
+    await setDoc(doc(store, 'groups/group-a/members/assignee'), { role: 'member', status: 'active', joinedAt: new Date() });
+    await setDoc(doc(store, 'users/assignee/groupMemberships/group-a'), { groupId: 'group-a', role: 'member', status: 'active', joinedAt: new Date() });
+  });
+  const assigned = { ...valid, assigneeUid: 'assignee' };
+  const assign = writeBatch(coordDb);
+  assign.set(doc(coordDb, 'groups/group-a/workItems/task-assigned'), assigned);
+  assign.set(doc(coordDb, 'users/coord/workItemRefs/group-a_task-assigned'), { uid: 'coord', groupId: 'group-a', itemId: 'task-assigned', createdBy: true, assignee: false, updatedAt: stamp() });
+  assign.set(doc(coordDb, 'users/assignee/workItemRefs/group-a_task-assigned'), { uid: 'assignee', groupId: 'group-a', itemId: 'task-assigned', createdBy: false, assignee: true, updatedAt: stamp() });
+  await assertSucceeds(assign.commit());
+  const unassign = writeBatch(coordDb);
+  unassign.update(doc(coordDb, 'groups/group-a/workItems/task-assigned'), { assigneeUid: null, version: 2, updatedAt: stamp() });
+  unassign.set(doc(coordDb, 'users/coord/workItemRefs/group-a_task-assigned'), { uid: 'coord', groupId: 'group-a', itemId: 'task-assigned', createdBy: true, assignee: false, updatedAt: stamp() });
+  unassign.delete(doc(coordDb, 'users/assignee/workItemRefs/group-a_task-assigned'));
+  await assertSucceeds(unassign.commit());
+});
+
+test('eigene Arbeitsinhalte bleiben nach Austritt aus einer geschlossenen Gruppe gezielt exportierbar', async () => {
+  await seedGroup();
+  const coord = db('coord'); const batch = writeBatch(coord);
+  batch.set(doc(coord, 'groups/group-a/workItems/task-history'), { kind: 'task', title: 'Eigener Beitrag', body: 'Synthetischer Text', status: 'done', createdBy: 'coord', assigneeUid: null, dueAt: null, version: 1, createdAt: stamp(), updatedAt: stamp() });
+  batch.set(doc(coord, 'users/coord/workItemRefs/group-a_task-history'), { uid: 'coord', groupId: 'group-a', itemId: 'task-history', createdBy: true, assignee: false, updatedAt: stamp() });
+  await assertSucceeds(batch.commit());
+  await env.withSecurityRulesDisabled(async c => {
+    const store = c.firestore();
+    await setDoc(doc(store, 'groups/group-a'), { status: 'closed' }, { merge: true });
+    await setDoc(doc(store, 'groups/group-a/members/coord'), { role: 'member', status: 'left' }, { merge: true });
+    await setDoc(doc(store, 'users/coord/groupMemberships/group-a'), { groupId: 'group-a', role: 'member', status: 'left' }, { merge: true });
+  });
+  await assertSucceeds(getDoc(doc(db('coord'), 'groups/group-a/workItems/task-history')));
+  await assertFails(getDoc(doc(db('visitor'), 'groups/group-a/workItems/task-history')));
+  await assertFails(getDocs(query(collection(db('coord'), 'groups/group-a/workItems'), limit(25))));
 });
 
 test('öffentliche Gruppenliste gibt nur getrennte, sparsame Felder frei', async () => {
@@ -198,6 +244,17 @@ test('Einwilligungsereignisse sind versionsgebunden und unveränderbar', async (
   await assertSucceeds(batch.commit());
   await assertFails(setDoc(event, { uid: 'alice', purpose: 'participation', subjectId: 'projekt-einsamkeitslotsen', noticeVersion: 'local-preview-v1', decision: 'withdrawn', occurredAt: stamp() }));
   await assertFails(setDoc(doc(db('bob'), 'consentEvents/bob-forged'), { uid: 'alice', purpose: 'participation', subjectId: 'projekt-einsamkeitslotsen', noticeVersion: 'local-preview-v1', decision: 'granted', occurredAt: stamp() }));
+});
+
+test('Löschanfragen sind auf die eigene bestätigte UID begrenzt und nicht clientseitig änderbar', async () => {
+  const alice = db('alice');
+  const request = doc(alice, 'accountDeletionRequests/request-a');
+  await assertSucceeds(setDoc(request, { uid: 'alice', status: 'requested', createdAt: stamp() }));
+  await assertSucceeds(getDoc(request));
+  await assertSucceeds(getDocs(query(collection(alice, 'accountDeletionRequests'), where('uid', '==', 'alice'), limit(1))));
+  await assertFails(getDoc(doc(db('bob'), 'accountDeletionRequests/request-a')));
+  await assertFails(updateDoc(request, { status: 'complete' }));
+  await assertFails(deleteDoc(request));
 });
 
 test('Interessen ohne atomare Zustimmung scheitern; nach Widerruf erfordert Reaktivierung eine neue Zustimmung', async () => {

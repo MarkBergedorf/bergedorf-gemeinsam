@@ -12,6 +12,10 @@ const PROJECT = 'demo-bergedorf-gemeinsam';
 const NOTICE = 'local-preview-v1';
 const GROUP_STATUSES = [['seeking-members', 'Interessierte Mitwirkende gesucht'], ['seeking-coordinator', 'Koordination gesucht'], ['forming', 'Arbeitsgruppe in Gründung'], ['established', 'Arbeitsgruppe gegründet'], ['concept', 'Projektkonzept in Bearbeitung'], ['partners', 'Kooperationspartner gesucht'], ['funding', 'Finanzierung in Vorbereitung'], ['planned', 'Umsetzung geplant'], ['started', 'Umsetzung begonnen'], ['completed', 'Projekt abgeschlossen'], ['paused', 'Projekt ruht'], ['closed', 'Arbeitsgruppe geschlossen']];
 const WORK_KINDS = [['concept', 'Projektkonzept'], ['task', 'Aufgabe'], ['milestone', 'Zeitplanung / Meilenstein'], ['resource', 'Ressourcenplanung'], ['funding', 'Finanzierung'], ['partner', 'Kooperationspartner'], ['decision', 'Entscheidung / Fortschritt']];
+const workItemRefId = (groupId: string, itemId: string) => `${groupId}_${itemId}`;
+function writePersonalWorkItemRef(transaction: any, uid: string, groupId: string, itemId: string, createdBy: boolean, assignee: boolean) {
+  transaction.set(doc(store, `users/${uid}/workItemRefs/${workItemRefId(groupId, itemId)}`), { uid, groupId, itemId, createdBy, assignee, updatedAt: serverTimestamp() });
+}
 const TYPES = [
   ['interested', 'Ich interessiere mich für dieses Projekt'], ['participate', 'Ich möchte aktiv mitarbeiten'],
   ['foundGroup', 'Ich möchte eine Arbeitsgruppe gründen'], ['coordinate', 'Ich würde Koordinationsaufgaben übernehmen'],
@@ -180,7 +184,8 @@ function Preview() {
     setGroupId(id);
     setMembers(memberRows.map(row => ({ id: row.id, ...row.fields })));
     setRequests(requestDocs?.map(row => ({ id: row.id, ...row.fields })) || []);
-    setItems(itemRows.map(row => ({ id: row.id, ...row.fields })).sort((a, b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || ''))));
+    const sortedItems: any[] = itemRows.map(row => ({ id: row.id, ...row.fields })).sort((a: any, b: any) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')));
+    setItems(sortedItems);
     setMemberCursor(null); setMoreMembers(false); setRequestCursor(null); setMoreRequests(false); setItemCursor(null); setMoreItems(false);
     setGroupRecord(group.fields); setGroupStatus(group.fields.status); setGroupIsListed(group.fields.listed === true);
   }
@@ -222,9 +227,15 @@ function Preview() {
         await runTransaction(store, async transaction => {
           const current = await transaction.get(ref);
           if (!current.exists()) throw new Error('EDIT_REMOVED');
-          const currentVersion = Number(current.data().version || 0);
+          const previous = current.data();
+          const currentVersion = Number(previous.version || 0);
           if (currentVersion !== expectedVersion) throw new Error('EDIT_CONFLICT');
           transaction.update(ref, { kind: workKind, title: taskTitle.trim().slice(0, 120), body: taskBody.trim().slice(0, 3000), status: taskStatus, assigneeUid: assigneeUid || null, dueAt, version: currentVersion + 1, updatedAt: serverTimestamp() });
+          writePersonalWorkItemRef(transaction, previous.createdBy, groupId, ref.id, true, assigneeUid === previous.createdBy);
+          if (assigneeUid && assigneeUid !== previous.createdBy) writePersonalWorkItemRef(transaction, assigneeUid, groupId, ref.id, false, true);
+          if (previous.assigneeUid && previous.assigneeUid !== previous.createdBy && previous.assigneeUid !== assigneeUid) {
+            transaction.delete(doc(store, `users/${previous.assigneeUid}/workItemRefs/${workItemRefId(groupId, ref.id)}`));
+          }
         });
       } catch (error) {
         const reason = error instanceof Error ? error.message : String(error);
@@ -237,7 +248,13 @@ function Preview() {
         }
         throw error;
       }
-    } else await setDoc(ref, { kind: workKind, title: taskTitle.trim().slice(0, 120), body: taskBody.trim().slice(0, 3000), status: taskStatus, assigneeUid: assigneeUid || null, dueAt, version: 1, createdBy: user.uid, createdAt: serverTimestamp(), updatedAt: serverTimestamp() });
+    } else {
+      const batch = writeBatch(store);
+      batch.set(ref, { kind: workKind, title: taskTitle.trim().slice(0, 120), body: taskBody.trim().slice(0, 3000), status: taskStatus, assigneeUid: assigneeUid || null, dueAt, version: 1, createdBy: user.uid, createdAt: serverTimestamp(), updatedAt: serverTimestamp() });
+      writePersonalWorkItemRef(batch, user.uid, groupId, ref.id, true, assigneeUid === user.uid);
+      if (assigneeUid && assigneeUid !== user.uid) writePersonalWorkItemRef(batch, assigneeUid, groupId, ref.id, false, true);
+      await batch.commit();
+    }
     setTaskTitle(''); setTaskBody(''); setTaskStatus('open'); setAssigneeUid(''); setDueDate(''); setEditingItem(''); setEditingVersion(0); setConflictItem(''); await openGroup(groupId); await loadPersonalOverview(user.uid); setMessage('Arbeitsinhalt gespeichert.');
   }
   function editItem(item: any) {
@@ -344,7 +361,7 @@ function Preview() {
   }
   async function exportOwnData() {
     if (!user) return;
-    const payload = await exportSyntheticUserData(user.uid);
+    const payload: any = await exportSyntheticUserData(user.uid);
     payload.account.email = user.email;
     const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' }));
     const link = document.createElement('a'); link.href = url; link.download = 'bergdorf-gemeinsam-demo-export.json'; link.click(); URL.revokeObjectURL(url);

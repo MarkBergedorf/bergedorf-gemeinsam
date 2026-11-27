@@ -38,6 +38,23 @@ service cloud.firestore {
       return activeMember(groupId)
         && get(/databases/$(database)/documents/groups/$(groupId)).data.coordinatorUid == request.auth.uid;
     }
+    function workItemRefPath(uid, groupId, itemId) {
+      return /databases/$(database)/documents/users/$(uid)/workItemRefs/$(groupId + '_' + itemId);
+    }
+    function hasPersonalWorkItemRef(uid, groupId, itemId) {
+      return exists(workItemRefPath(uid, groupId, itemId))
+        && get(workItemRefPath(uid, groupId, itemId)).data.groupId == groupId
+        && get(workItemRefPath(uid, groupId, itemId)).data.itemId == itemId
+        && get(workItemRefPath(uid, groupId, itemId)).data.uid == uid;
+    }
+    function workItemRefMatchesAfter(uid, groupId, itemId, created, assigned) {
+      return existsAfter(workItemRefPath(uid, groupId, itemId))
+        && getAfter(workItemRefPath(uid, groupId, itemId)).data.uid == uid
+        && getAfter(workItemRefPath(uid, groupId, itemId)).data.groupId == groupId
+        && getAfter(workItemRefPath(uid, groupId, itemId)).data.itemId == itemId
+        && getAfter(workItemRefPath(uid, groupId, itemId)).data.createdBy == created
+        && getAfter(workItemRefPath(uid, groupId, itemId)).data.assignee == assigned;
+    }
     function directoryMatchesAfter(groupId) {
       return getAfter(/databases/$(database)/documents/groups/$(groupId)).data.listed == true
         && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.status != 'closed'
@@ -75,7 +92,7 @@ service cloud.firestore {
         && request.resource.data.types is list && request.resource.data.types.size() > 0 && request.resource.data.types.size() <= 7
         && request.resource.data.types.toSet().hasOnly(['interested', 'participate', 'foundGroup', 'coordinate', 'expertise', 'organization', 'follow'])
         && request.resource.data.status == 'active'
-        && request.resource.data.noticeVersion == 'local-preview-v1'
+        && request.resource.data.noticeVersion in ['local-preview-v1', 'participation-v1']
         && request.resource.data.consentEventId is string
         && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.uid == request.auth.uid
         && getAfter(/databases/$(database)/documents/consentEvents/$(request.resource.data.consentEventId)).data.purpose == 'participation'
@@ -142,6 +159,36 @@ service cloud.firestore {
         && !existsAfter(/databases/$(database)/documents/groups/$(groupId)/joinRequests/$(uid));
     }
 
+    match /users/{uid}/workItemRefs/{refId} {
+      allow get: if featureEnabled() && verified() && request.auth.uid == uid;
+      allow list: if featureEnabled() && verified() && request.auth.uid == uid && request.query.limit <= 25;
+      allow create, update: if featureEnabled() && verified() && activeMember(request.resource.data.groupId)
+        && request.resource.data.keys().hasOnly(['uid', 'groupId', 'itemId', 'createdBy', 'assignee', 'updatedAt'])
+        && request.resource.data.uid == uid
+        && request.resource.data.groupId is string && request.resource.data.itemId is string
+        && refId == request.resource.data.groupId + '_' + request.resource.data.itemId
+        && request.resource.data.createdBy is bool && request.resource.data.assignee is bool
+        && (request.resource.data.createdBy || request.resource.data.assignee)
+        && request.resource.data.updatedAt == request.time
+        && workItemRefMatchesAfter(uid, request.resource.data.groupId, request.resource.data.itemId, request.resource.data.createdBy, request.resource.data.assignee);
+      allow delete: if featureEnabled() && verified() && (request.auth.uid == uid
+        || (activeMember(resource.data.groupId)
+          && (!existsAfter(/databases/$(database)/documents/groups/$(resource.data.groupId)/workItems/$(resource.data.itemId))
+            || (getAfter(/databases/$(database)/documents/groups/$(resource.data.groupId)/workItems/$(resource.data.itemId)).data.createdBy != uid
+              && getAfter(/databases/$(database)/documents/groups/$(resource.data.groupId)/workItems/$(resource.data.itemId)).data.assigneeUid != uid))));
+    }
+
+    match /accountDeletionRequests/{requestId} {
+      allow create: if featureEnabled() && verified()
+        && request.resource.data.keys().hasOnly(['uid', 'status', 'createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.status == 'requested'
+        && request.resource.data.createdAt == request.time;
+      allow get: if featureEnabled() && verified() && resource.data.uid == request.auth.uid;
+      allow list: if featureEnabled() && verified() && request.query.limit <= 1 && resource.data.uid == request.auth.uid;
+      allow update, delete: if false;
+    }
+
     match /consentEvents/{eventId} {
       allow get: if featureEnabled() && verified() && resource.data.uid == request.auth.uid;
       allow list: if featureEnabled() && verified() && resource.data.uid == request.auth.uid && request.query.limit <= 100;
@@ -150,7 +197,7 @@ service cloud.firestore {
         && request.resource.data.uid == request.auth.uid
         && request.resource.data.purpose in ['participation', 'public-group-listing']
         && request.resource.data.subjectId is string
-        && request.resource.data.noticeVersion == 'local-preview-v1'
+        && request.resource.data.noticeVersion in ['local-preview-v1', 'participation-v1']
         && request.resource.data.decision in ['granted', 'withdrawn']
         && request.resource.data.occurredAt == request.time
         && ((request.resource.data.purpose == 'participation'
@@ -263,7 +310,8 @@ service cloud.firestore {
       }
 
       match /workItems/{itemId} {
-        allow get: if featureEnabled() && activeMember(groupId);
+        allow get: if featureEnabled() && (activeMember(groupId)
+          || (verified() && hasPersonalWorkItemRef(request.auth.uid, groupId, itemId)));
         allow list: if featureEnabled() && request.query.limit <= 25 && activeMember(groupId);
         allow create: if featureEnabled() && activeMember(groupId)
           && request.resource.data.keys().hasOnly(['kind', 'title', 'body', 'status', 'createdBy', 'assigneeUid', 'dueAt', 'version', 'createdAt', 'updatedAt'])
@@ -277,7 +325,10 @@ service cloud.firestore {
           && (request.resource.data.dueAt == null || request.resource.data.dueAt is timestamp)
           && request.resource.data.version is int && request.resource.data.version == 1
           && request.resource.data.createdBy == request.auth.uid
-          && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
+          && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time
+          && workItemRefMatchesAfter(request.auth.uid, groupId, itemId, true, request.resource.data.assigneeUid == request.auth.uid)
+          && (request.resource.data.assigneeUid == null || request.resource.data.assigneeUid == request.auth.uid
+            || workItemRefMatchesAfter(request.resource.data.assigneeUid, groupId, itemId, false, true));
         allow update: if featureEnabled() && activeMember(groupId)
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['kind', 'title', 'body', 'status', 'assigneeUid', 'dueAt', 'version', 'updatedAt'])
           && request.resource.data.kind in ['concept', 'task', 'milestone', 'decision', 'resource', 'partner', 'funding']
@@ -290,7 +341,12 @@ service cloud.firestore {
           && (request.resource.data.dueAt == null || request.resource.data.dueAt is timestamp)
           && request.resource.data.version is int
           && request.resource.data.version == (('version' in resource.data) ? resource.data.version + 1 : 1)
-          && request.resource.data.updatedAt == request.time;
+          && request.resource.data.updatedAt == request.time
+          && workItemRefMatchesAfter(resource.data.createdBy, groupId, itemId, true, request.resource.data.assigneeUid == resource.data.createdBy)
+          && (request.resource.data.assigneeUid == null || request.resource.data.assigneeUid == resource.data.createdBy
+            || workItemRefMatchesAfter(request.resource.data.assigneeUid, groupId, itemId, false, true))
+          && (resource.data.assigneeUid == request.resource.data.assigneeUid || resource.data.assigneeUid == null
+            || !existsAfter(workItemRefPath(resource.data.assigneeUid, groupId, itemId)));
         allow delete: if featureEnabled() && coordinator(groupId);
       }
     }

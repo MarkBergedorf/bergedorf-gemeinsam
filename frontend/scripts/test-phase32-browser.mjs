@@ -24,6 +24,8 @@ async function saveConcurrentUserVersion(email, groupId) {
     await runTransaction(store, async transaction => {
       const ref = doc(store, `groups/${groupId}/workItems/${item.id}`); const current = await transaction.get(ref);
       transaction.update(ref, { body: 'Gespeicherter neuer Stand von Konto A', version: Number(current.data().version) + 1, updatedAt: serverTimestamp() });
+      const userRef = doc(store, `users/${current.data().createdBy}/workItemRefs/${groupId}_${item.id}`);
+      transaction.set(userRef, { uid: current.data().createdBy, groupId, itemId: item.id, createdBy: true, assignee: current.data().assigneeUid === current.data().createdBy, updatedAt: serverTimestamp() });
     });
   } finally { await deleteApp(app); }
 }
