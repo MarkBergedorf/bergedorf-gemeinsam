@@ -484,3 +484,20 @@
 @media(max-width:1023px){.site-header nav.open .mobile-auth-links{display:flex;grid-column:1/-1;align-items:center;flex-wrap:wrap;gap:14px;padding:12px 16px;border-top:1px solid var(--line)}.site-header nav.open .mobile-auth-links a,.site-header nav.open .mobile-auth-links button{font-size:14px;color:var(--green)}.site-header .header-signout{display:none}}
 @media(max-width:600px){.auth-note{padding:14px}.auth-panel{padding-left:20px;padding-right:20px}.auth-mode-links{gap:12px}}
 .auth-choice{margin:16px 0;padding:12px 15px;border:1px solid var(--line);background:#fff}.auth-choice legend{padding:0 5px;font-weight:600}.auth-choice label{display:inline-flex;align-items:center;gap:8px;margin:8px 16px 4px 0;font-weight:400}.auth-choice input[type=radio]{width:18px;height:18px;min-height:0;margin:0;padding:0}
+/* Mobile account links stay beside the contribution shortcut with the topic list closed. */
+.mobile-header-auth{display:none}
+@media(max-width:1023px){
+ .site-header .header-actions>.mobile-header-auth{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:2px;min-width:0}
+ .site-header .mobile-header-auth>a,.site-header .mobile-header-auth>button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:6px 8px;font-size:13px;line-height:1.25;white-space:nowrap}
+ .site-header .mobile-header-auth .header-signout{display:inline-flex}
+}
+@media(max-width:380px){
+ .site-header .header-actions>.mobile-header-auth{gap:0}
+ .site-header .mobile-header-auth>a,.site-header .mobile-header-auth>button{padding-inline:5px;font-size:12px}
+}
+/* Floating tourism return control respects device safe areas and installed-app insets. */
+.tourism-back-to-top{position:fixed;right:calc(14px + env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:120;width:48px;height:48px;display:grid;place-items:center;border:1px solid #cbd8d1;border-radius:50%;background:var(--green);color:#fff;box-shadow:0 3px 12px rgb(15 43 34 / 24%);font:700 27px/1 Arial,sans-serif;cursor:pointer}
+.tourism-back-to-top:hover{background:#1e493c}
+.tourism-back-to-top:focus-visible{outline:3px solid #d49438;outline-offset:3px}
+@media(max-width:700px){.tourism-back-to-top{right:calc(12px + env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:46px;height:46px}}
+#tourismus-start{scroll-margin-top:12px}

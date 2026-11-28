@@ -12,7 +12,8 @@ test('umfangreiche Suchbereiche sind standardmäßig kompakt und behalten aktive
  const history=await read('../app/history-places.tsx');
  assert.match(events,/<details className="event-filter-advanced">/);
  for(const label of ['Zeitraum','Von<input type="date"','Bis<input type="date"','Veranstaltungsart','Stadtteil \/ Veranstaltungsort','Teilnahmegebühr'])assert.ok(events.includes(label),label);
- assert.match(events,/activeAdvancedFilters\?` \(\$\{activeAdvancedFilters\} ausgewählt\)`/);
+ assert.match(events,/Weitere Suchfilter anzeigen\{activeAdvancedFilters>0&&' \('\+activeAdvancedFilters\+' aktiv\)'\}/);
+ assert.match(events,/activeFilterLabels\.join\(' · '\)/);
  assert.match(tourism,/<details className="tourism-topic-filters"><summary>Themen auswählen \(\{selected.size\} von \{tourismCategories.length\}\)<\/summary>/);
  assert.match(tourism,/<details className="tourism-map-category-filter"><summary>Kartenkategorien \(\{mapKinds.size\} von \{tourismMapCategories.length\}\)<\/summary><fieldset className="tourism-map-filters">/);
  assert.match(directory,/<details className="directory-advanced-filters">/);

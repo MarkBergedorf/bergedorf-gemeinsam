@@ -13,3 +13,7 @@
 .events-filter .event-filter-advanced[open] .event-filter-grid{margin-top:12px}
 @media(max-width:700px){.events-filter .event-filter-main{grid-template-columns:1fr}.events-filter .event-filter-main-actions{display:grid;grid-template-columns:1fr 1fr}}
 .events-filter .event-filter-advanced>summary:focus-visible{outline:3px solid #d49438;outline-offset:3px;border-radius:3px}
+.events-filter .event-filter-advanced>summary{user-select:none}
+.events-filter .event-filter-advanced>summary::marker{content:""}
+.events-filter .event-filter-active-summary{overflow-wrap:anywhere}
+.events-filter .event-filter-note{font-size:.9rem;line-height:1.5}

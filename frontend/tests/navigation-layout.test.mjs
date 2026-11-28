@@ -75,3 +75,14 @@ test('Die Umschaltung nutzt den verfügbaren Platz statt eines festen Desktopbre
  assert.equal(navigationTabLayout(widths,1024-20),null);
  assert.ok(navigationTabLayout(widths,1366-20));
 });
+
+test('mobile auth is available beside Alle Beiträge while the topic menu is closed',async()=>{
+ const component=await readFile(new URL('../app/site-header.tsx',import.meta.url),'utf8');
+ const css=await readFile(new URL('../app/globals.css',import.meta.url),'utf8');
+ assert.ok(component.includes('className="mobile-header-auth"'));
+ assert.ok(component.indexOf("districtId==='bergedorf'?'Alle Beiträge':'Beiträge im Bezirk'</a>")<component.indexOf('className="mobile-header-auth"'));
+ assert.ok(!component.includes('mobile-auth-links'));
+ assert.ok(component.includes('<a href="#konto">Mein Konto</a>'));
+ assert.match(css,/@media\(max-width:1023px\)[\s\S]*\.site-header \.header-actions>\.mobile-header-auth\{display:flex/);
+ assert.match(css,/mobile-header-auth>a,.site-header \.mobile-header-auth>button\{[^}]*min-height:44px/);
+});

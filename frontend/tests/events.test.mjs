@@ -35,3 +35,18 @@ test('Übersicht und Detailseite rendern echte Ziele, verständliche offene Anga
 test('Formulare sind ohne Serveraktion; Eingaben werden nur lokal verarbeitet und Text sicher ausgegeben',()=>{const source=readFileSync('app/events.tsx','utf8');assert(source.includes('e.preventDefault()'));assert(!/fetch\s*\(|XMLHttpRequest|sendBeacon|localStorage|sessionStorage|indexedDB|dangerouslySetInnerHTML|action=/.test(source));assert(source.includes('{preview.body}'));assert(source.includes('{r.body}'));assert(source.includes('Nichts eingereicht, gespeichert oder veröffentlicht.'));assert(source.includes('aria-live="polite"'));assert(source.includes('aria-invalid'));assert(source.includes('type="checkbox" checked={form.participated}'));});
 test('Backend bleibt nachweislich deaktiviert, keine produktive Freischaltung durch Auftrag 11',()=>{const backend=readFileSync('pages/backend-client.mjs','utf8'),provider=readFileSync('app/workspace.tsx','utf8');assert(backend.includes('apiBase:null,publicReadsApproved:false,writesEnabled:false'));assert(provider.includes('call:blocked,upload:blocked'));const c=JSON.parse(readFileSync('lib/events.json'));assert.deepEqual(c.publishedReviews,[]);});
 test('Bestand bleibt bis auf drei exakte Menü-/Routingergänzungen bytegleich',()=>{const baseline='682184d4e752423468b88cbb93ff3c8e237b5245';for(const f of execFileSync('git',['-C','..','ls-tree','-r','--name-only',baseline,'frontend/lib','frontend/app'],{encoding:'utf8'}).trim().split('\n')){if(['frontend/pages/privacy.tsx','frontend/app/platform.tsx','frontend/app/admin-tools.tsx','frontend/app/contributions.tsx','frontend/app/review-decision.tsx','frontend/app/currentness-fields.tsx','frontend/app/homepage-current.tsx','frontend/app/directory.tsx','frontend/app/history-places.tsx','frontend/app/history-location.tsx','frontend/lib/history.mjs','frontend/lib/history-navigation.mjs','frontend/app/events.tsx','frontend/app/loneliness.tsx','frontend/app/loneliness-help.tsx','frontend/app/events.css','frontend/app/tourism.tsx','frontend/app/globals.css','frontend/lib/page-drag.mjs','frontend/lib/workspace.mjs','frontend/lib/access.mjs','frontend/lib/homepage-current.mjs','frontend/lib/loneliness-local.mjs','frontend/lib/loneliness-help.mjs','frontend/pages/public-state.json'].includes(f))continue;assert(withoutSupportTransparency(f,readFileSync('../'+f)).equals(execFileSync('git',['show',baseline+':'+f],{maxBuffer:16e6})),f)}});
+
+test('event filters default to a compact disclosure and expose active criteria',async()=>{
+ const page=readFileSync('app/events.tsx','utf8');
+ const filterStart=page.indexOf('<section className="events-filter panel"');
+ const search=page.indexOf('type="search"',filterStart);
+ const disclosure=page.indexOf('<details className="event-filter-advanced">',filterStart);
+ const summary=page.indexOf('Weitere Suchfilter anzeigen',disclosure);
+ const grid=page.indexOf('<div className="event-filter-grid">',disclosure);
+ assert.ok(filterStart>=0&&search>filterStart&&disclosure>search&&summary>disclosure&&grid>summary);
+ assert.ok(page.includes("activeFilterLabels.join(' · ')"));
+ assert.ok(page.includes('Veranstaltungen suchen'));
+ assert.ok(page.includes('Filter zurücksetzen'));
+ assert.ok(page.includes('Datum und zeitliche Einordnung richten sich nach Europe/Berlin.'));
+ assert.ok(page.includes('requestSubmit()'));
+});
