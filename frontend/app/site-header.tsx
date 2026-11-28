@@ -59,6 +59,7 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
    <a className="brand" href={districtId==='bergedorf'?'#start':'#bezirk/'+districtId} aria-label={(boroughById(districtId)?.name||'Bergedorf')+' gemeinsam – Unabhängige Bürgerplattform'}>{districtId==='bergedorf'&&<Crest/>}<span>{boroughById(districtId)?.name||'Bergedorf'} <strong>gemeinsam</strong><small>Unabhängige Bürgerplattform</small></span></a>
    <div className="header-actions">
     <a href={districtId==='bergedorf'?'#beitraege':'#bezirk/'+districtId+'/anliegen'}>{districtId==='bergedorf'?'Alle Beiträge':'Beiträge im Bezirk'}</a>
+    <div className="mobile-header-auth">{account.user?<><a href="#konto">Mein Konto</a><button className="header-signout" onClick={()=>account.signOut()}>Abmelden</button></>:<><a href="#anmelden">Anmelden</a><a href="#registrieren">Registrieren</a></>}</div>
     {account.user?<><a className="desktop-signin-link" href="#konto">Mein Konto</a><button className="header-signout" onClick={()=>account.signOut()}>Abmelden</button></>:<><a className="desktop-signin-link" href="#anmelden">Anmelden</a><a className="desktop-signin-link" href="#registrieren">Registrieren</a></>}
     {permissions.canAuthor&&<><a href="#meine">Meine Beiträge &amp; Entwürfe</a><a className="primary small" href={page==='geschichte'?historyCreateHref(typeof window==='undefined'?'#geschichte':location.hash):'#meine/neu/anliegen'+(districtId==='bergedorf'?'':'?district='+districtId)}>Beitrag erstellen</a></>}
     {permissions.canAdmin&&<a className="admin-link" href="#verwaltung">Administration</a>}
@@ -71,7 +72,6 @@ export function SiteHeader({page,permissions={},districtId='bergedorf'}:{page:st
      const slot=layout?.slotWidths[index]??150,base=layout?.baseWidths[index]??175;
      return <span className="nav-tab-slot" key={item.id} style={{width:slot+'px',flexBasis:slot+'px',height:(layout?.height??150)+'px'}}><button aria-label={item.label} style={layout?{width:base+'px',height:layout.tabHeight+'px',fontSize:layout.fontSize+'px'}:undefined} aria-current={page===item.id?'page':undefined} onClick={()=>go(item.target)}><span className="nav-tab-label" aria-hidden="true">{(item.lines||[item.label]).map((line:string,lineIndex:number)=><span key={lineIndex}>{line}</span>)}</span></button></span>;
     })}
-    <div className="mobile-auth-links">{account.user?<><a href="#konto">Mein Konto</a><button onClick={()=>account.signOut()}>Abmelden</button></>:<><a href="#anmelden">Anmelden</a><a href="#registrieren">Registrieren</a></>}</div>
    </div>
   </nav>
  </header>;

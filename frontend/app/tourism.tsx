@@ -159,16 +159,17 @@ function TourismMap({items,selected,focusId,onFocus}:{items:any[],selected:Set<s
 
 export function TourismPage(){
  const route=useRoute();
- const [query,setQuery]=useState(''),[selected,setSelected]=useState<Set<string>>(()=>new Set(tourismCategories.map(c=>c.id))),[freeOnly,setFreeOnly]=useState(false),[bikeFriendlyOnly,setBikeFriendlyOnly]=useState(false),[focusId,setFocusId]=useState(''),[scrollTarget,setScrollTarget]=useState('');
+ const [query,setQuery]=useState(''),[selected,setSelected]=useState<Set<string>>(()=>new Set(tourismCategories.map(c=>c.id))),[freeOnly,setFreeOnly]=useState(false),[bikeFriendlyOnly,setBikeFriendlyOnly]=useState(false),[focusId,setFocusId]=useState(''),[scrollTarget,setScrollTarget]=useState(''),[showBackToTopics,setShowBackToTopics]=useState(false);
  const visible=useMemo(()=>filterTourismItems({query,categoryIds:[...selected],freeOnly,bikeFriendlyOnly}),[query,selected,freeOnly,bikeFriendlyOnly]);
  function toggle(id:string){setSelected(current=>{const next=new Set(current);next.has(id)?next.delete(id):next.add(id);return next})}
  // Internal section navigation must not change the application's hash-based page route.
  function jumpTo(e:React.MouseEvent<HTMLAnchorElement>,id:string){e.preventDefault();setQuery('');setFreeOnly(false);setBikeFriendlyOnly(false);setSelected(new Set(tourismCategories.map(c=>c.id)));setScrollTarget(id)}
  useEffect(()=>{if(route.page==='tourismus'&&tourismItems.some(item=>item.id===route.tab))setScrollTarget(route.tab)},[route.page,route.tab]);
  useEffect(()=>{if(route.page==='tourismus'&&route.tab==='karte')setScrollTarget('karte')},[route.page,route.tab]);
+ useEffect(()=>{const update=()=>{const page=document.querySelector('.tourism-page');if(!page){setShowBackToTopics(false);return}const rect=page.getBoundingClientRect(),top=rect.top+window.scrollY,bottom=top+rect.height;setShowBackToTopics(window.scrollY>top+420&&window.scrollY<bottom)};update();window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update)}},[]);
  useEffect(()=>{if(!scrollTarget)return;const element=scrollTarget==='karte'?document.getElementById('tourism-map-access'):scrollTarget==='gedenkstaette'?document.querySelector('[data-tourism-id="gedenkstaette"]'):document.querySelector(`[data-tourism-id="${scrollTarget}"]`)||document.getElementById('tourismus-'+scrollTarget);if(element){element.scrollIntoView({behavior:'instant',block:'start'});setScrollTarget('')}},[scrollTarget,query,selected,freeOnly]);
  return <div className="tourism-page">
-  <section className="section page-content tourism-intro">
+  <section id="tourismus-start" className="section page-content tourism-intro">
    <div className="eyebrow">UNABHÄNGIGE ORIENTIERUNG FÜR GÄSTE</div>
    <h1>Bergedorf entdecken – Gäste &amp; Tourismus</h1>
    <p>Sehenswürdigkeiten, Natur, Kultur, Übernachtung, Essen und Wege durch alle Teile des Bezirks – vom Bergedorfer Zentrum und Lohbrügge bis Neuallermöhe und in die Vier- und Marschlande.</p>
@@ -188,6 +189,7 @@ export function TourismPage(){
    {visible.length===0&&<div className="tourism-empty panel" role="status"><h2>Keine passenden Einträge</h2><p>Ändern Sie die Suche oder wählen Sie weitere Themen aus.</p></div>}
    <p className="tourism-source-note">Quellenhinweise und Aktualitätsdatum stehen an jedem Eintrag. Für die geografische Orientierung werden nur kartierte Punkte mit Koordinatenherkunft angezeigt. OpenStreetMap-Daten: © OpenStreetMap-Mitwirkende, ODbL 1.0; amtliche Schutzgebiets- und Badehinweise: Freie und Hansestadt Hamburg.</p>
   </section>
+  {showBackToTopics&&<button type="button" className="tourism-back-to-top" aria-label="Zurück zur Themenübersicht" title="Zurück zur Themenübersicht" onClick={()=>document.getElementById('tourismus-start')?.scrollIntoView({behavior:'smooth',block:'start'})}>↑</button>}
  </div>
 }
 

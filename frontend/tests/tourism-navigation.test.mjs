@@ -42,3 +42,14 @@ test('the topic filter group stays available in a compact disclosure with its se
   assert.ok(page.includes('<details className="tourism-topic-filters"><summary>Themen auswählen ({selected.size} von {tourismCategories.length})</summary><fieldset>'));
   assert.ok(page.includes("if(route.page==='tourismus'&&tourismItems.some(item=>item.id===route.tab))setScrollTarget(route.tab)"));
 });
+
+test('tourism return control targets the topic overview without changing filters',async()=>{
+ const page=await readFile(new URL('../app/tourism.tsx',import.meta.url),'utf8');
+ const css=await readFile(new URL('../app/globals.css',import.meta.url),'utf8');
+ assert.ok(page.includes('id="tourismus-start"'));
+ assert.ok(page.includes('aria-label="Zurück zur Themenübersicht"'));
+ assert.ok(page.includes("scrollIntoView({behavior:'smooth',block:'start'})"));
+ assert.ok(page.includes("window.addEventListener('scroll',update,{passive:true})"));
+ assert.ok(css.includes('env(safe-area-inset-bottom,0px)'));
+ assert.ok(css.includes('.tourism-back-to-top:focus-visible'));
+});
